@@ -44,6 +44,10 @@ This file contains all of the molecule *NOT available through Enamine NOR Molpor
 
 This file contains all of the molecules which cannot be directly purchased, but have been a part of reactions previously described in patents.
 
+[duplicate_designs.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/duplicate_designs.csv)
+
+This file contains all of the designed molecules that were submitted by at least two different users.
+
 
 
 
