@@ -28,6 +28,15 @@ This is the "master" file containing all of the submitted molecules. It contains
 - **in_molport_or_mcule**: If the molecule orderable through Molport or Mcule, and not through Enamine, and thus is contained in the molport_or_mcule_df referenced below.
 - **in_emolecules**: If the molecule is orderable through emolecules, but not through Enamine, Molport, or Mcule. It will thus be in the emolecules_df referenced below.
 
+The above master file is also subdivided into two files, containing the covalent and non-covalent designs.
+[covalent_warhead_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covalent_warhead_df.csv) contains all designs with a covalent warhead moiety in the molecule.
+[non_covalent_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/non_covalent_df.csv) contains all designs with no covalent warhead moiety in the molecule.
+
+[duplicate_designs.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/duplicate_designs.csv)
+This file contains all of the designed molecules that were submitted by at least two different users.
+
+## Purchasibility Info ##
+
 [enamine_purchaseable_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/enamine_purchaseable_df.csv)
 
 This file contains all of the molecules that can be ordered or synthesized at Enamine. The relevant columns indicate the ID of the molecule if it is in REAL space, the Screening library, or Enamine's building blocks.
@@ -44,9 +53,6 @@ This file contains all of the molecule *NOT available through Enamine NOR Molpor
 
 This file contains all of the molecules which cannot be directly purchased, but have been a part of reactions previously described in patents.
 
-[duplicate_designs.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/duplicate_designs.csv)
-
-This file contains all of the designed molecules that were submitted by at least two different users.
 
 
 
