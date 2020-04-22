@@ -27,11 +27,36 @@ This is the "master" file containing all of the submitted molecules. It contains
 - **chloroacetamide_adduct**: If the chloroacetamide adduct moiety is in the molecule 
 - **vinylsulfonamide**: If the vinylsulfonamide moiety is in the molecule
 - **vinylsulfonamide_adduct**: If the vinylsulfonamide adduct moiety is in the molecule
+- **nitrile**: If the nitrle moiety is in the molecule
+- **nitrile_adduct**: If the nitrle adduct moiety is in the molecule
+- **MW**: Molecular weight of the molecule
+- **cLogP**: Calculated LogP according to RDKit
+- **HBD**: number of hydrogen bond donors according to RDKit
+- **HBA**: number of hydrogent bond acceptors according to RDKit
+- **TPSA**: Topological polar surface area according to RDKit
+- **num_criterion_violations**: The number of violations of the rough criterion set out by the med-chem team:
+```
+{
+    "MW": [0, 550],
+    "cLogP": [-1, 5],
+    "HBD": [0, 5],
+    "HBA": [0, 10],
+    "TPSA": [0, 200],
+}
+```
+- **BMS**: If the molecule passes the BMS (Bristol-Myers Squibb) alerts described in DOI: 10.1021/ci050504m
+- **Dundee**: If the molecule passes the Dundee alerts described in DOI: 10.1002/cmdc.200700139
+- **Glaxo**: If the molecule passes the Glaxo-Wellcome alerts described in https://doi.org/10.1021/ci990423o
+- **Inpharmatica**: If the molecule passes the Inpharmatica alerts described in https://www.surechembl.org/knowledgebase/169485
+- **LINT**: If the molecule passes the Pfizer LINT alerts described in DOI: 10.2174/157340605774598081
+- **MLSMR** If the molecule passes the MLSMR filters described in https://mlsmr.evotec.com/MLSMR_HomePage/pdf/MLSMR_Excluded_Functionality_Filters_200605121510.pdf
+- **PAINS**: If the molecules passes the PAINS filters described in DOI: 10.1021/jm901137j
+- **SureChEMBL**: If the molecule passes the SureChEMBL filters described in https://www.surechembl.org/knowledgebase/169485
+
+Special thanks goes to Pat Walters for compiling the SMARTS for the alerts here: https://github.com/PatWalters/rd_filters
 
 
-The above master file is also subdivided into two files, containing the covalent and non-covalent designs.
-[covalent_warhead_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covalent_warhead_df.csv) contains all designs with a covalent warhead moiety in the molecule.
-[non_covalent_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/non_covalent_df.csv) contains all designs with no covalent warhead moiety in the molecule.
+The above master file is also subdivided into many files, which are described in the respective sub-folders.
 
 [duplicate_designs.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/duplicate_designs.csv)
 This file contains all of the designed molecules that were submitted by at least two different users.
