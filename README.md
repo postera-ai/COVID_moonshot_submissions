@@ -64,6 +64,8 @@ This is the "master" file containing all of the submitted molecules. It contains
 - **MLSMR** If the molecule passes the MLSMR filters described in https://mlsmr.evotec.com/MLSMR_HomePage/pdf/MLSMR_Excluded_Functionality_Filters_200605121510.pdf
 - **PAINS**: If the molecules passes the PAINS filters described in DOI: 10.1021/jm901137j
 - **SureChEMBL**: If the molecule passes the SureChEMBL filters described in https://www.surechembl.org/knowledgebase/169485
+- **ORDERED**: If the compound has been ordered for synthesis.
+- **MADE**: If the ordered compound has been synthesized and delivered.
 
 Special thanks goes to Pat Walters for compiling the SMARTS for the alerts here: https://github.com/PatWalters/rd_filters
 
