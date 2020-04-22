@@ -65,29 +65,7 @@ This is the "master" file containing all of the submitted molecules. It contains
 
 Special thanks goes to Pat Walters for compiling the SMARTS for the alerts here: https://github.com/PatWalters/rd_filters
 
-
 The above master file is also subdivided into many files, which are described in the respective sub-folders.
-
-[duplicate_designs.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/duplicate_designs.csv)
-This file contains all of the designed molecules that were submitted by at least two different users.
-
-## Purchasibility Info ##
-
-[enamine_purchaseable_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/enamine_purchaseable_df.csv)
-
-This file contains all of the molecules that can be ordered or synthesized at Enamine. The relevant columns indicate the ID of the molecule if it is in REAL space, the Screening library, or Enamine's building blocks.
-
-[molport_and_mcule_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/molport_and_mcule_df.csv)
-
-This file contains all of the molecules *NOT available through Enamine* but purchasable through either Molport or Mcule.
-
-[emolecules_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/emolecules_df.csv)
-
-This file contains all of the molecule *NOT available through Enamine NOR Molport or Mcule*, but findable through emolecules.
-
-[patent_df.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/patent_df.csv)
-
-This file contains all of the molecules which cannot be directly purchased, but have been a part of reactions previously described in patents.
 
 
 
