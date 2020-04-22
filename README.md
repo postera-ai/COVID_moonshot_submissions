@@ -1,7 +1,9 @@
 # COVID Moonshot Data
 
 This repo contains all of the data submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project.
-The data has been split into many different folders and files, in order to ease the triaging of the large number of compounds for synthesis. Each folder contains its own README field. Please read these files if you are contributing data to this project. 
+The data has been split into many different folders and files, in order to ease the triaging of the large number of compounds for synthesis.
+
+Each folder will contain its own README file.  PLEASE READ THESE if you wish to contribute data to the project. NO ONE should be spending time standardizing multiple fields (SMILES/smiles/Smiles/smile_string). Please follow *the exact speifications* for all future files, or else a program will reject them. All future files must also include a SMILES field.
 
 There exists one "master file" containing most of the non-experimental information: [covid_submissions_all_info.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covid_submissions_all_info.csv) This file is described in much greater detail at the end of this README.
 
