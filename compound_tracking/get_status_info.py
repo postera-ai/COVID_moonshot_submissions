@@ -31,24 +31,23 @@ all_df["SMILES"] = all_df["SMILES"].apply(
 ### GET MADE MOLS ###
 received_df = pd.read_csv(dir_path / "../shipments_data/all_received_mols.csv")
 made_df = all_df.loc[all_df["SMILES"].isin(list(received_df.SMILES))]
-made_df.to_csv(dir_path / "compounds" / "Compounds_Made.csv", index=False)
+made_df.to_csv(dir_path / "made.csv", index=False)
 
 ### GET ORDERED MOLS ###
 ordered_df = pd.read_csv(dir_path / "../orders_data/all_ordered_mols.csv")
-# synthesis_df = all_df.loc[
-#     (all_df["SMILES"].isin(list(ordered_df.SMILES)))
-#     & (~all_df["SMILES"].isin(list(received_df.SMILES)))
-# ]
-synthesis_df = all_df.loc[all_df["SMILES"].isin(list(ordered_df.SMILES))]
-synthesis_df.to_csv(dir_path / "compounds" / "Compounds_for_Synthesis.csv", index=False)
+synthesis_df = all_df.loc[
+    (all_df["SMILES"].isin(list(ordered_df.SMILES)))
+    & (~all_df["SMILES"].isin(list(received_df.SMILES)))
+]
+synthesis_df.to_csv(dir_path / "ordered_not_made.csv", index=False)
 
 ### GET VIRTUAL MOLS ###
 virtual_df = all_df
-# virtual_df = all_df.loc[
-#     (~all_df["SMILES"].isin(list(ordered_df.SMILES)))
-#     & (~all_df["SMILES"].isin(list(received_df.SMILES)))
-# ]
-virtual_df.to_csv(dir_path / "compounds" / "Compound_Virtual.csv", index=False)
+virtual_df = all_df.loc[
+    (~all_df["SMILES"].isin(list(ordered_df.SMILES)))
+    & (~all_df["SMILES"].isin(list(received_df.SMILES)))
+]
+virtual_df.to_csv(dir_path / "designed_not_ordered_nor_made.csv", index=False)
 
 ### GET EXPERIMENTAL RESULTS ###
 all_assay_df = pd.DataFrame()
@@ -100,6 +99,14 @@ for assay_csv in all_assay_csvs:
     ]
     all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
 
-all_assay_df.to_csv(
-    dir_path / "experimental_results" / "protease_assay.csv", index=False
-)
+all_assay_smi = list(all_assay_df.SMILES)
+made_not_assayed_df = made_df.loc[~made_df["SMILES"].isin(all_assay_smi)]
+made_not_assayed_df.to_csv(dir_path / "made_not_assayed.csv", index=False)
+
+made_smi = list(made_df.SMILES)
+ordered_smi = list(ordered_df.SMILES)
+
+all_df['ORDERED'] = all_df['SMILES'].apply(lambda x: "TRUE" if x in ordered_smi else "FALSE")
+all_df['MADE'] = all_df['SMILES'].apply(lambda x: "TRUE" if x in made_smi else "FALSE")
+
+all_df.to_csv(dir_path / "../covid_submissions_all_info.csv", index=False)
