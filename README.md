@@ -1,9 +1,19 @@
 # COVID Moonshot Data
 
 This repo contains all of the data submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project.
-The data has been split into many different files, in order to ease the triaging of the large number of compounds for synthesis. 
+The data has been split into many different folders and files, in order to ease the triaging of the large number of compounds for synthesis. Each folder contains its own README field. Please read these files if you are contributing data to this project. 
 
-[covid_submissions_all_info.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covid_submissions_all_info.csv)
+There exists one "master file" containing most of the non-experimental information: [covid_submissions_all_info.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covid_submissions_all_info.csv) This file is described in much greater detail at the end of this README.
+
+There also exist several folders:
+- [availability data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/availability_data): contains files identifying the molecules that are avaiable from Enamine, Molport and/or Mcule, and eMolecules.
+- [data_for_CDD/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/data_for_CDD): prepares the data in a format suitable for upload to the CDD (Collaborative Drug Discovery) vault
+- [experimental_data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/experimental_data): data resulting from assays on the ordered compounds.
+- [orders_data/](https://github.com/mc-robinson/COVID_moonshot_submissions): The compounds that have been ordered up to this point.
+- [shipments_data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/shipments_data) the compounds that have been recevied up to this point.
+- [submissions_data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/submissions_data) specialiazed analysis of all info that has been submitted to covid.postera.ai/covid. 
+
+Some more detail on [covid_submissions_all_info.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covid_submissions_all_info.csv), and its many fields.
 
 This is the "master" file containing all of the submitted molecules. It contains quite a few fields described below:
 - **SMILES**: the SMILES string as canonicalized by RDKit and standardized by https://github.com/chembl/ChEMBL_Structure_Pipeline.
