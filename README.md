@@ -1,8 +1,7 @@
 # Submissions to COVID Moonshot after second round
 
-This repo contains all of the data submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project as of Thursday, April 2nd, 11:59 PST, which marked the end of the second round of submissions.
-
-The data has been split into 5 different files, in order to ease the triaging of the large number of compounds for synthesis. 
+This repo contains all of the data submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project.
+The data has been split into many different files, in order to ease the triaging of the large number of compounds for synthesis. 
 
 [covid_submissions_all_info.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covid_submissions_all_info.csv)
 
