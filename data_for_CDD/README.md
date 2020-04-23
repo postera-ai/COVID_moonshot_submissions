@@ -1,4 +1,4 @@
-This folder contains the data needed for upload to the CDD Vault.
+This folder contains the data needed for upload to the CDD Vault. Data in this folder is automatically generated using the script `get_data_for_CDD.py` using the data in other folders.
 
 The `compounds/` folder contains three separate files
 - `Compounds_Virtual.csv`: The superset of compounds. This file contains all designs submitted to covid.postera.ai/covid
