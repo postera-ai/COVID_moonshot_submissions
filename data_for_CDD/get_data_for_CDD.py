@@ -48,7 +48,7 @@ virtual_df = all_df
 #     (~all_df["SMILES"].isin(list(ordered_df.SMILES)))
 #     & (~all_df["SMILES"].isin(list(received_df.SMILES)))
 # ]
-virtual_df.to_csv(dir_path / "compounds" / "Compound_Virtual.csv", index=False)
+virtual_df.to_csv(dir_path / "compounds" / "Compounds_Virtual.csv", index=False)
 
 ### GET EXPERIMENTAL RESULTS ###
 all_assay_df = pd.DataFrame()
