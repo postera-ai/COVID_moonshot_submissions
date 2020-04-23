@@ -9,5 +9,5 @@ Each folder contains files with similar naming conventions:
 `{20200331}_{orderer}_to_{vendor}.csv`
 
 In this field, the following are required:
-- **SMILES**
-- **CID**
+- **SMILES**: 
+- **CID**: 
