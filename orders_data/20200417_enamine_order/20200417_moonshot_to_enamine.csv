@@ -5,7 +5,7 @@ O=C(Nc1cccc(CN2CCN(C(=O)CCl)CC2)c1)c1cnc(Cc2ccccc2)s1,MED-COV-428-1
 NC(=O)C1CCC(CC(NC(=O)CCl)c2cccc3ccccc23)C1c1ccccc1,MED-COV-428-9
 O=C(CCl)N1CCN(S(=O)(=O)c2ccc(Cc3cccc4ccccc34)cc2)CC1,MED-COV-428-5
 CCNc1ncc(C#N)cc1C(c1cccc(Cl)c1)N1CCN(C(=O)CCl)CC1,MED-COV-428-34
-CC.CNC(=O)C(CCN1CCN(C(=O)CCl)CC1)Nc1ccccc1,
+CNC(=O)C(CCN1CCN(C(=O)CCl)CC1)Nc1ccccc1,MED-COV-dea-1
 NC(=O)C1CC(c2ccnc(Cl)c2NC(=O)CCl)CC1c1ccccc1,MED-COV-428-20
 O=C(CCl)N1CCN(Cc2cccc(Cl)c2)C[C@@H]1Cc1ccc(O)cc1,MED-COV-428-2
 O=C(CCl)Nc1nc(=O)n(Cc2cccc(Cl)c2)cc1-c1cccnc1,MED-COV-428-3
