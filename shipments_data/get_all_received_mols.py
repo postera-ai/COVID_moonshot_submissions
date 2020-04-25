@@ -72,7 +72,7 @@ achiral_all_df["SMILES"] = all_df["SMILES"].apply(
 
 all_received_df["CID"] = all_received_df["SMILES"].apply(
     lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
-    if x == np.nan
+    if list(all_received_df.loc[all_received_df["SMILES"] == x]["CID"])[0] is np.nan
     else list(all_received_df.loc[all_received_df["SMILES"] == x]["CID"])[0]
 )
 

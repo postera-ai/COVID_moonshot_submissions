@@ -93,7 +93,7 @@ for assay_csv in all_assay_csvs:
 
     assay_df["CID"] = assay_df["SMILES"].apply(
         lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
-        if x == np.nan
+        if list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0] is np.nan
         else list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0]
     )
 

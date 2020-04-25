@@ -71,7 +71,7 @@ achiral_all_df["SMILES"] = all_df["SMILES"].apply(
 # this is inefficient, should not check back for list element 0
 all_ordered_df["CID"] = all_ordered_df["SMILES"].apply(
     lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
-    if x == np.nan
+    if list(all_ordered_df.loc[all_ordered_df["SMILES"] == x]["CID"])[0] is np.nan
     else list(all_ordered_df.loc[all_ordered_df["SMILES"] == x]["CID"])[0]
 )
 
