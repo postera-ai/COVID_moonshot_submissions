@@ -49,55 +49,57 @@ virtual_df = all_df.loc[
 ]
 virtual_df.to_csv(dir_path / "designed_not_ordered_nor_made.csv", index=False)
 
-### GET EXPERIMENTAL RESULTS ###
-all_assay_df = pd.DataFrame()
-all_assay_csvs = (dir_path / "../experimental_data/protease_assay").glob(
-    "**/*.csv"
-)
-for assay_csv in all_assay_csvs:
-    assay_df = pd.read_csv(assay_csv)
-    assay_df["SMILES"] = assay_df["SMILES"].apply(
-        lambda x: Chem.MolToSmiles(
-            Chem.MolFromSmiles(
-                Chem.MolToSmiles(
-                    standardizer.standardize_mol(
-                        standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
-                    )
-                )
-            )
-        )
-    )
-    assay_df = assay_df[
-        [
-            "SMILES",
-            "purity",
-            "volume(uL)",
-            "concentration(mM)",
-            "% Inhibition at 20 mM (N=1)",
-            "% Inhibition at 20 mM (N=2)",
-            "% Inhibition at 100 mM (N=1)",
-            "% Inhibition at 100 mM (N=2)",
-        ]
-    ]
-    assay_df["CID"] = assay_df["SMILES"].apply(
-        lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
-        if x in list(all_df.SMILES)
-        else np.nan
-    )
-    assay_df = assay_df[
-        [
-            "SMILES",
-            "CID",
-            "purity",
-            "volume(uL)",
-            "concentration(mM)",
-            "% Inhibition at 20 mM (N=1)",
-            "% Inhibition at 20 mM (N=2)",
-            "% Inhibition at 100 mM (N=1)",
-            "% Inhibition at 100 mM (N=2)",
-        ]
-    ]
-    all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
+# ### GET EXPERIMENTAL RESULTS ###
+# all_assay_df = pd.DataFrame()
+# all_assay_csvs = (dir_path / "../experimental_data/protease_assay").glob(
+#     "**/*.csv"
+# )
+# for assay_csv in all_assay_csvs:
+#     assay_df = pd.read_csv(assay_csv)
+#     assay_df["SMILES"] = assay_df["SMILES"].apply(
+#         lambda x: Chem.MolToSmiles(
+#             Chem.MolFromSmiles(
+#                 Chem.MolToSmiles(
+#                     standardizer.standardize_mol(
+#                         standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
+#                     )
+#                 )
+#             )
+#         )
+#     )
+#     assay_df = assay_df[
+#         [
+#             "SMILES",
+#             "purity",
+#             "volume(uL)",
+#             "concentration(mM)",
+#             "% Inhibition at 20 mM (N=1)",
+#             "% Inhibition at 20 mM (N=2)",
+#             "% Inhibition at 100 mM (N=1)",
+#             "% Inhibition at 100 mM (N=2)",
+#         ]
+#     ]
+#     assay_df["CID"] = assay_df["SMILES"].apply(
+#         lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
+#         if x in list(all_df.SMILES)
+#         else np.nan
+#     )
+#     assay_df = assay_df[
+#         [
+#             "SMILES",
+#             "CID",
+#             "purity",
+#             "volume(uL)",
+#             "concentration(mM)",
+#             "% Inhibition at 20 mM (N=1)",
+#             "% Inhibition at 20 mM (N=2)",
+#             "% Inhibition at 100 mM (N=1)",
+#             "% Inhibition at 100 mM (N=2)",
+#         ]
+#     ]
+#     all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
+
+all_assay_df = pd.read_csv(dir_path / "../data_for_cdd/experimental_results/protease_assay.csv")
 
 all_assay_smi = list(all_assay_df.SMILES)
 made_not_assayed_df = made_df.loc[~made_df["SMILES"].isin(all_assay_smi)]
@@ -106,7 +108,12 @@ made_not_assayed_df.to_csv(dir_path / "made_not_assayed.csv", index=False)
 made_smi = list(made_df.SMILES)
 ordered_smi = list(ordered_df.SMILES)
 
-all_df['ORDERED'] = all_df['SMILES'].apply(lambda x: "TRUE" if x in ordered_smi else "FALSE")
-all_df['MADE'] = all_df['SMILES'].apply(lambda x: "TRUE" if x in made_smi else "FALSE")
+made_cid = list(made_df.CID)
+ordered_cid = list(ordered_df.CID)
+assayed_cid = list(all_assay_df.CID)
+
+all_df['ORDERED'] = all_df['CID'].apply(lambda x: "TRUE" if x in ordered_cid else "FALSE")
+all_df['MADE'] = all_df['CID'].apply(lambda x: "TRUE" if x in made_cid else "FALSE")
+all_df['ASSAYED'] = all_df['CID'].apply(lambda x: "TRUE" if x in assayed_cid else "FALSE")
 
 all_df.to_csv(dir_path / "../covid_submissions_all_info.csv", index=False)
