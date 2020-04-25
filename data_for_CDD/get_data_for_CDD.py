@@ -85,6 +85,18 @@ for assay_csv in all_assay_csvs:
         if x in list(all_df.SMILES)
         else np.nan
     )
+
+    achiral_all_df = all_df
+    achiral_all_df["SMILES"] = all_df["SMILES"].apply(
+        lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
+    )
+
+    assay_df["CID"] = assay_df["SMILES"].apply(
+        lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
+        if x == np.nan
+        else list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0]
+    )
+
     assay_df = assay_df[
         [
             "SMILES",

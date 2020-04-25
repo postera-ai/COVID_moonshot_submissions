@@ -56,11 +56,25 @@ for csv_file in received_csv_files:
 all_smiles = list(smiles_dict.keys())
 all_shipments = [smiles_dict[x] for x in all_smiles]
 
-all_received_df = pd.DataFrame({"SMILES": all_smiles, "shipment": all_shipments})
+all_received_df = pd.DataFrame(
+    {"SMILES": all_smiles, "shipment": all_shipments}
+)
 all_received_df["CID"] = all_received_df["SMILES"].apply(
     lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
     if x in list(all_df.SMILES)
     else np.nan
 )
+
+achiral_all_df = all_df
+achiral_all_df["SMILES"] = all_df["SMILES"].apply(
+    lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
+)
+
+all_received_df["CID"] = all_received_df["SMILES"].apply(
+    lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
+    if x == np.nan
+    else list(all_received_df.loc[all_received_df["SMILES"] == x]["CID"])[0]
+)
+
 all_received_df = all_received_df[["SMILES", "CID", "shipment"]]
 all_received_df.to_csv(dir_path / "all_received_mols.csv", index=False)

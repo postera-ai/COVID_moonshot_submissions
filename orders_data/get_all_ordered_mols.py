@@ -62,5 +62,18 @@ all_ordered_df["CID"] = all_ordered_df["SMILES"].apply(
     if x in list(all_df.SMILES)
     else np.nan
 )
+
+achiral_all_df = all_df
+achiral_all_df["SMILES"] = all_df["SMILES"].apply(
+    lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
+)
+
+# this is inefficient, should not check back for list element 0
+all_ordered_df["CID"] = all_ordered_df["SMILES"].apply(
+    lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
+    if x == np.nan
+    else list(all_ordered_df.loc[all_ordered_df["SMILES"] == x]["CID"])[0]
+)
+
 all_ordered_df = all_ordered_df[["SMILES", "CID", "order"]]
 all_ordered_df.to_csv(dir_path / "all_ordered_mols.csv", index=False)
