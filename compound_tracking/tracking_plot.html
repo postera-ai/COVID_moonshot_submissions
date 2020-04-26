@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-6b8bb7dd917a7bc75a79679d97a55465"}, "mark": {"type": "bar", "opacity": 0.7}, "encoding": {"color": {"type": "nominal", "field": "color", "legend": null}, "x": {"type": "quantitative", "field": "num_mols", "stack": null, "title": "Number of Molecules"}, "y": {"type": "ordinal", "field": "stage", "sort": ["Designed", "Ordered", "Made", "Assayed"], "title": "Stage"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-6b8bb7dd917a7bc75a79679d97a55465": [{"stage": "Designed", "color": "Designed", "num_mols": 4373}, {"stage": "Ordered", "color": "Ordered", "num_mols": 456}, {"stage": "Made", "color": "Made", "num_mols": 168}, {"stage": "Assayed", "color": "Assayed", "num_mols": 81}]}};
+      var embedOpt = {"renderer": "svg", "mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
