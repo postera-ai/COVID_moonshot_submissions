@@ -1,0 +1,11 @@
+SMILES,CID,link
+COc1ccc(-c2cccc(S(=O)(=O)N3CCN(C(C)=O)CC3)c2)cc1,ANT-OPE-782-1,https://covid.postera.ai/covid/submissions/ANT-OPE-782
+O=C(Nc1cnccc1Cl)c1cccc(Cl)c1,CHR-SOS-709-21,https://covid.postera.ai/covid/submissions/CHR-SOS-709
+O=C(CC1(c2ccccc2)CCCC1)Nc1cccnc1,CHR-SOS-f73-4,https://covid.postera.ai/covid/submissions/CHR-SOS-f73
+O=C(Nc1nnc(-c2ccccn2)o1)C1CCN(S(=O)(=O)c2ccc(F)cc2)CC1,DR.-CSI-7ec-18,https://covid.postera.ai/covid/submissions/DR.-CSI-7ec
+N#Cc1cccc(C(=O)Nc2ncc([N+](=O)[O-])s2)c1,GAB-FAC-0d2-1,https://covid.postera.ai/covid/submissions/GAB-FAC-0d2
+O=C(C1CCN(c2ccncc2)CC1)N1CCCCC1,GIA-UNK-30c-1,https://covid.postera.ai/covid/submissions/GIA-UNK-30c
+CN1CCCC1c1cccnc1,K. -UNK-dac-1,https://covid.postera.ai/covid/submissions/K. -UNK-dac
+CC(=O)OC1CC(C)CCC1C(C)C,MAK-UNK-0cb-6,https://covid.postera.ai/covid/submissions/MAK-UNK-0cb
+C[C@H]1CC[C@H](CC(=O)Nc2cccnc2)CC1,MED-UNK-e6e-3,https://covid.postera.ai/covid/submissions/MED-UNK-e6e
+O=C(Cc1ccccc1)Nc1cccnc1,SAN-PRS-52b-2,https://covid.postera.ai/covid/submissions/SAN-PRS-52b

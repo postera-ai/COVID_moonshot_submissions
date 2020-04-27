@@ -254,6 +254,7 @@ CC#CC(=O)N1CCCC(c2nc3ccccc3s2)C1,JOO-IND-b13-3,Z2012938561,False,False,s_22____5
 Cc1cccc(CN2CCC(C#N)CC2)c1,JOO-PER-74f-1,Z951437880,False,False,s_2230____2308274____680328
 O=C(Nc1cccnc1)Nc1cccc(Cl)c1,JOR-UNI-2fc-7,Z44592325,False,False,s_487____210243____150220
 N#Cc1cccc(NC(=O)Nc2cccnc2)c1,JOR-UNI-61e-2,Z195739680,Z195739680,False,s_487____210243____768430
+CCC(=O)NCc1ccccc1S(=O)(=O)NC(C)(C)C,JUA-UNI-b93-2,Z854851374,False,False,s_22____2007824____58887
 C=CC(=O)NCc1ccc(C(=O)NCc2cc(C)cc3c(C)c(C)[nH]c23)cc1,JUA-UNI-bc0-2,Z970632906,False,False,False
 C=CC(=O)NCc1ccc(C(=O)N[C@H](CO)c2ccc(Br)c(F)c2)cc1,JUA-UNI-bc0-4,Z2230105989,False,False,False
 c1ccc2[nH]ccc2c1,K. -UNK-dac-2,False,Z3371365238,False,False
@@ -365,6 +366,12 @@ CN1CCC(NC(=O)Cc2c[nH]c3ncccc23)CC1,NIC-BIO-254-3,Z1400804273,False,False,s_22___
 CNC1CCN(C(=O)Cc2c[nH]c3ncccc23)CC1,NIC-BIO-254-4,Z2440272213,False,False,s_240690____16439366____7416416
 CC1CN(C)CCN1C(=O)Cc1c[nH]c2ncccc12,NIC-BIO-29f-1,False,False,False,s_22____4545080____7024784
 CCC1CN(C)CCN1C(=O)Cc1c[nH]c2ncccc12,NIC-BIO-29f-2,False,False,False,s_22____10549676____7024784
+CC(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)NCc1ccccc1,NIC-BIO-327-7,Z56946799,Z56946799,False,s_22____57696____17512138
+CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NCC1CCN(C)CC1,NIC-BIO-a68-1,s_22____2563306____17513450,False,False,s_22____2563306____17513450
+CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NCc1ccc(C#N)cc1,NIC-BIO-a68-2,s_22____5145036____17513450,False,False,s_22____5145036____17513450
+CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NCc1ccc(Cl)cc1,NIC-BIO-a68-3,s_22____57683____17513450,False,False,s_22____57683____17513450
+CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NCc1cccc(Cl)c1,NIC-BIO-a68-4,s_22____57907____17513450,False,False,s_22____57907____17513450
+CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NCc1ccc(Br)cc1,NIC-BIO-a68-5,False,False,False,s_22____1155096____17513450
 CN1CCN(C(=O)Cc2c[nH]c3ncccc23)C(CO)C1,NIC-BIO-ec6-1,False,False,False,s_22____12129594____7024784
 CN1CCN(C(=O)Cc2c[nH]c3ncccc23)C(Cc2ccccc2)C1,NIC-BIO-f81-1,Z2476683952,False,False,s_22____11687886____7024784
 CC(=O)N1CCN(Cc2cn(-c3cccc(S(N)(=O)=O)c3)nn2)CC1,NIM-UNI-022-3,False,False,False,s_273910____13825524____12888810
