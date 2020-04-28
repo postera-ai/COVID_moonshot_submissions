@@ -40,7 +40,9 @@ ordered_df = pd.read_csv(dir_path / "../orders_data/all_ordered_mols.csv")
 #     & (~all_df["SMILES"].isin(list(received_df.SMILES)))
 # ]
 synthesis_df = all_df.loc[all_df["SMILES"].isin(list(ordered_df.SMILES))]
-synthesis_df.to_csv(dir_path / "compounds" / "Compounds_for_Synthesis.csv", index=False)
+synthesis_df.to_csv(
+    dir_path / "compounds" / "Compounds_for_Synthesis.csv", index=False
+)
 
 ### GET VIRTUAL MOLS ###
 virtual_df = all_df
@@ -48,7 +50,9 @@ virtual_df = all_df
 #     (~all_df["SMILES"].isin(list(ordered_df.SMILES)))
 #     & (~all_df["SMILES"].isin(list(received_df.SMILES)))
 # ]
-virtual_df.to_csv(dir_path / "compounds" / "Compounds_Virtual.csv", index=False)
+virtual_df.to_csv(
+    dir_path / "compounds" / "Compounds_Virtual.csv", index=False
+)
 
 ### GET EXPERIMENTAL RESULTS ###
 all_assay_df = pd.DataFrame()
@@ -92,7 +96,9 @@ for assay_csv in all_assay_csvs:
     )
 
     assay_df["CID"] = assay_df["SMILES"].apply(
-        lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
+        lambda x: list(
+            achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"]
+        )[0]
         if list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0] is np.nan
         else list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0]
     )
@@ -114,4 +120,84 @@ for assay_csv in all_assay_csvs:
 
 all_assay_df.to_csv(
     dir_path / "experimental_results" / "protease_assay.csv", index=False
+)
+
+### GET SOLUBILITY DATA ###
+
+# I have no idea why I have to run this again, but it makes it work
+dir_path = Path(__file__).parent.absolute()
+all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
+all_df["SMILES"] = all_df["SMILES"].apply(
+    lambda x: Chem.MolToSmiles(
+        Chem.MolFromSmiles(
+            Chem.MolToSmiles(
+                standardizer.standardize_mol(
+                    standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
+                )
+            )
+        )
+    )
+)
+
+all_sol_df = pd.DataFrame()
+all_sol_csvs = (dir_path / "../experimental_data/solubility").glob(
+    "**/*.csv"
+)
+for sol_csv in all_sol_csvs:
+    sol_df = pd.read_csv(sol_csv)
+    sol_df["SMILES"] = sol_df["SMILES"].apply(
+        lambda x: Chem.MolToSmiles(
+            Chem.MolFromSmiles(
+                Chem.MolToSmiles(
+                    standardizer.standardize_mol(
+                        standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
+                    )
+                )
+            )
+        )
+    )
+    sol_df = sol_df[
+        [
+            "SMILES",
+            "Raw signal @20 µM",
+            "Relative solubility @20 µM",
+            "Raw signal @100 µM",
+            "Relative solubility @100 µM",
+            "100 µM / 20 µM",
+        ]
+    ]
+    sol_df["CID"] = sol_df["SMILES"].apply(
+        lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
+        if x in list(all_df.SMILES)
+        else np.nan
+    )
+
+    achiral_all_df = all_df
+    achiral_all_df["SMILES"] = all_df["SMILES"].apply(
+        lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
+    )
+
+    sol_df["CID"] = sol_df["SMILES"].apply(
+        lambda x: list(
+            achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"]
+        )[0]
+        if list(sol_df.loc[sol_df["SMILES"] == x]["CID"])[0] is np.nan
+        else list(sol_df.loc[sol_df["SMILES"] == x]["CID"])[0]
+    )
+
+    sol_df = sol_df[
+        [
+            "SMILES",
+            "CID",
+            "Raw signal @20 µM",
+            "Relative solubility @20 µM",
+            "Raw signal @100 µM",
+            "Relative solubility @100 µM",
+            "100 µM / 20 µM",
+        ]
+    ]
+    all_sol_df = pd.concat([all_sol_df, sol_df], axis=0)
+
+all_sol_df.to_csv(
+    dir_path / "experimental_results" / "solubility.csv", index=False
 )
