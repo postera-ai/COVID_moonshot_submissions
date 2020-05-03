@@ -16,11 +16,19 @@ num_ordered = all_df[all_df["ORDERED"] == True].shape[0]
 num_made = all_df[all_df["MADE"] == True].shape[0]
 num_assayed = all_df[all_df["ASSAYED"] == True].shape[0]
 
+# tracking_df = pd.DataFrame(
+#     {
+#         "stage": ["Designed", "Ordered", "Made", "Assayed"],
+#         "color": ["Designed", "Ordered", "Made", "Assayed"],
+#         "num_mols": [num_designed, num_ordered, num_made, num_assayed],
+#     }
+# )
+
 tracking_df = pd.DataFrame(
     {
-        "stage": ["Designed", "Ordered", "Made", "Assayed"],
-        "color": ["Designed", "Ordered", "Made", "Assayed"],
-        "num_mols": [num_designed, num_ordered, num_made, num_assayed],
+        "stage": ["Ordered", "Made", "Assayed"],
+        "color": ["Ordered", "Made", "Assayed"],
+        "num_mols": [num_ordered, num_made, num_assayed],
     }
 )
 
@@ -32,10 +40,10 @@ tracking_plot = (
     .encode(
         y=alt.Y(
             "stage:O",
-            sort=["Designed", "Ordered", "Made", "Assayed"],
+            sort=["Ordered", "Made", "Assayed"],
             title="Stage",
         ),
-        x=alt.X("num_mols:Q", stack=None, title="Number of Molecules"),
+        x=alt.X("num_mols:Q", stack=None, title=f"Number of Molecules (from {num_designed} designs)"),
         color=alt.Color("color", legend=None),
     )
 )
@@ -45,3 +53,14 @@ tracking_plot.save(
     format="html",
     embed_options={"renderer": "svg"},
 )
+
+with open(dir_path / "tracking_plot.html", "r") as f:
+    html_data = f.readlines()
+
+for line in html_data:
+    if 'var spec' in line:
+        spec_data = line
+        spec_data = spec_data.strip(';').split('var spec = ')[1]
+
+with open(dir_path / "vega_spec.json", "w") as f:
+    f.write(spec_data)

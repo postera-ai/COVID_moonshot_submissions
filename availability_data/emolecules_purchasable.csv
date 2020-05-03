@@ -21,6 +21,7 @@ O=C(CC(=O)N1CCOCC1)Nc1ccccc1,GIA-UNK-3f36037a-2,https://covid.postera.ai/covid/s
 O=C1/C(=C/c2ccco2)CCC/C1=C\c1ccco1,GUZ-UNI-5a173832-2,https://covid.postera.ai/covid/submissions/GUZ-UNI-5a173832
 COc1ccc2cccc(CCNC(C)=O)c2c1,JOH-MSK-ec639444-3,https://covid.postera.ai/covid/submissions/JOH-MSK-ec639444
 C=CC(=O)N1CCN(C(=O)c2ccc(Br)s2)CC1,JOH-UNI-27ac80fd-26,https://covid.postera.ai/covid/submissions/JOH-UNI-27ac80fd
+COC(=O)C(c1ccccc1Cl)N1CCC2SC(=O)C=C2C1,JOH-UNI-a5c0a47e-2,https://covid.postera.ai/covid/submissions/JOH-UNI-a5c0a47e
 CC(C)(C)C(=O)C(C#N)C(=O)Nc1ccc(Cl)cc1,JOH-UNI-c7afdb96-1,https://covid.postera.ai/covid/submissions/JOH-UNI-c7afdb96
 N#C/C(C(=O)Nc1ccc(F)cc1)=C(/O)c1ccc(Cl)cc1,JOH-UNI-c7afdb96-2,https://covid.postera.ai/covid/submissions/JOH-UNI-c7afdb96
 O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1,KTA-UNK-96ef4e68-2,https://covid.postera.ai/covid/submissions/KTA-UNK-96ef4e68

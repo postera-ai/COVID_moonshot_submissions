@@ -204,6 +204,7 @@ O=C(CCl)N1CCN(C2(c3ccccc3)CCCCC2)CC1,WAR-XCH-79d12f6e-7,20200417_moonshot_to_ena
 Cc1ccnc2[nH]c(CC3CCN(C(=O)CCl)CC3)nc12,WAR-XCH-b0339bbe-3,20200417_moonshot_to_enamine.csv
 O=C(NC[C@]1(COc2ccc(C(F)(F)F)cn2)C[C@H](O)[C@H](O)C1)Nc1cccnc1,FAR-UNI-736b943a-6,20200429_moonshot_to_molport.csv
 O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,GER-UNI-caecb3b0-1,20200429_moonshot_to_molport.csv
+CC(C)C[C@H](NC(=O)OCc1ccccc1)C(=O)N[C@H](C(=O)NCC(=O)C=[N+]=[N-])C(C)C,MAT-POS-bfefc3ea-3,20200424_moonshot_to_bachem.csv
 CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)C)c2c1,ANT-OPE-47f3bb65-1,20200331_moonshot_to_enamine.csv
 Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,GER-UNI-05c7e912-1,20200331_moonshot_to_enamine.csv
 CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3,JOH-MSK-ec639444-2,20200331_moonshot_to_enamine.csv
@@ -496,3 +497,6 @@ Cc1ccc(S(=O)(=O)N2CCN(C(=O)N(C)Cc3cccnc3)CC2)cc1,SIM-SYN-3099a863-3,20200429_moo
 O=C(Cc1c[nH]c2ncccc12)N1CCC(N2CCCS2(=O)=O)CC1,SWA-SYN-6423ea73-10,20200429_moonshot_to_enamine.csv
 O=C(Cc1c[nH]c2ncccc12)N1CCN(S(=O)(=O)c2c(F)cccc2F)CC1,SWA-SYN-6423ea73-4,20200429_moonshot_to_enamine.csv
 CNC(=O)c1ccc(CS(=O)(=O)NCC(F)(F)c2ccc(F)cc2F)cc1,VIJ-CYC-1a381570-3,20200429_moonshot_to_enamine.csv
+Cc1ccc2nc(-c3ccc(N)cc3)sc2c1S(=O)(=O)O,AAR-POS-dddeddbf-1,20200414_moonshot_to_molport.csv
+Cc1cc(S(=O)(=O)c2c([N+](=O)[O-])cc(C(F)(F)F)cc2[N+](=O)[O-])c(Cl)cc1Cl,AAR-POS-dddeddbf-2,20200414_moonshot_to_molport.csv
+Nc1ncc(S(=O)(=O)c2ccc(Cl)cc2)c(N)n1,AAR-POS-dddeddbf-3,20200414_moonshot_to_molport.csv
