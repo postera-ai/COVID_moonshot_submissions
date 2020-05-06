@@ -2,6 +2,17 @@ SMILES,CID,link
 Cc1ccc2nc(-c3ccc(N)cc3)sc2c1S(=O)(=O)O,AAR-POS-dddeddbf-1,https://covid.postera.ai/covid/submissions/AAR-POS-dddeddbf
 Cc1cc(S(=O)(=O)c2c([N+](=O)[O-])cc(C(F)(F)F)cc2[N+](=O)[O-])c(Cl)cc1Cl,AAR-POS-dddeddbf-2,https://covid.postera.ai/covid/submissions/AAR-POS-dddeddbf
 Nc1ncc(S(=O)(=O)c2ccc(Cl)cc2)c(N)n1,AAR-POS-dddeddbf-3,https://covid.postera.ai/covid/submissions/AAR-POS-dddeddbf
+O=C(Nc1cc(NC(=O)c2ccccc2)cc(C(=O)Nc2ccc([N+](=O)[O-])cc2)c1)c1ccccc1,AAR-POS-fca48359-1,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+COCCN1C(=O)[C@@H]2C(Cc3c[nH]c4ccccc34)NC3(C(=O)Nc4ccc(Cl)cc43)[C@@H]2C1=O,AAR-POS-fca48359-10,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+Cc1ccc(N(C(=O)C2N3C(=O)CC3S(=O)(=O)C2(C)C)C(C(=O)NC2CCCCC2)c2ccc(O)cc2)cc1,AAR-POS-fca48359-11,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+O=C1/C(=C\c2ccco2)CCC/C1=C\c1ccco1,AAR-POS-fca48359-14,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+O=C(OC1Cc2c(O)cc(O)cc2OC1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1,AAR-POS-fca48359-16,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+CC(C(=O)O)c1ccc2c3cc(Cl)ccc3n(C)c2c1,AAR-POS-fca48359-18,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+O=C(/C=C/c1ccccc1)Nc1ccc(/C=C/C(=O)c2ccccc2)cc1,AAR-POS-fca48359-2,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+COc1ccc([C@@H]2CC(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3O2)cc1O,AAR-POS-fca48359-23,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(=O)O,AAR-POS-fca48359-3,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+COC(=O)[C@@H]1Cc2c([nH]c3ccccc23)C(c2ccccc2Cl)N1,AAR-POS-fca48359-6,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+O=C1C2Cc3c([nH]c4ccccc34)C(c3ccc(Cl)cc3)N2C(=O)CN1CCCn1ccnc1,AAR-POS-fca48359-8,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
 N#Cc1ccccc1NC(=O)Cc1c[nH]c2ncccc12,ANT-DIA-3c79be55-1,https://covid.postera.ai/covid/submissions/ANT-DIA-3c79be55
 CCOC(=O)C(=O)Nc1cc(OC)c(OC)c(OC)c1,ANT-LOU-17aa1493-3,https://covid.postera.ai/covid/submissions/ANT-LOU-17aa1493
 C=CC(=O)N1CCN(Cc2ccc(F)cc2)CC1,ANT-OPE-d972fbad-1,https://covid.postera.ai/covid/submissions/ANT-OPE-d972fbad

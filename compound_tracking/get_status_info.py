@@ -99,7 +99,9 @@ virtual_df.to_csv(dir_path / "designed_not_ordered_nor_made.csv", index=False)
 #     ]
 #     all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
 
-all_assay_df = pd.read_csv(dir_path / "../data_for_cdd/experimental_results/protease_assay.csv")
+all_assay_df = pd.read_csv(
+    dir_path / "../data_for_cdd/experimental_results/protease_assay.csv"
+)
 
 all_assay_smi = list(all_assay_df.SMILES)
 made_not_assayed_df = made_df.loc[~made_df["SMILES"].isin(all_assay_smi)]
@@ -112,8 +114,16 @@ made_cid = list(made_df.CID)
 ordered_cid = list(ordered_df.CID)
 assayed_cid = list(all_assay_df.CID)
 
-all_df['ORDERED'] = all_df['CID'].apply(lambda x: "TRUE" if x in ordered_cid else "FALSE")
-all_df['MADE'] = all_df['CID'].apply(lambda x: "TRUE" if x in made_cid else "FALSE")
-all_df['ASSAYED'] = all_df['CID'].apply(lambda x: "TRUE" if x in assayed_cid else "FALSE")
+all_df["ORDERED"] = all_df["CID"].apply(
+    lambda x: "TRUE"
+    if ((x in ordered_cid) or (x in made_cid) or (x in assayed_cid))
+    else "FALSE"
+)
+all_df["MADE"] = all_df["CID"].apply(
+    lambda x: "TRUE" if ((x in made_cid) or (x in assayed_cid)) else "FALSE"
+)
+all_df["ASSAYED"] = all_df["CID"].apply(
+    lambda x: "TRUE" if x in assayed_cid else "FALSE"
+)
 
 all_df.to_csv(dir_path / "../covid_submissions_all_info.csv", index=False)

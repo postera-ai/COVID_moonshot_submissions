@@ -21,7 +21,7 @@ new_CID_list = list(CID_df.CID)
 old_CID_list = list(CID_df.old_CID)
 old_to_new_CID_dict = {}
 for old_CID, new_CID in zip(old_CID_list, new_CID_list):
-    if 'None' in old_CID:
+    if "None" in old_CID:
         old_to_new_CID_dict[new_CID] = new_CID
     else:
         old_to_new_CID_dict[old_CID] = new_CID
@@ -48,6 +48,11 @@ all_df["SMILES"] = all_df["SMILES"].apply(
             )
         )
     )
+)
+
+achiral_all_df = all_df.copy()
+achiral_all_df["SMILES"] = all_df["SMILES"].apply(
+    lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
 )
 
 ### GET MADE MOLS ###
@@ -115,24 +120,34 @@ for assay_csv in all_assay_csvs:
             "% Inhibition at 100 mM (N=2)",
         ]
     ]
-    assay_df["CID"] = assay_df["SMILES"].apply(
-        lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
-        if x in list(all_df.SMILES)
-        else np.nan
-    )
 
-    achiral_all_df = all_df
-    achiral_all_df["SMILES"] = all_df["SMILES"].apply(
-        lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
-    )
-
-    assay_df["CID"] = assay_df["SMILES"].apply(
-        lambda x: list(
-            achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"]
+    CID_dict = {}
+    for smi in list(all_df.SMILES):
+        inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+        CID_dict[inchikey] = list(all_df.loc[all_df["SMILES"] == smi]["CID"])[
+            0
+        ]
+    for smi in list(achiral_all_df.SMILES):
+        inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+        CID_dict[inchikey] = list(
+            achiral_all_df.loc[achiral_all_df["SMILES"] == smi]["CID"]
         )[0]
-        if list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0] is np.nan
-        else list(assay_df.loc[assay_df["SMILES"] == x]["CID"])[0]
-    )
+
+    def get_CID(smi):
+        inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+        if inchikey in CID_dict:
+            return CID_dict[inchikey]
+        no_stereo_inchikey = Chem.MolToInchiKey(
+            Chem.MolFromSmiles(
+                Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=False)
+            )
+        )
+        if no_stereo_inchikey in CID_dict:
+            return CID_dict[no_stereo_inchikey]
+        else:
+            return None
+
+    assay_df["CID"] = assay_df["SMILES"].apply(lambda x: get_CID(x))
 
     assay_df = assay_df[
         [
@@ -152,6 +167,17 @@ for assay_csv in all_assay_csvs:
 all_assay_df["old_CID"] = all_assay_df.loc[:, "CID"].apply(
     lambda x: get_old_CID_from_new(x)
 )
+old_assay_df = pd.read_csv(
+    dir_path / "experimental_results" / "protease_assay.csv"
+)
+add_assay_data_df = all_assay_df.loc[
+    ~all_assay_df["old_CID"].isin(list(old_assay_df["old_CID"]))
+]
+add_assay_data_df.to_csv(
+    dir_path / "vault_updates" / "add_protease_assay_data_df.csv", index=False
+)
+
+
 all_assay_df.to_csv(
     dir_path / "experimental_results" / "protease_assay.csv", index=False
 )
@@ -198,24 +224,34 @@ for sol_csv in all_sol_csvs:
             "100 µM / 20 µM",
         ]
     ]
-    sol_df["CID"] = sol_df["SMILES"].apply(
-        lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
-        if x in list(all_df.SMILES)
-        else np.nan
-    )
 
-    achiral_all_df = all_df
-    achiral_all_df["SMILES"] = all_df["SMILES"].apply(
-        lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
-    )
-
-    sol_df["CID"] = sol_df["SMILES"].apply(
-        lambda x: list(
-            achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"]
+    CID_dict = {}
+    for smi in list(all_df.SMILES):
+        inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+        CID_dict[inchikey] = list(all_df.loc[all_df["SMILES"] == smi]["CID"])[
+            0
+        ]
+    for smi in list(achiral_all_df.SMILES):
+        inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+        CID_dict[inchikey] = list(
+            achiral_all_df.loc[achiral_all_df["SMILES"] == smi]["CID"]
         )[0]
-        if list(sol_df.loc[sol_df["SMILES"] == x]["CID"])[0] is np.nan
-        else list(sol_df.loc[sol_df["SMILES"] == x]["CID"])[0]
-    )
+
+    def get_CID(smi):
+        inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+        if inchikey in CID_dict:
+            return CID_dict[inchikey]
+        no_stereo_inchikey = Chem.MolToInchiKey(
+            Chem.MolFromSmiles(
+                Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=False)
+            )
+        )
+        if no_stereo_inchikey in CID_dict:
+            return CID_dict[no_stereo_inchikey]
+        else:
+            return None
+
+    sol_df["CID"] = sol_df["SMILES"].apply(lambda x: get_CID(x))
 
     sol_df = sol_df[
         [
@@ -234,6 +270,15 @@ for sol_csv in all_sol_csvs:
 all_sol_df["old_CID"] = all_sol_df.loc[:, "CID"].apply(
     lambda x: get_old_CID_from_new(x)
 )
+
+old_sol_df = pd.read_csv(dir_path / "experimental_results" / "solubility.csv")
+add_sol_data_df = all_sol_df.loc[
+    ~all_sol_df["old_CID"].isin(list(old_sol_df["old_CID"]))
+]
+add_sol_data_df.to_csv(
+    dir_path / "vault_updates" / "add_solubility_data_df.csv", index=False
+)
+
 all_sol_df.to_csv(
     dir_path / "experimental_results" / "solubility.csv", index=False
 )

@@ -59,22 +59,39 @@ all_shipments = [smiles_dict[x] for x in all_smiles]
 all_received_df = pd.DataFrame(
     {"SMILES": all_smiles, "shipment": all_shipments}
 )
-all_received_df["CID"] = all_received_df["SMILES"].apply(
-    lambda x: list(all_df.loc[all_df["SMILES"] == x]["CID"])[0]
-    if x in list(all_df.SMILES)
-    else np.nan
-)
 
-achiral_all_df = all_df
+achiral_all_df = all_df.copy()
 achiral_all_df["SMILES"] = all_df["SMILES"].apply(
     lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
 )
 
-all_received_df["CID"] = all_received_df["SMILES"].apply(
-    lambda x: list(achiral_all_df.loc[achiral_all_df["SMILES"] == x]["CID"])[0]
-    if list(all_received_df.loc[all_received_df["SMILES"] == x]["CID"])[0] is np.nan
-    else list(all_received_df.loc[all_received_df["SMILES"] == x]["CID"])[0]
-)
+CID_dict = {}
+for smi in list(all_df.SMILES):
+    inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+    CID_dict[inchikey] = list(all_df.loc[all_df["SMILES"] == smi]["CID"])[0]
+for smi in list(achiral_all_df.SMILES):
+    inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+    CID_dict[inchikey] = list(
+        achiral_all_df.loc[achiral_all_df["SMILES"] == smi]["CID"]
+    )[0]
+
+
+def get_CID(smi):
+    inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
+    if inchikey in CID_dict:
+        return CID_dict[inchikey]
+    no_stereo_inchikey = Chem.MolToInchiKey(
+        Chem.MolFromSmiles(
+            Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=False)
+        )
+    )
+    if no_stereo_inchikey in CID_dict:
+        return CID_dict[no_stereo_inchikey]
+    else:
+        return None
+
+
+all_received_df["CID"] = all_received_df["SMILES"].apply(lambda x: get_CID(x))
 
 all_received_df = all_received_df[["SMILES", "CID", "shipment"]]
 all_received_df.to_csv(dir_path / "all_received_mols.csv", index=False)

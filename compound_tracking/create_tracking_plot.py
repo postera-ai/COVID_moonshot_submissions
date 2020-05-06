@@ -38,12 +38,12 @@ tracking_plot = (
     alt.Chart(source)
     .mark_bar(opacity=0.7)
     .encode(
-        y=alt.Y(
-            "stage:O",
-            sort=["Ordered", "Made", "Assayed"],
-            title="Stage",
+        y=alt.Y("stage:O", sort=["Ordered", "Made", "Assayed"], title="Stage"),
+        x=alt.X(
+            "num_mols:Q",
+            stack=None,
+            title=f"Number of Molecules (from {num_designed} designs)",
         ),
-        x=alt.X("num_mols:Q", stack=None, title=f"Number of Molecules (from {num_designed} designs)"),
         color=alt.Color("color", legend=None),
     )
 )
@@ -58,9 +58,9 @@ with open(dir_path / "tracking_plot.html", "r") as f:
     html_data = f.readlines()
 
 for line in html_data:
-    if 'var spec' in line:
+    if "var spec" in line:
         spec_data = line
-        spec_data = spec_data.strip(';').split('var spec = ')[1]
+        spec_data = spec_data.strip(";").split("var spec = ")[1]
 
 with open(dir_path / "vega_spec.json", "w") as f:
     f.write(spec_data)

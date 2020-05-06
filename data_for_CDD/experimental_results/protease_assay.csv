@@ -24,7 +24,7 @@ O=C(Nc1ccccc1)c1cc(Cl)ccc1O,CHR-SOS-7098f804-7,90.16,40,10,No Inhibition,No Inhi
 CC(=O)N1CCN(S(=O)(=O)c2cccc(F)c2)CC1,MAK-UNK-6435e6c2-5,100.0,40,10,No Inhibition,No Inhibition,No Inhibition,No Inhibition,MAK-UNK-643-5
 CS(=O)(=O)Nc1cccc(C(=O)Nc2cccc(N3CCCC3=O)c2)c1,MAK-UNK-9159f8ed-6,97.29,40,10,No Inhibition,No Inhibition,No Inhibition,No Inhibition,MAK-UNK-915-6
 O=C(Nc1cccnc1)c1cccc(Cl)c1,CHR-SOS-7098f804-12,91.0,40,10,No Inhibition,No Inhibition,1.125668283425071,2.1787627543282895,CHR-SOS-709-12
-CC(C(=O)O)c1ccc2c(c1)[nH]c1ccc(Cl)cc12,GER-UNI-ec786817-1,100.0,40,10,No Inhibition,No Inhibition,4.3303589237604,5.498385738922536,GER-UNI-ec7-1
+CC(C(=O)O)c1ccc2c(c1)[nH]c1ccc(Cl)cc12,AAR-POS-fca48359-19,100.0,40,10,No Inhibition,No Inhibition,4.3303589237604,5.498385738922536,AAR-POS-fca48359-19
 CCCNC(=O)C(C)NC(=O)N(C)Cc1csc(C)n1,ALE-UNK-fca05062-9,95.48,40,10,No Inhibition,No Inhibition,No Inhibition,No Inhibition,ALE-UNK-fca-9
 O=C(C=CC=Cc1ccc2c(c1)OCO2)N1CCCCC1,LON-WEI-8f408cad-11,100.0,40,10,No Inhibition,No Inhibition,No Inhibition,No Inhibition,LON-WEI-8f4-11
 COc1ccc2[nH]cc(CCNS(C)(=O)=O)c2c1,MAR-UNI-9ca61fdc-1,100.0,40,10,No Inhibition,No Inhibition,No Inhibition,No Inhibition,MAR-UNI-9ca-1
