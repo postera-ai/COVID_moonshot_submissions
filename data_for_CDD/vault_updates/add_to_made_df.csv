@@ -1,1 +1,40 @@
 SMILES,old_CID,creator,fragments,covalent_warhead
+Cc1ccc(C)c(S(=O)(=O)N2CCN(C(=O)CCl)CC2)c1,AAR-POS-0daf6b7e-3,"Aaron Morris, PostEra",x0072,True
+O=C(CCl)N1CCN(Cc2cccc(Cl)c2)CC1,AAR-POS-d2a4d1df-35,"Aaron Morris, PostEra",x0072,True
+O=C(CCl)N1CCN(Cc2cccc3ccccc23)CC1,AAR-POS-d2a4d1df-40,"Aaron Morris, PostEra",x0072,True
+COC(=O)C(Cc1ccccc1)C(C)NC(=O)C(C)n1ccnc1,BAR-COM-4e0-36,"Bart Lenselink, compchemist",x0434,False
+Cc1noc(CC(NC(=O)C(C)Cn2ccnc2)c2ccccc2)n1,BAR-COM-4e0-38,"Bart Lenselink, compchemist",x0434,False
+NC(=O)CCN(C(=O)CCl)C1CCS(=O)(=O)C1,DAN-PUR-678-2,"Daniel Flaherty, Purdue University","x0991,x1311",True
+CNCc1c[nH]c2ccc(F)cc12,DAR-DIA-eac-36,"Daren Fearon, Diamond Light Source Ltd",x0104,False
+O=C(CCl)NC(CO)c1cccc(Cl)c1,DAV-CRI-3ed-4,"David Briggs, Crick Institute",x1382,True
+CC(=O)NCCc1cn(CC(=O)N2CCOCC2)c2ccccc12,DUN-NEW-f8c-13,"Duncan Miller, Newcastle University","x0072,x1458",False
+Cc1ccncc1NC(=O)CC(C)(C)NC(=O)c1cccc2[nH]ccc12,GAB-REV-70c-6,"Gabriel Grand, Reverie Labs, Inc.",x0107,False
+O=C(CC(=O)N1CCOCC1)Nc1ccccc1,GIA-UNK-3f3-2,Gianfranco Lopopolo,x1380,False
+CNC(=O)OC1CCN(C(=O)c2ccncc2)CC1,GIA-UNK-595-3,Gianfranco Lopopolo,"x1380,x1386",False
+CNC(=O)OC1CCN(S(=O)(=O)c2ccccc2)CC1,GIA-UNK-595-4,Gianfranco Lopopolo,"x1380,x1386",False
+CNC(=O)OC1CCN(Cc2ccccc2)CC1,GIA-UNK-595-5,Gianfranco Lopopolo,"x1380,x1386",False
+CCCSCC(=O)C(C#N)C(=O)Nc1ccc(F)cc1F,JOH-UNI-c7a-10,"John SPENCER, University of Sussex",x0072,True
+Cc1ccc(NC(=O)C(C#N)C(=O)CC(C)C)cc1,JOH-UNI-c7a-11,"John SPENCER, University of Sussex",x0072,True
+CC(C)(C)CC(=O)C(C#N)C(=O)Nc1ccccc1,JOH-UNI-c7a-12,"John SPENCER, University of Sussex",x0072,True
+Cc1cccc(NC(=O)C(C#N)C(=O)CC(C)C)c1,JOH-UNI-c7a-13,"John SPENCER, University of Sussex",x0072,True
+CCC(CC)C(=O)C(C#N)C(=O)Nc1ccc(F)cc1,JOH-UNI-c7a-14,"John SPENCER, University of Sussex",x0072,True
+N#CC(C(=O)Nc1cccc(Cl)c1)C(=O)c1cccs1,JOH-UNI-c7a-5,"John SPENCER, University of Sussex",x0072,True
+Cc1cccc(NC(=O)C(C#N)C(=O)C2CCCC2)c1,JOH-UNI-c7a-6,"John SPENCER, University of Sussex",x0072,True
+Cc1cccc(NC(=O)C(C#N)C(=O)C2CCC2)c1,JOH-UNI-c7a-7,"John SPENCER, University of Sussex",x0072,True
+Cc1cccc(NC(=O)C(C#N)C(=O)C2CC2)c1,JOH-UNI-c7a-8,"John SPENCER, University of Sussex",x0072,True
+CCCSCC(=O)C(C#N)C(=O)Nc1ccccc1F,JOH-UNI-c7a-9,"John SPENCER, University of Sussex",x0072,True
+C=CC(=O)N1CCCC(c2nc3ccccc3s2)C1,JOO-IND-b13-1,"Joost Uitdehaag, Industry",x0749,True
+Cc1ccncc1NC(=O)c1cccc(NC(=O)Nc2cccnc2)c1,MAK-UNK-129-11,Maksym Voznyy,"x0107,x0434",False
+Cc1ccncc1NC(=O)c1ccc(NC(=O)Nc2cccnc2)cc1,MAK-UNK-129-12,Maksym Voznyy,"x0107,x0434",False
+Cc1ccncc1NC(=O)c1cccc(NC(=O)Nc2cccnc2)c1,MAK-UNK-129-9,Maksym Voznyy,"x0107,x0434",False
+N#CCN1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-1,"Matt Robinson, PostEra",x0072,True
+C=CC(=O)N1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-2,"Matt Robinson, PostEra",x0072,True
+COc1ccc2nc(C)cc(C(=O)NN)c2c1,MAT-POS-4e253971-3,"Matt Robinson, PostEra",x0072,False
+C=CC(=O)N1CCN(C(=O)c2cccc(Cl)c2)CC1,MED-COV-428-14,"Med Chemists Group, COVID Moonshot",x0072,True
+O=C(CCl)N1CCN(Cc2cccc(Cl)c2)CC1,MED-COV-428-15,"Med Chemists Group, COVID Moonshot",x0072,True
+O=C(CCl)N1CCN(Cc2cccc(Cl)c2)CC1,MED-COV-428-16,"Med Chemists Group, COVID Moonshot",x0072,True
+O=C(CCl)N1CCN(Cc2cccc3ccccc23)CC1,MED-COV-428-31,"Med Chemists Group, COVID Moonshot",x0072,True
+Cc1ccncc1NC(=O)CCNC(=O)c1ccccc1F,PET-SGC-2e9-1,"PETER BROWN, SGC, Univ Toronto","x0107,x0426",False
+O=C(CCl)N1CCN(C(c2ccccc2)c2ccccc2)CC1,SIM-SYN-f15-1,"Simon Williams, Syngenta","x0692,x1334",True
+C#CCN1CCN(C(=O)CCl)CC1,TOB-UNK-c2a-1,Tobias Grabe,x1386,True
+Cc1ccc(C)c(S(=O)(=O)N2CCN(C(=O)CCl)CC2)c1,WAR-XCH-79d-6,"Warren Thompson, XChem - Diamond Light Source","x1478,x1493",True

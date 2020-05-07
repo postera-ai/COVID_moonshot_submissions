@@ -13370,10 +13370,6 @@ O=C(Nc1c[nH]c2ccc(Br)cc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-18,"London Lab, We
 CC(=O)c1cccc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-19,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
 O=C(Nc1ccc(Cl)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-20,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
 Cc1cccnc1NC(=O)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-21,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-CS(=O)(=O)c1ccc(N2CCNCC2)cc1,AAR-POS-5507155c-1,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-5507155c-2,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
-N=C(S)c1ncccn1,AAR-POS-5507155c-3,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
-N=C(S)c1ncc[nH]1,AAR-POS-5507155c-4,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
 O=C(CCl)N(c1ccccc1)C1C=CS(=O)(=O)C1,AAR-POS-0daf6b7e-1,"Aaron Morris, PostEra",Second batch of submissions of fragments in order to generate Moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-0daf6b7e
 O=C(CCl)N1CCN(Cc2ccc(Cl)s2)CC1,AAR-POS-0daf6b7e-2,"Aaron Morris, PostEra",Second batch of submissions of fragments in order to generate Moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-0daf6b7e
 Cc1ccc(C)c(S(=O)(=O)N2CCN(C(=O)CCl)CC2)c1,AAR-POS-0daf6b7e-3,"Aaron Morris, PostEra",Second batch of submissions of fragments in order to generate Moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-0daf6b7e
@@ -13464,3 +13460,10 @@ Cc1ccccc1CN1CCCN(C(=O)CCl)CC1,AAR-POS-d2a4d1df-41,"Aaron Morris, PostEra",First 
 CC(=O)N[C@H](C(=O)NCC#CBr)[C@H](C)O,AAR-POS-d2a4d1df-42,"Aaron Morris, PostEra",First batch of fragments so we have a Moonshot CID for them,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-d2a4d1df
 CC(=O)NC(CC(N)=O)C(=O)NCC#CBr,AAR-POS-d2a4d1df-43,"Aaron Morris, PostEra",First batch of fragments so we have a Moonshot CID for them,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-d2a4d1df
 O=C(CCl)N1CCN(S(=O)(=O)c2ccc(Cl)cc2)CC1,AAR-POS-d2a4d1df-44,"Aaron Morris, PostEra",First batch of fragments so we have a Moonshot CID for them,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-d2a4d1df
+CS(=O)(=O)c1ccc(N2CCNCC2)cc1,AAR-POS-5507155c-1,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-5507155c-2,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
+N=C(S)c1ncccn1,AAR-POS-5507155c-3,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
+N=C(S)c1ncc[nH]1,AAR-POS-5507155c-4,"Aaron Morris, PostEra",Final set of fragments so we can generate moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-5507155c
+N#CCN1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-1,"Matt Robinson, PostEra",3 compounds from Enamine which were never submitted,x0072,https://covid.postera.ai/covid/submissions/MAT-POS-4e253971
+C=CC(=O)N1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-2,"Matt Robinson, PostEra",3 compounds from Enamine which were never submitted,x0072,https://covid.postera.ai/covid/submissions/MAT-POS-4e253971
+COc1ccc2nc(C)cc(C(=O)NN)c2c1,MAT-POS-4e253971-3,"Matt Robinson, PostEra",3 compounds from Enamine which were never submitted,x0072,https://covid.postera.ai/covid/submissions/MAT-POS-4e253971
