@@ -1,8 +1,8 @@
 SMILES,CID,shipment
-O=C(CCl)Nc1cccc(N2CCCC2=O)c1,LON-WEI-8f408cad-1,20200417_enamine_to_diamond.csv
-O=C(CCl)N1CCN(S(=O)(=O)c2c(F)cccc2F)CC1,LON-WEI-8f408cad-2,20200417_enamine_to_diamond.csv
-O=C(CCl)N1CCN(S(=O)(=O)c2cccs2)CC1,LON-WEI-8f408cad-3,20200417_enamine_to_diamond.csv
-O=C(CCl)N1CCN(S(=O)(=O)c2cccc(F)c2)CC1,LON-WEI-8f408cad-4,20200417_enamine_to_diamond.csv
+O=C(CCl)Nc1cccc(N2CCCC2=O)c1,AAR-POS-0daf6b7e-11,20200417_enamine_to_diamond.csv
+O=C(CCl)N1CCN(S(=O)(=O)c2c(F)cccc2F)CC1,AAR-POS-d2a4d1df-32,20200417_enamine_to_diamond.csv
+O=C(CCl)N1CCN(S(=O)(=O)c2cccs2)CC1,AAR-POS-d2a4d1df-22,20200417_enamine_to_diamond.csv
+O=C(CCl)N1CCN(S(=O)(=O)c2cccc(F)c2)CC1,AAR-POS-d2a4d1df-23,20200417_enamine_to_diamond.csv
 NS(=O)(=O)c1ccc(N2CCC(c3ccsc3)CC2)cc1,WAR-XCH-b72a1bbc-16,20200417_enamine_to_diamond.csv
 Cc1cccc(NC2CCN(c3ccc(S(N)(=O)=O)cc3)CC2)c1,WAR-XCH-b6889685-27,20200417_enamine_to_diamond.csv
 NS(=O)(=O)c1ccc(N2CCC(c3ccco3)CC2)cc1,WAR-XCH-b72a1bbc-7,20200417_enamine_to_diamond.csv
@@ -68,8 +68,8 @@ O=C(C1CCN(S(=O)(=O)c2ccccc2)CC1)N1CCOCC1,GIA-UNK-eaadd1d4-3,20200417_enamine_to_
 COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2ccccc12,MAT-POS-916a2c5a-2,20200417_enamine_to_diamond.csv
 Cc1cc(C)c(C)c(S(=O)(=O)N2CCN(C(=O)c3cc(=O)[nH]c4ccccc34)CC2)c1C,MAT-POS-916a2c5a-3,20200417_enamine_to_diamond.csv
 O=C(CCc1c[nH]nn1)NC(Cn1cccn1)c1ccccc1,LON-WEI-8f408cad-6,20200417_enamine_to_diamond.csv
-O=C(CCl)N1CCN(Cc2cccs2)CC1,LON-WEI-8f408cad-5,20200417_enamine_to_diamond.csv
-O=C(CCl)N1CCN(Cc2ccsc2)CC1,LON-WEI-8f408cad-7,20200417_enamine_to_diamond.csv
+O=C(CCl)N1CCN(Cc2cccs2)CC1,AAR-POS-0daf6b7e-17,20200417_enamine_to_diamond.csv
+O=C(CCl)N1CCN(Cc2ccsc2)CC1,AAR-POS-0daf6b7e-13,20200417_enamine_to_diamond.csv
 O=C(NCc1cccnn1)Nc1cccc(N2CCC2=O)c1,BAR-COM-4e090d3a-60,20200417_enamine_to_diamond.csv
 CC(=O)N1CCN(Cc2cn(-c3cccc(S(N)(=O)=O)c3)nn2)CC1,NIM-UNI-02269248-3,20200417_enamine_to_diamond.csv
 COC1CCN(c2ccc(S(N)(=O)=O)cc2)CC1,WAR-XCH-b72a1bbc-9,20200417_enamine_to_diamond.csv
@@ -185,9 +185,9 @@ O=C(C=CC=Cc1ccc2c(c1)OCO2)N1CCCCC1,LON-WEI-8f408cad-11,20200427_enamine_to_weizm
 COc1ccc2[nH]cc(CCNS(C)(=O)=O)c2c1,MAR-UNI-9ca61fdc-1,20200427_enamine_to_weizmann.csv
 Cc1ccnc(NC(=O)Cc2ccc3ccccc3c2)c1,ALV-UNI-7ff1a6f9-45,20200427_enamine_to_weizmann.csv
 CC(=O)N1CCN(S(=O)(=O)c2cccs2)CC1,MAK-UNK-6435e6c2-1,20200427_enamine_to_weizmann.csv
-CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,VIR-GIT-7b3d3065-3,20200427_enamine_to_weizmann.csv
+CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,AAR-POS-0daf6b7e-19,20200427_enamine_to_weizmann.csv
 O=C(Nc1ccccc1Cl)c1cc(Cl)ccc1O,CHR-SOS-7098f804-4,20200427_enamine_to_weizmann.csv
-O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,VIR-GIT-7b3d3065-2,20200427_enamine_to_weizmann.csv
+O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,AAR-POS-0daf6b7e-9,20200427_enamine_to_weizmann.csv
 CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,ALE-UNK-fca05062-2,20200427_enamine_to_weizmann.csv
 CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)C)c2c1,ANT-OPE-47f3bb65-1,20200427_enamine_to_weizmann.csv
 Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O,ALE-UNK-fca05062-1,20200427_enamine_to_weizmann.csv
@@ -235,7 +235,7 @@ C=CC(=O)N(c1ccc(C(C)C)nc1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d98729-26,202
 C=CC(=O)N(c1ccc(S(F)(F)(F)(F)F)cc1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d98729-28,20200427_enamine_to_weizmann.csv
 C=CC(=O)N(c1ccc(S(F)(F)(F)(F)F)cc1)C(C(=O)Nc1c(C)cccc1CC)c1cccnc1,LON-WEI-b8d98729-29,20200427_enamine_to_weizmann.csv
 C=CC(=O)N(c1ccc(N(C)C)c(C)c1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d98729-30,20200427_enamine_to_weizmann.csv
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-1,20200427_enamine_to_weizmann.csv
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-5507155c-2,20200427_enamine_to_weizmann.csv
 O=C(Nc1cccc(-c2cc[nH]n2)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-2,20200427_enamine_to_weizmann.csv
 COc1cc(NC(=O)C2CCN(C(=O)CCl)CC2)cc(OC)c1OC,LON-WEI-120e5cf5-3,20200427_enamine_to_weizmann.csv
 O=C(Nc1ccc(N2CCNC2=O)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-4,20200427_enamine_to_weizmann.csv

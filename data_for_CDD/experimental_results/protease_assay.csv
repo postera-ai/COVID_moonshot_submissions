@@ -30,9 +30,9 @@ O=C(C=CC=Cc1ccc2c(c1)OCO2)N1CCCCC1,LON-WEI-8f4-11,100.0,40,10.0,No Inhibition,No
 COc1ccc2[nH]cc(CCNS(C)(=O)=O)c2c1,MAR-UNI-9ca-1,100.0,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,oxford,MAR-UNI-9ca61fdc-1
 Cc1ccnc(NC(=O)Cc2ccc3ccccc3c2)c1,ÁLV-UNI-7ff-45,96.93,40,10.0,No Inhibition,No Inhibition,,,12.32724119,9.739704207,oxford,ALV-UNI-7ff1a6f9-45
 CC(=O)N1CCN(S(=O)(=O)c2cccs2)CC1,MAK-UNK-643-1,92.56,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,oxford,MAK-UNK-6435e6c2-1
-CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,VIR-GIT-7b3-3,96.19,40,10.0,1.703128496,-1.898356554,,,33.47429688,38.2129149,oxford,VIR-GIT-7b3d3065-3
+CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,AAR-POS-0daf6b7e-19,96.19,40,10.0,1.703128496,-1.898356554,,,33.47429688,38.2129149,oxford,AAR-POS-0daf6b7e-19
 O=C(Nc1ccccc1Cl)c1cc(Cl)ccc1O,CHR-SOS-709-4,100.0,40,10.0,7.872320858,6.417234267,,,21.83379133,20.13179645,oxford,CHR-SOS-7098f804-4
-O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,VIR-GIT-7b3-2,97.83,40,10.0,0.346926102,0.664886689,,,27.35771632,26.47806559,oxford,VIR-GIT-7b3d3065-2
+O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,AAR-POS-0daf6b7e-9,97.83,40,10.0,0.346926102,0.664886689,,,27.35771632,26.47806559,oxford,AAR-POS-0daf6b7e-9
 CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,ALE-UNK-fca-2,95.0,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,oxford,ALE-UNK-fca05062-2
 CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)C)c2c1,ANT-OPE-47f-1,95.0,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,oxford,ANT-OPE-47f3bb65-1
 Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O,ALE-UNK-fca-1,95.0,40,10.0,No Inhibition,No Inhibition,,,57.05763822,63.61075357,oxford,ALE-UNK-fca05062-1
@@ -111,9 +111,9 @@ O=C(C=CC=Cc1ccc2c(c1)OCO2)N1CCCCC1,LON-WEI-8f4-11,100.0,40,10.0,No Inhibition,No
 COc1ccc2[nH]cc(CCNS(C)(=O)=O)c2c1,MAR-UNI-9ca-1,100.0,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,weizmann,MAR-UNI-9ca61fdc-1
 Cc1ccnc(NC(=O)Cc2ccc3ccccc3c2)c1,ÁLV-UNI-7ff-45,96.93,40,10.0,No Inhibition,No Inhibition,,,12.32724119,9.739704207,weizmann,ALV-UNI-7ff1a6f9-45
 CC(=O)N1CCN(S(=O)(=O)c2cccs2)CC1,MAK-UNK-643-1,92.56,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,weizmann,MAK-UNK-6435e6c2-1
-CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,VIR-GIT-7b3-3,96.19,40,10.0,1.703128496,-1.898356554,,,33.47429688,38.2129149,weizmann,VIR-GIT-7b3d3065-3
+CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,AAR-POS-0daf6b7e-19,96.19,40,10.0,1.703128496,-1.898356554,,,33.47429688,38.2129149,weizmann,AAR-POS-0daf6b7e-19
 O=C(Nc1ccccc1Cl)c1cc(Cl)ccc1O,CHR-SOS-709-4,100.0,40,10.0,7.872320858,6.417234267,,,21.83379133,20.13179645,weizmann,CHR-SOS-7098f804-4
-O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,VIR-GIT-7b3-2,97.83,40,10.0,0.346926102,0.664886689,,,27.35771632,26.47806559,weizmann,VIR-GIT-7b3d3065-2
+O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,AAR-POS-0daf6b7e-9,97.83,40,10.0,0.346926102,0.664886689,,,27.35771632,26.47806559,weizmann,AAR-POS-0daf6b7e-9
 CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,ALE-UNK-fca-2,95.0,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,weizmann,ALE-UNK-fca05062-2
 CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)C)c2c1,ANT-OPE-47f-1,95.0,40,10.0,No Inhibition,No Inhibition,,,No Inhibition,No Inhibition,weizmann,ANT-OPE-47f3bb65-1
 Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O,ALE-UNK-fca-1,95.0,40,10.0,No Inhibition,No Inhibition,,,57.05763822,63.61075357,weizmann,ALE-UNK-fca05062-1
@@ -161,7 +161,7 @@ C=CC(=O)N(c1ccc(C(C)C)nc1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d-26,89.29,40
 C=CC(=O)N(c1ccc(S(F)(F)(F)(F)F)cc1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d-28,100.0,40,10.0,No Inhibition,No Inhibition,,,64.0535758,71.87482946,weizmann,LON-WEI-b8d98729-28
 C=CC(=O)N(c1ccc(S(F)(F)(F)(F)F)cc1)C(C(=O)Nc1c(C)cccc1CC)c1cccnc1,LON-WEI-b8d-29,90.99,40,10.0,3.405003152,5.979722003,,,77.8393434,89.04634314,weizmann,LON-WEI-b8d98729-29
 C=CC(=O)N(c1ccc(N(C)C)c(C)c1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d-30,100.0,40,10.0,No Inhibition,No Inhibition,,,18.43788214,22.73276203,weizmann,LON-WEI-b8d98729-30
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-1,,20,,3.247517416,,1.216222913,,0.263794338,,weizmann,LON-WEI-120e5cf5-1
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-5507155c-2,,20,,3.247517416,,1.216222913,,0.263794338,,weizmann,AAR-POS-5507155c-2
 O=C(Nc1cccc(-c2cc[nH]n2)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-2,,20,,8.291350235,,38.02467332,,"No Inhibition, Compound Transfer Fail",,weizmann,LON-WEI-120e5cf5-2
 COc1cc(NC(=O)C2CCN(C(=O)CCl)CC2)cc(OC)c1OC,LON-WEI-120e5cf5-3,,20,,No Inhibition,,No Inhibition,,No Inhibition,,weizmann,LON-WEI-120e5cf5-3
 O=C(Nc1ccc(N2CCNC2=O)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-4,,20,,No Inhibition,,22.3482488,,68.71589822,,weizmann,LON-WEI-120e5cf5-4
@@ -178,7 +178,7 @@ O=C(Nc1cc(Cl)nc2ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-14,,20,,10.63428629,
 C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)NC(C)(C)C)c1cccnc1,LON-WEI-8f4-8,,20,,No Inhibition,,47.58244738,,100,,weizmann,LON-WEI-8f408cad-8
 O=C(Nc1ccccc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-15,,20,,No Inhibition,,No Inhibition,,12.2071806,,weizmann,LON-WEI-120e5cf5-15
 O=C(Nc1ccccc1Br)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-16,,20,,1.435986698,,No Inhibition,,0.586990829,,weizmann,LON-WEI-120e5cf5-16
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-1,,20,,No Inhibition,,4.959626044,,31.86899971,,weizmann,LON-WEI-120e5cf5-1
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-5507155c-2,,20,,No Inhibition,,4.959626044,,31.86899971,,weizmann,AAR-POS-5507155c-2
 O=C(Nc1c[nH]c2ccc(Br)cc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-18,,20,,73.6092863,,100,,100,,weizmann,LON-WEI-120e5cf5-18
 CC(=O)c1cccc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-19,,20,,3.694324279,,13.72044496,,37.1572196,,weizmann,LON-WEI-120e5cf5-19
 O=C(Nc1ccc(Cl)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-20,,20,,No Inhibition,,No Inhibition,,9.634665223,,weizmann,LON-WEI-120e5cf5-20
