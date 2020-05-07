@@ -1,1 +1,43 @@
 SMILES,old_CID,creator,fragments,covalent_warhead
+CCN1CCN(C(=O)Nc2cc(-c3cn(C4CCOCC4)c4ccccc34)ccn2)CC1,ANO-UNK-b6bccdab-1,Anon,x0072,False
+CCc1ccc(-c2nc(-c3nnc4n(OC)c5c[nH]nc5n34)n3nc(C)cc(C)c23)c(=O)n1C(C)[C@H](C)C1C=CCN1,JAR-IMP-b007c7c2-1,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCO[C@@H](NC(=O)N1C(=O)C2(O[C@@H]3C=CC=C[C@H]3O2)C2=CCC(CC)=C21)C(=O)c1n[nH][nH]1,JAR-IMP-b007c7c2-10,"Jarvist Moore Frost, Imperial College London",x0072,False
+CC(=O)CCC(=O)n1c2c(n(NC(=O)CN3C=[SH]C=NC3(C)C(C)=O)c1=O)=CCCC=2,JAR-IMP-b007c7c2-11,"Jarvist Moore Frost, Imperial College London",x0072,False
+CC(=O)CCC(=O)n1c2c(n(NC(=O)CN3C=[SH]C=NC3(C)C(C)=O)c1=O)=CCCC=2,JAR-IMP-b007c7c2-12,"Jarvist Moore Frost, Imperial College London",x0072,False
+C=COC1=C(O)c2ccnn2[C@H]1NC(=O)N1C(=O)C2(O[C@@H]3CC=C(N)[C@H]3O2)c2ccccc21,JAR-IMP-b007c7c2-13,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCN1C(=O)N[C@](C)(n2[nH]cc2CN2C(=O)[C@](NC(C)=O)(C3=C(C(C)=O)CC=C3)C3=C2C(C)C(C)=C3)C1=O,JAR-IMP-b007c7c2-14,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCCN(C(C)=O)N(CC)C(=O)[C@H]1O[C@@H](N2C=CNc3c2nc[nH]c3=O)[C@H](C)[C@@H]1C(C)C,JAR-IMP-b007c7c2-15,"Jarvist Moore Frost, Imperial College London",x0072,False
+CC(C)CN(CC1=CCCC1)C(=O)NOc1ncccc1NC(=O)[C@@H]1C=NNC(=O)O1,JAR-IMP-b007c7c2-16,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCC1=NN(C)CC2=C1N(Cc1c[nH]n1[C@@]1(C)NC(=O)N(C)C1=O)C(=O)[C@]2(NC(C)=O)C1=CCC=C1,JAR-IMP-b007c7c2-17,"Jarvist Moore Frost, Imperial College London",x0072,False
+CC[C@]1(Nn2c(=O)nn[nH]c2=O)N=CCN(n2c(=O)n(CN3N=CCC3=O)c3c(C)ccc(Cl)c32)C1=O,JAR-IMP-b007c7c2-18,"Jarvist Moore Frost, Imperial College London",x0072,False
+C=CC1=C([C@H]2COC3C(=O)C=C(C)N=C3O2)OC(C(=O)NC2=C(C)C=CC2C=C)=CC1CC,JAR-IMP-b007c7c2-19,"Jarvist Moore Frost, Imperial College London",x0072,False
+COC1=CCC(O)=C1[C@@H]1C=C(C)N(C(=O)[C@@H]2CC3=CCC(OC)=C3C(=O)O2)C2=C1C=CCC2,JAR-IMP-b007c7c2-2,"Jarvist Moore Frost, Imperial College London",x0072,False
+CC1=CCC(C2CCC2)=C1c1nnc([C@H]2COc3[nH]ccc3O2)n1Nc1nnc(C2CCC2)o1,JAR-IMP-b007c7c2-20,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCCCc1cc(C)cc(C(=O)OC2=C(C)CC=C2C)c1NC(=O)c1nc(F)c2c(=N)nc(N)[nH]n12,JAR-IMP-b007c7c2-3,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCC1=C([C@H]2O[C@@H](n3c(=S)[nH]c4c3=NNCC=4OC)[C@H](C)[C@@H]2C)C(=O)N2CC(OC)=CC(C)=C12,JAR-IMP-b007c7c2-4,"Jarvist Moore Frost, Imperial College London",x0072,False
+CN1C(C2=CC=CC2)=c2oc([C@@H]3C=CC=CN3C(=O)C3=CCC(=O)N3)nc2=CC1C1=CC=CC1,JAR-IMP-b007c7c2-5,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCN1C(=O)N[C@](C)(n2[nH]cc2CN2C(=O)[C@](NC(C)=O)(C3C=CC=CC3)C3=C2C(C)=C(C)C3)C1=O,JAR-IMP-b007c7c2-6,"Jarvist Moore Frost, Imperial College London",x0072,False
+CCC[C@@H](CC)N(CCC(C)C)C(=O)NOC1=C(C)CC(C)=C1NC(=O)[C@@H]1C=CCC(=O)O1,JAR-IMP-b007c7c2-7,"Jarvist Moore Frost, Imperial College London",x0072,False
+CC1=CC(S)c2c1n(C1=C(S)C(S)=CC1)c(=O)n2NC(=O)Nc1c2c(nn1C(C)C)OCCO2,JAR-IMP-b007c7c2-8,"Jarvist Moore Frost, Imperial College London",x0072,False
+Cn1c(Cn2c(-c3nc4c(c(=O)n3C)=NCC=4N)cc3c2C=CCC3)nc2c(c1=O)CNC=C2,JAR-IMP-b007c7c2-9,"Jarvist Moore Frost, Imperial College London",x0072,False
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-1,"London Lab, Weizmann Institute",x0072,True
+CC(=O)c1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cc1,LON-WEI-120e5cf5-10,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1cccnc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-11,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1ccn(-c2ccccc2)n1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-12,"London Lab, Weizmann Institute",x0072,True
+Cc1ccnc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-13,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1cc(Cl)nc2ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-14,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1ccccc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-15,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1ccccc1Br)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-16,"London Lab, Weizmann Institute",x0072,True
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-17,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1c[nH]c2ccc(Br)cc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-18,"London Lab, Weizmann Institute",x0072,True
+CC(=O)c1cccc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-19,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1cccc(-c2cc[nH]n2)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-2,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1ccc(Cl)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-20,"London Lab, Weizmann Institute",x0072,True
+Cc1cccnc1NC(=O)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-21,"London Lab, Weizmann Institute",x0072,True
+COc1cc(NC(=O)C2CCN(C(=O)CCl)CC2)cc(OC)c1OC,LON-WEI-120e5cf5-3,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1ccc(N2CCNC2=O)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-4,"London Lab, Weizmann Institute",x0072,True
+CN(C(=O)C1CCN(C(=O)CCl)CC1)c1ccccc1,LON-WEI-120e5cf5-5,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1cccc(C2=NN=C3CCCCC32)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-6,"London Lab, Weizmann Institute",x0072,True
+Cc1n[nH]c(-c2ccc(C)c(NC(=O)C3CCN(C(=O)CCl)CC3)c2)n1,LON-WEI-120e5cf5-7,"London Lab, Weizmann Institute",x0072,True
+CCCc1n[nH]c(C2CN(C(=O)C3CCN(C(=O)CCl)CC3)CCO2)n1,LON-WEI-120e5cf5-8,"London Lab, Weizmann Institute",x0072,True
+O=C(Nc1ccc2c(c1)[nH]c1ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-9,"London Lab, Weizmann Institute",x0072,True

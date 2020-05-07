@@ -108,16 +108,35 @@ for assay_csv in all_assay_csvs:
             )
         )
     )
+    inhibition_cols = [
+    	"% Inhibition at 20 uM (N=1)",
+        "% Inhibition at 20 uM (N=2)",
+        "% Inhibition at 50 uM (N=1)",
+        "% Inhibition at 50 uM (N=2)",
+        "% Inhibition at 100 uM (N=1)",
+        "% Inhibition at 100 uM (N=2)",
+    ]
+
+    for col in inhibition_cols:
+    	if col not in list(assay_df.columns):
+    		assay_df[col] = ''
+
+    assay_location = str(assay_csv).split("_")[-1].split(".csv")[0]
+    assay_df["location"] = assay_location
+
     assay_df = assay_df[
         [
             "SMILES",
             "purity",
             "volume(uL)",
             "concentration(mM)",
-            "% Inhibition at 20 mM (N=1)",
-            "% Inhibition at 20 mM (N=2)",
-            "% Inhibition at 100 mM (N=1)",
-            "% Inhibition at 100 mM (N=2)",
+            "% Inhibition at 20 uM (N=1)",
+            "% Inhibition at 20 uM (N=2)",
+            "% Inhibition at 50 uM (N=1)",
+            "% Inhibition at 50 uM (N=2)",
+            "% Inhibition at 100 uM (N=1)",
+            "% Inhibition at 100 uM (N=2)",
+            "location"
         ]
     ]
 
@@ -156,10 +175,13 @@ for assay_csv in all_assay_csvs:
             "purity",
             "volume(uL)",
             "concentration(mM)",
-            "% Inhibition at 20 mM (N=1)",
-            "% Inhibition at 20 mM (N=2)",
-            "% Inhibition at 100 mM (N=1)",
-            "% Inhibition at 100 mM (N=2)",
+            "% Inhibition at 20 uM (N=1)",
+            "% Inhibition at 20 uM (N=2)",
+            "% Inhibition at 50 uM (N=1)",
+            "% Inhibition at 50 uM (N=2)",
+            "% Inhibition at 100 uM (N=1)",
+            "% Inhibition at 100 uM (N=2)",
+            "location"
         ]
     ]
     all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
@@ -167,15 +189,34 @@ for assay_csv in all_assay_csvs:
 all_assay_df["old_CID"] = all_assay_df.loc[:, "CID"].apply(
     lambda x: get_old_CID_from_new(x)
 )
-old_assay_df = pd.read_csv(
-    dir_path / "experimental_results" / "protease_assay.csv"
-)
-add_assay_data_df = all_assay_df.loc[
-    ~all_assay_df["old_CID"].isin(list(old_assay_df["old_CID"]))
+all_assay_df = all_assay_df[
+    [
+        "SMILES",
+        "old_CID",
+        "purity",
+        "volume(uL)",
+        "concentration(mM)",
+        "% Inhibition at 20 uM (N=1)",
+        "% Inhibition at 20 uM (N=2)",
+        "% Inhibition at 50 uM (N=1)",
+        "% Inhibition at 50 uM (N=2)",
+        "% Inhibition at 100 uM (N=1)",
+        "% Inhibition at 100 uM (N=2)",
+        "location",
+        "CID"
+    ]
 ]
-add_assay_data_df.to_csv(
-    dir_path / "vault_updates" / "add_protease_assay_data_df.csv", index=False
-)
+all_assay_df = all_assay_df.rename(columns={"old_CID": "external_ID"})
+
+# old_assay_df = pd.read_csv(
+#     dir_path / "experimental_results" / "protease_assay.csv"
+# )
+# add_assay_data_df = all_assay_df.loc[
+#     ~all_assay_df["old_CID"].isin(list(old_assay_df["old_CID"]))
+# ]
+# add_assay_data_df.to_csv(
+#     dir_path / "vault_updates" / "add_protease_assay_data_df.csv", index=False
+# )
 
 
 all_assay_df.to_csv(
@@ -270,14 +311,29 @@ for sol_csv in all_sol_csvs:
 all_sol_df["old_CID"] = all_sol_df.loc[:, "CID"].apply(
     lambda x: get_old_CID_from_new(x)
 )
-
-old_sol_df = pd.read_csv(dir_path / "experimental_results" / "solubility.csv")
-add_sol_data_df = all_sol_df.loc[
-    ~all_sol_df["old_CID"].isin(list(old_sol_df["old_CID"]))
+all_sol_df["location"] = "Enamine" # bad hard coding for now
+all_sol_df = all_sol_df[
+    [
+        "SMILES",
+        "old_CID",
+        "Raw signal @20 µM",
+        "Relative solubility @20 µM",
+        "Raw signal @100 µM",
+        "Relative solubility @100 µM",
+        "100 µM / 20 µM",
+        "location",
+        "CID"
+    ]
 ]
-add_sol_data_df.to_csv(
-    dir_path / "vault_updates" / "add_solubility_data_df.csv", index=False
-)
+all_sol_df = all_sol_df.rename(columns={"old_CID": "external_ID"})
+
+# old_sol_df = pd.read_csv(dir_path / "experimental_results" / "solubility.csv")
+# add_sol_data_df = all_sol_df.loc[
+#     ~all_sol_df["old_CID"].isin(list(old_sol_df["external_ID"]))
+# ]
+# add_sol_data_df.to_csv(
+#     dir_path / "vault_updates" / "add_solubility_data_df.csv", index=False
+# )
 
 all_sol_df.to_csv(
     dir_path / "experimental_results" / "solubility.csv", index=False
