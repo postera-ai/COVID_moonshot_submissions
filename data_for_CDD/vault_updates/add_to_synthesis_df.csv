@@ -1,7 +1,1 @@
 SMILES,old_CID,creator,fragments,covalent_warhead
-CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,AAR-POS-0daf6b7e-19,"Aaron Morris, PostEra",x0072,True
-Cc1ccc(C)c(S(=O)(=O)N2CCN(C(=O)CCl)CC2)c1,AAR-POS-0daf6b7e-3,"Aaron Morris, PostEra",x0072,True
-O=C(CCl)N1CCC(C(=O)N2CCCCC2)CC1,AAR-POS-0daf6b7e-9,"Aaron Morris, PostEra",x0072,True
-O=C(CC1CCCCC1)Nc1cccnc1,AAR-POS-d2a4d1df-13,"Aaron Morris, PostEra",x0072,False
-O=C(CCl)N1CCN(Cc2cccc(Cl)c2)CC1,AAR-POS-d2a4d1df-35,"Aaron Morris, PostEra",x0072,True
-O=C(CCl)N1CCN(Cc2cccc3ccccc23)CC1,AAR-POS-d2a4d1df-40,"Aaron Morris, PostEra",x0072,True
