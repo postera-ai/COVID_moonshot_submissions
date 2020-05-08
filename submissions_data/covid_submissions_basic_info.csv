@@ -13349,27 +13349,6 @@ The overall aim of this work is to characterise the transition states of the act
 
 [1] Akaji, K., Konno, H., Mitsui, H., Teruya, K., Shimamoto, Y., Hattori, Y., … Sanjoh, A. (2011). Structure-Based Design, Synthesis, and Evaluation of Peptide-Mimetic SARS 3CL Protease Inhibitors. __Journal of Medicinal Chemistry__, __54__(23), 7962–7973. https://doi.org/10.1021/jm200870n",x0072,https://covid.postera.ai/covid/submissions/JAR-IMP-b007c7c2
 CCN1CCN(C(=O)Nc2cc(-c3cn(C4CCOCC4)c4ccccc34)ccn2)CC1,ANO-UNK-b6bccdab-1,Anon,Testing,x0072,https://covid.postera.ai/covid/submissions/ANO-UNK-b6bccdab
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-1,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1cccc(-c2cc[nH]n2)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-2,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-COc1cc(NC(=O)C2CCN(C(=O)CCl)CC2)cc(OC)c1OC,LON-WEI-120e5cf5-3,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1ccc(N2CCNC2=O)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-4,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-CN(C(=O)C1CCN(C(=O)CCl)CC1)c1ccccc1,LON-WEI-120e5cf5-5,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1cccc(C2=NN=C3CCCCC32)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-6,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-Cc1n[nH]c(-c2ccc(C)c(NC(=O)C3CCN(C(=O)CCl)CC3)c2)n1,LON-WEI-120e5cf5-7,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-CCCc1n[nH]c(C2CN(C(=O)C3CCN(C(=O)CCl)CC3)CCO2)n1,LON-WEI-120e5cf5-8,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1ccc2c(c1)[nH]c1ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-9,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-CC(=O)c1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cc1,LON-WEI-120e5cf5-10,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1cccnc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-11,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1ccn(-c2ccccc2)n1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-12,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-Cc1ccnc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-13,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1cc(Cl)nc2ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-14,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1ccccc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-15,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1ccccc1Br)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-16,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-17,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1c[nH]c2ccc(Br)cc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-18,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-CC(=O)c1cccc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-19,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-O=C(Nc1ccc(Cl)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-20,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
-Cc1cccnc1NC(=O)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-21,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
 O=C(CCl)N(c1ccccc1)C1C=CS(=O)(=O)C1,AAR-POS-0daf6b7e-1,"Aaron Morris, PostEra",Second batch of submissions of fragments in order to generate Moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-0daf6b7e
 O=C(CCl)N1CCN(Cc2ccc(Cl)s2)CC1,AAR-POS-0daf6b7e-2,"Aaron Morris, PostEra",Second batch of submissions of fragments in order to generate Moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-0daf6b7e
 Cc1ccc(C)c(S(=O)(=O)N2CCN(C(=O)CCl)CC2)c1,AAR-POS-0daf6b7e-3,"Aaron Morris, PostEra",Second batch of submissions of fragments in order to generate Moonshot CID,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-0daf6b7e
@@ -13467,3 +13446,28 @@ N=C(S)c1ncc[nH]1,AAR-POS-5507155c-4,"Aaron Morris, PostEra",Final set of fragmen
 N#CCN1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-1,"Matt Robinson, PostEra",3 compounds from Enamine which were never submitted,x0072,https://covid.postera.ai/covid/submissions/MAT-POS-4e253971
 C=CC(=O)N1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-2,"Matt Robinson, PostEra",3 compounds from Enamine which were never submitted,x0072,https://covid.postera.ai/covid/submissions/MAT-POS-4e253971
 COc1ccc2nc(C)cc(C(=O)NN)c2c1,MAT-POS-4e253971-3,"Matt Robinson, PostEra",3 compounds from Enamine which were never submitted,x0072,https://covid.postera.ai/covid/submissions/MAT-POS-4e253971
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-1,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1cccc(-c2cc[nH]n2)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-2,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+COc1cc(NC(=O)C2CCN(C(=O)CCl)CC2)cc(OC)c1OC,LON-WEI-120e5cf5-3,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1ccc(N2CCNC2=O)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-4,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+CN(C(=O)C1CCN(C(=O)CCl)CC1)c1ccccc1,LON-WEI-120e5cf5-5,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1cccc(C2=NN=C3CCCCC32)c1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-6,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+Cc1n[nH]c(-c2ccc(C)c(NC(=O)C3CCN(C(=O)CCl)CC3)c2)n1,LON-WEI-120e5cf5-7,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+CCCc1n[nH]c(C2CN(C(=O)C3CCN(C(=O)CCl)CC3)CCO2)n1,LON-WEI-120e5cf5-8,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1ccc2c(c1)[nH]c1ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-9,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+CC(=O)c1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cc1,LON-WEI-120e5cf5-10,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1cccnc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-11,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1ccn(-c2ccccc2)n1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-12,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+Cc1ccnc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-13,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1cc(Cl)nc2ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-14,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1ccccc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-15,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1ccccc1Br)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-16,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,LON-WEI-120e5cf5-17,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1c[nH]c2ccc(Br)cc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-18,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+CC(=O)c1cccc(NC(=O)C2CCN(C(=O)CCl)CC2)c1,LON-WEI-120e5cf5-19,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+O=C(Nc1ccc(Cl)cc1)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-20,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+Cc1cccnc1NC(=O)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-21,"London Lab, Weizmann Institute",piperidine-amide series made by the London lab,x0072,https://covid.postera.ai/covid/submissions/LON-WEI-120e5cf5
+CS(=O)(=O)c1ccc(N2CCNCC2)cc1,AAR-POS-f650c5f2-1,"Aaron Morris, PostEra",Missing fragalysis structures,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-f650c5f2
+N#Cc1ncc[nH]1,AAR-POS-f650c5f2-2,"Aaron Morris, PostEra",Missing fragalysis structures,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-f650c5f2
+N#Cc1ncccn1,AAR-POS-f650c5f2-3,"Aaron Morris, PostEra",Missing fragalysis structures,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-f650c5f2
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-f650c5f2-4,"Aaron Morris, PostEra",Missing fragalysis structures,x0072,https://covid.postera.ai/covid/submissions/AAR-POS-f650c5f2

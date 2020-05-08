@@ -96,6 +96,8 @@ all_assay_csvs = (dir_path / "../experimental_data/protease_assay").glob(
     "**/*.csv"
 )
 for assay_csv in all_assay_csvs:
+    if "IC_50" in str(assay_csv):
+        continue
     assay_df = pd.read_csv(assay_csv)
     assay_df["SMILES"] = assay_df["SMILES"].apply(
         lambda x: Chem.MolToSmiles(

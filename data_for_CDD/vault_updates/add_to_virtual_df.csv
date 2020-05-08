@@ -1,4 +1,5 @@
 SMILES,old_CID,creator,fragments,covalent_warhead
-N#CCN1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-1,"Matt Robinson, PostEra",x0072,True
-C=CC(=O)N1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-2,"Matt Robinson, PostEra",x0072,True
-COc1ccc2nc(C)cc(C(=O)NN)c2c1,MAT-POS-4e253971-3,"Matt Robinson, PostEra",x0072,False
+CS(=O)(=O)c1ccc(N2CCNCC2)cc1,AAR-POS-f650c5f2-1,"Aaron Morris, PostEra",x0072,False
+N#Cc1ncc[nH]1,AAR-POS-f650c5f2-2,"Aaron Morris, PostEra",x0072,True
+N#Cc1ncccn1,AAR-POS-f650c5f2-3,"Aaron Morris, PostEra",x0072,True
+COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-f650c5f2-4,"Aaron Morris, PostEra",x0072,True
