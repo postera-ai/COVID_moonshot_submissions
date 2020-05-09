@@ -344,6 +344,7 @@ N#CCCN(C(=O)CN1CCCCC(=O)C1=O)c1ccc(F)cc1,JAN-GHE-4287bd1a-6,Z2769975095,False,Fa
 Cc1nccn1CC(=O)N(c1ccccc1)C1C=CS(=O)(=O)C1,JAN-GHE-4287bd1a-7,Z1607440029,False,False,s_7____7838062____6645
 O=C(CCn1ccnc1)N(c1ccccc1)C1C=CS(=O)(=O)C1,JAN-GHE-4287bd1a-8,Z2599432013,False,False,False
 O=C(Nc1cccnc1)C1=CS(=O)(=O)CCC1,JAN-GHE-4287bd1a-9,Z3292352914,False,False,s_22____57778____13259644
+Cc1ccncc1Cn1ccccc1=O,JAN-GHE-d851b096-6,False,False,False,s_34____34750____10978702
 NS(=O)(=O)c1ccc(C(=O)N2Cc3ccccc3C(c3ccccc3)C2)cc1,JAR-IMP-ed466bb3-13,Z1982706704,False,False,s_22____2019588____60740
 O=C(c1cccc2ccccc12)N1Cc2ccccc2C(c2ccccc2)C1,JAR-IMP-ed466bb3-3,False,False,False,s_22____2019588____59111
 O=C(c1cc2sccc2s1)N1CCOC(CN2CCOCC2)C1,JAR-KUA-672ec752-1,Z2782173902,False,False,s_22____12386308____1180822
@@ -518,6 +519,7 @@ COc1ccc2[nH]cc(CCNS(C)(=O)=O)c2c1,MAR-UNI-9ca61fdc-1,False,Z1316790959,False,Fal
 N#CCN1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-1,False,Z4450659665,False,False
 C=CC(=O)N1CCN(Cc2cc(Cl)cc3ccccc23)CC1,MAT-POS-4e253971-2,False,Z4450659664,False,False
 COc1ccc2nc(C)cc(C(=O)NN)c2c1,MAT-POS-4e253971-3,False,Z1526698797,False,False
+COC(=O)c1ccc(S(N)(=O)=O)cc1,MAT-POS-7dfc56d9-1,False,Z18197050,EN300-270494,False
 COc1ccc(C2CC(c3cccs3)=NN2C(=O)CCl)cc1OC,MAT-POS-916a2c5a-1,False,False,EN300-07549,False
 COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2ccccc12,MAT-POS-916a2c5a-2,False,False,False,s_22____58494____59160
 Cc1cc(C)c(C)c(S(=O)(=O)N2CCN(C(=O)c3cc(=O)[nH]c4ccccc34)CC2)c1C,MAT-POS-916a2c5a-3,False,False,False,s_22____413354____59160

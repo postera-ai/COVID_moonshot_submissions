@@ -1,5 +1,14 @@
 SMILES,old_CID,creator,fragments,covalent_warhead
-CS(=O)(=O)c1ccc(N2CCNCC2)cc1,AAR-POS-f650c5f2-1,"Aaron Morris, PostEra",x0072,False
-N#Cc1ncc[nH]1,AAR-POS-f650c5f2-2,"Aaron Morris, PostEra",x0072,True
-N#Cc1ncccn1,AAR-POS-f650c5f2-3,"Aaron Morris, PostEra",x0072,True
-COc1ccc(NC(=O)C2CCN(C(=O)CCl)CC2)cn1,AAR-POS-f650c5f2-4,"Aaron Morris, PostEra",x0072,True
+COc1ccc(N(C(=O)CCl)C(C(=O)NC2CCCCC2)c2cccnc2)cc1Cl,JAN-GHE-76def03c-1,"Jan, Ghent University",x0072,True
+O=C(NCCc1ccccc1)C(c1cccnc1)N(C(=O)CCl)c1ccccc1Cl,JAN-GHE-76def03c-2,"Jan, Ghent University",x0072,True
+COc1cccc(N(C(=O)CCl)C(C(=O)NC2CCCCC2)c2cccnc2)c1,JAN-GHE-76def03c-3,"Jan, Ghent University",x0072,True
+C=CC(=O)NN(C(=O)Cc1cccc(Cl)c1)c1cnccc1C,JAN-GHE-d851b096-1,"Jan, Ghent University","x0107,x0678",True
+O=C(Nc1cccc(Cl)c1)C(c1cccnc1)N1C(=O)C=CC1=O,JAN-GHE-d851b096-2,"Jan, Ghent University","x0107,x0678",False
+C=CC(=O)N(c1ccc(NC(C)=O)cc1)N(C(=O)Nc1cccc(Cl)c1)c1cccnc1,JAN-GHE-d851b096-3,"Jan, Ghent University","x0107,x0678",True
+C=CC(=O)N(c1ccc(NC(C)=O)cc1)[C@@H](C(=O)Nc1cccc(Cl)c1)c1cccnc1,JAN-GHE-d851b096-4,"Jan, Ghent University","x0107,x0678",True
+C=CC(=O)N1CC[C@@H](C2CCCCC2)C(=O)N1c1cccnc1,JAN-GHE-d851b096-5,"Jan, Ghent University","x0107,x0678",True
+Cc1ccncc1Cn1ccccc1=O,JAN-GHE-d851b096-6,"Jan, Ghent University","x0107,x0678",False
+C=CC(=O)N(c1cc(C(F)(F)F)on1)C(C(=O)NC1CCCCC1)c1cccnc1,JAN-GHE-d851b096-7,"Jan, Ghent University","x0107,x0678",True
+C=CC(=O)N(c1cccc(Cl)c1)C(C(=O)NC(C)(C)C)c1cccnc1,JAN-GHE-d851b096-8,"Jan, Ghent University","x0107,x0678",True
+C=CC(=O)N(c1cccc(Cl)c1)C(C(=O)Nc1cccc(Cl)c1)c1cccnc1,JAN-GHE-d851b096-9,"Jan, Ghent University","x0107,x0678",True
+COC(=O)c1ccc(S(N)(=O)=O)cc1,MAT-POS-7dfc56d9-1,"Matt Robinson, PostEra",x0161,False

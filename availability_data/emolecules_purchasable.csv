@@ -30,6 +30,9 @@ O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,GER-UNI-caecb3b0-1,https://cov
 O=C(CC(=O)N1CCOCC1)NC1CCCCC1,GIA-UNK-3f36037a-1,https://covid.postera.ai/covid/submissions/GIA-UNK-3f36037a
 O=C(CC(=O)N1CCOCC1)Nc1ccccc1,GIA-UNK-3f36037a-2,https://covid.postera.ai/covid/submissions/GIA-UNK-3f36037a
 O=C1/C(=C/c2ccco2)CCC/C1=C\c1ccco1,GUZ-UNI-5a173832-2,https://covid.postera.ai/covid/submissions/GUZ-UNI-5a173832
+COc1ccc(N(C(=O)CCl)C(C(=O)NC2CCCCC2)c2cccnc2)cc1Cl,JAN-GHE-76def03c-1,https://covid.postera.ai/covid/submissions/JAN-GHE-76def03c
+O=C(NCCc1ccccc1)C(c1cccnc1)N(C(=O)CCl)c1ccccc1Cl,JAN-GHE-76def03c-2,https://covid.postera.ai/covid/submissions/JAN-GHE-76def03c
+COc1cccc(N(C(=O)CCl)C(C(=O)NC2CCCCC2)c2cccnc2)c1,JAN-GHE-76def03c-3,https://covid.postera.ai/covid/submissions/JAN-GHE-76def03c
 COc1ccc2cccc(CCNC(C)=O)c2c1,JOH-MSK-ec639444-3,https://covid.postera.ai/covid/submissions/JOH-MSK-ec639444
 C=CC(=O)N1CCN(C(=O)c2ccc(Br)s2)CC1,JOH-UNI-27ac80fd-26,https://covid.postera.ai/covid/submissions/JOH-UNI-27ac80fd
 COC(=O)C(c1ccccc1Cl)N1CCC2SC(=O)C=C2C1,JOH-UNI-a5c0a47e-2,https://covid.postera.ai/covid/submissions/JOH-UNI-a5c0a47e
