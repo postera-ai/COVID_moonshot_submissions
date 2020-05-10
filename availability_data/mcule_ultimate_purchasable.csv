@@ -1,5 +1,6 @@
 SMILES,CID,link
 COc1ccc(C(=O)N2CCC(C(=O)N3CCC(Cc4ccccc4)CC3)CC2)cc1,AAR-POS-fca48359-4,https://covid.postera.ai/covid/submissions/AAR-POS-fca48359
+O=C(Cc1cccc(Cl)c1)Nc1cnccc1Cl,ALP-POS-95b75b4d-8,https://covid.postera.ai/covid/submissions/ALP-POS-95b75b4d
 CCC(=O)NC[C@@H]1C[C@H]1c1ccccc1,ANT-OPE-6a16a9ad-1,https://covid.postera.ai/covid/submissions/ANT-OPE-6a16a9ad
 COc1ccc(-c2cccc(S(=O)(=O)N3CCN(C(C)=O)CC3)c2)cc1,ANT-OPE-7824651a-1,https://covid.postera.ai/covid/submissions/ANT-OPE-7824651a
 O=C(Nc1ccc([N+](=O)[O-])cc1Cl)c1cccc(Cl)c1,CHR-SOS-7098f804-2,https://covid.postera.ai/covid/submissions/CHR-SOS-7098f804

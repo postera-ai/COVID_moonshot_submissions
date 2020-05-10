@@ -11,10 +11,10 @@ from pathlib import Path
 dir_path = Path(__file__).parent.absolute()
 all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
 
-num_designed = all_df.shape[0]
-num_ordered = all_df[all_df["ORDERED"] == True].shape[0]
-num_made = all_df[all_df["MADE"] == True].shape[0]
-num_assayed = all_df[all_df["ASSAYED"] == True].shape[0]
+num_designed = all_df.SMILES.unique().shape[0]
+num_ordered = all_df[all_df["ORDERED"] == True].SMILES.unique().shape[0]
+num_made = all_df[all_df["MADE"] == True].SMILES.unique().shape[0]
+num_assayed = all_df[all_df["ASSAYED"] == True].SMILES.unique().shape[0]
 
 # tracking_df = pd.DataFrame(
 #     {

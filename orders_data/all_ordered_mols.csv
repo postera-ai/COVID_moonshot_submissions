@@ -290,7 +290,7 @@ CS(=O)(=O)Cc1ccc(C(=O)Nc2cccnc2)o1,ANT-DIA-3c79be55-4,20200331_moonshot_to_enami
 O=C(Cc1c[nH]c2ncccc12)Nc1cccc(Cl)c1,DAR-DIA-23aa0b97-12,20200331_moonshot_to_enamine.csv
 N#Cc1cccc(NC(=O)Cc2c[nH]c3ncccc23)c1,DAR-DIA-23aa0b97-1,20200331_moonshot_to_enamine.csv
 O=C(Cc1c[nH]c2ncccc12)NCc1cc(Cl)ccn1,TRY-UNI-1fd04853-9,20200331_moonshot_to_enamine.csv
-Cc1ccncc1NC(=O)C(C)c1cccc(Cl)c1,TRY-UNI-714a760b-18,20200331_moonshot_to_enamine.csv
+Cc1ccncc1NC(=O)C(C)c1cccc(Cl)c1,JAN-GHE-83b26c96-4,20200331_moonshot_to_enamine.csv
 O=C(Cc1c[nH]c2ncccc12)NCc1cccc(Cl)c1,TRY-UNI-1fd04853-5,20200331_moonshot_to_enamine.csv
 CC(C)N(C)C(=O)C1CCN(C(=O)CCl)CC1,AAR-POS-0daf6b7e-19,20200331_moonshot_to_enamine.csv
 O=C(C1CCN(S(=O)(=O)c2ccccc2)CC1)N1CCOCC1,GIA-UNK-eaadd1d4-3,20200331_moonshot_to_enamine.csv

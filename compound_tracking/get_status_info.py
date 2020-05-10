@@ -100,8 +100,20 @@ virtual_df.to_csv(dir_path / "designed_not_ordered_nor_made.csv", index=False)
 #     all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
 
 all_assay_df = pd.read_csv(
-    dir_path / "../data_for_cdd/experimental_results/protease_assay.csv"
+    dir_path / "../experimental_data/protease_assay/20200507_inhibition_protease_assay_weizmann.csv"
 )
+all_assay_df["SMILES"] = all_assay_df["SMILES"].apply(
+    lambda x: Chem.MolToSmiles(
+        Chem.MolFromSmiles(
+            Chem.MolToSmiles(
+                standardizer.standardize_mol(
+                    standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
+                )
+            )
+        )
+    )
+)
+
 
 all_assay_smi = list(all_assay_df.SMILES)
 made_not_assayed_df = made_df.loc[~made_df["SMILES"].isin(all_assay_smi)]
@@ -114,16 +126,38 @@ made_cid = list(made_df.CID)
 ordered_cid = list(ordered_df.CID)
 assayed_cid = list(all_assay_df.CID)
 
-all_df["ORDERED"] = all_df["CID"].apply(
+made_short_ik = [Chem.MolToInchiKey(Chem.MolFromSmiles(x)).split('-')[0] for x in made_smi]
+ordered_short_ik = [Chem.MolToInchiKey(Chem.MolFromSmiles(x)).split('-')[0] for x in ordered_smi]
+assayed_short_ik = [Chem.MolToInchiKey(Chem.MolFromSmiles(x)).split('-')[0] for x in all_assay_smi]
+
+all_df['short_ik'] = all_df['SMILES'].apply(lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x)).split('-')[0])
+
+
+
+### NOTE THAT switching to inchikey from CID means we will overcount the duplicate designs when we count orders and such
+
+all_df["ORDERED"] = all_df["short_ik"].apply(
     lambda x: "TRUE"
-    if ((x in ordered_cid) or (x in made_cid) or (x in assayed_cid))
+    if ((x in ordered_short_ik) or (x in made_short_ik) or (x in assayed_short_ik))
     else "FALSE"
 )
-all_df["MADE"] = all_df["CID"].apply(
-    lambda x: "TRUE" if ((x in made_cid) or (x in assayed_cid)) else "FALSE"
+all_df["MADE"] = all_df["short_ik"].apply(
+    lambda x: "TRUE" if ((x in made_short_ik) or (x in assayed_short_ik)) else "FALSE"
 )
-all_df["ASSAYED"] = all_df["CID"].apply(
-    lambda x: "TRUE" if x in assayed_cid else "FALSE"
+all_df["ASSAYED"] = all_df["short_ik"].apply(
+    lambda x: "TRUE" if x in assayed_short_ik else "FALSE"
 )
+
+# all_df["ORDERED"] = all_df["CID"].apply(
+#     lambda x: "TRUE"
+#     if ((x in ordered_cid) or (x in made_cid) or (x in assayed_cid))
+#     else "FALSE"
+# )
+# all_df["MADE"] = all_df["CID"].apply(
+#     lambda x: "TRUE" if ((x in made_cid) or (x in assayed_cid)) else "FALSE"
+# )
+# all_df["ASSAYED"] = all_df["CID"].apply(
+#     lambda x: "TRUE" if x in assayed_cid else "FALSE"
+# )
 
 all_df.to_csv(dir_path / "../covid_submissions_all_info.csv", index=False)
