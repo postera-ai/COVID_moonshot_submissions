@@ -42,7 +42,7 @@ tracking_plot = (
         x=alt.X(
             "num_mols:Q",
             stack=None,
-            title=f"Number of Molecules (from {num_designed} designs)",
+            title=f"Number of Molecules (from {num_designed} unique designs)",
         ),
         color=alt.Color("color", legend=None),
     )
