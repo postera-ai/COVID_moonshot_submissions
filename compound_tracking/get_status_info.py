@@ -100,7 +100,7 @@ virtual_df.to_csv(dir_path / "designed_not_ordered_nor_made.csv", index=False)
 #     all_assay_df = pd.concat([all_assay_df, assay_df], axis=0)
 
 all_assay_df = pd.read_csv(
-    dir_path / "../experimental_data/protease_assay/20200507_inhibition_protease_assay_weizmann.csv"
+    dir_path / "../experimental_data/protease_assay/all_inhibition_protease_assay_weizmann.csv"
 )
 all_assay_df["SMILES"] = all_assay_df["SMILES"].apply(
     lambda x: Chem.MolToSmiles(
