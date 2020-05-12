@@ -15,7 +15,8 @@ from chembl_structure_pipeline import standardizer
 from pathlib import Path
 
 dir_path = Path(__file__).parent.absolute()
-all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
+# all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
+id_df = pd.read_csv(dir_path / "../covid_moonshot_ids.csv")
 
 # get all csvs from folders
 order_csv_files = [
@@ -44,7 +45,12 @@ for csv_file in order_csv_files:
 
         order_smi = list(order_df["SMILES"])
         for smi in order_smi:
-            smiles_dict[smi] = str(csv_file).split("/")[-1]
+            if smi not in smiles_dict:
+                smiles_dict[smi] = str(csv_file).split("/")[-1]
+            else:
+                smiles_dict[smi] = (
+                    smiles_dict[smi] + ", " + str(csv_file).split("/")[-1]
+                )
 
     except Exception as e:
         print(f"FAILED ON {csv_file}")
@@ -54,42 +60,39 @@ for csv_file in order_csv_files:
 
 # write out final csv
 all_smiles = list(smiles_dict.keys())
+all_iks = [Chem.MolToInchiKey(Chem.MolFromSmiles(x)) for x in all_smiles]
 all_orders = [smiles_dict[x] for x in all_smiles]
 
-all_ordered_df = pd.DataFrame({"SMILES": all_smiles, "order": all_orders})
-
-achiral_all_df = all_df.copy()
-achiral_all_df["SMILES"] = all_df["SMILES"].apply(
-    lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
+all_ordered_df = pd.DataFrame(
+    {"SMILES": all_smiles, "inchikey": all_iks, "orders": all_orders}
 )
 
-CID_dict = {}
-for smi in list(all_df.SMILES):
-    inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
-    CID_dict[inchikey] = list(all_df.loc[all_df["SMILES"] == smi]["CID"])[0]
-for smi in list(achiral_all_df.SMILES):
-    inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
-    CID_dict[inchikey] = list(
-        achiral_all_df.loc[achiral_all_df["SMILES"] == smi]["CID"]
-    )[0]
 
-
-def get_CID(smi):
-    inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
-    if inchikey in CID_dict:
-        return CID_dict[inchikey]
-    no_stereo_inchikey = Chem.MolToInchiKey(
-        Chem.MolFromSmiles(
-            Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=False)
-        )
-    )
-    if no_stereo_inchikey in CID_dict:
-        return CID_dict[no_stereo_inchikey]
+def get_CID(ik):
+    short_ik = ik.split("-")[0]
+    if ik in list(id_df["inchikey"]):
+        return list(id_df.loc[id_df["inchikey"] == ik]["canonical_CID"])[0]
+    elif short_ik in list(id_df["short_inchikey"]):
+        return list(id_df.loc[id_df["short_inchikey"] == ik]["canonical_CID"])[
+            0
+        ]
     else:
-        return None
+        print("NOT FOUND")
+        return np.nan
 
 
-all_ordered_df["CID"] = all_ordered_df["SMILES"].apply(lambda x: get_CID(x))
+def get_comments(ik):
+    short_ik = ik.split("-")[0]
+    if ik in list(id_df["inchikey"]):
+        return ''
+    elif short_ik in list(id_df["short_inchikey"]):
+        return 'imperfect match'
+    else:
+        return 'not found'
 
-all_ordered_df = all_ordered_df[["SMILES", "CID", "order"]]
+
+all_ordered_df["CID"] = all_ordered_df["inchikey"].apply(lambda x: get_CID(x))
+all_ordered_df['comments'] = all_ordered_df["inchikey"].apply(lambda x: get_comments(x))
+
+all_ordered_df = all_ordered_df[["SMILES", "CID", "orders", "comments"]]
 all_ordered_df.to_csv(dir_path / "all_ordered_mols.csv", index=False)
