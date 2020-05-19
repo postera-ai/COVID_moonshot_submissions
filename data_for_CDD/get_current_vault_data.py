@@ -67,7 +67,7 @@ while status != "finished":
 
     time.sleep(5)
     seconds_waiting += 5
-    if seconds_waiting > 100:
+    if seconds_waiting > 200:
         print("Export Never Finished")
         break
 

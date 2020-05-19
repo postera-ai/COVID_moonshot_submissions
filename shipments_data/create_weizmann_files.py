@@ -11,48 +11,49 @@ from chembl_structure_pipeline import standardizer
 from pathlib import Path
 
 dir_path = Path(__file__).parent.absolute()
-all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
-all_df["SMILES"] = all_df["SMILES"].apply(
-    lambda x: Chem.MolToSmiles(
-        Chem.MolFromSmiles(
-            Chem.MolToSmiles(
-                standardizer.standardize_mol(
-                    standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
-                )
-            )
-        )
-    )
-)
+# all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
+id_df = pd.read_csv(dir_path / "../covid_moonshot_ids.csv")
+cdd_df = pd.read_csv(dir_path / "../data_for_CDD/current_vault_data/current_vault_data.csv")
 
-achiral_all_df = all_df.copy()
-achiral_all_df["SMILES"] = all_df["SMILES"].apply(
-    lambda x: Chem.MolToSmiles(Chem.MolFromSmiles(x), isomericSmiles=False)
-)
-
-# code
-CID_df = pd.read_csv("https://covid.postera.ai/covid/submissions.csv")
-new_CID_list = list(CID_df.CID)
-old_CID_list = list(CID_df.old_CID)
-old_to_new_CID_dict = {}
-for old_CID, new_CID in zip(old_CID_list, new_CID_list):
-    if "None" in old_CID:
-        old_to_new_CID_dict[new_CID] = new_CID
+def get_CID(ik):
+    short_ik = ik.split("-")[0]
+    if ik in list(id_df["inchikey"]):
+        return list(id_df.loc[id_df["inchikey"] == ik]["canonical_CID"])[0]
+    elif short_ik in list(id_df["short_inchikey"]):
+        return list(
+            id_df.loc[id_df["short_inchikey"] == short_ik]["canonical_CID"]
+        )[0]
     else:
-        old_to_new_CID_dict[old_CID] = new_CID
-new_to_old_CID_dict = {v: k for k, v in old_to_new_CID_dict.items()}
-
-def get_new_CID_from_old(old_CID):
-    return old_to_new_CID_dict[old_CID]
+        print("NOT FOUND")
+        return np.nan
 
 
-def get_old_CID_from_new(new_CID):
-    return new_to_old_CID_dict[new_CID]
+def get_CDD_ID(external_id):
+    if external_id in list(cdd_df['external_ID']):
+        return list(cdd_df.loc[cdd_df['external_ID']==external_id]['CDD_name'])[0]
+    else:
+        print("NOT FOUND")
+        return np.nan
+
+
+def get_comments(ik):
+    short_ik = ik.split("-")[0]
+    if ik in list(id_df["inchikey"]):
+        return ""
+    elif short_ik in list(id_df["short_inchikey"]):
+        return "imperfect match"
+    else:
+        return "not found"
+
 
 # get all csvs from folders
 received_csv_files = [
     f
     for f in dir_path.glob("**/*.csv")
-    if (("all_received_mols.csv" not in str(f)) and ("weizmann_annotated" not in str(f)))
+    if (
+        ("all_received_mols.csv" not in str(f))
+        and ("weizmann_annotated" not in str(f))
+    )
 ]
 
 smiles_dict = {}
@@ -65,63 +66,49 @@ for csv_file in received_csv_files:
                     Chem.MolFromSmiles(
                         Chem.MolToSmiles(
                             standardizer.standardize_mol(
-                                standardizer.get_parent_mol(Chem.MolFromSmiles(x))[
-                                    0
-                                ]
+                                standardizer.get_parent_mol(
+                                    Chem.MolFromSmiles(x)
+                                )[0]
                             )
                         )
                     )
                 )
             )
-            new_filename = str(csv_file).split("/")[-1].replace("weizmann", "weizmann_annotated")
-
-            CID_dict = {}
-            for smi in list(all_df.SMILES):
-                inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
-                CID_dict[inchikey] = list(all_df.loc[all_df["SMILES"] == smi]["CID"])[
-                    0
-                ]
-            for smi in list(achiral_all_df.SMILES):
-                inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
-                CID_dict[inchikey] = list(
-                    achiral_all_df.loc[achiral_all_df["SMILES"] == smi]["CID"]
-                )[0]
-
-            def get_CID(smi):
-                inchikey = Chem.MolToInchiKey(Chem.MolFromSmiles(smi))
-                if inchikey in CID_dict:
-                    return CID_dict[inchikey]
-                no_stereo_inchikey = Chem.MolToInchiKey(
-                    Chem.MolFromSmiles(
-                        Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=False)
-                    )
-                )
-                if no_stereo_inchikey in CID_dict:
-                    return CID_dict[no_stereo_inchikey]
-                else:
-                    print(smi)
-                    return None
-
-            received_df["CID"] = received_df["standard_SMILES"].apply(lambda x: get_CID(x))
-            received_df["old_CID"] = received_df.loc[:, "CID"].apply(
-                lambda x: get_old_CID_from_new(x)
+            received_df["inchikey"] = received_df["standard_SMILES"].apply(
+                lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
             )
-            received_df = received_df.rename(columns={"old_CID": "external_ID"})
+            received_df["external_ID"] = received_df["inchikey"].apply(
+                lambda x: get_CID(x)
+            )
+            received_df["CDD_ID"] = received_df["external_ID"].apply(
+                lambda x: get_CDD_ID(x)
+            )
+            received_df["PostEra_comments"] = received_df["inchikey"].apply(
+                lambda x: get_comments(x)
+            )
+            new_filename = (
+                str(csv_file)
+                .split("/")[-1]
+                .replace("weizmann", "weizmann_annotated")
+            )
 
-            received_df = received_df[[
-                "SMILES",
-                "external_ID",
-                "shipment_ID",
-                "catalog_ID",
-                "sample_MW",
-                "purity",
-                "volume(uL)",
-                "concentration(mM)",
-                "plate_ID",
-                "well",
-                "stereochemistry",
-                "CID"
-            ]]
+            received_df = received_df[
+                [
+                    "SMILES",
+                    "external_ID",
+                    'CDD_ID',
+                    "shipment_ID",
+                    "catalog_ID",
+                    "sample_MW",
+                    "purity",
+                    "volume(uL)",
+                    "concentration(mM)",
+                    "plate_ID",
+                    "well",
+                    "stereochemistry",
+                    "PostEra_comments"
+                ]
+            ]
 
             received_df.to_csv(
                 dir_path / "weizmann_files" / new_filename, index=False

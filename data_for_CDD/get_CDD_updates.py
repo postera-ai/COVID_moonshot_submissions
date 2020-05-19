@@ -44,34 +44,28 @@ made_df = pd.read_csv(dir_path / "compounds" / "Compounds_Made.csv")
 
 ### FILTER
 add_to_virtual_df = virtual_df.loc[
-    ~virtual_df["old_CID"].isin(cdd_virtual_external_id_list)
+    ~virtual_df["CID"].isin(cdd_virtual_external_id_list)
 ]
 add_to_virtual_df = add_to_virtual_df.reset_index(drop=True)
 add_to_virtual_df = add_to_virtual_df[
-    ["SMILES", "old_CID", "creator", "fragments", "covalent_warhead"]
+    ["SMILES", "CID", "creator", "fragments", "covalent_warhead"]
 ]
 add_to_virtual_df.to_csv(
     dir_path / "vault_updates" / "add_to_virtual_df.csv", index=False
 )
 
 add_to_synthesis_df = synthesis_df.loc[
-    ~synthesis_df["old_CID"].isin(cdd_synthesis_external_id_list)
+    ~synthesis_df["CID"].isin(cdd_synthesis_external_id_list)
 ]
 add_to_synthesis_df = add_to_synthesis_df.reset_index(drop=True)
-add_to_synthesis_df = add_to_synthesis_df[
-    ["SMILES", "old_CID", "creator", "fragments", "covalent_warhead"]
-]
+add_to_synthesis_df = add_to_synthesis_df[["SMILES", "CID"]]
 add_to_synthesis_df.to_csv(
     dir_path / "vault_updates" / "add_to_synthesis_df.csv", index=False
 )
 
-add_to_made_df = made_df.loc[
-    ~made_df["old_CID"].isin(cdd_made_external_id_list)
-]
+add_to_made_df = made_df.loc[~made_df["CID"].isin(cdd_made_external_id_list)]
 add_to_made_df = add_to_made_df.reset_index(drop=True)
-add_to_made_df = add_to_made_df[
-    ["SMILES", "old_CID", "creator", "fragments", "covalent_warhead"]
-]
+add_to_made_df = add_to_made_df[["SMILES", "CID"]]
 add_to_made_df.to_csv(
     dir_path / "vault_updates" / "add_to_made_df.csv", index=False
 )

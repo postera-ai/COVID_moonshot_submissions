@@ -73,7 +73,7 @@ def get_CID(ik):
     if ik in list(id_df["inchikey"]):
         return list(id_df.loc[id_df["inchikey"] == ik]["canonical_CID"])[0]
     elif short_ik in list(id_df["short_inchikey"]):
-        return list(id_df.loc[id_df["short_inchikey"] == ik]["canonical_CID"])[
+        return list(id_df.loc[id_df["short_inchikey"] == short_ik]["canonical_CID"])[
             0
         ]
     else:

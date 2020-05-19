@@ -3,6 +3,9 @@ COc1ccc(C(=O)N2CCC(C(=O)N3CCC(Cc4ccccc4)CC3)CC2)cc1,AAR-POS-fca48359-4,https://c
 O=C(Cc1cccc(Cl)c1)Nc1cnccc1Cl,ALP-POS-95b75b4d-8,https://covid.postera.ai/covid/submissions/ALP-POS-95b75b4d
 CCC(=O)NC[C@@H]1C[C@H]1c1ccccc1,ANT-OPE-6a16a9ad-1,https://covid.postera.ai/covid/submissions/ANT-OPE-6a16a9ad
 COc1ccc(-c2cccc(S(=O)(=O)N3CCN(C(C)=O)CC3)c2)cc1,ANT-OPE-7824651a-1,https://covid.postera.ai/covid/submissions/ANT-OPE-7824651a
+Cc1ccncc1NC(=O)CN1CCCCC1,BEN-DND-93268d01-11,https://covid.postera.ai/covid/submissions/BEN-DND-93268d01
+Cc1ccncc1NC(=O)CCc1cccc(F)c1,BEN-DND-93268d01-6,https://covid.postera.ai/covid/submissions/BEN-DND-93268d01
+CC(=O)N1CCN(CC(=O)Nc2cnccc2C)CC1,BEN-DND-93268d01-8,https://covid.postera.ai/covid/submissions/BEN-DND-93268d01
 O=C(Nc1ccc([N+](=O)[O-])cc1Cl)c1cccc(Cl)c1,CHR-SOS-7098f804-2,https://covid.postera.ai/covid/submissions/CHR-SOS-7098f804
 O=C(Nc1cnccc1Cl)c1cccc(Cl)c1,CHR-SOS-7098f804-21,https://covid.postera.ai/covid/submissions/CHR-SOS-7098f804
 O=C(CC1(c2ccccc2)CCCC1)Nc1cccnc1,CHR-SOS-f7373dd1-4,https://covid.postera.ai/covid/submissions/CHR-SOS-f7373dd1
@@ -12,6 +15,7 @@ O=C(C1CCN(c2ccncc2)CC1)N1CCCCC1,GIA-UNK-30c7cb75-1,https://covid.postera.ai/covi
 CC(=O)N1CCN(C(=O)Cc2ccccn2)CC1,JON-UIO-066ce08b-3,https://covid.postera.ai/covid/submissions/JON-UIO-066ce08b
 CN1CCCC1c1cccnc1,KTA-UNK-dac325de-1,https://covid.postera.ai/covid/submissions/KTA-UNK-dac325de
 CC(=O)OC1CC(C)CCC1C(C)C,MAK-UNK-0cb6a3ad-6,https://covid.postera.ai/covid/submissions/MAK-UNK-0cb6a3ad
+COc1ccc(NC(C)=O)cc1N1CCCC1=O,MAK-UNK-7a704a63-22,https://covid.postera.ai/covid/submissions/MAK-UNK-7a704a63
 C[C@H]1CC[C@H](CC(=O)Nc2cccnc2)CC1,MED-UNK-e6e8ef8a-3,https://covid.postera.ai/covid/submissions/MED-UNK-e6e8ef8a
 O=C(Cc1ccccc1)Nc1cccnc1,SAN-PRS-52b81272-2,https://covid.postera.ai/covid/submissions/SAN-PRS-52b81272
 Cc1ccncc1NC(=O)Cc1ccccc1,TRY-UNI-714a760b-5,https://covid.postera.ai/covid/submissions/TRY-UNI-714a760b
