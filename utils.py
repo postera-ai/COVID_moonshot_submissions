@@ -20,6 +20,7 @@ id_df = pd.read_csv(dir_path / "covid_moonshot_ids.csv")
 cdd_df = pd.read_csv(
     dir_path / "data_for_CDD/current_vault_data/current_vault_data.csv"
 )
+CID_df = pd.read_csv("https://covid.postera.ai/covid/submissions.csv")
 
 
 def get_CID(ik):
@@ -65,3 +66,23 @@ def strip_and_standardize_smi(smi):
             )
         )
     )
+
+
+# code to retrieve new and old CIDS
+new_CID_list = list(CID_df.CID)
+old_CID_list = list(CID_df.old_CID)
+old_to_new_CID_dict = {}
+for old_CID, new_CID in zip(old_CID_list, new_CID_list):
+    if "None" in old_CID:
+        old_to_new_CID_dict[new_CID] = new_CID
+    else:
+        old_to_new_CID_dict[old_CID] = new_CID
+new_to_old_CID_dict = {v: k for k, v in old_to_new_CID_dict.items()}
+
+
+def get_new_CID_from_old(old_CID):
+    return old_to_new_CID_dict[old_CID]
+
+
+def get_old_CID_from_new(new_CID):
+    return new_to_old_CID_dict[new_CID]

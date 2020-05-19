@@ -1,4 +1,0 @@
-SMILES,CID
-Cc1ccc2nc(-c3ccc(N)cc3)sc2c1S(=O)(=O)O,AAR-POS-ddd-1
-Cc1cc(S(=O)(=O)c2c([N+](=O)[O-])cc(C(F)(F)F)cc2[N+](=O)[O-])c(Cl)cc1Cl,AAR-POS-ddd-2
-Nc1ncc(S(=O)(=O)c2ccc(Cl)cc2)c(N)n1,AAR-POS-ddd-3
