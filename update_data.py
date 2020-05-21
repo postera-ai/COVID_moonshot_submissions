@@ -8,7 +8,12 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
-from utils import strip_and_standardize_smi, get_CID, get_CDD_ID, get_comments
+from lib.utils import (
+    strip_and_standardize_smi,
+    get_CID,
+    get_CDD_ID,
+    get_comments,
+)
 
 # get parent path of file
 from pathlib import Path
@@ -20,17 +25,43 @@ all_df = pd.read_csv("https://covid.postera.ai/covid/submissions.csv")
 all_df["SMILES"] = all_df["SMILES"].apply(
     lambda x: strip_and_standardize_smi(x)
 )
+all_df = all_df.rename(
+    columns={
+        "Submission Creator": "creator",
+        "Submission Rationale": "rationale",
+        "Submission Fragments": "fragments",
+        "Covalent Warhead": "covalent_warhead",
+    }
+)
 all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
-id_df = pd.read_csv(dir_path / "covid_moonshot_ids.csv")
 
-### Update the Moonshot IDs
-from update_moonshot_ids import update_CIDs
 
-id_df = update_CIDs(all_df, id_df)
+def create_old_cid(x):
+    if x["old_CID"] is np.nan:
+        return x["CID"]
+    else:
+        return x["old_CID"]
+
+
+id_df = all_df.copy()[["SMILES", "CID", "CID (canonical)", "CID (old format)"]]
+id_df = id_df.rename(
+    columns={"CID (old format)": "old_CID", "CID (canonical)": "canonical_CID"}
+)
+id_df["inchikey"] = id_df["SMILES"].apply(
+    lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+)
+id_df["short_inchikey"] = id_df["inchikey"].apply(lambda x: x.split("-")[0])
+id_df["old_CID"] = id_df.apply(create_old_cid, axis=1)
 id_df.to_csv(dir_path / "covid_moonshot_ids.csv", index=False)
 
+# ### Update the Moonshot IDs (replaced by above)
+# from lib.update_moonshot_ids import update_CIDs
+
+# id_df = update_CIDs(all_df, id_df)
+# id_df.to_csv(dir_path / "covid_moonshot_ids.csv", index=False)
+
 ### Update the orders data
-from get_all_ordered_mols import update_orders_data
+from lib.get_all_ordered_mols import update_orders_data
 
 order_csv_files = [
     f
@@ -41,7 +72,7 @@ orders_df = update_orders_data(order_csv_files)
 orders_df.to_csv(dir_path / "orders" / "all_ordered_mols.csv", index=False)
 
 ### Update shipments data
-from get_all_received_mols import (
+from lib.get_all_received_mols import (
     update_shipments_data,
     create_diamond_files,
     create_weizmann_files,
@@ -72,3 +103,52 @@ for weizmann_df, weizmann_fn in weizmann_dfs:
     weizmann_df.to_csv(
         dir_path / "shipments" / "weizmann_files" / weizmann_fn, index=False
     )
+
+### Update CDD info
+
+# first get the necessary data
+received_df = pd.read_csv(dir_path / "shipments" / "all_received_mols.csv")
+made_df = received_df.copy()
+made_df.to_csv(
+    dir_path / "data_for_CDD" / "compounds" / "Compounds_Made.csv", index=False
+)
+
+ordered_df = pd.read_csv(dir_path / "orders" / "all_ordered_mols.csv")
+synthesis_df = ordered_df.copy()
+synthesis_df.to_csv(
+    dir_path / "data_for_CDD" / "compounds" / "Compounds_for_Synthesis.csv",
+    index=False,
+)
+
+virtual_df = all_df.copy()
+virtual_df.to_csv(
+    dir_path / "data_for_CDD" / "compounds" / "Compounds_Virtual.csv",
+    index=False,
+)
+
+# get current data in the vault
+from lib.get_current_vault_data import get_current_vault_data
+
+current_cdd_df = get_current_vault_data()
+
+# get the necessary updates to CDD
+from lib.get_CDD_updates import get_CDD_updates
+
+add_to_virtual_df, add_to_synthesis_df, add_to_made_df = get_CDD_updates(
+    current_cdd_df, virtual_df, synthesis_df, made_df
+)
+
+add_to_virtual_df.to_csv(
+    dir_path / "data_for_CDD" / "vault_updates" / "add_to_virtual_df.csv",
+    index=False,
+)
+add_to_synthesis_df.to_csv(
+    dir_path / "data_for_CDD" / "vault_updates" / "add_to_synthesis_df.csv",
+    index=False,
+)
+add_to_made_df.to_csv(
+    dir_path / "data_for_CDD" / "vault_updates" / "add_to_made_df.csv",
+    index=False,
+)
+
+# Get the status of compounds
