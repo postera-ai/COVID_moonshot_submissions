@@ -12,41 +12,8 @@ from .utils import strip_and_standardize_smi, get_CID, get_CDD_ID, get_comments
 
 # get parent path of file
 from pathlib import Path
-
 dir_path = Path(__file__).parent.absolute()
-all_df = pd.read_csv(dir_path / "../covid_submissions_all_info.csv")
-all_df["SMILES"] = all_df["SMILES"].apply(
-    lambda x: Chem.MolToSmiles(
-        Chem.MolFromSmiles(
-            Chem.MolToSmiles(
-                standardizer.standardize_mol(
-                    standardizer.get_parent_mol(Chem.MolFromSmiles(x))[0]
-                )
-            )
-        )
-    )
-)
 
-### GET MADE MOLS ###
-received_df = pd.read_csv(dir_path / "../shipments_data/all_received_mols.csv")
-made_df = all_df.loc[all_df["SMILES"].isin(list(received_df.SMILES))]
-made_df.to_csv(dir_path / "made.csv", index=False)
-
-### GET ORDERED MOLS ###
-ordered_df = pd.read_csv(dir_path / "../orders_data/all_ordered_mols.csv")
-synthesis_df = all_df.loc[
-    (all_df["SMILES"].isin(list(ordered_df.SMILES)))
-    & (~all_df["SMILES"].isin(list(received_df.SMILES)))
-]
-synthesis_df.to_csv(dir_path / "ordered_not_made.csv", index=False)
-
-### GET VIRTUAL MOLS ###
-virtual_df = all_df
-virtual_df = all_df.loc[
-    (~all_df["SMILES"].isin(list(ordered_df.SMILES)))
-    & (~all_df["SMILES"].isin(list(received_df.SMILES)))
-]
-virtual_df.to_csv(dir_path / "designed_not_ordered_nor_made.csv", index=False)
 
 # ### GET EXPERIMENTAL RESULTS ###
 # all_assay_df = pd.DataFrame()

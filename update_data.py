@@ -130,12 +130,23 @@ virtual_df.to_csv(
 from lib.get_current_vault_data import get_current_vault_data
 
 current_cdd_df = get_current_vault_data()
+current_cdd_df.to_csv(dir_path / "data_for_CDD" / "current_vault_data" / "current_vault_data.csv", index=False)
+
+# update master file
+all_df["CDD_name"] = all_df["CID"].apply(
+    lambda x: current_cdd_df[current_cdd_df['external_ID']==x]['CDD_name'].item()
+    if ("CID" in list(current_cdd_df['external_ID'])) else np.nan
+)
+all_df["CDD_mol_ID"] = all_df["CID"].apply(
+    lambda x: current_cdd_df[current_cdd_df['external_ID']==x]['molecule_ID'].item()
+    if ("CID" in list(current_cdd_df['external_ID'])) else np.nan
+)
 
 # get the necessary updates to CDD
 from lib.get_CDD_updates import get_CDD_updates
 
 add_to_virtual_df, add_to_synthesis_df, add_to_made_df = get_CDD_updates(
-    current_cdd_df, virtual_df, synthesis_df, made_df
+    all_df, current_cdd_df, virtual_df, synthesis_df, made_df
 )
 
 add_to_virtual_df.to_csv(
@@ -151,4 +162,13 @@ add_to_made_df.to_csv(
     index=False,
 )
 
+# get assay data
+from lib.get_experimental_data import (get_rapidfire_data,
+                                      get_fluorescence_data,
+                                      get_solubility_data,
+                                      get_trypsin_data)
+
+
+# update data with 
 # Get the status of compounds
+

@@ -23,27 +23,27 @@ with open(lib_path / "CDD.env", "r") as env_file:
     )
 
 vault_num = env_vars_dict["VAULT_num"]
+vault_token = env_vars_dict["VAULT_token"]
+
 virtual_project_id = "12336"
 synthesis_project_id = "12334"
 made_project_id = "12335"
 
-vault_token = env_vars_dict["VAULT_token"]
-
-# Start exporting of all mols
-
-headers = {"X-CDD-token": vault_token}
-url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/molecules?async=True&no_structures=True"
-
-response = requests.get(url, headers=headers)
-
-print("BEGINNING EXPORT")
-print(response)
-export_info = response.json()
-
-export_id = export_info["id"]
 
 
 def get_current_vault_data():
+
+    # Start exporting of all mols
+    headers = {"X-CDD-token": vault_token}
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/molecules?async=True&no_structures=True"
+
+    response = requests.get(url, headers=headers)
+
+    print("BEGINNING EXPORT")
+    print(response)
+    export_info = response.json()
+
+    export_id = export_info["id"]
 
     # CHECK STATUS of Export
     status = None
@@ -88,6 +88,7 @@ def get_current_vault_data():
     cdd_names = []
     batch_ids = []
     external_ids = []
+    canonical_ids = []
     virtual_list = []
     for_synthesis_list = []
     made_list = []
@@ -98,6 +99,10 @@ def get_current_vault_data():
                 cdd_names.append(mol['name'])
                 batch_ids.append(mol['batches'][i]['id'])
                 external_ids.append(mol['batches'][i]['batch_fields']['External ID'])
+                if 'Canonical PostEra ID' in mol['batches'][i]['batch_fields']:
+                    canonical_ids.append(mol['batches'][i]['batch_fields']['Canonical PostEra ID'])
+                else:
+                    canonical_ids.append(np.nan)
                 mol_ids.append(mol['id'])
                 project_names = []
                 for project in mol['batches'][i]['projects']:
@@ -124,6 +129,7 @@ def get_current_vault_data():
             "CDD_name": cdd_names,
             "molecule_ID": mol_ids,
             "batch_ID": batch_ids,
+            "canonical_CID": canonical_ids,
             "virtual_project": virtual_list,
             "for_synthesis_project": for_synthesis_list,
             "made_project": made_list,
