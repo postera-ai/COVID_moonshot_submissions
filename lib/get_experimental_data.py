@@ -30,15 +30,73 @@ virtual_project_id = "12336"
 synthesis_project_id = "12334"
 made_project_id = "12335"
 
-rapidfire_protocol_id = "49700"
-fluorescence_protocol_id = "49439"
+rapidfire_IC50_protocol_id = "49700"
+rapidfire_inhibition_protocol_id = "49192"
+fluorescence_IC50_protocol_id = "49439"
+fluorescence_inhibition_protocol_id = "49412"
 solubility_protocol_id = "49275"
 trypsin_protocol_id = "49443"
 
 
-def get_rapidfire_data():
+def get_rapidfire_inhibition_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_protocol_id}/data?page_size=1000"
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_inhibition_protocol_id}/data?page_size=1000"
+    headers = {"X-CDD-token": vault_token}
+    response = requests.get(url, headers=headers)
+    inhibition_response_dict = response.json()["objects"]
+
+    inhibition_data_dict = {}
+    for mol_dict in inhibition_response_dict:
+        if "molecule" not in mol_dict:
+            continue
+        mol_id = mol_dict["molecule"]
+        if mol_dict["readouts"]["553839"] == 20.0:
+            if mol_id not in inhibition_data_dict:
+                inhibition_data_dict[mol_id] = {
+                    "20_uM": mol_dict["readouts"]["553894"]["value"]
+                }
+            else:
+                inhibition_data_dict[mol_id]["20_uM"] = mol_dict["readouts"][
+                    "553894"
+                ]["value"]
+
+        elif mol_dict["readouts"]["553839"] == 50.0:
+            if mol_id not in inhibition_data_dict:
+                inhibition_data_dict[mol_id] = {
+                    "50_uM": mol_dict["readouts"]["553894"]["value"]
+                }
+            else:
+                inhibition_data_dict[mol_id]["50_uM"] = mol_dict["readouts"][
+                    "553894"
+                ]["value"]
+
+    mol_id_list = [float(x) for x in inhibition_data_dict.keys()]
+    for mol_id in mol_id_list:
+        if "20_uM" not in inhibition_data_dict[mol_id]:
+            inhibition_data_dict[mol_id]["20_uM"] = np.nan
+        if "50_uM" not in inhibition_data_dict[mol_id]:
+            inhibition_data_dict[mol_id]["50_uM"] = np.nan
+    inhibition_at_20_uM_list = [
+        inhibition_data_dict[mol_id]["20_uM"] for mol_id in mol_id_list
+    ]
+    inhibition_at_50_uM_list = [
+        inhibition_data_dict[mol_id]["50_uM"] for mol_id in mol_id_list
+    ]
+
+    inhibition_df = pd.DataFrame(
+        {
+            "CDD_mol_ID": mol_id_list,
+            "r_inhibition_at_20_uM": inhibition_at_20_uM_list,
+            "r_inhibition_at_50_uM": inhibition_at_50_uM_list,
+        }
+    )
+    inhibition_df = inhibition_df.drop_duplicates(subset="CDD_mol_ID")
+    return inhibition_df
+
+
+def get_rapidfire_IC50_data():
+
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_IC50_protocol_id}/data?page_size=1000"
     headers = {"X-CDD-token": vault_token}
     response = requests.get(url, headers=headers)
     rapid_fire_dose_response_dict = response.json()["objects"]
@@ -46,25 +104,83 @@ def get_rapidfire_data():
     mol_id_list = []
     ic50_list = []
 
-    for mol_dict in rapid_fire_dose_response_dict["objects"]:
+    for mol_dict in rapid_fire_dose_response_dict:
         mol_id = mol_dict["molecule"]
         if "560634" in mol_dict["readouts"]:
             ic50 = mol_dict["readouts"]["560634"]
         else:
             ic50 = np.nan
 
-        mol_id_list.append(mol_id)
+        mol_id_list.append(float(mol_id))
         ic50_list.append(ic50)
 
     rapidfire_df = pd.DataFrame(
         {"CDD_mol_ID": mol_id_list, "r_IC50": ic50_list}
     )
+    rapidfire_df = rapidfire_df.drop_duplicates(subset="CDD_mol_ID")
     return rapidfire_df
 
 
-def get_fluorescense_data():
+def get_fluorescense_inhibition_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_protocol_id}/data?page_size=1000"
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_inhibition_protocol_id}/data?page_size=1000"
+    headers = {"X-CDD-token": vault_token}
+    response = requests.get(url, headers=headers)
+    inhibition_response_dict = response.json()["objects"]
+
+    inhibition_data_dict = {}
+    for mol_dict in inhibition_response_dict:
+        if "molecule" not in mol_dict:
+            continue
+        mol_id = mol_dict["molecule"]
+        if mol_dict["readouts"]["556717"] == 20.0:
+            if mol_id not in inhibition_data_dict:
+                inhibition_data_dict[mol_id] = {
+                    "20_uM": mol_dict["readouts"]["556718"]["value"]
+                }
+            else:
+                inhibition_data_dict[mol_id]["20_uM"] = mol_dict["readouts"][
+                    "556718"
+                ]["value"]
+
+        elif mol_dict["readouts"]["556717"] == 50.0:
+            if mol_id not in inhibition_data_dict:
+                inhibition_data_dict[mol_id] = {
+                    "50_uM": mol_dict["readouts"]["556718"]["value"]
+                }
+            else:
+                inhibition_data_dict[mol_id]["50_uM"] = mol_dict["readouts"][
+                    "556718"
+                ]["value"]
+
+    mol_id_list = [float(x) for x in inhibition_data_dict.keys()]
+    for mol_id in mol_id_list:
+        if "20_uM" not in inhibition_data_dict[mol_id]:
+            inhibition_data_dict[mol_id]["20_uM"] = np.nan
+        if "50_uM" not in inhibition_data_dict[mol_id]:
+            inhibition_data_dict[mol_id]["50_uM"] = np.nan
+
+    inhibition_at_20_uM_list = [
+        inhibition_data_dict[mol_id]["20_uM"] for mol_id in mol_id_list
+    ]
+    inhibition_at_50_uM_list = [
+        inhibition_data_dict[mol_id]["50_uM"] for mol_id in mol_id_list
+    ]
+
+    inhibition_df = pd.DataFrame(
+        {
+            "CDD_mol_ID": mol_id_list,
+            "f_inhibition_at_20_uM": inhibition_at_20_uM_list,
+            "f_inhibition_at_50_uM": inhibition_at_50_uM_list,
+        }
+    )
+    inhibition_df = inhibition_df.drop_duplicates(subset="CDD_mol_ID")
+    return inhibition_df
+
+
+def get_fluorescense_IC50_data():
+
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_IC50_protocol_id}/data?page_size=1000"
     headers = {"X-CDD-token": vault_token}
     response = requests.get(url, headers=headers)
     fluorescence_response_dict = response.json()["objects"]
@@ -91,22 +207,20 @@ def get_fluorescense_data():
             avg_ic50 = np.nan
 
         if "557738" in mol_dict["readouts"]:
-            avg_pic50 = mol_dict["readouts"]["557738"]
+            if type(mol_dict["readouts"]["557738"]) == dict:
+                avg_pic50 = np.nan
+            else:
+                avg_pic50 = mol_dict["readouts"]["557738"]
         else:
             avg_pic50 = np.nan
 
         if "557085" in mol_dict["readouts"]:
-            min_reading = mol_dict["readouts"]["557085"]
+            min_reading = mol_dict["readouts"]["557085"]["value"]
         else:
             min_reading = np.nan
 
         if "557086" in mol_dict["readouts"]:
-            max_reading = mol_dict["readouts"]["557086"]
-        else:
-            max_reading = np.nan
-
-        if "557086" in mol_dict["readouts"]:
-            max_reading = mol_dict["readouts"]["557086"]
+            max_reading = mol_dict["readouts"]["557086"]["value"]
         else:
             max_reading = np.nan
 
@@ -120,7 +234,7 @@ def get_fluorescense_data():
         else:
             r2 = np.nan
 
-        mol_id_list.append(mol_id)
+        mol_id_list.append(float(mol_id))
         avg_ic50_list.append(avg_ic50)
         avg_pic50_list.append(avg_pic50)
         max_reading_list.append(max_reading)
@@ -135,10 +249,11 @@ def get_fluorescense_data():
             "f_avg_pIC50": avg_pic50_list,
             "f_max_inhibition_reading": max_reading_list,
             "f_min_inhibition_reading": min_reading_list,
-            "f_hill_slope": hill_slope,
+            "f_hill_slope": hill_slope_list,
             "f_R2": r2_list,
         }
     )
+    fluorescence_df = fluorescence_df.drop_duplicates(subset="CDD_mol_ID")
     return fluorescence_df
 
 
@@ -172,8 +287,7 @@ def get_solubility_data():
                     "555388"
                 ]["value"]
 
-    solubility_data_dict
-    mol_id_list = solubility_data_dict.keys()
+    mol_id_list = [float(x) for x in solubility_data_dict.keys()]
     relative_solubility_at_20_uM_list = [
         solubility_data_dict[mol_id]["20_uM"] for mol_id in mol_id_list
     ]
@@ -188,12 +302,13 @@ def get_solubility_data():
             "relative_solubility_at_100_uM": relative_solubility_at_100_uM_list,
         }
     )
+    solubility_df = solubility_df.drop_duplicates(subset="CDD_mol_ID")
     return solubility_df
 
 
 def get_trypsin_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{solubility_protocol_id}/data?page_size=1000"
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{trypsin_protocol_id}/data?page_size=1000"
     headers = {"X-CDD-token": vault_token}
     response = requests.get(url, headers=headers)
     trypsin_response_dict = response.json()["objects"]
@@ -205,6 +320,8 @@ def get_trypsin_data():
         if "molecule" not in mol_dict:
             continue
         mol_id = mol_dict["molecule"]
+        if mol_id in mol_id_list:
+            continue
 
         if "557122" in mol_dict["readouts"]:
             if type(mol_dict["readouts"]["557122"]) == float:
@@ -217,10 +334,11 @@ def get_trypsin_data():
         else:
             ic50 = np.nan
 
-        mol_id_list.append(mol_id)
+        mol_id_list.append(float(mol_id))
         ic50_list.append(ic50)
 
     trypsin_df = pd.DataFrame(
         {"CDD_mol_ID": mol_id_list, "trypsin_IC50": ic50_list}
     )
+    trypsin_df = trypsin_df.drop_duplicates(subset="CDD_mol_ID")
     return trypsin_df

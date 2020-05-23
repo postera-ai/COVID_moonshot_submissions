@@ -140,17 +140,17 @@ current_cdd_df.to_csv(
 
 # update master file
 all_df["CDD_name"] = all_df["CID"].apply(
-    lambda x: current_cdd_df[current_cdd_df["external_ID"] == x][
+    lambda x: current_cdd_df.loc[current_cdd_df["external_ID"] == x][
         "CDD_name"
     ].item()
-    if ("CID" in list(current_cdd_df["external_ID"]))
+    if (x in list(current_cdd_df["external_ID"]))
     else np.nan
 )
 all_df["CDD_mol_ID"] = all_df["CID"].apply(
-    lambda x: current_cdd_df[current_cdd_df["external_ID"] == x][
+    lambda x: current_cdd_df.loc[current_cdd_df["external_ID"] == x][
         "molecule_ID"
     ].item()
-    if ("CID" in list(current_cdd_df["external_ID"]))
+    if (x in list(current_cdd_df["external_ID"]))
     else np.nan
 )
 
@@ -176,20 +176,65 @@ add_to_made_df.to_csv(
 
 # get assay data
 from lib.get_experimental_data import (
-    get_rapidfire_data,
-    get_fluorescence_data,
+    get_rapidfire_inhibition_data,
+    get_rapidfire_IC50_data,
+    get_fluorescense_inhibition_data,
+    get_fluorescense_IC50_data,
     get_solubility_data,
     get_trypsin_data,
 )
 
-rapidfire_df = get_rapidfire_data()
-fluorescence_df = get_fluorescence_data()
+rapidfire_inhibition_df = get_rapidfire_inhibition_data()
+rapidfire_IC50_df = get_rapidfire_IC50_data()
+
+fluorescence_inhibition_df = get_fluorescense_inhibition_data()
+fluorescence_IC50_df = get_fluorescense_IC50_data()
+
 solubility_df = get_solubility_data()
 trypsin_df = get_trypsin_data()
 
-all_df = pd.merge(all_df, rapidfire_df, how="left", on=["CDD_mol_ID"])
-all_df = pd.merge(all_df, fluorescence_df, how="left", on=["CDD_mol_ID"])
+all_df = pd.merge(
+    all_df, rapidfire_inhibition_df, how="left", on=["CDD_mol_ID"]
+)
+all_df = pd.merge(all_df, rapidfire_IC50_df, how="left", on=["CDD_mol_ID"])
+all_df = pd.merge(
+    all_df, fluorescence_inhibition_df, how="left", on=["CDD_mol_ID"]
+)
+all_df = pd.merge(all_df, fluorescence_IC50_df, how="left", on=["CDD_mol_ID"])
 all_df = pd.merge(all_df, solubility_df, how="left", on=["CDD_mol_ID"])
 all_df = pd.merge(all_df, trypsin_df, how="left", on=["CDD_mol_ID"])
 
-all_df.to_csv(dir_path / 'test.csv', index=False)
+### only list things with at least one inhibition value as assayed
+ordered_iks = [
+    Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+    for x in list(synthesis_df["SMILES"])
+]
+made_iks = [
+    Chem.MolToInchiKey(Chem.MolFromSmiles(x)) for x in list(made_df["SMILES"])
+]
+
+assayed_df = all_df.loc[
+    (
+        (all_df["r_inhibition_at_20_uM"].notnull())
+        | (all_df["r_inhibition_at_50_uM"].notnull())
+        | (all_df["f_inhibition_at_20_uM"].notnull())
+        | (all_df["f_inhibition_at_50_uM"].notnull())
+    )
+]
+assayed_iks = [
+    Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+    for x in list(assayed_df["SMILES"])
+]
+
+all_df["ORDERED"] = all_df["InChIKey"].apply(
+    lambda x: "TRUE"
+    if ((x in ordered_iks) or (x in made_iks) or (x in assayed_iks))
+    else "FALSE"
+)
+all_df["MADE"] = all_df["InChIKey"].apply(
+    lambda x: "TRUE" if ((x in made_iks) or (x in assayed_iks)) else "FALSE"
+)
+all_df["ASSAYED"] = all_df["InChIKey"].apply(
+    lambda x: "TRUE" if x in assayed_iks else "FALSE"
+)
+all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
