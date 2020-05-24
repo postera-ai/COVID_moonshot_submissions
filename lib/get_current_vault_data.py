@@ -30,7 +30,6 @@ synthesis_project_id = "12334"
 made_project_id = "12335"
 
 
-
 def get_current_vault_data():
 
     # Start exporting of all mols
