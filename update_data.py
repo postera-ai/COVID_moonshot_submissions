@@ -21,14 +21,17 @@ from pathlib import Path
 dir_path = Path(__file__).parent.absolute()
 
 
-def update_data(fetch_submissions=True,
-                fetch_orders=True,
-                fetch_shipments=True,
-                fetch_CDD=True,
-                get_CDD_updates=True,
-                fetch_assays=True,
-                update_tracking_status=True,
-                update_plots=True):
+def update_data(
+    fetch_submissions=True,
+    fetch_orders=True,
+    fetch_shipments=True,
+    fetch_CDD=True,
+    get_CDD_updates=True,
+    fetch_assays=True,
+    fetch_structures=True,
+    update_tracking_status=True,
+    update_plots=True,
+):
 
     ### First Get the data ###
     if fetch_submissions:
@@ -52,14 +55,21 @@ def update_data(fetch_submissions=True,
             else:
                 return x["old_CID"]
 
-        id_df = all_df.copy()[["SMILES", "CID", "CID (canonical)", "CID (old format)"]]
+        id_df = all_df.copy()[
+            ["SMILES", "CID", "CID (canonical)", "CID (old format)"]
+        ]
         id_df = id_df.rename(
-            columns={"CID (old format)": "old_CID", "CID (canonical)": "canonical_CID"}
+            columns={
+                "CID (old format)": "old_CID",
+                "CID (canonical)": "canonical_CID",
+            }
         )
         id_df["inchikey"] = id_df["SMILES"].apply(
             lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
         )
-        id_df["short_inchikey"] = id_df["inchikey"].apply(lambda x: x.split("-")[0])
+        id_df["short_inchikey"] = id_df["inchikey"].apply(
+            lambda x: x.split("-")[0]
+        )
         id_df["old_CID"] = id_df.apply(create_old_cid, axis=1)
         id_df.to_csv(dir_path / "covid_moonshot_ids.csv", index=False)
     else:
@@ -75,7 +85,9 @@ def update_data(fetch_submissions=True,
             if "all_ordered_mols.csv" not in str(f)
         ]
         orders_df = update_orders_data(order_csv_files)
-        orders_df.to_csv(dir_path / "orders" / "all_ordered_mols.csv", index=False)
+        orders_df.to_csv(
+            dir_path / "orders" / "all_ordered_mols.csv", index=False
+        )
     else:
         orders_df = pd.read_csv(dir_path / "orders" / "all_ordered_mols.csv")
 
@@ -104,13 +116,15 @@ def update_data(fetch_submissions=True,
         diamond_dfs = create_diamond_files(received_csv_files)
         for diamond_df, diamond_fn in diamond_dfs:
             diamond_df.to_csv(
-                dir_path / "shipments" / "diamond_files" / diamond_fn, index=False
+                dir_path / "shipments" / "diamond_files" / diamond_fn,
+                index=False,
             )
 
         weizmann_dfs = create_weizmann_files(received_csv_files)
         for weizmann_df, weizmann_fn in weizmann_dfs:
             weizmann_df.to_csv(
-                dir_path / "shipments" / "weizmann_files" / weizmann_fn, index=False
+                dir_path / "shipments" / "weizmann_files" / weizmann_fn,
+                index=False,
             )
     else:
         shipments_df = pd.read_csv(
@@ -123,13 +137,17 @@ def update_data(fetch_submissions=True,
     received_df = pd.read_csv(dir_path / "shipments" / "all_received_mols.csv")
     made_df = received_df.copy()
     made_df.to_csv(
-        dir_path / "data_for_CDD" / "compounds" / "Compounds_Made.csv", index=False
+        dir_path / "data_for_CDD" / "compounds" / "Compounds_Made.csv",
+        index=False,
     )
 
     ordered_df = pd.read_csv(dir_path / "orders" / "all_ordered_mols.csv")
     synthesis_df = ordered_df.copy()
     synthesis_df.to_csv(
-        dir_path / "data_for_CDD" / "compounds" / "Compounds_for_Synthesis.csv",
+        dir_path
+        / "data_for_CDD"
+        / "compounds"
+        / "Compounds_for_Synthesis.csv",
         index=False,
     )
 
@@ -172,7 +190,8 @@ def update_data(fetch_submissions=True,
             dir_path
             / "data_for_CDD"
             / "current_vault_data"
-            / "current_vault_data.csv")
+            / "current_vault_data.csv"
+        )
 
     # get the necessary updates to CDD
     from lib.get_CDD_updates import get_CDD_updates
@@ -183,11 +202,17 @@ def update_data(fetch_submissions=True,
         )
 
         add_to_virtual_df.to_csv(
-            dir_path / "data_for_CDD" / "vault_updates" / "add_to_virtual_df.csv",
+            dir_path
+            / "data_for_CDD"
+            / "vault_updates"
+            / "add_to_virtual_df.csv",
             index=False,
         )
         add_to_synthesis_df.to_csv(
-            dir_path / "data_for_CDD" / "vault_updates" / "add_to_synthesis_df.csv",
+            dir_path
+            / "data_for_CDD"
+            / "vault_updates"
+            / "add_to_synthesis_df.csv",
             index=False,
         )
         add_to_made_df.to_csv(
@@ -218,13 +243,30 @@ def update_data(fetch_submissions=True,
         all_df = pd.merge(
             all_df, rapidfire_inhibition_df, how="left", on=["CDD_mol_ID"]
         )
-        all_df = pd.merge(all_df, rapidfire_IC50_df, how="left", on=["CDD_mol_ID"])
+        all_df = pd.merge(
+            all_df, rapidfire_IC50_df, how="left", on=["CDD_mol_ID"]
+        )
         all_df = pd.merge(
             all_df, fluorescence_inhibition_df, how="left", on=["CDD_mol_ID"]
         )
-        all_df = pd.merge(all_df, fluorescence_IC50_df, how="left", on=["CDD_mol_ID"])
+        all_df = pd.merge(
+            all_df, fluorescence_IC50_df, how="left", on=["CDD_mol_ID"]
+        )
         all_df = pd.merge(all_df, solubility_df, how="left", on=["CDD_mol_ID"])
         all_df = pd.merge(all_df, trypsin_df, how="left", on=["CDD_mol_ID"])
+
+    if fetch_structures:
+        # update structural info
+        structures_df = pd.read_csv(
+            dir_path / "structures" / "fragalysis_structures.csv"
+        )
+        structures_df["InChIKey"] = structures_df["SMILES"].apply(
+            lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+        )
+        structures_df = structures_df[
+            ["InChIKey", "frag_ID", "fragalysis_link"]
+        ]
+        all_df = pd.merge(all_df, structures_df, how="left", on=["InChIKey"])
 
     if update_tracking_status:
         ### only list things with at least one inhibition value as assayed
@@ -233,7 +275,8 @@ def update_data(fetch_submissions=True,
             for x in list(synthesis_df["SMILES"])
         ]
         made_iks = [
-            Chem.MolToInchiKey(Chem.MolFromSmiles(x)) for x in list(made_df["SMILES"])
+            Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+            for x in list(made_df["SMILES"])
         ]
 
         assayed_df = all_df.loc[
@@ -255,7 +298,9 @@ def update_data(fetch_submissions=True,
             else "FALSE"
         )
         all_df["MADE"] = all_df["InChIKey"].apply(
-            lambda x: "TRUE" if ((x in made_iks) or (x in assayed_iks)) else "FALSE"
+            lambda x: "TRUE"
+            if ((x in made_iks) or (x in assayed_iks))
+            else "FALSE"
         )
         all_df["ASSAYED"] = all_df["InChIKey"].apply(
             lambda x: "TRUE" if x in assayed_iks else "FALSE"
@@ -265,33 +310,37 @@ def update_data(fetch_submissions=True,
 
     if update_plots:
         from lib.create_tracking_plot import create_tracking_plot_spec
+
         tracking_plot_spec_data = create_tracking_plot_spec(all_df)
-        with open(dir_path / "plots" / "tracking_plot_vega_spec.json", "w") as f:
+        with open(
+            dir_path / "plots" / "tracking_plot_vega_spec.json", "w"
+        ) as f:
             f.write(tracking_plot_spec_data)
 
         from lib.create_pIC50_plot import create_pIC50_html
+
         pIC50_html_data = create_pIC50_html(all_df)
         with open(dir_path / "plots" / "pIC50_plot.html", "w") as f:
             f.writelines(pIC50_html_data)
 
         from lib.create_dose_response_plot import create_dose_response_spec
+
         dose_response_spec_data = create_dose_response_spec(all_df)
-        with open(dir_path / "plots" / "dose_response_vega_spec.json", "w") as f:
+        with open(
+            dir_path / "plots" / "dose_response_vega_spec.json", "w"
+        ) as f:
             f.writelines(dose_response_spec_data)
 
 
 if __name__ == "__main__":
-    update_data(fetch_submissions=True,
-                fetch_orders=True,
-                fetch_shipments=True,
-                fetch_CDD=True,
-                get_CDD_updates=True,
-                fetch_assays=True,
-                update_tracking_status=True,
-                update_plots=True)
-
-
-    
-
-
-
+    update_data(
+        fetch_submissions=True,
+        fetch_orders=True,
+        fetch_shipments=True,
+        fetch_CDD=True,
+        get_CDD_updates=True,
+        fetch_assays=True,
+        fetch_structures=True,
+        update_tracking_status=True,
+        update_plots=True,
+    )
