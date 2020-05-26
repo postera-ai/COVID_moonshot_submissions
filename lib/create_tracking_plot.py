@@ -51,17 +51,10 @@ def create_tracking_plot_spec(all_df):
     )
 
     tracking_plot.save(
-        str(dir_path / "scr" / "tracking_plot.html"),
-        format="html",
-        embed_options={"renderer": "svg"},
+        str(dir_path / "scr" / "tracking_plot.json")
     )
+    with open(str(dir_path / "scr" / "tracking_plot.json"), "r") as f:
+        json_data = f.readlines()
 
-    with open(dir_path / "scr" / "tracking_plot.html", "r") as f:
-        html_data = f.readlines()
+    return json_data
 
-    for line in html_data:
-        if "var spec" in line:
-            spec_data = line
-            spec_data = spec_data.strip(";").split("var spec = ")[1]
-
-    return spec_data

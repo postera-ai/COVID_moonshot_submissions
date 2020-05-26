@@ -2,3 +2,64 @@ SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
 Cc1nc[nH]c1CN1CCN(Cc2cccc(Cl)c2)C1=O,ALP-POS-91609ae9-1,"Alpha Lee, PostEra",x0072,False,ALP-POS-91609ae9-1
 Cc1nc(N)sc1CN1CCN(Cc2cccc(Cl)c2)C1=O,ALP-POS-91609ae9-2,"Alpha Lee, PostEra",x0072,False,ALP-POS-91609ae9-2
 O=C1N(Cc2cccc(Cl)c2)CCN1c1nccc2[nH]ncc12,ALP-POS-91609ae9-3,"Alpha Lee, PostEra",x0072,False,ALP-POS-91609ae9-3
+N#CC1C=NN=S1C(F)(F)F,ABI-SAT-2adc218e-1,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-1
+NC1CC1C(F)(F)F,ABI-SAT-2adc218e-2,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-2
+N#CC1CCC(O)CC1=O,ABI-SAT-2adc218e-3,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-3
+N#CC1C2C1C2C(F)(F)F,ABI-SAT-2adc218e-4,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-4
+CC1C(C#N)C1C(N)=O,ABI-SAT-2adc218e-5,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-5
+NC1C(=O)C1CO,ABI-SAT-2adc218e-6,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-6
+N#CCF,ABI-SAT-2adc218e-7,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-7
+N#CCC1C(O)C1F,ABI-SAT-2adc218e-8,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-8
+N#CC1C(O)C1C(N)=O,ABI-SAT-2adc218e-9,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-9
+N#CC1CC(C(F)(F)F)C1O,ABI-SAT-2adc218e-10,"Abintha, SATEC",x0991,False,ABI-SAT-2adc218e-10
+CC1CC(C#N)C1,ABI-SAT-128a7dc3-1,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-1
+N#CCC(O)(F)F,ABI-SAT-128a7dc3-2,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-2
+CC(F)C#N,ABI-SAT-128a7dc3-3,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-3
+N#CC(F)C1CC1,ABI-SAT-128a7dc3-4,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-4
+N#CC1C(F)C1CN,ABI-SAT-128a7dc3-5,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-5
+CS(=O)(=O)C1=C(Cl)CC(CCN)=C1,ABI-SAT-128a7dc3-6,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-6
+CS(=O)(=O)C1=C(Cl)CC(C#N)C1,ABI-SAT-128a7dc3-7,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-7
+N#CC1CC1C(O)(F)F,ABI-SAT-128a7dc3-8,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-8
+N#CC1CCCC(C(F)(F)F)C(O)CC1,ABI-SAT-128a7dc3-9,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-9
+N#CC1CCCC(F)CC1,ABI-SAT-128a7dc3-10,"Abintha, SATEC",,False,ABI-SAT-128a7dc3-10
+CC(N)CC#N,ABI-SAT-3cb25904-1,"Abintha, SATEC",x0991,False,ABI-SAT-3cb25904-1
+CS(=O)(=O)CC1CCC(C#N)C1,ABI-SAT-3cb25904-2,"Abintha, SATEC",x0991,False,ABI-SAT-3cb25904-2
+N#CCC(F)(F)F,ABI-SAT-3cb25904-3,"Abintha, SATEC",x0991,False,ABI-SAT-3cb25904-3
+CC1C(C#N)C1C(F)(F)F,ABI-SAT-3cb25904-4,"Abintha, SATEC",x0991,False,ABI-SAT-3cb25904-4
+CC1C(C#N)C1S(C)(=O)=O,ABI-SAT-3cb25904-5,"Abintha, SATEC",x0991,False,ABI-SAT-3cb25904-5
+N#CC1CC1F,ABI-SAT-3cb25904-6,"Abintha, SATEC",x0991,False,ABI-SAT-3cb25904-6
+NC1=CS(=O)(=O)C1,ABI-SAT-4a04da85-1,"Abintha, SATEC",,False,ABI-SAT-4a04da85-1
+Cc1[nH]sc1C#N,ABI-SAT-27442b71-1,"Abintha, SATEC",,False,ABI-SAT-27442b71-1
+CS(=O)(=O)C1=NC=CC(O)N1,ABI-SAT-27442b71-2,"Abintha, SATEC",,False,ABI-SAT-27442b71-2
+CS(=O)(=O)C1=NC=C(c2ccc(C(N)=O)cc2)CN1,ABI-SAT-27442b71-3,"Abintha, SATEC",,False,ABI-SAT-27442b71-3
+NC(=O)C1=NCC(C2=CS(=O)(=O)CN2)=N1,ABI-SAT-27442b71-4,"Abintha, SATEC",,False,ABI-SAT-27442b71-4
+O=C(CCl)Nc1cccnc1,MAK-UNK-ca11b4f7-1,Maksym Voznyy,x0434,False,MAK-UNK-ca11b4f7-1
+C=CC(=O)Nc1cccnc1,MAK-UNK-ca11b4f7-2,Maksym Voznyy,x0434,False,MAK-UNK-ca11b4f7-2
+CC(=O)C(=O)Nc1cccnc1,MAK-UNK-ca11b4f7-3,Maksym Voznyy,x0434,False,MAK-UNK-ca11b4f7-3
+N#Cc1cccnc1,MAK-UNK-ca11b4f7-4,Maksym Voznyy,x0434,False,MAK-UNK-ca11b4f7-4
+O=C(NC/C=C/Cl)Nc1cccnc1,MAK-UNK-d1e89583-1,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-1
+O=C(Nc1cccnc1)Nc1ccsc1Cl,MAK-UNK-d1e89583-2,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-2
+O=C(NCc1cscc1Cl)Nc1cccnc1,MAK-UNK-d1e89583-3,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-3
+O=C(Nc1cccnc1)Nc1ccncc1Cl,MAK-UNK-d1e89583-4,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-4
+O=C(NCc1sccc1Cl)Nc1cccnc1,MAK-UNK-d1e89583-5,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-5
+O=C(NCc1ncccc1Cl)Nc1cccnc1,MAK-UNK-d1e89583-6,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-6
+O=C(Nc1cccnc1)Nc1csc(Cl)c1,MAK-UNK-d1e89583-7,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-7
+O=C(NCCc1ccccc1Cl)Nc1cccnc1,MAK-UNK-d1e89583-8,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-8
+O=C(NCc1cc(Cl)cs1)Nc1cccnc1,MAK-UNK-d1e89583-9,Maksym Voznyy,x0434,False,MAK-UNK-d1e89583-9
+O=C(CCl)N1CCN(Cc2cscc2Cl)CC1,SAD-SAT-bc31ec01-1,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-1
+O=C(CCl)N1CCS(=O)(=O)CC1,SAD-SAT-bc31ec01-2,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-2
+O=C(CCl)N1CCN(S(=O)(=O)C2CSCC(CCl)S2)CC1,SAD-SAT-bc31ec01-3,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-3
+O=C(CCl)N1CCN(S(=O)(=O)c2cpcc(Cl)c2)CC1,SAD-SAT-bc31ec01-4,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-4
+O=C(CCl)N1CCN(S(=O)(=O)c2cc(Cl)cc(Cl)c2)CC1,SAD-SAT-bc31ec01-5,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-5
+O=C(CCl)N1CCN2c3cc(F)ccc3SC2C1,SAD-SAT-bc31ec01-6,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-6
+O=C(CCl)N1CCN(CC2=CC3OCOC3C=C2)CC1,SAD-SAT-bc31ec01-7,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-7
+O=C(CCl)N1CCN(S(=O)(=O)C2=CC3OCOC3C=C2)CC1,SAD-SAT-bc31ec01-8,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-8
+CC(=O)C(=O)N1CCN(S(=O)(=O)c2ccsc2)CC1,SAD-SAT-bc31ec01-9,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-9
+N#Cc1c(F)cccc1-c1ccccc1S(=O)(=O)N1CCN(C(=O)CCl)CC1,SAD-SAT-bc31ec01-10,"Sadit Joarder, SATEC","x0104,x0195",False,SAD-SAT-bc31ec01-10
+CNC(=O)C(=O)CN(Cc1c[nH]nn1)C(=O)[C@@H](C[C@@H]1CCNC1=O)c1cc(=O)c2c(O)cc(O)cc2o1,BOW-UNK-ca7e31b7-1,bowen tang,,False,BOW-UNK-ca7e31b7-1
+N#CC1CCN(C(=O)CCl)CC1,MAK-UNK-6c8f5f75-1,Maksym Voznyy,x0759,False,MAK-UNK-6c8f5f75-1
+N#CC1CCCN(C(=O)CCl)C1,MAK-UNK-6c8f5f75-2,Maksym Voznyy,x0759,False,MAK-UNK-6c8f5f75-2
+N#CC1C=CN(C(=O)CCl)C1,MAK-UNK-6c8f5f75-3,Maksym Voznyy,x0759,False,MAK-UNK-6c8f5f75-3
+N#CC1C=CN(C(=O)CCl)O1,MAK-UNK-6c8f5f75-4,Maksym Voznyy,x0759,False,MAK-UNK-6c8f5f75-4
+N#CC1C=CN(C(=O)CCl)S1(=O)=O,MAK-UNK-6c8f5f75-5,Maksym Voznyy,x0759,False,MAK-UNK-6c8f5f75-5
+O=C(CCl)N1C=CCS1(=O)=O,MAK-UNK-6c8f5f75-6,Maksym Voznyy,x0759,False,MAK-UNK-6c8f5f75-6

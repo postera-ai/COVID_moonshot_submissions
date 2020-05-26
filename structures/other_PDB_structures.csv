@@ -1,4 +1,4 @@
-PDB_ID,LINK,SMILES,Disease
+structure_ID,structure_LINK,SMILES,ORIGIN
 6LZE,https://www.rcsb.org/structure/6LZE,O=C(N[C@@H](CC1CCCCC1)C(N[C@@H](C[C@H](CCN2)C2=O)C=O)=O)C3=CC4=CC=CC=C4N3,SARS-COV-2
 6M0K,https://www.rcsb.org/structure/6M0K,O=C(N[C@@H](CC1=CC(F)=CC=C1)C(N[C@@H](C[C@H](CCN2)C2=O)C=O)=O)C3=CC4=CC=CC=C4N3,SARS-COV-2
 6M2N,https://www.rcsb.org/structure/6M2N,O=C1C=C(C2=CC=CC=C2)OC3=CC(O)=C(O)C(O)=C31,SARS-COV-2

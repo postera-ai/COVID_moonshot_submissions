@@ -264,7 +264,7 @@ def update_data(
             lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
         )
         structures_df = structures_df[
-            ["InChIKey", "frag_ID", "fragalysis_link"]
+            ["InChIKey", "structure_ID", "structure_LINK"]
         ]
         all_df = pd.merge(all_df, structures_df, how="left", on=["InChIKey"])
 
@@ -315,7 +315,7 @@ def update_data(
         with open(
             dir_path / "plots" / "tracking_plot_vega_spec.json", "w"
         ) as f:
-            f.write(tracking_plot_spec_data)
+            f.writelines(tracking_plot_spec_data)
 
         from lib.create_pIC50_plot import create_pIC50_html
 
