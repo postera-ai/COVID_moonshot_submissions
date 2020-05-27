@@ -96,6 +96,7 @@ def update_data(
         update_shipments_data,
         create_diamond_files,
         create_weizmann_files,
+        create_oxford_files,
     )
 
     if fetch_shipments:
@@ -124,6 +125,13 @@ def update_data(
         for weizmann_df, weizmann_fn in weizmann_dfs:
             weizmann_df.to_csv(
                 dir_path / "shipments" / "weizmann_files" / weizmann_fn,
+                index=False,
+            )
+
+        oxford_dfs = create_oxford_files(received_csv_files)
+        for oxford_df, oxford_fn in oxford_dfs:
+            oxford_df.to_csv(
+                dir_path / "shipments" / "oxford_files" / oxford_fn,
                 index=False,
             )
     else:
@@ -323,13 +331,27 @@ def update_data(
         with open(dir_path / "plots" / "pIC50_plot.html", "w") as f:
             f.writelines(pIC50_html_data)
 
-        from lib.create_dose_response_plot import create_dose_response_spec
+        from lib.create_dose_response_plot import (
+            create_dose_response_spec,
+            create_dose_response_spec_chloroacetamides,
+        )
 
         dose_response_spec_data = create_dose_response_spec(all_df)
         with open(
             dir_path / "plots" / "dose_response_vega_spec.json", "w"
         ) as f:
             f.writelines(dose_response_spec_data)
+
+        chloroacetamides_dose_response_spec_data = create_dose_response_spec_chloroacetamides(
+            all_df
+        )
+        with open(
+            dir_path
+            / "plots"
+            / "chloroacetamides_dose_response_vega_spec.json",
+            "w",
+        ) as f:
+            f.writelines(chloroacetamides_dose_response_spec_data)
 
 
 if __name__ == "__main__":

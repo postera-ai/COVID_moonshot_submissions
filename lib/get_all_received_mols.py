@@ -94,6 +94,7 @@ def create_diamond_files(received_csv_files):
                         "volume(uL)",
                         "concentration(mM)",
                         "external_ID",
+                        "stereochemistry",
                     ]
                 ]
                 received_df = received_df.rename(
@@ -104,6 +105,10 @@ def create_diamond_files(received_csv_files):
                         "volume(uL)": "Volume (ul)",
                         "concentration(mM)": "Concentration (mM)",
                     }
+                )
+                # get rid of chemaxon style smiles
+                received_df["SMILES"] = received_df["SMILES"].apply(
+                    lambda x: x.split(' ')[0]
                 )
 
                 diamond_dfs.append([received_df, new_filename])
@@ -152,7 +157,6 @@ def create_weizmann_files(received_csv_files):
                         "CDD_ID",
                         "shipment_ID",
                         "catalog_ID",
-                        "sample_MW",
                         "purity",
                         "volume(uL)",
                         "concentration(mM)",
@@ -171,6 +175,62 @@ def create_weizmann_files(received_csv_files):
                 pass
 
     return weizmann_dfs
+
+
+def create_oxford_files(received_csv_files):
+
+    oxford_dfs = []
+
+    for csv_file in received_csv_files:
+        if "oxford" in str(csv_file):
+            try:
+                received_df = pd.read_csv(csv_file)
+                received_df["standard_SMILES"] = received_df["SMILES"].apply(
+                    lambda x: strip_and_standardize_smi(x)
+                )
+                received_df["inchikey"] = received_df["standard_SMILES"].apply(
+                    lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+                )
+                received_df["external_ID"] = received_df["inchikey"].apply(
+                    lambda x: get_CID(x)
+                )
+                received_df["CDD_ID"] = received_df["external_ID"].apply(
+                    lambda x: get_CDD_ID(x)
+                )
+                received_df["PostEra_comments"] = received_df[
+                    "inchikey"
+                ].apply(lambda x: get_comments(x))
+                new_filename = (
+                    str(csv_file)
+                    .split("/")[-1]
+                    .replace("oxford", "oxford_annotated")
+                )
+
+                received_df = received_df[
+                    [
+                        "SMILES",
+                        "external_ID",
+                        "CDD_ID",
+                        "shipment_ID",
+                        "catalog_ID",
+                        "purity",
+                        "volume(uL)",
+                        "concentration(mM)",
+                        "plate_ID",
+                        "well",
+                        "stereochemistry",
+                        "PostEra_comments",
+                    ]
+                ]
+
+                oxford_dfs.append([received_df, new_filename])
+
+            except Exception as e:
+                print(f"FAILED ON {csv_file}")
+                raise e
+                pass
+
+    return oxford_dfs
 
 
 if __name__ == "__main__":

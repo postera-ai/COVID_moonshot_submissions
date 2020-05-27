@@ -55,23 +55,23 @@ def get_CDD_updates(all_df, current_cdd_df, virtual_df, synthesis_df, made_df):
     extra_cids_to_add_to_synthesis = []
     extra_cids_to_add_to_made = []
 
-    for cid in list(add_to_synthesis_df["CID"]):
-        CDD_name = all_df.loc[all_df["CID"] == cid]["CDD_name"].item()
-        if len(list(all_df.loc[all_df["CDD_name"] == CDD_name])) > 1:
-            cids_to_add = list(
-                all_df.loc[all_df["CDD_name"] == CDD_name]["CID"]
-            )
-            cids_to_add.remove(cid)
-            extra_cids_to_add_to_synthesis.extend(cids_to_add)
+    # for cid in list(add_to_synthesis_df["CID"]):
+    #     CDD_name = all_df.loc[all_df["CID"] == cid]["CDD_name"].item()
+    #     if len(list(all_df.loc[all_df["CDD_name"] == CDD_name])) > 1:
+    #         cids_to_add = list(
+    #             all_df.loc[all_df["CDD_name"] == CDD_name]["CID"]
+    #         )
+    #         cids_to_add.remove(cid)
+    #         extra_cids_to_add_to_synthesis.extend(cids_to_add)
 
-    for cid in list(add_to_made_df["CID"]):
-        CDD_name = all_df.loc[all_df["CID"] == cid]["CDD_name"].item()
-        if len(list(all_df.loc[all_df["CDD_name"] == CDD_name])) > 1:
-            cids_to_add = list(
-                all_df.loc[all_df["CDD_name"] == CDD_name]["CID"]
-            )
-            cids_to_add.remove(cid)
-            extra_cids_to_add_to_made.extend(cids_to_add)
+    # for cid in list(add_to_made_df["CID"]):
+    #     CDD_name = list(all_df.loc[all_df["CID"] == cid]["CDD_name"])[0]  # .item()
+    #     if len(list(all_df.loc[all_df["CDD_name"] == CDD_name])) > 1:
+    #         cids_to_add = list(
+    #             all_df.loc[all_df["CDD_name"] == CDD_name]["CID"]
+    #         )
+    #         cids_to_add.remove(cid)
+    #         extra_cids_to_add_to_made.extend(cids_to_add)
 
     # # mapping all the extra ids, which are batches of those mols,
     # # slight delay of one round for these

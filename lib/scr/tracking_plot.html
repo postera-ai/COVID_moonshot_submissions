@@ -14,8 +14,8 @@
   <div id="vis"></div>
   <script>
     (function(vegaEmbed) {
-      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-97ea2737170cbdc34c49a164651af521"}, "mark": {"type": "bar", "opacity": 0.7}, "encoding": {"color": {"type": "nominal", "field": "color", "legend": null}, "x": {"type": "quantitative", "field": "num_mols", "stack": null, "title": "Number of Molecules (from 6189 unique designs)"}, "y": {"type": "ordinal", "field": "stage", "sort": ["Ordered", "Made", "Assayed"], "title": "Stage"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-97ea2737170cbdc34c49a164651af521": [{"stage": "Ordered", "color": "Ordered", "num_mols": 921}, {"stage": "Made", "color": "Made", "num_mols": 411}, {"stage": "Assayed", "color": "Assayed", "num_mols": 240}]}};
-      var embedOpt = {"renderer": "svg", "mode": "vega-lite"};
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-2469194a4937ff9db3551ede72b3cf08"}, "mark": {"type": "bar", "opacity": 0.7}, "encoding": {"color": {"type": "nominal", "field": "color", "legend": null}, "x": {"type": "quantitative", "field": "num_mols", "stack": null, "title": "Number of Molecules (from 6337 unique designs)"}, "y": {"type": "ordinal", "field": "stage", "sort": ["Ordered", "Made", "Assayed"], "title": "Stage"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-2469194a4937ff9db3551ede72b3cf08": [{"stage": "Ordered", "color": "Ordered", "num_mols": 930}, {"stage": "Made", "color": "Made", "num_mols": 465}, {"stage": "Assayed", "color": "Assayed", "num_mols": 405}]}};
+      var embedOpt = {"mode": "vega-lite"};
 
       function showError(el, error){
           el.innerHTML = ('<div class="error" style="color:red;">'

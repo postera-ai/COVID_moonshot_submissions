@@ -51,6 +51,9 @@ def create_tracking_plot_spec(all_df):
     )
 
     tracking_plot.save(
+        str(dir_path / "scr" / "tracking_plot.html")
+    )
+    tracking_plot.save(
         str(dir_path / "scr" / "tracking_plot.json")
     )
     with open(str(dir_path / "scr" / "tracking_plot.json"), "r") as f:

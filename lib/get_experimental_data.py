@@ -38,11 +38,55 @@ solubility_protocol_id = "49275"
 trypsin_protocol_id = "49443"
 
 
+def get_async_export(async_url):
+    headers = {"X-CDD-token": vault_token}
+    response = requests.get(async_url, headers=headers)
+    print("BEGINNING EXPORT")
+    print(response)
+    export_info = response.json()
+
+    export_id = export_info["id"]
+
+    # CHECK STATUS of Export
+    status = None
+    seconds_waiting = 0
+
+    while status != "finished":
+        headers = {"X-CDD-token": vault_token}
+        url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/export_progress/{export_id}"
+
+        response = requests.get(url, headers=headers)
+
+        print("CHECKING STATUS of EXPORT:")
+        # to view the status, use:
+        print(response)
+        status = response.json()["status"]
+        print(status)
+
+        time.sleep(5)
+        seconds_waiting += 5
+        if seconds_waiting > 200:
+            print("Export Never Finished")
+            break
+
+    if status != "finished":
+        sys.exit("EXPORT IS BROKEN")
+
+    headers = {"X-CDD-token": vault_token}
+    url = (
+        f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/exports/{export_id}"
+    )
+
+    print("RETRIEVING FINISHED EXPORT")
+    response = requests.get(url, headers=headers)
+    print(response)
+    return response
+
+
 def get_rapidfire_inhibition_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_inhibition_protocol_id}/data?page_size=1000"
-    headers = {"X-CDD-token": vault_token}
-    response = requests.get(url, headers=headers)
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_inhibition_protocol_id}/data?async=True"
+    response = get_async_export(url)
     inhibition_response_dict = response.json()["objects"]
 
     inhibition_data_dict = {}
@@ -96,9 +140,8 @@ def get_rapidfire_inhibition_data():
 
 def get_rapidfire_IC50_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_IC50_protocol_id}/data?page_size=1000"
-    headers = {"X-CDD-token": vault_token}
-    response = requests.get(url, headers=headers)
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_IC50_protocol_id}/data?async=True"
+    response = get_async_export(url)
     rapid_fire_dose_response_dict = response.json()["objects"]
 
     mol_id_list = []
@@ -123,9 +166,8 @@ def get_rapidfire_IC50_data():
 
 def get_fluorescense_inhibition_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_inhibition_protocol_id}/data?page_size=1000"
-    headers = {"X-CDD-token": vault_token}
-    response = requests.get(url, headers=headers)
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_inhibition_protocol_id}/data?async=True"
+    response = get_async_export(url)
     inhibition_response_dict = response.json()["objects"]
 
     inhibition_data_dict = {}
@@ -180,9 +222,8 @@ def get_fluorescense_inhibition_data():
 
 def get_fluorescense_IC50_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_IC50_protocol_id}/data?page_size=1000"
-    headers = {"X-CDD-token": vault_token}
-    response = requests.get(url, headers=headers)
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_IC50_protocol_id}/data?async=True"
+    response = get_async_export(url)
     fluorescence_response_dict = response.json()["objects"]
 
     mol_id_list = []
@@ -259,9 +300,8 @@ def get_fluorescense_IC50_data():
 
 def get_solubility_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{solubility_protocol_id}/data?page_size=1000"
-    headers = {"X-CDD-token": vault_token}
-    response = requests.get(url, headers=headers)
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{solubility_protocol_id}/data?async=True"
+    response = get_async_export(url)
     solubility_response_dict = response.json()["objects"]
 
     solubility_data_dict = {}
@@ -308,9 +348,8 @@ def get_solubility_data():
 
 def get_trypsin_data():
 
-    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{trypsin_protocol_id}/data?page_size=1000"
-    headers = {"X-CDD-token": vault_token}
-    response = requests.get(url, headers=headers)
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{trypsin_protocol_id}/data?async=True"
+    response = get_async_export(url)
     trypsin_response_dict = response.json()["objects"]
 
     mol_id_list = []
