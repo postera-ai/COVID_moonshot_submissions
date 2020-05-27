@@ -146,7 +146,7 @@ def create_dose_response_spec(all_df):
         .add_selection(selection)
     )
 
-    chart = (lines).properties(width=800, height=600).interactive() | legend
+    chart = (lines).properties(width=800, height=600).interactive() | legend.properties(height=600)
 
     chart = chart.configure_axis(labelFontSize=10, titleFontSize=20)
 
@@ -292,7 +292,7 @@ def create_dose_response_spec_chloroacetamides(all_df):
         .add_selection(selection)
     )
 
-    chart = (lines).properties(width=800, height=600).interactive() | legend
+    chart = (lines).properties(width=800, height=600).interactive() | legend.properties(height=600)
 
     chart = chart.configure_axis(labelFontSize=10, titleFontSize=20)
 
