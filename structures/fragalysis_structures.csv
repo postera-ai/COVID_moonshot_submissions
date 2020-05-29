@@ -2,6 +2,7 @@ SMILES,CID,structure_ID,structure_LINK,ORIGIN
 CS(=O)(=O)NCCc1ccccc1,AAR-POS-d2a4d1df-1,x0072,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 CC(=O)NCCc1c[nH]c2ccc(F)cc12,AAR-POS-d2a4d1df-2,x0104,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 CC(=O)Nc1cnccc1C,AAR-POS-d2a4d1df-3,x0107,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+COC(=O)C=1C=CC(=CC1)S(=O)(=O)N,MAT-POS-7dfc56d9-1,x0161,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 CN1CCN(C(=O)Nc2ccccc2)CC1,AAR-POS-0daf6b7e-44,x0165,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 NC(=O)C1CCN(C(=O)Nc2ccccc2)CC1,AAR-POS-0daf6b7e-32,x0177,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 CC(=O)Nc1ccc(Oc2ncccn2)cc1,AAR-POS-0daf6b7e-33,x0194,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
@@ -114,3 +115,11 @@ O=C(Nc1ccc2c(c1)[nH]c1ccccc12)C1CCN(C(=O)CCl)CC1,LON-WEI-120e5cf5-9,x2740,https:
 CN(C(=O)C1CCN(C(=O)CCl)CC1)c1ccccc1,LON-WEI-120e5cf5-5,x2754,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 N#CCOc1ccccc1C(=O)NCc1cnsc1,BAR-COM-4e090d3a-49,x2764,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 C=CC(=O)N(c1ccc(C(C)OC)cc1)C(C(=O)Nc1ccc(OC)cc1C)c1cccnc1,LON-WEI-b8d98729-8,x2776,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CC=1C=CN=CC1NC(=O)NC=2C=CC=C(Cl)C2,TRY-UNI-714a760b-12,x2908,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+COC=1C=CC=CC1OCCNC(=O)C2=CC(=O)NC=3C=CC=CC23,MAT-POS-916a2c5a-2,x2910,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CC(C(=O)NC=1C=NC=CC1C)C=2C=CC=C(C#N)C2,TRY-UNI-714a760b-22,x2912,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+NC(=O)[C@@H]1CN(Cc2cccnc2)C[C@H]1c1ccccc1,DUN-NEW-d8381160-1,x2929,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+NC=1C=NC=C(NC(=O)NC=2C=CC=C(Cl)C2)C1,DAR-DIA-23aa0b97-13,x2964,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+ClCC(=O)N1CC2CC1CN2CC=3C=CC=C(Cl)C3,DAN-LON-a5fc619e-8,x3077,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CN(CC(=O)NC=1C=NC=CC1C)S(=O)(=O)C=2C=CC=C3C=CC=NC23,GAB-REV-70cc3ca5-8,x3080,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CC=1C=CN=CC1NC(=O)CNC(=O)CC=2C=CC=NC2,GAB-REV-70cc3ca5-13,x3108,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT

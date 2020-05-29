@@ -11,6 +11,7 @@ from rdkit.Chem import AllChem
 import requests
 import sys
 import time
+import json
 
 # get parent path of file
 from pathlib import Path
@@ -89,6 +90,9 @@ def get_rapidfire_inhibition_data():
     response = get_async_export(url)
     inhibition_response_dict = response.json()["objects"]
 
+    with open(lib_path / "scr" / "rapidfire_inhibition_data.json", "w") as f:
+        json.dump(inhibition_response_dict, f)
+
     inhibition_data_dict = {}
     for mol_dict in inhibition_response_dict:
         if "molecule" not in mol_dict:
@@ -144,10 +148,15 @@ def get_rapidfire_IC50_data():
     response = get_async_export(url)
     rapid_fire_dose_response_dict = response.json()["objects"]
 
+    with open(lib_path / "scr" / "rapidfire_IC50_data.json", "w") as f:
+        json.dump(rapid_fire_dose_response_dict, f)
+
     mol_id_list = []
     ic50_list = []
 
     for mol_dict in rapid_fire_dose_response_dict:
+        if "molecule" not in mol_dict:
+            continue
         mol_id = mol_dict["molecule"]
         if "560634" in mol_dict["readouts"]:
             ic50 = mol_dict["readouts"]["560634"]
@@ -169,6 +178,9 @@ def get_fluorescense_inhibition_data():
     url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_inhibition_protocol_id}/data?async=True"
     response = get_async_export(url)
     inhibition_response_dict = response.json()["objects"]
+
+    with open(lib_path / "scr" / "fluorescense_inhibition_data.json", "w") as f:
+        json.dump(inhibition_response_dict, f)
 
     inhibition_data_dict = {}
     for mol_dict in inhibition_response_dict:
@@ -225,6 +237,9 @@ def get_fluorescense_IC50_data():
     url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{fluorescence_IC50_protocol_id}/data?async=True"
     response = get_async_export(url)
     fluorescence_response_dict = response.json()["objects"]
+
+    with open(lib_path / "scr" / "fluorescense_IC50_data.json", "w") as f:
+        json.dump(fluorescence_response_dict, f)
 
     mol_id_list = []
     avg_ic50_list = []
@@ -304,6 +319,9 @@ def get_solubility_data():
     response = get_async_export(url)
     solubility_response_dict = response.json()["objects"]
 
+    with open(lib_path / "scr" / "solubility_data.json", "w") as f:
+        json.dump(solubility_response_dict, f)
+
     solubility_data_dict = {}
     for mol_dict in solubility_response_dict:
         mol_id = mol_dict["molecule"]
@@ -351,6 +369,9 @@ def get_trypsin_data():
     url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{trypsin_protocol_id}/data?async=True"
     response = get_async_export(url)
     trypsin_response_dict = response.json()["objects"]
+
+    with open(lib_path / "scr" / "trypsin_data.json", "w") as f:
+        json.dump(trypsin_response_dict, f)
 
     mol_id_list = []
     ic50_list = []
