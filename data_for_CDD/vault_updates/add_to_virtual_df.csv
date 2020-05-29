@@ -1,54 +1,64 @@
-SMILES,old_CID,creator,fragments,covalent_warhead
-Cc1ccncc1NC(=O)Cc1cccc(F)c1,ALP-POS-95b75b4d-1,"Alpha Lee, PostEra",x0072,False
-CNc1cccc(CC(=O)Nc2cnccc2C2CC2)c1,ALP-POS-95b75b4d-10,"Alpha Lee, PostEra",x0072,False
-Cc1ccncc1-n1cc(Cc2cccc(Cl)c2)nn1,ALP-POS-95b75b4d-11,"Alpha Lee, PostEra",x0072,False
-Cc1ccncc1-n1cc(Cc2cccc(C#N)c2)nn1,ALP-POS-95b75b4d-12,"Alpha Lee, PostEra",x0072,True
-Cc1ccncc1-c1nnc(Cc2cccc(C#N)c2)o1,ALP-POS-95b75b4d-13,"Alpha Lee, PostEra",x0072,True
-Cc1ccncc1-c1nnc(Cc2cccc(F)c2)o1,ALP-POS-95b75b4d-14,"Alpha Lee, PostEra",x0072,False
-COc1cccc(CC(Nc2cnccc2C)C(F)(F)F)c1,ALP-POS-95b75b4d-15,"Alpha Lee, PostEra",x0072,False
-Cc1ccncc1NC(=O)Cc1cccc(O)c1,ALP-POS-95b75b4d-2,"Alpha Lee, PostEra",x0072,False
-Cc1ccncc1NC(=O)Cc1cccc(C(F)(F)F)c1,ALP-POS-95b75b4d-3,"Alpha Lee, PostEra",x0072,False
-Cc1ccncc1NC(=O)Cc1cccc(C2CC2)c1,ALP-POS-95b75b4d-4,"Alpha Lee, PostEra",x0072,False
-O=C(Cc1cccc(Cl)c1)Nc1cnccc1C1CC1,ALP-POS-95b75b4d-5,"Alpha Lee, PostEra",x0072,False
-O=C(Cc1cccc(Cl)c1)Nc1cnccc1O,ALP-POS-95b75b4d-6,"Alpha Lee, PostEra",x0072,False
-NS(=O)(=O)c1ccncc1NC(=O)Cc1cccc(Cl)c1,ALP-POS-95b75b4d-7,"Alpha Lee, PostEra",x0072,False
-O=C(Cc1cccc(Cl)c1)Nc1cnccc1Cl,ALP-POS-95b75b4d-8,"Alpha Lee, PostEra",x0072,False
-Cc1cccc(CC(=O)Nc2cnccc2C#N)c1,ALP-POS-95b75b4d-9,"Alpha Lee, PostEra",x0072,True
-COc1ccc(N(C(=O)CCl)C(C(=O)NC2CCCCC2)c2cccnc2)cc1Cl,JAN-GHE-76def03c-1,"Jan, Ghent University",x0072,True
-O=C(NCCc1ccccc1)C(c1cccnc1)N(C(=O)CCl)c1ccccc1Cl,JAN-GHE-76def03c-2,"Jan, Ghent University",x0072,True
-COc1cccc(N(C(=O)CCl)C(C(=O)NC2CCCCC2)c2cccnc2)c1,JAN-GHE-76def03c-3,"Jan, Ghent University",x0072,True
-CCC(C(=O)Nc1cnncc1C)c1cccc(Cl)c1,JAN-GHE-83b26c96-1,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)C(c1cccc(Cl)c1)N(C)C,JAN-GHE-83b26c96-10,"Jan, Ghent University",x0678,False
-Cc1ccc(CC(=O)Nc2cnccc2C)cc1,JAN-GHE-83b26c96-11,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)Cc1cccc(Br)c1,JAN-GHE-83b26c96-12,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)Cc1cccc(I)c1,JAN-GHE-83b26c96-13,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)Cc1cccc(C(F)(F)F)c1,JAN-GHE-83b26c96-14,"Jan, Ghent University",x0678,False
-Cc1ccncc1N(C)C(=O)Cc1cccc(Cl)c1,JAN-GHE-83b26c96-15,"Jan, Ghent University",x0678,False
-CCCN(C(=O)Cc1cccc(Cl)c1)c1cccnc1,JAN-GHE-83b26c96-16,"Jan, Ghent University",x0678,False
-Cc1ccncc1NS(=O)(=O)Cc1cccc(Cl)c1,JAN-GHE-83b26c96-17,"Jan, Ghent University",x0678,False
-O=C1NC(c2cccnc2)C(=O)N1c1cccc(Cl)c1,JAN-GHE-83b26c96-18,"Jan, Ghent University",x0678,False
-O=C(Nc1cccnc1)Nc1cccc(Cl)c1,JAN-GHE-83b26c96-19,"Jan, Ghent University",x0678,False
-CC(=O)Nc1ccncc1NC(=O)C(C)c1cccc(Cl)c1,JAN-GHE-83b26c96-2,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)C1(c2cccc(Cl)c2)CC1,JAN-GHE-83b26c96-20,"Jan, Ghent University",x0678,False
-Cc1ccncc1NS(=O)(=O)c1cccc(Cl)c1,JAN-GHE-83b26c96-21,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)C(C)(C)c1cccc(Cl)c1,JAN-GHE-83b26c96-22,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)C(F)(F)c1cccc(Cl)c1,JAN-GHE-83b26c96-23,"Jan, Ghent University",x0678,False
-Cc1ccncc1-c1nnc(-c2cccc(Cl)c2)o1,JAN-GHE-83b26c96-24,"Jan, Ghent University",x0678,False
-Cc1ccncc1-c1nc(-c2cccc(Cl)c2)no1,JAN-GHE-83b26c96-25,"Jan, Ghent University",x0678,False
-CC(C(=O)Nc1cnccc1-n1cccn1)c1cccc(Cl)c1,JAN-GHE-83b26c96-3,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)[C@H](C)c1cccc(Cl)c1,JAN-GHE-83b26c96-4,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)[C@@H](C)c1cccc(Cl)c1,JAN-GHE-83b26c96-5,"Jan, Ghent University",x0678,False
-CC(C)c1ncncc1NC(=O)C(C)c1cccc(Cl)c1,JAN-GHE-83b26c96-6,"Jan, Ghent University",x0678,False
-Cc1ncncc1NC(=O)C(c1cccc(Cl)c1)C(C)C,JAN-GHE-83b26c96-7,"Jan, Ghent University",x0678,False
-CCCC(C(=O)Nc1cnccc1C)c1cccc(Cl)c1,JAN-GHE-83b26c96-8,"Jan, Ghent University",x0678,False
-Cc1ccncc1NC(=O)C(c1cccc(Cl)c1)C(C)C,JAN-GHE-83b26c96-9,"Jan, Ghent University",x0678,False
-C=CC(=O)NN(C(=O)Cc1cccc(Cl)c1)c1cnccc1C,JAN-GHE-d851b096-1,"Jan, Ghent University","x0107,x0678",True
-O=C(Nc1cccc(Cl)c1)C(c1cccnc1)N1C(=O)C=CC1=O,JAN-GHE-d851b096-2,"Jan, Ghent University","x0107,x0678",False
-C=CC(=O)N(c1ccc(NC(C)=O)cc1)N(C(=O)Nc1cccc(Cl)c1)c1cccnc1,JAN-GHE-d851b096-3,"Jan, Ghent University","x0107,x0678",True
-C=CC(=O)N(c1ccc(NC(C)=O)cc1)[C@@H](C(=O)Nc1cccc(Cl)c1)c1cccnc1,JAN-GHE-d851b096-4,"Jan, Ghent University","x0107,x0678",True
-C=CC(=O)N1CC[C@@H](C2CCCCC2)C(=O)N1c1cccnc1,JAN-GHE-d851b096-5,"Jan, Ghent University","x0107,x0678",True
-Cc1ccncc1Cn1ccccc1=O,JAN-GHE-d851b096-6,"Jan, Ghent University","x0107,x0678",False
-C=CC(=O)N(c1cc(C(F)(F)F)on1)C(C(=O)NC1CCCCC1)c1cccnc1,JAN-GHE-d851b096-7,"Jan, Ghent University","x0107,x0678",True
-C=CC(=O)N(c1cccc(Cl)c1)C(C(=O)NC(C)(C)C)c1cccnc1,JAN-GHE-d851b096-8,"Jan, Ghent University","x0107,x0678",True
-C=CC(=O)N(c1cccc(Cl)c1)C(C(=O)Nc1cccc(Cl)c1)c1cccnc1,JAN-GHE-d851b096-9,"Jan, Ghent University","x0107,x0678",True
-COC(=O)c1ccc(S(N)(=O)=O)cc1,MAT-POS-7dfc56d9-1,"Matt Robinson, PostEra",x0161,False
+SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
+Cc1ccncc1C(NC(=O)CC1CC1)C(=O)NCc1cccc(C#N)c1,MIC-UNK-2744a8e2-1,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-1
+CCNC(=O)NC(C(=O)Nc1cccc(C#N)c1)c1cnccc1C,MIC-UNK-2744a8e2-2,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-2
+Cc1ccncc1C(NC(=O)NC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-3,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-3
+Cc1ccncc1C(NS(C)(=O)=O)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-4,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-4
+Cc1ccncc1C(NS(=O)(=O)CC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-5,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-5
+Cc1ccncc1C(NC(=O)NCCCN(C)C)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-6,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-6
+Cc1ccncc1C(NC(=O)NCCCC(=N)N)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-7,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-7
+Cc1ccncc1C(NC(=O)NCCNC(=N)N)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-8,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-8
+Cc1ccncc1C(NC(=O)NCCCC(C)(C)O)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-9,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-9
+Cc1ccncc1C(NC(=O)CCCCN(C)C)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-10,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-10
+Cc1ccncc1C(NC(=O)CCCCC(=N)N)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-11,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-11
+Cc1ccncc1C(NC(=O)CCCCC(C)(C)O)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-12,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-12
+Cc1ccncc1C(NC(=O)CC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-13,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-13
+Cc1ccncc1C(NC(=O)CCCNC(=N)N)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-14,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-14
+Cc1ccncc1C(NC(=O)CC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-1e397c67-1,Michal K,"x0107,x0397",False,MIC-UNK-2744a8e2-13
+Cn1ccc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(-c3ccccc3)cc2)c1,MAD-UNK-84a4f939-1,Madhusudan Verma,,False,MAD-UNK-84a4f939-1
+Cc1ccc(C(=O)N/C(=C\c2ccc(-c3cccc([N+](=O)[O-])c3)o2)C(=O)NCCCN(C)C)cc1,MAD-UNK-b88a1e4d-1,Madhusudan Verma,,False,DIS-UNK-55652835-1
+CCNCC(O)S(N)(=O)=O,MAK-UNK-53da93bf-1,Maksym Voznyy,x0195,False,MAK-UNK-53da93bf-1
+CN1CCCc2ccc(C(N)CCN)cc21,MAK-UNK-53da93bf-2,Maksym Voznyy,x0195,False,MAK-UNK-53da93bf-2
+CCC(=O)NC(N)c1ccc2c(c1)N(C)CCC2,MAK-UNK-53da93bf-3,Maksym Voznyy,x0195,False,MAK-UNK-53da93bf-3
+CC(C)=CCCS(N)(=O)=O,MAK-UNK-53da93bf-4,Maksym Voznyy,x0195,False,MAK-UNK-53da93bf-4
+CN(C)c1cccc(S(N)(=O)=O)c1,MAK-UNK-53da93bf-5,Maksym Voznyy,x0195,False,MAK-UNK-53da93bf-5
+O=C(/C=C/c1ccc(F)cc1)N[C@H](COC(=O)c1ccccc1)C(=O)NC1CCCCC1,MAD-UNK-1cc096ab-1,Madhusudan Verma,,False,MAD-UNK-1cc096ab-1
+N#Cc1c[nH]c2ccc(C(F)(F)F)cc12,ABI-SAT-aa268ad7-1,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-1
+N#Cc1c[nH]c2ccc(CF)cc12,ABI-SAT-aa268ad7-2,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-2
+N#Cc1c[nH]c2cc(C(=O)O)c(F)cc12,ABI-SAT-aa268ad7-3,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-3
+N#Cc1c[nH]c2cc(C(N)=O)c(F)cc12,ABI-SAT-aa268ad7-4,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-4
+N#Cc1ccc2c(n1)S(=O)(=O)N2,ABI-SAT-aa268ad7-5,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-5
+N#Cc1ccc2c(n1)C(C(F)(F)F)N2,ABI-SAT-aa268ad7-6,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-6
+N#Cc1cc(C2CCCCC2)ccn1,ABI-SAT-aa268ad7-7,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-7
+N#CCc1cc(C2CCCCC2)ccn1,ABI-SAT-aa268ad7-8,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-8
+C[C@H]1NCCCC1c1ccnc(CC#N)c1,ABI-SAT-aa268ad7-9,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-9
+N#Cc1ncc(F)s1,ABI-SAT-aa268ad7-10,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-10
+Cc1nnc(C#N)s1,ABI-SAT-aa268ad7-11,"Abintha, SATEC",,False,ABI-SAT-aa268ad7-11
+CC(O)CNCc1nc2ccccc2[nH]1,MAK-UNK-3ae66343-1,Maksym Voznyy,x1093,False,MAK-UNK-3ae66343-1
+CCN(C)CNc1nc2ccccc2[nH]1,MAK-UNK-3ae66343-2,Maksym Voznyy,x1093,False,MAK-UNK-3ae66343-2
+Oc1ccc(CN2CCNCC2)cc1CNc1nc2ccccc2[nH]1,MAK-UNK-1ac43cfa-1,Maksym Voznyy,x1093,False,MAK-UNK-1ac43cfa-1
+Oc1ccccc1CNc1nc2ccccc2n1CN1CCNCC1,MAK-UNK-1ac43cfa-2,Maksym Voznyy,x1093,False,MAK-UNK-1ac43cfa-2
+O=C(On1nnc2ccccc21)c1ccc2[nH]ccc2c1,MAD-UNK-2d4faae7-1,madhusudan,,False,MAD-UNK-2d4faae7-1
+Cc1ccncc1NC(=O)C(c1ccccc1)c1cccc(Cl)c1,SAM-UNK-2684b532-1,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-1
+Cc1ccncc1NC(=O)N(c1ccccc1)c1cccc(Cl)c1,SAM-UNK-2684b532-2,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-2
+Cc1nnc(C(C(=O)Nc2cnccc2C)c2cccc(Cl)c2)s1,SAM-UNK-2684b532-3,Sam,"x0387,x0395,x0434",False,TRY-UNI-9f475305-3
+Cc1nnc(N(C(=O)Nc2cnccc2C)c2cccc(Cl)c2)s1,SAM-UNK-2684b532-4,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-4
+CC(C(=O)Nc1cnccc1C(F)F)c1cccc(Cl)c1,SAM-UNK-2684b532-5,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-5
+CC(C(=O)Nc1cnccc1C(F)(F)F)c1cccc(Cl)c1,SAM-UNK-2684b532-6,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-6
+CC(C(=O)Nc1cnccc1Cl)c1cccc(Cl)c1,SAM-UNK-2684b532-7,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-7
+Cc1ccncc1NC(=O)Nc1ccccc1CN1CCC(O)CC1,SAM-UNK-2684b532-8,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-8
+Cc1ccncc1NC(=O)Cc1ccccc1CN1CCC(O)CC1,SAM-UNK-2684b532-9,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-9
+Cc1ccncc1NC(=O)C(CN1CCC(O)CC1)c1ccccc1,SAM-UNK-2684b532-10,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-10
+O=C(Cc1cccc(Cl)c1)Nc1cnccc1C(F)F,SAM-UNK-2684b532-11,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-11
+O=C(Cc1cccc(Cl)c1)Nc1cnccc1C(F)(F)F,SAM-UNK-2684b532-12,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-12
+O=C(Cc1cccc(Cl)c1)Nc1cnccc1Cl,SAM-UNK-2684b532-13,Sam,"x0387,x0395,x0434",False,ALP-POS-95b75b4d-8
+O=C(Cc1cccc(Cl)c1)N1CCc2ccncc21,SAM-UNK-2684b532-14,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-14
+O=C(CCl)N1CCN(C/C=C/c2ccccc2)CC1,SAD-SAT-65574d3f-1,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-1
+NS(=O)(=O)c1ccc(CNC(=O)CCl)cc1,SAD-SAT-65574d3f-2,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-2
+O=C(CCl)NNS(=O)(=O)c1ccccc1,SAD-SAT-65574d3f-3,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-3
+Cc1ccc(S(=O)(=O)NC(=O)CCl)cc1,SAD-SAT-65574d3f-4,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-4
+O=C(CCl)N1CCC2(CC1)OCCO2,SAD-SAT-65574d3f-5,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-5
+NC(=O)C1CCCN(C(=O)CCl)C1,SAD-SAT-65574d3f-6,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-6
+O=C(CCl)NCC(=O)N1CCCC1,SAD-SAT-65574d3f-7,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-7
+O=C(CCl)NCc1ccccc1S(=O)(=O)N1CCOCC1,SAD-SAT-65574d3f-8,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-8
+O=C(CCl)N1CCN(c2cccc(Cl)c2)CC1,SAD-SAT-65574d3f-9,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-9
+COc1cc(C)c(CN2CCN(C(=O)CCl)CC2)cc1OC,SAD-SAT-65574d3f-10,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-10
