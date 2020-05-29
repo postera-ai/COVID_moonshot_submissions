@@ -1,8 +1,0 @@
-SMILES,CID
-O=C(Cn1nnc2ccccc21)N(Cc1ccsc1)c1ccc(-c2ccccc2)cc1,ALP-POS-c59291d4-1
-CCC(=O)Nc1ccc(N(Cc2ccsc2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-c59291d4-2
-O=C(Nc1ccc(N(Cc2ccsc2)C(=O)Cn2nnc3ccccc32)cc1)C1CC1,ALP-POS-c59291d4-3
-CNc1ccc(N(Cc2ccsc2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-c59291d4-4
-O=C(Oc1cncc(Cl)c1)c1cccc2[nH]ccc12,ALP-POS-c59291d4-5
-CC(C)(C)NC(=O)C(c1cccnc1)N(C(=O)c1ccco1)c1ccc(C(C)(C)C)cc1,ALP-POS-c59291d4-6
-COc1cccc2[nH]c(C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)CO)cc12,ALP-POS-c59291d4-7
