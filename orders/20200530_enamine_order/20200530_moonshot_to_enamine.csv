@@ -1,0 +1,82 @@
+﻿SMILES,CID,,Enamine_ID,other_notes
+O=C(Cc1ccc(O)cc1)Nc1cccc2cc[nH]c12,NAU-LAT-64f4b287-6,REAL/SCR,Z1729997189,
+O=C(Cc1ccc(F)cc1)Nc1cccc2cc[nH]c12,NAU-LAT-64f4b287-7,REAL/SCR,Z1725502768,
+O=C(Cn1c(=O)[nH]c2ccccc21)Nc1cccc(Cl)c1,BEN-DND-61647d40-14,REAL/SCR,Z454221144,
+O=C(CCNC(=O)c1c[nH]c2ccccc12)Nc1ccc(-n2cnc3ccccc32)cc1,IAN-BAS-5394d4c4-1,REAL/SCR,Z466807550,
+O=C(Cc1c[nH]c2ncccc12)N(Cc1c(F)cccc1Cl)c1ccc2[nH]c(=O)[nH]c2c1,BEN-BAS-bb561ced-1,REAL/SCR,Z1401016802,
+Cn1cc(S(N)(=O)=O)cc1CC(=O)Nc1cccc(C(=O)NCc2ccccn2)c1,IAN-BAS-36ca50f1-1,REAL/SCR,Z2194996992,
+Cc1ccncc1NC(=O)Cc1cccc(C(N)=O)c1,ANN-UNI-98d2bf15-2,REAL/SCR,s_22____3391102____13600942,
+Cc1ccncc1NC(=O)Cc1cccc(OC(F)(F)F)c1,ANN-UNI-98d2bf15-5,REAL/SCR,Z1486631744,
+O=C(O)C12CC(CNCc3ccc4c(c3)OCC4)(C1)OC2c1ccccc1,BEN-BAS-f6e16b09-1,REAL/SCR,Z3347909109,
+CC(NC(=O)c1ccc2cn[nH]c2c1)C(=O)Nc1ccc(-n2cnc3ccccc32)cc1,BEN-BAS-0534ec5c-1,REAL/SCR,Z954418982,
+O=C(Cc1ccc2[nH]c(=O)[nH]c2c1)NC1(CNC(=O)c2cnc[nH]2)CC1,BEN-BAS-baaab58b-1,REAL/SCR,m_275592____14114908____15839986____15857866,
+Cn1ccc(CNC(=O)Cc2nnc3ccc(O)cn23)c1,ALP-POS-c0ee8219-1,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+O=C(Cc1nnc2ccc(O)cn12)NC(C(=O)N1CCCC1)c1ccccn1,ALP-POS-c0ee8219-2,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+Cn1cccc1C(CC(N)=O)NC(=O)Cc1nnc2ccc(O)cn12,ALP-POS-c0ee8219-3,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+NC(=O)CC1(NC(=O)Cc2nnc3ccc(O)cn23)CCc2cccnc21,ALP-POS-c0ee8219-4,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1cc2nnc(CC(=O)NCc3ccn(C)c3)n2cc1OC,ALP-POS-c0ee8219-5,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1cc2nnc(CC(=O)NC(C(=O)N3CCCC3)c3ccccn3)n2cc1OC,ALP-POS-c0ee8219-6,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1cc2nnc(CC(=O)NC(CC(N)=O)c3cccn3C)n2cc1OC,ALP-POS-c0ee8219-7,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1cc2nnc(CC(=O)NC3(CC(N)=O)CCc4cccnc43)n2cc1OC,ALP-POS-c0ee8219-8,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1ccc2nnc(CC(=O)NCc3ccn(C)c3)n2c1,ALP-POS-c0ee8219-9,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1ccc2nnc(CC(=O)NC(C(=O)N3CCCC3)c3ccccn3)n2c1,ALP-POS-c0ee8219-10,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1ccc2nnc(CC(=O)NC(CC(N)=O)c3cccn3C)n2c1,ALP-POS-c0ee8219-11,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1ccc2nnc(CC(=O)NC3(CC(N)=O)CCc4cccnc43)n2c1,ALP-POS-c0ee8219-12,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+Cn1ccc(CNC(=O)Cn2nnc3c2CCNC3)c1,ALP-POS-c0ee8219-13,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+O=C(Cn1nnc2c1CCNC2)NC(C(=O)N1CCCC1)c1ccccn1,ALP-POS-c0ee8219-14,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+Cn1cccc1C(CC(N)=O)NC(=O)Cn1nnc2c1CCNC2,ALP-POS-c0ee8219-15,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+NC(=O)CC1(NC(=O)Cn2nnc3c2CCNC3)CCc2cccnc21,ALP-POS-c0ee8219-16,Custom,,"4 carboxylic acids BBV-95113829, EN300-701317, BBV-93154196, FCH6353291 crossed with 4 amines EN-30095909, FCH6340389, EN300-1287915, BBV-108446890 to give 16 products (will likely need some protection steps)"
+COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(C)c12,EDJ-MED-6af13d92-1,Custom,,
+COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(F)c12,EDJ-MED-6af13d92-2,Custom,,
+COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-6af13d92-3,Custom,,
+O=C(NCc1cccc(C(=O)N2CCOCC2)c1)c1cnc2c(c1)c(=O)[nH]c(=O)n2Cc1ccccc1,IAN-BAS-647c7407-1,REAL/SCR,Z850169270,
+Cc1ncc2c(n1)CCC(NC(=O)NCc1cccc(N3C(=O)NC4(CCCC4)C3=O)c1)C2,ERI-BAS-50567787-1,REAL/SCR,Z2181647498,
+O=C(NCCc1ccc2c(c1)CCO2)NCc1cccc(N2C(=O)NC3(CCCC3)C2=O)c1,IAN-BAS-9ef79f6c-1,REAL/SCR,Z2180394362,
+O=C(NCCNc1ccncc1)c1cccc(S(=O)(=O)Nc2ccccc2-c2ccccc2)c1,ERI-BAS-962ecb40-1,REAL/SCR,Z757872544,
+Cc1nc(-c2cccc(CNC(=O)Nc3cccc(CN4CCCC4=O)c3)c2)n[nH]1,ERI-BAS-bd3ef700-1,REAL/SCR,Z1529605835,
+O=C(NCc1coc2ccccc12)C1CCc2nnc(-c3ccc(O)cc3)n2C1,ERI-BAS-37e2bb46-1,REAL/SCR,Z2221461390,
+O=S(=O)(CCc1ccccc1)Nc1cccnc1,NAU-LAT-445f63e5-1,REAL/SCR,Z1335823948,
+O=S(=O)(Cc1ccc(F)cc1)Nc1cccnc1,NAU-LAT-445f63e5-2,REAL/SCR,Z274592070,
+O=S(=O)(Cc1noc(C2CC2)n1)Nc1cccnc1,NAU-LAT-445f63e5-3,REAL/SCR,Z3547550267,
+N#Cc1cccnc1NS(=O)(=O)Cc1ccccc1,NAU-LAT-445f63e5-4,REAL/SCR,Z1797132035,
+O=S(=O)(Cc1ccccc1)Nc1cnccc1N1CCCC1,NAU-LAT-445f63e5-5,REAL/SCR,Z2443818794,
+O=C(Nc1cccnc1)NC1(Cc2ccccc2)CCOCC1,NAU-LAT-445f63e5-6,REAL/SCR,Z2290913741,
+O=S(=O)(NC1(Cc2ccccc2)CCOCC1)c1cccnc1,NAU-LAT-445f63e5-7,REAL/SCR,Z2279774120,
+COCC(NC(=O)CC1C(=O)Nc2ccc(F)cc21)c1cccc(Br)c1,BAR-COM-0f94fc3d-3,REAL/SCR,s_22____12635594____12807964,
+Cc1ccn(CC(=O)NCc2nccn2CCc2ccccc2)c(=O)c1,BAR-COM-0f94fc3d-4,REAL/SCR,Z1892495767,
+CCC(C)CC(=O)N1CCCC(NC(=O)Cn2c(C)cc(C)nc2=O)CC1,BAR-COM-0f94fc3d-5,REAL/SCR,m_275592____17554720____13187432____14131194,
+Cc1ccnn1CC(=O)NCC(NC(=O)C(C)C#N)c1ccccc1,BAR-COM-0f94fc3d-7,REAL/SCR,m_275592____14114784____14140892____13186536,
+Cc1ccc(O)cc1NC(=O)C(C)(C)c1cccc(F)c1,BAR-COM-0f94fc3d-13,REAL/SCR,s_22____12302034____5136638,
+Cc1ccncc1NC(=O)Cn1ccc2ccc(F)cc21,BAR-COM-0f94fc3d-18,REAL/SCR,s_22____3391102____11568990,
+COc1cccc(C(O)C(=O)Nc2cnccc2C)c1,BAR-COM-0f94fc3d-19,REAL/SCR,Z1549741431,
+Cc1cnn(-c2ccncc2NC(=O)Cn2cc(C)c3ccccc32)c1,BAR-COM-0f94fc3d-20,REAL/SCR,Z1500834591,
+COc1ccncc1NC(=O)C(O)c1cccc(Br)c1,BAR-COM-0f94fc3d-23,REAL/SCR,s_22____2392360____13026400,
+Cc1ccncc1NC(=O)C1(c2cccc(Cl)c2)CC(=O)C1,BAR-COM-0f94fc3d-25,REAL/SCR,Z2196194184,
+Cc1ccncc1NC(=O)Cc1cc(Cl)c2c(c1)OCCO2,BAR-COM-0f94fc3d-28,REAL/SCR,Z1129286048,
+Cc1ccnc(C)c1NC(=O)NCc1cccc(N2CCOCC2)c1,BAR-COM-0f94fc3d-33,REAL/SCR,Z2294336937,
+CC(=O)NC(C(=O)Nc1cncnc1N(C)C)c1cccc(Br)c1,BAR-COM-0f94fc3d-36,REAL/SCR,Z2774676815,
+CCC(O)(C(=O)Nc1cnccc1C)c1cccc(Cl)c1,BAR-COM-0f94fc3d-38,REAL/SCR,Z2002942936,
+O=C(Cc1cc(Cl)c2c(c1)OCCO2)Nc1cnccc1-c1ccccc1,BAR-COM-0f94fc3d-40,REAL/SCR,Z1864147155,
+Cc1ccncc1NC(=O)Cn1ccc2ccc(Cl)cc21,BAR-COM-0f94fc3d-41,REAL/SCR,Z1129288567,
+COc1ccc2c(c1)C(C(=O)Nc1cnccc1-n1cccn1)CCC2,BAR-COM-0f94fc3d-43,REAL/SCR,Z2493443321,
+COc1ccncc1NC(=O)C(C)(C)c1cc(F)cc(C#N)c1,BAR-COM-0f94fc3d-45,REAL/SCR,Z2069076058,
+Cc1ccnc(C)c1NC(=O)C(C)c1ccc(F)c(F)c1,BAR-COM-0f94fc3d-46,REAL/SCR,Z2414553231,
+Cc1ccncc1NC(=O)CN1C(=O)COc2ccc(Cl)cc21,BAR-COM-0f94fc3d-48,REAL/SCR,Z1129286283,
+CSc1ccncc1NC(=O)Cc1ccc2c(c1)CCCC2,BAR-COM-0f94fc3d-49,REAL/SCR,Z1348840233,
+COc1ccc2c(c1)C(C(=O)Nc1cncnc1C)CCC2,BAR-COM-0f94fc3d-50,REAL/SCR,Z3089566497,
+CCn1c(=O)n(CC(=O)Nc2c(C)ccnc2C)c2ccccc21,BAR-COM-0f94fc3d-51,REAL/SCR,Z2414557205,
+CC(NC(=O)Nc1cccc(N2CCCCC2=O)c1)c1ccn[nH]1,BAR-COM-0f94fc3d-53,REAL/SCR,Z1243866128,
+Cc1c(C(=O)NC(CC(=O)O)c2cccc(Cl)c2)cnc2ccccc12,BAR-COM-0f94fc3d-55,REAL/SCR,Z1870012350,
+COc1ccc(Br)cc1C(N)C(=O)Nc1cnccc1C,BAR-COM-0f94fc3d-58,REAL/SCR,Z3018666658,
+CC(=O)Nc1ccncc1NC(=O)C1Cc2ccc(F)cc21,BAR-COM-0f94fc3d-59,REAL/SCR,Z1952750170,
+O=C1[C@H](Nc2nccn3cnnc23)CCN1c1cccc(Cl)c1,JAG-UCB-4709a583-1,REAL/SCR,Z1348442959,
+O=C1CC[C@H](C(=O)Nc2cccc(Br)c2)N1,JAG-UCB-ef2c0e8e-2,REAL/SCR,Z1137322338,
+Cc1cccc(NC(=O)Cn2c(=O)oc3ccccc32)c1,JAG-UCB-ef2c0e8e-3,REAL/SCR,Z15400305,
+Nc1ncc(S(=O)(=O)NCc2cccc(Cl)c2)cn1,JAG-UCB-ef2c0e8e-5,REAL/SCR,s_40____79623____10879900,
+CCS(=O)(=O)N1CCC(C(=O)Nc2cc(Cl)ccc2O)CC1,JAG-UCB-ef2c0e8e-6,REAL/SCR,Z925903342,
+Cn1cnnc1CNC(=O)Nc1cc(C(F)(F)F)c[nH]c1=O,JAG-UCB-ef2c0e8e-7,REAL/SCR,Z821000364,
+Cc1cccc(CS(=O)(=O)N2CCC(C(N)=O)CC2)c1,JAG-UCB-ef2c0e8e-8,REAL/SCR,Z1003140064,
+Cc1ccc(C)c(NC(=O)[C@H]2CNC(=O)C2)c1,JAG-UCB-ef2c0e8e-9,REAL/SCR,Z917207144,
+O=C1CC[C@@H](C(=O)Nc2cccc(Cl)c2)CN1,JAG-UCB-ef2c0e8e-10,REAL/SCR,Z433743944,
+O=C(NCCc1cccc2ccccc12)c1cc(=O)[nH]c2ccccc12,DAR-DIA-8e329c92-9,REAL/SCR,s_22____676844____59160,
+O=C(Cc1cccnc1)N1CCC[C@H]1c1noc(C2CC2)n1,JAG-UCB-cedd89ab-4,REAL/SCR,Z1268747002,

@@ -1,0 +1,7 @@
+﻿SMILES,CID,vendor,vendor_ID
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)cc1C,JAG-UCB-1d922829-1,Molport,MolPort-036-985-878
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)c(C)c1,JAG-UCB-1d922829-2,Molport,MolPort-037-003-394
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)cc1Cl,JAG-UCB-1d922829-3,Molport,MolPort-037-003-389
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(Cl)c1,JAG-UCB-1d922829-4,Molport,MolPort-042-938-067
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(C#N)c1,JAG-UCB-1d922829-5,Molport,MolPort-042-947-612
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(C(F)(F)F)c1,JAG-UCB-1d922829-6,Molport,MolPort-042-941-867
