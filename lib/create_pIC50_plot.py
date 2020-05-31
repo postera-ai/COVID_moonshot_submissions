@@ -38,10 +38,10 @@ def create_pIC50_html(all_df):
     ic50_df["mol_imgs"] = mol_imgs
 
     ic50_df["r_pIC50"] = ic50_df["r_IC50"].apply(
-        lambda x: -1 * np.log10(x * 10e-6)
+        lambda x: -1.0 * np.log10(x * 1.0e-6)
     )
     ic50_df["f_pIC50"] = ic50_df["f_avg_IC50"].apply(
-        lambda x: -1 * np.log10(x * 10e-6)
+        lambda x: -1.0 * np.log10(x * 1.0e-6)
     )
 
     source = ColumnDataSource(

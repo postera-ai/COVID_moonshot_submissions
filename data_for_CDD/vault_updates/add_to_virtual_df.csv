@@ -13,7 +13,6 @@ Cc1ccncc1C(NC(=O)CCCCC(=N)N)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-11,Michal K,"x0
 Cc1ccncc1C(NC(=O)CCCCC(C)(C)O)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-12,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-12
 Cc1ccncc1C(NC(=O)CC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-13,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-13
 Cc1ccncc1C(NC(=O)CCCNC(=N)N)C(=O)Nc1cccc(C#N)c1,MIC-UNK-2744a8e2-14,Michal K,"x0107,x0387,x0397,x0991",False,MIC-UNK-2744a8e2-14
-Cc1ccncc1C(NC(=O)CC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-1e397c67-1,Michal K,"x0107,x0397",False,MIC-UNK-2744a8e2-13
 Cn1ccc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(-c3ccccc3)cc2)c1,MAD-UNK-84a4f939-1,Madhusudan Verma,,False,MAD-UNK-84a4f939-1
 Cc1ccc(C(=O)N/C(=C\c2ccc(-c3cccc([N+](=O)[O-])c3)o2)C(=O)NCCCN(C)C)cc1,MAD-UNK-b88a1e4d-1,Madhusudan Verma,,False,DIS-UNK-55652835-1
 CCNCC(O)S(N)(=O)=O,MAK-UNK-53da93bf-1,Maksym Voznyy,x0195,False,MAK-UNK-53da93bf-1
@@ -52,13 +51,310 @@ O=C(Cc1cccc(Cl)c1)Nc1cnccc1C(F)F,SAM-UNK-2684b532-11,Sam,"x0387,x0395,x0434",Fal
 O=C(Cc1cccc(Cl)c1)Nc1cnccc1C(F)(F)F,SAM-UNK-2684b532-12,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-12
 O=C(Cc1cccc(Cl)c1)Nc1cnccc1Cl,SAM-UNK-2684b532-13,Sam,"x0387,x0395,x0434",False,ALP-POS-95b75b4d-8
 O=C(Cc1cccc(Cl)c1)N1CCc2ccncc21,SAM-UNK-2684b532-14,Sam,"x0387,x0395,x0434",False,SAM-UNK-2684b532-14
-O=C(CCl)N1CCN(C/C=C/c2ccccc2)CC1,SAD-SAT-65574d3f-1,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-1
-NS(=O)(=O)c1ccc(CNC(=O)CCl)cc1,SAD-SAT-65574d3f-2,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-2
-O=C(CCl)NNS(=O)(=O)c1ccccc1,SAD-SAT-65574d3f-3,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-3
-Cc1ccc(S(=O)(=O)NC(=O)CCl)cc1,SAD-SAT-65574d3f-4,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-4
-O=C(CCl)N1CCC2(CC1)OCCO2,SAD-SAT-65574d3f-5,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-5
-NC(=O)C1CCCN(C(=O)CCl)C1,SAD-SAT-65574d3f-6,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-6
-O=C(CCl)NCC(=O)N1CCCC1,SAD-SAT-65574d3f-7,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-7
-O=C(CCl)NCc1ccccc1S(=O)(=O)N1CCOCC1,SAD-SAT-65574d3f-8,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-8
-O=C(CCl)N1CCN(c2cccc(Cl)c2)CC1,SAD-SAT-65574d3f-9,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-9
-COc1cc(C)c(CN2CCN(C(=O)CCl)CC2)cc1OC,SAD-SAT-65574d3f-10,"Sadit Joarder, SATEC",x0689,False,SAD-SAT-65574d3f-10
+O=C(CCl)N1CCN(C/C=C/c2ccccc2)CC1,SAD-SAT-65574d3f-1,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-1
+NS(=O)(=O)c1ccc(CNC(=O)CCl)cc1,SAD-SAT-65574d3f-2,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-2
+O=C(CCl)NNS(=O)(=O)c1ccccc1,SAD-SAT-65574d3f-3,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-3
+Cc1ccc(S(=O)(=O)NC(=O)CCl)cc1,SAD-SAT-65574d3f-4,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-4
+O=C(CCl)N1CCC2(CC1)OCCO2,SAD-SAT-65574d3f-5,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-5
+NC(=O)C1CCCN(C(=O)CCl)C1,SAD-SAT-65574d3f-6,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-6
+O=C(CCl)NCC(=O)N1CCCC1,SAD-SAT-65574d3f-7,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-7
+O=C(CCl)NCc1ccccc1S(=O)(=O)N1CCOCC1,SAD-SAT-65574d3f-8,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-8
+O=C(CCl)N1CCN(c2cccc(Cl)c2)CC1,SAD-SAT-65574d3f-9,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-9
+COc1cc(C)c(CN2CCN(C(=O)CCl)CC2)cc1OC,SAD-SAT-65574d3f-10,"Sadit Joarder, SATEC",x0689,True,SAD-SAT-65574d3f-10
+Cc1ccncc1C(NC(=O)CC1CC1)C(=O)Nc1cccc(C#N)c1,MIC-UNK-1e397c67-1,Michal K,"x0107,x0397",False,MIC-UNK-2744a8e2-13
+N#Cc1cn(C2N=CC(F)=C2F)s1,YOI-UNK-50175d1a-1,Yoishik Rakshit,,False,YOI-UNK-50175d1a-1
+NCCC(c1cccc(Cl)c1)N1CC2CC1CN2C(=O)CCl,AHN-SAT-721e3e40-1,"Ahnaf Khan, Satec",,False,AHN-SAT-721e3e40-1
+N#CCC1C=CC=C1n1os1,YOI-UNK-f445e09d-1,Yoishik Rakshit,,False,YOI-UNK-9f5fb3d8-1
+CC1=CC=C(n2os2)C1C(C)(C#N)C1CNCCN1,YOI-UNK-f445e09d-2,Yoishik Rakshit,,False,YOI-UNK-9f5fb3d8-2
+N#CCC1C=CC=C1n1os1,YOI-UNK-9f5fb3d8-1,Yoishik Rakshit,,False,YOI-UNK-9f5fb3d8-1
+CC1=CC=C(n2os2)C1C(C)(C#N)C1CNCCN1,YOI-UNK-9f5fb3d8-2,Yoishik Rakshit,,False,YOI-UNK-9f5fb3d8-2
+CC(CNCCCO)CC(=O)N1CCN(C)CC1,MAK-UNK-b1917cc8-1,Maksym Voznyy,x1093,False,MAK-UNK-b1917cc8-1
+CN1CCN(C(=O)CCN2CCNCC2)CC1,MAK-UNK-b1917cc8-2,Maksym Voznyy,x1093,False,MAK-UNK-b1917cc8-2
+CN1CCN(C(=O)CN2CCNCC2)CC1,MAK-UNK-b1917cc8-3,Maksym Voznyy,x1093,False,MAK-UNK-b1917cc8-3
+CC(CNCC1CCCO1)N1CCN(C)CC1,MAK-UNK-b1917cc8-4,Maksym Voznyy,x1093,False,MAK-UNK-b1917cc8-4
+CCC(C(=O)Cc1c[nH]c2ncccc12)C(O)N(C)C,MAK-UNK-b1917cc8-5,Maksym Voznyy,x1093,False,MAK-UNK-b1917cc8-5
+Cc1cc2c(N)nc(=O)n(CC(=O)Nc3cccc(Cl)c3)c2s1,JAG-UCB-77729364-1,"Jag Heer, UCB",x0072,False,JAG-UCB-77729364-1
+Cc1ccncc1NC(=O)C(F)c1ccccc1,ABI-SAT-4d06482b-1,"Abintha, SATEC",,False,ABI-SAT-4d06482b-1
+Cc1ncncc1NC(=O)Cc1cccc(Cl)c1,ABI-SAT-4d06482b-2,"Abintha, SATEC",,False,ABI-SAT-4d06482b-2
+CC(NC1CCS(=O)(=O)C1)c1cc(Cl)cc(C#N)c1,ABI-SAT-4d06482b-3,"Abintha, SATEC",,False,ABI-SAT-4d06482b-3
+N#Cc1cc(Cl)cc(C(=O)NC2CCS(=O)(=O)C2)c1,ABI-SAT-4d06482b-4,"Abintha, SATEC",,False,ABI-SAT-4d06482b-4
+N#Cc1cc(Cl)cc(C(=O)NC2=CS(=O)(=O)C=C2Cl)c1,ABI-SAT-4d06482b-5,"Abintha, SATEC",,False,ABI-SAT-4d06482b-5
+COc1cc(Cc2cnc(N)nc2N)c2cc(Cc3c(C(=O)N(C)C)[nH]c4ccc(Cl)cc34)oc2c1OC,MAR-TRE-3724962b-1,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-1
+NC(CC(=O)N1CCc2c(nc(C(F)(F)F)nc2C(F)(F)F)C1)CN1CC(F)(F)CCC1=O,MAR-TRE-3724962b-2,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-2
+CN(c1ccccc1CNc1nc(Nc2ccc3c(c2)CC(=O)N3)ncc1C(F)(F)F)S(C)(=O)=O,MAR-TRE-3724962b-3,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-3
+COc1ccc(COc2ccc(Cc3cnc(N)nc3N)cc2OC)cc1,MAR-TRE-3724962b-4,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-4
+O=C(NCC1CCOCC1)c1cnc(Nc2ccc(Cl)cc2Cl)nc1C(F)(F)F,MAR-TRE-3724962b-5,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-5
+CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CCC(=O)N4)ncc2C(F)(F)F)c1,MAR-TRE-3724962b-6,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-6
+O=c1[nH]c(=O)n(C2CC(O)C(CO)O2)cc1C(F)(F)F,MAR-TRE-3724962b-7,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-7
+Cc1cc2ncc(C(=O)NCC(C)(C)NCC(=O)N3CCCC3C#N)cn2n1,MAR-TRE-3724962b-8,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-8
+Nc1nc(N)c(N=O)c(OCC2CCCCC2)n1,MAR-TRE-3724962b-9,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-9
+CCNC(=O)Nc1nc2c(C3CCCO3)c(F)c(-c3cnc(C(C)(C)O)nc3)cc2[nH]1,MAR-TRE-3724962b-10,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-10
+Cc1cn(C2CC(N=[N+]=N)C(CO)O2)c(=O)nc1N,MAR-TRE-3724962b-11,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-11
+COc1cc(Cc2cnc(N)nc2N)c2c(c1OC)OC(C1CC1)C=C2,MAR-TRE-3724962b-12,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-12
+COc1cc(Cc2cnc(N)nc2N)cc(OC)c1Br,MAR-TRE-3724962b-13,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-13
+O=c1[nH]cc(NC(=S)NC2OC(CO)C(O)C(O)C2O)c(=O)[nH]1,MAR-TRE-3724962b-14,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-14
+Cc1nc2c(-c3cnc(N)nc3)nc(N3CCOCC3)nc2n1C(C)C,MAR-TRE-3724962b-15,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-15
+COc1cc(Cc2cnc(N3C(=O)c4ccccc4C3=O)nc2N)cc(OC)c1OC,MAR-TRE-3724962b-16,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-16
+CC(O)C(O)C1CNc2nc(N)[nH]c(=O)c2N1,MAR-TRE-3724962b-17,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-17
+COc1ncnc(NS(=O)(=O)c2ccc(N)cc2)c1OC,MAR-TRE-3724962b-18,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-18
+CCNC(=O)Nc1ccc(-c2ncc(C)c(NC(C)c3cccnc3)n2)cc1OC,MAR-TRE-3724962b-19,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-19
+CS(=O)(=O)N1CCN(Cc2cn3cc(-c4cnc(N)nc4)nc(N4CCOCC4)c3n2)CC1,MAR-TRE-3724962b-20,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-20
+COc1cnc(NS(=O)(=O)c2ccc(N)cc2)nc1,MAR-TRE-3724962b-21,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-21
+Nc1nc(-c2nn(Cc3ccccc3F)c3ncccc23)ncc1C1CC1,MAR-TRE-3724962b-22,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-22
+C/C(=C1\CCOC(=O)S1)N(C=O)Cc1cnc(C)nc1N,MAR-TRE-3724962b-23,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-23
+COc1cc(Cc2cnc(N)nc2N)cc(OC)c1N(C)C,MAR-TRE-3724962b-24,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-24
+CNS(=O)(=O)Cc1ccc2[nH]cc(CCCN3CCN(c4ncncc4OC)CC3)c2c1,MAR-TRE-3724962b-25,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-25
+CC(=O)Nn1cnc(=O)c(C#N)c1,MAR-TRE-3724962b-26,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-26
+CC(O)C(O)C1CNc2nc(N)nc(N)c2N1,MAR-TRE-3724962b-27,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-27
+COc1ccc(Cc2cnc(N)nc2N)cc1OC,MAR-TRE-3724962b-28,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-28
+COc1cncnc1N1CCN(CCCc2c[nH]c3ccc(F)cc23)CC1,MAR-TRE-3724962b-29,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-29
+O=C(NO)c1cnc(N2CC3C(C2)C3NCc2ccc3cc(F)ccc3n2)nc1,MAR-TRE-3724962b-30,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-30
+CCCCOc1nc(N)c2c(n1)N(Cc1cccc(CN3CCCC3)c1)CC(=O)N2,MAR-TRE-3724962b-31,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-31
+COCCOc1cnc(NS(=O)(=O)c2ccccc2)nc1,MAR-TRE-3724962b-32,"Mark Davies, Treweren Consultants",x0995,False,MAR-TRE-3724962b-32
+C=CC(=O)NCc1ccc(-c2nc3ccccc3s2)o1,AHN-SAT-324b361c-1,"Ahnaf Khan, Satec",x0165,False,AHN-SAT-324b361c-1
+CC(C1=CCN(C(=O)CCl)C=C1)C1CNC(S(C)(=O)=O)C(C#N)C1,ABI-SAT-96764fe8-1,"Abintha, SATEC",,False,ABI-SAT-96764fe8-1
+C=CC(=O)N1CCCCC1c1nc2ccccc2s1,AHN-SAT-02ef6d10-1,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-1
+C=CC(=O)NC1CCN(Cc2ccc(F)cc2)CC1,AHN-SAT-02ef6d10-2,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-2
+C=CC(=O)N1CCN(c2cccc(C)c2)CC1,AHN-SAT-02ef6d10-3,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-3
+C=CC(=O)N1CCC(c2nc3ccccc3s2)CC1,AHN-SAT-02ef6d10-4,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-4
+C=CC(=O)N1CCN(S(=O)(=O)c2cc(C(N)=O)n(C)c2)CC1,AHN-SAT-02ef6d10-5,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-5
+C=CC(=O)N1CCN(Cc2cncs2)CC1,AHN-SAT-02ef6d10-6,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-6
+C=CC(=O)N1CCN(S(=O)(=O)CC)CC1,AHN-SAT-02ef6d10-7,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-7
+C=CC(=O)NCc1ccnc(N2CCOC(C)C2)c1,AHN-SAT-02ef6d10-8,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-8
+C=CC(=O)N1CC(Cc2ccsc2)C1,AHN-SAT-02ef6d10-9,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-9
+C=CC(=O)N1CCN(Cc2cccc(F)c2)CC1,AHN-SAT-02ef6d10-10,"Ahnaf Khan, Satec","x0397,x0425,x0426,x0692,x0705",False,AHN-SAT-02ef6d10-10
+N#Cc1c(NC(=O)CCl)sc2c1CCCC2,PRO-INS-c91ddbbd-1,"Prof. Prashant S. Kharkar, Institute of Chemical Technology (ICT), Mumbai, India.",,False,PRO-INS-c91ddbbd-1
+N#CCc1nc(C2CO2)ncc1NC(=O)CCl,YOI-UNK-144e4c15-1,Yoishik Rakshit,,False,YOI-UNK-144e4c15-1
+N#CC(c1ncncc1NC(=O)CCl)C1CC1F,YOI-UNK-144e4c15-2,Yoishik Rakshit,,False,YOI-UNK-144e4c15-2
+CN(C(=O)CCl)c1cncnc1C(C#N)C1C(F)C1F,YOI-UNK-144e4c15-3,Yoishik Rakshit,,False,YOI-UNK-144e4c15-3
+CNC1C=C(C(C2CCPC2)C2CNC(S(N)(=O)=O)C(C#N)C2)C=CN1C(=O)CCl,YOI-UNK-144e4c15-4,Yoishik Rakshit,,False,YOI-UNK-144e4c15-4
+O=C(Cc1cccs1)N1CCN(S(=O)(=O)F)CC1,SAD-SAT-2fd372d1-1,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-1
+O=C(NCc1ccccc1)N1CCN(S(=O)(=O)F)CC1,SAD-SAT-2fd372d1-2,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-2
+Cc1ccc(S(=O)(=O)N2CCCCC2)cc1S(=O)(=O)F,SAD-SAT-2fd372d1-3,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-3
+O=C(c1ccsc1)N1CCN(S(=O)(=O)F)CC1,SAD-SAT-2fd372d1-4,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-4
+O=S(=O)(F)c1ccccc1S(=O)(=O)N1CCCC1,SAD-SAT-2fd372d1-5,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-5
+O=S(=O)(F)c1ccc(S(=O)(=O)N2CCCCC2)cc1,SAD-SAT-2fd372d1-6,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-6
+O=C(Nc1cccnc1)N1CCN(S(=O)(=O)F)CC1,SAD-SAT-2fd372d1-7,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-7
+O=C(Nc1ccccc1)N1CCN(S(=O)(=O)F)CC1,SAD-SAT-2fd372d1-8,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-8
+Cc1ccc(S(=O)(=O)N2CCN(C(=O)n3ccnc3)CC2)cc1,SAD-SAT-2fd372d1-9,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-9
+COc1ccccc1CC(=O)N1CCCN(S(=O)(=O)F)CC1,SAD-SAT-2fd372d1-10,"Sadit Joarder, SATEC",x0691,False,SAD-SAT-2fd372d1-10
+NC(=O)Cn1cnc2c(nnn2-c2cccc(Cl)c2)c1=O,JAG-UCB-ef2c0e8e-1,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-1
+O=C1CC[C@H](C(=O)Nc2cccc(Br)c2)N1,JAG-UCB-ef2c0e8e-2,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-2
+Cc1cccc(NC(=O)Cn2c(=O)oc3ccccc32)c1,JAG-UCB-ef2c0e8e-3,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-3
+Cc1ccc(-n2ncc3c(=O)n(CC(N)=O)cnc32)cc1C,JAG-UCB-ef2c0e8e-4,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-4
+Nc1ncc(S(=O)(=O)NCc2cccc(Cl)c2)cn1,JAG-UCB-ef2c0e8e-5,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-5
+CCS(=O)(=O)N1CCC(C(=O)Nc2cc(Cl)ccc2O)CC1,JAG-UCB-ef2c0e8e-6,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-6
+Cn1cnnc1CNC(=O)Nc1cc(C(F)(F)F)c[nH]c1=O,JAG-UCB-ef2c0e8e-7,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-7
+Cc1cccc(CS(=O)(=O)N2CCC(C(N)=O)CC2)c1,JAG-UCB-ef2c0e8e-8,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-8
+Cc1ccc(C)c(NC(=O)[C@H]2CNC(=O)C2)c1,JAG-UCB-ef2c0e8e-9,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-9
+O=C1CC[C@@H](C(=O)Nc2cccc(Cl)c2)CN1,JAG-UCB-ef2c0e8e-10,"Jag Heer, UCB",,False,JAG-UCB-ef2c0e8e-10
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)cc1C,JAG-UCB-1d922829-1,"Jag Heer, UCB",,False,JAG-UCB-1d922829-1
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)c(C)c1,JAG-UCB-1d922829-2,"Jag Heer, UCB",,False,JAG-UCB-1d922829-2
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)cc1Cl,JAG-UCB-1d922829-3,"Jag Heer, UCB",,False,JAG-UCB-1d922829-3
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(Cl)c1,JAG-UCB-1d922829-4,"Jag Heer, UCB",,False,JAG-UCB-1d922829-4
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(C#N)c1,JAG-UCB-1d922829-5,"Jag Heer, UCB",,False,JAG-UCB-1d922829-5
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(C(F)(F)F)c1,JAG-UCB-1d922829-6,"Jag Heer, UCB",,False,JAG-UCB-1d922829-6
+Cc1cc2c(cc1C)[C@H](C(=O)N1CCCC[C@@H]1c1cn[nH]c1)CO2,JAG-UCB-1d922829-7,"Jag Heer, UCB",,False,JAG-UCB-1d922829-7
+Cc1ccncc1NC(=O)Cc1cccc(C2(C)CC2)c1,DAR-DIA-0cde14eb-1,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-1
+Cc1ccncc1NC(=O)Cc1cccc(C2(F)CC2)c1,DAR-DIA-0cde14eb-2,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-2
+Cc1ccncc1NC(=O)Cc1cccc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-3,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-3
+Cc1ccncc1NC(=O)Cc1cccc(C2(I)CC2)c1,DAR-DIA-0cde14eb-4,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-4
+Cc1ccncc1NC(=O)Nc1cccc(C2(C)CC2)c1,DAR-DIA-0cde14eb-5,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-5
+Cc1ccncc1NC(=O)Nc1cccc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-6,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-6
+Cc1ccncc1NC(=O)Nc1cccc(C2(F)CC2)c1,DAR-DIA-0cde14eb-7,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-7
+Cc1ccncc1NC(=O)Nc1cccc(C2(I)CC2)c1,DAR-DIA-0cde14eb-8,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-8
+Cc1ccncc1NC(=O)Nc1cccc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-9,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-9
+Cc1ccncc1NC(=O)C(C)c1cccc(C2(C)CC2)c1,DAR-DIA-0cde14eb-10,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-10
+Cc1ccncc1NC(=O)C(C)c1cccc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-11,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-11
+Cc1ccncc1NC(=O)C(C)c1cccc(C2(F)CC2)c1,DAR-DIA-0cde14eb-12,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-12
+Cc1ccncc1NC(=O)C(C)c1cccc(C2(I)CC2)c1,DAR-DIA-0cde14eb-13,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-13
+Cc1ccncc1NC(=O)Cc1cccc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-14,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-14
+Cc1ccncc1NC(=O)C(C)c1cccc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-15,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-15
+Cc1ccncc1NC(=O)Cc1cc(N2CCCCC2)cc(C2(C)CC2)c1,DAR-DIA-0cde14eb-16,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-16
+Cc1ccncc1NC(=O)Cc1cc(N2CCCCC2)cc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-17,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-17
+Cc1ccncc1NC(=O)Cc1cc(N2CCCCC2)cc(C2(F)CC2)c1,DAR-DIA-0cde14eb-18,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-18
+Cc1ccncc1NC(=O)Cc1cc(N2CCCCC2)cc(C2(I)CC2)c1,DAR-DIA-0cde14eb-19,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-19
+Cc1ccncc1NC(=O)Nc1cc(N2CCCCC2)cc(C2(C)CC2)c1,DAR-DIA-0cde14eb-20,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-20
+Cc1ccncc1NC(=O)Nc1cc(N2CCCCC2)cc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-21,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-21
+Cc1ccncc1NC(=O)Nc1cc(N2CCCCC2)cc(C2(F)CC2)c1,DAR-DIA-0cde14eb-22,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-22
+Cc1ccncc1NC(=O)Nc1cc(N2CCCCC2)cc(C2(I)CC2)c1,DAR-DIA-0cde14eb-23,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-23
+Cc1ccncc1NC(=O)Nc1cc(N2CCCCC2)cc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-24,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-24
+Cc1ccncc1NC(=O)C(C)c1cc(N2CCCCC2)cc(C2(C)CC2)c1,DAR-DIA-0cde14eb-25,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-25
+Cc1ccncc1NC(=O)C(C)c1cc(N2CCCCC2)cc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-26,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-26
+Cc1ccncc1NC(=O)C(C)c1cc(N2CCCCC2)cc(C2(F)CC2)c1,DAR-DIA-0cde14eb-27,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-27
+Cc1ccncc1NC(=O)C(C)c1cc(N2CCCCC2)cc(C2(I)CC2)c1,DAR-DIA-0cde14eb-28,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-28
+Cc1ccncc1NC(=O)Cc1cc(N2CCCCC2)cc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-29,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-29
+Cc1ccncc1NC(=O)C(C)c1cc(N2CCCCC2)cc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-30,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-30
+CC1(c2cccc(CC(=O)Nc3cncc4c3CCCC4)c2)CC1,DAR-DIA-0cde14eb-31,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-31
+O=C(Cc1cccc(C2(Cl)CC2)c1)Nc1cncc2c1CCCC2,DAR-DIA-0cde14eb-32,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-32
+O=C(Cc1cccc(C2(F)CC2)c1)Nc1cncc2c1CCCC2,DAR-DIA-0cde14eb-33,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-33
+O=C(Cc1cccc(C2(I)CC2)c1)Nc1cncc2c1CCCC2,DAR-DIA-0cde14eb-34,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-34
+CC1(c2cccc(NC(=O)Nc3cncc4c3CCCC4)c2)CC1,DAR-DIA-0cde14eb-35,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-35
+O=C(Nc1cccc(C2(Cl)CC2)c1)Nc1cncc2c1CCCC2,DAR-DIA-0cde14eb-36,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-36
+O=C(Nc1cccc(C2(F)CC2)c1)Nc1cncc2c1CCCC2,DAR-DIA-0cde14eb-37,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-37
+O=C(Nc1cccc(C2(I)CC2)c1)Nc1cncc2c1CCCC2,DAR-DIA-0cde14eb-38,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-38
+N#CC1(c2cccc(NC(=O)Nc3cncc4c3CCCC4)c2)CC1,DAR-DIA-0cde14eb-39,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-39
+CC(C(=O)Nc1cncc2c1CCCC2)c1cccc(C2(C)CC2)c1,DAR-DIA-0cde14eb-40,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-40
+CC(C(=O)Nc1cncc2c1CCCC2)c1cccc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-41,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-41
+CC(C(=O)Nc1cncc2c1CCCC2)c1cccc(C2(F)CC2)c1,DAR-DIA-0cde14eb-42,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-42
+CC(C(=O)Nc1cncc2c1CCCC2)c1cccc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-43,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-43
+CC(C(=O)Nc1cncc2c1CCCC2)c1cccc(C2(I)CC2)c1,DAR-DIA-0cde14eb-44,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-44
+N#CC1(c2cccc(CC(=O)Nc3cncc4c3CCCC4)c2)CC1,DAR-DIA-0cde14eb-45,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-45
+CC1(c2cccc(CC(=O)Nc3cncc4ccccc34)c2)CC1,DAR-DIA-0cde14eb-46,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-46
+O=C(Cc1cccc(C2(Cl)CC2)c1)Nc1cncc2ccccc12,DAR-DIA-0cde14eb-47,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-47
+O=C(Cc1cccc(C2(F)CC2)c1)Nc1cncc2ccccc12,DAR-DIA-0cde14eb-48,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-48
+O=C(Cc1cccc(C2(I)CC2)c1)Nc1cncc2ccccc12,DAR-DIA-0cde14eb-49,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-49
+CC1(c2cccc(NC(=O)Nc3cncc4ccccc34)c2)CC1,DAR-DIA-0cde14eb-50,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-50
+O=C(Nc1cccc(C2(Cl)CC2)c1)Nc1cncc2ccccc12,DAR-DIA-0cde14eb-51,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-51
+O=C(Nc1cccc(C2(F)CC2)c1)Nc1cncc2ccccc12,DAR-DIA-0cde14eb-52,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-52
+O=C(Nc1cccc(C2(I)CC2)c1)Nc1cncc2ccccc12,DAR-DIA-0cde14eb-53,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-53
+N#CC1(c2cccc(NC(=O)Nc3cncc4ccccc34)c2)CC1,DAR-DIA-0cde14eb-54,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-54
+CC(C(=O)Nc1cncc2ccccc12)c1cccc(C2(C)CC2)c1,DAR-DIA-0cde14eb-55,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-55
+CC(C(=O)Nc1cncc2ccccc12)c1cccc(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-56,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-56
+CC(C(=O)Nc1cncc2ccccc12)c1cccc(C2(F)CC2)c1,DAR-DIA-0cde14eb-57,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-57
+CC(C(=O)Nc1cncc2ccccc12)c1cccc(C2(I)CC2)c1,DAR-DIA-0cde14eb-58,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-58
+N#CC1(c2cccc(CC(=O)Nc3cncc4ccccc34)c2)CC1,DAR-DIA-0cde14eb-59,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-59
+CC(C(=O)Nc1cncc2ccccc12)c1cccc(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-60,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-60
+Cc1ccncc1NC(=O)Cc1cnn(C2(C)CC2)c1,DAR-DIA-0cde14eb-61,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-61
+Cc1ccncc1NC(=O)Cc1cnn(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-62,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-62
+Cc1ccncc1NC(=O)Cc1cnn(C2(F)CC2)c1,DAR-DIA-0cde14eb-63,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-63
+Cc1ccncc1NC(=O)Cc1cnn(C2(I)CC2)c1,DAR-DIA-0cde14eb-64,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-64
+Cc1ccncc1NC(=O)Nc1cnn(C2(C)CC2)c1,DAR-DIA-0cde14eb-65,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-65
+Cc1ccncc1NC(=O)Nc1cnn(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-66,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-66
+Cc1ccncc1NC(=O)Nc1cnn(C2(F)CC2)c1,DAR-DIA-0cde14eb-67,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-67
+Cc1ccncc1NC(=O)Nc1cnn(C2(I)CC2)c1,DAR-DIA-0cde14eb-68,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-68
+Cc1ccncc1NC(=O)Nc1cnn(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-69,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-69
+Cc1ccncc1NC(=O)C(C)c1cnn(C2(C)CC2)c1,DAR-DIA-0cde14eb-70,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-70
+Cc1ccncc1NC(=O)C(C)c1cnn(C2(Cl)CC2)c1,DAR-DIA-0cde14eb-71,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-71
+Cc1ccncc1NC(=O)C(C)c1cnn(C2(F)CC2)c1,DAR-DIA-0cde14eb-72,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-72
+Cc1ccncc1NC(=O)C(C)c1cnn(C2(I)CC2)c1,DAR-DIA-0cde14eb-73,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-73
+Cc1ccncc1NC(=O)Cc1cnn(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-74,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-74
+Cc1ccncc1NC(=O)C(C)c1cnn(C2(C#N)CC2)c1,DAR-DIA-0cde14eb-75,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-75
+Cc1ccncc1NC(=O)Cc1cccc(C(F)(F)F)c1,DAR-DIA-0cde14eb-76,"Daren Fearon, Diamond Light Source","x0107,x0434",False,JAN-GHE-83b26c96-14
+CCC(F)(F)c1cccc(CC(=O)Nc2cnccc2C)c1,DAR-DIA-0cde14eb-77,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-77
+Cc1ccncc1NC(=O)Cc1cccc([S+](C)[O-])c1,DAR-DIA-0cde14eb-78,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-78
+Cc1ccncc1NC(=O)Cc1cccc(C(C)(F)F)c1,DAR-DIA-0cde14eb-79,"Daren Fearon, Diamond Light Source","x0107,x0434",False,DAR-DIA-0cde14eb-79
+COc1ccccc1OCCNC(=O)c1cc(N)nc2ccccc12,DAR-DIA-8e329c92-1,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-1
+COc1ccccc1OCCNC(=O)c1cc(N)cc2ccccc12,DAR-DIA-8e329c92-2,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-2
+COc1ccccc1OCCNC(=O)c1cc(O)cc2ccccc12,DAR-DIA-8e329c92-3,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-3
+COc1ccccc1OCC(NC(=O)c1cc(=O)[nH]c2ccccc12)C1CC1,DAR-DIA-8e329c92-4,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-4
+COc1ccccc1OCC(NC(=O)c1cc(=O)[nH]c2ccccc12)N1CCC1,DAR-DIA-8e329c92-5,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-5
+COc1ccccc1OCC(CC(C)C)NC(=O)c1cc(=O)[nH]c2ccccc12,DAR-DIA-8e329c92-6,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-6
+COc1ccccc1OCC(NC(=O)c1cc(=O)[nH]c2ccccc12)N1CCCCC1,DAR-DIA-8e329c92-7,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-7
+COc1ccccc1OCC(CN1CCOCC1)NC(=O)c1cc(=O)[nH]c2ccccc12,DAR-DIA-8e329c92-8,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-8
+O=C(NCCc1cccc2ccccc12)c1cc(=O)[nH]c2ccccc12,DAR-DIA-8e329c92-9,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-9
+COc1cccc(NCNC(=O)c2cc(=O)[nH]c3ccccc23)c1,DAR-DIA-8e329c92-10,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-10
+NS(=O)(=O)c1ccc(CCNC(=O)c2cc(=O)[nH]c3ccccc23)c2ccccc12,DAR-DIA-8e329c92-11,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-11
+NS(=O)(=O)c1ccc(CCNC(=O)c2cc(=O)[nH]c3ccccc23)c2c1CCCC2,DAR-DIA-8e329c92-12,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-12
+CN1CCCc2c(S(N)(=O)=O)ccc(CCNC(=O)c3cc(=O)[nH]c4ccccc34)c21,DAR-DIA-8e329c92-13,"Daren Fearon, Diamond Light Source","x0161,x0195",False,DAR-DIA-8e329c92-13
+O=C1[C@H](Nc2nccn3cnnc23)CCN1c1cccc(Cl)c1,JAG-UCB-4709a583-1,"Jag Heer, UCB",x0072,False,JAG-UCB-4709a583-1
+Nc1cn(CC(=O)Nc2cccc(Cl)c2)nn1,JAG-UCB-252a2f58-1,"Jag Heer, UCB",x0072,False,JAG-UCB-252a2f58-1
+Cc1ccc(Cl)cc1NC(=O)Cn1c(=O)cc(C)c2c(C)nn(C)c21,JAG-UCB-3b0e85f1-1,"Jag Heer, UCB",x0072,False,JAG-UCB-3b0e85f1-1
+O=C(CCl)N1CC2CC1CN2Cc1cc(Cl)cc2ccccc12,DAR-DIA-3e9bbd81-1,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-1
+N#Cc1cc(CN2CC3CC2CN3C(=O)CCl)c2ccccc2c1,DAR-DIA-3e9bbd81-2,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-2
+O=C(CCl)N1CC2CC1CN2C(c1ccccc1)c1cccc(Cl)c1,DAR-DIA-3e9bbd81-3,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-3
+NS(=O)(=O)c1cccc2c(CN3CC4CC3CN4C(=O)CCl)cc(Cl)cc12,DAR-DIA-3e9bbd81-4,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-4
+O=C(CCl)N1CC2CC1CN2C(c1ccccc1)c1cc(Cl)cc2ccccc12,DAR-DIA-3e9bbd81-5,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-5
+N#Cc1cc(C(c2ccccc2)N2CC3CC2CN3C(=O)CCl)c2ccccc2c1,DAR-DIA-3e9bbd81-6,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-6
+N#Cc1cccc(C(c2ccccc2)N2CC3CC2CN3C(=O)CCl)c1,DAR-DIA-3e9bbd81-7,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-7
+N#Cc1cc(CN2CC3CC2CN3C(=O)CCl)c2cccc(S(N)(=O)=O)c2c1,DAR-DIA-3e9bbd81-8,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-8
+N#Cc1cc(CN2CC3CC2CN3C(=O)CCl)c2ccc(S(N)(=O)=O)cc2c1,DAR-DIA-3e9bbd81-9,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-9
+NS(=O)(=O)c1ccc2c(CN3CC4CC3CN4C(=O)CCl)cc(Cl)cc2c1,DAR-DIA-3e9bbd81-10,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-10
+N#Cc1cccc(C(c2ccccc2)N2CCN(C(=O)CCl)CC2)c1,DAR-DIA-3e9bbd81-11,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-11
+O=C(CCl)N1CCN(C(c2ccccc2)c2cccc(Cl)c2)CC1,DAR-DIA-3e9bbd81-12,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-12
+N#Cc1cccc(C(N2CC3CC2CN3C(=O)CCl)n2ccc3ccccc32)c1,DAR-DIA-3e9bbd81-13,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-13
+O=C(CCl)N1CC2CC1CN2C(c1cccc(Cl)c1)n1ccc2ccccc21,DAR-DIA-3e9bbd81-14,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-14
+O=C(CCl)N1CCN(C(c2cccc(Cl)c2)n2ccc3ccccc32)CC1,DAR-DIA-3e9bbd81-15,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-15
+N#Cc1cccc(C(N2CCN(C(=O)CCl)CC2)n2ccc3ccccc32)c1,DAR-DIA-3e9bbd81-16,"Daren Fearon, Diamond Light Source","x0195,x0830",False,DAR-DIA-3e9bbd81-16
+CC(C1=CCN(C(=O)CCl)C=C1)C1CNC(S(N)(=O)=O)C(C#N)C1,ABI-UNK-6fa18b51-1,Abintha,,False,ABI-UNK-6fa18b51-1
+NCN(C(=O)CCl)c1ccc(F)cc1,MAK-UNK-e0fdfe28-1,Maksym Voznyy,x1375,False,MAK-UNK-e0fdfe28-1
+Cc1cnc2[nH]c(-n3os3)c(CCN(Cc3c(F)cccc3Cl)c3ccc4[nH]c(=O)oc4c3)c2c1,YOI-UNK-14666c06-1,Yoishik Rakshit,,False,YOI-UNK-14666c06-1
+O=C(Cc1cncnc1)CN1CCNCC1,MAK-UNK-748f8b7a-1,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-1
+CC(CO)(NC1CC1)C(=O)Cc1cncnc1,MAK-UNK-748f8b7a-2,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-2
+CN(C)C(NC(=O)Cc1cncnc1)C1CCC1,MAK-UNK-748f8b7a-3,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-3
+O=C(Cc1cncnc1)NCCOC1CNC1,MAK-UNK-748f8b7a-4,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-4
+O=C(Cc1cncnc1)NCN1CCNCC1,MAK-UNK-748f8b7a-5,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-5
+N#Cc1cccc(CC(=O)Nc2cnccc2CN2CCNCC2)c1,MAK-UNK-748f8b7a-6,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-6
+O=C(Cc1cncnc1)NC1CCCNC1,MAK-UNK-748f8b7a-7,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-7
+CC1(OCC(=O)Cc2cncnc2)CNC1,MAK-UNK-748f8b7a-8,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-8
+CC1COC(CO)CN1Cc1ccncc1NC(=O)Cc1cccc(C#N)c1,MAK-UNK-748f8b7a-9,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-9
+CC(NC(=O)Cc1cncnc1)NC1COCC1O,MAK-UNK-748f8b7a-10,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-10
+O=C(Cc1cncnc1)CN1CCOCC1,MAK-UNK-748f8b7a-11,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-11
+CC(O)C(NC(=O)Cc1cncnc1)N(C)C,MAK-UNK-748f8b7a-12,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-12
+CC1COC(CO)CN1CNC(=O)Cc1cncnc1,MAK-UNK-748f8b7a-13,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-13
+O=C(Cc1cncnc1)NC(=O)C1CC1,MAK-UNK-748f8b7a-14,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-14
+O=C(Cc1cncnc1)NC1CCNCC1,MAK-UNK-748f8b7a-15,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-15
+NC(NC(=O)Cc1cncnc1)C1CC1,MAK-UNK-748f8b7a-16,Maksym Voznyy,x0425,False,MAK-UNK-748f8b7a-16
+O=C(Cc1ccccc1Cl)Nc1cccnc1,MAK-UNK-a7b37c5e-1,Maksym Voznyy,x0425,False,MAK-UNK-a7b37c5e-1
+O=C(Cc1ccccc1C(=O)O)Nc1cccnc1,MAK-UNK-a7b37c5e-2,Maksym Voznyy,x0425,False,MAK-UNK-a7b37c5e-2
+O=C(Cc1ccccc1)Nc1cccnc1Cl,MAK-UNK-a7b37c5e-3,Maksym Voznyy,x0425,False,MAK-UNK-a7b37c5e-3
+O=C(Cc1ccc(Cl)cc1)Nc1cccnc1,MAK-UNK-a7b37c5e-4,Maksym Voznyy,x0425,False,MAK-UNK-a7b37c5e-4
+O=C(Cc1ccc(F)cc1)Nc1cccnc1,MAK-UNK-a7b37c5e-5,Maksym Voznyy,x0425,False,MAK-UNK-a7b37c5e-5
+N#Cc1cccc(CC(=O)Nc2cnccc2[N+](=O)[O-])c1,SAD-SAT-24589cd1-1,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-1
+O=C(Cc1cncnc1)Nc1cccc(N2CCC2)c1,SAD-SAT-24589cd1-2,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-2
+CS(=O)(=O)c1ccncc1NC(=O)Cc1cccc(C#N)c1,SAD-SAT-24589cd1-3,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-3
+O=C(Cc1cncnc1)Nc1cccnc1,SAD-SAT-24589cd1-4,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-4
+N#Cc1cccc(CC(=O)Nc2cnccc2C#N)c1,SAD-SAT-24589cd1-5,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-5
+N#Cc1cccc(CC(=O)Nc2cnccc2CN2CCOCC2)c1,SAD-SAT-24589cd1-6,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-6
+O=C(Cc1cncnc1)N1CCc2ccccc21,SAD-SAT-24589cd1-7,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-7
+N#Cc1cccc(CC(=O)Nc2cnccc2CN)c1,SAD-SAT-24589cd1-8,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-8
+CC(=O)N1CCC(c2ccncc2NC(=O)Cc2cccc(C#N)c2)CC1,SAD-SAT-24589cd1-9,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-9
+N#Cc1cccc(CC(=O)Nc2cnccc2C2CCCNC2)c1,SAD-SAT-24589cd1-10,"Sadit Joarder, SATEC",x0425,False,SAD-SAT-24589cd1-10
+CCC1=NCC(N(CCn2[nH]o2)C(=O)CCl)N=C1,YOI-UNK-54141b3d-1,Yoishik Rakshit,,False,YOI-UNK-54141b3d-1
+O=C(CC1CCC1F)N(CCn1[nH]o1)C1CN=CC=N1,YOI-UNK-54141b3d-2,Yoishik Rakshit,,False,YOI-UNK-54141b3d-2
+CCC1=NCC(N(CCn2[nH]o2)C(=O)CCl)N=C1,YOI-UNK-a3b34759-1,Yoishik Rakshit,,False,YOI-UNK-54141b3d-1
+O=C(CC1CCC1F)N(CCn1[nH]o1)C1CN=CC=N1,YOI-UNK-a3b34759-2,Yoishik Rakshit,,False,YOI-UNK-54141b3d-2
+C=CC(=O)N(c1ccc(CC#N)cn1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-1,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-1
+C=CC(=O)N(c1ccc(CC#N)nc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-2,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-2
+C=CC(=O)N(c1ccc(CC#N)cc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-3,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-3
+C=CC(=O)N(c1ccc(CCl)cc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-4,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-4
+C=CC(=O)N(c1ccc(CCl)cn1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-5,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-5
+C=CC(=O)N(c1ccc(CCl)nc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-6,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-6
+C=CC(=O)N(c1ccc(CCl)nc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-7,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-7
+C=CC(=O)N(c1ccc(CCl)cn1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-8,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-8
+C=CC(=O)N(c1ccc(CCl)cc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-9,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-9
+C=CC(=O)N(c1ccc(CC#N)cc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-10,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-10
+C=CC(=O)N(c1ccc(CC#N)nc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-11,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-11
+C=CC(=O)N(c1ccc(CC#N)cn1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-12,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-12
+C=CC(=O)N(c1ccc(C2(C#N)CCCC2)cn1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-13,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-13
+C=CC(=O)N(c1ccc(C2(C#N)CCCC2)nc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-14,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-14
+C=CC(=O)N(c1ccc(C2(C#N)CCCC2)cc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-15,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-15
+C=CC(=O)N(c1ccc(C2(Cl)CCCC2)cc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-16,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-16
+C=CC(=O)N(c1ccc(C2(Cl)CCCC2)cn1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-17,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-17
+C=CC(=O)N(c1ccc(C2(Cl)CCCC2)nc1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-18,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-18
+C=CC(=O)N(c1ccc(C2(Cl)CCCC2)nc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-19,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-19
+C=CC(=O)N(c1ccc(C2(Cl)CCCC2)cn1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-20,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-20
+C=CC(=O)N(c1ccc(C2(Cl)CCCC2)cc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-21,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-21
+C=CC(=O)N(c1ccc(C2(C#N)CCCC2)cc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-22,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-22
+C=CC(=O)N(c1ccc(C2(C#N)CCCC2)nc1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-23,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-23
+C=CC(=O)N(c1ccc(C2(C#N)CCCC2)cn1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-24,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-24
+C=CC(=O)N(C1CC2(CCCC2)CN1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-25,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-25
+C=CC(=O)N(C1CC2(CCCC2)CN1)[C@@H](C(=O)NCc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-26,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-26
+C=CC(=O)N(c1cnn(C(C)(C)C#N)c1)[C@@H](C(=O)NCc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-27,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-27
+C=CC(=O)N(c1cnn(C(C)(C)C#N)c1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-28,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-28
+C=CC(=O)N(c1cnn(C(C)(C)C)c1)[C@@H](C(=O)NCc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-29,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-29
+C=CC(=O)N(c1cnn(C(C)(C)C)c1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-30,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-30
+C=CC(=O)N(c1cc(C(C)(C)C)on1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-31,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-31
+C=CC(=O)N(c1cc(C(C)(C)C#N)on1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-32,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-32
+C=CC(=O)N(c1cc(C(C)(C)Cl)on1)[C@@H](C(=O)NC)c1cnccc1C,DAR-DIA-2b784ede-33,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-33
+C=CC(=O)N(c1cc(C(C)(C)Cl)on1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-34,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-34
+C=CC(=O)N(c1cc(C(C)(C)C)on1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-35,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-35
+C=CC(=O)N(c1cc(C(C)(C)C#N)on1)[C@@H](C(=O)Nc1c(C)cccc1CC)c1cnccc1C,DAR-DIA-2b784ede-36,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-36
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)Nc1cc(CC)ccc1C)c1cnccc1C,DAR-DIA-2b784ede-37,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-37
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)Nc1c(C)cccc1CO)c1cnccc1C,DAR-DIA-2b784ede-38,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-38
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)Nc1c(CC)cccc1CO)c1cnccc1C,DAR-DIA-2b784ede-39,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-39
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)Nc1cc(CC(C)(C)C)ccc1C)c1cnccc1C,DAR-DIA-2b784ede-40,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-40
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)Nc1cc(CS(=C)(=C)N)ccc1C)c1cnccc1C,DAR-DIA-2b784ede-41,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-41
+C=CC(=O)N(c1cc(C(C)(C)C#N)n[nH]1)C(C(=O)Nc1c(C)cccc1CC)c1cccnc1,DAR-DIA-2b784ede-42,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-42
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(C)cccc1CO)c1ccc(N)nc1,DAR-DIA-2b784ede-43,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-43
+C=CC(=O)N(C1CC2(CCCC2)CN1)C(C(=O)Nc1c(C)cccc1CO)c1cccnc1,DAR-DIA-2b784ede-44,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-44
+C=CC(=O)N(c1cc(C(C)(C)Cl)n[nH]1)C(C(=O)Nc1c(C)cccc1CO)c1cccnc1,DAR-DIA-2b784ede-45,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-45
+C=CC(=O)N(c1cc2c(s1)CCCC2)C(C(=O)Nc1c(C)cccc1CO)c1cccnc1,DAR-DIA-2b784ede-46,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-46
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(C)cccc1CO)c1cnccc1C,DAR-DIA-2b784ede-47,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-47
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(C)cccc1CO)c1cccnc1,DAR-DIA-2b784ede-48,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-48
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(CO)cccc1C(C)C)c1cccnc1,DAR-DIA-2b784ede-49,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-49
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(CC)cccc1CCO)c1cccnc1,DAR-DIA-2b784ede-50,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-50
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(C)cccc1C(C)C)c1cccnc1,DAR-DIA-2b784ede-51,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-51
+C=CC(=O)N(c1cc(C(C)(C)C)n[nH]1)C(C(=O)Nc1c(CC)cccc1CO)c1cccnc1,DAR-DIA-2b784ede-52,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-52
+C=CC(=O)N(c1ccc(C(C)C)nc1)C(C(=O)Nc1c(CC)cccc1CO)c1cccnc1,DAR-DIA-2b784ede-53,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-53
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1-c1ccccc1)C(C(=O)NCCc1cccc(F)c1)c1cnccc1C,DAR-DIA-2b784ede-54,"Daren Fearon, Diamond Light Source","x0107,x0708,x0770,x0995,x1249",False,DAR-DIA-2b784ede-54
