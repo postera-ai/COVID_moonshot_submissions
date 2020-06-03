@@ -158,8 +158,11 @@ def get_rapidfire_IC50_data():
         if "molecule" not in mol_dict:
             continue
         mol_id = mol_dict["molecule"]
-        if "560634" in mol_dict["readouts"]:
-            ic50 = mol_dict["readouts"]["560634"]
+        if "564286" in mol_dict["readouts"]:
+            if type(mol_dict["readouts"]["564286"]) == dict:
+                ic50 = 99
+            else:
+                ic50 = mol_dict["readouts"]["564286"]
         else:
             ic50 = np.nan
 
