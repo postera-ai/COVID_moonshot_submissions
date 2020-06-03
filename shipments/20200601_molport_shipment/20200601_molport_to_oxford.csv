@@ -1,0 +1,12 @@
+shipment_ID,catalog_ID,Formula,stereochemistry,sample_MW,purity,PO,Salt_Name,Salt_ratio,MW_salt,volume(uL),concentration(mM),plate_ID,well,SMILES,Name
+AAR-POS-dddeddbf-2,BTB06256SC,,,,,,,,,,,,,CC1=CC(=C(C=C1Cl)Cl)S(=O)(=O)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],
+AAR-POS-dddeddbf-1,BTB13613SC,,,,,,,,,,,,,CC1=C(C2=C(C=C1)N=C(S2)C3=CC=C(C=C3)N)S(=O)(=O)O,
+AAR-POS-dddeddbf-3,KM00680SC,,,,,,,,,,,,,Nc1ncc(S(=O)(=O)c2ccc(Cl)cc2)c(N)n1,
+MAT-POS-bfefc3ea-3,z-leu-val-gly-diazomethylketone,,,,,,,,,,,,,CC(C)CC(C(=O)NC(C(C)C)C(=O)NCC(=O)C=[N+]=[N-])NC(=O)OCC1=CC=CC=C1,
+CHR-SOS-7098f804-1,Niclosamide,,,,,,,,,,,,,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,
+AAR-POS-dddeddbf-4,Nitazoxanide,,,,,,,,,,,,,CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],
+AAR-POS-dddeddbf-5,ONO,,,,,,,,,,,,,O=C(N[C@H](C1CCOCC1)C(C(N/N=C2SC[C@@H](C)N\2C)=O)=O)C3CCCCCC3,
+JOH-UNI-c7afdb96-2,MS-0520,,,,,,,,,,,,,C1=CC(=CC=C1C(=C(C#N)C(=O)NC2=CC=C(C=C2)F)O)Cl,
+MAT-POS-bfefc3ea-2,calpain inhibitor 3,,,,,,,,,,,,,CC(C)[C@H](NC(=O)OCc1ccccc1)C(=O)NC(C=O)Cc1ccccc1,
+FAR-UNI-736b943a-6,nat48-548100,,,,,,,,,,,,,O=C(NC[C@]1(COc2ccc(C(F)(F)F)cn2)C[C@H](O)[C@H](O)C1)Nc1cccnc1,
+GER-UNI-caecb3b0-1,stk713346,,,,,,,,,,,,,O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,
