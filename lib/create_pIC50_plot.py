@@ -13,13 +13,15 @@ from bokeh.plotting import figure, output_file, show, ColumnDataSource
 from bokeh.transform import factor_cmap
 from bokeh.resources import CDN
 from bokeh.embed import file_html
+from bokeh.embed import json_item
 
+import json
 from pathlib import Path
 
 dir_path = Path(__file__).parent.absolute()
 
 
-def create_pIC50_html(all_df):
+def create_pIC50_html_and_json(all_df):
 
     ic50_df = all_df.loc[
         (all_df["f_avg_IC50"].notnull()) & (all_df["r_IC50"].notnull())
@@ -88,4 +90,6 @@ def create_pIC50_html(all_df):
     p.circle("x", "y", size=10, source=source, color="red", alpha=0.5)
 
     html = file_html(p, CDN, "Comparing pIC50 values between assays")
-    return html
+    # return html
+    return html, json.dumps(json_item(p, "Comparing pIC50 values between assays"))
+

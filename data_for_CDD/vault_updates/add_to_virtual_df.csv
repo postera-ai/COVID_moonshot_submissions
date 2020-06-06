@@ -1,125 +1,348 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-CCN(Cc1ccc(-c2ccc(C(C)(C)C)cc2)s1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-1,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-1
-CN(C(=O)C1CCN(C(=O)CCl)CC1)C1(CNC(=O)OC(C)(C)C)CCOC1,SAD-SAT-29425be4-2,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-2
-Cc1ccc(SCCNC(=O)C2CCN(C(=O)CCl)CC2)cc1C,SAD-SAT-29425be4-3,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-3
-CC(C)(CNC(=O)C1CCN(C(=O)CCl)CC1)c1coc(-c2ccccc2)n1,SAD-SAT-29425be4-4,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-4
-Cc1cccc(NC(=O)CN(CC(=O)Nc2cccc(C)c2C)C(=O)C2CCN(C(=O)CCl)CC2)c1C,SAD-SAT-29425be4-5,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-5
-CC(C)(C)c1ccc(S(=O)(=O)CCNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-6,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-6
-CC(c1cccc(Cl)c1)N(CC(C)(C)NC(=O)OC(C)(C)C)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-7,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-7
-CN(Cc1cccc(NC(=O)OC(C)(C)C)c1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-8,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-8
-CC(C)(C)OC(=O)Cc1cccc(CNC(=O)C2CCN(C(=O)CCl)CC2)c1,SAD-SAT-29425be4-9,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-9
-Cc1ccccc1OCCCC(=O)Nc1ccc(CNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-10,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-10
-C=CCOc1ccc(CN(C(=O)C2CCN(C(=O)CCl)CC2)C(C)(C)C)cc1,SAD-SAT-29425be4-11,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-11
-CCCCc1ccc(C(NC(=O)C2CCN(C(=O)CCl)CC2)C(C)C)cc1,SAD-SAT-29425be4-12,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-12
-CC(C)Cc1ccc(C(NC(=O)C2CCN(C(=O)CCl)CC2)C(C)C)cc1,SAD-SAT-29425be4-13,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-13
-CC(C)(C)c1ccc(CNC(=O)C2CCN(C(=O)CCl)CC2)s1,SAD-SAT-29425be4-14,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-14
-CC(C)c1ccc(CCCNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-15,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-15
-CC(C)N(Cc1ccc(-c2ccccc2)s1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-16,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-16
-COc1cc(N(C(=O)C2CCN(C(=O)CCl)CC2)c2ccc3cc(S(=O)(=O)N4CCCCC4C)ccc3n2)cc(OC)c1OC,SAD-SAT-29425be4-17,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-17
-Cc1cccc(COc2c(C)cc(CN(C)C(=O)C3CCN(C(=O)CCl)CC3)cc2C)c1,SAD-SAT-29425be4-18,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-18
-CN(C)c1ccc(C(CNC(=O)C2CCN(C(=O)CCl)CC2)N(C)C)cc1,SAD-SAT-29425be4-19,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-19
-Cc1cccc(C(C)(C)CNC(=O)C2CCN(C(=O)CCl)CC2)c1,SAD-SAT-29425be4-20,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-20
-CN(CCCCN(C)C(=O)C1CCN(C(=O)CCl)CC1)C(=O)OC(C)(C)C,SAD-SAT-29425be4-21,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-21
-COC(=O)C(C)(C)N(Cc1cccc(OC)c1OC)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-22,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-22
-CC(C)(C)OC(=O)C(C)(NC(=O)C1CCN(C(=O)CCl)CC1)c1ccccc1,SAD-SAT-29425be4-23,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-23
-C=CC(=O)N1CCC(c2ccc(C(N)=O)c(N(C(=O)C3CCN(C(=O)CCl)CC3)c3ccc(C(=O)N4CCN(C(=O)CCCCNC(=O)OC(C)(C)C)CC4)cc3)n2)CC1,SAD-SAT-29425be4-24,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-24
-CC(C)(C)c1cccc(C(NC(=O)C2CCN(C(=O)CCl)CC2)c2ccc(Cl)cc2)c1,SAD-SAT-29425be4-25,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-25
-CC(C)(C)C1CN(C(=O)C2CCN(C(=O)CCl)CC2)CCN1CCOc1ccccc1,SAD-SAT-29425be4-26,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-26
-CCc1ccc(CN(Cc2cccnc2)C(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-27,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-27
-CC(C)COc1ccc(C(C)NC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-28,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-28
-O=C(OCc1ccccc1)c1ccc(CNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-29,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-29
-CCCN(Cc1ccc(OCC)c(OCC)c1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-30,"Sadit Joarder, SATEC",x0770,False,SAD-SAT-29425be4-30
-Cc1ncc(C2(N3CC4CC3CN4C(=O)CCl)CCCCC2)s1,MAK-UNK-10799360-1,Maksym Voznyy,x0770,False,MAK-UNK-10799360-1
-O=C(NC1C2CC(C1NCc1ccccc1)N(C(=O)CCl)C2)c1ccccc1,MAK-UNK-10799360-2,Maksym Voznyy,x0770,False,MAK-UNK-10799360-2
-Cc1cccc(CN2C3CC([C@H]2CC(N)=O)N(C(=O)CCl)C3)c1,MAK-UNK-10799360-3,Maksym Voznyy,x0770,False,MAK-UNK-10799360-3
-NS(=O)(=O)Cc1nc2cccc(CN3CC4CC3CN4C(=O)CCl)c2[nH]1,MAK-UNK-10799360-4,Maksym Voznyy,x0770,False,MAK-UNK-10799360-4
-Cc1cccc(C2(N3CC4CC3CN4C(=O)CCl)CC(C(N)=O)C2)c1,MAK-UNK-10799360-5,Maksym Voznyy,x0770,False,MAK-UNK-10799360-5
-NS(=O)(=O)CCNc1ncccc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-10799360-6,Maksym Voznyy,x0770,False,MAK-UNK-10799360-6
-Cc1cc2c(cc1S(N)(=O)=O)CN(CC1CC3CC1CN3C(=O)CCl)CC2,MAK-UNK-10799360-7,Maksym Voznyy,x0770,False,MAK-UNK-10799360-7
-O=C1CN(C(=O)NCc2ccc(Cl)cc2CN2CC3CC2CN3C(=O)CCl)CCN1,MAK-UNK-10799360-8,Maksym Voznyy,x0770,False,MAK-UNK-10799360-8
-NS(=O)(=O)c1cc2c(cc1C(F)F)CCN(CC1CC3CC1CN3C(=O)CCl)C2,MAK-UNK-10799360-9,Maksym Voznyy,x0770,False,MAK-UNK-10799360-9
-O=C(CCl)N1CC2CC1CN2Cc1cc(Cl)ccc1CNS(=O)(=O)N1CCOCC1,MAK-UNK-10799360-10,Maksym Voznyy,x0770,False,MAK-UNK-10799360-10
-CC1Cc2ccc(S(N)(=O)=O)cc2CN1CC1CC2CC1CN2C(=O)CCl,MAK-UNK-10799360-11,Maksym Voznyy,x0770,False,MAK-UNK-10799360-11
-O=C(NCc1ccc(Cl)cc1CN1CC2CC1CN2C(=O)CCl)N1CCOCC1,MAK-UNK-10799360-12,Maksym Voznyy,x0770,False,MAK-UNK-10799360-12
-NS(=O)(=O)CCc1cccc2sc(C3CC4CC3N(C(=O)CCl)C4)nc12,MAK-UNK-10799360-13,Maksym Voznyy,x0770,False,MAK-UNK-10799360-13
-NS(=O)(=O)c1ccc2cccc(CN3CC4CC3C(c3cccnc3)N4C(=O)CCl)c2c1,MAK-UNK-10799360-14,Maksym Voznyy,x0770,False,MAK-UNK-10799360-14
-NS(=O)(=O)c1ccc2c(c1)N(CCCCC1CC3CC1N(C(=O)CCl)C3)CCC2,MAK-UNK-10799360-15,Maksym Voznyy,x0770,False,MAK-UNK-10799360-15
-CS(=O)(=O)N1CCc2ccc(CN3CC4CC3CN4C(=O)CCl)cc2C1,MAK-UNK-10799360-16,Maksym Voznyy,x0770,False,MAK-UNK-10799360-16
-CNS(=O)(=O)c1ccc2ccc(CN3CC4CC3CN4C(=O)CCl)cc2c1,MAK-UNK-10799360-17,Maksym Voznyy,x0770,False,MAK-UNK-10799360-17
-CNS(=O)(=O)c1ccc(C#N)c(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-10799360-18,Maksym Voznyy,x0770,False,MAK-UNK-10799360-18
-O=C(NCc1cccc(CN2CC3CC2CN3C(=O)CCl)c1)N1CCOCC1,MAK-UNK-10799360-19,Maksym Voznyy,x0770,False,MAK-UNK-10799360-19
-CC(=O)N1CCCc2cccc(CN3CC4CC3CN4C(=O)CCl)c2C1,MAK-UNK-10799360-20,Maksym Voznyy,x0770,False,MAK-UNK-10799360-20
-O=C1Cc2c(cccc2CN2CC3CC2CN3C(=O)CCl)CCN1,MAK-UNK-10799360-21,Maksym Voznyy,x0770,False,MAK-UNK-10799360-21
-CNC(=O)c1ccc(C#N)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-10799360-22,Maksym Voznyy,x0770,False,MAK-UNK-10799360-22
-O=C(CCl)N1CC2CC1CN2Cc1cc(Cl)cc2cccc(OCCN3CCOCC3)c12,MAK-UNK-10799360-23,Maksym Voznyy,x0770,False,MAK-UNK-10799360-23
+Cc1ncc(C2(N3CC4CC3CN4C(=O)CCl)CCCCC2)s1,MAK-UNK-10799360-1,Maksym Voznyy,x0770,True,MAK-UNK-10799360-1
+O=C(NC1C2CC(C1NCc1ccccc1)N(C(=O)CCl)C2)c1ccccc1,MAK-UNK-10799360-2,Maksym Voznyy,x0770,True,MAK-UNK-10799360-2
+Cc1cccc(CN2C3CC([C@H]2CC(N)=O)N(C(=O)CCl)C3)c1,MAK-UNK-10799360-3,Maksym Voznyy,x0770,True,MAK-UNK-10799360-3
+NS(=O)(=O)Cc1nc2cccc(CN3CC4CC3CN4C(=O)CCl)c2[nH]1,MAK-UNK-10799360-4,Maksym Voznyy,x0770,True,MAK-UNK-10799360-4
+Cc1cccc(C2(N3CC4CC3CN4C(=O)CCl)CC(C(N)=O)C2)c1,MAK-UNK-10799360-5,Maksym Voznyy,x0770,True,MAK-UNK-10799360-5
+NS(=O)(=O)CCNc1ncccc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-10799360-6,Maksym Voznyy,x0770,True,MAK-UNK-10799360-6
+Cc1cc2c(cc1S(N)(=O)=O)CN(CC1CC3CC1CN3C(=O)CCl)CC2,MAK-UNK-10799360-7,Maksym Voznyy,x0770,True,MAK-UNK-10799360-7
+O=C1CN(C(=O)NCc2ccc(Cl)cc2CN2CC3CC2CN3C(=O)CCl)CCN1,MAK-UNK-10799360-8,Maksym Voznyy,x0770,True,MAK-UNK-10799360-8
+NS(=O)(=O)c1cc2c(cc1C(F)F)CCN(CC1CC3CC1CN3C(=O)CCl)C2,MAK-UNK-10799360-9,Maksym Voznyy,x0770,True,MAK-UNK-10799360-9
+O=C(CCl)N1CC2CC1CN2Cc1cc(Cl)ccc1CNS(=O)(=O)N1CCOCC1,MAK-UNK-10799360-10,Maksym Voznyy,x0770,True,MAK-UNK-10799360-10
+CC1Cc2ccc(S(N)(=O)=O)cc2CN1CC1CC2CC1CN2C(=O)CCl,MAK-UNK-10799360-11,Maksym Voznyy,x0770,True,MAK-UNK-10799360-11
+O=C(NCc1ccc(Cl)cc1CN1CC2CC1CN2C(=O)CCl)N1CCOCC1,MAK-UNK-10799360-12,Maksym Voznyy,x0770,True,MAK-UNK-10799360-12
+NS(=O)(=O)CCc1cccc2sc(C3CC4CC3N(C(=O)CCl)C4)nc12,MAK-UNK-10799360-13,Maksym Voznyy,x0770,True,MAK-UNK-10799360-13
+NS(=O)(=O)c1ccc2cccc(CN3CC4CC3C(c3cccnc3)N4C(=O)CCl)c2c1,MAK-UNK-10799360-14,Maksym Voznyy,x0770,True,MAK-UNK-10799360-14
+NS(=O)(=O)c1ccc2c(c1)N(CCCCC1CC3CC1N(C(=O)CCl)C3)CCC2,MAK-UNK-10799360-15,Maksym Voznyy,x0770,True,MAK-UNK-10799360-15
+CS(=O)(=O)N1CCc2ccc(CN3CC4CC3CN4C(=O)CCl)cc2C1,MAK-UNK-10799360-16,Maksym Voznyy,x0770,True,MAK-UNK-10799360-16
+CNS(=O)(=O)c1ccc2ccc(CN3CC4CC3CN4C(=O)CCl)cc2c1,MAK-UNK-10799360-17,Maksym Voznyy,x0770,True,MAK-UNK-10799360-17
+CNS(=O)(=O)c1ccc(C#N)c(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-10799360-18,Maksym Voznyy,x0770,True,MAK-UNK-10799360-18
+O=C(NCc1cccc(CN2CC3CC2CN3C(=O)CCl)c1)N1CCOCC1,MAK-UNK-10799360-19,Maksym Voznyy,x0770,True,MAK-UNK-10799360-19
+CC(=O)N1CCCc2cccc(CN3CC4CC3CN4C(=O)CCl)c2C1,MAK-UNK-10799360-20,Maksym Voznyy,x0770,True,MAK-UNK-10799360-20
+O=C1Cc2c(cccc2CN2CC3CC2CN3C(=O)CCl)CCN1,MAK-UNK-10799360-21,Maksym Voznyy,x0770,True,MAK-UNK-10799360-21
+CNC(=O)c1ccc(C#N)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-10799360-22,Maksym Voznyy,x0770,True,MAK-UNK-10799360-22
+O=C(CCl)N1CC2CC1CN2Cc1cc(Cl)cc2cccc(OCCN3CCOCC3)c12,MAK-UNK-10799360-23,Maksym Voznyy,x0770,True,MAK-UNK-10799360-23
 O=C(Nc1ccccc1)C1CC2CC1CN2C(=O)C(Cl)Cc1cccnc1,MAK-UNK-10799360-24,Maksym Voznyy,x0770,False,MAK-UNK-10799360-24
 O=C(Nc1ccccc1)C1CC2CC1CN2C(=O)C(Cl)c1cccnc1,MAK-UNK-10799360-25,Maksym Voznyy,x0770,False,MAK-UNK-10799360-25
-CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NC(CN1CC2CC1CN2C(=O)CCl)c1ccccc1,MAK-UNK-10799360-26,Maksym Voznyy,x0770,False,MAK-UNK-10799360-26
+CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)NC(CN1CC2CC1CN2C(=O)CCl)c1ccccc1,MAK-UNK-10799360-26,Maksym Voznyy,x0770,True,MAK-UNK-10799360-26
 O=C1NC(=O)C(CCC(Cl)C(=O)N2CC3CC2CN3Cc2cccc(F)c2)N1,MAK-UNK-10799360-27,Maksym Voznyy,x0770,False,MAK-UNK-10799360-27
 NC(=O)CCCC(Cl)C(=O)N1CC2CC1CN2Cc1cccc(F)c1,MAK-UNK-10799360-28,Maksym Voznyy,x0770,False,MAK-UNK-10799360-28
-NS(=O)(=O)c1cccc(-n2cc(CN3CC4CC3CN4C(=O)CCl)nn2)c1,MAK-UNK-10799360-29,Maksym Voznyy,x0770,False,MAK-UNK-10799360-29
-NS(=O)(=O)c1ccc2c(c1)N(CCCN1CC3CC1CN3C(=O)CCl)CCC2,MAK-UNK-10799360-30,Maksym Voznyy,x0770,False,MAK-UNK-10799360-30
-CC(=O)NCCc1c[nH]c2c([C@]34CC(c5ccccc53)N(C(=O)CCl)C4)cc(Cl)cc12,MAK-UNK-10799360-31,Maksym Voznyy,x0770,False,MAK-UNK-10799360-31
-O=C(Nc1cccc(CN2CC3CC2CN3C(=O)CCl)c1)c1cnc(Cc2ccccc2)s1,MAK-UNK-10799360-32,Maksym Voznyy,x0770,False,MAK-UNK-10799360-32
-O=C(CCl)N1C2CC([C@@H]1Cc1ccc(O)cc1)N(Cc1cccc(Cl)c1)C2,MAK-UNK-10799360-33,Maksym Voznyy,x0770,False,MAK-UNK-10799360-33
-Cc1cccc(N(c2cccc(N)c2)C2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-10799360-34,Maksym Voznyy,x0770,False,MAK-UNK-10799360-34
-O=C(CCl)N1CC2CC1CN2S(=O)(=O)c1ccc(Cc2cccc3ccccc23)cc1,MAK-UNK-10799360-35,Maksym Voznyy,x0770,False,MAK-UNK-10799360-35
-O=C(CCl)N1CC2CC1CN2C(c1cccc(Cl)c1)c1cccc(Cl)c1,MAK-UNK-10799360-36,Maksym Voznyy,x0770,False,MAK-UNK-10799360-36
-Cc1cccc([C@H](c2cccc(Cl)c2)N2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-1,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-1
-O=C(CCl)N1CC2CC1CN2Cc1ncc(Cc2ccccc2)s1,MAK-UNK-ec98eaf6-2,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-2
-O=C(CCl)N1CC2CC1CN2C1(c2cccc(Cl)c2)CCO1,MAK-UNK-ec98eaf6-3,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-3
-O=C(CCl)N1CC2CC1CN2C1(c2cccc(Cl)c2)CC1,MAK-UNK-ec98eaf6-4,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-4
-O=C(Nc1ccccc1OC1CCN(Cc2ccccc2)CC1)C1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-5,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-5
-O=C(CCl)N1CC2CC1CN2[C@H](c1ccc(Cl)cc1)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-6,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-6
-Nc1nc(CN2CC3CC2CN3C(=O)CCl)ncc1Cc1ccccc1,MAK-UNK-ec98eaf6-7,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-7
-CC(=O)NCCc1c[nH]c2c(C(c3ccccc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-8,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-8
-Cc1ccc(C(c2cccc(C)c2)N2CC3CC2CN3C(=O)CCl)cc1,MAK-UNK-ec98eaf6-9,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-9
-CCNc1cccc(C#N)c1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-10,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-10
-O=C(CCl)N1CC2CC1CN2Cc1cnc(Cc2ccccc2)s1,MAK-UNK-ec98eaf6-11,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-11
-NC(=O)C1CC2(CC3CC2N(C(=O)CCl)C3)CC1c1ccccc1,MAK-UNK-ec98eaf6-12,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-12
-O=C(CCl)N1CC2CC1CN2C(F)(F)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-13,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-13
-COCc1cc(Cl)cc(CN2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-14,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-14
-CCNc1ncc(C#N)cc1C(c1cccc(Cl)c1)N1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-15,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-15
-N#Cc1cnc(CCO)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-16,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-16
-COCCc1ccc(Cl)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-17,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-17
-CC1C2CC(CN2C(=O)CCl)N1C(F)(F)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-18,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-18
-O=C(NCCN1CC2CC1CN2C(=O)CCl)c1cccc2ccccc12,MAK-UNK-ec98eaf6-19,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-19
-O=C(NCCN1CC2CC1CN2C(=O)CCl)c1cccnc1,MAK-UNK-ec98eaf6-20,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-20
-CCNc1ccc(C#N)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-21,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-21
-CCNc1ncc(C#N)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-22,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-22
-CCNc1ncc(OC)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-23,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-23
-COc1cc(CN2CC3CC2CN3C(=O)CCl)c2ccccc2c1,MAK-UNK-ec98eaf6-24,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-24
-N#Cc1ccc(CNC(=O)N2CCOCC2)c(CN2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-25,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-25
-O=C(CCl)N1C2CC(c3ccccc3)(c3ccccc32)C1Cc1cccnc1,MAK-UNK-ec98eaf6-26,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-26
-NS(=O)(=O)C1CCc2cc(C34CC(c5ccccc53)N(C(=O)CCl)C4)ccc2C1,MAK-UNK-ec98eaf6-27,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-27
-CC(=O)NCCC1C=Nc2c(CN3CC4CC3CN4C(=O)CCl)cc(F)cc21,MAK-UNK-ec98eaf6-28,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-28
-CC(=O)N1C2CC([C@@H]1CC(N)=O)N(C(=O)CCl)C2,MAK-UNK-ec98eaf6-29,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-29
-CC(=O)N1[C@@H](CC(N)=O)C2C[C@]1(C(C)=O)CN2C(=O)CCl,MAK-UNK-ec98eaf6-30,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-30
-CC(=O)[C@@H]1C2C[C@@](CC(N)=O)(CN2C(=O)CCl)N1C(C)=O,MAK-UNK-ec98eaf6-31,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-31
-Cc1cccc(NC2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-32,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-32
-CC(=O)NCCc1c[nH]c2c(CC3CC4CC3CN4C(=O)CCl)cc(F)cc12,MAK-UNK-ec98eaf6-33,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-33
-CC(=O)NCCc1c[nH]c2c(NC3CC4CC3CN4C(=O)CCl)cc(F)cc12,MAK-UNK-ec98eaf6-34,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-34
-NS(=O)(=O)c1ccc2ccc(CC3CC4CC3CN4C(=O)CCl)cc2c1,MAK-UNK-ec98eaf6-35,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-35
-NS(=O)(=O)c1ccc2ccc(NC3CC4CC3CN4C(=O)CCl)cc2c1,MAK-UNK-ec98eaf6-36,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-36
-CCNc1ncc(C#N)cc1CC1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-37,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-37
-Cc1cc(Cl)cc(CC2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-38,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-38
-Nc1cccc(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-ec98eaf6-39,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-39
-N#Cc1cccc(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-ec98eaf6-40,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-40
-CC(=O)NCCc1c[nH]c2c(C34CC(c5ccccc53)N(C(=O)CCl)C4)c(F)ccc12,MAK-UNK-ec98eaf6-41,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-41
-Cc1cccc(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-ec98eaf6-42,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-42
-Cc1cc(C)nc(NC2CC3CC2CN3C(=O)CCl)n1,MAK-UNK-ec98eaf6-43,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-43
-NC(=O)C1C2CC(CN2C(=O)CCl)N1Cc1cccc(Cl)c1,MAK-UNK-ec98eaf6-44,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-44
-CC(C)C[C@@H]1C2CC(CN2C(=O)CCl)N1Cc1cccc(Cl)c1,MAK-UNK-ec98eaf6-45,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-45
-O=C(CCl)N1C2CC([C@@H]1Cc1ccccc1)N(Cc1cccc(Cl)c1)C2,MAK-UNK-ec98eaf6-46,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-46
-CC(=O)NCCc1c[nH]c2c(CN3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-47,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-47
-CS(=O)(=O)N(CCc1ccccc1)CC1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-48,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-48
-O=C(CCl)N1CC2CC1CN2C(CCc1ccccc1)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-49,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-49
-Cc1ccc(CCC(c2cccc(Cl)c2)N2CC3CC2CN3C(=O)CCl)cc1,MAK-UNK-ec98eaf6-50,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-50
-N#Cc1cccc(C(CCc2ccccc2)N2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-51,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-51
-N#Cc1cccc(C(CCc2ccc(C(F)(F)F)cc2)N2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-52,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-52
-Cc1ccc(CCC(c2cccc(C#N)c2)N2CC3CC2CN3C(=O)CCl)cc1,MAK-UNK-ec98eaf6-53,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-53
-CC(=O)NCCc1c[nH]c2c(C(CCc3ccccc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-54,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-54
-CC(=O)NCCc1c[nH]c2c(C(CCc3ccc(C)cc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-55,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-55
-CC(=O)NCCc1c[nH]c2c(C(CCc3ccc(C(F)(F)F)cc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-56,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-56
-COc1ccc(-n2cc(CN3CC4CC3CN4C(=O)CCl)nn2)cc1,MAK-UNK-ec98eaf6-57,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-57
-O=C([C@H]1C2CC([C@@H]1CCc1ccccc1)N(C(=O)CCl)C2)N1CCCCC1,MAK-UNK-ec98eaf6-58,Maksym Voznyy,x0770,False,MAK-UNK-ec98eaf6-58
+NS(=O)(=O)c1cccc(-n2cc(CN3CC4CC3CN4C(=O)CCl)nn2)c1,MAK-UNK-10799360-29,Maksym Voznyy,x0770,True,MAK-UNK-10799360-29
+NS(=O)(=O)c1ccc2c(c1)N(CCCN1CC3CC1CN3C(=O)CCl)CCC2,MAK-UNK-10799360-30,Maksym Voznyy,x0770,True,MAK-UNK-10799360-30
+CC(=O)NCCc1c[nH]c2c([C@]34CC(c5ccccc53)N(C(=O)CCl)C4)cc(Cl)cc12,MAK-UNK-10799360-31,Maksym Voznyy,x0770,True,MAK-UNK-10799360-31
+O=C(Nc1cccc(CN2CC3CC2CN3C(=O)CCl)c1)c1cnc(Cc2ccccc2)s1,MAK-UNK-10799360-32,Maksym Voznyy,x0770,True,MAK-UNK-10799360-32
+O=C(CCl)N1C2CC([C@@H]1Cc1ccc(O)cc1)N(Cc1cccc(Cl)c1)C2,MAK-UNK-10799360-33,Maksym Voznyy,x0770,True,MAK-UNK-10799360-33
+Cc1cccc(N(c2cccc(N)c2)C2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-10799360-34,Maksym Voznyy,x0770,True,MAK-UNK-10799360-34
+O=C(CCl)N1CC2CC1CN2S(=O)(=O)c1ccc(Cc2cccc3ccccc23)cc1,MAK-UNK-10799360-35,Maksym Voznyy,x0770,True,MAK-UNK-10799360-35
+O=C(CCl)N1CC2CC1CN2C(c1cccc(Cl)c1)c1cccc(Cl)c1,MAK-UNK-10799360-36,Maksym Voznyy,x0770,True,MAK-UNK-10799360-36
+Cc1cccc([C@H](c2cccc(Cl)c2)N2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-1,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-1
+O=C(CCl)N1CC2CC1CN2Cc1ncc(Cc2ccccc2)s1,MAK-UNK-ec98eaf6-2,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-2
+O=C(CCl)N1CC2CC1CN2C1(c2cccc(Cl)c2)CCO1,MAK-UNK-ec98eaf6-3,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-3
+O=C(CCl)N1CC2CC1CN2C1(c2cccc(Cl)c2)CC1,MAK-UNK-ec98eaf6-4,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-4
+O=C(Nc1ccccc1OC1CCN(Cc2ccccc2)CC1)C1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-5,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-5
+O=C(CCl)N1CC2CC1CN2[C@H](c1ccc(Cl)cc1)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-6,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-6
+Nc1nc(CN2CC3CC2CN3C(=O)CCl)ncc1Cc1ccccc1,MAK-UNK-ec98eaf6-7,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-7
+CC(=O)NCCc1c[nH]c2c(C(c3ccccc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-8,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-8
+Cc1ccc(C(c2cccc(C)c2)N2CC3CC2CN3C(=O)CCl)cc1,MAK-UNK-ec98eaf6-9,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-9
+CCNc1cccc(C#N)c1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-10,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-10
+O=C(CCl)N1CC2CC1CN2Cc1cnc(Cc2ccccc2)s1,MAK-UNK-ec98eaf6-11,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-11
+NC(=O)C1CC2(CC3CC2N(C(=O)CCl)C3)CC1c1ccccc1,MAK-UNK-ec98eaf6-12,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-12
+O=C(CCl)N1CC2CC1CN2C(F)(F)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-13,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-13
+COCc1cc(Cl)cc(CN2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-14,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-14
+CCNc1ncc(C#N)cc1C(c1cccc(Cl)c1)N1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-15,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-15
+N#Cc1cnc(CCO)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-16,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-16
+COCCc1ccc(Cl)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-17,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-17
+CC1C2CC(CN2C(=O)CCl)N1C(F)(F)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-18,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-18
+O=C(NCCN1CC2CC1CN2C(=O)CCl)c1cccc2ccccc12,MAK-UNK-ec98eaf6-19,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-19
+O=C(NCCN1CC2CC1CN2C(=O)CCl)c1cccnc1,MAK-UNK-ec98eaf6-20,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-20
+CCNc1ccc(C#N)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-21,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-21
+CCNc1ncc(C#N)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-22,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-22
+CCNc1ncc(OC)cc1CN1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-23,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-23
+COc1cc(CN2CC3CC2CN3C(=O)CCl)c2ccccc2c1,MAK-UNK-ec98eaf6-24,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-24
+N#Cc1ccc(CNC(=O)N2CCOCC2)c(CN2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-25,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-25
+O=C(CCl)N1C2CC(c3ccccc3)(c3ccccc32)C1Cc1cccnc1,MAK-UNK-ec98eaf6-26,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-26
+NS(=O)(=O)C1CCc2cc(C34CC(c5ccccc53)N(C(=O)CCl)C4)ccc2C1,MAK-UNK-ec98eaf6-27,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-27
+CC(=O)NCCC1C=Nc2c(CN3CC4CC3CN4C(=O)CCl)cc(F)cc21,MAK-UNK-ec98eaf6-28,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-28
+CC(=O)N1C2CC([C@@H]1CC(N)=O)N(C(=O)CCl)C2,MAK-UNK-ec98eaf6-29,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-29
+CC(=O)N1[C@@H](CC(N)=O)C2C[C@]1(C(C)=O)CN2C(=O)CCl,MAK-UNK-ec98eaf6-30,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-30
+CC(=O)[C@@H]1C2C[C@@](CC(N)=O)(CN2C(=O)CCl)N1C(C)=O,MAK-UNK-ec98eaf6-31,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-31
+Cc1cccc(NC2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-32,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-32
+CC(=O)NCCc1c[nH]c2c(CC3CC4CC3CN4C(=O)CCl)cc(F)cc12,MAK-UNK-ec98eaf6-33,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-33
+CC(=O)NCCc1c[nH]c2c(NC3CC4CC3CN4C(=O)CCl)cc(F)cc12,MAK-UNK-ec98eaf6-34,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-34
+NS(=O)(=O)c1ccc2ccc(CC3CC4CC3CN4C(=O)CCl)cc2c1,MAK-UNK-ec98eaf6-35,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-35
+NS(=O)(=O)c1ccc2ccc(NC3CC4CC3CN4C(=O)CCl)cc2c1,MAK-UNK-ec98eaf6-36,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-36
+CCNc1ncc(C#N)cc1CC1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-37,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-37
+Cc1cc(Cl)cc(CC2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-38,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-38
+Nc1cccc(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-ec98eaf6-39,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-39
+N#Cc1cccc(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-ec98eaf6-40,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-40
+CC(=O)NCCc1c[nH]c2c(C34CC(c5ccccc53)N(C(=O)CCl)C4)c(F)ccc12,MAK-UNK-ec98eaf6-41,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-41
+Cc1cccc(C23CC(c4ccccc42)N(C(=O)CCl)C3)c1,MAK-UNK-ec98eaf6-42,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-42
+Cc1cc(C)nc(NC2CC3CC2CN3C(=O)CCl)n1,MAK-UNK-ec98eaf6-43,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-43
+NC(=O)C1C2CC(CN2C(=O)CCl)N1Cc1cccc(Cl)c1,MAK-UNK-ec98eaf6-44,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-44
+CC(C)C[C@@H]1C2CC(CN2C(=O)CCl)N1Cc1cccc(Cl)c1,MAK-UNK-ec98eaf6-45,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-45
+O=C(CCl)N1C2CC([C@@H]1Cc1ccccc1)N(Cc1cccc(Cl)c1)C2,MAK-UNK-ec98eaf6-46,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-46
+CC(=O)NCCc1c[nH]c2c(CN3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-47,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-47
+CS(=O)(=O)N(CCc1ccccc1)CC1CC2CC1CN2C(=O)CCl,MAK-UNK-ec98eaf6-48,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-48
+O=C(CCl)N1CC2CC1CN2C(CCc1ccccc1)c1cccc(Cl)c1,MAK-UNK-ec98eaf6-49,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-49
+Cc1ccc(CCC(c2cccc(Cl)c2)N2CC3CC2CN3C(=O)CCl)cc1,MAK-UNK-ec98eaf6-50,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-50
+N#Cc1cccc(C(CCc2ccccc2)N2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-51,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-51
+N#Cc1cccc(C(CCc2ccc(C(F)(F)F)cc2)N2CC3CC2CN3C(=O)CCl)c1,MAK-UNK-ec98eaf6-52,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-52
+Cc1ccc(CCC(c2cccc(C#N)c2)N2CC3CC2CN3C(=O)CCl)cc1,MAK-UNK-ec98eaf6-53,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-53
+CC(=O)NCCc1c[nH]c2c(C(CCc3ccccc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-54,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-54
+CC(=O)NCCc1c[nH]c2c(C(CCc3ccc(C)cc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-55,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-55
+CC(=O)NCCc1c[nH]c2c(C(CCc3ccc(C(F)(F)F)cc3)N3CC4CC3CN4C(=O)CCl)cccc12,MAK-UNK-ec98eaf6-56,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-56
+COc1ccc(-n2cc(CN3CC4CC3CN4C(=O)CCl)nn2)cc1,MAK-UNK-ec98eaf6-57,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-57
+O=C([C@H]1C2CC([C@@H]1CCc1ccccc1)N(C(=O)CCl)C2)N1CCCCC1,MAK-UNK-ec98eaf6-58,Maksym Voznyy,x0770,True,MAK-UNK-ec98eaf6-58
+O=C(NCCc1ccc(S(=O)(=O)N2CCCCC2)s1)Nc1cccnc1,MAK-UNK-009ebe36-1,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-1
+CN1CCN(S(=O)(=O)c2cccc(NC(=O)Nc3cccnc3)c2)CC1,MAK-UNK-009ebe36-2,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-2
+Cc1ccc(S(=O)(=O)N2CCC(NC(=O)Nc3cccnc3)CC2)cc1,MAK-UNK-009ebe36-3,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-3
+O=C(NCc1ccc(S(=O)(=O)N2CCOCC2)s1)Nc1cccnc1,MAK-UNK-009ebe36-4,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-4
+O=C(NCc1ccc(S(=O)(=O)N2CCCCC2)s1)Nc1cccnc1,MAK-UNK-009ebe36-5,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-5
+O=C(Nc1cccnc1)NC1CN(S(=O)(=O)c2ccc3c(c2)OCCO3)C1,MAK-UNK-009ebe36-6,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-6
+O=C(NCc1cccc(S(=O)(=O)N2CCCCC2)c1)Nc1cccnc1,MAK-UNK-009ebe36-7,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-7
+O=C(NCC(=O)N1CCN(Cc2ccccc2)CC1)Nc1cccnc1,MAK-UNK-009ebe36-8,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-8
+O=C(Nc1cccnc1)N[C@@H]1CCCN(S(=O)(=O)c2cccs2)C1,MAK-UNK-009ebe36-9,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-9
+O=C(Nc1cccnc1)NC1CCN(Cc2ccsc2)CC1,MAK-UNK-009ebe36-10,Maksym Voznyy,x0434,False,MAK-UNK-009ebe36-10
+Cc1nnc(N(C(=O)Nc2cccnc2)c2cccc(F)c2)s1,ASH-UNK-40b46b30-1,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-1
+CS(=O)(=O)NCC1CC[C@H](C(N)=O)[C@@H]1c1ccsc1,ASH-UNK-40b46b30-2,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-2
+CS(=O)(=O)NCN(C(=O)Nc1cccnc1)c1ccccc1,ASH-UNK-40b46b30-3,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-3
+CN(Cc1cc(CCNC(=O)c2ccccc2F)ccn1)C(=O)NC1CC1,ASH-UNK-40b46b30-4,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-4
+CC(=O)NCCc1c[nH]c2c(Cc3nnc(C)s3)cc(F)cc12,ASH-UNK-40b46b30-5,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-5
+COc1[o+]cc(CCNS(C)(=O)=O)c2cc(S(N)(=O)=O)ccc12,ASH-UNK-40b46b30-6,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-6
+CC(=O)NCCc1c[nH]c2c(NC(=O)Nc3cccnc3)cc(F)cc12,ASH-UNK-40b46b30-7,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-7
+Cc1ccncc1NC(=O)C1(CN2CCC(O)CC2)CCSC1,ASH-UNK-40b46b30-8,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-8
+O=C(Nc1cccnc1)N(c1ccccc1)N1CCC(O)CC1,ASH-UNK-40b46b30-9,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-9
+Cc1ccncc1NC(=O)[N+]1(C)CCCc2ccc(S(N)(=O)=O)cc21,ASH-UNK-40b46b30-10,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-10
+Cc1ccncc1NC(=O)C1(CCNS(C)(=O)=O)CCCCC1,ASH-UNK-40b46b30-11,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-11
+Cc1cnc2c(c1)N(C(=O)Nc1ccccc1)N(C(=O)NC1CC1)C2,ASH-UNK-40b46b30-12,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-12
+CS(=O)(=O)NCC(C(=O)Nc1cccnc1)C1CCCCC1,ASH-UNK-40b46b30-13,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-13
+CC[N+]1([O-])CCN(C(=O)Cc2c[nH]c3ncccc23)c2cc(S(N)(=O)=O)ccc21,ASH-UNK-40b46b30-14,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-14
+O=C(Nc1cccnc1)C1=CC=C(N2CCCOCC2)C=C2CCCCC21,ASH-UNK-40b46b30-15,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-15
+Cc1ccncc1NC1CC[C@H](C(N)=O)[C@@H]1c1ccsc1,ASH-UNK-40b46b30-16,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-16
+CC(=O)Nc1ccc(Oc2nccc(Nc3sc(C)nc3-c3ccccc3)n2)cc1,ASH-UNK-40b46b30-17,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-17
+CN1CCN(C(=O)Cc2c[nH]c3ncccc23)c2cc(S(N)(=O)=O)ccc21,ASH-UNK-40b46b30-18,Ashvethaa Rameshkumar,,False,ASH-UNK-40b46b30-18
+COc1c(SC)ccnc1C(=O)N1CCN(C(=O)C/C=C/F)CC1,JON-UNI-bb9dc649-1,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-1
+CSc1cccc(/C(F)=C/C2CCN(C(C)=O)CC2)c1SC,JON-UNI-bb9dc649-2,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-2
+COc1c(SC)cccc1/C(F)=C/C1CCN(C(C)=O)CC1,JON-UNI-bb9dc649-3,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-3
+CC(=O)N1CCN(C(=O)c2ncccc2CCF)CC1,JON-UNI-bb9dc649-4,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-4
+COc1ccnc(/C(F)=C(/C2CCN(C(C)=O)CC2)S(N)(=O)=O)c1OC,JON-UNI-bb9dc649-5,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-5
+COc1cccc(C(F)C2CCN(C(C)=O)CC2)c1,JON-UNI-bb9dc649-6,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-6
+CSc1cccc(C(=O)N2CCN(C(=O)C/C=C/F)CC2)c1SC,JON-UNI-bb9dc649-7,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-7
+COc1cccc(C(F)C2CCN(C(C)=O)CC2)c1OC,JON-UNI-bb9dc649-8,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-8
+COc1ccnc(CC2CCN(C(C)=O)CC2)c1OC,JON-UNI-bb9dc649-9,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-9
+COc1c(SC)cccc1C(=O)N1CCN(C(=O)C/C=C/F)CC1,JON-UNI-bb9dc649-10,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-10
+COc1cccc(C(F)C(=O)N2CCN(C(C)=O)CC2)c1,JON-UNI-bb9dc649-11,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-11
+COc1cccc(C(=O)N2CCN(C(=O)C/C=C/F)CC2)c1OC,JON-UNI-bb9dc649-12,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-12
+COc1ccnc(C(F)C2CCN(C(C)=O)CC2)c1,JON-UNI-bb9dc649-13,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-13
+CSc1cccc(/C(F)=C/C2CCN(C(C)=O)CC2)c1,JON-UNI-bb9dc649-14,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-14
+CSc1cccc(/C(F)=C(/C)C2CCN(C(C)=O)CC2)c1,JON-UNI-bb9dc649-15,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-15
+COc1cccc(C(=O)N2CCN(C(C)=O)CC2)c1OC,JON-UNI-bb9dc649-16,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-16
+CSc1ccnc(C(=O)N2CCN(C(=O)C/C=C/F)CC2)c1SC,JON-UNI-bb9dc649-17,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-17
+COc1ccnc(C(=O)N2CCN(C(=O)C/C=C/F)CC2)c1OC,JON-UNI-bb9dc649-18,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-18
+CSc1cccc(/C(Cl)=C/C2CCN(C(C)=O)CC2)c1SC,JON-UNI-bb9dc649-19,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-19
+COc1cccc(/C(F)=C/C2CCN(C(C)=O)CC2)c1,JON-UNI-bb9dc649-20,"Jonas Verhellen, University of Oslo",,False,JON-UNI-bb9dc649-20
+CCN(Cc1ccc(-c2ccc(C(C)(C)C)cc2)s1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-1,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-1
+CN(C(=O)C1CCN(C(=O)CCl)CC1)C1(CNC(=O)OC(C)(C)C)CCOC1,SAD-SAT-29425be4-2,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-2
+Cc1ccc(SCCNC(=O)C2CCN(C(=O)CCl)CC2)cc1C,SAD-SAT-29425be4-3,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-3
+CC(C)(CNC(=O)C1CCN(C(=O)CCl)CC1)c1coc(-c2ccccc2)n1,SAD-SAT-29425be4-4,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-4
+Cc1cccc(NC(=O)CN(CC(=O)Nc2cccc(C)c2C)C(=O)C2CCN(C(=O)CCl)CC2)c1C,SAD-SAT-29425be4-5,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-5
+CC(C)(C)c1ccc(S(=O)(=O)CCNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-6,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-6
+CC(c1cccc(Cl)c1)N(CC(C)(C)NC(=O)OC(C)(C)C)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-7,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-7
+CN(Cc1cccc(NC(=O)OC(C)(C)C)c1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-8,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-8
+CC(C)(C)OC(=O)Cc1cccc(CNC(=O)C2CCN(C(=O)CCl)CC2)c1,SAD-SAT-29425be4-9,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-9
+Cc1ccccc1OCCCC(=O)Nc1ccc(CNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-10,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-10
+C=CCOc1ccc(CN(C(=O)C2CCN(C(=O)CCl)CC2)C(C)(C)C)cc1,SAD-SAT-29425be4-11,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-11
+CCCCc1ccc(C(NC(=O)C2CCN(C(=O)CCl)CC2)C(C)C)cc1,SAD-SAT-29425be4-12,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-12
+CC(C)Cc1ccc(C(NC(=O)C2CCN(C(=O)CCl)CC2)C(C)C)cc1,SAD-SAT-29425be4-13,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-13
+CC(C)(C)c1ccc(CNC(=O)C2CCN(C(=O)CCl)CC2)s1,SAD-SAT-29425be4-14,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-14
+CC(C)c1ccc(CCCNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-15,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-15
+CC(C)N(Cc1ccc(-c2ccccc2)s1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-16,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-16
+COc1cc(N(C(=O)C2CCN(C(=O)CCl)CC2)c2ccc3cc(S(=O)(=O)N4CCCCC4C)ccc3n2)cc(OC)c1OC,SAD-SAT-29425be4-17,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-17
+Cc1cccc(COc2c(C)cc(CN(C)C(=O)C3CCN(C(=O)CCl)CC3)cc2C)c1,SAD-SAT-29425be4-18,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-18
+CN(C)c1ccc(C(CNC(=O)C2CCN(C(=O)CCl)CC2)N(C)C)cc1,SAD-SAT-29425be4-19,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-19
+Cc1cccc(C(C)(C)CNC(=O)C2CCN(C(=O)CCl)CC2)c1,SAD-SAT-29425be4-20,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-20
+CN(CCCCN(C)C(=O)C1CCN(C(=O)CCl)CC1)C(=O)OC(C)(C)C,SAD-SAT-29425be4-21,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-21
+COC(=O)C(C)(C)N(Cc1cccc(OC)c1OC)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-22,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-22
+CC(C)(C)OC(=O)C(C)(NC(=O)C1CCN(C(=O)CCl)CC1)c1ccccc1,SAD-SAT-29425be4-23,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-23
+C=CC(=O)N1CCC(c2ccc(C(N)=O)c(N(C(=O)C3CCN(C(=O)CCl)CC3)c3ccc(C(=O)N4CCN(C(=O)CCCCNC(=O)OC(C)(C)C)CC4)cc3)n2)CC1,SAD-SAT-29425be4-24,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-24
+CC(C)(C)c1cccc(C(NC(=O)C2CCN(C(=O)CCl)CC2)c2ccc(Cl)cc2)c1,SAD-SAT-29425be4-25,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-25
+CC(C)(C)C1CN(C(=O)C2CCN(C(=O)CCl)CC2)CCN1CCOc1ccccc1,SAD-SAT-29425be4-26,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-26
+CCc1ccc(CN(Cc2cccnc2)C(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-27,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-27
+CC(C)COc1ccc(C(C)NC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-28,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-28
+O=C(OCc1ccccc1)c1ccc(CNC(=O)C2CCN(C(=O)CCl)CC2)cc1,SAD-SAT-29425be4-29,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-29
+CCCN(Cc1ccc(OCC)c(OCC)c1)C(=O)C1CCN(C(=O)CCl)CC1,SAD-SAT-29425be4-30,"Sadit Joarder, SATEC",x0770,True,SAD-SAT-29425be4-30
+O=C(NCc1cccc(S(=O)(=O)N2CCCCC2)c1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-1,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-1
+O=C(NC1CN(S(=O)(=O)c2ccc3c(c2)OCCO3)C1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-2,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-2
+O=C(NCc1ccc(S(=O)(=O)N2CCOCC2)s1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-3,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-3
+NS(=O)(=O)c1ccc2cccc(NC(=O)C3CCN(C(=O)CCl)CC3)c2c1,MAK-UNK-69bf97dd-4,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-4
+O=C(Nc1cc(S(=O)(=O)N2CCOCC2)ccc1O)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-5,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-5
+O=C(NCc1ccccc1S(=O)(=O)N1CCOCC1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-6,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-6
+O=C(NCc1ccccc1S(=O)(=O)N1CCCCC1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-7,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-7
+O=C(NCc1ccccc1S(=O)(=O)N1CCCC1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-8,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-8
+O=C(NCc1ccc(S(=O)(=O)N2CCCCC2)cc1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-9,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-9
+O=C(N[C@@H]1CCCN(S(=O)(=O)c2cccs2)C1)C1CCN(C(=O)CCl)CC1,MAK-UNK-69bf97dd-10,Maksym Voznyy,"x1351,x1358",False,MAK-UNK-69bf97dd-10
+O=C1CC(c2ccco2)Cc2nc(NCc3ccccc3)ncc21,MAR-TRE-f5c2d31c-1,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-1
+NC(=O)CSc1nc(SCC(N)=O)c2c3c([nH]c2n1)CCCC3,MAR-TRE-f5c2d31c-2,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-2
+CC(=O)Nc1ccc(C(=O)CSc2nc(O)c3ccccc3n2)cc1,MAR-TRE-f5c2d31c-3,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-3
+COc1ccc(Br)cc1Cc1nc(C)cc(-n2cc(F)c(=O)[nH]c2=O)n1,MAR-TRE-f5c2d31c-4,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-4
+Nc1ccc(S(=O)(=O)Nc2nccc(/C=C/c3cccc(F)c3)n2)cc1,MAR-TRE-f5c2d31c-5,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-5
+CSc1nc(N)nc(SCC(=O)Nc2cccc(F)c2)c1C#N,MAR-TRE-f5c2d31c-6,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-6
+Cc1nc(NCCNC(=O)Nc2cc(F)cc(F)c2)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-7,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-7
+Cc1nc(NCCNS(=O)(=O)c2ccc(F)cc2F)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-8,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-8
+Cc1cccc(NC(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c1,MAR-TRE-f5c2d31c-9,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-9
+CC(=O)Nc1ccc(NC(=O)CSc2nccc(O)n2)cc1,MAR-TRE-f5c2d31c-10,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-10
+Cc1nc(NCCNC(=O)Nc2cccc(Cl)c2)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-11,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-11
+Cc1ccc(S(=O)(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c(C)c1,MAR-TRE-f5c2d31c-12,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-12
+O=C(NCCNc1cc(N2CCOCC2)ncn1)Nc1ccc(F)c(Cl)c1,MAR-TRE-f5c2d31c-13,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-13
+O=C(CSc1nc(O)cc(O)n1)Nc1ccc(Cl)cc1Cl,MAR-TRE-f5c2d31c-14,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-14
+CCCc1cc(O)nc(SCC(=O)Nc2cccc(OC)c2)n1,MAR-TRE-f5c2d31c-15,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-15
+Cc1sc2nc(SCC(=O)NCCO)nc(N)c2c1C,MAR-TRE-f5c2d31c-16,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-16
+Cc1cc(C)n2nc(SCC(=O)Nc3ccc(O)cc3)nc2n1,MAR-TRE-f5c2d31c-17,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-17
+Cc1cccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)c1,MAR-TRE-f5c2d31c-18,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-18
+Cc1nc(NCCNC(=O)Nc2ccc(C)c(Cl)c2)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-19,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-19
+O=C(NCCNc1cc(N2CCOCC2)ncn1)Nc1cccc(F)c1,MAR-TRE-f5c2d31c-20,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-20
+Nc1nc(SCC(=O)NCCO)nc2sc3c(c12)CCCC3,MAR-TRE-f5c2d31c-21,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-21
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c(Cl)c1,MAR-TRE-f5c2d31c-22,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-22
+NC(=O)C1CCN(c2nc(NCCCO)c3ccccc3n2)CC1,MAR-TRE-f5c2d31c-23,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-23
+Cc1ccn(-c2cc(NCCNC(=O)Cc3ccc(F)cc3)ncn2)n1,MAR-TRE-f5c2d31c-24,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-24
+Cc1nc(NCCNS(=O)(=O)c2ccc(F)cc2)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-25,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-25
+CC1(C)Cc2c(sc3ncn4nc(-c5ccccc5O)nc4c23)C(C)(C)N1,MAR-TRE-f5c2d31c-26,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-26
+Cc1nc(NCCNC(=O)Nc2ccc(F)cc2F)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-27,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-27
+Cc1nc(NCCNC(=O)Nc2ccc(C)c(F)c2)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-28,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-28
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c(C)c1,MAR-TRE-f5c2d31c-29,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-29
+NC(=O)CSc1nc(SCC(N)=O)c2ccccc2n1,MAR-TRE-f5c2d31c-30,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-30
+Nc1ncc2c(n1)CC(c1ccco1)CC2=O,MAR-TRE-f5c2d31c-31,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-31
+CCOC(=O)c1c(NC(=O)CSc2nc(C)cc(-c3ccccc3)n2)sc2c1CCCC2,MAR-TRE-f5c2d31c-32,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-32
+CSc1cccc(NC(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c1,MAR-TRE-f5c2d31c-33,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-33
+Cc1ccc(S(=O)(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)cc1,MAR-TRE-f5c2d31c-34,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-34
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)c(Cl)c1,MAR-TRE-f5c2d31c-35,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-35
+O=C(NCCNc1cc(N2CCOCC2)ncn1)Nc1cccc(Cl)c1,MAR-TRE-f5c2d31c-36,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-36
+Cc1cc(C)cc(NC(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c1,MAR-TRE-f5c2d31c-37,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-37
+O=C(NCCNc1cc(N2CCOCC2)ncn1)Nc1ccc(F)cc1,MAR-TRE-f5c2d31c-38,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-38
+CCc1cccc(NC(=O)NCCNc2cc(N3CCOCC3)nc(C)n2)c1,MAR-TRE-f5c2d31c-39,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-39
+CCSc1nc(SCC(N)=O)c2sc3c(c2n1)COC(C)(C)C3,MAR-TRE-f5c2d31c-40,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-40
+CSc1nc(SCC(N)=O)c2sc3c(c2n1)COC(C)(C)C3,MAR-TRE-f5c2d31c-41,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-41
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)cc1Cl,MAR-TRE-f5c2d31c-42,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-42
+Cc1nc(NCCNS(=O)(=O)c2ccccc2F)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-43,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-43
+Cc1cc(O)nc(SCC(=O)Nc2ccc(I)cc2)n1,MAR-TRE-f5c2d31c-44,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-44
+Nc1ccc(S(=O)(=O)Nc2nccc(/C=C/c3cccs3)n2)cc1,MAR-TRE-f5c2d31c-45,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-45
+Cc1ccnc(SCc2cc(=O)n3c4ccccc4nc3n2Cc2ccccc2)n1,MAR-TRE-f5c2d31c-46,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-46
+O=C(O)C(Cc1c[nH]c2ccccc12)Nc1ncccn1,MAR-TRE-f5c2d31c-47,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-47
+NC(=O)C1CCN(Cc2nc(O)c3ccccc3n2)CC1,MAR-TRE-f5c2d31c-48,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-48
+Cc1cc(O)nc(SCC(=O)Nc2ccccc2Br)n1,MAR-TRE-f5c2d31c-49,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-49
+Nc1ccc(S(=O)(=O)Nc2nccc(/C=C/c3ccccc3F)n2)cc1,MAR-TRE-f5c2d31c-50,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-50
+Cc1cc(N2CCCCC2)nc(N2CCN(S(=O)(=O)c3c(C)noc3C)CC2)n1,MAR-TRE-f5c2d31c-51,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-51
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)c(C)c1,MAR-TRE-f5c2d31c-52,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-52
+CC1CCc2c(sc3ncnc(SCC(=O)N4CCOCC4)c23)C1,MAR-TRE-f5c2d31c-53,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-53
+Cc1nc(NCCNC(=O)Nc2cccc(F)c2C)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-54,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-54
+COc1ccc(C(C)=O)cc1Cc1c(O)nc(SCc2ccccc2)nc1O,MAR-TRE-f5c2d31c-55,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-55
+CSc1nc(SCC(=O)O)c2sc3c(c2n1)COC(C)(C)C3,MAR-TRE-f5c2d31c-56,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-56
+Cc1nc(NCCNC(=O)Nc2ccccc2C)cc(N2CCOCC2)n1,MAR-TRE-f5c2d31c-57,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-57
+CCNc1cc(C)nc(N2CCN(C(=O)CNC(=O)c3ccccc3)CC2)n1,MAR-TRE-f5c2d31c-58,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-58
+O=C(CSc1nccc(O)n1)NCc1ccc2c(c1)OCO2,MAR-TRE-f5c2d31c-59,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-59
+COc1ccc(NC(=O)C(C)Sc2nc(N)cc(O)n2)cc1,MAR-TRE-f5c2d31c-60,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-60
+CSc1nc(N)nc(SC2C=CCCC2)c1C#N,MAR-TRE-f5c2d31c-61,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-61
+COC(=O)CN1C(=O)CN(c2nc(C)cc(C)n2)C1=O,MAR-TRE-f5c2d31c-62,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-62
+CCc1cccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)c1,MAR-TRE-f5c2d31c-63,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-63
+O=C(CSc1ncnc2sc3c(c12)CCCC3)N1CCOCC1,MAR-TRE-f5c2d31c-64,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-64
+Cc1cc(C)nc(SCC(=O)c2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)n1,MAR-TRE-f5c2d31c-65,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-65
+CCc1ccccc1NC(=O)NCCNc1cc(N2CCOCC2)nc(C)n1,MAR-TRE-f5c2d31c-66,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-66
+O=C(CSc1nccc(O)n1)Nc1ccccc1Cl,MAR-TRE-f5c2d31c-67,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-67
+Cc1nc2ncnn2c2ccn(CCN3CCOCC3)c(=O)c12,MAR-TRE-f5c2d31c-68,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-68
+Cc1cc(O)nc(SCC(=O)c2c(C)[nH]c3ccccc23)n1,MAR-TRE-f5c2d31c-69,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-69
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)cc1F,MAR-TRE-f5c2d31c-70,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-70
+CCOC(=O)c1c(NC(=O)CSc2nc(C)c3c(n2)CCCC3)sc2c1CCCC2,MAR-TRE-f5c2d31c-71,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-71
+Cc1cc(C)nc(SC(C)C(=O)Nc2ccc(S(N)(=O)=O)cc2)n1,MAR-TRE-f5c2d31c-72,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-72
+Cc1sc2nc(SCc3ccc(C(=O)NCCO)cc3)nc(N)c2c1C,MAR-TRE-f5c2d31c-73,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-73
+O=C(NCCNc1cc(N2CCOCC2)ncn1)Nc1ccccc1Cl,MAR-TRE-f5c2d31c-74,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-74
+Cc1ccc(C)c(NC(=O)CSc2nc(C)cc(O)n2)c1,MAR-TRE-f5c2d31c-75,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-75
+CCc1c(C)nc(SCC(=O)Nc2ccc(OC)cc2)nc1O,MAR-TRE-f5c2d31c-76,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-76
+CCOC(=O)C(Sc1cc(C)nc(N)n1)C(C)=O,MAR-TRE-f5c2d31c-77,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-77
+Cc1nc2ncc3c(=O)n(CC(=O)O)ccc3n2n1,MAR-TRE-f5c2d31c-78,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-78
+CCNc1cc(N2CCN(S(=O)(=O)c3cccnc3)CC2)nc(C)n1,MAR-TRE-f5c2d31c-79,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-79
+Cc1ccnc(NS(=O)(=O)c2ccc(NC(=O)C(C)C)cc2)n1,MAR-TRE-f5c2d31c-80,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-80
+O=C(NCCNc1cc(N2CCOCC2)ncn1)Nc1ccc(Cl)cc1,MAR-TRE-f5c2d31c-81,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-81
+COc1cccc(-c2nc3c(c(SCC(N)=O)n2)COC(C)(C)C3)c1,MAR-TRE-f5c2d31c-82,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-82
+CSc1cccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)c1,MAR-TRE-f5c2d31c-83,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-83
+Cc1cc(O)nc(SCC(=O)NC(c2ccccc2)c2ccccc2)n1,MAR-TRE-f5c2d31c-84,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-84
+Cc1c(F)cccc1NC(=O)NCCNc1cc(N2CCOCC2)ncn1,MAR-TRE-f5c2d31c-85,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-85
+O=c1cc(CSc2ncnc3[nH]cnc23)c2ccccc2[nH]1,MAR-TRE-f5c2d31c-86,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-86
+Cc1nc2ncnn2c2ccn(CC(=O)O)c(=O)c12,MAR-TRE-f5c2d31c-87,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-87
+Cc1ccc2ncnc(NC(CO)C(=O)O)c2c1,MAR-TRE-f5c2d31c-88,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-88
+OCCN1CCN(c2nc(NCc3ccco3)c3ccccc3n2)CC1,MAR-TRE-f5c2d31c-89,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-89
+OCCCNc1nc(N2CCN(CCO)CC2)nc2ccccc12,MAR-TRE-f5c2d31c-90,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-90
+COc1ccc(C(=O)CSc2nc(O)c3ccccc3n2)cc1OC,MAR-TRE-f5c2d31c-91,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-91
+OCCCNc1ncnc2c1C(c1ccccc1Cl)c1ccc(O)cc1O2,MAR-TRE-f5c2d31c-92,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-92
+O=C(CSc1nc(O)c2nc[nH]c2n1)NC1CCCCC1,MAR-TRE-f5c2d31c-93,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-93
+COc1ccc(Cl)cc1NC(=O)CSc1nc(N)cc(O)n1,MAR-TRE-f5c2d31c-94,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-94
+Cc1cc(O)n2nc(NC(=O)C(C)C)nc2n1,MAR-TRE-f5c2d31c-95,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-95
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)cc1,MAR-TRE-f5c2d31c-96,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-96
+COc1cccc(NC(=O)CSc2nc(N)cc(N)n2)c1,MAR-TRE-f5c2d31c-97,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-97
+CC(=O)Nc1nc2nc(C)cc(O)n2n1,MAR-TRE-f5c2d31c-98,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-98
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)cc1C,MAR-TRE-f5c2d31c-99,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-99
+CC(=O)Nc1ccc(C(=O)CSc2nc(C)cc(O)n2)cc1,MAR-TRE-f5c2d31c-100,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-100
+O=C(CCl)N1CCN(CCCc2ccccc2)CC1,MAK-UNK-15efde89-1,Maksym Voznyy,x0692,False,MAK-UNK-15efde89-1
+CC(C)(C)CC(=O)N(CC(N)=O)Cc1ccccc1NC(=O)Nc1cccnc1,SAD-SAT-689b7d5a-1,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-1
+CC(C)(C)C(CN1CCc2ccccc2C1)NC(=O)Nc1cccnc1,SAD-SAT-689b7d5a-2,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-2
+CC(C)(C)c1cc(N)cc(NC(=O)Nc2cccnc2)c1,SAD-SAT-689b7d5a-3,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-3
+CC(C)C(CNC(=O)Nc1cccnc1)Nc1ccccc1,SAD-SAT-689b7d5a-4,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-4
+CC(C)(C)OC(=O)Cc1ccccc1NC(=O)Nc1cccnc1,SAD-SAT-689b7d5a-5,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-5
+CCCc1ccc(C(NC(=O)Nc2cccnc2)C(C)C)cc1,SAD-SAT-689b7d5a-6,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-6
+COc1cc(NC(=O)Nc2cccnc2)c(C(=O)N2C(C)CCCC2C)cc1OC,SAD-SAT-689b7d5a-7,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-7
+COc1c(NC(=O)Nc2cccnc2)cc(C(C)(C)C)cc1C(C)(C)C,SAD-SAT-689b7d5a-8,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-8
+CC1(C)CC(NC(=O)Nc2cccnc2)CC(C)(C)O1,SAD-SAT-689b7d5a-9,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-9
+CSCC[C@H](NC(=O)Nc1cccnc1)C(=O)N(C)C,SAD-SAT-689b7d5a-10,"Sadit Joarder, SATEC",x0678,False,SAD-SAT-689b7d5a-10
+O=C(CCl)N1CCN(Cc2ccc(-c3cccn3S(=O)(=O)c3ccccc3)s2)CC1,MAK-UNK-c74072e5-1,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-1
+O=C(CCl)N1CCN(Cc2ccc(-c3ccc4ccccc4c3CBr)s2)CC1,MAK-UNK-c74072e5-2,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-2
+O=C(CCl)N(c1ccc(-c2cccc3c2oc2ccc4ccccc4c23)cc1)C1C=CS(=O)(=O)C1,MAK-UNK-c74072e5-3,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-3
+N#Cc1c(Br)cccc1-c1ccccc1S(=O)(=O)N1CCN(C(=O)CCl)CC1,MAK-UNK-c74072e5-4,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-4
+O=C(CCl)N(c1ccc(-c2ccc3oc4ccc5ccccc5c4c3c2)cc1)C1C=CS(=O)(=O)C1,MAK-UNK-c74072e5-5,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-5
+CC(C#N)S(=O)(=O)Nc1ccnc(-c2ccc(S(=O)(=O)N3CCN(C(=O)CCl)CC3)s2)c1,MAK-UNK-c74072e5-6,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-6
+CC(C)(C)[Si](C)(C)OCCN1CCN(S(=O)(=O)c2ccc(-c3cccc(CN4CCN(C(=O)CCl)CC4)c3)cc2)CC1,MAK-UNK-c74072e5-7,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-7
+O=C(CCl)N1CCN(S(=O)(=O)c2ccc(C3CC3)cc2)CC1,MAK-UNK-c74072e5-8,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-8
+Nc1cc(-c2cc(S(=O)(=O)N3CCN(C(=O)CCl)CC3)ccc2F)cs1,MAK-UNK-c74072e5-9,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-9
+O=Cc1cc(-c2ccc(CN3CCN(C(=O)CCl)CC3)s2)ccc1[N+](=O)[O-],MAK-UNK-c74072e5-10,Maksym Voznyy,"x0731,x0769,x0770,x1374,x1418",False,MAK-UNK-c74072e5-10
+CCCNCC1CCCCC1(CNc1nnc[nH]1)C(=O)Oc1ccc(C(F)(F)F)cc1C1=CCC(=O)N[C@H]1C,MAD-UNK-53efccd2-1,Madhusudan,,False,MAD-UNK-53efccd2-1
+NC[C@@H]1NC(=O)CC=C1c1cc(C(F)F)ccc1OC(=O)C1(CNc2nnc[nH]2)CCCCC1,MAD-UNK-8ef90bd9-1,madhusudan,,False,MAD-UNK-8ef90bd9-1
+O=C(Nc1cccnc1)Nc1cccc2c1C2,SAD-SAT-cefd50cc-1,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-1
+CC(=O)CN(Cc1noc(C)c1C)C(=O)NC1CC1,SAD-SAT-cefd50cc-2,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-2
+Cc1nnc(C2CC[C@H](C(N)=O)C3CC=C(F)CN23)s1,SAD-SAT-cefd50cc-3,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-3
+Cc1cnc2c(c1)N(C(=O)CC1CCCCC1)N(C(=O)NC1CC1)C2,SAD-SAT-cefd50cc-4,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-4
+O=C(Nc1ccccc1)NC12CC(CCNC(=O)c3ccccc3F)CCN1C2,SAD-SAT-cefd50cc-5,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-5
+CCNC1CCC(C#N)CC1CC(=O)Nc1cccnc1,SAD-SAT-cefd50cc-6,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-6
+Cc1ccc(OCC(=O)N2CC3C(CC(=O)Nc4cccnc4)C(C2)N3C)cc1,SAD-SAT-cefd50cc-7,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-7
+COC1=C(F)CN(Cc2nnc(C)s2)c2cc(S(N)(=O)=O)ccc21,SAD-SAT-cefd50cc-8,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-8
+Cc1nnc(CN2C3CCc4ccc(S(N)(=O)=O)cc4[N+]32C)s1,SAD-SAT-cefd50cc-9,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-9
+CCNc1ncc(C#N)cc1C(=O)Nc1cnccc1C,SAD-SAT-cefd50cc-10,"Sadit Joarder, SATEC",x0072,False,SAD-SAT-cefd50cc-10
+Cc1ccncc1C1c2ncccc2C(c2cccc(Cl)c2)[S+]1[O-],MIC-UNK-4e776895-1,Michal K,"x0397,x0678,x0967",False,MIC-UNK-4e776895-1
+Cc1ccncc1C1c2noc(C)c2C(c2cccc(Cl)c2)[S+]1[O-],MIC-UNK-4e776895-2,Michal K,"x0397,x0678,x0967",False,MIC-UNK-4e776895-2
+Cc1onc2c1C(c1cccc(Cl)c1)[S+]([O-])C2c1cncc2ccccc12,MIC-UNK-4e776895-3,Michal K,"x0397,x0678,x0967",False,MIC-UNK-4e776895-3
+Cc1[nH]ncc1C1c2noc(C)c2C(c2cccc(Cl)c2)[S+]1[O-],MIC-UNK-4e776895-4,Michal K,"x0397,x0678,x0967",False,MIC-UNK-4e776895-4
+Cc1cc(O)ncc1C1c2noc(C)c2C(c2cccc(Cl)c2)[S+]1[O-],MIC-UNK-4e776895-5,Michal K,"x0397,x0678,x0967",False,MIC-UNK-4e776895-5
+CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,ALP-POS-d2866bdf-1,"Alpha Lee, PostEra",x0072,False,ALP-POS-d2866bdf-1
+[O-][S+](Cc1cccnc1)Cc1cccc(Cl)c1,MIC-UNK-5ce21166-1,Michal K,x0678,False,MIC-UNK-5ce21166-1
+[O-][S+](Cc1cn[nH]c1)Cc1cccc(Cl)c1,MIC-UNK-5ce21166-2,Michal K,x0678,False,MIC-UNK-5ce21166-2
+Cc1nn(-c2ccccc2)c(Nc2cccc(C(F)(F)F)c2)c1NS(C)(=O)=O,ROD-LAS-d5538ff9-1,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-1
+CS(=O)(=O)c1ccc(Nc2c(-c3ccccn3)nc3ccccn23)cc1,ROD-LAS-d5538ff9-2,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-2
+O=C(N/N=C/c1c[nH]cn1)C1CCCCC1,ROD-LAS-d5538ff9-3,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-3
+O=C(CNc1c(-c2ccccc2)nc2ccccn12)N/N=C/c1cccc2ccccc12,ROD-LAS-d5538ff9-4,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-4
+Cc1[nH]c2ccccc2c1/C=N/N(C)C(=O)c1ccc2c(c1)OCO2,ROD-LAS-d5538ff9-5,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-5
+CN1C(=O)/C(=N\NC(=O)c2ccc3c(c2)OCO3)c2ccccc21,ROD-LAS-d5538ff9-6,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-6
+Cc1csc(C(=O)N/N=C/c2cccnc2)c1N,ROD-LAS-d5538ff9-7,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-7
+CCCc1cc2c(cc1S(=O)(=O)N1CCN(c3ccccc3)CC1)OCO2,ROD-LAS-d5538ff9-8,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-8
+O=C(Nc1ccccc1)Nc1cnc2ccc([N+](=O)[O-])cc2n1,ROD-LAS-d5538ff9-9,"Rodolfo do Couto Maia, LASSBio-URJ",,False,ROD-LAS-d5538ff9-9
+O=C(Cn1cccn1)N1CCO[C@@H](CNCc2cccc(F)c2)C1,SAD-SAT-f25ee457-1,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-1
+N#Cc1ccc(CNC(=O)N2CCOCC2)c2cc(S(N)(=O)=O)ccc12,SAD-SAT-f25ee457-2,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-2
+N#Cc1ccc(CNC(=O)N2CCOCC2)c(CC(=O)Nc2cccnc2)c1,SAD-SAT-f25ee457-3,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-3
+N#Cc1ccc(CNC(=O)N2CCOCC2)c(CN2CCC(O)CC2)c1,SAD-SAT-f25ee457-4,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-4
+O=C(Cc1c[nH]c2ncccc12)N1CCN2CCC2C1,SAD-SAT-f25ee457-5,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-5
+CC1CN2Cc3ccc(S(N)(=O)=O)c(c32)N1C(=O)Cc1c[nH]c2ncccc12,SAD-SAT-f25ee457-6,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-6
+Cc1c(NC(=O)Nc2cccnc2)ccc2ccc(S(N)(=O)=O)cc12,SAD-SAT-f25ee457-7,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-7
+NS(=O)(=O)c1ccc2ccc(NC(=O)Nc3cccnc3)cc2c1,SAD-SAT-f25ee457-8,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-8
+Cc1nnc(Cc2cc(C#N)ccc2CNC(=O)N2CCOCC2)s1,SAD-SAT-f25ee457-9,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-9
+CN1CCN(C(=O)Cc2c[nH]c3ncccc23)C(N2CCC(O)CC2)C1,SAD-SAT-f25ee457-10,"Sadit Joarder, SATEC",x0395,False,SAD-SAT-f25ee457-10
+O=C(Cc1cccc(Cl)c1)Nc1cn[nH]c1,MIC-UNK-66895286-1,Michal K,x0678,False,MIC-UNK-66895286-1
+O=C(Cc1cn[nH]c1)Nc1cccc(Cl)c1,MIC-UNK-66895286-2,Michal K,x0678,False,MIC-UNK-66895286-2
+Cc1[nH]ncc1CC(=O)Nc1cccc(Cl)c1,MIC-UNK-66895286-3,Michal K,x0678,False,MIC-UNK-66895286-3
+Cc1cc(O)ncc1CC(=O)Nc1cccc(Cl)c1,MIC-UNK-66895286-4,Michal K,x0678,False,MIC-UNK-66895286-4
+O=C(Cc1cnc(O)c2ccccc12)Nc1cccc(Cl)c1,MIC-UNK-66895286-5,Michal K,x0678,False,MIC-UNK-66895286-5
