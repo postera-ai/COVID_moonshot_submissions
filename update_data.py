@@ -341,11 +341,13 @@ def update_data(
         ) as f:
             f.writelines(tracking_plot_spec_data)
 
-        from lib.create_pIC50_plot import create_pIC50_html
+        from lib.create_pIC50_plot import create_pIC50_html_and_json
 
-        pIC50_html_data = create_pIC50_html(all_df)
+        pIC50_html_data, pIC50_json_data, = create_pIC50_html_and_json(all_df)
         with open(dir_path / "plots" / "pIC50_plot.html", "w") as f:
             f.writelines(pIC50_html_data)
+        with open(dir_path / "plots" / "pIC50_plot.json", "w") as f:
+            f.writelines(pIC50_json_data)
 
         from lib.create_dose_response_plot import (
             create_dose_response_spec,
