@@ -1,10 +1,1 @@
 SMILES,CID
-Cc1nn(-c2ccccc2)c(Nc2cccc(C(F)(F)F)c2)c1NS(C)(=O)=O,
-O=C(N/N=C/c1c[nH]cn1)C1CCCCC1,
-O=C(CNc1c(-c2ccccc2)nc2ccccn12)N/N=C/c1cccc2ccccc12,
-Cc1[nH]c2ccccc2c1/C=N/N(C)C(=O)c1ccc2c(c1)OCO2,
-CN1C(=O)/C(=N\NC(=O)c2ccc3c(c2)OCO3)c2ccccc21,
-Cc1csc(C(=O)N/N=C/c2cccnc2)c1N,
-CCCc1cc2c(cc1S(=O)(=O)N1CCN(c3ccccc3)CC1)OCO2,
-O=C(Nc1ccccc1)Nc1cnc2ccc([N+](=O)[O-])cc2n1,
-Cc1ccncc1NC(=O)Cc1cccc(OC2CC(=O)N2)c1,BRU-LEF-c49414a7-1

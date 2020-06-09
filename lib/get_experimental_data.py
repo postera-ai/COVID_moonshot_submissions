@@ -393,7 +393,7 @@ def get_trypsin_data():
                 if "value" not in mol_dict["readouts"]["557122"]:
                     ic50 = np.nan
                 else:
-                    ic50 = mol_dict["readouts"]["557122"]["value"]
+                    ic50 = 99  # mol_dict["readouts"]["557122"]["value"]
         else:
             ic50 = np.nan
 
