@@ -7,6 +7,7 @@ import pandas as pd
 
 from rdkit import Chem
 from rdkit.Chem import AllChem
+from rdkit.Chem import Descriptors
 
 from chembl_structure_pipeline import standardizer
 
@@ -68,8 +69,8 @@ def strip_and_standardize_smi(smi):
 
 
 # code to retrieve new and old CIDS
-new_CID_list = list(CID_df['CID'])
-old_CID_list = [str(x) for x in list(CID_df['CID (old format)'])]
+new_CID_list = list(CID_df["CID"])
+old_CID_list = [str(x) for x in list(CID_df["CID (old format)"])]
 old_to_new_CID_dict = {}
 for old_CID, new_CID in zip(old_CID_list, new_CID_list):
     if "nan" in old_CID:
@@ -85,3 +86,54 @@ def get_new_CID_from_old(old_CID):
 
 def get_old_CID_from_new(new_CID):
     return new_to_old_CID_dict[new_CID]
+
+
+def get_series(smi):
+    series_SMARTS_dict = {
+        # "3-aminopyridine": "[R1][C,N;R0;!$(NC(=O)CN)]C(=O)[C,N;R0;!$(NC(=O)CN)][c]1cnccc1",
+        "3-amonipyridine-like": "[R1]!@[C,N]C(=O)[C,N]!@[R1]",
+        "ugi": "[c,C:1][C](=[O])[N]([c,C,#1:2])[C]([c,C,#1:3])([c,C,#1:4])[C](=[O])[NH1][c,C:5]",
+        "quinolones": "NC(=O)c1cc(=O)[nH]c2ccccc12",
+        "piperazine-chloroacetamide": "O=C(CCl)N1CCNCC1",
+    }
+
+    def check_if_smi_in_series(
+        smi, SMARTS, MW_cutoff=550, num_atoms_cutoff=70, num_rings_cutoff=10
+    ):
+        mol = Chem.MolFromSmiles(smi)
+        MW = Chem.Descriptors.MolWt(mol)
+        num_heavy_atoms = mol.GetNumHeavyAtoms()
+        num_rings = Chem.rdMolDescriptors.CalcNumRings(mol)
+        patt = Chem.MolFromSmarts(SMARTS)
+        if (
+            (
+                len(
+                    Chem.AddHs(Chem.MolFromSmiles(smi)).GetSubstructMatches(
+                        patt
+                    )
+                )
+                > 0
+            )
+            and (MW <= MW_cutoff)
+            and (num_heavy_atoms <= num_atoms_cutoff)
+            and (num_rings <= num_rings_cutoff)
+        ):
+            return True
+        else:
+            return False
+
+    for series in series_SMARTS_dict:
+        series_SMARTS = series_SMARTS_dict[series]
+        if series == "3-amonipyridine-like":
+            if check_if_smi_in_series(
+                smi,
+                series_SMARTS,
+                MW_cutoff=410,
+                num_rings_cutoff=3,
+                num_atoms_cutoff=28,
+            ):
+                return series
+        else:
+            if check_if_smi_in_series(smi, series_SMARTS):
+                return series
+    return None

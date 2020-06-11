@@ -8,11 +8,13 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
+
 from lib.utils import (
     strip_and_standardize_smi,
     get_CID,
     get_CDD_ID,
     get_comments,
+    get_series
 )
 
 # get parent path of file
@@ -329,6 +331,9 @@ def update_data(
         all_df["ASSAYED"] = all_df["InChIKey"].apply(
             lambda x: "TRUE" if x in assayed_iks else "FALSE"
         )
+
+    # add series info
+    all_df['series'] = all_df["SMILES"].apply(lambda x: get_series(x))
 
     all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
 
