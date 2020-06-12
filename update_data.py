@@ -14,7 +14,7 @@ from lib.utils import (
     get_CID,
     get_CDD_ID,
     get_comments,
-    get_series
+    get_series,
 )
 
 # get parent path of file
@@ -50,22 +50,24 @@ def update_data(
             }
         )
         all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
-        all_df = all_df.drop(columns=[
-            "r_inhibition_at_20_uM",
-            "r_inhibition_at_50_uM",
-            "r_IC50",
-            "f_inhibition_at_20_uM",
-            "f_inhibition_at_50_uM",
-            "f_avg_IC50",
-            "f_avg_pIC50",
-            "f_max_inhibition_reading",
-            "f_min_inhibition_reading",
-            "f_hill_slope",
-            "f_R2",
-            "relative_solubility_at_20_uM",
-            "relative_solubility_at_100_uM",
-            "trypsin_IC50"
-        ])
+        all_df = all_df.drop(
+            columns=[
+                "r_inhibition_at_20_uM",
+                "r_inhibition_at_50_uM",
+                "r_IC50",
+                "f_inhibition_at_20_uM",
+                "f_inhibition_at_50_uM",
+                "f_avg_IC50",
+                "f_avg_pIC50",
+                "f_max_inhibition_reading",
+                "f_min_inhibition_reading",
+                "f_hill_slope",
+                "f_R2",
+                "relative_solubility_at_20_uM",
+                "relative_solubility_at_100_uM",
+                "trypsin_IC50",
+            ]
+        )
 
         def create_old_cid(x):
             if x["old_CID"] is np.nan:
@@ -223,7 +225,11 @@ def update_data(
     from lib.get_CDD_updates import get_CDD_updates
 
     if get_CDD_updates:
-        add_to_virtual_df, add_to_synthesis_df, add_to_made_df = get_CDD_updates(
+        (
+            add_to_virtual_df,
+            add_to_synthesis_df,
+            add_to_made_df,
+        ) = get_CDD_updates(
             all_df, current_cdd_df, virtual_df, synthesis_df, made_df
         )
 
@@ -296,14 +302,15 @@ def update_data(
 
     if update_tracking_status:
         ### only list things with at least one inhibition value as assayed
-        ordered_iks = [
-            Chem.MolToInchiKey(Chem.MolFromSmiles(x))
-            for x in list(synthesis_df["SMILES"])
-        ]
-        made_iks = [
-            Chem.MolToInchiKey(Chem.MolFromSmiles(x))
-            for x in list(made_df["SMILES"])
-        ]
+        synthesis_df["inchikey"] = synthesis_df["SMILES"].apply(
+            lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+        )
+        ordered_iks = list(synthesis_df["inchikey"])
+
+        made_df["inchikey"] = made_df["SMILES"].apply(
+            lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+        )
+        made_iks = list(made_df["inchikey"])
 
         assayed_df = all_df.loc[
             (
@@ -323,17 +330,58 @@ def update_data(
             if ((x in ordered_iks) or (x in made_iks) or (x in assayed_iks))
             else "FALSE"
         )
+        all_df["MAKER"] = all_df["InChIKey"].apply(
+            lambda x: list(
+                synthesis_df.loc[synthesis_df["inchikey"] == x]["orders"]
+            )[0].split("_")[-1][:-4]
+            if (x in ordered_iks)
+            else ""
+        )
+        all_df["ORDER_DATE"] = all_df["InChIKey"].apply(
+            lambda x: (
+                list(
+                    synthesis_df.loc[synthesis_df["inchikey"] == x]["orders"]
+                )[0].split("_")[0][0:4]
+                + "-"
+                + list(
+                    synthesis_df.loc[synthesis_df["inchikey"] == x]["orders"]
+                )[0].split("_")[0][4:6]
+                + "-"
+                + list(
+                    synthesis_df.loc[synthesis_df["inchikey"] == x]["orders"]
+                )[0].split("_")[0][6:8]
+            )
+            if ((x in ordered_iks))
+            else ""
+        )
         all_df["MADE"] = all_df["InChIKey"].apply(
             lambda x: "TRUE"
             if ((x in made_iks) or (x in assayed_iks))
             else "FALSE"
+        )
+        all_df["SHIPMENT_DATE"] = all_df["InChIKey"].apply(
+            lambda x: (
+                list(
+                    made_df.loc[made_df["inchikey"] == x]["shipments"]
+                )[0].split("_")[0][0:4]
+                + "-"
+                + list(
+                    made_df.loc[made_df["inchikey"] == x]["shipments"]
+                )[0].split("_")[0][4:6]
+                + "-"
+                + list(
+                    made_df.loc[made_df["inchikey"] == x]["shipments"]
+                )[0].split("_")[0][6:8]
+            )
+            if (x in made_iks)
+            else ""
         )
         all_df["ASSAYED"] = all_df["InChIKey"].apply(
             lambda x: "TRUE" if x in assayed_iks else "FALSE"
         )
 
     # add series info
-    all_df['series'] = all_df["SMILES"].apply(lambda x: get_series(x))
+    all_df["series"] = all_df["SMILES"].apply(lambda x: get_series(x))
 
     all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
 
