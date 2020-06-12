@@ -91,8 +91,8 @@ def get_old_CID_from_new(new_CID):
 def get_series(smi):
     series_SMARTS_dict = {
         # "3-aminopyridine": "[R1][C,N;R0;!$(NC(=O)CN)]C(=O)[C,N;R0;!$(NC(=O)CN)][c]1cnccc1",
-        "3-amonipyridine-like": "[R1]!@[C,N]C(=O)[C,N]!@[R1]",
-        "ugi": "[c,C:1][C](=[O])[N]([c,C,#1:2])[C]([c,C,#1:3])([c,C,#1:4])[C](=[O])[NH1][c,C:5]",
+        "3-aminopyridine-like": "[R1]!@[C,N]C(=O)[C,N]!@[R1]",
+        "Ugi": "[c,C:1][C](=[O])[N]([c,C,#1:2])[C]([c,C,#1:3])([c,C,#1:4])[C](=[O])[NH1][c,C:5]",
         "quinolones": "NC(=O)c1cc(=O)[nH]c2ccccc12",
         "piperazine-chloroacetamide": "O=C(CCl)N1CCNCC1",
     }
