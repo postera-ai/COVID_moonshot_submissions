@@ -3,3 +3,12 @@ COc1cc2nnn(CC(=O)NCc3ccn(C)c3)c2cc1OC,ALP-POS-182116e9-1
 COc1cc2nnn(CC(=O)NC(C(=O)N3CCCC3)c3ccccn3)c2cc1OC,ALP-POS-182116e9-2
 COc1cc2nnn(CC(=O)NC(CC(N)=O)c3cccn3C)c2cc1OC,ALP-POS-182116e9-3
 COc1cc2nnn(CC(=O)NC3(CC(N)=O)CCc4cccnc43)c2cc1OC,ALP-POS-182116e9-4
+CC(=O)N1CCN(Cc2ccccc2)C2NC(=O)N(c3cccnc3)C21,NIM-UNI-36e12f95-2
+Cc1cnc2c(-c3ccc4[nH]ncc4c3)c(-c3ccc(F)cc3)nn2c1,ALV-UNI-7ff1a6f9-22
+CC(=O)c1ccc(Br)c2[nH]c(=O)n(-c3cccnc3)c12,NIM-UNI-36e12f95-3
+Cc1ccn2c(-c3ccc4[nH]ncc4c3)c(-c3ccc(F)cc3)nc2c1,ALV-UNI-7ff1a6f9-14
+Cc1cn2c(-c3cccnc3)c(-c3ccc(F)cc3)nc2s1,ALV-UNI-7ff1a6f9-43
+C#Cc1ncccc1NC(=O)Cc1cccc(Cl)c1,AGN-NEW-c7b24fe3-5
+Cc1ccncc1NC(=O)NC1(C#Cc2cn(C)cn2)CC1,CHR-SOS-6c45c019-16
+CO[C@@H]1C[C@@H](COc2cccnc2)N(c2ncccn2)C1,AUS-ARG-7cfdce8f-1
+N#Cc1ccc(C(N)=O)c(CNC(=O)C2CCOCC2)c1,PHI-UNK-c3ab17cb-1

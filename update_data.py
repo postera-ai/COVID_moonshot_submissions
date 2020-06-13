@@ -380,15 +380,15 @@ def update_data(
             lambda x: "TRUE" if x in assayed_iks else "FALSE"
         )
 
-    # add series info
-    all_df["series"] = all_df["SMILES"].apply(lambda x: get_series(x))
+        # add series info
+        all_df["series"] = all_df["SMILES"].apply(lambda x: get_series(x))
 
     all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
 
     if update_plots:
         from lib.create_tracking_plot import create_tracking_plot_spec
 
-        tracking_plot_spec_data = create_tracking_plot_spec(all_df)
+        tracking_plot_spec_data = create_tracking_plot_spec(all_df.copy())
         with open(
             dir_path / "plots" / "tracking_plot_vega_spec.json", "w"
         ) as f:
@@ -396,7 +396,7 @@ def update_data(
 
         from lib.create_pIC50_plot import create_pIC50_html_and_json
 
-        pIC50_html_data, pIC50_json_data, = create_pIC50_html_and_json(all_df)
+        pIC50_html_data, pIC50_json_data, = create_pIC50_html_and_json(all_df.copy())
         with open(dir_path / "plots" / "pIC50_plot.html", "w") as f:
             f.writelines(pIC50_html_data)
         with open(dir_path / "plots" / "pIC50_plot.json", "w") as f:
@@ -407,14 +407,14 @@ def update_data(
             create_dose_response_spec_chloroacetamides,
         )
 
-        dose_response_spec_data = create_dose_response_spec(all_df)
+        dose_response_spec_data = create_dose_response_spec(all_df.copy())
         with open(
             dir_path / "plots" / "dose_response_vega_spec.json", "w"
         ) as f:
             f.writelines(dose_response_spec_data)
 
         chloroacetamides_dose_response_spec_data = create_dose_response_spec_chloroacetamides(
-            all_df
+            all_df.copy()
         )
         with open(
             dir_path
@@ -423,6 +423,18 @@ def update_data(
             "w",
         ) as f:
             f.writelines(chloroacetamides_dose_response_spec_data)
+
+        from lib.create_map_plot import create_map_plot_spec
+        world_map_spec_data = create_map_plot_spec(
+            all_df.copy()
+        )
+        with open(
+            dir_path
+            / "plots"
+            / "world_map_spec.json",
+            "w",
+        ) as f:
+            f.writelines(world_map_spec_data)
 
 
 if __name__ == "__main__":
@@ -437,3 +449,14 @@ if __name__ == "__main__":
         update_tracking_status=True,
         update_plots=True,
     )
+    # update_data(
+    #     fetch_submissions=False,
+    #     fetch_orders=False,
+    #     fetch_shipments=False,
+    #     fetch_CDD=False,
+    #     get_CDD_updates=False,
+    #     fetch_assays=False,
+    #     fetch_structures=False,
+    #     update_tracking_status=False,
+    #     update_plots=True,
+    # )

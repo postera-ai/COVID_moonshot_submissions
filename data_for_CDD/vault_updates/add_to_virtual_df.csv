@@ -1,15 +1,19 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-C=CC(=O)N1CCN(Cc2ccccc2)CC1,SAD-SAT-1f400d17-1,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-1
-C=CC(=O)Nc1ccc(S(=O)(=O)N2CCCC2)cc1,SAD-SAT-1f400d17-2,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-2
-C=CC(=O)NCCC(=O)N1CCOC(c2ccc(F)c(Cl)c2)C1,SAD-SAT-1f400d17-3,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-3
-C=CC(=O)N1CCC(C(=O)NC(C)c2cccc(S(N)(=O)=O)c2)CC1,SAD-SAT-1f400d17-4,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-4
-C=CC(=O)N(CC)CC(=O)N1CCN(c2ccccc2[N+](=O)[O-])CC1,SAD-SAT-1f400d17-5,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-5
-C=CC(=O)N1CCN(Cc2ccc(Cl)cc2)CC1,SAD-SAT-1f400d17-6,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-6
-C=CC(=O)NCCc1ccc(S(N)(=O)=O)cc1,SAD-SAT-1f400d17-7,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-7
-C=CC(=O)NC1CCN(Cc2cccs2)CC1,SAD-SAT-1f400d17-8,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-8
-C=CC(=O)N1CCC(C(=O)N2Cc3ccccc3C(c3ccccc3)C2)CC1,SAD-SAT-1f400d17-9,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-9
-C=CC(=O)N1CCCN(C(=O)c2cccc(F)c2)CC1,SAD-SAT-1f400d17-10,"Sadit Joarder, SATEC",x0831,False,SAD-SAT-1f400d17-10
+C=CC(=O)N1CCN(Cc2ccccc2)CC1,SAD-SAT-1f400d17-1,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-1
+C=CC(=O)Nc1ccc(S(=O)(=O)N2CCCC2)cc1,SAD-SAT-1f400d17-2,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-2
+C=CC(=O)NCCC(=O)N1CCOC(c2ccc(F)c(Cl)c2)C1,SAD-SAT-1f400d17-3,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-3
+C=CC(=O)N1CCC(C(=O)NC(C)c2cccc(S(N)(=O)=O)c2)CC1,SAD-SAT-1f400d17-4,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-4
+C=CC(=O)N(CC)CC(=O)N1CCN(c2ccccc2[N+](=O)[O-])CC1,SAD-SAT-1f400d17-5,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-5
+C=CC(=O)N1CCN(Cc2ccc(Cl)cc2)CC1,SAD-SAT-1f400d17-6,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-6
+C=CC(=O)NCCc1ccc(S(N)(=O)=O)cc1,SAD-SAT-1f400d17-7,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-7
+C=CC(=O)NC1CCN(Cc2cccs2)CC1,SAD-SAT-1f400d17-8,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-8
+C=CC(=O)N1CCC(C(=O)N2Cc3ccccc3C(c3ccccc3)C2)CC1,SAD-SAT-1f400d17-9,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-9
+C=CC(=O)N1CCCN(C(=O)c2cccc(F)c2)CC1,SAD-SAT-1f400d17-10,"Sadit Joarder, SATEC",x0831,True,SAD-SAT-1f400d17-10
 COc1cc2nnn(CC(=O)NCc3ccn(C)c3)c2cc1OC,ALP-POS-182116e9-1,"Alpha Lee, PostEra",,False,ALP-POS-182116e9-1
 COc1cc2nnn(CC(=O)NC(C(=O)N3CCCC3)c3ccccn3)c2cc1OC,ALP-POS-182116e9-2,"Alpha Lee, PostEra",,False,ALP-POS-182116e9-2
 COc1cc2nnn(CC(=O)NC(CC(N)=O)c3cccn3C)c2cc1OC,ALP-POS-182116e9-3,"Alpha Lee, PostEra",,False,ALP-POS-182116e9-3
 COc1cc2nnn(CC(=O)NC3(CC(N)=O)CCc4cccnc43)c2cc1OC,ALP-POS-182116e9-4,"Alpha Lee, PostEra",,False,ALP-POS-182116e9-4
+CC(=O)NCC[C@H]1COc2c(NC(=O)Cc3cnccc3C)cc(Cl)cc21,MIC-UNK-ea979c74-1,Michal K,"x0104,x0434",False,MIC-UNK-ea979c74-1
+CC(=O)NCC[C@H]1COc2c(NC(=O)Nc3cnccc3C)cc(Cl)cc21,MIC-UNK-ea979c74-2,Michal K,"x0104,x0434",False,MIC-UNK-ea979c74-2
+CC(=O)NCC[C@H]1COc2c(CC(=O)Nc3cnccc3C)cc(Cl)cc21,MIC-UNK-ea979c74-3,Michal K,"x0104,x0434",False,MIC-UNK-ea979c74-3
+CC(=O)NCC[C@H]1COc2c1cc(Cl)cc2N(CCC1CCCCC1)C(=O)Nc1cnccc1C,MIC-UNK-ea979c74-4,Michal K,"x0104,x0434",False,MIC-UNK-ea979c74-4
