@@ -1,1 +1,15 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
+C=CC(=O)N(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1nncn1C1CC1,PAU-WIS-d4065696-1,"Paul Gehrtz, WIS",x2694,False,PAU-WIS-d4065696-1
+CC#CC(=O)N(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1nncn1C1CC1,PAU-WIS-d4065696-2,"Paul Gehrtz, WIS",x2694,False,PAU-WIS-d4065696-2
+C=CC(=O)N[C@@]1(C(=O)Nc2nncn2C2CC2)CCOc2ccc(Cl)cc21,PAU-WIS-d4065696-3,"Paul Gehrtz, WIS",x2694,False,PAU-WIS-d4065696-3
+CN(C)c1ncccc1N(C)C(=O)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-1,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-1
+COc1ncccc1N(C)C(=O)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-2,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-2
+O=C(Nc1nc2ccc(F)cn2n1)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-3,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-3
+Cc1nnc(CNC(=O)C2CCOc3ccc(Cl)cc32)n1C1CC1,LON-WEI-0a73fcb8-4,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-4
+CN(C(=O)C1CCOc2ccc(Cl)cc21)c1ccc(Cl)cn1,LON-WEI-0a73fcb8-5,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-5
+CC(C)c1scnc1NC(=O)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-6,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-6
+O=C(Nc1cnccc1CO)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-7,"London Lab, Weizmann Institute",,False,LON-WEI-0a73fcb8-7
+O=C(Nc1nccn1C1CC1)C1CCOc2ccccc21,ANT-OPE-3d7cb11b-1,"Anthony Sama, OpenSourceMycetoma",,False,ANT-OPE-3d7cb11b-1
+CN(C(=O)C1CCOc2ccccc21)c1nncn1C1CC1,ANT-OPE-3d7cb11b-2,"Anthony Sama, OpenSourceMycetoma",,False,ANT-OPE-3d7cb11b-2
+N#Cc1ccc2c(c1)C(C(=O)Nc1nncn1C1CC1)CCO2,ANT-OPE-3d7cb11b-3,"Anthony Sama, OpenSourceMycetoma",,False,ANT-OPE-3d7cb11b-3
+O=C(Nc1nncn1C1CCCC1)C1CCOc2ccccc21,ANT-OPE-3d7cb11b-4,"Anthony Sama, OpenSourceMycetoma",,False,ANT-OPE-3d7cb11b-4
