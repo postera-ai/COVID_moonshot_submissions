@@ -1,5 +1,5 @@
 SMILES,external_ID,CDD_ID,shipment_ID,catalog_ID,purity,volume(uL),concentration(mM),plate_ID,well,stereochemistry,PostEra_comments
-"O=C(N[C@@H]1CCCC[C@H]1NC(=O)C=2C=CN=CC2)C=3C=CC=CC3 |&1:3,8,r|",GIA-UNK-d2defdc3-2,CVD-0001319,GIA-UNK-d2d-2,Z2648338340,88.13,40,20,1178796-Y40-01,A03,Racemic diastereomer with known relative stereochemistry,imperfect match for GIA-UNK-d2defdc3-2
+"O=C(N[C@@H]1CCCC[C@H]1NC(=O)C=2C=CN=CC2)C=3C=CC=CC3 |&1:3,8,r|",GIA-UNK-d2defdc3-2,CVD-0001319,GIA-UNK-d2d-2,Z2648338340,88.13,40,20,1178796-Y40-01,A03,Racemic diastereomer with known relative stereochemistry,imperfect stereochemical match for GIA-UNK-d2defdc3-2
 COC(=O)C(CC=1C=CC=CC1)C(C)NC(=O)C(C)N2C=CN=C2,BAR-COM-4e090d3a-36,CVD-0000257,BAR-COM-4e0-36,Z2079085604,100.0,40,20,1178796-Y40-01,B03,Diastereomeric mixture,
 CC(CN1C=CN=C1)C(=O)NC(CC2=NC(C)=NO2)C=3C=CC=CC3,BAR-COM-4e090d3a-38,CVD-0000259,BAR-COM-4e0-38,Z3353393504,100.0,40,20,1178796-Y40-01,C03,Diastereomeric mixture,
 CC=1C=CN=CC1NC(=O)C=2C=CC(NC(=O)NC=3C=CC=NC3)=CC2,MAK-UNK-129dcd6f-12,CVD-0002037,MAK-UNK-129-12,Z4444621861,99.0,40,20,1178796-Y40-01,D03,Achiral,

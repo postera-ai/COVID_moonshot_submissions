@@ -228,7 +228,7 @@ def update_data(
         (
             add_to_virtual_df,
             add_to_synthesis_df,
-            add_to_made_df,
+            add_to_made_df
         ) = get_CDD_updates(
             all_df, current_cdd_df, virtual_df, synthesis_df, made_df
         )
@@ -251,6 +251,10 @@ def update_data(
             dir_path / "data_for_CDD" / "vault_updates" / "add_to_made_df.csv",
             index=False,
         )
+        # register_new_batches_df.to_csv(
+        #     dir_path / "data_for_CDD" / "vault_updates" / "register_new_batches_df.csv",
+        #     index=False,
+        # )
 
     # get assay data
     from lib.get_experimental_data import (
