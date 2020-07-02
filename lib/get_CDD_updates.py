@@ -52,6 +52,14 @@ def get_CDD_updates(all_df, current_cdd_df, virtual_df, synthesis_df, made_df):
     add_to_made_df = add_to_made_df.reset_index(drop=True)
     add_to_made_df = add_to_made_df[["SMILES", "CID", "comments"]]
 
+    # really tough issue of enantiopure compoudnds
+    # these will show up twice in made df
+    # we should add a second batch for the most recent one
+    # made_df['shipment_date'] = made_df['shipments'].apply(lambda x: int(x.split('_')[0]))
+    # made_df = made_df.sort_values(by=['shipment_date'])
+    # dup_made_df = made_df[made_df.duplicated(['CID'], keep='last', ascending=False)]
+    # register_new_batches_df = dup_made_df[["SMILES", "CID", "comments"]]
+
     extra_cids_to_add_to_synthesis = []
     extra_cids_to_add_to_made = []
 
@@ -142,4 +150,4 @@ def get_CDD_updates(all_df, current_cdd_df, virtual_df, synthesis_df, made_df):
         axis=0,
     )
 
-    return add_to_virtual_df, add_to_synthesis_df, add_to_made_df
+    return add_to_virtual_df, add_to_synthesis_df, add_to_made_df, #register_new_batches_df

@@ -66,7 +66,7 @@ def get_async_export(async_url):
 
         time.sleep(5)
         seconds_waiting += 5
-        if seconds_waiting > 200:
+        if seconds_waiting > 500:
             print("Export Never Finished")
             break
 
@@ -100,23 +100,35 @@ def get_rapidfire_inhibition_data():
         mol_id = mol_dict["molecule"]
         if mol_dict["readouts"]["553839"] == 20.0:
             if mol_id not in inhibition_data_dict:
-                inhibition_data_dict[mol_id] = {
-                    "20_uM": mol_dict["readouts"]["553894"]["value"]
-                }
+                try:
+                    inhibition_data_dict[mol_id] = {
+                        "20_uM": mol_dict["readouts"]["553894"]["value"]
+                    }
+                except:
+                    print(f"failed on mol_id {mol_id}", mol_dict)
             else:
-                inhibition_data_dict[mol_id]["20_uM"] = mol_dict["readouts"][
-                    "553894"
-                ]["value"]
+                try:
+                    inhibition_data_dict[mol_id]["20_uM"] = mol_dict["readouts"][
+                        "553894"
+                    ]["value"]
+                except:
+                    print(f"failed on mol_id {mol_id}", mol_dict)
 
         elif mol_dict["readouts"]["553839"] == 50.0:
             if mol_id not in inhibition_data_dict:
-                inhibition_data_dict[mol_id] = {
-                    "50_uM": mol_dict["readouts"]["553894"]["value"]
-                }
+                try: 
+                    inhibition_data_dict[mol_id] = {
+                        "50_uM": mol_dict["readouts"]["553894"]["value"]
+                    }
+                except:
+                    print(f"failed on mol_id {mol_id}", mol_dict)
             else:
-                inhibition_data_dict[mol_id]["50_uM"] = mol_dict["readouts"][
-                    "553894"
-                ]["value"]
+                try:
+                    inhibition_data_dict[mol_id]["50_uM"] = mol_dict["readouts"][
+                        "553894"
+                    ]["value"]
+                except:
+                    print(f"failed on mol_id {mol_id}", mol_dict)
 
     mol_id_list = [float(x) for x in inhibition_data_dict.keys()]
     for mol_id in mol_id_list:

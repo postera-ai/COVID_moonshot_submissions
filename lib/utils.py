@@ -30,7 +30,7 @@ def get_CID(ik):
     elif short_ik in list(id_df["short_inchikey"]):
         return list(
             id_df.loc[id_df["short_inchikey"] == short_ik]["canonical_CID"]
-        )[0]
+        )[0] # this will pick up the first one, which is what we want when enantiopures are separated
     else:
         print("NOT FOUND")
         return np.nan
@@ -51,7 +51,7 @@ def get_comments(ik):
     if ik in list(id_df["inchikey"]):
         return ""
     elif short_ik in list(id_df["short_inchikey"]):
-        return f"imperfect match for {list(id_df.loc[id_df['short_inchikey']==short_ik]['canonical_CID'])[0]}"
+        return f"imperfect stereochemical match for {list(id_df.loc[id_df['short_inchikey']==short_ik]['canonical_CID'])[0]}"
     else:
         return "not found"
 
