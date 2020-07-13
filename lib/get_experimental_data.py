@@ -37,6 +37,7 @@ fluorescence_IC50_protocol_id = "49439"
 fluorescence_inhibition_protocol_id = "49412"
 solubility_protocol_id = "49275"
 trypsin_protocol_id = "49443"
+nmr_protocol_id = "49526"
 
 
 def get_async_export(async_url):
@@ -593,3 +594,36 @@ def get_trypsin_data():
     trypsin_df = pd.DataFrame({"CDD_mol_ID": mol_id_list, "trypsin_IC50": ic50_list})
     trypsin_df = trypsin_df.drop_duplicates(subset="CDD_mol_ID")
     return trypsin_df
+    
+
+def get_nmr_data():
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{nmr_protocol_id}/data?async=True"
+    response = get_async_export(url)
+    nmr_response_dict = response.json()["objects"]
+
+    mol_id_list = []
+    std_ratio_list = []
+
+    for mol_dict in nmr_response_dict:
+        if "molecule" not in mol_dict:
+            continue
+        mol_id = mol_dict["molecule"]
+        if mol_id in mol_id_list:
+            continue
+
+        if "558328" in mol_dict["readouts"]:
+            if type(mol_dict["readouts"]["558328"]) == float:
+                std_ratio = mol_dict["readouts"]["558328"]
+            else:
+                std_ratio = np.nan
+
+        else:
+            std_ratio = np.nan
+
+        mol_id_list.append(float(mol_id))
+        std_ratio_list.append(std_ratio)
+
+    std_nmr_df = pd.DataFrame({"CDD_mol_ID": mol_id_list, "NMR_std_ratio": std_ratio_list})
+    std_nmr_df = std_nmr_df.drop_duplicates(subset="CDD_mol_ID")
+
+    return std_nmr_df

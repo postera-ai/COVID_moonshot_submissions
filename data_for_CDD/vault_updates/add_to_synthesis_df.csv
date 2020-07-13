@@ -1,14 +1,1 @@
 SMILES,CID
-O=C(COc1ccccc1F)Nc1ncnc2[nH]cnc12,COM-UCB-8c7d23dc-1
-O=C1C(Nc2ncnc3[nH]cnc23)CCN1Cc1ccccc1,COM-UCB-8c7d23dc-6
-Cn1c(-c2ccc(NC(=O)C3CCCCC(=O)N3)cc2)nc2ccccc21,COM-UCB-8c7d23dc-7
-Cc1[nH]c2ncnc(NC(=O)c3cc4ccccc4c(=O)o3)c2c1C,COM-UCB-8c7d23dc-12
-O=C1CCCCC(C(=O)Nc2ccc(-c3nc[nH]n3)cc2F)N1,COM-UCB-8c7d23dc-13
-O=C(Nc1c[nH]nc1-c1ccccn1)c1cccc2nccn12,COM-UCB-8c7d23dc-15
-Cc1[nH]c2ncnc(NC(=O)C3CCN(c4ccc(Cl)cn4)CC3)c2c1C,COM-UCB-8c7d23dc-16
-Cc1[nH]c2ncnc(NC(=O)c3cccc4c3oc(=O)n4C)c2c1C,COM-UCB-8c7d23dc-18
-O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc4c3=O)c2)N1,JAN-GHE-74b8b0cb-1
-O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-1
-COc1cc(Cl)cc(OC(=O)Nc2cnccc2C)c1,MAT-POS-6c3d76b3-1
-COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-c9973a83-1
-O=C1CC(Oc2cc(Cl)cc(C(CCc3ccccc3)C(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-2

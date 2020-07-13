@@ -256,6 +256,7 @@ def update_data(
         get_fluorescense_IC50_data,
         get_solubility_data,
         get_trypsin_data,
+        get_nmr_data
     )
 
     if fetch_assays:
@@ -267,6 +268,7 @@ def update_data(
 
         solubility_df = get_solubility_data()
         trypsin_df = get_trypsin_data()
+        nmr_df =  get_nmr_data()
 
         all_df = pd.merge(
             all_df, rapidfire_inhibition_df, how="left", on=["CDD_mol_ID"]
@@ -278,6 +280,7 @@ def update_data(
         all_df = pd.merge(all_df, fluorescence_IC50_df, how="left", on=["CDD_mol_ID"])
         all_df = pd.merge(all_df, solubility_df, how="left", on=["CDD_mol_ID"])
         all_df = pd.merge(all_df, trypsin_df, how="left", on=["CDD_mol_ID"])
+        all_df = pd.merge(all_df, nmr_df, how="left", on=["CDD_mol_ID"])
 
     if fetch_structures:
         # update structural info

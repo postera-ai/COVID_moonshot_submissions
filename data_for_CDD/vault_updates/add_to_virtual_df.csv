@@ -1,49 +1,5 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-c9973a83-1,"Matt Robinson, PostEra",,False,MAT-POS-c9973a83-1
-COc1cc(Cl)cc(OC(=O)Nc2cnccc2C)c1,MAT-POS-6c3d76b3-1,"Matt Robinson, PostEra",,False,MAT-POS-6c3d76b3-1
-O=C(Cc1cc(Cl)cc(OC2CC(=O)N2)c1)Nc1nc2ccccc2[nH]1,ALP-POS-a30bcdb4-1,"Alpha Lee, PostEra",x0072,False,ALP-POS-a30bcdb4-1
-O=C1CC(Oc2cc(Cl)cc(C(CCc3ccccc3)C(=O)Nc3nc4ccccc4[nH]3)c2)N1,ALP-POS-a30bcdb4-2,"Alpha Lee, PostEra",x0072,False,ALP-POS-a30bcdb4-2
-O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-1,"Matt Robinson, PostEra",,False,MAT-POS-c478e61b-1
-O=C1CC(Oc2cc(Cl)cc(C(CCc3ccccc3)C(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-2,"Matt Robinson, PostEra",,False,MAT-POS-c478e61b-2
-O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc4c3=O)c2)N1,JAN-GHE-74b8b0cb-1,"Jan, Ghent University",,False,JAN-GHE-74b8b0cb-1
-CCCC(C(=O)Nn1cnc2ccccc2c1=O)c1cc(Cl)cc(OC2CC(=O)N2)c1,JAN-GHE-74b8b0cb-2,"Jan, Ghent University",,False,JAN-GHE-74b8b0cb-2
-O=C(Nc1nncn1C1CC1)[C@]1(CC2CCCCC2)CCOc2ccc(Cl)cc21,MIC-UNK-4ce148f7-1,Michal K,x0434,False,MIC-UNK-4ce148f7-1
-O=C(Nc1nncn1C1CC1)[C@]1(Cc2ccccc2)CCOc2ccc(Cl)cc21,MIC-UNK-4ce148f7-2,Michal K,x0434,False,MIC-UNK-4ce148f7-2
-O=C(Nc1nncn1C1CC1)[C@]1(Cc2ccc(F)cc2)CCOc2ccc(Cl)cc21,MIC-UNK-4ce148f7-3,Michal K,x0434,False,MIC-UNK-4ce148f7-3
-O=C(Nc1nncn1C1CC1)[C@]1(Cc2cccc(F)c2)CCOc2ccc(Cl)cc21,MIC-UNK-4ce148f7-4,Michal K,x0434,False,MIC-UNK-4ce148f7-4
-Cc1ccc(C(=O)N/C(=C\c2ccc(-c3cccc([N+](=O)[O-])c3)o2)C(=O)NCCCN(C)C)cc1,MAD-UNK-45f6a6f4-1,Madhusudan,,False,DIS-UNK-55652835-1
-O=C1Nc2cc(N3CCCC3)ccc2C1=O,LOR-NOR-30067bb9-1,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-1
-Cc1cccc(COC(=O)c2cccc3c2NC(=O)C3=O)c1,LOR-NOR-30067bb9-2,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-2
-O=C1C(=O)N(CCCOc2ccc(Cl)cc2)c2ccccc21,LOR-NOR-30067bb9-3,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-3
-COc1ccccc1OCCN1C(=O)C(=O)c2cc(Br)cc(C)c21,LOR-NOR-30067bb9-4,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-4
-Cc1ccc(OCCN2C(=O)C(=O)c3cccc(Cl)c32)cc1,LOR-NOR-30067bb9-5,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-5
-CCOc1ccccc1CN1C(=O)C(=O)c2cc(Br)ccc21,LOR-NOR-30067bb9-6,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-6
-COc1ccc(CN2C(=O)C(=O)c3cc(Br)cc(C)c32)cc1OC,LOR-NOR-30067bb9-7,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-7
-Cc1cccc(NC(=O)CN2C(=O)C(=O)c3ccccc32)c1,LOR-NOR-30067bb9-8,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-8
-CCc1cccc(CC)c1NC(=O)CN1C(=O)C(=O)c2cc(OC)ccc21,LOR-NOR-30067bb9-9,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-9
-N#Cc1ccc(CN2C(=O)C(=O)c3cccc(Br)c32)c(F)c1,LOR-NOR-30067bb9-10,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-10
-N#Cc1cccc(CN2C(=O)C(=O)c3cccc(Br)c32)c1,LOR-NOR-30067bb9-11,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-11
-CC(C)(C)NC(=O)CN1C(=O)C(=O)c2cccc(Br)c21,LOR-NOR-30067bb9-12,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-12
-O=C1Nc2ccc(OCCF)cc2C1=O,LOR-NOR-30067bb9-13,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-13
-COc1ccc2c(c1F)C(=O)C(=O)N2,LOR-NOR-30067bb9-14,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-14
-COC(=O)c1cc(Br)cc2c1NC(=O)C2=O,LOR-NOR-30067bb9-15,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-15
-N#CCCCOC(=O)c1cccc2c1NC(=O)C2=O,LOR-NOR-30067bb9-16,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-16
-Cc1cccc(C)c1NC(=O)CN1C(=O)C(=O)c2ccccc21,LOR-NOR-30067bb9-17,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-17
-O=C1C(=O)N(Cc2ncon2)c2ccc(Br)cc21,LOR-NOR-30067bb9-18,"Lori Ferrins, Northeastern University",,False,LOR-NOR-30067bb9-18
-O=C(Cc1cccc(Cl)c1)NC1CCNC1=O,MIC-UNK-42806bd5-1,Michal K,,False,MIC-UNK-42806bd5-1
-O=C1CC(NC(=O)Cc2cccc(Cl)c2)CN1,MIC-UNK-42806bd5-2,Michal K,,False,MIC-UNK-42806bd5-2
-O=C1CC(NC(=O)C2CCOc3ccc(Cl)cc32)CN1,MIC-UNK-42806bd5-3,Michal K,,False,MIC-UNK-42806bd5-3
-O=C1NCCC1NC(=O)C1CCOc2ccc(Cl)cc21,MIC-UNK-42806bd5-4,Michal K,,False,MIC-UNK-42806bd5-4
-CC1=CC=C(C(=O)N[C@H](CN2N=CC(O)C2=O)c2cc(O)on2)C1,JAR-IMP-dd656357-1,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-1
-C[C@@H](NC(=O)CO)[C@H](CCC(=O)O)NC(=O)c1c2cccc1-2,JAR-IMP-dd656357-2,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-2
-O=C(N[C@H](CN1N=CC(O)C1=O)C1=CNOC1)C1=CCC(Cl)=C1,JAR-IMP-dd656357-3,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-3
-O=C(N[C@H](CN1N=CC(O)C1=O)c1cc(O)on1)c1ccccc1,JAR-IMP-dd656357-4,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-4
-Cc1ccc(C(=O)O[C@H](CN2N=CC(O)C2=O)C2=CNOC2)s1,JAR-IMP-dd656357-5,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-5
-O=C(N[C@H](CN1N=CC(O)C1=O)C1=CNOC1)C1=CC=C(Cl)C1,JAR-IMP-dd656357-6,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-6
-O=C(N[C@@H](CCC(F)F)CN1N=CC(O)C1=O)C1=CC=CSC1,JAR-IMP-dd656357-7,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-7
-CC1=CC=C(C(=O)N[C@H](CN2N=CC(O)C2=O)c2ccoc2)C1,JAR-IMP-dd656357-8,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-8
-NC(=O)CC[C@@H](CN1N=CC(O)C1=O)NC(=O)C1=CC=CC1,JAR-IMP-dd656357-9,"Jarvist Moore Frost, Imperial College London",,False,JAR-IMP-dd656357-9
-NCCNC(=O)c1nc(Cl)c(N2CCCCCC2)nc1N,NAM-UNK-f7c77a48-1,Namso Redne,,False,NAM-UNK-f7c77a48-1
-CC[C@H]1CC=C([C@@H](O)[C@@H](C(=O)NC2CCCCC2)c2cccnc2)C(=O)C1,NAM-UNK-f7c77a48-2,Namso Redne,,False,NAM-UNK-f7c77a48-2
-O=C(Cc1cccc(Cl)c1)N1Cc2ccccc2C1,NAM-UNK-f7c77a48-3,Namso Redne,,False,NAM-UNK-f7c77a48-3
-O=C(Cc1cccc(Cl)c1)N1CC2CCC1C2,NAM-UNK-f7c77a48-4,Namso Redne,,False,NAM-UNK-f7c77a48-4
+O=C(Cc1cccc(Cl)c1)NC1CCCNC1=O,MIC-UNK-4c7b8ba7-1,Michal K,,False,MIC-UNK-4c7b8ba7-1
+O=C1NCCCC1NC(=O)C1CCOc2ccc(Cl)cc21,MIC-UNK-4c7b8ba7-2,Michal K,,False,MIC-UNK-4c7b8ba7-2
+O=C1CC(NC(=O)Cc2cccc(Cl)c2)C(=O)N1,MIC-UNK-fc94cdb5-1,Michal K,,False,MIC-UNK-fc94cdb5-1
+O=C1CC(NC(=O)C2CCOc3ccc(Cl)cc32)C(=O)N1,MIC-UNK-fc94cdb5-2,Michal K,,False,MIC-UNK-fc94cdb5-2
