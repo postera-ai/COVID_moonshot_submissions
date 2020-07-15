@@ -1,5 +1,1 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-O=C(Cc1cccc(Cl)c1)NC1CCCNC1=O,MIC-UNK-4c7b8ba7-1,Michal K,,False,MIC-UNK-4c7b8ba7-1
-O=C1NCCCC1NC(=O)C1CCOc2ccc(Cl)cc21,MIC-UNK-4c7b8ba7-2,Michal K,,False,MIC-UNK-4c7b8ba7-2
-O=C1CC(NC(=O)Cc2cccc(Cl)c2)C(=O)N1,MIC-UNK-fc94cdb5-1,Michal K,,False,MIC-UNK-fc94cdb5-1
-O=C1CC(NC(=O)C2CCOc3ccc(Cl)cc32)C(=O)N1,MIC-UNK-fc94cdb5-2,Michal K,,False,MIC-UNK-fc94cdb5-2

@@ -1,2 +1,4 @@
 SMILES,CID,comments
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
+O=C(Nc1nncn1C1CC1)C1CCOc2ccccc21,EDJ-MED-0e996074-1,
+COC(=O)C(c1ccccc1Cl)N1CCC(S)/C(=C/C(=O)O)C1,JOH-UNI-591f77bd-1,
