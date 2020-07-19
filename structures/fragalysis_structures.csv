@@ -159,3 +159,10 @@ Cl.ClCC(=O)N1CCN(CC1)C(C=2C=CC=CC2)C=3C=CC=CC3,SIM-SYN-f15aaa3a-1,x3348,https://
 CNCC1=CNC=2C=CC(F)=CC12,DAR-DIA-eace69ff-36,x3351,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 CCNC(=O)C(N(C(=O)C=C)C=1C=CC(=CC1)C(C)(C)C)C=2C=CC=NC2,LON-WEI-adc59df6-30,x3359,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
 CC=1C=CN=CC1NC(=O)CC=2C=CC=3NC=NC3C2,GAB-REV-70cc3ca5-18,x3366,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CNCCC(C(=O)NC=1C=CC=NC1)C=2C=CC=CC2            ,ADA-UNI-f8e79267-5,x10421     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CC=1C=CN=CC1NC(=O)CC=2C=CC=C(F)C2              ,ALP-POS-95b75b4d-1,x10417     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CC=1C=CN=CC1NC(=O)CC=2C=CC=C(O)C2              ,ALP-POS-95b75b4d-2,x10359     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+O=C(NCCNC=1C=CC=CC1)C2=CC(=O)NC=3C=CC=CC23     ,BEN-DND-7e92b6ca-4,x10403     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+CC=1C=CC(CC(=O)NC=2C=NC=CC2C)=CC1              ,JAN-GHE-83b26c96-11,x10248     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+ClCC(=O)N1CCN(CC2=CN=C(CC=3C=CC=CC3)S2)CC1     ,MED-COV-4280ac29-25,x10155     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT
+ClCC(=O)N1CCN(CCNC(=O)C=2C=CC=C3C=CC=CC23)CC1  ,STE-KUL-2e0d2e88-2,x10150     ,https://fragalysis.diamond.ac.uk/viewer/react/preview/target/Mpro,MOONSHOT

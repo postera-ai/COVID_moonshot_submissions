@@ -63,6 +63,9 @@ def update_data(
                 "relative_solubility_at_100_uM",
                 "trypsin_IC50",
                 "NMR_std_ratio",
+                "Assayed",
+                "Ordered",
+                "Made"
             ]
         )
 
