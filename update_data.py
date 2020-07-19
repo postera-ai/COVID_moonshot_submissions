@@ -54,18 +54,15 @@ def update_data(
             columns=[
                 "r_inhibition_at_20_uM",
                 "r_inhibition_at_50_uM",
-                "r_IC50",
+                "r_avg_IC50",
                 "f_inhibition_at_20_uM",
                 "f_inhibition_at_50_uM",
                 "f_avg_IC50",
                 "f_avg_pIC50",
-                "f_max_inhibition_reading",
-                "f_min_inhibition_reading",
-                "f_hill_slope",
-                "f_R2",
                 "relative_solubility_at_20_uM",
                 "relative_solubility_at_100_uM",
                 "trypsin_IC50",
+                "NMR_std_ratio",
             ]
         )
 

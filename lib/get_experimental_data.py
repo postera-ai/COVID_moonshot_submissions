@@ -203,7 +203,11 @@ def get_rapidfire_IC50_data():
                 if type(mol_dict["readouts"]["564286"]) == dict:
                     if "modifier" in mol_dict["readouts"]["564286"]:
                         ic50 = 99
-                    elif "overridden_intercept" in mol_dict["readouts"]["564286"]:
+                    elif ("overridden_intercept" in mol_dict["readouts"]["564286"]) or (
+                        "note" in mol_dict["readouts"]["564286"]
+                        and "could not be calculated"
+                        in mol_dict["readouts"]["564286"]["note"]
+                    ):
                         ic50 = np.nan
                     else:
                         ic50 = mol_dict["readouts"]["564286"]["value"]
@@ -594,7 +598,7 @@ def get_trypsin_data():
     trypsin_df = pd.DataFrame({"CDD_mol_ID": mol_id_list, "trypsin_IC50": ic50_list})
     trypsin_df = trypsin_df.drop_duplicates(subset="CDD_mol_ID")
     return trypsin_df
-    
+
 
 def get_nmr_data():
     url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{nmr_protocol_id}/data?async=True"
@@ -623,7 +627,9 @@ def get_nmr_data():
         mol_id_list.append(float(mol_id))
         std_ratio_list.append(std_ratio)
 
-    std_nmr_df = pd.DataFrame({"CDD_mol_ID": mol_id_list, "NMR_std_ratio": std_ratio_list})
+    std_nmr_df = pd.DataFrame(
+        {"CDD_mol_ID": mol_id_list, "NMR_std_ratio": std_ratio_list}
+    )
     std_nmr_df = std_nmr_df.drop_duplicates(subset="CDD_mol_ID")
 
     return std_nmr_df
