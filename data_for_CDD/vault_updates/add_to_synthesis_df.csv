@@ -1,1 +1,17 @@
 SMILES,CID
+Cc1ccncc1NC(=O)C(C(=O)c1cc(=O)[nH]c2ccccc12)c1cccc(Cl)c1,ALP-POS-ddb41b15-1
+Cc1ccncc1NC(=O)N(C(=O)c1cc(=O)[nH]c2ccccc12)c1cccc(Cl)c1,ALP-POS-ddb41b15-2
+CN(C)c1cncc(CN(C(=O)c2cc(=O)[nH]c3ccccc23)c2cccc(Cl)c2)c1,ALP-POS-ddb41b15-3
+COc1cccc(CCN(C(=O)c2cc(=O)[nH]c3ccccc23)c2cccc(Cl)c2)c1,ALP-POS-ddb41b15-4
+O=C(Nc1cccnc1)C(C(=O)c1cc(=O)[nH]c2ccccc12)c1cc(Cl)cc(-c2ccccc2)c1,ALP-POS-ddb41b15-5
+O=C(Nc1cncc2ccccc12)Oc1cccc(Cl)c1,ALP-POS-ddb41b15-6
+O=C(Nc1cnccc1-c1ccccc1)Oc1cccc(Cl)c1,ALP-POS-ddb41b15-7
+Cn1c(C(NC(=O)Cc2cc3ccccc3[nH]2)c2cccc(Cl)c2)nc2ccccc21,ALP-POS-ddb41b15-8
+COc1cccc(C(NC(=O)Cc2cccc(Cl)c2)c2nc3ccccc3[nH]2)c1,ALP-POS-ddb41b15-9
+Cc1ccncc1NC(=O)N(C(=O)c1cc(=O)[nH]c2ccccc12)c1cc(Cl)cc(N(C)C)c1,ALP-POS-ddb41b15-10
+Cc1ccncc1OCCNC(=O)C(C)(C)c1cccc(Cl)c1,WIL-UNI-2e73223c-4
+COc1c(Cl)cccc1OCCNC(=O)c1cc(=O)[nH]c2ccccc12,ALP-POS-3fc1724e-1
+O=C1CC(Oc2cc(Cl)cc(OCCNC(=O)c3cc(=O)[nH]c4ccccc34)c2)N1,ERI-UCB-ce40166b-17
+CCC(C)(C)CCN(C(=O)Cn1nnc2ccccc21)C(c1ccccc1)c1nnn[nH]1,WIL-UNI-2e73223c-1
+CCC(C)(C)CCN(C(=O)Cn1nnc2ccccc21)c1ccc(Oc2nnn[nH]2)cc1,WIL-UNI-2e73223c-2
+CCC(C)(C)CCN(C(=O)Cn1nnc2ccccc21)C(c1ccccc1)c1cncnc1,WIL-UNI-2e73223c-3

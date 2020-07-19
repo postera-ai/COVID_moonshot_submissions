@@ -24,8 +24,13 @@ dir_path = Path(__file__).parent.absolute()
 def create_pIC50_html_and_json(all_df):
 
     ic50_df = all_df.loc[
-        (all_df["f_avg_IC50"].notnull()) & (all_df["r_IC50"].notnull())
+        (all_df["f_avg_IC50"].notnull()) & (all_df["r_avg_IC50"].notnull())
+        | (all_df["f_avg_IC50"].notnull()) & (all_df["r_inhibition_at_50_uM"].notnull())
+        | (all_df["f_inhibition_at_20_uM"].notnull()) & (all_df["r_avg_IC50"].notnull())
     ].drop_duplicates(subset="InChIKey")
+
+    ic50_df.loc[ic50_df["f_avg_IC50"].isnull(), "f_avg_IC50"] = 99
+    ic50_df.loc[ic50_df["r_avg_IC50"].isnull(), "r_avg_IC50"] = 99
 
     mol_imgs = []
     for idx, smi in enumerate(list(ic50_df["SMILES"])):
@@ -39,7 +44,7 @@ def create_pIC50_html_and_json(all_df):
         mol_imgs.append(png_file_name)
     ic50_df["mol_imgs"] = mol_imgs
 
-    ic50_df["r_pIC50"] = ic50_df["r_IC50"].apply(
+    ic50_df["r_pIC50"] = ic50_df["r_avg_IC50"].apply(
         lambda x: -1.0 * np.log10(x * 1.0e-6)
     )
     ic50_df["f_pIC50"] = ic50_df["f_avg_IC50"].apply(

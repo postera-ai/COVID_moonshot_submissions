@@ -37,6 +37,7 @@ fluorescence_IC50_protocol_id = "49439"
 fluorescence_inhibition_protocol_id = "49412"
 solubility_protocol_id = "49275"
 trypsin_protocol_id = "49443"
+nmr_protocol_id = "49526"
 
 
 def get_async_export(async_url):
@@ -74,9 +75,7 @@ def get_async_export(async_url):
         sys.exit("EXPORT IS BROKEN")
 
     headers = {"X-CDD-token": vault_token}
-    url = (
-        f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/exports/{export_id}"
-    )
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/exports/{export_id}"
 
     print("RETRIEVING FINISHED EXPORT")
     response = requests.get(url, headers=headers)
@@ -116,7 +115,7 @@ def get_rapidfire_inhibition_data():
 
         elif mol_dict["readouts"]["553839"] == 50.0:
             if mol_id not in inhibition_data_dict:
-                try: 
+                try:
                     inhibition_data_dict[mol_id] = {
                         "50_uM": mol_dict["readouts"]["553894"]["value"]
                     }
@@ -158,33 +157,151 @@ def get_rapidfire_IC50_data():
 
     url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{rapidfire_IC50_protocol_id}/data?async=True"
     response = get_async_export(url)
-    rapid_fire_dose_response_dict = response.json()["objects"]
-
-    with open(lib_path / "scr" / "rapidfire_IC50_data.json", "w") as f:
-        json.dump(rapid_fire_dose_response_dict, f)
+    rapidfire_dose_response_dict = response.json()["objects"]
 
     mol_id_list = []
-    ic50_list = []
+    avg_ic50_list = []
+    max_reading_list = []
+    min_reading_list = []
+    hill_slope_list = []
+    r2_list = []
+    concentration_list = []
+    inhibition_list = []
+    curve_ic50_list = []
 
-    for mol_dict in rapid_fire_dose_response_dict:
+    curve_dict = {}
+    for mol_dict in rapidfire_dose_response_dict:
         if "molecule" not in mol_dict:
             continue
-        mol_id = mol_dict["molecule"]
-        if "564286" in mol_dict["readouts"]:
-            if type(mol_dict["readouts"]["564286"]) == dict:
-                ic50 = 99
-            else:
-                ic50 = mol_dict["readouts"]["564286"]
-        else:
-            ic50 = np.nan
 
-        mol_id_list.append(float(mol_id))
-        ic50_list.append(ic50)
+        if "564286" not in mol_dict["readouts"]:
+            continue
+
+        if "564283" not in mol_dict["readouts"]:
+            continue
+
+        if "564285" not in mol_dict["readouts"]:
+            continue
+
+        mol_id = mol_dict["molecule"]
+        if mol_id not in curve_dict:
+            curve_dict[mol_id] = {}
+
+        run = mol_dict["run"]
+        if run not in curve_dict[mol_id]:
+            if type(mol_dict["readouts"]["564285"]) != dict:
+                curve_dict[mol_id][run] = {
+                    "concentration_um": [mol_dict["readouts"]["564283"]],
+                    "percent_inhibition": [mol_dict["readouts"]["564285"]],
+                }
+            else:
+                curve_dict[mol_id][run] = {
+                    "concentration_um": [mol_dict["readouts"]["564283"]],
+                    "percent_inhibition": [mol_dict["readouts"]["564285"]["value"]],
+                }
+            if "564286" in mol_dict["readouts"]:
+                if type(mol_dict["readouts"]["564286"]) == dict:
+                    if "modifier" in mol_dict["readouts"]["564286"]:
+                        ic50 = 99
+                    elif ("overridden_intercept" in mol_dict["readouts"]["564286"]) or (
+                        "note" in mol_dict["readouts"]["564286"]
+                        and "could not be calculated"
+                        in mol_dict["readouts"]["564286"]["note"]
+                    ):
+                        ic50 = np.nan
+                    else:
+                        ic50 = mol_dict["readouts"]["564286"]["value"]
+
+                else:
+                    ic50 = mol_dict["readouts"]["564286"]
+            else:
+                ic50 = np.nan
+
+            if "564291" in mol_dict["readouts"]:
+                min_reading = mol_dict["readouts"]["564291"]
+            else:
+                min_reading = np.nan
+
+            if "564292" in mol_dict["readouts"]:
+                max_reading = mol_dict["readouts"]["564292"]
+            else:
+                max_reading = np.nan
+
+            if "564290" in mol_dict["readouts"]:
+                hill_slope = mol_dict["readouts"]["564290"]
+            else:
+                hill_slope = np.nan
+
+            if "564294" in mol_dict["readouts"]:
+                r2 = mol_dict["readouts"]["564294"]
+            else:
+                r2 = np.nan
+
+            curve_dict[mol_id][run]["r_avg_IC50"] = ic50
+            curve_dict[mol_id][run]["r_max_inhibition_reading"] = max_reading
+            curve_dict[mol_id][run]["r_min_inhibition_reading"] = min_reading
+            curve_dict[mol_id][run]["r_hill_slope"] = hill_slope
+            curve_dict[mol_id][run]["r_R2"] = r2
+            curve_dict[mol_id][run]["r_IC50"] = ic50
+        else:
+            curve_dict[mol_id][run]["concentration_um"] = curve_dict[mol_id][run][
+                "concentration_um"
+            ] + [mol_dict["readouts"]["564283"]]
+            if type(mol_dict["readouts"]["564285"]) != dict:
+                curve_dict[mol_id][run]["percent_inhibition"] = curve_dict[mol_id][run][
+                    "percent_inhibition"
+                ] + [mol_dict["readouts"]["564285"]]
+            else:
+                curve_dict[mol_id][run]["percent_inhibition"] = curve_dict[mol_id][run][
+                    "percent_inhibition"
+                ] + [mol_dict["readouts"]["564285"]["value"]]
+
+    for mol in curve_dict:
+        mol_id_list.append(mol)
+        runs_avg_ic50_list = []
+        runs_max_reading_list = []
+        runs_min_reading_list = []
+        runs_hill_slope_list = []
+        runs_r2_list = []
+        runs_concentration_list = []
+        runs_inhibition_list = []
+        runs_curve_ic50_list = []
+        for run in curve_dict[mol]:
+            runs_avg_ic50_list.append(curve_dict[mol][run]["r_avg_IC50"])
+            runs_max_reading_list.append(
+                curve_dict[mol][run]["r_max_inhibition_reading"]
+            )
+            runs_min_reading_list.append(
+                curve_dict[mol][run]["r_min_inhibition_reading"]
+            )
+            runs_hill_slope_list.append(curve_dict[mol][run]["r_hill_slope"])
+            runs_r2_list.append(curve_dict[mol][run]["r_R2"])
+            runs_concentration_list.append(curve_dict[mol][run]["concentration_um"])
+            runs_inhibition_list.append(curve_dict[mol][run]["percent_inhibition"])
+            runs_curve_ic50_list.append(curve_dict[mol][run]["r_IC50"])
+
+        avg_ic50_list.append(runs_avg_ic50_list)
+        max_reading_list.append(runs_max_reading_list)
+        min_reading_list.append(runs_min_reading_list)
+        hill_slope_list.append(runs_hill_slope_list)
+        r2_list.append(runs_r2_list)
+        concentration_list.append(runs_concentration_list)
+        inhibition_list.append(runs_inhibition_list)
+        curve_ic50_list.append(runs_curve_ic50_list)
 
     rapidfire_df = pd.DataFrame(
-        {"CDD_mol_ID": mol_id_list, "r_IC50": ic50_list}
+        {
+            "CDD_mol_ID": mol_id_list,
+            "r_avg_IC50": [x[0] for x in avg_ic50_list],
+            "r_curve_IC50": curve_ic50_list,
+            "r_max_inhibition_reading": max_reading_list,
+            "r_min_inhibition_reading": min_reading_list,
+            "r_hill_slope": hill_slope_list,
+            "r_R2": r2_list,
+            "r_concentration_uM": concentration_list,
+            "r_inhibition_list": inhibition_list,
+        }
     )
-    rapidfire_df = rapidfire_df.drop_duplicates(subset="CDD_mol_ID")
     return rapidfire_df
 
 
@@ -208,9 +325,9 @@ def get_fluorescense_inhibition_data():
                     "20_uM": mol_dict["readouts"]["556718"]["value"]
                 }
             else:
-                inhibition_data_dict[mol_id]["20_uM"] = mol_dict["readouts"][
-                    "556718"
-                ]["value"]
+                inhibition_data_dict[mol_id]["20_uM"] = mol_dict["readouts"]["556718"][
+                    "value"
+                ]
 
         elif mol_dict["readouts"]["556717"] == 50.0:
             if mol_id not in inhibition_data_dict:
@@ -218,9 +335,9 @@ def get_fluorescense_inhibition_data():
                     "50_uM": mol_dict["readouts"]["556718"]["value"]
                 }
             else:
-                inhibition_data_dict[mol_id]["50_uM"] = mol_dict["readouts"][
-                    "556718"
-                ]["value"]
+                inhibition_data_dict[mol_id]["50_uM"] = mol_dict["readouts"]["556718"][
+                    "value"
+                ]
 
     mol_id_list = [float(x) for x in inhibition_data_dict.keys()]
     for mol_id in mol_id_list:
@@ -263,68 +380,134 @@ def get_fluorescense_IC50_data():
     min_reading_list = []
     hill_slope_list = []
     r2_list = []
+    concentration_list = []
+    inhibition_list = []
+    curve_ic50_list = []
 
+    curve_dict = {}
     for mol_dict in fluorescence_response_dict:
         if "molecule" not in mol_dict:
             continue
 
-        elif mol_dict["molecule"] in mol_id_list:
-            continue
-
         mol_id = mol_dict["molecule"]
-        if "557736" in mol_dict["readouts"]:
-            avg_ic50 = mol_dict["readouts"]["557736"]["value"]
-        else:
-            avg_ic50 = np.nan
+        if mol_id not in curve_dict:
+            curve_dict[mol_id] = {}
 
-        if "557738" in mol_dict["readouts"]:
-            if type(mol_dict["readouts"]["557738"]) == dict:
-                avg_pic50 = np.nan
+        run = mol_dict["run"]
+        if run not in curve_dict[mol_id]:
+            curve_dict[mol_id][run] = {
+                "concentration_um": [mol_dict["readouts"]["557072"]],
+                "percent_inhibition": [mol_dict["readouts"]["557073"]],
+            }
+            if "557736" in mol_dict["readouts"]:
+                avg_ic50 = mol_dict["readouts"]["557736"]["value"]
             else:
-                avg_pic50 = mol_dict["readouts"]["557738"]
-        else:
-            avg_pic50 = np.nan
+                avg_ic50 = np.nan
 
-        if "557085" in mol_dict["readouts"]:
-            min_reading = mol_dict["readouts"]["557085"]["value"]
-        else:
-            min_reading = np.nan
+            if "557738" in mol_dict["readouts"]:
+                if type(mol_dict["readouts"]["557738"]) == dict:
+                    avg_pic50 = np.nan
+                else:
+                    avg_pic50 = mol_dict["readouts"]["557738"]
+            else:
+                avg_pic50 = np.nan
 
-        if "557086" in mol_dict["readouts"]:
-            max_reading = mol_dict["readouts"]["557086"]["value"]
-        else:
-            max_reading = np.nan
+            if "557085" in mol_dict["readouts"]:
+                min_reading = mol_dict["readouts"]["557085"]["value"]
+            else:
+                min_reading = np.nan
 
-        if "557078" in mol_dict["readouts"]:
-            hill_slope = mol_dict["readouts"]["557078"]
-        else:
-            hill_slope = np.nan
+            if "557086" in mol_dict["readouts"]:
+                max_reading = mol_dict["readouts"]["557086"]["value"]
+            else:
+                max_reading = np.nan
 
-        if "557082" in mol_dict["readouts"]:
-            r2 = mol_dict["readouts"]["557082"]
-        else:
-            r2 = np.nan
+            if "557078" in mol_dict["readouts"]:
+                hill_slope = mol_dict["readouts"]["557078"]
+            else:
+                hill_slope = np.nan
 
-        mol_id_list.append(float(mol_id))
-        avg_ic50_list.append(avg_ic50)
-        avg_pic50_list.append(avg_pic50)
-        max_reading_list.append(max_reading)
-        min_reading_list.append(min_reading)
-        hill_slope_list.append(hill_slope)
-        r2_list.append(r2)
+            if "557082" in mol_dict["readouts"]:
+                r2 = mol_dict["readouts"]["557082"]
+            else:
+                r2 = np.nan
+
+            if "557074" in mol_dict["readouts"]:
+                if type(mol_dict["readouts"]["557074"]) == dict:
+                    if avg_ic50 > 99:
+                        curve_ic50 = 99
+                    else:
+                        curve_ic50 = np.nan
+                else:
+                    curve_ic50 = mol_dict["readouts"]["557074"]
+            else:
+                curve_ic50 = np.nan
+
+            curve_dict[mol_id][run]["f_avg_IC50"] = avg_ic50
+            curve_dict[mol_id][run]["f_avg_pIC50"] = avg_pic50
+            curve_dict[mol_id][run]["f_max_inhibition_reading"] = max_reading
+            curve_dict[mol_id][run]["f_min_inhibition_reading"] = min_reading
+            curve_dict[mol_id][run]["f_hill_slope"] = hill_slope
+            curve_dict[mol_id][run]["f_R2"] = r2
+            curve_dict[mol_id][run]["f_IC50"] = curve_ic50
+        else:
+            curve_dict[mol_id][run]["concentration_um"] = curve_dict[mol_id][run][
+                "concentration_um"
+            ] + [mol_dict["readouts"]["557072"]]
+            curve_dict[mol_id][run]["percent_inhibition"] = curve_dict[mol_id][run][
+                "percent_inhibition"
+            ] + [mol_dict["readouts"]["557073"]]
+
+    for mol in curve_dict:
+        mol_id_list.append(mol)
+        runs_avg_ic50_list = []
+        runs_avg_pic50_list = []
+        runs_max_reading_list = []
+        runs_min_reading_list = []
+        runs_hill_slope_list = []
+        runs_r2_list = []
+        runs_concentration_list = []
+        runs_inhibition_list = []
+        runs_curve_ic50_list = []
+        for run in curve_dict[mol]:
+            runs_avg_ic50_list.append(curve_dict[mol][run]["f_avg_IC50"])
+            runs_avg_pic50_list.append(curve_dict[mol][run]["f_avg_pIC50"])
+            runs_max_reading_list.append(
+                curve_dict[mol][run]["f_max_inhibition_reading"]
+            )
+            runs_min_reading_list.append(
+                curve_dict[mol][run]["f_min_inhibition_reading"]
+            )
+            runs_hill_slope_list.append(curve_dict[mol][run]["f_hill_slope"])
+            runs_r2_list.append(curve_dict[mol][run]["f_R2"])
+            runs_concentration_list.append(curve_dict[mol][run]["concentration_um"])
+            runs_inhibition_list.append(curve_dict[mol][run]["percent_inhibition"])
+            runs_curve_ic50_list.append(curve_dict[mol][run]["f_IC50"])
+
+        avg_ic50_list.append(runs_avg_ic50_list)
+        avg_pic50_list.append(runs_avg_pic50_list)
+        max_reading_list.append(runs_max_reading_list)
+        min_reading_list.append(runs_min_reading_list)
+        hill_slope_list.append(runs_hill_slope_list)
+        r2_list.append(runs_r2_list)
+        concentration_list.append(runs_concentration_list)
+        inhibition_list.append(runs_inhibition_list)
+        curve_ic50_list.append(runs_curve_ic50_list)
 
     fluorescence_df = pd.DataFrame(
         {
             "CDD_mol_ID": mol_id_list,
-            "f_avg_IC50": avg_ic50_list,
-            "f_avg_pIC50": avg_pic50_list,
+            "f_avg_IC50": [x[0] for x in avg_ic50_list],
+            "f_avg_pIC50": [x[0] for x in avg_pic50_list],
+            "f_curve_IC50": curve_ic50_list,
             "f_max_inhibition_reading": max_reading_list,
             "f_min_inhibition_reading": min_reading_list,
             "f_hill_slope": hill_slope_list,
             "f_R2": r2_list,
+            "f_concentration_uM": concentration_list,
+            "f_inhibition_list": inhibition_list,
         }
     )
-    fluorescence_df = fluorescence_df.drop_duplicates(subset="CDD_mol_ID")
     return fluorescence_df
 
 
@@ -346,9 +529,9 @@ def get_solubility_data():
                     "20_uM": mol_dict["readouts"]["555388"]["value"]
                 }
             else:
-                solubility_data_dict[mol_id]["20_uM"] = mol_dict["readouts"][
-                    "555388"
-                ]["value"]
+                solubility_data_dict[mol_id]["20_uM"] = mol_dict["readouts"]["555388"][
+                    "value"
+                ]
 
         elif mol_dict["readouts"]["554984"] == 100.0:
             if mol_id not in solubility_data_dict:
@@ -356,9 +539,9 @@ def get_solubility_data():
                     "100_uM": mol_dict["readouts"]["555388"]["value"]
                 }
             else:
-                solubility_data_dict[mol_id]["100_uM"] = mol_dict["readouts"][
-                    "555388"
-                ]["value"]
+                solubility_data_dict[mol_id]["100_uM"] = mol_dict["readouts"]["555388"][
+                    "value"
+                ]
 
     mol_id_list = [float(x) for x in solubility_data_dict.keys()]
     relative_solubility_at_20_uM_list = [
@@ -412,8 +595,41 @@ def get_trypsin_data():
         mol_id_list.append(float(mol_id))
         ic50_list.append(ic50)
 
-    trypsin_df = pd.DataFrame(
-        {"CDD_mol_ID": mol_id_list, "trypsin_IC50": ic50_list}
-    )
+    trypsin_df = pd.DataFrame({"CDD_mol_ID": mol_id_list, "trypsin_IC50": ic50_list})
     trypsin_df = trypsin_df.drop_duplicates(subset="CDD_mol_ID")
     return trypsin_df
+
+
+def get_nmr_data():
+    url = f"https://app.collaborativedrug.com/api/v1/vaults/{vault_num}/protocols/{nmr_protocol_id}/data?async=True"
+    response = get_async_export(url)
+    nmr_response_dict = response.json()["objects"]
+
+    mol_id_list = []
+    std_ratio_list = []
+
+    for mol_dict in nmr_response_dict:
+        if "molecule" not in mol_dict:
+            continue
+        mol_id = mol_dict["molecule"]
+        if mol_id in mol_id_list:
+            continue
+
+        if "558328" in mol_dict["readouts"]:
+            if type(mol_dict["readouts"]["558328"]) == float:
+                std_ratio = mol_dict["readouts"]["558328"]
+            else:
+                std_ratio = np.nan
+
+        else:
+            std_ratio = np.nan
+
+        mol_id_list.append(float(mol_id))
+        std_ratio_list.append(std_ratio)
+
+    std_nmr_df = pd.DataFrame(
+        {"CDD_mol_ID": mol_id_list, "NMR_std_ratio": std_ratio_list}
+    )
+    std_nmr_df = std_nmr_df.drop_duplicates(subset="CDD_mol_ID")
+
+    return std_nmr_df
