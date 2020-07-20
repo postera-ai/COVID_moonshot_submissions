@@ -1,1 +1,8 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
+COc1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,ALP-POS-3b848b35-1,"Alpha Lee, PostEra",,False,ALP-POS-3b848b35-1
+O=C(Cc1cc(Cl)cc(OC2CC(=O)N2)c1)Nc1cncc2ccccc12,ALP-POS-3b848b35-2,"Alpha Lee, PostEra",,False,ALP-POS-3b848b35-2
+O=C(Cc1cccc(Cl)c1)Nc1cnc2ccccc2c1,ALP-POS-3b848b35-3,"Alpha Lee, PostEra",,False,ALP-POS-3b848b35-3
+O=C(Nc1cncc2ccccc12)C(CCC1CCCCC1)c1cccc(Cl)c1,ALP-POS-3b848b35-4,"Alpha Lee, PostEra",,False,ALP-POS-3b848b35-4
+O=C(Cc1cccc(Cl)c1)Nc1cnccc1-c1ccccc1,ALP-POS-0c2c77e1-1,"Alpha Lee, PostEra",,False,ALP-POS-0c2c77e1-1
+Cc1ccncc1NC(=O)N(CCC1CCCCC1)c1cc(Cl)cc(OC2CC(=O)N2)c1,DAR-DIA-1d7f034a-1,"Daren Fearon, Diamond Light Source",,False,DAR-DIA-1d7f034a-1
+CC(=O)N[C@H](C(=O)CC[N+](=O)[O-])[C@@H](C)O,ANT-OPE-8e6e7f4d-1,"Anthony Sama, Open Source Mycetoma",,False,ANT-OPE-8e6e7f4d-1
