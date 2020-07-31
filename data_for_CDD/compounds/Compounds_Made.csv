@@ -102,6 +102,17 @@ CC1(C)CC(C(=O)Nc2nncn2C2CC2)c2ccccc2O1,NAU-LAT-8502cac5-5,"20200708_enamine_to_x
 O=C(Nc1cnccc1CO)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-7,"20200708_enamine_to_xchem.csv, 20200708_enamine_to_weizmann.csv, 20200708_enamine_to_oxford.csv",
 O=C(Cc1c[nH]c2ncccc12)N(Cc1c(F)cccc1Cl)c1ccc2[nH]c(=O)[nH]c2c1,BEN-BAS-bb561ced-1,"20200708_enamine_to_xchem.csv, 20200708_enamine_to_weizmann.csv, 20200708_enamine_to_oxford.csv",
 COc1ncccc1N(C)C(=O)C1CCOc2ccc(Cl)cc21,LON-WEI-0a73fcb8-2,"20200708_enamine_to_xchem.csv, 20200708_enamine_to_weizmann.csv, 20200708_enamine_to_oxford.csv",
+CC(C)(C)c1ccc(N(C(=O)c2cccnc2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,LON-WEI-2e27a2e5-2,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+Cc1ccncc1NC(=O)N(C)c1cccc(Cl)c1,EDG-MED-0da5ad92-3,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-c9973a83-1,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-6af13d92-3,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)C(C(=O)NCCc2cccc(F)c2)c2ccccc2)cc1,,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",not found
+O=C(Nc1cccnc1)NC1(C#Cc2c[nH]cn2)CC1,,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",not found
+Cc1ccncc1NC(=O)C[C@H](c1ccccc1)N1CCC(O)CC1,ALP-POS-90c18d1d-1,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(F)c12,EDJ-MED-6af13d92-2,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+Cc1ccn2cnnc2c1NC(=O)C1CCOc2ccccc21,NAU-LAT-8502cac5-7,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+O=C(Nc1nncn1C1CC1)C1CCS(=O)(=O)c2ccccc21,NAU-LAT-8502cac5-8,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
+CS(=O)(=O)c1ccc(N2CCNCC2)cc1,AAR-POS-5507155c-1,"20200729_enamine_to_oxford.csv, 20200729_enamine_to_xchem.csv, 20200729_enamine_to_weizmann.csv",
 O=C(Cc1cccnc1)Nc1cccc(OC2CC(=O)N2)c1,RAL-MED-2de63afb-1,"20200610_enamine_to_oxford.csv, 20200610_enamine_to_xchem.csv, 20200610_enamine_to_weizmann.csv",
 Cc1ccncc1-c1nnc(-c2cccc(Cl)c2)o1,JAN-GHE-83b26c96-24,"20200610_enamine_to_oxford.csv, 20200610_enamine_to_xchem.csv, 20200610_enamine_to_weizmann.csv",
 Cc1ccncc1NC(=O)Cc1cncc(C#N)c1,TRY-UNI-2eddb1ff-1,"20200610_enamine_to_oxford.csv, 20200610_enamine_to_xchem.csv, 20200610_enamine_to_weizmann.csv",
