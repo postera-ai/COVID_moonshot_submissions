@@ -1,4 +1,7 @@
 SMILES,CID
+O=C(Cc1cc(Cl)cc(OC2CCC(=O)N2)c1)Nc1cncc2ccccc12,MAT-POS-9ff17035-1
+O=C(Cc1cc(Cl)cc(Oc2cccc(=O)[nH]2)c1)Nc1cncc2ccccc12,MAT-POS-9ff17035-2
+O=C(Cc1cc(Cl)cc(Oc2cccnc2)c1)Nc1cncc2ccccc12,MAT-POS-9ff17035-3
 O=C(Cc1cccc(Cl)c1)NC1CCCNC1=O,MIC-UNK-4c7b8ba7-1
 CC1CCNC(=O)C1NC(=O)Cc1cccc(Cl)c1,MAT-POS-0bc33984-1
 O=C1CC(NC(=O)Cc2cccc(Cl)c2)C(=O)N1,MIC-UNK-fc94cdb5-1
@@ -9,6 +12,9 @@ CC1(NC(=O)Cc2cccc(Cl)c2)CCNC1=O,MAT-POS-0bc33984-2
 O=C1CC(NC(=O)Cc2cccc(Cl)c2)CN1,MIC-UNK-42806bd5-2
 C=CC(=O)N(Cc1cccc(Cl)c1)C(C(=O)NCCc1cccc(F)c1)c1cnccc1C,MAT-POS-c0143b99-1
 O=C(Cc1cccc(Cl)c1)Nc1cnc2ccccn12,PET-UNK-8df914d1-2
-Cc1cncc(NC(=O)Cc2cccc(Cl)c2)c1C,PET-UNK-8df914d1-3
 Cn1cncc1NC(=O)Cc1cccc(Cl)c1,PET-UNK-8df914d1-4
 C#Cc1cccc(CC(=O)Nc2cncc3ccccc23)c1,PET-UNK-c9c1e0d8-2
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC)c1cncc2ccccc12,NIR-WEI-f9286bb6-1
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC(C)(C)C)c1cccnc1,NIR-WEI-f9286bb6-2
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC)c1cccnc1,NIR-WEI-f9286bb6-3
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC(C)(C)C)c1cncc2ccccc12,NIR-WEI-f9286bb6-4

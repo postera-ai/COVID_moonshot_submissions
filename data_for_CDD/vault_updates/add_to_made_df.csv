@@ -1,12 +1,19 @@
 SMILES,CID,comments
-CC(C)(C)c1ccc(N(C(=O)c2cccnc2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,LON-WEI-2e27a2e5-2,
-Cc1ccncc1NC(=O)N(C)c1cccc(Cl)c1,EDG-MED-0da5ad92-3,
-COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-c9973a83-1,
-COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-6af13d92-3,
-CC(C)(C)c1ccc(N(C(=O)c2ccco2)C(C(=O)NCCc2cccc(F)c2)c2ccccc2)cc1,,not found
-O=C(Nc1cccnc1)NC1(C#Cc2c[nH]cn2)CC1,,not found
-Cc1ccncc1NC(=O)C[C@H](c1ccccc1)N1CCC(O)CC1,ALP-POS-90c18d1d-1,
-COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(F)c12,EDJ-MED-6af13d92-2,
-Cc1ccn2cnnc2c1NC(=O)C1CCOc2ccccc21,NAU-LAT-8502cac5-7,
-O=C(Nc1nncn1C1CC1)C1CCS(=O)(=O)c2ccccc21,NAU-LAT-8502cac5-8,
+Cc1ccncc1OCCNC(=O)C(C)(C)c1cccc(Cl)c1,WIL-UNI-2e73223c-4,
+COc1ccc(Cl)cc1N1C(=O)CN(Cc2cc(=O)[nH]c3ccccc23)C1=O,JAG-UCB-c37fbdcd-2,
+COc1c(Cl)cccc1OCCNC(=O)c1cc(=O)[nH]c2ccccc12,ALP-POS-3fc1724e-1,
+O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-1,
+O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc4c3=O)c2)N1,JAN-GHE-74b8b0cb-1,
+O=C(Cn1nnc2ccccc21)N(CC1CCOC1)c1ccc(C2CCNCC2)cc1,ALP-POS-c0c213c9-13,
+NCc1cn(CC(=O)N(Cc2ccsc2)c2ccc(-c3ccccc3)cc2)nn1,ALP-POS-c0c213c9-5,
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)cc1C,JAG-UCB-1d922829-1,
+Cc1ccc(NC2=C(c3ccccc3)C(=O)N(Cc3cccnc3)C2=O)cc1Cl,JAG-UCB-1d922829-3,
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(C(F)(F)F)c1,JAG-UCB-1d922829-6,
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(Cl)c1,JAG-UCB-1d922829-4,
+Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
+Cc1c(N)cncc1NC(=O)Cc1cccc(Cl)c1,TRY-UNI-714a760b-3,
+Cc1c(N)cncc1NC(=O)Cc1cccc(C#N)c1,TRY-UNI-714a760b-19,
+CC(=O)N(CC(=O)Nc1ccc(F)c(Cl)c1)c1cccc(C#N)c1,JAG-UCB-1d922829-5,
+C=CC(=O)N(c1cc(C(C)(C)C)on1)C(C(=O)NCCc1cccc(F)c1)c1cncc(C#N)c1,LON-WEI-babf2c61-14,
+C=CC(=O)N(c1cc(C(C)(C)C)on1)C(C(=O)NCCc1cccc(F)c1)c1cncc(O)c1,LON-WEI-babf2c61-12,
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
