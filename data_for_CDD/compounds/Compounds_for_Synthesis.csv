@@ -1,4 +1,5 @@
 SMILES,CID,orders,comments
+O=C(Cc1cccc(Cl)c1)NC1C(=O)Nc2ccccc21,VLA-UCB-1dbca3b4-1,20200812_moonshot_to_enamine.csv,
 O=C(Cc1cc(Cl)cc(OC2CCC(=O)N2)c1)Nc1cncc2ccccc12,MAT-POS-9ff17035-1,20200805_moonshot_to_enamine.csv,
 O=C(Cc1cc(Cl)cc(Oc2cccc(=O)[nH]2)c1)Nc1cncc2ccccc12,MAT-POS-9ff17035-2,20200805_moonshot_to_enamine.csv,
 O=C(Cc1cc(Cl)cc(Oc2cccnc2)c1)Nc1cncc2ccccc12,MAT-POS-9ff17035-3,20200805_moonshot_to_enamine.csv,
