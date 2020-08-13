@@ -1,0 +1,5 @@
+SMILES,CID,comments,,,,
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC)c1cncc2ccccc12,NIR-WEI-f9286bb6-1,,,,,
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC(C)(C)C)c1cccnc1,NIR-WEI-f9286bb6-2,,,,,
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC)c1cccnc1,NIR-WEI-f9286bb6-3,,,,,
+C=CC(=O)N(Cc1ccccc1Cl)C(C(=O)NC(C)(C)C)c1cncc2ccccc12,NIR-WEI-f9286bb6-4,,,,,

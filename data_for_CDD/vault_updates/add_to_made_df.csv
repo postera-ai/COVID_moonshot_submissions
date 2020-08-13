@@ -1,12 +1,5 @@
 SMILES,CID,comments
-CC(C)(C)c1ccc(N(C(=O)c2cccnc2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,LON-WEI-2e27a2e5-2,
-Cc1ccncc1NC(=O)N(C)c1cccc(Cl)c1,EDG-MED-0da5ad92-3,
-COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-c9973a83-1,
-COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-6af13d92-3,
-CC(C)(C)c1ccc(N(C(=O)c2ccco2)C(C(=O)NCCc2cccc(F)c2)c2ccccc2)cc1,,not found
-O=C(Nc1cccnc1)NC1(C#Cc2c[nH]cn2)CC1,,not found
-Cc1ccncc1NC(=O)C[C@H](c1ccccc1)N1CCC(O)CC1,ALP-POS-90c18d1d-1,
-COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(F)c12,EDJ-MED-6af13d92-2,
-Cc1ccn2cnnc2c1NC(=O)C1CCOc2ccccc21,NAU-LAT-8502cac5-7,
-O=C(Nc1nncn1C1CC1)C1CCS(=O)(=O)c2ccccc21,NAU-LAT-8502cac5-8,
+Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
+Cc1cc2c(cc1C)C(C(=O)N1CCCCC1c1cn[nH]c1)CO2,MAT-POS-6da3605a-1,
+OC(Cc1cccc(Cl)c1)Cn1cncn1,MAT-POS-6da3605a-2,

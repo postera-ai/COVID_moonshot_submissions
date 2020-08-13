@@ -3,8 +3,8 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-11,05_B,20200729_enamine_to_xchem.csv,CN(C(=O)NC=1C=NC=CC1C)C=2C=CC=C(Cl)C2,EDG-MED-0da5ad92-3,4,100,EDG-MED-0da5ad92-3,Achiral
 1181202-Y4-11,05_C,20200729_enamine_to_xchem.csv,COC=1C=C(Cl)C=C(CC(=O)NC=2C=NC=CC2C)C1,MAT-POS-c9973a83-1,4,100,MAT-POS-c9973a83-1,Achiral
 1181202-Y4-11,05_D,20200729_enamine_to_xchem.csv,COC=1C=CC=CC1OCCNC(=O)C2=CC(=O)NC=3C=CC=C(OC)C23,EDJ-MED-6af13d92-3,4,100,EDJ-MED-6af13d92-3,Achiral
-1181202-Y4-11,05_E,20200729_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NCCC=2C=CC=C(F)C2)C=3C=CC=CC3)C(=O)C4=CC=CO4,LON-WEI-2e27a2e5-1,4,100,,Racemic or presumed racemic or meso
-1181202-Y4-11,05_F,20200729_enamine_to_xchem.csv,O=C(NC=1C=CC=NC1)NC2(CC2)C#CC3=CNC=N3,CHR-SOS-6c45c019-16,4,100,,Achiral
+1181202-Y4-11,05_E,20200729_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NCCC=2C=CC=C(F)C2)C=3C=CC=CC3)C(=O)C4=CC=CO4,LON-WEI-2e27a2e5-1,4,100,MAT-POS-02ae579f-1,Racemic or presumed racemic or meso
+1181202-Y4-11,05_F,20200729_enamine_to_xchem.csv,O=C(NC=1C=CC=NC1)NC2(CC2)C#CC3=CNC=N3,CHR-SOS-6c45c019-16,4,100,MAT-POS-02ae579f-2,Achiral
 1181202-Y4-11,05_G,20200729_enamine_to_xchem.csv,CC=1C=CN=CC1NC(=O)C[C@@H](N2CCC(O)CC2)C=3C=CC=CC3,ALP-POS-90c18d1d-1,4,100,ALP-POS-90c18d1d-1,Single known enantiomer
 1181202-Y4-11,05_H,20200729_enamine_to_xchem.csv,COC=1C=CC=CC1OCCNC(=O)C2=CC(=O)NC=3C=CC=C(F)C23,EDJ-MED-6af13d92-2,4,100,EDJ-MED-6af13d92-2,Achiral
 1181202-Y4-11,05_I,20200729_enamine_to_xchem.csv,CC=1C=CN2C=NN=C2C1NC(=O)C3CCOC=4C=CC=CC34,NAU-LAT-8502cac5-7,4,100,NAU-LAT-8502cac5-7,Racemic or presumed racemic or meso
