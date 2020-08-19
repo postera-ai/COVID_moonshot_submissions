@@ -1,0 +1,7 @@
+SMILES,CID,Comments,,,,
+O=C(Nc1cncc2ccccc12)C1CCOc2ccc(Cl)cc21,VLA-UCB-1dbca3b4-15,Z1675865540,,,,
+O=C(Cc1cccc(Cl)c1)Nc1cncc2ncccc12,MIC-UNK-08cd9c58-1,"EN300-238641, Buchwald",,,,
+O=C(Cc1cccc(Cl)c1)Nc1cncc2[nH]c(=O)[nH]c12,MIC-UNK-8971c93c-1,"EN300-6778201, Buchwald",,,,
+O=C(Cc1cccc(Cl)c1)Nc1cncc2ccncc12,MAT-POS-f7918075-5,"EN300-6786798, Buchwald",,,,
+O=C(Cc1cccc(Cl)c1)Nc1cncc2c1CC(=O)N2,MAT-POS-f7918075-7,"EN300-255108, Buchwald",,,,
+O=C(Cc1cccc(Cl)c1)Nc1cncc2nc[nH]c12,MAT-POS-f7918075-8,"EN300-84249, Buchwald",,,,
