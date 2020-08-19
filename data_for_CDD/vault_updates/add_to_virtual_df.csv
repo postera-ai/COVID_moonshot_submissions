@@ -9,3 +9,173 @@ CN(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,MAT-POS-bb423b95-7,"Matt Robinson, PostEra"
 O=C(Cc1cccc(Cl)c1)Nc1cncc2cc(O)ccc12,MAT-POS-bb423b95-8,"Matt Robinson, PostEra",,False,MAT-POS-bb423b95-8
 O=C(Cc1cccc(Cl)c1)Nc1cncc2c(Cl)cccc12,MAT-POS-bb423b95-9,"Matt Robinson, PostEra",,False,MAT-POS-bb423b95-9
 O=C(Cc1cccc(Cl)c1)Nc1nncc2ccccc12,MAT-POS-3cc264b0-1,"Matt Robinson, PostEra",,False,EDJ-MED-50fe53e8-1
+N#Cc1ncc(Br)cn1,AAR-RCN-98de6bc7-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-98de6bc7-1
+N#Cc1nccn1CCc1cccc(Cl)c1,AAR-RCN-28a8122f-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-28a8122f-1
+Cc1cc(C)nc(C#N)n1,AAR-RCN-8752a6eb-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-8752a6eb-1
+N#Cc1ncc(F)cn1,AAR-RCN-ec065b93-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-ec065b93-1
+N#Cc1ncc(Cl)cn1,AAR-RCN-934be69e-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-934be69e-1
+COc1cnc(C#N)nc1,AAR-RCN-9c8a34f0-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,MAK-UNK-ed378e62-6
+N#Cc1nccc(Cl)n1,AAR-RCN-37d0aa00-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-37d0aa00-1
+CC1(C)OB(c2cnc(C#N)nc2)OC1(C)C,AAR-RCN-67438d21-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-67438d21-1
+CC(Cn1ccnc1C#N)c1cccc(Cl)c1,AAR-RCN-78cf61f7-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-78cf61f7-1
+N#Cc1nccn1CCCc1cccc(Cl)c1,AAR-RCN-845f9611-1,"aaron keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-845f9611-1
+C[n+]1ccn(CCc2cccc(Cl)c2)c1C#N,AAR-RCN-521d1733-1,"aaron keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-521d1733-1
+C[n+]1ccn(CCCc2cccc(Cl)c2)c1C#N,AAR-RCN-dbf5c5ee-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-dbf5c5ee-1
+Cn1nc(-c2ccc(C(F)(F)F)cc2)nc2c(=O)n(C)c(=O)nc1-2,MAT-POS-1e0c1c67-1,"Matt Robinson, PostEra",,False,MAT-POS-1e0c1c67-1
+O=C(Cn1c(=O)[nH]c2ccccc2c1=O)NCCc1c[nH]c2ccc(Cl)cc12,MAR-TRE-fd17a9b8-1,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-1
+COc1ccc(S(=O)(=O)N2CCC(C(=O)NCC3CCCO3)CC2)cc1OC,MAR-TRE-fd17a9b8-2,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-2
+NC(=O)C1CCN(C(=O)c2csc(NCc3ccccc3Cl)n2)CC1,MAR-TRE-fd17a9b8-3,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-3
+COc1ccc(S(=O)(=O)N2CCC(C(N)=O)CC2)cc1C(=O)NC(C)C,MAR-TRE-fd17a9b8-4,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-4
+O=C(O)C1CCCN1C(=O)CCCn1c(=O)[nH]c2ccccc2c1=O,MAR-TRE-fd17a9b8-5,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-5
+NC(=O)C1CCN(C(=O)c2csc(NCc3ccccc3)n2)CC1,MAR-TRE-fd17a9b8-6,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-6
+O=C(NCCN1CCOCC1)C(=O)NCc1ccc2c(c1)OCO2,MAR-TRE-fd17a9b8-7,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-7
+COc1ccc(S(=O)(=O)NCC2CCCO2)cc1C(=O)NC(C)C,MAR-TRE-fd17a9b8-8,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-8
+NC(=O)C1CCCN1C(=O)CCCn1c(=O)[nH]c2ccccc2c1=O,MAR-TRE-fd17a9b8-9,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-9
+O=C(Cn1c(=O)[nH]c2ccccc2c1=O)NCCc1c[nH]c2ccccc12,MAR-TRE-fd17a9b8-10,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-10
+Cc1nnc2ccc(N3CCCC(C(=O)N4CCC(C(N)=O)CC4)C3)nn12,MAR-TRE-fd17a9b8-11,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-11
+Cc1nc(SCC(=O)Nc2cccc(O)c2)[nH]c(=O)c1CCO,MAR-TRE-fd17a9b8-12,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-12
+CC(O)CNC(=O)C(=O)NCc1ccc2c(c1)OCO2,MAR-TRE-fd17a9b8-13,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-13
+Cc1sc2nc(SCC(=O)NCCO)nc(N)c2c1C,MAR-TRE-fd17a9b8-14,"Mark Davies, Treweren Consultants",,True,MAR-TRE-f5c2d31c-16
+NC(=O)c1cc(S(=O)(=O)N2CCC(C(=O)O)CC2)cs1,MAR-TRE-fd17a9b8-15,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-15
+NC(=O)c1cc(S(=O)(=O)N2CCC(C(N)=O)CC2)cs1,MAR-TRE-fd17a9b8-16,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-16
+CNC(=O)c1cc(S(=O)(=O)Nc2cc(C(C)(C)C)on2)cs1,MAR-TRE-fd17a9b8-17,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-17
+O=C(Cc1csc(-c2ccccc2F)n1)NCCc1c[nH]c2ccccc12,MAR-TRE-fd17a9b8-18,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-18
+O=C(CCC1NC(=O)c2ccccc2NC1=O)NCc1ccco1,MAR-TRE-fd17a9b8-19,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-19
+O=C(Cn1c(=O)[nH]c2ccccc2c1=O)NCCCN1CCOCC1,MAR-TRE-fd17a9b8-20,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-20
+O=C1CC(c2ccc(S(=O)(=O)NCc3ccco3)cc2)CN1,MAR-TRE-fd17a9b8-21,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-21
+CCCNC(=O)c1cc(S(=O)(=O)N2CCC(C(N)=O)CC2)ccc1OC,MAR-TRE-fd17a9b8-22,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-22
+N#Cc1ccc(-c2ccncc2)nc1SCC(=O)NC1CC1,MAR-TRE-fd17a9b8-23,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-23
+Cc1csc(NC(=O)CCCn2c(=O)[nH]c3ccccc3c2=O)n1,MAR-TRE-fd17a9b8-24,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-24
+Cc1nc(NCC2CCCO2)sc1C(=O)NCCc1c[nH]c2ccccc12,MAR-TRE-fd17a9b8-25,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-25
+O=C(O)CCCN1C(=O)/C(=C2\C(=O)N(CC(=O)O)c3ccc(Br)cc32)SC1=S,MAR-TRE-fd17a9b8-26,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-26
+CC(C)(C)c1cc(NS(=O)(=O)c2csc(C(N)=O)c2)no1,MAR-TRE-fd17a9b8-27,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-27
+O=C(CCCCC1SCC2NC(=O)NC21)NCc1ccco1,MAR-TRE-fd17a9b8-28,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-28
+O=C(NCCNC(=O)C1CCCO1)c1c[nH]c2ccccc12,MAR-TRE-fd17a9b8-29,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-29
+O=C(O)CCCN1C(=O)/C(=C2\C(=O)N(CC(=O)O)c3ccccc32)SC1=S,MAR-TRE-fd17a9b8-30,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-30
+COc1ccc(S(=O)(=O)N(C)c2ccc(C(=O)NCc3ccccn3)cc2)cc1,MAR-TRE-fd17a9b8-31,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-31
+O=C(CNC(=O)N1CCc2c([nH]c3ccc(Cl)cc23)C1)NCCCO,MAR-TRE-fd17a9b8-32,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-32
+CCn1c(CNC(=O)c2ccccc2F)nnc1SCC(N)=O,MAR-TRE-fd17a9b8-33,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-33
+O=C(COCc1cc(-c2cccs2)on1)Nc1cccc(O)c1,MAR-TRE-fd17a9b8-34,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-34
+Cc1ccc(S(=O)(=O)NC(=O)NCCc2c[nH]c3ccccc23)cc1,MAR-TRE-fd17a9b8-35,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-35
+COc1ccc(CN2CCC(C(=O)NCCN3CCOCC3)CC2)c(OC)c1,MAR-TRE-fd17a9b8-36,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-36
+O=C(NCc1cccc(CNC(=O)c2ccco2)c1)c1ccco1,MAR-TRE-fd17a9b8-37,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-37
+OCCOCCN1CCN(Cc2ccc3c(c2)OCO3)CC1,MAR-TRE-fd17a9b8-38,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-38
+O=C(CCCn1c(=O)[nH]c2ccccc2c1=O)Nc1cccnc1,MAR-TRE-fd17a9b8-39,"Mark Davies, Treweren Consultants",,False,MAR-TRE-4b834d9a-82
+Cc1nnc(SCC(=O)NCc2ccc3c(c2)CCC(=O)N3)s1,MAR-TRE-fd17a9b8-40,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-40
+O=C(Cn1cnc2ccccc2c1=O)NCCc1c[nH]c2ccc(Cl)cc12,MAR-TRE-fd17a9b8-41,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-41
+CNC(=O)c1cc(S(=O)(=O)N2CCC(C(=O)O)CC2)cs1,MAR-TRE-fd17a9b8-42,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-42
+Cn1c(SCC(=O)Nc2nccs2)nnc1C(O)c1ccccc1,MAR-TRE-fd17a9b8-43,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-43
+O=C(NCc1cccnc1)C1CCN(Cc2ccc3c(c2)OCO3)CC1,MAR-TRE-fd17a9b8-44,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-44
+O=C(CCCCC1SCC2NC(=O)NC21)NCC1CCCO1,MAR-TRE-fd17a9b8-45,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-45
+COc1ccc(S(=O)(=O)NCc2ccco2)cc1C(=O)NC(C)C,MAR-TRE-fd17a9b8-46,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-46
+CNC(=O)c1cc(S(=O)(=O)N2CCC(C(N)=O)CC2)ccc1OC,MAR-TRE-fd17a9b8-47,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-47
+O=C(CCCC(=O)N1CCC(c2noc3ccc(F)cc23)CC1)Nc1nccs1,MAR-TRE-fd17a9b8-48,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-48
+Cc1ccc(NC(=O)NCCNc2cc(N3CCOCC3)ncn2)cc1F,MAR-TRE-fd17a9b8-49,"Mark Davies, Treweren Consultants",,False,MAR-TRE-f5c2d31c-70
+CCNC(=O)c1cc(S(=O)(=O)N2CCC(C(N)=O)CC2)ccc1OC,MAR-TRE-fd17a9b8-50,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-50
+N#Cc1nc2ccccc2n1CC(=O)NCc1ccc2c(c1)CCC(=O)N2,MAR-TRE-fd17a9b8-51,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-51
+COCc1cccc(NS(=O)(=O)c2cccc(C(=O)O)c2)c1,MAR-TRE-fd17a9b8-52,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-52
+CNC(=O)c1cc(S(=O)(=O)Nc2ccon2)cs1,MAR-TRE-fd17a9b8-53,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-53
+O=C1CN(C(=O)CCC(=O)Nc2nc3ccccc3s2)CCN1,MAR-TRE-fd17a9b8-54,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-54
+Cc1cc(NC(=O)CCCn2c(=O)[nH]c3ccccc3c2=O)no1,MAR-TRE-fd17a9b8-55,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-55
+CCOC(=O)C1CCN(S(=O)(=O)c2cccc(C(=O)Nc3ccccc3)c2)CC1,MAR-TRE-fd17a9b8-56,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-56
+COc1ccc2oc(=O)c(C(=O)NCCO)cc2c1,MAR-TRE-fd17a9b8-57,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-57
+CCn1c(CNC(=O)c2ccco2)nnc1SCC(=O)N1CCc2ccccc2C1,MAR-TRE-fd17a9b8-58,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-58
+CNC(=O)c1cc(S(=O)(=O)Nc2cc(C)on2)cs1,MAR-TRE-fd17a9b8-59,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-59
+CCNC(=O)c1cc(S(=O)(=O)NCc2ccco2)ccc1OC,MAR-TRE-fd17a9b8-60,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-60
+COc1ccc(C(=O)CCNC(CO)C(=O)O)cc1,MAR-TRE-fd17a9b8-61,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-61
+O=C(NCc1cccnc1)c1ccc(S(=O)(=O)N2CCOCC2)cc1,MAR-TRE-fd17a9b8-62,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-62
+COc1cccc(NC(=O)c2cccc(NC(=O)CCC(=O)O)c2)c1,MAR-TRE-fd17a9b8-63,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-63
+CCOC(=O)C1CCN(S(=O)(=O)c2csc(C(=O)NC)c2)CC1,MAR-TRE-fd17a9b8-64,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-64
+NC(=O)C1CCN(C(=O)CCCN2C(=O)c3ccccc3C2=O)CC1,MAR-TRE-fd17a9b8-65,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-65
+O=C(CN1C(=O)c2cccc3cccc(c23)C1=O)NCCCO,MAR-TRE-fd17a9b8-66,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-66
+O=C(CCCn1c(=O)[nH]c2ccccc2c1=O)Nc1ccccn1,MAR-TRE-fd17a9b8-67,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-67
+O=C(NCCCN1CCOCC1)C(=O)NCc1ccco1,MAR-TRE-fd17a9b8-68,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-68
+O=C(CCCn1c(=O)[nH]c2ccccc2c1=O)NCc1cccnc1,MAR-TRE-fd17a9b8-69,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-69
+O=C(CCCCC1SCC2NC(=O)NC21)NCc1ccccn1,MAR-TRE-fd17a9b8-70,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-70
+Cc1cc(O)nc(Cc2cc(C)c(Cc3nc(C)cc(O)n3)cc2C)n1,MAR-TRE-fd17a9b8-71,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-71
+Cc1nc(NCCNC(=O)c2ccc(Br)o2)cc(N2CCOCC2)n1,MAR-TRE-fd17a9b8-72,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-72
+COc1ccc2c(ccn2CCC(=O)NCCC(=O)O)c1,MAR-TRE-fd17a9b8-73,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-73
+CC(=O)Nc1ccc(S(=O)(=O)N2CCN(Cc3ccco3)CC2)cc1,MAR-TRE-fd17a9b8-74,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-74
+O=C(NC(CO)C(=O)O)c1cncc(O)c1,MAR-TRE-fd17a9b8-75,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-75
+O=C(CCCC(=O)N1CCC(c2noc3ccc(F)cc23)CC1)Nc1cccnc1,MAR-TRE-fd17a9b8-76,"Mark Davies, Treweren Consultants",,False,KEI-TRE-d5e2018a-96
+O=C(O)C1CCCCC1C(=O)NCc1ccc2c(c1)OCO2,MAR-TRE-fd17a9b8-77,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-77
+COc1ccccc1NC(=O)CSc1nc(O)c2cc(I)ccc2n1,MAR-TRE-fd17a9b8-78,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-78
+O=C(CCCCC1SCC2NC(=O)NC21)NCc1cccnc1,MAR-TRE-fd17a9b8-79,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-79
+Cc1cc2c(=O)[nH]c(CSCC(=O)NCc3cccnc3)nc2s1,MAR-TRE-fd17a9b8-80,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-80
+COc1ccc(CNc2nc(C)c(C(=O)NCc3ccco3)s2)cc1,MAR-TRE-fd17a9b8-81,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-81
+CNC(=O)c1cc(S(=O)(=O)NCc2ccco2)ccc1OC,MAR-TRE-fd17a9b8-82,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-82
+COc1ccc(S(=O)(=O)NCCCN(C)C)cc1C(=O)NC(C)C,MAR-TRE-fd17a9b8-83,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-83
+O=C1CN(C(=O)CCC(=O)Nc2nccs2)CCN1,MAR-TRE-fd17a9b8-84,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-84
+O=C(NCCNc1cc(N2CCOCC2)ncn1)c1ccc(Br)o1,MAR-TRE-fd17a9b8-85,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-85
+NC(=O)c1cc(S(=O)(=O)Nc2ccon2)cs1,MAR-TRE-fd17a9b8-86,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-86
+Nc1nc(SCC(=O)NCCCN2CCOCC2)nc2sc3c(c12)CCC3,MAR-TRE-fd17a9b8-87,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-87
+COC(=O)c1ccc(CNC(=O)CSc2nc3sc(C)c(C)c3c(=O)n2C)o1,MAR-TRE-fd17a9b8-88,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-88
+O=C(CNC(=O)N1CCc2c([nH]c3ccccc23)C1)NCCCO,MAR-TRE-fd17a9b8-89,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-89
+CCNC(=O)c1cc(S(=O)(=O)NCc2cccnc2)ccc1OC,MAR-TRE-fd17a9b8-90,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-90
+O=C(CN1C(=O)c2ccccc2C1=O)NCc1ccc(C(=O)O)cc1,MAR-TRE-fd17a9b8-91,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-91
+COc1ccc(S(=O)(=O)N2CCC(C(=O)NCc3cccnc3)CC2)cc1Cl,MAR-TRE-fd17a9b8-92,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-92
+COc1ccccc1NS(=O)(=O)c1csc(C(N)=O)c1,MAR-TRE-fd17a9b8-93,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-93
+COc1ccc(Cl)cc1CNCCOCCO,MAR-TRE-fd17a9b8-94,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-94
+COc1ccc(S(=O)(=O)NCc2ccccn2)cc1C(=O)NC(C)C,MAR-TRE-fd17a9b8-95,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-95
+O=C(COCc1cc(-c2ccco2)on1)NC1CCCCC1,MAR-TRE-fd17a9b8-96,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-96
+COc1ccc2[nH]c(SCC(=O)Nc3ccc(N4CCOCC4)cc3)nc2c1,MAR-TRE-fd17a9b8-97,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-97
+NC(=O)C1CCN(CC(=O)Nc2ncc3c(n2)CCCC3=O)CC1,MAR-TRE-fd17a9b8-98,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-98
+C(=N/CCCC/N=C/c1ccc[nH]1)\c1ccc[nH]1,MAR-TRE-fd17a9b8-99,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-99
+CNC(=O)c1cc(S(=O)(=O)N2CCC(C(=O)O)CC2)ccc1OC,MAR-TRE-fd17a9b8-100,"Mark Davies, Treweren Consultants",,False,MAR-TRE-fd17a9b8-100
+OCCn1c(CSc2nc3ccccc3o2)nc2ccc(Cl)cc21,MAT-POS-e10a589d-1,"Matt Robinson, PostEra",,False,MAT-POS-e10a589d-1
+CN(C)S(=O)(=O)c1cccc(C(=O)Nc2c(-c3ccccc3)nc3sccn23)c1,MAT-POS-e10a589d-2,"Matt Robinson, PostEra",,False,TAT-ENA-80bfd3e5-1
+CS(=O)(=O)c1oc(-c2ccc(F)cc2)nc1S(=O)(=O)c1ccc(Cl)cc1,MAT-POS-e10a589d-3,"Matt Robinson, PostEra",,False,LON-WEI-ff7b210a-2
+N#Cc1ncn(CC(=O)Nc2ccc(Br)cc2Cl)n1,MAT-POS-e10a589d-4,"Matt Robinson, PostEra",,False,MAT-POS-e10a589d-4
+CCn1c(CSc2nc(C)c(C)n2CC2CCCO2)nc2cc(S(=O)(=O)N(C)C)ccc21,MAT-POS-e10a589d-5,"Matt Robinson, PostEra",,False,LON-WEI-ff7b210a-10
+Cn1cc(NC(=O)Cc2cccc(Cl)c2)c2ccccc2c1=O,MAT-POS-4211dce8-1,"Matt Robinson, PostEra",,False,MAT-POS-4211dce8-1
+Cn1ccc2ccc(CC(=O)Nc3cncc4ccccc34)cc21,ALP-POS-f13221e1-1,"Alpha Lee, PostEra",,False,ALP-POS-f13221e1-1
+O=C(COc1cccc(Cl)c1)Nc1cncc2ccccc12,ALP-POS-f13221e1-2,"Alpha Lee, PostEra",,False,ALP-POS-f13221e1-2
+O=C(CCc1cccc(Cl)c1)Nc1cncc2ccccc12,ALP-POS-f13221e1-3,"Alpha Lee, PostEra",,False,ALP-POS-f13221e1-3
+Cc1ccncc1NC(=O)CCc1cccc(Cl)c1,ALP-POS-f13221e1-4,"Alpha Lee, PostEra",,False,ALP-POS-f13221e1-4
+COc1cc(OC)[n+](C)c(C#N)n1,AAR-RCN-390aeb1f-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-390aeb1f-1
+Cc1cc(C)[n+](C)c(C#N)n1,AAR-RCN-9f0de475-1,"Aaron Keeley, RCNS Medicinal Chemistry Research Group",,False,AAR-RCN-9f0de475-1
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC2CCCC2O)c1,MAT-POS-044491d2-1,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-1
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC2CCC(F)(F)C2O)c1,MAT-POS-044491d2-2,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-2
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC2CC2C(F)(F)F)c1,MAT-POS-044491d2-3,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-3
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC2C(C(F)(F)F)C2C(F)(F)F)c1,MAT-POS-044491d2-4,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-4
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC23CC(N4CCCCC4)(C2)C3)c1,MAT-POS-044491d2-5,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-5
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC2(C)CCC(F)(F)CC2)c1,MAT-POS-044491d2-6,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-6
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NCC(C)(C)C#N)c1,MAT-POS-044491d2-7,"Matt Robinson, PostEra",,False,MAT-POS-044491d2-7
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(-c2ccc(C3CC3(F)F)cc2)c1,MAT-POS-f42f3716-1,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-1
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(-c2ccc(S(C)(=O)=O)cc2Cl)c1,MAT-POS-f42f3716-2,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-2
+COC(=O)c1ccc(-c2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)c(OC)c1,MAT-POS-f42f3716-3,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-3
+CCc1cc(F)ccc1-c1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-f42f3716-4,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-4
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(-c2ccc(C3(C)CCO3)cc2)c1,MAT-POS-f42f3716-5,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-5
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(-c2ccc(C)c(F)c2F)c1,MAT-POS-f42f3716-6,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-6
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(-c2cnn(C)c2C(F)F)c1,MAT-POS-f42f3716-7,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-7
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(/C=C(/c2ccccc2)C(F)(F)F)c1,MAT-POS-f42f3716-8,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-8
+CCOC(=O)c1cc(-c2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)n[nH]1,MAT-POS-f42f3716-9,"Matt Robinson, PostEra",,False,MAT-POS-f42f3716-9
+CN(C)c1ccc(N(Cc2ccccc2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-6d04362c-1,"Alpha Lee, PostEra",,False,ALP-POS-6d04362c-1
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-6d04362c-2,"Alpha Lee, PostEra",,False,ALP-POS-6d04362c-2
+O=C(Cn1nnc2ccccc21)N(Cc1ccsc1)c1ccc(N2CCCCC2)cc1,ALP-POS-6d04362c-3,"Alpha Lee, PostEra",,False,ALP-POS-6d04362c-3
+O=C(Cn1nnc2ccccc21)N(Cc1ccsc1)c1ccc(N2CCOCC2)cc1,ALP-POS-6d04362c-4,"Alpha Lee, PostEra",,False,ALP-POS-6d04362c-4
+O=C(Cn1nnc2ccccc21)N(Cc1ccccc1)c1ccc(N2CCOCC2)cc1,ALP-POS-6d04362c-5,"Alpha Lee, PostEra",,False,ALP-POS-6d04362c-5
+O=C1C(=O)N(Cc2ncon2)c2ccc(-c3cccc(Cl)c3)cc21,NAU-LAT-b0463c38-1,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-1
+COC(=O)c1cc(-c2cccc(Cl)c2)cc2c1NC(=O)C2=O,NAU-LAT-b0463c38-2,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-2
+COC(=O)c1cc(-c2cccc(Cl)c2)cc2c1N(Cc1ncon1)C(=O)C2=O,NAU-LAT-b0463c38-3,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-3
+O=C1CC(Oc2cc(Cl)cc(-c3ccc4c(c3)C(=O)C(=O)N4Cc3ncon3)c2)N1,NAU-LAT-b0463c38-4,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-4
+O=C1CC(Oc2cc(Cl)cc(-c3ccc4c(c3)C(=O)C(=O)N4)c2)N1,NAU-LAT-b0463c38-5,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-5
+N#Cc1cncc(-c2ccc3c(c2)C(=O)C(=O)N3Cc2ncon2)c1,NAU-LAT-b0463c38-6,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-6
+N#Cc1cncc(-c2ccc3c(c2)C(=O)C(=O)N3)c1,NAU-LAT-b0463c38-7,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-7
+N#Cc1cccc(CN2C(=O)C(=O)c3cc(-c4cncc(C#N)c4)ccc32)c1,NAU-LAT-b0463c38-8,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-8
+N#Cc1cccc(CN2C(=O)C(=O)c3cc(-c4cccc(Cl)c4)ccc32)c1,NAU-LAT-b0463c38-9,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b0463c38-9
+O=C(Nc1cncc2ccccc12)C1CCOc2ccc(Cl)cc21,MAT-POS-f7918075-1,"Matt Robinson, PostEra",,False,VLA-UCB-1dbca3b4-15
+O=C(Nc1cncc2ccccc12)C1COc2ccc(Cl)cc21,MAT-POS-f7918075-2,"Matt Robinson, PostEra",,False,MAT-POS-f7918075-2
+O=C(Cc1cccc(Cl)c1)Nc1cncc2ncccc12,MAT-POS-f7918075-3,"Matt Robinson, PostEra",,False,MIC-UNK-08cd9c58-1
+O=C(Cc1cccc(Cl)c1)Nc1cncc2[nH]c(=O)[nH]c12,MAT-POS-f7918075-4,"Matt Robinson, PostEra",,False,MIC-UNK-8971c93c-1
+O=C(Cc1cccc(Cl)c1)Nc1cncc2ccncc12,MAT-POS-f7918075-5,"Matt Robinson, PostEra",,False,MAT-POS-f7918075-5
+O=C(Cc1cccc(Cl)c1)Nc1cnnc2ccccc12,MAT-POS-f7918075-6,"Matt Robinson, PostEra",,False,EDJ-MED-50fe53e8-2
+O=C(Cc1cccc(Cl)c1)Nc1cncc2c1CC(=O)N2,MAT-POS-f7918075-7,"Matt Robinson, PostEra",,False,MAT-POS-f7918075-7
+O=C(Cc1cccc(Cl)c1)Nc1cncc2nc[nH]c12,MAT-POS-f7918075-8,"Matt Robinson, PostEra",,False,MAT-POS-f7918075-8
+COC(=O)C(C(=O)Nc1cnccc1C)c1cccc(Cl)c1,MAT-POS-1e5f28a7-1,"Matt Robinson, PostEra",,False,MAT-POS-1e5f28a7-1
+O=C(CN1N=C(c2ccc(F)cc2)Cn2c(cc3ccccc32)C1=O)N1CCOCC1,DAV-UNK-d94803a2-1,Davide Cazzola,,False,DAV-UNK-d94803a2-1
+CN1CCC2(CC1)N=C(SCC(=O)Nc1cc(F)ccc1F)C(c1ccc(F)cc1)=N2,DAV-UNK-d94803a2-2,Davide Cazzola,,False,DAV-UNK-d94803a2-2
+COc1cccc(CNCC(=O)CN2C(=O)[C@@]3(Nc4ccccc4-c4nnnn43)c3ccccc32)c1,DAV-UNK-d94803a2-3,Davide Cazzola,,False,DAV-UNK-d94803a2-3
+Cn1ccc(N2CCC[C@@H](NC(=O)c3cc(-n4cccc4)cc(C(F)(F)F)c3)C2=O)n1,DAV-UNK-d94803a2-4,Davide Cazzola,,False,DAV-UNK-d94803a2-4
+NC(=O)c1ccc(NC(=O)N2CCC[C@@H](c3cc(F)ccc3F)C2)cc1F,DAV-UNK-d94803a2-5,Davide Cazzola,,False,DAV-UNK-d94803a2-5
+O=C(NC1CCCCC1)N1C[C@@H]2C[C@H](C1)c1c(NS(=O)(=O)c3cccs3)ccc(=O)n1C2,DAV-UNK-7bdfd6f8-1,Davide Cazzola,,False,DAV-UNK-7bdfd6f8-1

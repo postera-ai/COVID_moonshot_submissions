@@ -1,0 +1,5 @@
+SMILES,CID,Comments,,,,
+OCCn1c(CSc2nc3ccccc3o2)nc2ccc(Cl)cc21,MAT-POS-e10a589d-1,Z19651924,,,,
+CN(C)S(=O)(=O)c1cccc(C(=O)Nc2c(-c3ccccc3)nc3sccn23)c1,MAT-POS-e10a589d-2,Z88617059,,,,
+N#Cc1ncn(CC(=O)Nc2ccc(Br)cc2Cl)n1,MAT-POS-e10a589d-4,Z228468704,,,,
+CN1C(=O)C2C(=CC=CC=2)C(NC(=O)CC2=CC=CC(Cl)=C2)=C1,MAT-POS-4211dce8-1,Coupling with EN300-6746843,,,,
