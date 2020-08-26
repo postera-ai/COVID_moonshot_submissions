@@ -1,0 +1,7 @@
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry
+1181202-Y4-14,05_A,20200826_enamine_to_xchem.csv,CCC(=O)NC=1C=CC(=CC1)N(C)C(=O)CN2N=NC=3C=CC=CC23,EDJ-MED-06d94977-1,4,100,EDJ-MED-06d94977-1,Achiral
+1181202-Y4-14,05_B,20200826_enamine_to_xchem.csv,CC=1C=CN=NC1NC(=O)CC=2C=CC=C(Cl)C2,EDG-MED-0da5ad92-15,4,100,EDG-MED-0da5ad92-15,Achiral
+1181202-Y4-14,05_C,20200826_enamine_to_xchem.csv,ClC=1C=CC=C(CC(=O)NC=2C=NN=C3C=CC=CC23)C1,EDJ-MED-50fe53e8-2,4,100,EDJ-MED-50fe53e8-2,Achiral
+1181202-Y4-14,05_D,20200826_enamine_to_xchem.csv,ClC=1C=CC=C(CC(=O)NC=2N=CN3C=CC=CC23)C1,EDJ-MED-50fe53e8-3,4,100,EDJ-MED-50fe53e8-3,Achiral
+1181202-Y4-14,05_E,20200826_enamine_to_xchem.csv,COC(=O)C(C(=O)NC=1C=NC=CC1C)C=2C=CC=C(Cl)C2,MAT-POS-1e5f28a7-1,4,100,MAT-POS-1e5f28a7-1,Racemic or presumed racemic or meso
+1181202-Y4-14,05_F,20200826_enamine_to_xchem.csv,CC=1C=CN=CC1N2CCC(C=3C=CC=C(Cl)C3)S2(=O)=O,EDJ-MED-49816e9b-4,4,100,EDJ-MED-49816e9b-4,Racemic or presumed racemic or meso
