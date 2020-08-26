@@ -1,3 +1,9 @@
 SMILES,CID,comments
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
+CCC(=O)Nc1ccc(N(C)C(=O)Cn2nnc3ccccc32)cc1,EDJ-MED-06d94977-1,
+Cc1ccnnc1NC(=O)Cc1cccc(Cl)c1,EDG-MED-0da5ad92-15,
+O=C(Cc1cccc(Cl)c1)Nc1cnnc2ccccc12,EDJ-MED-50fe53e8-2,
+O=C(Cc1cccc(Cl)c1)Nc1ncn2ccccc12,EDJ-MED-50fe53e8-3,
+COC(=O)C(C(=O)Nc1cnccc1C)c1cccc(Cl)c1,MAT-POS-1e5f28a7-1,
+Cc1ccncc1N1CCC(c2cccc(Cl)c2)S1(=O)=O,EDJ-MED-49816e9b-4,
