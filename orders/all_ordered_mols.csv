@@ -574,30 +574,30 @@ O=C(Nn1nnc2ccccc21)C(Cc1cccc(Cl)c1)c1ccc(N2CCCCC2=O)cc1,ALP-POS-a3de0cb1-13,2020
 COc1ccc(C(Cc2cnn(C)c2)C(=O)Nc2c[nH]c3ccccc23)cc1,ALP-POS-a3de0cb1-14,20200825_moonshot_to_enamine.csv,
 COc1ccc(N(Cc2ccccc2)C(=O)Cc2c[nH]c3ccccc23)cc1,ALP-POS-a3de0cb1-15,20200825_moonshot_to_enamine.csv,
 O=C1CCCCN1c1ccc(N(Cc2ccccc2)C(=O)Cc2n[nH]c3ccccc23)cc1,ALP-POS-a3de0cb1-16,20200825_moonshot_to_enamine.csv,
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCCN2CCOC[C@@H]2C)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2coc(C3CCCCC3)n2)c1,,20200825_moonshot_to_enamine.csv,not found
-C=C(COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1)c1csc(C(C)C)n1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCC(=O)N2CC[C@]3(CO)CCC[C@@H]23)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1noc(COc2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)n1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cn[nH]c2-c2ccccc2)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2nnc(C3CCCCC3)o2)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc([C@H]3C[C@H]3C)o2)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cnc([C@H]3C[C@H]3C)o2)c1,,20200825_moonshot_to_enamine.csv,not found
-COc1cc(N)cnc1NC(=O)COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2sc(NC(=O)OC(C)(C)C)nc2C)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccn(-c3cc(F)ccc3F)n2)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc(OC(F)F)cc2F)c1,,20200825_moonshot_to_enamine.csv,not found
-COc1cc(COc2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)ccc1OC(F)F,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cn([C@@H]3CCOC4(CCNCC4)C3)nn2)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cn(CCCN)nn2)c1,,20200825_moonshot_to_enamine.csv,not found
-CCOC(=O)c1c(COc2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)oc2ccccc12,,20200825_moonshot_to_enamine.csv,not found
-C=C(COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1)c1ccc([C@H]2C[C@@H]2C)o1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cc(-c3ccc(Cl)cc3)no2)c1,,20200825_moonshot_to_enamine.csv,not found
-COc1ccc2ccccc2c1COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc(OCc3ccccc3F)cc2)c1,,20200825_moonshot_to_enamine.csv,not found
-COc1ccc(-c2cc(COc3cc(Cl)cc(CC(=O)Nc4cnccc4C)c3)on2)cc1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCC(=O)c2ccc(C#N)c([N+](=O)[O-])c2)c1,,20200825_moonshot_to_enamine.csv,not found
-Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2nn(C(=O)OC(C)(C)C)c3ccccc23)c1,,20200825_moonshot_to_enamine.csv,not found
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCCN2CCOC[C@@H]2C)c1,CHO-MSK-6e55470f-1,20200825_moonshot_to_enamine.csv,imperfect stereochemical match for CHO-MSK-6e55470f-1
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2coc(C3CCCCC3)n2)c1,CHO-MSK-6e55470f-2,20200825_moonshot_to_enamine.csv,
+C=C(COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1)c1csc(C(C)C)n1,CHO-MSK-6e55470f-3,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCC(=O)N2CC[C@]3(CO)CCC[C@@H]23)c1,CHO-MSK-6e55470f-4,20200825_moonshot_to_enamine.csv,
+Cc1noc(COc2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)n1,CHO-MSK-6e55470f-5,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cn[nH]c2-c2ccccc2)c1,CHO-MSK-6e55470f-6,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2nnc(C3CCCCC3)o2)c1,CHO-MSK-6e55470f-7,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc([C@H]3C[C@H]3C)o2)c1,CHO-MSK-6e55470f-8,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cnc([C@H]3C[C@H]3C)o2)c1,CHO-MSK-6e55470f-9,20200825_moonshot_to_enamine.csv,
+COc1cc(N)cnc1NC(=O)COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,CHO-MSK-6e55470f-10,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2sc(NC(=O)OC(C)(C)C)nc2C)c1,CHO-MSK-6e55470f-11,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccn(-c3cc(F)ccc3F)n2)c1,CHO-MSK-6e55470f-12,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc(OC(F)F)cc2F)c1,CHO-MSK-6e55470f-13,20200825_moonshot_to_enamine.csv,
+COc1cc(COc2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)ccc1OC(F)F,CHO-MSK-6e55470f-14,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cn([C@@H]3CCOC4(CCNCC4)C3)nn2)c1,CHO-MSK-6e55470f-15,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cn(CCCN)nn2)c1,CHO-MSK-6e55470f-16,20200825_moonshot_to_enamine.csv,
+CCOC(=O)c1c(COc2cc(Cl)cc(CC(=O)Nc3cnccc3C)c2)oc2ccccc12,CHO-MSK-6e55470f-17,20200825_moonshot_to_enamine.csv,
+C=C(COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1)c1ccc([C@H]2C[C@@H]2C)o1,CHO-MSK-6e55470f-18,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2cc(-c3ccc(Cl)cc3)no2)c1,CHO-MSK-6e55470f-19,20200825_moonshot_to_enamine.csv,
+COc1ccc2ccccc2c1COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,CHO-MSK-6e55470f-20,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc(OCc3ccccc3F)cc2)c1,CHO-MSK-6e55470f-21,20200825_moonshot_to_enamine.csv,
+COc1ccc(-c2cc(COc3cc(Cl)cc(CC(=O)Nc4cnccc4C)c3)on2)cc1,CHO-MSK-6e55470f-22,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCC(=O)c2ccc(C#N)c([N+](=O)[O-])c2)c1,CHO-MSK-6e55470f-23,20200825_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2nn(C(=O)OC(C)(C)C)c3ccccc23)c1,CHO-MSK-6e55470f-24,20200825_moonshot_to_enamine.csv,
 OCCn1c(CSc2nc3ccccc3o2)nc2ccc(Cl)cc21,MAT-POS-e10a589d-1,"20200825_moonshot_to_enamine.csv, 20200813_moonshot_to_enamine.csv",
 CN(C)S(=O)(=O)c1cccc(C(=O)Nc2c(-c3ccccc3)nc3sccn23)c1,TAT-ENA-80bfd3e5-1,"20200825_moonshot_to_enamine.csv, 20200813_moonshot_to_enamine.csv",
 CCC(C)(C)CCN(C(=O)Cn1nnc2ccccc21)C(c1ccccc1)c1nnn[nH]1,WIL-UNI-2e73223c-1,20200712_moonshot_to_sai.csv,
@@ -797,7 +797,7 @@ CSC1=C(C#N)C2(CCCCC2)C(C#N)=C(NC(=O)CCl)N1,TAT-ENA-80bfd3e5-7,20200823_moonshot_
 Cc1c(C(=O)CCl)c2ccccn2c1C(=O)c1ccc(F)cc1,TAT-ENA-80bfd3e5-4,20200823_moonshot_to_enamine.csv,
 Cc1cc(C(=O)CCl)c(C)n1CC1COc2ccccc2O1,TAT-ENA-80bfd3e5-32,20200823_moonshot_to_enamine.csv,
 CCN(c1ccccc1)S(=O)(=O)c1ccc(OC)c(NC(=O)CCl)c1,TAT-ENA-80bfd3e5-36,20200823_moonshot_to_enamine.csv,
-O=C1OC(c2cccs2)=N/C1=C\c1ccc(N2CCOCC2)s1,,20200823_moonshot_to_enamine.csv,not found
+O=C1OC(c2cccs2)=N/C1=C\c1ccc(N2CCOCC2)s1,MAT-POS-fa06b69f-6,20200823_moonshot_to_enamine.csv,
 CS(=O)(=O)Nc1cccc(C2=NN(C(=O)CCl)C(c3ccccc3)C2)c1,TAT-ENA-80bfd3e5-45,20200823_moonshot_to_enamine.csv,
 CN(CC(=O)Nc1ccccc1Br)C(=O)CCl,TAT-ENA-80bfd3e5-42,20200823_moonshot_to_enamine.csv,
 Cc1cc(C(=O)CCl)c(C)n1NC(=O)c1n[nH]c(=O)c2ccccc12,TAT-ENA-80bfd3e5-37,20200823_moonshot_to_enamine.csv,
