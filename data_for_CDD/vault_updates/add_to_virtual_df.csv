@@ -142,3 +142,14 @@ Fc1cc(F)c(Cc2cc(N3CCn4c(nnc4C(F)(F)F)C3)ncn2)cc1F,RYA-MOD-343ecd80-5,"Ryan Noorb
 FC(F)(F)c1nnc2n1CCN(Cc1cccc3[nH]ccc13)C2,RYA-MOD-343ecd80-6,"Ryan Noorbehesht, moderndrugdiscovery.com",,False,RYA-MOD-343ecd80-6
 Clc1cc(Oc2cccc3[nH]ccc23)cc2occc12,RYA-MOD-343ecd80-7,"Ryan Noorbehesht, moderndrugdiscovery.com",,False,RYA-MOD-343ecd80-7
 O=C1N=Cc2c(Cl)cc(Oc3cccc4[nH]ccc34)cc21,RYA-MOD-343ecd80-8,"Ryan Noorbehesht, moderndrugdiscovery.com",,False,RYA-MOD-343ecd80-8
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)[C@H](C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-1,"Matt Robinson, PostEra",,False,MAT-POS-f2460aef-1
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)[C@@H](C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-2,"Matt Robinson, PostEra",,False,MAT-POS-f2460aef-2
+CC(C)(C)c1ccc(N(C(=O)c2c[nH]cn2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-3,"Matt Robinson, PostEra",,False,MAT-POS-f2460aef-3
+CC(C)(C)c1ccc(N(C(=O)c2ccc(Cl)o2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-4,"Matt Robinson, PostEra",,False,MAT-POS-f2460aef-4
+CC(C)(C)c1ccc(N(C(=O)c2cn[nH]c2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-5,"Matt Robinson, PostEra",,False,MAT-POS-f2460aef-5
+CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(N)=O)NC(=O)c1ccc2ccccc2n1,TAL-GIT-198ceb8d-1,"Talluri Sekhar, GITAM",,False,TAL-GIT-198ceb8d-1
+COc1ccc2c(c1)[C@@H]1C[C@]1(C(=O)N1[C@H]3CC[C@@H]1CN(C)C3)Cn1c-2c(C2CCCCC2)c2ccc(C(=O)NS(=O)(=O)N(C)C)cc21,TAL-GIT-1fe20059-1,"Talluri Sekhar, GITAM",,False,TAL-GIT-1fe20059-1
+C[C@H]1O[C@@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3[C@@H](O)C[C@H](O[C@H]4CC[C@]5(C)[C@H]6CC[C@]7(C)[C@@H](C8=CC(=O)OC8)CC[C@]7(O)[C@@H]6CC[C@@H]5C4)O[C@@H]3C)O[C@@H]2C)C[C@H](O)[C@@H]1O,TAL-GIT-145584f9-1,"Talluri Sekhar, GITAM",,False,TAL-GIT-145584f9-1
+S,SWA-SWA-8fdb1140-1,"swag?, swag?",,False,SWA-SWA-8fdb1140-1
+CC12C3C4C5C6C7C8C5C3C3C8C5C7C7C6C4C1C7C5C32,SWA-SWA-8fdb1140-2,"swag?, swag?",,False,SWA-SWA-8fdb1140-2
+C1CC2CCCC2C1,SWA-SWA-8fdb1140-3,"swag?, swag?",,False,SWA-SWA-8fdb1140-3
