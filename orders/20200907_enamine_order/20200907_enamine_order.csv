@@ -1,0 +1,6 @@
+SMILES,CID,Comments,,,,
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)[C@H](C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-1,Ugi,,,,
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)[C@@H](C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-2,Ugi,,,,
+CC(C)(C)c1ccc(N(C(=O)c2c[nH]cn2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-3,Ugi,,,,
+CC(C)(C)c1ccc(N(C(=O)c2ccc(Cl)o2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-4,Ugi,,,,
+CC(C)(C)c1ccc(N(C(=O)c2cn[nH]c2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,MAT-POS-f2460aef-5,Ugi,,,,

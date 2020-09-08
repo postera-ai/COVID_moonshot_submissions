@@ -39,6 +39,9 @@ Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2ccc(OCc3ccccc3F)cc2)c1,CHO-MSK-6e55470f-21
 COc1ccc(-c2cc(COc3cc(Cl)cc(CC(=O)Nc4cnccc4C)c3)on2)cc1,CHO-MSK-6e55470f-22
 Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCC(=O)c2ccc(C#N)c([N+](=O)[O-])c2)c1,CHO-MSK-6e55470f-23
 Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2nn(C(=O)OC(C)(C)C)c3ccccc23)c1,CHO-MSK-6e55470f-24
+CC(C)(C)c1ccc(N(C(=O)c2c[nH]cn2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,
+CC(C)(C)c1ccc(N(C(=O)c2ccc(Cl)o2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,
+CC(C)(C)c1ccc(N(C(=O)c2cn[nH]c2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,
 COc1cccc(C2=N/C(=C/c3sccc3C)C(=O)O2)c1,MAT-POS-ea426761-9
 CSC1=C(C#N)C2(CCCCC2)C(C#N)=C(NC(=O)CCl)N1,TAT-ENA-80bfd3e5-7
 Cc1c(C(=O)CCl)c2ccccn2c1C(=O)c1ccc(F)cc1,TAT-ENA-80bfd3e5-4

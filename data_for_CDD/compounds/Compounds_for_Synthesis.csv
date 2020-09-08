@@ -792,6 +792,11 @@ O=C1CC(Oc2cc(Cl)cc(CC(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-1,20200709_moonsh
 COc1cc(Cl)cc(OC(=O)Nc2cnccc2C)c1,MAT-POS-6c3d76b3-1,20200709_moonshot_to_enamine.csv,
 COc1cc(Cl)cc(CC(=O)Nc2cnccc2C)c1,MAT-POS-c9973a83-1,20200709_moonshot_to_enamine.csv,
 O=C1CC(Oc2cc(Cl)cc(C(CCc3ccccc3)C(=O)Nn3cnc4ccccc43)c2)N1,MAT-POS-c478e61b-2,20200709_moonshot_to_enamine.csv,
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)[C@H](C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,LON-WEI-2e27a2e5-1,20200907_enamine_order.csv,imperfect stereochemical match for LON-WEI-2e27a2e5-1
+CC(C)(C)c1ccc(N(C(=O)c2ccco2)[C@@H](C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,LON-WEI-2e27a2e5-1,20200907_enamine_order.csv,imperfect stereochemical match for LON-WEI-2e27a2e5-1
+CC(C)(C)c1ccc(N(C(=O)c2c[nH]cn2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,,20200907_enamine_order.csv,not found
+CC(C)(C)c1ccc(N(C(=O)c2ccc(Cl)o2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,,20200907_enamine_order.csv,not found
+CC(C)(C)c1ccc(N(C(=O)c2cn[nH]c2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,,20200907_enamine_order.csv,not found
 COc1cccc(C2=N/C(=C/c3sccc3C)C(=O)O2)c1,MAT-POS-ea426761-9,20200823_moonshot_to_enamine.csv,
 CSC1=C(C#N)C2(CCCCC2)C(C#N)=C(NC(=O)CCl)N1,TAT-ENA-80bfd3e5-7,20200823_moonshot_to_enamine.csv,
 Cc1c(C(=O)CCl)c2ccccn2c1C(=O)c1ccc(F)cc1,TAT-ENA-80bfd3e5-4,20200823_moonshot_to_enamine.csv,
