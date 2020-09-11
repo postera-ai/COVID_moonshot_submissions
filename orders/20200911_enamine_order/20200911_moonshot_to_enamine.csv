@@ -1,0 +1,5 @@
+SMILES,CID,Comments,,,,
+COc1ccc(Cl)cc1CC(=O)Nc1cncc2ccccc12,MAT-POS-3b92565d-1,Z1530718726,,,,
+O=C(Nc1cncc2ccccc12)C1COc2ccc(Cl)cc21,MAT-POS-f7918075-2,Z1848696683,,,,
+O=C(Cc1cc(Cl)cc2c1OCC2)Nc1cncc2ccccc12,MAT-POS-bbbbc21a-3,Z1666837583,,,,
+O=C(Nc1cncc2ccccc12)C1CCOc2ccc(Br)cc21,MAT-POS-11b63608-1,EN300-263155 + isoquinoline,,,,

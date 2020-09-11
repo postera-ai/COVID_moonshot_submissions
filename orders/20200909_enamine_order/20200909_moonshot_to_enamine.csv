@@ -1,0 +1,4 @@
+SMILES,CID,Comments,,,,
+O=C(Cn1nnc2ccccc21)Nc1cccc(Cl)c1,MAT-POS-bfb445d4-1,s_22____57731____13206668,,,,
+O=C(Cc1cccc(Cl)c1)Nn1nnc2ccccc21,MAT-POS-bfb445d4-2,Amine widely available in stock from other vendors,,,,
+Cc1ccncc1NC(=O)Cc1cc(Cl)cc(NC23CC(C2)C3)c1,MAT-POS-e501d84c-1,Propellane substitute,,,,
