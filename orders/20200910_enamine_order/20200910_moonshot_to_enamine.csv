@@ -1,0 +1,5 @@
+SMILES,CID,Comments,,,,
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2ccc(Cl)cc21,MAT-POS-b3e365b9-1,,,,,
+O=C(Nc1cncc2ccccc12)[C@H]1CCOc2ccc(Cl)cc21,MAT-POS-b3e365b9-2,,,,,
+Cc1ccncc1NC(=O)[C@H]1CCOc2ccc(Cl)cc21,MAT-POS-b3e365b9-3,,,,,
+Cc1ccncc1NC(=O)[C@@H]1CCOc2ccc(Cl)cc21,MAT-POS-b3e365b9-4,,,,,
