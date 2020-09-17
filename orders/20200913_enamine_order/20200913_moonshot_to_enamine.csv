@@ -1,0 +1,6 @@
+SMILES,CID,Comments,,,,
+CNC(=O)Nc1ccc(N(Cc2ccsc2)C(=O)Cn2nnc3ccccc32)cc1,ROB-IMP-e811baff-1,EN300-27790 is useful,,,,
+CN(C)c1ccc(N(Cc2ccn[nH]2)C(=O)Cn2nnc3ccccc32)cc1,PET-UNK-7374c256-2,EN300-36665 is available,,,,
+CN(C)c1ccc(N(Cc2ccsc2)C(=O)Cc2cncc3ccccc23)cc1,PET-UNK-1901c25b-1,,,,,
+O=C(Nc1cncc2ccccc12)[C@@H]1COc2ccc(Cl)cc2C1,EDJ-MED-e4b030d8-12,Z1530722193,,,,
+C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDJ-MED-e4b030d8-13,,,,,
