@@ -311,6 +311,8 @@ def update_data(
                 | (all_df["r_inhibition_at_50_uM"].notnull())
                 | (all_df["f_inhibition_at_20_uM"].notnull())
                 | (all_df["f_inhibition_at_50_uM"].notnull())
+                | (all_df["r_avg_IC50"].notnull())
+                | (all_df["f_avg_IC50"].notnull())
             )
         ]
         assayed_iks = [

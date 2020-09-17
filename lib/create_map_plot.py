@@ -95,7 +95,7 @@ def create_map_plot_spec(all_df):
                 num_compounds_dict["sai"],
                 num_compounds_dict["mcule"],
                 num_compounds_dict["wuxi"],
-                num_compounds_dict["molport"],
+                0,  # num_compounds_dict["molport"],
                 num_made,
                 num_made,
             ],
