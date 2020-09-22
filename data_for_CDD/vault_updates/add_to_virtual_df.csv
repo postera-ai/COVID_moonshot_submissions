@@ -38,3 +38,93 @@ O=C(Cc1cncc2ccccc12)N(CCC1CCCCC1)c1cccc(Cl)c1,MAT-POS-173a45da-1,"Matt Robinson,
 Cc1ccncc1NC(=O)Cc1cc(Cl)cc(OCc2n[nH]c3ccccc23)c1,MAT-POS-173a45da-2,"Matt Robinson, PostEra",,False,MAT-POS-173a45da-2
 COc1ccc2c(C(=O)N(CCc3cccc(OC)c3OC)c3cccc(Cl)c3)cc(=O)[nH]c2c1,ALP-POS-19e898d3-1,"Alpha Lee, PostEra",,False,ALP-POS-19e898d3-1
 COc1cccc(CCN(C(=O)c2cc(=O)[nH]c3cc(OC)ccc23)c2cccc(Cl)c2)c1,ALP-POS-19e898d3-2,"Alpha Lee, PostEra",,False,ALP-POS-19e898d3-2
+COc1cccc(CCN(C(=O)c2cc(=O)[nH]c3cccc(OC)c23)c2cccc(Cl)c2)c1,ALP-POS-fc6c627f-1,"Alpha Lee, PostEra",,False,ALP-POS-fc6c627f-1
+COc1cccc(CCN(C(=O)c2cc(=O)[nH]c3cccc(N(C)C)c23)c2cccc(Cl)c2)c1,ALP-POS-fc6c627f-2,"Alpha Lee, PostEra",,False,ALP-POS-fc6c627f-2
+COc1ccccc1OCCN(C(=O)c1cc(=O)[nH]c2ccccc12)c1cccc(Cl)c1,ALP-POS-fc6c627f-3,"Alpha Lee, PostEra",,False,ALP-POS-fc6c627f-3
+CCN(CC)C(=O)C1C=C2c3cccc4[nH]cc(c34)CC2N(C)C1,JAS-UNK-f06a0a98-1,Jason Cipriani,,False,MAR-UCB-195bc32d-8
+CC(=O)N1CCN(CC(=O)Nc2cncc3ccccc23)CC1,VLA-UCB-05e51b3f-1,"Vladas Oleinikovas, UCB",,False,ALP-POS-6747fa38-1
+CC(=O)N1CCN(C(C(=O)Nc2cnccc2C)c2cccc(Cl)c2)CC1,VLA-UCB-05e51b3f-2,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-2
+CC(=O)N1CCN(CC(=O)N(C(=O)Cc2cccc(Cl)c2)c2cnccc2C)CC1,VLA-UCB-05e51b3f-3,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-3
+CC(=O)N(C(=O)[C@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-05e51b3f-4,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-4
+O=C1C[C@@]2(CCOc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UCB-05e51b3f-5,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-5
+O=C1CC[C@@]2(CCOc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UCB-05e51b3f-6,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-6
+CC(=O)N1CCN(CC(=O)N(C(=O)[C@H]2CCOc3ccc(Cl)cc32)c2cncc3ccccc23)CC1,VLA-UCB-05e51b3f-7,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-7
+O=C(Cn1nnc2ccccc21)[C@H]1CCOc2ccc(Cl)cc21,VLA-UCB-05e51b3f-8,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-8
+O=C(CCl)N(C(=O)[C@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-05e51b3f-9,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-9
+C=CC(=O)N(C(=O)[C@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-05e51b3f-10,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-10
+O=C1CC(Oc2cc(Cl)cc3c2OCC[C@@H]3C(=O)Nc2cncc3ccccc23)N1,VLA-UCB-05e51b3f-11,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-11
+O=C1CC(Oc2cc(Cl)cc3c2OCC[C@]3(CCC2CCCCC2)C(=O)Nc2cncc3ccccc23)N1,VLA-UCB-05e51b3f-12,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-12
+O=C(Nc1cncc2ccccc12)[C@@]1(CCC2CCCCC2)CCOc2ccc(Cl)cc21,VLA-UCB-05e51b3f-13,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-13
+O=C(Nc1cncc2ccccc12)N(CCC1CCCCC1)c1cccc(Cl)c1,VLA-UCB-05e51b3f-14,"Vladas Oleinikovas, UCB",,False,EDJ-MED-c314995a-1
+O=C(CCl)N(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,VLA-UCB-05e51b3f-15,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-15
+C=CC(=O)N(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,VLA-UCB-05e51b3f-16,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-16
+CC(=O)N(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,VLA-UCB-05e51b3f-17,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-17
+O=C(Nc1cc(=O)[nH]c2ccccc12)[C@H]1CCOc2ccc(Cl)cc21,VLA-UCB-05e51b3f-18,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-18
+O=C(Nc1nn[nH]c1-c1ccccc1)[C@H]1CCOc2ccc(Cl)cc21,VLA-UCB-05e51b3f-19,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-19
+O=C(Nc1cn[nH]c1-c1ccccc1)[C@H]1CCOc2ccc(Cl)cc21,VLA-UCB-05e51b3f-20,"Vladas Oleinikovas, UCB",,False,VLA-UCB-05e51b3f-20
+COc1cccc(N2CC3(CN(C(=O)c4cc(=O)[nH]c5ccccc45)C3)C2)c1,ERI-UCB-a0b0dbcb-1,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-1
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCN(c2cccc(Cl)c2)CC1,ERI-UCB-a0b0dbcb-2,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-2
+N#Cc1cccc(N2CCN(C(=O)c3cc(=O)[nH]c4ccccc34)CC2)c1,ERI-UCB-a0b0dbcb-3,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-3
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCN(c2cccc(C(F)(F)F)c2)CC1,ERI-UCB-a0b0dbcb-4,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-4
+COc1ccccc1NC1CCN(C(=O)c2cc(=O)[nH]c3ccccc23)C1,ERI-UCB-a0b0dbcb-5,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-5
+COc1ccccc1OC1CCN(C(=O)c2cc(=O)[nH]c3ccccc23)C1,ERI-UCB-a0b0dbcb-6,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-6
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCC(N2CCOc3ccccc32)C1,ERI-UCB-a0b0dbcb-7,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-7
+COc1ccccc1NC1CN(C(=O)c2cc(=O)[nH]c3ccccc23)C1,ERI-UCB-a0b0dbcb-8,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-8
+COc1ccccc1OC1CN(C(=O)c2cc(=O)[nH]c3ccccc23)C1,ERI-UCB-a0b0dbcb-9,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-9
+O=C(c1cc(=O)[nH]c2ccccc12)N1CC(N2CCOc3ccccc32)C1,ERI-UCB-a0b0dbcb-10,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-10
+COc1cccc(CN2CCN(C(=O)c3cc(=O)[nH]c4ccccc34)CC2)c1,ERI-UCB-a0b0dbcb-11,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-11
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCN(Cc2cccc(Cl)c2)CC1,ERI-UCB-a0b0dbcb-12,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-12
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCN(Cc2cccc(C(F)(F)F)c2)CC1,ERI-UCB-a0b0dbcb-13,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-13
+N#Cc1cccc(CN2CCN(C(=O)c3cc(=O)[nH]c4ccccc34)CC2)c1,ERI-UCB-a0b0dbcb-14,"Eric Jnoff, UCB",,False,ERI-UCB-a0b0dbcb-14
+COc1ccccc1OCCC(=O)Nc1cc(=O)[nH]c2ccccc12,MAR-UCB-f313ec4d-1,"Mark Calmiano, UCB",,False,MAR-UCB-f313ec4d-1
+COc1ccccc1OCCNC(=O)c1cncc2ccccc12,MAR-UCB-f313ec4d-2,"Mark Calmiano, UCB",,False,MAR-UCB-f313ec4d-2
+COc1ccccc1OCCC(=O)Nc1cncc2ccccc12,MAR-UCB-f313ec4d-3,"Mark Calmiano, UCB",,False,MAR-UCB-f313ec4d-3
+COc1ccccc1NCCNC(=O)c1cc(=O)[nH]c2ccccc12,MAR-UCB-f313ec4d-4,"Mark Calmiano, UCB",,False,MAR-UCB-f313ec4d-4
+COc1cccc(N2CCN(C(=O)c3cc(=O)[nH]c4ccccc34)CC2)c1,MAR-UCB-f313ec4d-5,"Mark Calmiano, UCB",,False,BEN-DND-7e92b6ca-12
+O=C(c1cncc2ccccc12)N1CCN(c2ccccc2)CC1,MAR-UCB-f313ec4d-6,"Mark Calmiano, UCB",,False,MAR-UCB-f313ec4d-6
+O=C(Cc1cncc2ccccc12)C1CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-1,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-1
+O=C(Oc1cncc2ccccc12)C1CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-2,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-2
+N#Cc1ccc2c(c1)C(C(=O)Nc1cncc3ccccc13)CCO2,DAR-DIA-6a508060-3,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-3
+COc1cc(Cl)cc2c1OCCC2C(=O)Nc1cncc2ccccc12,DAR-DIA-6a508060-4,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-4
+O=C1CC(Cc2cc(Cl)cc3c2OCCC3C(=O)Nc2cncc3ccccc23)N1,DAR-DIA-6a508060-5,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-5
+Cc1ccncc1NC(=O)C1CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-6,"Daren Fearon, Diamond Light Source Ltd",,False,BRU-CON-c4e3408a-1
+O=C(NC1N=Nc2ccccc21)C1CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-7,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-7
+O=C(Nc1cncc2ccccc12)C1CCOc2ccc(C3CC3)cc21,DAR-DIA-6a508060-8,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-8
+O=C(Nc1cncc2ccccc12)C1(CCC2CCCCC2)CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-9,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-9
+CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-10,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-10
+O=C(Nc1cncc2ccccc12)C1CC(C2CC2Cl)C1,DAR-DIA-6a508060-11,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-11
+Cc1ccncc1NC(=O)C1CC(C2CC2Cl)C1,DAR-DIA-6a508060-12,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-12
+CS(=O)(=O)NCCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,DAR-DIA-6a508060-13,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-13
+Cc1cc(CN(C)C(=O)C2CCOc3ccc(Cl)cc32)no1,DAR-DIA-6a508060-14,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-14
+Cc1cc(CN(C)C(=O)C2CCOc3ccc(Cl)cc32)on1,DAR-DIA-6a508060-15,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-15
+Cc1cc(CN(C(=O)CC2CC2)C(=O)C2CCOc3ccc(Cl)cc32)no1,DAR-DIA-6a508060-16,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-6a508060-16
+O=C(Nc1cncc2ccccc12)C1CCN(Cc2cnc[nH]2)c2ccc(Cl)cc21,ALP-UNI-b33a865d-1,"Alpha Lee, University of Cambridge",,False,ALP-UNI-b33a865d-1
+CC1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,MAT-POS-8a69d52e-1,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-1
+C[C@@H]1C[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,MAT-POS-8a69d52e-2,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-2
+C[C@H]1C[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,MAT-POS-8a69d52e-3,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-3
+CC1COc2ccc(Cl)cc2C1C(=O)Nc1cncc2ccccc12,MAT-POS-8a69d52e-4,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-4
+C[C@H]1COc2ccc(Cl)cc2[C@H]1C(=O)Nc1cncc2ccccc12,MAT-POS-8a69d52e-5,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-5
+C[C@@H]1COc2ccc(Cl)cc2[C@H]1C(=O)Nc1cncc2ccccc12,MAT-POS-8a69d52e-6,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-6
+C[C@@H]1COc2ccc(Cl)cc2[C@@H]1C(=O)Nc1cncc2ccccc12,MAT-POS-8a69d52e-7,"Matt Robinson, PostEra",,False,MAT-POS-8a69d52e-7
+O=C(Cc1cc(Cl)cc(CC2CC(=O)N2)c1)Nc1cncc2ccccc12,EDJ-MED-50011917-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-50011917-1
+Cc1c(CC(=O)Nc2cncc3ccccc23)cc(Cl)cc1OC1CC(=O)N1,EDJ-MED-50011917-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-50011917-2
+COc1c(CC(=O)Nc2cncc3ccccc23)cc(Cl)cc1CC1CC(=O)N1,EDJ-MED-50011917-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-50011917-3
+C=C1CCC(O)C/C1=C/C=C1\CCCC2(C)C1CCC2C(C)CCCC(C)(C)O,TIM-UNK-da3ada48-1,Timo Poikola,,False,TIM-UNK-da3ada48-1
+C=C1CC[C@H](O)C/C1=C/C=C1\CCC[C@@]2(C)[C@H]1CC[C@@H]2[C@H](C)CCCC(C)(C)O,TIM-UNK-e02812d1-1,Timo Poikola,,False,TIM-UNK-e02812d1-1
+C[C@@H]1COc2ccc(Cl)cc2[C@H]1C(=O)Nc1cncc2ccccc12,BRU-THA-01b12488-1,"Bruce Lefker, ThamesPharmaPartners",,False,MAT-POS-8a69d52e-6
+O=C(Cc1cc(Cl)cc(OC2CCN2)c1)Nc1cncc2ccccc12,PET-UNK-cf04cb02-1,Peter Kenny,,False,PET-UNK-cf04cb02-1
+CC(=O)N(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-50c39ae8-1,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-1
+O=C1C[C@]2(CCOc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UCB-50c39ae8-2,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-2
+O=C1CC[C@]2(CCOc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UCB-50c39ae8-3,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-3
+CC(=O)N1CCN(CC(=O)N(C(=O)[C@@H]2CCOc3ccc(Cl)cc32)c2cncc3ccccc23)CC1,VLA-UCB-50c39ae8-4,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-4
+O=C(Cn1nnc2ccccc21)[C@@H]1CCOc2ccc(Cl)cc21,VLA-UCB-50c39ae8-5,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-5
+O=C(CCl)N(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-50c39ae8-6,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-6
+C=CC(=O)N(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-50c39ae8-7,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-7
+O=C1CC(Oc2cc(Cl)cc3c2OCC[C@H]3C(=O)Nc2cncc3ccccc23)N1,VLA-UCB-50c39ae8-8,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-8
+O=C1CC(Oc2cc(Cl)cc3c2OCC[C@@]3(CCC2CCCCC2)C(=O)Nc2cncc3ccccc23)N1,VLA-UCB-50c39ae8-9,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-9
+O=C(Nc1cncc2ccccc12)[C@]1(CCC2CCCCC2)CCOc2ccc(Cl)cc21,VLA-UCB-50c39ae8-10,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-10
+O=C(Nc1cc(=O)[nH]c2ccccc12)[C@@H]1CCOc2ccc(Cl)cc21,VLA-UCB-50c39ae8-11,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-11
+O=C(Nc1nn[nH]c1-c1ccccc1)[C@@H]1CCOc2ccc(Cl)cc21,VLA-UCB-50c39ae8-12,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-12
+O=C(Nc1cn[nH]c1-c1ccccc1)[C@@H]1CCOc2ccc(Cl)cc21,VLA-UCB-50c39ae8-13,"Vladas Oleinikovas, UCB",,False,VLA-UCB-50c39ae8-13
+Cn1cc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(N3CCCCC3)cc2)cn1,ALP-POS-7c842ab8-1,"Alpha Lee, PostEra",,False,ALP-POS-7c842ab8-1
+Cn1cc(CN(C(=O)Cc2nnc3ccccn23)c2ccc(N3CCCCC3)cc2)cn1,ALP-POS-7c842ab8-2,"Alpha Lee, PostEra",,False,ALP-POS-7c842ab8-2
