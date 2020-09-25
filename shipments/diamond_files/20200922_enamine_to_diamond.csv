@@ -9,10 +9,10 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-19,05_H,20200922_enamine_to_xchem.csv,CC(=O)N1CCN(CC(=O)NC=2C=NC=C3C=CC=CC23)CC1,ALP-POS-6747fa38-1,4,100,ALP-POS-6747fa38-1,Achiral
 1181202-Y4-19,05_I,20200922_enamine_to_xchem.csv,CCN(C=1C=CC=CC1)S(=O)(=O)C=2C=CC(OC)=C(NC(=O)CCl)C2,MAT-POS-fa06b69f-5,4,100,TAT-ENA-80bfd3e5-36,Achiral
 1181202-Y4-19,05_J,20200922_enamine_to_xchem.csv,CN(CC(=O)NC=1C=CC=CC1Br)C(=O)CCl,MAT-POS-fa06b69f-8,4,100,TAT-ENA-80bfd3e5-42,Achiral
-1181202-Y4-20,05_A,20200922_enamine_to_xchem.csv,CC1COCCN1CCOC=2C=C(Cl)C=C(CC(=O)NC=3C=NC=CC3C)C2,CHO-MSK-6e55470f-1,4,100,CHO-MSK-6e55470f-1,Racemic or presumed racemic or meso
+1181202-Y4-20,05_A,20200922_enamine_to_xchem.csv,CC1COCCN1CCOC=2C=C(Cl)C=C(CC(=O)NC=3C=NC=CC3C)C2,CHO-MSK-6e55470f-1,4,100,MAT-POS-500ca5bf-1,Racemic or presumed racemic or meso
 1181202-Y4-20,05_B,20200922_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N([C@H](C(=O)NCCC=2C=CC=C(F)C2)C=3C=CC=NC3)C(=O)C4=CC=CO4,MAT-POS-f2460aef-1,4,100,MAT-POS-f2460aef-1,Single known enantiomer
 1181202-Y4-20,05_C,20200922_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N([C@@H](C(=O)NCCC=2C=CC=C(F)C2)C=3C=CC=NC3)C(=O)C4=CC=CO4,MAT-POS-f2460aef-2,4,100,MAT-POS-f2460aef-2,Single known enantiomer
-1181202-Y4-20,05_D,20200922_enamine_to_xchem.csv,ClC=1C=CC=C(CC(=O)N[C@H]2CCNC2=O)C1,MIC-UNK-42806bd5-1,4,100,MIC-UNK-42806bd5-1,Single known enantiomer
+1181202-Y4-20,05_D,20200922_enamine_to_xchem.csv,ClC=1C=CC=C(CC(=O)N[C@H]2CCNC2=O)C1,MIC-UNK-42806bd5-1,4,100,MAT-POS-500ca5bf-2,Single known enantiomer
 1181202-Y4-20,05_E,20200922_enamine_to_xchem.csv,COC=1C=CC(=CC1)C=2C=C(COC=3C=C(Cl)C=C(CC(=O)NC=4C=NC=CC4C)C3)ON2,CHO-MSK-6e55470f-22,4,100,CHO-MSK-6e55470f-22,Achiral
 1181202-Y4-20,05_F,20200922_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NCCC=2C=CC=C(F)C2)C=3C=CC=NC3)C(=O)C=4C=NNC4,MAT-POS-f2460aef-5,4,100,MAT-POS-f2460aef-5,Racemic or presumed racemic or meso
 1181202-Y4-20,05_G,20200922_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NCCC=2C=CC=C(F)C2)C=3C=CC=NC3)C(=O)C4=CC=C(Cl)O4,MAT-POS-f2460aef-4,4,100,MAT-POS-f2460aef-4,Racemic or presumed racemic or meso
@@ -35,8 +35,8 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-20,05_X,20200922_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-b3e365b9-1,4,100,MAT-POS-b3e365b9-1,Single known enantiomer
 1181202-Y4-20,05_Y,20200922_enamine_to_xchem.csv,ClC=1C=C(CC(=O)NC=2C=NC=C3C=CC=CC23)C=C(OC4CCC(=O)N4)C1,MAT-POS-9ff17035-1,4,100,MAT-POS-9ff17035-1,Racemic or presumed racemic or meso
 1181202-Y4-20,05_Z,20200922_enamine_to_xchem.csv,ClC=1C=C(CC(=O)NC=2C=NC=C3C=CC=CC23)C=C(OC4=CC=CC(=O)N4)C1,MAT-POS-9ff17035-2,4,100,MAT-POS-9ff17035-2,Achiral
-1181202-Y4-20,05_AA,20200922_enamine_to_xchem.csv,FC(F)(F)C=1C=CC=C(C1)N2CCN(CC2)C(=O)C3=CC(=O)NC=4C=CC=CC34,ERI-UCB-a0b0dbcb-4,4,100,,Achiral
-1181202-Y4-20,05_AB,20200922_enamine_to_xchem.csv,OC=1C=C(C(=O)N2CCN(CC2)C=3C=CC=C(Cl)C3)C=4C=CC=CC4N1,ERI-UCB-a0b0dbcb-2,4,100,,Achiral
-1181202-Y4-20,05_AC,20200922_enamine_to_xchem.csv,OC=1C=C(C(=O)N2CCN(CC=3C=CC=C(Cl)C3)CC2)C=4C=CC=CC4N1,ERI-UCB-a0b0dbcb-12,4,100,,Achiral
-1181202-Y4-20,05_AD,20200922_enamine_to_xchem.csv,OC=1C=C(C(=O)N2CCN(CC=3C=CC=C(C3)C(F)(F)F)CC2)C=4C=CC=CC4N1,ERI-UCB-a0b0dbcb-13,4,100,,Achiral
+1181202-Y4-20,05_AA,20200922_enamine_to_xchem.csv,FC(F)(F)C=1C=CC=C(C1)N2CCN(CC2)C(=O)C3=CC(=O)NC=4C=CC=CC34,ERI-UCB-a0b0dbcb-4,4,100,ERI-UCB-a0b0dbcb-4,Achiral
+1181202-Y4-20,05_AB,20200922_enamine_to_xchem.csv,OC=1C=C(C(=O)N2CCN(CC2)C=3C=CC=C(Cl)C3)C=4C=CC=CC4N1,ERI-UCB-a0b0dbcb-2,4,100,ERI-UCB-a0b0dbcb-2,Achiral
+1181202-Y4-20,05_AC,20200922_enamine_to_xchem.csv,OC=1C=C(C(=O)N2CCN(CC=3C=CC=C(Cl)C3)CC2)C=4C=CC=CC4N1,ERI-UCB-a0b0dbcb-12,4,100,ERI-UCB-a0b0dbcb-12,Achiral
+1181202-Y4-20,05_AD,20200922_enamine_to_xchem.csv,OC=1C=C(C(=O)N2CCN(CC=3C=CC=C(C3)C(F)(F)F)CC2)C=4C=CC=CC4N1,ERI-UCB-a0b0dbcb-13,4,100,ERI-UCB-a0b0dbcb-13,Achiral
 1181202-Y4-20,05_AE,20200922_enamine_to_xchem.csv,CC=1C=CN=CC1NC(=O)CC=2C=C(Cl)C=C(OCC3=NNC=4C=CC=CC34)C2,MAT-POS-173a45da-2,4,100,MAT-POS-173a45da-2,Achiral
