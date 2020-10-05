@@ -31,8 +31,8 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-20,05_T,20200922_enamine_to_xchem.csv,COC=1C=CC(Cl)=CC1CC(=O)NC=2C=NC=C3C=CC=CC23,MAT-POS-3b92565d-1,4,100,MAT-POS-3b92565d-1,Achiral
 1181202-Y4-20,05_U,20200922_enamine_to_xchem.csv,CC=1C=CN=CC1NC(=O)CC=2C=C(Cl)C=C(NC3CCCC3O)C2,MAT-POS-044491d2-1,4,100,MAT-POS-044491d2-1,Racemic or presumed racemic or meso
 1181202-Y4-20,05_V,20200922_enamine_to_xchem.csv,ClC=1C=CC=2OCC(C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-f7918075-2,4,100,MAT-POS-f7918075-2,Racemic or presumed racemic or meso
-1181202-Y4-20,05_W,20200922_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-b3e365b9-2,4,100,MAT-POS-b3e365b9-2,Single known enantiomer
-1181202-Y4-20,05_X,20200922_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-b3e365b9-1,4,100,MAT-POS-b3e365b9-1,Single known enantiomer
+1181202-Y4-20,05_W,20200922_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-b3e365b9-2,4,100,MAT-POS-b3e365b9-1,Single known enantiomer
+1181202-Y4-20,05_X,20200922_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-b3e365b9-1,4,100,MAT-POS-b3e365b9-2,Single known enantiomer
 1181202-Y4-20,05_Y,20200922_enamine_to_xchem.csv,ClC=1C=C(CC(=O)NC=2C=NC=C3C=CC=CC23)C=C(OC4CCC(=O)N4)C1,MAT-POS-9ff17035-1,4,100,MAT-POS-9ff17035-1,Racemic or presumed racemic or meso
 1181202-Y4-20,05_Z,20200922_enamine_to_xchem.csv,ClC=1C=C(CC(=O)NC=2C=NC=C3C=CC=CC23)C=C(OC4=CC=CC(=O)N4)C1,MAT-POS-9ff17035-2,4,100,MAT-POS-9ff17035-2,Achiral
 1181202-Y4-20,05_AA,20200922_enamine_to_xchem.csv,FC(F)(F)C=1C=CC=C(C1)N2CCN(CC2)C(=O)C3=CC(=O)NC=4C=CC=CC34,ERI-UCB-a0b0dbcb-4,4,100,ERI-UCB-a0b0dbcb-4,Achiral
