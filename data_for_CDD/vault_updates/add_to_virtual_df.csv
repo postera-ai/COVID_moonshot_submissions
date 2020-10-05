@@ -153,3 +153,41 @@ O=C(Cc1cccc(Cl)c1)Nc1nnc2ccccn12,PET-UNK-e44ffd04-1,Peter Kenny,,False,PET-UNK-e
 O=C(Nc1cncc2ccccc12)C1COc2c(Cl)cccc21,FRA-DIA-c7e803f4-1,"Frank von Delft, Diamond",,False,FRA-DIA-c7e803f4-1
 O=C(Cc1cccc(Cl)c1)Nc1cncc2c1CCC2,MAT-POS-199e2e7c-1,"Matt Robinson, PostEra",,False,MAT-POS-199e2e7c-1
 O=C(Cc1cccc(Cl)c1)Nc1nccc2[nH]ncc12,MAT-POS-199e2e7c-2,"Matt Robinson, PostEra",,False,MAT-POS-199e2e7c-2
+Cc1ccncc1NC(=O)Cc1cccc(OCc2cccc(Cl)c2)n1,RIT-AID-a492ba81-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-a492ba81-1
+C=CC(=O)N(c1ccc(C(C)(C)O)cc1)C(C(=O)Nc1ccc(OC)cc1)c1cccnc1,RIT-AID-af4ac3d4-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-af4ac3d4-1
+C=CC(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)NC(C)(C)C)c1cncnc1,RIT-AID-a497c99f-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-a497c99f-1
+COc1ccnc(NC(=O)C(C#N)c2cccc(Cl)c2)c1,RIT-UNK-fa3975ff-1,Ritabrata  Maiti,,False,RIT-UNK-fa3975ff-1
+CC(=O)N1CCN(C(=O)Cc2ccc3c(c2)C(=O)C(C(=O)Nc2cccc(Cl)c2)C3)CC1,RIT-AID-d1f3f5d2-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-d1f3f5d2-1
+COc1ccc(C(=O)Nc2cncc3ccncc23)cc1C(=O)N1CCC(N(C)C(=O)C(F)(F)F)CC1,RIT-AID-50eb7195-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-50eb7195-1
+Cc1cnn(CC(=O)Nc2cnccc2Cc2ccccc2)c1,RIT-AID-b8bd8251-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-b8bd8251-1
+CC(NC(=O)CCl)c1cc(Cl)cc(OC2C(=O)Nc3ccc(S(N)(=O)=O)cc32)c1,RIT-RIT-fdc869b4-1,"Ritabrata Maiti, Ritabrata Maiti",,False,RIT-RIT-fdc869b4-1
+NS(=O)(=O)c1ccc(S(=O)(=O)c2ccc(NC(=O)C3CC(=O)NC4c5ccc(Cl)cc5CC34)cc2)cc1,RIT-AID-8d6141ff-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-8d6141ff-1
+N#Cc1ccc(N2CC(NC(=O)c3ccc(Cl)cc3)C2)cc1,RIT-AID-1c9a4e61-1,"Ritabrata Maiti, AIDDT",,False,RIT-AID-1c9a4e61-1
+NCc1cncc(NC(=O)C2CCOc3ccc(Cl)cc32)c1,NAU-LAT-b7d8c353-1,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b7d8c353-1
+O=C(Nc1cncc2c1CCNC2)C1CCOc2ccc(Cl)cc21,NAU-LAT-b7d8c353-2,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b7d8c353-2
+O=C(Nc1cc(=O)[nH]c2ccccc12)C1CCOc2ccc(Cl)cc21,NAU-LAT-b7d8c353-3,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,JAG-UCB-c61058a9-45
+O=C(Nc1cc[nH]c(=O)c1)C1CCOc2ccc(Cl)cc21,NAU-LAT-b7d8c353-4,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,BEN-DND-b89db3f2-2
+O=C(Nc1cnccc1-n1cccn1)C1CCOc2ccc(Cl)cc21,NAU-LAT-b7d8c353-5,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b7d8c353-5
+CN1CCN(c2ccncc2NC(=O)C2CCOc3ccc(Cl)cc32)CC1,NAU-LAT-b7d8c353-6,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b7d8c353-6
+Cn1ccc(NC(=O)C2CCOc3ccc(Cl)cc32)cc1=O,NAU-LAT-b7d8c353-7,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b7d8c353-7
+NCc1cccc2c(NC(=O)C3CCOc4ccc(Cl)cc43)cncc12,NAU-LAT-b7d8c353-8,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-b7d8c353-8
+C=C(NC(=O)[C@@H](N)C(C)C)C(=O)N/C(=C/C)C(=O)O,HAI-UNI-1b662ac3-1,"Hai Deng, University of Aberdeen",,False,HAI-UNI-1b662ac3-1
+O=C(Cc1cccc(Cl)c1)N(Cc1cnc[nH]1)c1cncc2ccccc12,ALP-UNI-44c99a80-1,"Alpha Lee, University of Cambridge",,False,ALP-UNI-44c99a80-1
+O=C([C@@H]1CCOc2ccc(Cl)cc21)N(Cc1cnc[nH]1)c1cncc2ccccc12,ALP-UNI-44c99a80-2,"Alpha Lee, University of Cambridge",,False,ALP-UNI-44c99a80-2
+O=C([C@@H]1CCOc2ccc(Cl)cc21)N(Cc1cnco1)c1cncc2ccccc12,ALP-UNI-44c99a80-3,"Alpha Lee, University of Cambridge",,False,ALP-UNI-44c99a80-3
+O=C(Cc1cccc(Cl)c1)N(Cc1cnco1)c1cncc2ccccc12,ALP-UNI-44c99a80-4,"Alpha Lee, University of Cambridge",,False,ALP-UNI-44c99a80-4
+CC(C)(C)CCc1ccnc(-c2cc(=O)[nH]c3ccccc23)c1C#N,STE-DES-3b1afdbd-1,"Stefano Piana Agostinetti, D.E. Shaw Research",,False,STE-DES-3b1afdbd-1
+Cn1c(=O)c(-c2cc[nH]c(=O)c2)cc2ccccc21,STE-DES-31efaedb-1,"Stefano Piana-Agostinetti, D.E. Shaw Research",,False,STE-DES-31efaedb-1
+Cn1c2c(cc(-c3cc[nH]c(=O)c3)c1=O)CCCC2,STE-DES-31efaedb-2,"Stefano Piana-Agostinetti, D.E. Shaw Research",,False,STE-DES-31efaedb-2
+C=C(C(=O)N1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,NIR-WEI-acbd6416-1,"Nir London, Weizmann Institute of Science",,False,NIR-WEI-acbd6416-1
+C=C(C(=O)C1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,NIR-WEI-acbd6416-2,"Nir London, Weizmann Institute of Science",,False,NIR-WEI-acbd6416-2
+C=C(C(=O)N(Cc1ccsc1)c1ccc(N(C)C)cc1)c1cncc2ccccc12,NIR-WEI-75ed5c39-1,"Nir London, Weizmann Institute",,False,NIR-WEI-75ed5c39-1
+O=C(Cc1cncc2ccccc12)N(CCC1CCCCC1)Cc1cccs1,ALP-POS-64a710fa-1,"Alpha Lee, PostEra",,False,ALP-POS-64a710fa-1
+CN(C)CCCN(Cc1cccs1)C(=O)Cc1cncc2ccccc12,ALP-POS-64a710fa-2,"Alpha Lee, PostEra",,False,ALP-POS-64a710fa-2
+CN(C)c1ccc(N(C(=O)Nc2cncc3ccccc23)c2cccc(Cl)c2)cc1,FRA-DIA-13af2da5-1,"Frank von Delft, Diamond Light Source",,False,MIC-UNK-d36ab305-5
+CN(C)c1ccc([C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)cc1,FRA-DIA-13af2da5-2,"Frank von Delft, Diamond Light Source",,False,FRA-DIA-13af2da5-2
+Cc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,CHO-MSK-00c5269a-1,"Chodera Lab, MSKCC",,False,CHO-MSK-00c5269a-1
+COc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,CHO-MSK-00c5269a-2,"Chodera Lab, MSKCC",,False,CHO-MSK-00c5269a-2
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,CHO-MSK-00c5269a-3,"Chodera Lab, MSKCC",,False,ALP-POS-6d04362c-2
+O=C(Cn1nnc2ccccc21)N(Cc1cccc(Cl)c1)c1ccc(N2CCOCC2)cc1,CHO-MSK-00c5269a-4,"Chodera Lab, MSKCC",,False,CHO-MSK-00c5269a-4
+O=C(Cn1nnc2ccccc21)N(Cc1cccc(Cl)c1)c1ccc(N2CCCCC2)cc1,CHO-MSK-00c5269a-5,"Chodera Lab, MSKCC",,False,CHO-MSK-00c5269a-5
