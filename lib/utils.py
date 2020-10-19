@@ -92,9 +92,11 @@ def get_series(smi):
     series_SMARTS_dict = {
         # "3-aminopyridine": "[R1][C,N;R0;!$(NC(=O)CN)]C(=O)[C,N;R0;!$(NC(=O)CN)][c]1cnccc1",
         "Ugi": "[c,C:1][C](=[O])[N]([c,C,#1:2])[C]([c,C,#1:3])([c,C,#1:4])[C](=[O])[NH1][c,C:5]",
-        "3-aminopyridine-like": "[R1]!@[C,N]C(=O)[C,N]!@[R1]",
+        "Isatins": "O=C1Nc2ccccc2C1=O",
+        "3-aminopyridine-like": "[cR1,cR2]-[C,N]C(=O)[C,N]!@[R1]",
         "quinolones": "NC(=O)c1cc(=O)[nH]c2ccccc12",
         "piperazine-chloroacetamide": "O=C(CCl)N1CCNCC1",
+        "activated-ester": "O=C(Oc1cncc(Cl)c1)c1cccc2[nH]ccc12"
     }
 
     def check_if_smi_in_series(
@@ -128,9 +130,9 @@ def get_series(smi):
             if check_if_smi_in_series(
                 smi,
                 series_SMARTS,
-                MW_cutoff=410,
-                num_rings_cutoff=3,
-                num_atoms_cutoff=28,
+                MW_cutoff=450,
+                num_rings_cutoff=4,
+                num_atoms_cutoff=35,
             ):
                 return series
         else:
