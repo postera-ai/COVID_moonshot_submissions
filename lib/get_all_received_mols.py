@@ -14,6 +14,7 @@ from .utils import strip_and_standardize_smi, get_CID, get_CDD_ID, get_comments
 def update_shipments_data(received_csv_files):
 
     smiles_dict = {}
+    shipment_info_dict = {}
     for csv_file in received_csv_files:
         try:
             received_df = pd.read_csv(csv_file)
@@ -23,11 +24,33 @@ def update_shipments_data(received_csv_files):
 
             received_smi = list(received_df["SMILES"])
             for smi in received_smi:
+                catalog_ID = list(
+                    received_df.loc[received_df["SMILES"] == smi]["catalog_ID"]
+                )[0]
+                receiver = str(csv_file).split("/")[-1].split("to_")[-1][:-4]
+                shipment_ID = list(
+                    received_df.loc[received_df["SMILES"] == smi]["shipment_ID"]
+                )[0]
+                stereochemistry = list(
+                    received_df.loc[received_df["SMILES"] == smi]["stereochemistry"]
+                )[0]
+                plate = list(received_df.loc[received_df["SMILES"] == smi]["plate_ID"])[
+                    0
+                ]
+                well = list(received_df.loc[received_df["SMILES"] == smi]["well"])[0]
+
+                shipment_str = f"{str(receiver)}_{str(catalog_ID)}_{str(shipment_ID)}_{str(stereochemistry)}_{str(plate)}_{str(well)}"
                 if smi not in smiles_dict:
                     smiles_dict[smi] = str(csv_file).split("/")[-1]
                 else:
                     smiles_dict[smi] = (
                         smiles_dict[smi] + ", " + str(csv_file).split("/")[-1]
+                    )
+                if smi not in shipment_info_dict:
+                    shipment_info_dict[smi] = shipment_str
+                else:
+                    shipment_info_dict[smi] = (
+                        shipment_info_dict[smi] + ", " + shipment_str
                     )
 
         except Exception as e:
@@ -39,20 +62,18 @@ def update_shipments_data(received_csv_files):
     all_smiles = list(smiles_dict.keys())
     all_iks = [Chem.MolToInchiKey(Chem.MolFromSmiles(x)) for x in all_smiles]
     all_shipments = [smiles_dict[x] for x in all_smiles]
+    all_shipment_strs = [shipment_info_dict[x] for x in all_smiles]
 
     all_received_df = pd.DataFrame(
-        {"SMILES": all_smiles, "inchikey": all_iks, "shipments": all_shipments}
+        {"SMILES": all_smiles, "inchikey": all_iks,
+         "shipments": all_shipments, "shipment_info": all_shipment_strs}
     )
-    all_received_df["CID"] = all_received_df["inchikey"].apply(
-        lambda x: get_CID(x)
-    )
+    all_received_df["CID"] = all_received_df["inchikey"].apply(lambda x: get_CID(x))
     all_received_df["comments"] = all_received_df["inchikey"].apply(
         lambda x: get_comments(x)
     )
 
-    all_received_df = all_received_df[
-        ["SMILES", "CID", "shipments", "comments"]
-    ]
+    all_received_df = all_received_df[["SMILES", "CID", "shipments","shipment_info", "comments"]]
     return all_received_df
 
 
@@ -76,12 +97,10 @@ def create_diamond_files(received_csv_files):
                 received_df["CDD_ID"] = received_df["external_ID"].apply(
                     lambda x: get_CDD_ID(x)
                 )
-                received_df["PostEra_comments"] = received_df[
-                    "inchikey"
-                ].apply(lambda x: get_comments(x))
-                new_filename = (
-                    str(csv_file).split("/")[-1].replace("xchem", "diamond")
+                received_df["PostEra_comments"] = received_df["inchikey"].apply(
+                    lambda x: get_comments(x)
                 )
+                new_filename = str(csv_file).split("/")[-1].replace("xchem", "diamond")
 
                 received_df["Library Name"] = str(csv_file).split("/")[-1]
                 received_df = received_df[
@@ -108,7 +127,7 @@ def create_diamond_files(received_csv_files):
                 )
                 # get rid of chemaxon style smiles
                 received_df["SMILES"] = received_df["SMILES"].apply(
-                    lambda x: x.split(' ')[0]
+                    lambda x: x.split(" ")[0]
                 )
 
                 diamond_dfs.append([received_df, new_filename])
@@ -141,9 +160,9 @@ def create_weizmann_files(received_csv_files):
                 received_df["CDD_ID"] = received_df["external_ID"].apply(
                     lambda x: get_CDD_ID(x)
                 )
-                received_df["PostEra_comments"] = received_df[
-                    "inchikey"
-                ].apply(lambda x: get_comments(x))
+                received_df["PostEra_comments"] = received_df["inchikey"].apply(
+                    lambda x: get_comments(x)
+                )
                 new_filename = (
                     str(csv_file)
                     .split("/")[-1]
@@ -197,13 +216,11 @@ def create_oxford_files(received_csv_files):
                 received_df["CDD_ID"] = received_df["external_ID"].apply(
                     lambda x: get_CDD_ID(x)
                 )
-                received_df["PostEra_comments"] = received_df[
-                    "inchikey"
-                ].apply(lambda x: get_comments(x))
+                received_df["PostEra_comments"] = received_df["inchikey"].apply(
+                    lambda x: get_comments(x)
+                )
                 new_filename = (
-                    str(csv_file)
-                    .split("/")[-1]
-                    .replace("oxford", "oxford_annotated")
+                    str(csv_file).split("/")[-1].replace("oxford", "oxford_annotated")
                 )
 
                 received_df = received_df[
@@ -251,9 +268,7 @@ if __name__ == "__main__":
         )
     ]
     shipments_df = update_shipments_data(received_csv_files)
-    shipments_df.to_csv(
-        dir_path / "shipments" / "all_received_mols.csv", index=False
-    )
+    shipments_df.to_csv(dir_path / "shipments" / "all_received_mols.csv", index=False)
 
     diamond_dfs = create_diamond_files(received_csv_files)
     for diamond_df, diamond_fn in diamond_dfs:
@@ -264,6 +279,5 @@ if __name__ == "__main__":
     weizmann_dfs = create_weizmann_files(received_csv_files)
     for weizmann_df, weizmann_fn in weizmann_dfs:
         weizmann_df.to_csv(
-            dir_path / "shipments" / "weizmann_files" / weizmann_fn,
-            index=False,
+            dir_path / "shipments" / "weizmann_files" / weizmann_fn, index=False,
         )
