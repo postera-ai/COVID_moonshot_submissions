@@ -38,8 +38,11 @@ def update_shipments_data(received_csv_files):
                     0
                 ]
                 well = list(received_df.loc[received_df["SMILES"] == smi]["well"])[0]
-
-                shipment_str = f"{str(receiver)}_{str(catalog_ID)}_{str(shipment_ID)}_{str(stereochemistry)}_{str(plate)}_{str(well)}"
+                if "Batch ID" in list(received_df.columns):
+                    batch = list(received_df.loc[received_df["SMILES"] == smi]["Batch ID"])[0]
+                else:
+                    batch = "batch-unknown"
+                shipment_str = f"{str(receiver)}_{str(catalog_ID)}_{str(batch)}_{str(shipment_ID)}_{str(stereochemistry)}_{str(plate)}_{str(well)}"
                 if smi not in smiles_dict:
                     smiles_dict[smi] = str(csv_file).split("/")[-1]
                 else:
@@ -102,6 +105,9 @@ def create_diamond_files(received_csv_files):
                 )
                 new_filename = str(csv_file).split("/")[-1].replace("xchem", "diamond")
 
+                if "Batch ID" not in list(received_df.columns):
+                    received_df["Batch ID"] = 'UNK'
+
                 received_df["Library Name"] = str(csv_file).split("/")[-1]
                 received_df = received_df[
                     [
@@ -114,6 +120,8 @@ def create_diamond_files(received_csv_files):
                         "concentration(mM)",
                         "external_ID",
                         "stereochemistry",
+                        "catalog_ID",
+                        "Batch ID"
                     ]
                 ]
                 received_df = received_df.rename(
@@ -163,6 +171,8 @@ def create_weizmann_files(received_csv_files):
                 received_df["PostEra_comments"] = received_df["inchikey"].apply(
                     lambda x: get_comments(x)
                 )
+                if "Batch ID" not in list(received_df.columns):
+                    received_df["Batch ID"] = 'UNK'
                 new_filename = (
                     str(csv_file)
                     .split("/")[-1]
@@ -183,6 +193,7 @@ def create_weizmann_files(received_csv_files):
                         "well",
                         "stereochemistry",
                         "PostEra_comments",
+                        "Batch ID"
                     ]
                 ]
 
@@ -222,6 +233,8 @@ def create_oxford_files(received_csv_files):
                 new_filename = (
                     str(csv_file).split("/")[-1].replace("oxford", "oxford_annotated")
                 )
+                if "Batch ID" not in list(received_df.columns):
+                    received_df["Batch ID"] = 'UNK'
 
                 received_df = received_df[
                     [
@@ -237,6 +250,7 @@ def create_oxford_files(received_csv_files):
                         "well",
                         "stereochemistry",
                         "PostEra_comments",
+                        "Batch ID"
                     ]
                 ]
 
