@@ -451,12 +451,15 @@ def get_fluorescense_IC50_data():
             curve_dict[mol_id][run]["f_R2"] = r2
             curve_dict[mol_id][run]["f_IC50"] = curve_ic50
         else:
-            curve_dict[mol_id][run]["concentration_um"] = curve_dict[mol_id][run][
-                "concentration_um"
-            ] + [mol_dict["readouts"]["557072"]]
-            curve_dict[mol_id][run]["percent_inhibition"] = curve_dict[mol_id][run][
-                "percent_inhibition"
-            ] + [mol_dict["readouts"]["557073"]]
+            if ("557072" in mol_dict["readouts"]) and ("557073" in mol_dict["readouts"]):
+                curve_dict[mol_id][run]["concentration_um"] = curve_dict[mol_id][run][
+                    "concentration_um"
+                ] + [mol_dict["readouts"]["557072"]]
+                curve_dict[mol_id][run]["percent_inhibition"] = curve_dict[mol_id][run][
+                    "percent_inhibition"
+                ] + [mol_dict["readouts"]["557073"]]
+            else:
+                continue
 
     for mol in curve_dict:
         mol_id_list.append(mol)
