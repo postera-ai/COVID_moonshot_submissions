@@ -1,0 +1,8 @@
+SMILES,CID,Comments,,,,
+O=C1C(c2cccc(Cl)c2)CCCN1c1cncc2ccccc12,PET-UNK-c9c1e0d8-3,,,,,
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCN(c2cccc(Cl)c2)C(=O)C1,ERI-UCB-d6de1f3c-1,https://www.molport.com/shop/molecule-link/MolPort-019-993-306 is widely available if easier to order.,,,,
+O=C(c1cncc2ccccc12)N1CCN(c2cccc(Cl)c2)C(=O)C1,ERI-UCB-d6de1f3c-2,,,,,
+OC1(C2C(=CC=C(Cl)C=2)OCC1)C(OC)=O,EDG-MED-21720aac-1,6-Chloro-4-hydroxychroman-4-yl-carboxylic Acid in https://patentimages.storage.googleapis.com/c9/66/a6/eeba3959df569a/EP1012140B1.pdf,,,,
+NC1(C2C(=CC=C(Cl)C=2)OCC1)C(OC)=O,EDG-MED-21720aac-2,Well described in literature CAS:1215972-81-8,,,,
+C(=O)C1(C2C(=CC=C(Cl)C=2)OCC1)C(OC)=O,EDG-MED-21720aac-3,,,,,
+C(C=C)C1(C2C(=CC=C(Cl)C=2)OCC1)C(OC)=O,EDG-MED-21720aac-4,,,,,

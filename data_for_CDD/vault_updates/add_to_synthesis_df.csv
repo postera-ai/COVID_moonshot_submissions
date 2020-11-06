@@ -1,1 +1,5 @@
 SMILES,CID
+O=C(Nc1c[nH]c(=O)c2ccccc12)C1CCOc2ccc(Cl)cc21,JOH-UNI-f51e3bbc-1
+Cc1ccc(N(Cc2cscn2)C(=O)Cc2cncc3ccccc23)cc1,ALP-POS-c3a96089-1
+Cc1ccc(N(Cc2cscn2)C(=O)Cc2cncc3ccccc23)nc1,ALP-POS-c3a96089-2
+CC(=O)Nc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)nc1,ALP-POS-c3a96089-3
