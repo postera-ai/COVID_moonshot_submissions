@@ -1,10 +1,30 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-CC(C)(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,NAU-LAT-2fed8305-1,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-1
-O=C(Nc1cncc2ccccc12)C1(c2cccc(Cl)c2)CC1,NAU-LAT-2fed8305-2,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-2
-O=C(CN1CCC=C(Cl)C1)Nc1cncc2ccccc12,NAU-LAT-2fed8305-3,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-3
-O=C(CN1CCC=C(F)C1)Nc1cncc2ccccc12,NAU-LAT-2fed8305-4,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-4
-O=C(Cc1cc(Cl)cs1)Nc1cncc2ccccc12,NAU-LAT-2fed8305-5,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-5
-O=C(Cc1ccc(Cl)s1)Nc1cncc2ccccc12,NAU-LAT-2fed8305-6,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-6
-O=C(Nc1cncc2ccccc12)C1(c2cccc(Cl)c2)COC1,NAU-LAT-2fed8305-7,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-7
-O=C(Cc1cncc2ccccc12)Nc1ccc(Cl)s1,NAU-LAT-2fed8305-8,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-8
-O=C(Cc1cc(Cl)co1)Nc1cncc2ccccc12,NAU-LAT-2fed8305-9,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-2fed8305-9
+O=C1C(c2cncc3ccccc23)=CCCC12CCOc1ccc(Cl)cc12,NIR-THE-1e03c142-1,"Nir London, The Weizmann Institute of Science",,False,NIR-THE-1e03c142-1
+COc1cccc2[nH]c(=O)cc(C(=O)NCCOc3ccccc3Oc3ccn[nH]3)c12,EDJ-MED-bbe8e3da-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-1
+COc1cccc2[nH]c(=O)cc(C(=O)NCCOc3ccccc3OCC3CC3)c12,EDJ-MED-bbe8e3da-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-2
+COc1ccc(F)cc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-bbe8e3da-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-3
+CNC(=O)COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-bbe8e3da-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-4
+O=C(Nc1cncc2cnccc12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-1,"Benjamin Perry, DNDi",,False,BEN-DND-4f474d93-1
+O=C(Nc1cncc2ccncc12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-2,"Benjamin Perry, DNDi",,False,BEN-DND-4f474d93-2
+O=C(Nc1cncc2cnccc12)C1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-3,"Benjamin Perry, DNDi",,False,BEN-DND-4f474d93-3
+O=C(Nc1cncc2ccccc12)N1CCOc2ccc(Cl)cc21,BEN-DND-f2e727cd-1,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-1
+O=C(Nc1cncc2ccccc12)N1CCNc2ccc(Cl)cc21,BEN-DND-f2e727cd-2,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-2
+CN1CCN(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,BEN-DND-f2e727cd-3,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-3
+O=C(Nc1cncc2ccccc12)C1COCc2ccc(Cl)cc21,BEN-DND-f2e727cd-4,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-4
+O=C(Nc1cncc2ccccc12)C1CNCc2ccc(Cl)cc21,BEN-DND-f2e727cd-5,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-5
+CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,BEN-DND-f2e727cd-6,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-6
+N#Cc1ccc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2c1,BEN-DND-c852c98b-1,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-1
+O=C(Nc1cncc2ccc(OC(F)(F)F)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-2,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-2
+CC(C)(O)c1ccc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2c1,BEN-DND-c852c98b-3,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-3
+O=C(Nc1cncc2ccc(O)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-4,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-4
+CS(=O)(=O)c1ccc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2c1,BEN-DND-c852c98b-5,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-5
+O=C(Nc1cncc2ccc(OC(F)F)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-6,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-6
+O=C(Nc1cncc2ccc(C(F)F)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-7,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-7
+O=C(Nc1cncc2c1COCC2)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-8,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-8
+CN1CCc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2C1,BEN-DND-c852c98b-9,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-9
+O=C(Nc1cncc2c1CNCC2)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-10,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-10
+O=C(Nc1c[n+]([O-])cc2ccccc12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-eff36d94-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-eff36d94-1
+Cn1cnc2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c21,EDJ-MED-fb4b7746-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-1
+O=C(Nc1cncc2nc[nH]c12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-fb4b7746-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-2
+O=C(Nc1cncc2[nH]c(=O)[nH]c12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-fb4b7746-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-3
+Cn1c(=O)[nH]c2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c21,EDJ-MED-fb4b7746-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-4

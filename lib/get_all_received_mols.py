@@ -207,6 +207,65 @@ def create_weizmann_files(received_csv_files):
     return weizmann_dfs
 
 
+def create_chicago_files(received_csv_files):
+
+    chicago_dfs = []
+
+    for csv_file in received_csv_files:
+        if "chicago" in str(csv_file):
+            try:
+                received_df = pd.read_csv(csv_file)
+                received_df["standard_SMILES"] = received_df["SMILES"].apply(
+                    lambda x: strip_and_standardize_smi(x)
+                )
+                received_df["inchikey"] = received_df["standard_SMILES"].apply(
+                    lambda x: Chem.MolToInchiKey(Chem.MolFromSmiles(x))
+                )
+                received_df["external_ID"] = received_df["inchikey"].apply(
+                    lambda x: get_CID(x)
+                )
+                received_df["CDD_ID"] = received_df["external_ID"].apply(
+                    lambda x: get_CDD_ID(x)
+                )
+                received_df["PostEra_comments"] = received_df["inchikey"].apply(
+                    lambda x: get_comments(x)
+                )
+                if "Batch ID" not in list(received_df.columns):
+                    received_df["Batch ID"] = 'UNK'
+                new_filename = (
+                    str(csv_file)
+                    .split("/")[-1]
+                    .replace("chicago", "chicago_annotated")
+                )
+
+                received_df = received_df[
+                    [
+                        "SMILES",
+                        "external_ID",
+                        "CDD_ID",
+                        "shipment_ID",
+                        "catalog_ID",
+                        "purity",
+                        "volume(uL)",
+                        "concentration(mM)",
+                        "plate_ID",
+                        "well",
+                        "stereochemistry",
+                        "PostEra_comments",
+                        "Batch ID"
+                    ]
+                ]
+
+                chicago_dfs.append([received_df, new_filename])
+
+            except Exception as e:
+                print(f"FAILED ON {csv_file}")
+                raise e
+                pass
+
+    return chicago_dfs
+
+
 def create_oxford_files(received_csv_files):
 
     oxford_dfs = []
@@ -294,4 +353,10 @@ if __name__ == "__main__":
     for weizmann_df, weizmann_fn in weizmann_dfs:
         weizmann_df.to_csv(
             dir_path / "shipments" / "weizmann_files" / weizmann_fn, index=False,
+        )
+
+    chicago_dfs = create_chicago_files(received_csv_files)
+    for chicago_df, chicago_fn in chicago_dfs:
+        chicago_df.to_csv(
+            dir_path / "shipments" / "chicago_files" / chicago_fn, index=False,
         )

@@ -1,3 +1,4 @@
 SMILES,CID,comments
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
+COc1cc(Cl)cc2c1OCC[C@@H]2C(=O)Nc1cncc2ccccc12,MAT-POS-43fe65f4-1,
