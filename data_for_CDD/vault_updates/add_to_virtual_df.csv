@@ -1,30 +1,92 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-O=C1C(c2cncc3ccccc23)=CCCC12CCOc1ccc(Cl)cc12,NIR-THE-1e03c142-1,"Nir London, The Weizmann Institute of Science",,False,NIR-THE-1e03c142-1
-COc1cccc2[nH]c(=O)cc(C(=O)NCCOc3ccccc3Oc3ccn[nH]3)c12,EDJ-MED-bbe8e3da-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-1
-COc1cccc2[nH]c(=O)cc(C(=O)NCCOc3ccccc3OCC3CC3)c12,EDJ-MED-bbe8e3da-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-2
-COc1ccc(F)cc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-bbe8e3da-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-3
-CNC(=O)COc1ccccc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,EDJ-MED-bbe8e3da-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-bbe8e3da-4
-O=C(Nc1cncc2cnccc12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-1,"Benjamin Perry, DNDi",,False,BEN-DND-4f474d93-1
-O=C(Nc1cncc2ccncc12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-2,"Benjamin Perry, DNDi",,False,BEN-DND-4f474d93-2
-O=C(Nc1cncc2cnccc12)C1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-3,"Benjamin Perry, DNDi",,False,BEN-DND-4f474d93-3
-O=C(Nc1cncc2ccccc12)N1CCOc2ccc(Cl)cc21,BEN-DND-f2e727cd-1,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-1
-O=C(Nc1cncc2ccccc12)N1CCNc2ccc(Cl)cc21,BEN-DND-f2e727cd-2,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-2
-CN1CCN(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,BEN-DND-f2e727cd-3,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-3
-O=C(Nc1cncc2ccccc12)C1COCc2ccc(Cl)cc21,BEN-DND-f2e727cd-4,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-4
-O=C(Nc1cncc2ccccc12)C1CNCc2ccc(Cl)cc21,BEN-DND-f2e727cd-5,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-5
-CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,BEN-DND-f2e727cd-6,"Benjamin Perry, DNDI",,False,BEN-DND-f2e727cd-6
-N#Cc1ccc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2c1,BEN-DND-c852c98b-1,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-1
-O=C(Nc1cncc2ccc(OC(F)(F)F)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-2,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-2
-CC(C)(O)c1ccc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2c1,BEN-DND-c852c98b-3,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-3
-O=C(Nc1cncc2ccc(O)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-4,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-4
-CS(=O)(=O)c1ccc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2c1,BEN-DND-c852c98b-5,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-5
-O=C(Nc1cncc2ccc(OC(F)F)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-6,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-6
-O=C(Nc1cncc2ccc(C(F)F)cc12)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-7,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-7
-O=C(Nc1cncc2c1COCC2)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-8,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-8
-CN1CCc2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2C1,BEN-DND-c852c98b-9,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-9
-O=C(Nc1cncc2c1CNCC2)C1CCOc2ccc(Cl)cc21,BEN-DND-c852c98b-10,"Benjamin Perry, DNDi",,False,BEN-DND-c852c98b-10
-O=C(Nc1c[n+]([O-])cc2ccccc12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-eff36d94-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-eff36d94-1
-Cn1cnc2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c21,EDJ-MED-fb4b7746-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-1
-O=C(Nc1cncc2nc[nH]c12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-fb4b7746-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-2
-O=C(Nc1cncc2[nH]c(=O)[nH]c12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-fb4b7746-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-3
-Cn1c(=O)[nH]c2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c21,EDJ-MED-fb4b7746-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-fb4b7746-4
+O=C(c1cc(=O)[nH]c2ccccc12)C1CCN(c2cccc(Cl)c2)CC1,NAU-LAT-56d5284e-1,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-1
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCC(c2cccc(Cl)c2)CC1,NAU-LAT-56d5284e-2,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-2
+O=C(c1cc(=O)[nH]c2ccccc12)N1CCC(Nc2cccc(Cl)c2)CC1,NAU-LAT-56d5284e-3,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-3
+O=C(NC1CCN(c2cccc(Cl)c2)CC1)c1cc(=O)[nH]c2ccccc12,NAU-LAT-56d5284e-4,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-4
+O=C(c1cc(=O)[nH]c2ccccc12)N1CC2(C1)CN(c1cccc(Cl)c1)C2,NAU-LAT-56d5284e-5,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-5
+O=C(NCC1CN(c2cccc(Cl)c2)C1)c1cc(=O)[nH]c2ccccc12,NAU-LAT-56d5284e-6,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-6
+O=C(NC1CN(c2cccc(Cl)c2)C1)c1cc(=O)[nH]c2ccccc12,NAU-LAT-56d5284e-7,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-7
+O=C(c1cc(=O)[nH]c2ccccc12)N1CC(Nc2cccc(Cl)c2)C1,NAU-LAT-56d5284e-8,"Nauris Narvaiss, Latvian Institute of Organic Synthesis",,False,NAU-LAT-56d5284e-8
+O=C(c1cncc2ccccc12)C1CCN(c2cccc(Cl)c2)CC1,MIC-UNK-c5a20098-1,Michal K,,False,MIC-UNK-c5a20098-1
+O=C(c1cncc2ccccc12)C(F)(F)C1CN(c2cccc(Cl)c2)C1,MIC-UNK-c5a20098-2,Michal K,,False,MIC-UNK-c5a20098-2
+O=C(c1cncc2ccccc12)C(F)(F)CC1CN(c2cccc(Cl)c2)C1,MIC-UNK-c5a20098-3,Michal K,,False,MIC-UNK-c5a20098-3
+COc1ccc(C2CC(=O)c3c(O)cc(OC)cc3O2)cc1,ALE-EST-30179844-1,"ALEJANDRA HERNANDEZ SOSA, Estudiante",,False,ALE-EST-30179844-1
+CCN(C(=O)c1ccco1)C(C(=O)NCCc1cccc(F)c1)c1cccnc1,KHR-WEI-75c61062-1,"Khriesto Shurrush, Weizmann Institute of Science",,False,KHR-WEI-75c61062-1
+CN(C(=O)c1ccco1)C(C(=O)NCCc1cccc(F)c1)c1cccnc1,KHR-WEI-75c61062-2,"Khriesto Shurrush, Weizmann Institute of Science",,False,KHR-WEI-75c61062-2
+O=C(Nc1cncc2ccc(F)cc12)C1CCOc2ccc(Cl)cc21,ALP-POS-696356e4-1,"Alpha Lee, PostEra",,False,ALP-POS-696356e4-1
+COc1ccc(OC)c(CNC(=O)Nc2cn(C)c(=O)c3ccccc23)c1,LON-WEI-5e7d1b3e-1,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-1
+O=S(=O)(Cc1ccccc1F)c1oc(-c2ccc(F)cc2)nc1S(=O)(=O)c1ccccc1,LON-WEI-5e7d1b3e-2,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-2
+CC(C)N(C(=O)Cc1c(O)c2ccccc2[nH]c1=O)C(C)C,LON-WEI-5e7d1b3e-3,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-3
+Cc1ccc(NC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)c(Br)c1,LON-WEI-5e7d1b3e-4,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-4
+COc1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)cc1OC,LON-WEI-5e7d1b3e-5,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-5
+CC(=O)c1cccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)c1,LON-WEI-5e7d1b3e-6,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-6
+Cn1cc(NC(=O)NCCCN2CCc3ccccc3C2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-7,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-98
+CCOC(=O)c1c(C)n(S(C)(=O)=O)c2ccc(N(C(=O)c3ccco3)S(C)(=O)=O)cc12,LON-WEI-5e7d1b3e-8,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-8
+Cc1cc(NC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)no1,LON-WEI-5e7d1b3e-9,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-9
+O=C(NCc1ccc2c(c1)OCO2)c1nc(S(=O)(=O)Cc2ccccc2)ncc1Cl,LON-WEI-5e7d1b3e-10,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-10
+COC(=O)c1c(C)n(S(C)(=O)=O)c2ccc(N(C(=O)c3ccco3)S(C)(=O)=O)cc12,LON-WEI-5e7d1b3e-11,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-11
+CCOC(=O)c1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)cc1,LON-WEI-5e7d1b3e-12,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-12
+CC(C)Cn1cc(NC(=O)NCC2CCCO2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-13,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-13
+COC(=O)c1c(NCCCc2ccccc2)c2cc(F)ccc2[nH]c1=O,LON-WEI-5e7d1b3e-14,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-78
+CC(C)Cn1cc(NC(=O)NCCCN2CCCC2=O)c2ccccc2c1=O,LON-WEI-5e7d1b3e-15,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-100
+CC(C)Cn1cc(NC(=O)NCCN2CCOCC2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-16,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-109
+CC(C)Cn1cc(NC(=O)NCCc2ccc(Cl)cc2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-17,"London Lab, Weizmann Institute",,False,MAT-POS-2492181e-4
+COc1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)c(OC)c1,LON-WEI-5e7d1b3e-18,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-18
+O=C(O)[C@@H](c1ccccc1)N1Cc2ccccc2C1=O,LON-WEI-5e7d1b3e-19,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-19
+CC(C)Cn1cc(NC(=O)NCCc2c[nH]c3ccccc23)c2ccccc2c1=O,LON-WEI-5e7d1b3e-20,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-20
+Cc1cccnc1NC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-21,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-21
+CC(C)Cn1cc(NC(=O)Nc2cccnc2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-22,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-22
+Cn1cc(NC(=O)Nc2cccc(C(F)(F)F)c2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-23,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-23
+CCOC(=O)c1cc(-c2ccccc2)sc1NC(=O)Cc1csc(-c2ccccc2)n1,LON-WEI-5e7d1b3e-24,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-24
+O=C(Cc1ccsc1)N1CCN(c2cc(-c3cccs3)n[nH]2)CC1,LON-WEI-5e7d1b3e-25,"London Lab, Weizmann Institute",,False,MAT-POS-ea426761-45
+CCCc1c(C)[nH]c2[nH]n(-c3ccccc3)c(=O)c2c1=O,LON-WEI-5e7d1b3e-26,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-26
+CC(C)Cn1cc(NC(=O)NC2CCCCCC2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-27,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-27
+COc1ccc(OC)c(CNC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)c1,LON-WEI-5e7d1b3e-28,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-28
+CCOC(=O)Cc1csc(NC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)n1,LON-WEI-5e7d1b3e-29,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-29
+CC(C)Cn1cc(NC(=O)Nc2nc3ccccc3s2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-30,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-30
+Cn1cc(NC(=O)NCCc2ccsc2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-31,"London Lab, Weizmann Institute",,False,MAT-POS-2492181e-5
+N#Cc1ccc(CN2CCC(C3CCNC3)CC2)cc1,LON-WEI-5e7d1b3e-32,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-32
+COc1cc2c(cc1OC)C(C)N(C(=O)Nc1cn(C)c(=O)c3ccccc13)CC2,LON-WEI-5e7d1b3e-33,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-33
+CC(C)Cn1cc(NC(=O)N2CCC(c3ccccc3)C2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-34,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-101
+Cc1ccc(CN2CCC(CNC(=O)Nc3cn(CC(C)C)c(=O)c4ccccc34)C2)cc1,LON-WEI-5e7d1b3e-35,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-108
+COc1cc(Cl)c(C)cc1NC(=O)Nc1cn(C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-36,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-36
+CCN(CC)S(=O)(=O)c1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)cc1,LON-WEI-5e7d1b3e-37,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-37
+CCCCN(CCCNC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12)c1ccccc1,LON-WEI-5e7d1b3e-38,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-102
+CC(CCc1ccco1)NC(=O)Nc1cn(C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-39,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-39
+CC(C)Cn1cc(NC(=O)NCCC2=CCCCC2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-40,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-40
+COc1ccc(N2C(=O)CCS2(=O)=O)cc1S(=O)(=O)Nc1cccc2cccnc12,LON-WEI-5e7d1b3e-41,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-41
+CC(C)Cn1cc(NC(=O)NC2CCCc3ccccc32)c2ccccc2c1=O,LON-WEI-5e7d1b3e-42,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-42
+COc1cc(Cl)c(C)cc1NC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-43,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-43
+CC(C)Cn1cc(NC(=O)NCc2ccco2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-44,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-44
+Cn1cc(NC(=O)N2CCN(C(=O)c3ccco3)CC2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-45,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-36
+CCOC(=O)N1CCC(NC(=O)Nc2cn(C)c(=O)c3ccccc23)CC1,LON-WEI-5e7d1b3e-46,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-97
+CCc1ccccc1N(CC)C(=O)Nc1cn(C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-47,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-42
+COc1ccc(OC)c(CCNC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)c1,LON-WEI-5e7d1b3e-48,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-48
+Cn1cc(NC(=O)NCc2ccccn2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-49,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-49
+CCCCN(CCNC(=O)Nc1cn(C)c(=O)c2ccccc12)Cc1ccco1,LON-WEI-5e7d1b3e-50,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-34
+Cc1noc(C)c1CCNC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-51,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-51
+Cn1cc(NC(=O)NCCc2ccc(Cl)cc2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-52,"London Lab, Weizmann Institute",,False,MAT-POS-2492181e-1
+CC(C)Cn1cc(NC(=O)N2CCCN(Cc3ccccc3F)C2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-53,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-53
+CC(C)Cn1cc(NC(=O)N2CCC(Cc3ccccc3)CC2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-54,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-107
+CC(C)Cn1cc(NC(=O)NCc2ccc3c(c2)OCO3)c2ccccc2c1=O,LON-WEI-5e7d1b3e-55,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-55
+COC(=O)c1sccc1NC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-56,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-56
+CC(C)OCCCN(Cc1ccco1)C(=O)Nc1cn(C)c(=O)c2ccccc12,LON-WEI-5e7d1b3e-57,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-38
+COc1ccc2nc(NC(=O)Nc3cn(CC(C)C)c(=O)c4ccccc34)sc2c1,LON-WEI-5e7d1b3e-58,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-58
+Cn1cc(NC(=O)N(Cc2ccco2)CC2CCCO2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-59,"London Lab, Weizmann Institute",,False,MAT-POS-b5746674-37
+CC(C)Cn1cc(NC(=O)NCCCN2CCC(C)CC2)c2ccccc2c1=O,LON-WEI-5e7d1b3e-60,"London Lab, Weizmann Institute",,False,MAT-POS-2492181e-6
+O=[N+]([O-])c1cnc(Sc2nnc(-c3ccco3)n2-c2ccc(OCc3ccccc3)cc2)s1,LON-WEI-5e7d1b3e-61,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-61
+Nc1n[nH]c2cc(O)nc(O)c12,LON-WEI-5e7d1b3e-62,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-62
+COC(=O)c1c(C)nn(-c2ccccc2)c1-c1cc(C)on1,LON-WEI-5e7d1b3e-63,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-63
+O=S(=O)(Nc1ccccc1SCc1cccc(Cl)c1F)c1cc(Cl)sc1Cl,LON-WEI-5e7d1b3e-64,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-64
+CC(C)(C)c1ccc(-c2nnc(Sc3cnc([N+](=O)[O-])s3)o2)cc1,LON-WEI-5e7d1b3e-65,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-65
+COC(=O)c1c(C)nn(C(=O)c2cccs2)c1-c1snnc1C,LON-WEI-5e7d1b3e-66,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-66
+O=[N+]([O-])c1cnc(Sc2nnc(-c3ccc(Cl)cc3)o2)s1,LON-WEI-5e7d1b3e-67,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-67
+COc1cccc(C(=O)Nc2n[nH]c(SCc3ccc(Cl)cc3)n2)c1,LON-WEI-5e7d1b3e-68,"London Lab, Weizmann Institute",,False,MAT-POS-ea426761-10
+O=C(Nc1cccc(C(F)(F)F)c1)Nc1ccccc1Sc1ncc([N+](=O)[O-])s1,LON-WEI-5e7d1b3e-69,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-69
+N#Cc1cnn(C(=O)c2cccs2)c1C1CC1,LON-WEI-5e7d1b3e-70,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-70
+O=[N+]([O-])c1cnc(Sc2nccc(-c3cccnc3)n2)s1,LON-WEI-5e7d1b3e-71,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-71
+O=c1oc(Nc2ccccc2)nc2ccccc12,LON-WEI-5e7d1b3e-72,"London Lab, Weizmann Institute",,False,MAT-POS-ea426761-13
+Cc1cc(C)c(C#N)c(Sc2ncnc3c2nnn3Cc2ccccc2)n1,LON-WEI-5e7d1b3e-73,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-73
+CCOC(=O)c1ccc(NC(=O)CC2SC(=O)N(c3ccccc3)C2=O)cc1,LON-WEI-5e7d1b3e-74,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-74
+Cc1ccccc1NC(=O)CC1SC(=O)N(c2ccccc2)C1=O,LON-WEI-5e7d1b3e-75,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-75
+c1ccc(-c2cc(Sc3nnc(-c4cccs4)o3)n3ncnc3n2)cc1,LON-WEI-5e7d1b3e-76,"London Lab, Weizmann Institute",,False,LON-WEI-4d77710c-76
