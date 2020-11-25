@@ -135,6 +135,7 @@ def update_data(
         create_diamond_files,
         create_weizmann_files,
         create_oxford_files,
+        create_chicago_files,
     )
 
     if fetch_shipments:
@@ -168,6 +169,11 @@ def update_data(
         for oxford_df, oxford_fn in oxford_dfs:
             oxford_df.to_csv(
                 dir_path / "shipments" / "oxford_files" / oxford_fn, index=False,
+            )
+        chicago_dfs = create_chicago_files(received_csv_files)
+        for chicago_df, chicago_fn in chicago_dfs:
+            chicago_df.to_csv(
+                dir_path / "shipments" / "chicago_files" / chicago_fn, index=False,
             )
     else:
         shipments_df = pd.read_csv(dir_path / "shipments" / "all_received_mols.csv")

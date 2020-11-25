@@ -1,3 +1,79 @@
 SMILES,CID,comments
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
+O=C(c1cncc2ccccc12)N1CCN(c2cccc(Cl)c2)CC1,MAT-POS-54c4bf04-3,
+O=C(Nc1c[nH]c(=O)c2ccccc12)C1CCOc2ccc(Cl)cc21,JOH-UNI-f51e3bbc-1,
+CCC(=O)Nc1ccc(N(Cc2ccccc2)C(=O)Nn2nnc3ccccc32)cc1,ALP-POS-a3de0cb1-1,
+O=C(Nc1cncc2ccccc12)C1COc2c(Cl)cccc21,FRA-DIA-c7e803f4-1,
+CC1CN(C(=O)c2cc(=O)[nH]c3ccccc23)CCN1c1cccc(Cl)c1,MAT-POS-54c4bf04-4,
+Cc1ccc(N(Cc2cscn2)C(=O)Cc2cncc3ccccc23)cc1,ALP-POS-c3a96089-1,
+O=C(Cc1cncc2ccccc12)N1CCOc2ccc(Cl)cc21,JOH-UNI-ea1df7a8-1,
+O=C1CC(C(=O)Nc2cncc3ccccc23)c2cc(Br)ccc2N1,MAT-POS-8d5af1ef-1,
+CN1C(=O)CCc2cc(N)ccc21,,not found
+NC1CC2CCCC2C1,,not found
+NC1CCc2cc(F)ccc21,,not found
+NC1COc2ccccc2C1,,not found
+CC(C)S(=O)(=O)c1ccc(N)cc1,,not found
+COC1CC2(CC(N)C2)C1,,not found
+NCc1cccnc1,,not found
+Cn1ncc2cc(N)ccc21,,not found
+CS(=O)(=O)c1ccc(N)cc1,,not found
+Cn1cnc2cc(N)ccc21,,not found
+CS(=O)(=O)Cc1ccc(N)cc1,,not found
+CC(C)Oc1ccc(N)cc1,,not found
+NC1CCCCC1,,not found
+NC1CCCOC1,,not found
+Nc1cccc(Oc2cccnn2)c1,,not found
+Nc1ccc(Cn2cccn2)cc1,,not found
+Nc1ccc(S(=O)(=O)C2CCCC2)cc1,,not found
+Nc1ccc2nc(C(F)(F)F)[nH]c2c1,,not found
+COc1ccc(N)cc1,,not found
+Cn1ccc2cc(N)ccc21,,not found
+Cc1nc2ccc(N)cc2o1,,not found
+NC1CCCCCC1,,not found
+NC1CCc2ccccc21,,not found
+Nc1ccc2ncsc2c1,,not found
+Nc1ccc2c(c1)CCCS2(=O)=O,,not found
+NC1CCN(c2ccccc2F)C1,,not found
+Cc1ccc(N)cc1,,not found
+Nc1ccccc1,,not found
+NC1Cc2ccccc21,,not found
+Nc1ccc2c(c1)CCC(=O)N2CC(F)F,,not found
+NC1CCN(c2ccccc2)C1,,not found
+Nc1ccc(OC2CCOC2)cc1,,not found
+NC1COc2cc(F)ccc21,,not found
+COCc1csc(N)n1,,not found
+Nc1cn(Cc2ccccc2)cn1,,not found
+Nc1ccc2scnc2c1,,not found
+Nc1ccc(C(F)(F)F)nc1,,not found
+Cn1ncc2ccc(N)cc21,,not found
+Nc1ccc(OC(F)F)nc1,,not found
+COc1ccccc1CN,,not found
+Cc1ccccc1CN,,not found
+NC1COC(C2CC2)C1,,not found
+CC1CC(N)CCO1,,not found
+Cc1ccc(N)cc1OC(F)F,,not found
+CN1CCCC(N)C1,,not found
+COc1c(C)cccc1CN,,not found
+Nc1ccc2c(c1)CCOC2,,not found
+COc1cc(C)ccc1CN,,not found
+CCOc1ccc(N)cn1,,not found
+COc1cc(N)ccc1S(=O)(=O)N(C)C,,not found
+Nc1ccc(OC(F)F)cc1,,not found
+COCc1ccc(N)cc1,,not found
+Nc1ccc2c(c1)COCC2,,not found
+CC(N)c1ccccc1,,not found
+N[C@H]1C[C@H](Oc2ccccc2)C1,,not found
+NC1CCC2(CCO2)CC1,,not found
+NC1COC2(CCCC2)C1,,not found
+Cc1ccccc1C(C)N,,not found
+Nc1cccc(C2COC2)c1,,not found
+NC1CCC2OCCC2C1,,not found
+NC1CCCC2(CCC2)C1,,not found
+Nc1ccc(C2COC2)cc1,,not found
+Nc1cnc(C2CCC2)nc1,,not found
+NCc1ccccc1,,not found
+Cc1nc2cc(N)ccc2s1,,not found
+NC1CCOC1,,not found
+CCOc1ccc(N)cc1,,not found
+O=C(O)c1cnc[nH]1,,not found
