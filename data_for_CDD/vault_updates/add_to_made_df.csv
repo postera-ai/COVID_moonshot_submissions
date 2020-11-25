@@ -1,88 +1,79 @@
 SMILES,CID,comments
-CCC(=O)Nc1ccc(N(Cc2ccccc2)C(=O)n2nnc3ccccc32)cc1,ALP-POS-a1bdc92a-1,
-O=C(Cc1cncc2ccccc12)Nc1cccc(Cl)c1,PET-UNK-8922bd3c-1,
-COc1ccc(N2C(=O)CCS2(=O)=O)cc1S(=O)(=O)Nc1cccc2cccnc12,LON-WEI-4d77710c-41,
-COc1cc2c(cc1OC)C(C)N(C(=O)Nc1cn(C)c(=O)c3ccccc13)CC2,LON-WEI-4d77710c-33,
-Cc1ccc(NC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)c(Br)c1,LON-WEI-4d77710c-4,
-Cc1ccccc1NC(=O)CC1SC(=O)N(c2ccccc2)C1=O,LON-WEI-4d77710c-75,
-CC(C)Cn1cc(NC(=O)NCc2ccco2)c2ccccc2c1=O,LON-WEI-4d77710c-44,
-COC(=O)c1c(NCCCc2ccccc2)c2cc(F)ccc2[nH]c1=O,MAT-POS-b5746674-78,
-CC(C)OCCCN(Cc1ccco1)C(=O)Nc1cn(C)c(=O)c2ccccc12,MAT-POS-b5746674-38,
-Cc1noc(C)c1CCNC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-4d77710c-51,
-CC(C)Cn1cc(NC(=O)NCCCN2CCC(C)CC2)c2ccccc2c1=O,MAT-POS-2492181e-6,
-COc1ccc2nc(NC(=O)Nc3cn(CC(C)C)c(=O)c4ccccc34)sc2c1,LON-WEI-4d77710c-58,
-O=S(=O)(Nc1ccccc1SCc1cccc(Cl)c1F)c1cc(Cl)sc1Cl,LON-WEI-4d77710c-64,
-Cc1cc(C)c(C#N)c(Sc2ncnc3c2nnn3Cc2ccccc2)n1,LON-WEI-4d77710c-73,
-CC(C)N(C(=O)Cc1c(O)c2ccccc2[nH]c1=O)C(C)C,LON-WEI-4d77710c-3,
-COc1ccc(OC)c(CNC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)c1,LON-WEI-4d77710c-28,
-CC(C)Cn1cc(NC(=O)N2CCCN(Cc3ccccc3F)C2)c2ccccc2c1=O,LON-WEI-4d77710c-53,
-CC(C)Cn1cc(NC(=O)NCCC2=CCCCC2)c2ccccc2c1=O,LON-WEI-4d77710c-40,
-Cc1cccnc1NC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-4d77710c-21,
-CC(C)Cn1cc(NC(=O)NCCc2ccc(Cl)cc2)c2ccccc2c1=O,MAT-POS-2492181e-4,
-COc1ccc(OC)c(CCNC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)c1,LON-WEI-4d77710c-48,
-CCCCN(CCNC(=O)Nc1cn(C)c(=O)c2ccccc12)Cc1ccco1,MAT-POS-b5746674-34,
-O=[N+]([O-])c1cnc(Sc2nnc(-c3ccc(Cl)cc3)o2)s1,LON-WEI-4d77710c-67,
-CC(CCc1ccco1)NC(=O)Nc1cn(C)c(=O)c2ccccc12,LON-WEI-4d77710c-39,
-CC(C)Cn1cc(NC(=O)NCCN2CCOCC2)c2ccccc2c1=O,MAT-POS-b5746674-109,
-CC(C)Cn1cc(NC(=O)NCc2ccc3c(c2)OCO3)c2ccccc2c1=O,LON-WEI-4d77710c-55,
-Cc1ccc(CN2CCC(CNC(=O)Nc3cn(CC(C)C)c(=O)c4ccccc34)C2)cc1,MAT-POS-b5746674-108,
-O=C(Nc1cccc(C(F)(F)F)c1)Nc1ccccc1Sc1ncc([N+](=O)[O-])s1,LON-WEI-4d77710c-69,
-O=C(NCc1ccc2c(c1)OCO2)c1nc(S(=O)(=O)Cc2ccccc2)ncc1Cl,LON-WEI-4d77710c-10,
-CC(=O)c1cccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)c1,LON-WEI-4d77710c-6,
-N#Cc1cnn(C(=O)c2cccs2)c1C1CC1,LON-WEI-4d77710c-70,
-COc1ccc(OC)c(CNC(=O)Nc2cn(C)c(=O)c3ccccc23)c1,LON-WEI-4d77710c-1,
-Cn1cc(NC(=O)Nc2cccc(C(F)(F)F)c2)c2ccccc2c1=O,LON-WEI-4d77710c-23,
-CCOC(=O)Cc1csc(NC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)n1,LON-WEI-4d77710c-29,
-O=C(Cc1ccsc1)N1CCN(c2cc(-c3cccs3)n[nH]2)CC1,MAT-POS-ea426761-45,
-Cn1cc(NC(=O)N(Cc2ccco2)CC2CCCO2)c2ccccc2c1=O,MAT-POS-b5746674-37,
-O=S(=O)(Cc1ccccc1F)c1oc(-c2ccc(F)cc2)nc1S(=O)(=O)c1ccccc1,LON-WEI-4d77710c-2,
-O=C(O)[C@@H](c1ccccc1)N1Cc2ccccc2C1=O,LON-WEI-4d77710c-19,
-N#Cc1ccc(CN2CCC(C3CCNC3)CC2)cc1,LON-WEI-4d77710c-32,
-CC(C)Cn1cc(NC(=O)NC2CCCCCC2)c2ccccc2c1=O,LON-WEI-4d77710c-27,
-Cn1cc(NC(=O)NCCCN2CCc3ccccc3C2)c2ccccc2c1=O,MAT-POS-b5746674-98,
-O=c1oc(Nc2ccccc2)nc2ccccc12,MAT-POS-ea426761-13,
-COc1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)c(OC)c1,LON-WEI-4d77710c-18,
-CC(C)Cn1cc(NC(=O)Nc2cccnc2)c2ccccc2c1=O,LON-WEI-4d77710c-22,
-CC(C)Cn1cc(NC(=O)NCCCN2CCCC2=O)c2ccccc2c1=O,MAT-POS-b5746674-100,
-COC(=O)c1c(C)n(S(C)(=O)=O)c2ccc(N(C(=O)c3ccco3)S(C)(=O)=O)cc12,LON-WEI-4d77710c-11,
-CCOC(=O)c1cc(-c2ccccc2)sc1NC(=O)Cc1csc(-c2ccccc2)n1,LON-WEI-4d77710c-24,
-COC(=O)c1c(C)nn(-c2ccccc2)c1-c1cc(C)on1,LON-WEI-4d77710c-63,
-COc1cc(Cl)c(C)cc1NC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-4d77710c-43,
-COc1cc(Cl)c(C)cc1NC(=O)Nc1cn(C)c(=O)c2ccccc12,LON-WEI-4d77710c-36,
-CCCCN(CCCNC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12)c1ccccc1,MAT-POS-b5746674-102,
-COc1cccc(C(=O)Nc2nnc(SCc3ccc(Cl)cc3)[nH]2)c1,MAT-POS-ea426761-10,
-COC(=O)c1sccc1NC(=O)Nc1cn(CC(C)C)c(=O)c2ccccc12,LON-WEI-4d77710c-56,
-O=[N+]([O-])c1cnc(Sc2nccc(-c3cccnc3)n2)s1,LON-WEI-4d77710c-71,
-COC(=O)c1c(C)nn(C(=O)c2cccs2)c1-c1snnc1C,LON-WEI-4d77710c-66,
-CCCc1c(C)[nH]c2[nH]n(-c3ccccc3)c(=O)c2c1=O,LON-WEI-4d77710c-26,
-CC(C)(C)c1ccc(-c2nnc(Sc3cnc([N+](=O)[O-])s3)o2)cc1,LON-WEI-4d77710c-65,
-CC(C)Cn1cc(NC(=O)NCCc2c[nH]c3ccccc23)c2ccccc2c1=O,LON-WEI-4d77710c-20,
-CC(C)Cn1cc(NC(=O)N2CCC(c3ccccc3)C2)c2ccccc2c1=O,MAT-POS-b5746674-101,
-CC(C)Cn1cc(NC(=O)Nc2nc3ccccc3s2)c2ccccc2c1=O,LON-WEI-4d77710c-30,
-CC(C)Cn1cc(NC(=O)NCC2CCCO2)c2ccccc2c1=O,LON-WEI-4d77710c-13,
-CCOC(=O)c1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)cc1,LON-WEI-4d77710c-12,
-CCOC(=O)c1ccc(NC(=O)CC2SC(=O)N(c3ccccc3)C2=O)cc1,LON-WEI-4d77710c-74,
-CC(C)Cn1cc(NC(=O)NC2CCCc3ccccc32)c2ccccc2c1=O,LON-WEI-4d77710c-42,
-CC(C)Cn1cc(NC(=O)N2CCC(Cc3ccccc3)CC2)c2ccccc2c1=O,MAT-POS-b5746674-107,
-Cc1cc(NC(=O)Nc2cn(CC(C)C)c(=O)c3ccccc23)no1,LON-WEI-4d77710c-9,
-CCc1ccccc1N(CC)C(=O)Nc1cn(C)c(=O)c2ccccc12,MAT-POS-b5746674-42,
-Cn1cc(NC(=O)N2CCN(C(=O)c3ccco3)CC2)c2ccccc2c1=O,MAT-POS-b5746674-36,
-O=[N+]([O-])c1cnc(Sc2nnc(-c3ccco3)n2-c2ccc(OCc3ccccc3)cc2)s1,LON-WEI-4d77710c-61,
-c1ccc(-c2cc(Sc3nnc(-c4cccs4)o3)n3ncnc3n2)cc1,LON-WEI-4d77710c-76,
-Cn1cc(NC(=O)NCCc2ccc(Cl)cc2)c2ccccc2c1=O,MAT-POS-2492181e-1,
-COc1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)cc1OC,LON-WEI-4d77710c-5,
-CCOC(=O)c1c(C)n(S(C)(=O)=O)c2ccc(N(C(=O)c3ccco3)S(C)(=O)=O)cc12,LON-WEI-4d77710c-8,
-Cn1cc(NC(=O)NCc2ccccn2)c2ccccc2c1=O,LON-WEI-4d77710c-49,
-CCN(CC)S(=O)(=O)c1ccc(NC(=O)Nc2cn(C)c(=O)c3ccccc23)cc1,LON-WEI-4d77710c-37,
-Nc1n[nH]c2cc(O)nc(O)c12,LON-WEI-4d77710c-62,
-CCOC(=O)N1CCC(NC(=O)Nc2cn(C)c(=O)c3ccccc23)CC1,MAT-POS-b5746674-97,
-Cn1cc(NC(=O)NCCc2ccsc2)c2ccccc2c1=O,MAT-POS-2492181e-5,
-CN(C)c1cncc(CN(C(=O)c2cc(=O)[nH]c3ccccc23)c2cccc(Cl)c2)c1,ALP-POS-ddb41b15-3,
-CN(C)c1ccc(N(Cc2ccccc2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-6d04362c-1,
-O=C(Cc1cc(Cl)cc(CC2CC(=O)N2)c1)Nc1cncc2ccccc12,EDJ-MED-50011917-1,
-O=C(Nc1[nH]nc2cccnc12)C1CCOc2ccc(Cl)cc21,JAG-UCB-52b62a6f-7,
-O=C(Nc1[nH]nc2cccc(F)c12)C1CCOc2ccc(Cl)cc21,JAG-UCB-52b62a6f-5,
-CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-6d04362c-2,
-O=C(Cn1nnc2ccccc21)N(Cc1ccsc1)c1ccc(N2CCCCC2)cc1,ALP-POS-6d04362c-3,
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
+O=C(c1cncc2ccccc12)N1CCN(c2cccc(Cl)c2)CC1,MAT-POS-54c4bf04-3,
+O=C(Nc1c[nH]c(=O)c2ccccc12)C1CCOc2ccc(Cl)cc21,JOH-UNI-f51e3bbc-1,
+CCC(=O)Nc1ccc(N(Cc2ccccc2)C(=O)Nn2nnc3ccccc32)cc1,ALP-POS-a3de0cb1-1,
+O=C(Nc1cncc2ccccc12)C1COc2c(Cl)cccc21,FRA-DIA-c7e803f4-1,
+CC1CN(C(=O)c2cc(=O)[nH]c3ccccc23)CCN1c1cccc(Cl)c1,MAT-POS-54c4bf04-4,
+Cc1ccc(N(Cc2cscn2)C(=O)Cc2cncc3ccccc23)cc1,ALP-POS-c3a96089-1,
+O=C(Cc1cncc2ccccc12)N1CCOc2ccc(Cl)cc21,JOH-UNI-ea1df7a8-1,
+O=C1CC(C(=O)Nc2cncc3ccccc23)c2cc(Br)ccc2N1,MAT-POS-8d5af1ef-1,
+CN1C(=O)CCc2cc(N)ccc21,,not found
+NC1CC2CCCC2C1,,not found
+NC1CCc2cc(F)ccc21,,not found
+NC1COc2ccccc2C1,,not found
+CC(C)S(=O)(=O)c1ccc(N)cc1,,not found
+COC1CC2(CC(N)C2)C1,,not found
+NCc1cccnc1,,not found
+Cn1ncc2cc(N)ccc21,,not found
+CS(=O)(=O)c1ccc(N)cc1,,not found
+Cn1cnc2cc(N)ccc21,,not found
+CS(=O)(=O)Cc1ccc(N)cc1,,not found
+CC(C)Oc1ccc(N)cc1,,not found
+NC1CCCCC1,,not found
+NC1CCCOC1,,not found
+Nc1cccc(Oc2cccnn2)c1,,not found
+Nc1ccc(Cn2cccn2)cc1,,not found
+Nc1ccc(S(=O)(=O)C2CCCC2)cc1,,not found
+Nc1ccc2nc(C(F)(F)F)[nH]c2c1,,not found
+COc1ccc(N)cc1,,not found
+Cn1ccc2cc(N)ccc21,,not found
+Cc1nc2ccc(N)cc2o1,,not found
+NC1CCCCCC1,,not found
+NC1CCc2ccccc21,,not found
+Nc1ccc2ncsc2c1,,not found
+Nc1ccc2c(c1)CCCS2(=O)=O,,not found
+NC1CCN(c2ccccc2F)C1,,not found
+Cc1ccc(N)cc1,,not found
+Nc1ccccc1,,not found
+NC1Cc2ccccc21,,not found
+Nc1ccc2c(c1)CCC(=O)N2CC(F)F,,not found
+NC1CCN(c2ccccc2)C1,,not found
+Nc1ccc(OC2CCOC2)cc1,,not found
+NC1COc2cc(F)ccc21,,not found
+COCc1csc(N)n1,,not found
+Nc1cn(Cc2ccccc2)cn1,,not found
+Nc1ccc2scnc2c1,,not found
+Nc1ccc(C(F)(F)F)nc1,,not found
+Cn1ncc2ccc(N)cc21,,not found
+Nc1ccc(OC(F)F)nc1,,not found
+COc1ccccc1CN,,not found
+Cc1ccccc1CN,,not found
+NC1COC(C2CC2)C1,,not found
+CC1CC(N)CCO1,,not found
+Cc1ccc(N)cc1OC(F)F,,not found
+CN1CCCC(N)C1,,not found
+COc1c(C)cccc1CN,,not found
+Nc1ccc2c(c1)CCOC2,,not found
+COc1cc(C)ccc1CN,,not found
+CCOc1ccc(N)cn1,,not found
+COc1cc(N)ccc1S(=O)(=O)N(C)C,,not found
+Nc1ccc(OC(F)F)cc1,,not found
+COCc1ccc(N)cc1,,not found
+Nc1ccc2c(c1)COCC2,,not found
+CC(N)c1ccccc1,,not found
+N[C@H]1C[C@H](Oc2ccccc2)C1,,not found
+NC1CCC2(CCO2)CC1,,not found
+NC1COC2(CCCC2)C1,,not found
+Cc1ccccc1C(C)N,,not found
+Nc1cccc(C2COC2)c1,,not found
+NC1CCC2OCCC2C1,,not found
+NC1CCCC2(CCC2)C1,,not found
+Nc1ccc(C2COC2)cc1,,not found
+Nc1cnc(C2CCC2)nc1,,not found
+NCc1ccccc1,,not found
+Cc1nc2cc(N)ccc2s1,,not found
+NC1CCOC1,,not found
+CCOc1ccc(N)cc1,,not found
+O=C(O)c1cnc[nH]1,,not found

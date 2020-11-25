@@ -44,3 +44,68 @@ O=C(Nc1cncc2ccc(F)cc12)C1=CCOc2ccc(Cl)cc21,ALP-POS-ce760d3f-5,"Alpha Lee, PostEr
 COc1ccc2cncc(NC(=O)C3=CCOc4ccc(Cl)cc43)c2c1,ALP-POS-ce760d3f-6,"Alpha Lee, PostEra",,False,ALP-POS-ce760d3f-6
 O=C(Nc1cncc2ccc(F)cc12)C1CCOc2ccc(Cl)cc21,ALP-POS-ce760d3f-7,"Alpha Lee, PostEra",,False,ALP-POS-696356e4-1
 O=C1C(c2ccc(Cl)cc2)CCCN1c1cncc2ccccc12,ALP-POS-ce760d3f-8,"Alpha Lee, PostEra",,False,ALP-POS-ce760d3f-8
+O=C(Nc1cncc2ccccc12)[C@]1(O)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-1,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-1
+O=C(Nc1cncc2ccccc12)[C@]1(CO)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-2,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-2
+O=C(Nc1cncc2ccccc12)[C@]1(CCO)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-3,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-3
+N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-4,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-4
+NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-5,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-5
+NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-6,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-6
+NCCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-7,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-7
+O=C(Nc1cncc2ccccc12)[C@]1(CCCO)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-8,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-8
+O=C(O)CC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-9,"Ed Griffen, MedChemica Ltd",,False,JAG-UCB-706446eb-3
+O=C(O)C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-10,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-10
+O=C(O)[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-971238d3-11,"Ed Griffen, MedChemica Ltd",,False,EDG-MED-971238d3-11
+Cc1cccc2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c12,BEN-DND-a7517465-1,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-1
+O=C(Nc1cncc2cccc(O)c12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-a7517465-2,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-2
+O=C(Nc1cncc2cccc(Cl)c12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-a7517465-3,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-3
+C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,BEN-DND-a7517465-4,"Benjamin Perry, DNDi",,False,EDJ-MED-e4b030d8-13
+O=C(Nc1cncc2cccc(F)c12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-a7517465-5,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-5
+COc1cccc2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c12,BEN-DND-a7517465-6,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-6
+O=C(Nc1cnccc1-c1ccccc1)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-a7517465-7,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-7
+O=C(Nc1cncc2c1CNCC2)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-a7517465-8,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-8
+CN1CCc2cncc(NC(=O)[C@@H]3CCOc4ccc(Cl)cc43)c2C1,BEN-DND-a7517465-9,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-9
+O=C(Nc1cncc2c1COCC2)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-a7517465-10,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-10
+Cc1c(NC(=O)[C@@H]2CCOc3ccc(Cl)cc32)cncc1-c1ccccc1F,BEN-DND-a7517465-11,"Benjamin Perry, DNDi",,False,BEN-DND-a7517465-11
+O=C(Cc1cccc(Cl)c1)N(C(=O)C(F)(F)F)c1cncc2ccccc12,JOH-UNI-a38a7bdd-1,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-1
+O=C(Cc1cccc(Cl)c1)N(CC(F)(F)F)c1cncc2ccccc12,JOH-UNI-a38a7bdd-2,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-2
+Cc1ccncc1N(C(=O)Cc1cccc(Cl)c1)C(=O)C(F)(F)F,JOH-UNI-a38a7bdd-3,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-3
+Cc1ccncc1N(CC(F)(F)F)C(=O)Cc1cccc(Cl)c1,JOH-UNI-a38a7bdd-4,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-4
+O=C(Cc1cccc(Cl)c1)N(C(=O)C1CC1F)c1cncc2ccccc12,JOH-UNI-a38a7bdd-5,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-5
+O=C(Cc1cccc(Cl)c1)N(C(=O)C1CC1C(F)(F)F)c1cncc2ccccc12,JOH-UNI-a38a7bdd-6,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-6
+Cc1ccncc1N(C(=O)Cc1cccc(Cl)c1)C(=O)C1CC1C(F)(F)F,JOH-UNI-a38a7bdd-7,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-7
+Cc1ccncc1N(CC1CC1C(F)(F)F)C(=O)Cc1cccc(Cl)c1,JOH-UNI-a38a7bdd-8,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-8
+Cc1ccncc1N(CC1CC1F)C(=O)Cc1cccc(Cl)c1,JOH-UNI-a38a7bdd-9,"John, Uni of Sussex",,False,JOH-UNI-a38a7bdd-9
+O=C(CCl)N(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,PET-UNK-6c2be958-1,Peter Kenny,,True,VLA-UCB-05e51b3f-15
+O=CN(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,PET-UNK-12d8d43f-1,Peter Kenny,,False,PET-UNK-12d8d43f-1
+COC(=O)N(C(=O)Cc1cccc(Cl)c1)c1cncc2ccccc12,PET-UNK-12d8d43f-2,Peter Kenny,,False,PET-UNK-12d8d43f-2
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)nc1,ALP-POS-75715966-1,"Alpha Lee, PostEra",,False,ALP-POS-75715966-1
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)cc1,ALP-POS-75715966-2,"Alpha Lee, PostEra",,False,ALP-POS-75715966-2
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cc(=O)[nH]c3ccccc23)cc1,ALP-POS-75715966-3,"Alpha Lee, PostEra",,False,ALP-POS-75715966-3
+Cc1ccncc1CC(=O)N(Cc1cccc(Cl)c1)c1ccc(N(C)C)cc1,ALP-POS-75715966-4,"Alpha Lee, PostEra",,False,ALP-POS-75715966-4
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cn1,ALP-POS-75715966-5,"Alpha Lee, PostEra",,False,ALP-POS-75715966-5
+C=C(C)[C@H]1O[C@H]2CC[C@@]3(C)[C@@](O)(CC[C@@]4(O)[C@@H]5OC(C)(C)[C@H]6C[C@@H]7C(=C)Cc8c(Cl)cc9[nH]c(c5c9c8[C@]67O)[C@@]43C)[C@]23O[C@@H]3[C@H]1O,JUR-SOU-0920801e-1,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-1
+CC1(O)CCC23COC(=O)C4OC45CCO/C(=C/C/C=C\C(=O)OC4CC6OC2C1CC6(O)C43C)C5O,JUR-SOU-0920801e-2,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-2
+O=C(O)c1cccc(C(=O)CC[C@H]2O[C@@H](n3cnc4c(=O)[nH]cnc43)[C@H](O)[C@@H]2O)c1,JUR-SOU-0920801e-3,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-3
+COc1cccc2c1C(=O)c1ccc3cc(C)c(O[C@@H]4O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]4O)c(O)c3c1C2=O,JUR-SOU-0920801e-4,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-4
+Cc1cc2c(c(=O)[nH]1)C(=O)[C@]1(O)c3c(O)c4c(c5c3[C@@H](C[C@@H]1C2=O)OCO5)O[C@@H]1[C@H](O)C=CC[C@H]1C4=O,JUR-SOU-0920801e-5,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-5
+O=C(O)[C@@H]1Cc2c([nH]c3ccccc23)C2(N1)C(=O)C(c1c[nH]c3ccccc13)=C(c1c[nH]c3ccccc13)C2=O,JUR-SOU-0920801e-6,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-6
+O=C1C[C@H](c2c(O)cc(C(=O)O)c3nc4cccc(O)c4nc23)Cc2nc3cccc(O)c3nc21,JUR-SOU-0920801e-7,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-7
+C/C1=C/C(=O)OC[C@]23CCC(C(=O)O)=C[C@H]2O[C@@H]2C[C@@H](OC(=O)/C=C\C=C/C(=O)OCC1)[C@@]3(C)[C@]21CO1,JUR-SOU-0920801e-8,"Jurica Novak, South Ural State University",,False,JUR-SOU-0920801e-8
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2c(OCCO)cc(Cl)cc21,LAU-MED-88a3970a-1,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-1
+O=C(Nc1cncc2ccccc12)[C@H]1CCOc2c(OCCO)cc(Cl)cc21,LAU-MED-88a3970a-2,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-2
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2c(OCCCO)cc(Cl)cc21,LAU-MED-88a3970a-3,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-3
+O=C(Nc1cncc2ccccc12)[C@H]1CCOc2c(OCCCO)cc(Cl)cc21,LAU-MED-88a3970a-4,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2c(CCCO)cc(Cl)cc21,LAU-MED-88a3970a-5,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-5
+O=C(Nc1cncc2ccccc12)[C@H]1CCOc2c(CCCO)cc(Cl)cc21,LAU-MED-88a3970a-6,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-6
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2c(CCCCO)cc(Cl)cc21,LAU-MED-88a3970a-7,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-7
+O=C(Nc1cncc2ccccc12)[C@H]1CCOc2c(CCCCO)cc(Cl)cc21,LAU-MED-88a3970a-8,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-8
+CS(=O)(=O)CCc1cc(Cl)cc2c1OCC[C@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-9,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-9
+CS(=O)(=O)CCc1cc(Cl)cc2c1OCC[C@@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-10,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-10
+CNCCCc1cc(Cl)cc2c1OCC[C@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-11,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-11
+CNCCCc1cc(Cl)cc2c1OCC[C@@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-12,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-12
+COCCCc1cc(Cl)cc2c1OCC[C@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-13,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-13
+COCCCc1cc(Cl)cc2c1OCC[C@@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-14,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-14
+NS(=O)(=O)CCc1cc(Cl)cc2c1OCC[C@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-15,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-15
+NS(=O)(=O)CCc1cc(Cl)cc2c1OCC[C@@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-16,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-16
+CNC(=O)CCc1cc(Cl)cc2c1OCC[C@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-17,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-17
+CNC(=O)CCc1cc(Cl)cc2c1OCC[C@@H]2C(=O)Nc1cncc2ccccc12,LAU-MED-88a3970a-18,"Lauren Reid, MedChemica",,False,LAU-MED-88a3970a-18

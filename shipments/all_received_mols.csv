@@ -1045,6 +1045,82 @@ O=C(Cn1nnc2ccccc21)N(Cc1ccsc1)c1ccc(N2CCOCC2)cc1,ALP-POS-6d04362c-4,"20201104_en
 O=C(Cn1nnc2ccccc21)N(Cc1ccccc1)c1ccc(N2CCOCC2)cc1,ALP-POS-6d04362c-5,"20201104_enamine_to_xchem.csv, 20201104_enamine_to_oxford.csv, 20201104_enamine_to_chicago.csv, 20201104_enamine_to_weizmann.csv","xchem_Z4754472187_T4065172_ALP-POS-6d04362c-5_Achiral_1181202-Y4-26_05_S, oxford_Z4754472187_T4065172_ALP-POS-6d04362c-5_Achiral_1181202-Y40-26_04_C, chicago_Z4754472187_T4065172_ALP-POS-6d04362c-5_Achiral_1234875-Y40-02_04_C, weizmann_Z4754472187_T4065172_ALP-POS-6d04362c-5_Achiral_1178796-Y40-29_04_C",
 CCC(=O)Nc1ccc(N(Cc2cscn2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-87c86d55-2,"20201104_enamine_to_xchem.csv, 20201104_enamine_to_oxford.csv, 20201104_enamine_to_chicago.csv, 20201104_enamine_to_weizmann.csv","xchem_Z4754462008_T4065171_ALP-POS-87c86d55-2_Achiral_1181202-Y4-26_05_T, oxford_Z4754462008_T4065171_ALP-POS-87c86d55-2_Achiral_1181202-Y40-26_04_D, chicago_Z4754462008_T4065171_ALP-POS-87c86d55-2_Achiral_1234875-Y40-02_04_D, weizmann_Z4754462008_T4065171_ALP-POS-87c86d55-2_Achiral_1178796-Y40-29_04_D",
 Cc1ccc(C(Cc2cnn(C)c2)C(=O)Nc2n[nH]c3ccccc23)cc1,ALP-POS-a3de0cb1-5,"20201104_enamine_to_xchem.csv, 20201104_enamine_to_oxford.csv, 20201104_enamine_to_chicago.csv, 20201104_enamine_to_weizmann.csv","xchem_Z4618924256_H2725321_ALP-POS-a3de0cb1-5_Racemic or presumed racemic or meso_1181202-Y4-26_05_U, oxford_Z4618924256_H2725321_ALP-POS-a3de0cb1-5_Racemic or presumed racemic or meso_1181202-Y40-26_04_E, chicago_Z4618924256_H2725321_ALP-POS-a3de0cb1-5_Racemic or presumed racemic or meso_1234875-Y40-02_04_E, weizmann_Z4618924256_H2725321_ALP-POS-a3de0cb1-5_Racemic or presumed racemic or meso_1178796-Y40-29_04_E",
+O=C(c1cncc2ccccc12)N1CCN(c2cccc(Cl)c2)CC1,MAT-POS-54c4bf04-3,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z734687642_H2764130_Z734687642_Achiral_1181202-Y4-29_05_A, weizmann_Z734687642_H2764130_Z734687642_Achiral_1178796-Y40-32_03_A, oxford_Z734687642_H2764130_Z734687642_Achiral_1181202-Y40-29_03_A",
+O=C(Nc1c[nH]c(=O)c2ccccc12)C1CCOc2ccc(Cl)cc21,JOH-UNI-f51e3bbc-1,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z4763834269_H2751271_Z4763834269_Racemic or presumed racemic or meso_1181202-Y4-29_05_B, weizmann_Z4763834269_H2751271_Z4763834269_Racemic or presumed racemic or meso_1178796-Y40-32_03_B, oxford_Z4763834269_H2751271_Z4763834269_Racemic or presumed racemic or meso_1181202-Y40-29_03_B",
+CCC(=O)Nc1ccc(N(Cc2ccccc2)C(=O)Nn2nnc3ccccc32)cc1,ALP-POS-a3de0cb1-1,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z4618924237_H2756882_Z4618924237_Achiral_1181202-Y4-29_05_C, weizmann_Z4618924237_H2756882_Z4618924237_Achiral_1178796-Y40-32_03_C, oxford_Z4618924237_H2756882_Z4618924237_Achiral_1181202-Y40-29_03_C",
+O=C(Nc1cncc2ccccc12)C1COc2c(Cl)cccc21,FRA-DIA-c7e803f4-1,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z4661830648_H2756863_Z4661830648_Racemic or presumed racemic or meso_1181202-Y4-29_05_D, weizmann_Z4661830648_H2756863_Z4661830648_Racemic or presumed racemic or meso_1178796-Y40-32_03_D, oxford_Z4661830648_H2756863_Z4661830648_Racemic or presumed racemic or meso_1181202-Y40-29_03_D",
+CC1CN(C(=O)c2cc(=O)[nH]c3ccccc23)CCN1c1cccc(Cl)c1,MAT-POS-54c4bf04-4,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z4765682202_H2757857_Z4765682202_Racemic or presumed racemic or meso_1181202-Y4-29_05_E, weizmann_Z4765682202_H2757857_Z4765682202_Racemic or presumed racemic or meso_1178796-Y40-32_03_E, oxford_Z4765682202_H2757857_Z4765682202_Racemic or presumed racemic or meso_1181202-Y40-29_03_E",
+Cc1ccc(N(Cc2cscn2)C(=O)Cc2cncc3ccccc23)cc1,ALP-POS-c3a96089-1,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z4763834270_H2758976_Z4763834270_Achiral_1181202-Y4-29_05_F, weizmann_Z4763834270_H2758976_Z4763834270_Achiral_1178796-Y40-32_03_F, oxford_Z4763834270_H2758976_Z4763834270_Achiral_1181202-Y40-29_03_F",
+O=C(Cc1cncc2ccccc12)N1CCOc2ccc(Cl)cc21,JOH-UNI-ea1df7a8-1,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z4765682194_H2757619_Z4765682194_Achiral_1181202-Y4-29_05_G, weizmann_Z4765682194_H2757619_Z4765682194_Achiral_1178796-Y40-32_03_G, oxford_Z4765682194_H2757619_Z4765682194_Achiral_1181202-Y40-29_03_G",
+O=C1CC(C(=O)Nc2cncc3ccccc23)c2cc(Br)ccc2N1,MAT-POS-8d5af1ef-1,"20201125_enamine_to_xchem.csv, 20201125_enamine_to_weizmann.csv, 20201125_enamine_to_oxford.csv","xchem_Z1892658668_H2757662_Z1892658668_Racemic or presumed racemic or meso_1181202-Y4-29_05_H, weizmann_Z1892658668_H2757662_Z1892658668_Racemic or presumed racemic or meso_1178796-Y40-32_03_H, oxford_Z1892658668_H2757662_Z1892658668_Racemic or presumed racemic or meso_1181202-Y40-29_03_H",
+CN1C(=O)CCc2cc(N)ccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z424789754_*R1564269*_Z424789754_Achiral_1178796-01_02_A,not found
+NC1CC2CCCC2C1,,20201125_enamine_to_weizmann.csv,weizmann_Z4137935444_*R1627507*_Z4137935444_Diastereomeric mixture_1178796-01_02_B,not found
+NC1CCc2cc(F)ccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z802671620_*R965153*_Z802671620_Racemic or presumed racemic or meso_1178796-01_02_C,not found
+NC1COc2ccccc2C1,,20201125_enamine_to_weizmann.csv,weizmann_Z415636540_*R1776598*_Z415636540_Racemic or presumed racemic or meso_1178796-01_02_D,not found
+CC(C)S(=O)(=O)c1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z808591360_*R1296846*_Z808591360_Achiral_1178796-01_02_E,not found
+COC1CC2(CC(N)C2)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z2867460991_*R1304533*_Z2867460991_Achiral_1178796-01_02_F,not found
+NCc1cccnc1,,20201125_enamine_to_weizmann.csv,weizmann_Z104474366_*R1668380*_Z104474366_Achiral_1178796-01_02_G,not found
+Cn1ncc2cc(N)ccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z1201622162_*R1839788*_Z1201622162_Achiral_1178796-01_02_H,not found
+CS(=O)(=O)c1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z85926241_*R996150*_Z85926241_Achiral_1178796-01_03_A,not found
+Cn1cnc2cc(N)ccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z57290792_*R1651610*_Z57290792_Achiral_1178796-01_03_B,not found
+CS(=O)(=O)Cc1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z732208132_*R1204148*_Z732208132_Achiral_1178796-01_03_C,not found
+CC(C)Oc1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z239604714_*R755681*_Z239604714_Achiral_1178796-01_03_D,not found
+NC1CCCCC1,,20201125_enamine_to_weizmann.csv,weizmann_Z1945707495_*R227917*_Z1945707495_Achiral_1178796-01_03_E,not found
+NC1CCCOC1,,20201125_enamine_to_weizmann.csv,weizmann_Z2106605931_*R1692516*_Z2106605931_Racemic or presumed racemic or meso_1178796-01_03_F,not found
+Nc1cccc(Oc2cccnn2)c1,,20201125_enamine_to_weizmann.csv,weizmann_Z1262398525_*R604746*_Z1262398525_Achiral_1178796-01_03_G,not found
+Nc1ccc(Cn2cccn2)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z239137446_*R230713*_Z239137446_Achiral_1178796-01_03_H,not found
+Nc1ccc(S(=O)(=O)C2CCCC2)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z359291938_*R228795*_Z359291938_Achiral_1178796-01_04_A,not found
+Nc1ccc2nc(C(F)(F)F)[nH]c2c1,,20201125_enamine_to_weizmann.csv,weizmann_Z3234815724_*R1775903*_Z3234815724_Achiral_1178796-01_04_B,not found
+COc1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z56938150_*R1397032*_Z56938150_Achiral_1178796-01_04_C,not found
+Cn1ccc2cc(N)ccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z385461802_*R1312886*_Z385461802_Achiral_1178796-01_04_D,not found
+Cc1nc2ccc(N)cc2o1,,20201125_enamine_to_weizmann.csv,weizmann_Z235353833_*R1308127*_Z235353833_Achiral_1178796-01_04_E,not found
+NC1CCCCCC1,,20201125_enamine_to_weizmann.csv,weizmann_Z104477488_*R1879359+7*_Z104477488_Achiral_1178796-01_04_F,not found
+NC1CCc2ccccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z1741978691_*R847416*_Z1741978691_Racemic or presumed racemic or meso_1178796-01_04_G,not found
+Nc1ccc2ncsc2c1,,20201125_enamine_to_weizmann.csv,weizmann_Z323039114_*R1632569*_Z323039114_Achiral_1178796-01_04_H,not found
+Nc1ccc2c(c1)CCCS2(=O)=O,,20201125_enamine_to_weizmann.csv,weizmann_Z1813166616_*R1322891*_Z1813166616_Achiral_1178796-01_05_A,not found
+NC1CCN(c2ccccc2F)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z415647678_*R1075855*_Z415647678_Racemic or presumed racemic or meso_1178796-01_05_B,not found
+Cc1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z1954805264_*R1090856*_Z1954805264_Achiral_1178796-01_05_C,not found
+Nc1ccccc1,,20201125_enamine_to_weizmann.csv,weizmann_Z57127905_*R1741889*_Z57127905_Achiral_1178796-01_05_D,not found
+NC1Cc2ccccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z1918018858_*R1799180*_Z1918018858_Racemic or presumed racemic or meso_1178796-01_05_E,not found
+Nc1ccc2c(c1)CCC(=O)N2CC(F)F,,20201125_enamine_to_weizmann.csv,weizmann_Z608352686_*R147796*_Z608352686_Achiral_1178796-01_05_F,not found
+NC1CCN(c2ccccc2)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z415647888_*R1561129*_Z415647888_Racemic or presumed racemic or meso_1178796-01_05_G,not found
+Nc1ccc(OC2CCOC2)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z1138838331_*R435794*_Z1138838331_Racemic or presumed racemic or meso_1178796-01_05_H,not found
+NC1COc2cc(F)ccc21,,20201125_enamine_to_weizmann.csv,weizmann_Z3014279399_*R1005404*_Z3014279399_Racemic or presumed racemic or meso_1178796-01_06_A,not found
+COCc1csc(N)n1,,20201125_enamine_to_weizmann.csv,weizmann_Z381058668_*R448554*_Z381058668_Achiral_1178796-01_06_B,not found
+Nc1cn(Cc2ccccc2)cn1,,20201125_enamine_to_weizmann.csv,weizmann_Z3285863621_*R1192757*_Z3285863621_Achiral_1178796-01_06_C,not found
+Nc1ccc2scnc2c1,,20201125_enamine_to_weizmann.csv,weizmann_Z425486860_*R487830*_Z425486860_Achiral_1178796-01_06_D,not found
+Nc1ccc(C(F)(F)F)nc1,,20201125_enamine_to_weizmann.csv,weizmann_Z1203161729_*R1637084*_Z1203161729_Achiral_1178796-01_06_E,not found
+Cn1ncc2ccc(N)cc21,,20201125_enamine_to_weizmann.csv,weizmann_Z444871566_*R1251554*_Z444871566_Achiral_1178796-01_06_F,not found
+Nc1ccc(OC(F)F)nc1,,20201125_enamine_to_weizmann.csv,weizmann_Z1139192615_*R980686*_Z1139192615_Achiral_1178796-01_06_G,not found
+COc1ccccc1CN,,20201125_enamine_to_weizmann.csv,weizmann_Z57102476_*R1533994+M*_Z57102476_Achiral_1178796-01_06_H,not found
+Cc1ccccc1CN,,20201125_enamine_to_weizmann.csv,weizmann_Z54751091_*R1748583*_Z54751091_Achiral_1178796-01_07_A,not found
+NC1COC(C2CC2)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z2489381112_*R833167*_Z2489381112_Diastereomeric mixture_1178796-01_07_B,not found
+CC1CC(N)CCO1,,20201125_enamine_to_weizmann.csv,weizmann_Z1192341415_*R1321818*_Z1192341415_Diastereomeric mixture_1178796-01_07_C,not found
+Cc1ccc(N)cc1OC(F)F,,20201125_enamine_to_weizmann.csv,weizmann_Z425864508_*R599124*_Z425864508_Achiral_1178796-01_07_D,not found
+CN1CCCC(N)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z600584196_*R1674152*_Z600584196_Racemic or presumed racemic or meso_1178796-01_07_E,not found
+COc1c(C)cccc1CN,,20201125_enamine_to_weizmann.csv,weizmann_Z1255363973_*R614187*_Z1255363973_Achiral_1178796-01_07_F,not found
+Nc1ccc2c(c1)CCOC2,,20201125_enamine_to_weizmann.csv,weizmann_Z2522388564_*R1420217*_Z2522388564_Achiral_1178796-01_07_G,not found
+COc1cc(C)ccc1CN,,20201125_enamine_to_weizmann.csv,weizmann_Z972654296_*R1143965*_Z972654296_Achiral_1178796-01_07_H,not found
+CCOc1ccc(N)cn1,,20201125_enamine_to_weizmann.csv,weizmann_Z240084310_*R512524*_Z240084310_Achiral_1178796-01_08_A,not found
+COc1cc(N)ccc1S(=O)(=O)N(C)C,,20201125_enamine_to_weizmann.csv,weizmann_Z406723200_*R181485*_Z406723200_Achiral_1178796-01_08_B,not found
+Nc1ccc(OC(F)F)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z56899041_*R941059*_Z56899041_Achiral_1178796-01_08_C,not found
+COCc1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z240084568_*R1600098*_Z240084568_Achiral_1178796-01_08_D,not found
+Nc1ccc2c(c1)COCC2,,20201125_enamine_to_weizmann.csv,weizmann_Z1486006672_*R1525633*_Z1486006672_Achiral_1178796-01_08_E,not found
+CC(N)c1ccccc1,,20201125_enamine_to_weizmann.csv,weizmann_Z57102377_*R842427*_Z57102377_Racemic or presumed racemic or meso_1178796-01_08_F,not found
+N[C@H]1C[C@H](Oc2ccccc2)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z2512961832_*R1491757*_Z2512961832_Single known enantiomer_1178796-01_08_G,not found
+NC1CCC2(CCO2)CC1,,20201125_enamine_to_weizmann.csv,weizmann_Z3462569084_*R1798849*_Z3462569084_Diastereomeric mixture_1178796-01_08_H,not found
+NC1COC2(CCCC2)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z2738327317_*R833970*_Z2738327317_Racemic or presumed racemic or meso_1178796-01_09_A,not found
+Cc1ccccc1C(C)N,,20201125_enamine_to_weizmann.csv,weizmann_Z56347267_*R1451143*_Z56347267_Racemic or presumed racemic or meso_1178796-01_09_B,not found
+Nc1cccc(C2COC2)c1,,20201125_enamine_to_weizmann.csv,weizmann_Z1813155140_*R1703397*_Z1813155140_Achiral_1178796-01_09_C,not found
+NC1CCC2OCCC2C1,,20201125_enamine_to_weizmann.csv,weizmann_Z2732452804_*R1056478*_Z2732452804_Diastereomeric mixture_1178796-01_09_D,not found
+NC1CCCC2(CCC2)C1,,20201125_enamine_to_weizmann.csv,weizmann_Z1255393639_*R1475587*_Z1255393639_Racemic or presumed racemic or meso_1178796-01_09_E,not found
+Nc1ccc(C2COC2)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z1278924729_*R1768396*_Z1278924729_Achiral_1178796-01_09_F,not found
+Nc1cnc(C2CCC2)nc1,,20201125_enamine_to_weizmann.csv,weizmann_Z1255407019_*R1347551*_Z1255407019_Achiral_1178796-01_09_G,not found
+NCc1ccccc1,,20201125_enamine_to_weizmann.csv,weizmann_Z54748260_*R1562658*_Z54748260_Achiral_1178796-01_09_H,not found
+Cc1nc2cc(N)ccc2s1,,20201125_enamine_to_weizmann.csv,weizmann_Z2901974823_*R890273*_Z2901974823_Achiral_1178796-01_10_A,not found
+NC1CCOC1,,20201125_enamine_to_weizmann.csv,weizmann_Z1741979140_*R2383443*_Z1741979140_Racemic or presumed racemic or meso_1178796-01_10_B,not found
+CCOc1ccc(N)cc1,,20201125_enamine_to_weizmann.csv,weizmann_Z2679312510_*R1066554*_Z2679312510_Achiral_1178796-01_10_C,not found
+O=C(O)c1cnc[nH]1,,20201125_enamine_to_weizmann.csv,weizmann_Z993967082_*R1484346*_EN300-62808_Achiral_1178796-BB_01_A,not found
 Cc1ccncc1NC(=O)[C@@H]1CCOc2ccc(Cl)cc21,MAT-POS-b3e365b9-4,"20201006_enamine_to_oxford.csv, 20201006_enamine_to_xchem.csv, 20201006_enamine_to_weizmann.csv","oxford_Z4655841289_batch-unknown_MAT-POS-b3e365b9-4_Single known enantiomer_1181202-Y40-22_03_A, xchem_Z4655841289_batch-unknown_MAT-POS-b3e365b9-4_Single known enantiomer_1181202-Y4-22_05_A, weizmann_Z4655841289_batch-unknown_MAT-POS-b3e365b9-4_Single known enantiomer_1178796-Y40-25_03_A",
 Cc1ccncc1NC(=O)[C@H]1CCOc2ccc(Cl)cc21,MAT-POS-b3e365b9-3,"20201006_enamine_to_oxford.csv, 20201006_enamine_to_xchem.csv, 20201006_enamine_to_weizmann.csv","oxford_Z4655841051_batch-unknown_MAT-POS-b3e365b9-3_Single known enantiomer_1181202-Y40-22_03_B, xchem_Z4655841051_batch-unknown_MAT-POS-b3e365b9-3_Single known enantiomer_1181202-Y4-22_05_B, weizmann_Z4655841051_batch-unknown_MAT-POS-b3e365b9-3_Single known enantiomer_1178796-Y40-25_03_B",
 O=C(Cc1cc(Cl)ccn1)Nc1cncc2ccccc12,PET-UNK-3c72d439-1,"20201006_enamine_to_oxford.csv, 20201006_enamine_to_xchem.csv, 20201006_enamine_to_weizmann.csv","oxford_Z4655756147_batch-unknown_PET-UNK-3c72d439-1_Achiral_1181202-Y40-22_03_C, xchem_Z4655756147_batch-unknown_PET-UNK-3c72d439-1_Achiral_1181202-Y4-22_05_C, weizmann_Z4655756147_batch-unknown_PET-UNK-3c72d439-1_Achiral_1178796-Y40-25_03_C",
