@@ -1,14 +1,6 @@
 SMILES,CID,comments
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
-O=C(c1cncc2ccccc12)N1CCN(c2cccc(Cl)c2)CC1,MAT-POS-54c4bf04-3,
-O=C(Nc1c[nH]c(=O)c2ccccc12)C1CCOc2ccc(Cl)cc21,JOH-UNI-f51e3bbc-1,
-CCC(=O)Nc1ccc(N(Cc2ccccc2)C(=O)Nn2nnc3ccccc32)cc1,ALP-POS-a3de0cb1-1,
-O=C(Nc1cncc2ccccc12)C1COc2c(Cl)cccc21,FRA-DIA-c7e803f4-1,
-CC1CN(C(=O)c2cc(=O)[nH]c3ccccc23)CCN1c1cccc(Cl)c1,MAT-POS-54c4bf04-4,
-Cc1ccc(N(Cc2cscn2)C(=O)Cc2cncc3ccccc23)cc1,ALP-POS-c3a96089-1,
-O=C(Cc1cncc2ccccc12)N1CCOc2ccc(Cl)cc21,JOH-UNI-ea1df7a8-1,
-O=C1CC(C(=O)Nc2cncc3ccccc23)c2cc(Br)ccc2N1,MAT-POS-8d5af1ef-1,
 CN1C(=O)CCc2cc(N)ccc21,,not found
 NC1CC2CCCC2C1,,not found
 NC1CCc2cc(F)ccc21,,not found
