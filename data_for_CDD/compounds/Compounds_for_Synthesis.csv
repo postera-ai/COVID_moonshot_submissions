@@ -947,6 +947,18 @@ O=C(O)[C@@H](Cc1nc(=O)cc[nH]1)NC[C@@H]1C[C@@H]2C=C[C@H]1C2,FRA-BIO-8bf1eac9-9,20
 O=C(NCc1ccccc1OCCO)C(=O)N[C@H]1C[C@H]1C1CCOCC1,FRA-BIO-8bf1eac9-10,20200518_biosolveit_to_enamine.csv,
 CC[C@@H]1CN=C(NCc2ccccc2CN2CCN(CC)CC2)N1,FRA-BIO-8bf1eac9-11,20200518_biosolveit_to_enamine.csv,
 O=C(c1ccccc1)N1C[C@@H](CNCc2c[nH]cn2)N2CC[C@H]1C2,FRA-BIO-8bf1eac9-13,20200518_biosolveit_to_enamine.csv,
+O=C1COCCN1CCO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,,20201201_moonshot_to_enamine.csv,not found
+O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NC1CC1,,20201201_moonshot_to_enamine.csv,not found
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,PET-UNK-29afea89-2,20201201_moonshot_to_enamine.csv,
+CC(C(N)=O)c1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,,20201201_moonshot_to_enamine.csv,not found
+O=C(Cc1cc(Cl)cc(-c2nnc[nH]2)c1)Nc1cncc2ccccc12,RAL-THA-1d44ff04-8,20201201_moonshot_to_enamine.csv,
+O=C(Cc1cc(Cl)cc(-c2nnn[nH]2)c1)Nc1cncc2ccccc12,,20201201_moonshot_to_enamine.csv,not found
+O=C(Nc1cncc2ccccc12)[C@@H]1CCNc2ccc(Cl)cc21,ALP-POS-477dc5b7-2,20201201_moonshot_to_enamine.csv,imperfect stereochemical match for ALP-POS-477dc5b7-2
+O=C(Nc1cncc2ccccc12)[C@H]1CCNc2ccc(Cl)cc21,ALP-POS-477dc5b7-2,20201201_moonshot_to_enamine.csv,imperfect stereochemical match for ALP-POS-477dc5b7-2
+O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MIC-UNK-45817b9b-1,20201201_moonshot_to_enamine.csv,imperfect stereochemical match for MIC-UNK-45817b9b-1
+NC(=O)N1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,RAL-THA-4aa06b95-1,20201201_moonshot_to_enamine.csv,
+CN1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,MIC-UNK-91acba05-6,20201201_moonshot_to_enamine.csv,
+O=C(Nc1cncc2ccccc12)[C@]1(OCCO)CCOc2ccc(Cl)cc21,ED_-GRI-5b13fbe2-72,20201201_moonshot_to_enamine.csv,
 Cc1ccncc1NC(=O)Cc1cccc(OC2CC(=O)N2)c1,BRU-LEF-c49414a7-1,20200603_moonshot_to_enamine.csv,
 CN(C)c1ccc(N(Cc2ccccc2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-6d04362c-1,20200825_moonshot_to_sai.csv,
 CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,ALP-POS-6d04362c-2,20200825_moonshot_to_sai.csv,
