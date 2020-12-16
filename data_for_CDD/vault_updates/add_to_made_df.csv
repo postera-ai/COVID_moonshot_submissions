@@ -1,17 +1,11 @@
 SMILES,CID,comments
-COc1ccccc1OCCNC(=O)C1CC(=O)Nc2ccccc21,MAT-POS-35d3f55a-1,
-O=C(Nc1cncc2cnccc12)[C@@H]1CCOc2ccc(Cl)cc21,BEN-DND-4f474d93-1,
-O=C(Nc1cncc2cnccc12)[C@H]1CCOc2ccc(Cl)cc21,ALP-POS-ce760d3f-2,
-O=C(Nc1cncc2ccc(F)cc12)C1=CCOc2ccc(Cl)cc21,ALP-POS-ce760d3f-5,
-O=C(Cc1cncc2ccccc12)N(CCC1CCCCC1)Cc1cccs1,ALP-POS-64a710fa-1,
-COc1ccc2cncc(NC(=O)C3=CCOc4ccc(Cl)cc43)c2c1,ALP-POS-ce760d3f-6,
-O=C(Cc1cccc(Cl)c1)Nc1cncc2c1CCCN2,MAT-POS-14ad9fe9-1,
-COc1ccc(Cl)cc1OCCNC(=O)c1cc(=O)[nH]c2cccc(OC)c12,MAT-POS-3b536971-1,
-O=C1C(c2ccc(Cl)cc2)CCCN1c1cncc2ccccc12,ALP-POS-ce760d3f-8,
 O=C(O)C1CCOc2ccc(Cl)cc21,,not found
 NC1(C(=O)O)CCOc2ccccc21,,not found
 Clc1cccc(CN2CCNCC2)c1,,not found
 Clc1ccc2c(c1)NCCO2,,not found
+O=C(Cc1cc(Cl)cc(Br)c1)Nc1cncc2ccccc12,,not found
+O=C(Cc1cc(Cl)cc(B(O)O)c1)Nc1cncc2ccccc12,,not found
+CC1(C)OB(c2cc(Cl)cc(CC(=O)Nc3cncc4ccccc34)c2)OC1(C)C,,not found
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
 CN1C(=O)CCc2cc(N)ccc21,,not found

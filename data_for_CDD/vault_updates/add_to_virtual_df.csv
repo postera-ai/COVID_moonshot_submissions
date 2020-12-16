@@ -1,135 +1,25 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-NC(=O)CNCC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-1,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-1
-NCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-2,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-2
-NC[C@@H](F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-3,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-3
-NC[C@H](F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-4,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-4
-N[C@H](CF)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-5,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-5
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cn(CC2CNC2)nn1,EDG-MED-90036822-6,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-6
-NCCCN1CC(C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1=O,EDG-MED-90036822-7,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-7
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)c1cn[nH]c1,EDG-MED-90036822-8,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-8
-CNCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-9,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-9
-C[C@H](N)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-10,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-10
-C[C@@H](N)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-11,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-11
-NC(=O)C1CCN1C/C=C/C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-12,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-12
-O=C(CO)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-13,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-13
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(O)CCN1CCOCC1,EDG-MED-90036822-14,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-14
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)CO,EDG-MED-90036822-15,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-15
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@H](O)CF,EDG-MED-90036822-16,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-16
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(O)CF,EDG-MED-90036822-17,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-17
-O=C(Cn1ccnc1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-18,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-18
-Cn1ccnc1C(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-19,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-19
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)c1cnc[nH]1,EDG-MED-90036822-20,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-20
-CN(C)CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-21,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-21
-CC(CN)(CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)OCCO,EDG-MED-90036822-22,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-22
-CC(N)CCc1[nH]nnc1C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-23,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-23
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1(F)COC1,EDG-MED-90036822-24,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-24
-Cn1cnc(C(F)C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)c1,EDG-MED-90036822-25,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-25
-Cn1cncc1C(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-26,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-26
-NCC(OCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)F,EDG-MED-90036822-27,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-27
-C[C@H](O)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-28,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-28
-C[C@@H](O)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-29,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-29
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)CNC1COC1,EDG-MED-90036822-30,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-30
-O=C(Cc1ncc[nH]1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-31,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-31
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1n[nH]cc1F,EDG-MED-90036822-32,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-32
-COC(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-33,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-33
-COCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-34,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-34
-N[C@H]1C[C@@H](C(F)C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,EDG-MED-90036822-35,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-35
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)n1ccnc1,EDG-MED-90036822-36,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-36
-CC(O)C(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-37,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-37
-CC(O)CNCC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-38,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-38
-CC(CO)NCC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-39,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-39
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)CN1CC(O)C1,EDG-MED-90036822-40,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-40
-Cn1ccnc1CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-41,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-41
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC(N2CC(O)C2)C1,EDG-MED-90036822-42,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-42
-Cc1cncn1CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-43,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-43
-O=C(CCF)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-44,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-44
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)c1ncc[nH]1,EDG-MED-90036822-45,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-45
-COCCNCC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-46,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-46
-C[C@@H](C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N(C)C,EDG-MED-90036822-47,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-47
-C[C@H](C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N(C)C,EDG-MED-90036822-48,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-48
-O=C(Cc1cnc[nH]1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-49,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-49
-O=C(Cc1c[nH]cn1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-50,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-50
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(O)CCF,EDG-MED-90036822-51,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-51
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)CNCCCO,EDG-MED-90036822-52,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-52
-CCn1cnc(C(F)C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)c1,EDG-MED-90036822-53,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-53
-O=C(CCn1ccnc1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-54,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-54
-NC1CN(c2ccc(C(=O)N[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)cn2)C1,EDG-MED-90036822-55,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-55
-N#CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-56,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-56
-NC(CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)F,EDG-MED-90036822-57,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-57
-NC(CF)CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-58,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-58
-N[C@H](CF)CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-59,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-59
-CC(C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)n1ccnc1,EDG-MED-90036822-60,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-60
-O=C(CN1CCC1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-61,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-61
-CN(C)CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-62,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-62
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)F,EDG-MED-90036822-63,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-63
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CN(CC(F)F)C1,EDG-MED-90036822-64,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-64
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CN(CCF)C1,EDG-MED-90036822-65,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-65
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cn[nH]c1F,EDG-MED-90036822-66,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-66
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)c1cnc[nH]1,EDG-MED-90036822-67,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-67
-CN(CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC1,EDG-MED-90036822-68,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-68
-NC[C@@]1(F)CC[C@H](C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,EDG-MED-90036822-69,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-69
-NC[C@@]1(F)CC[C@@H](C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,EDG-MED-90036822-70,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-70
-O=C1NCCN1CC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-71,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-71
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cc(F)n[nH]1,EDG-MED-90036822-72,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-72
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1C2CCCN21,EDG-MED-90036822-73,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-73
-CN1CC(F)CC1C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-74,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-74
-CN1C[C@H](F)C[C@H]1C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-75,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-75
-O=C(Nc1cncc2ccccc12)[C@]1(NC(=O)[C@H]2C[C@@](F)(CO)C2)CCOc2ccc(Cl)cc21,EDG-MED-90036822-76,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-76
-O=C(Nc1cncc2ccccc12)[C@]1(NC(=O)[C@H]2C[C@](F)(CO)C2)CCOc2ccc(Cl)cc21,EDG-MED-90036822-77,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-77
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)C(O)C1CC1,EDG-MED-90036822-78,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-78
-Cc1[nH]nc(C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)c1F,EDG-MED-90036822-79,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-79
-CC(C#N)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-80,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-80
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)CC1CNC1,EDG-MED-90036822-81,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-81
-O=C(CCc1ncc[nH]1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-82,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-82
-CN1CCC(C(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,EDG-MED-90036822-83,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-83
-N#CC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-84,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-84
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1C[C@@H](O)[C@H](F)C1,EDG-MED-90036822-85,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-85
-CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-86,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-86
-CN(C)CC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-87,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-87
-NCC(CCF)CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-88,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-88
-O=C(CC1CCC2(CNC2)CO1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-89,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-89
-NC(C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1ccccc1F,EDG-MED-90036822-90,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-90
-NC(C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cccc(F)c1,EDG-MED-90036822-91,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-91
-CN(CCC#N)CC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-92,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-92
-O=C(CCc1c[nH]cn1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-93,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-93
-CC1CC1C(O)C(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-94,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-94
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)C1CCNCC1,EDG-MED-90036822-95,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-95
-NC(CCF)CCC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-96,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-96
-CN1CCC([C@@H](O)CC(=O)N[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,EDG-MED-90036822-97,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-97
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CCCN1CC(F)F,EDG-MED-90036822-98,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-98
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)C(O)C1CCC1,EDG-MED-90036822-99,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-99
-O=C(CCF)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-100,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-100
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(O)C1CC(F)(F)C1,EDG-MED-90036822-101,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-101
-CCN(CC)CC(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-102,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-102
-NCC1CC2(C1)CC(C(=O)N[C@@]1(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc31)C2,EDG-MED-90036822-103,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-103
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1ncc(C2CCNC2)cn1,EDG-MED-90036822-104,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-104
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)(F)CNC1CC1,EDG-MED-90036822-105,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-105
-NCCC(F)(F)CC(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-106,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-106
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cc(F)c[nH]1,EDG-MED-90036822-107,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-107
-O=C(N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(F)C(O)CC1CC1,EDG-MED-90036822-108,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-108
-O=C(CCN1CCC(F)C1)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-109,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-109
-CCN(C)CC(F)(F)C(=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-90036822-110,"Ed Griffen, MedChemica",,False,EDG-MED-90036822-110
-O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,EDJ-MED-a6bd50ad-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-a6bd50ad-1
-O=C(Nc1cncc2ccccc12)[C@@H]1CCNc2ccc(Cl)cc21,EDJ-MED-92e193ae-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-92e193ae-1
-O=C(Nc1cncc2ccccc12)[C@H]1CCNc2ccc(Cl)cc21,EDJ-MED-92e193ae-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-92e193ae-2
-O=C(Nc1cncc2ccccc12)[C@]1(OC[C@@H]2C[C@@H](CO)CO2)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-1,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-1
-O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@H]1COCCO1,CHO-MSK-5891c1ff-2,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-2
-O=C1OCCN1CCO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-3,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-3
-NC(=O)[C@H]1CCCN(C(=O)CO[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,CHO-MSK-5891c1ff-4,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-4
-O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@@H]1CCS(=O)(=O)C1,CHO-MSK-5891c1ff-5,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-5
-O=C1COCCN1CCO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-6,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-6
-O=C(Nc1cncc2ccccc12)[C@]1(OCc2n[nH]c(=O)s2)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-7,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-7
-O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NC1CC1,CHO-MSK-5891c1ff-8,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-8
-O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NCC(F)F,CHO-MSK-5891c1ff-9,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-9
-O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCC1,CHO-MSK-5891c1ff-10,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-10
-N#CCCNC(=O)CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-11,"Chodera Lab, MSKCC",,False,CHO-MSK-5891c1ff-11
-O=C(Nc1cncc2ccccc12)[C@]1(OCCc2cn[nH]c2)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-12,"Chodera Lab, MSKCC",,False,EDJ-MED-28ec730d-5
-CC(C(N)=O)c1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,MAT-POS-281d2ee9-1,"Matt Robinson, PostEra",,False,MAT-POS-281d2ee9-1
-O=C(Cc1cc(Cl)cc(-c2nnc[nH]2)c1)Nc1cncc2ccccc12,MAT-POS-281d2ee9-2,"Matt Robinson, PostEra",,False,RAL-THA-1d44ff04-8
-O=C(Cc1cc(Cl)cc(-c2nnn[nH]2)c1)Nc1cncc2ccccc12,MAT-POS-281d2ee9-3,"Matt Robinson, PostEra",,False,MAT-POS-281d2ee9-3
-CC(C)(C)c1ccc(N(C(=O)C2(C#N)CC2)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,PET-UNK-7d68125a-1,Peter Kenny,,False,PET-UNK-7d68125a-1
-CC(C)(C#N)C(=O)N(c1ccc(C(C)(C)C)cc1)C(C(=O)NCCc1cccc(F)c1)c1cccnc1,PET-UNK-7d68125a-2,Peter Kenny,,False,PET-UNK-7d68125a-2
-CC(C)(C)c1ccc(N(C(=O)C(F)(F)C#N)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,PET-UNK-7d68125a-3,Peter Kenny,,False,PET-UNK-7d68125a-3
-CC(C)(C)c1ccc(N(C(=O)CC#N)C(C(=O)NCCc2cccc(F)c2)c2cccnc2)cc1,PET-UNK-7d68125a-4,Peter Kenny,,False,PET-UNK-7d68125a-4
-CN1CCN(C(=O)Cc2cnc3[nH]cccc2-3)CC1(C)C,TIM-INF-fd8b8e92-1,"Tim Dudgeon, Informatics Matters",,False,TIM-INF-fd8b8e92-1
-O=c1[nH]c2nccc(F)c2cc1-c1cccc(Cl)c1,MAT-POS-67c9d7d9-1,"Matt Robinson, PostEra",,False,MAT-POS-67c9d7d9-1
+CN(C)c1ccc(N(Cc2cccc(C3CC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-1,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-1
+CN(C)c1ccc(N(Cc2cc(Cl)cc(C3CC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-2,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-2
+COc1cc(Cl)cc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(N(C)C)cc2)c1,DAR-DIA-093892e4-3,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-3
+COc1cc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(N(C)C)cc2)cc(C2CC2)c1,DAR-DIA-093892e4-4,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-4
+CN(C)c1ccc(N(Cc2cccc(C(F)(F)F)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-5,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-5
+CN(C)c1ccc(N(Cc2cc(Cl)cc(C(F)(F)F)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-6,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-6
+CN(C)c1ccc(N(Cc2cc(Cl)cc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-7,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-7
+CN(C)c1ccc(N(Cc2cccc(C3CCC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-8,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-8
+CN(C)c1ccc(N(Cc2cccc(N3CCC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-9,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-9
+CN(C)c1ccc(N(Cc2cc(Cl)cc(N3CCC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-10,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-10
+O=C(Cn1nnc2ccccc21)N(Cc1cccc(Cl)c1)c1ccc(N2CC2)cc1,DAR-DIA-093892e4-11,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-11
+O=C(Cn1nnc2ccccc21)N(Cc1cccc(Cl)c1)c1ccc(C2CC2)cc1,DAR-DIA-093892e4-12,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-12
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)nc1,MAT-POS-6c284e65-1,"Matt Robinson, PostEra",,False,MAT-POS-6c284e65-1
+CC(=O)Nc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)cn1,MAT-POS-6c284e65-2,"Matt Robinson, PostEra",,False,ALP-POS-c3a96089-4
+O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)c(Cl)cc21,ALP-POS-869ac754-1,"Alpha Lee, PostEra",,False,ALP-POS-869ac754-1
+O=C(Nc1cncc2ccccc12)C1CCOc2c1ccc(Cl)c2Cl,ALP-POS-869ac754-2,"Alpha Lee, PostEra",,False,ALP-POS-869ac754-2
+O=C1CC(O)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MAT-POS-c7771779-1,"Matt Robinson, PostEra",,False,MAT-POS-c7771779-1
+COC1(C(=O)Nc2cncc3ccccc23)CC(=O)Nc2ccc(Cl)cc21,MAT-POS-c7771779-2,"Matt Robinson, PostEra",,False,MAT-POS-c7771779-2
+O=C1C[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MAT-POS-43c25e9b-1,"Matt Robinson, PostEra",,False,MAT-POS-43c25e9b-1
+O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MAT-POS-43c25e9b-2,"Matt Robinson, PostEra",,False,EDJ-MED-a6bd50ad-1
+O=C(N[C@@H](CC1CCCCC1)C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)O)OCc1cccc(Br)c1,NIC-UNK-21c5e845-1,Nicholas Balasus,,False,NIC-UNK-21c5e845-1
+O=C(N[C@@H](CC1CCCCC1)C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)O)OCc1cccc(Cl)c1,NIC-UNK-21c5e845-2,Nicholas Balasus,,False,NIC-UNK-21c5e845-2
+CC(C)C[C@H](NC(=O)OCc1cccc(F)c1)C(=O)N[C@@H](CC1CCNC1=O)C(O)S(=O)(=O)O,NIC-UNK-21c5e845-3,Nicholas Balasus,,False,NIC-UNK-21c5e845-3
+CC(C)C[C@H](NC(=O)OCCC1CCCCC1)C(=O)N[C@@H](CC1CCNC1=O)C(O)S(=O)(=O)O,NIC-UNK-21c5e845-4,Nicholas Balasus,,False,NIC-UNK-21c5e845-4
