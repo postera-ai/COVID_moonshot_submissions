@@ -582,6 +582,23 @@ CCCc1cc2c(cc1S(=O)(=O)N1CCN(c3ccccc3)CC1)OCO2,ROD-LAS-d5538ff9-8,20200606_RioFed
 O=C(Nc1ccccc1)Nc1cnc2ccc([N+](=O)[O-])cc2n1,ROD-LAS-d5538ff9-9,20200606_RioFedUni_to_enamine.csv,
 COc1c(Cl)cccc1OCCNC(=O)c1cc(=O)[nH]c2ccccc12,ALP-POS-3fc1724e-1,20200709_moonshot_to_wuxi.csv,
 O=C1CC(Oc2cc(Cl)cc(OCCNC(=O)c3cc(=O)[nH]c4ccccc34)c2)N1,ERI-UCB-ce40166b-17,20200709_moonshot_to_wuxi.csv,
+CN(C)CC(=O)NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDJ-MED-4c7486ba-1,20201214_moonshot_to_enamine.csv,
+O=C(Cn1ccnc1)NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDJ-MED-4c7486ba-2,20201214_moonshot_to_enamine.csv,
+O=C(Cc1cnc[nH]1)NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDJ-MED-4c7486ba-3,20201214_moonshot_to_enamine.csv,
+O=C(NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@H]1COCCN1CC(F)(F)F,EDJ-MED-4c7486ba-7,20201214_moonshot_to_enamine.csv,
+NS(=O)(=O)c1[nH]ncc1C(=O)NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDJ-MED-4c7486ba-8,20201214_moonshot_to_enamine.csv,
+O=C(NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@]1(O)CCSC1,EDJ-MED-4c7486ba-9,20201214_moonshot_to_enamine.csv,
+CC(=O)N1CCN(CC(=O)Nc2cnccc2C)CC1,BEN-DND-93268d01-8,"20201214_moonshot_to_enamine.csv, 20200530_moonshot_to_mcule.csv",
+CC(=O)N1CCN(CC(=O)Nc2cnccc2C2CC2)CC1,EDJ-MED-3c65e9ce-2,20201214_moonshot_to_enamine.csv,
+CC(=O)N1CCN(CC(=O)Nc2cnccc2-c2ccccc2)CC1,EDJ-MED-3c65e9ce-3,20201214_moonshot_to_enamine.csv,
+Cc1ccncc1NC(=O)CN1CCC(C)CC1,EDJ-MED-3c65e9ce-4,20201214_moonshot_to_enamine.csv,
+O=C(Nc1cncc2ccccc12)[C@@H]1COc2ccc(Cl)cc21,EDJ-MED-12c115cc-1,20201214_moonshot_to_enamine.csv,
+O=C(Nc1cncc2ccccc12)[C@H]1COc2ccc(Cl)cc21,EDJ-MED-12c115cc-2,20201214_moonshot_to_enamine.csv,
+O=C(Nc1cncc2ccccc12)[C@@H]1CCNc2ccc(Cl)cc21,EDJ-MED-92e193ae-1,"20201214_moonshot_to_enamine.csv, 20201201_moonshot_to_enamine.csv",
+O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,EDJ-MED-a6bd50ad-1,"20201214_moonshot_to_enamine.csv, 20201201_moonshot_to_enamine.csv",
+O=C(Nc1cncc2ccccc12)C1CCN(Cc2ccccc2)c2ccc(Cl)cc21,RAL-THA-8416115c-1,20201214_moonshot_to_enamine.csv,
+CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)nc1,MAT-POS-6c284e65-1,20201214_moonshot_to_enamine.csv,
+CC(=O)Nc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)cn1,ALP-POS-c3a96089-4,20201214_moonshot_to_enamine.csv,
 CCC(=O)Nc1ccc(N(Cc2ccccc2)C(=O)Nn2nnc3ccccc32)cc1,ALP-POS-a3de0cb1-1,20200825_moonshot_to_enamine.csv,
 CCC(=O)Nc1ccc(N(Cc2cccc(Cl)c2)C(=O)Nc2nnn3ccccc23)cc1,ALP-POS-a3de0cb1-2,20200825_moonshot_to_enamine.csv,
 COc1ccc(C(Cc2ccsc2)C(=O)Nc2n[nH]c3ccccc23)cc1,ALP-POS-a3de0cb1-3,20200825_moonshot_to_enamine.csv,
@@ -726,7 +743,6 @@ CO[C@@H]1C[C@@H](COc2cccnc2)N(c2ncccn2)C1,AUS-ARG-7cfdce8f-1,20200610_moonshot_t
 N#Cc1ccc(C(N)=O)c(CNC(=O)C2CCOCC2)c1,PHI-UNK-c3ab17cb-1,20200610_moonshot_to_wuxi.csv,
 Cc1ccncc1NC(=O)CN1CCCCC1,BEN-DND-93268d01-11,20200530_moonshot_to_mcule.csv,
 Cc1ccncc1NC(=O)CCc1cccc(F)c1,BEN-DND-93268d01-6,20200530_moonshot_to_mcule.csv,
-CC(=O)N1CCN(CC(=O)Nc2cnccc2C)CC1,BEN-DND-93268d01-8,20200530_moonshot_to_mcule.csv,
 O[C@H](Cc1cccc(Cl)c1)Cn1cncn1,JAG-UCB-cedd89ab-2,20200530_moonshot_to_mcule.csv,
 Cc1cc2c(N)nc(=O)n(CC(=O)Nc3cccc(Cl)c3)c2s1,JAG-UCB-77729364-1,20200530_moonshot_to_mcule.csv,
 Cc1ccc(-n2ncc3c(=O)n(CC(N)=O)cnc32)cc1C,JAG-UCB-ef2c0e8e-4,20200530_moonshot_to_mcule.csv,
@@ -947,15 +963,13 @@ O=C(O)[C@@H](Cc1nc(=O)cc[nH]1)NC[C@@H]1C[C@@H]2C=C[C@H]1C2,FRA-BIO-8bf1eac9-9,20
 O=C(NCc1ccccc1OCCO)C(=O)N[C@H]1C[C@H]1C1CCOCC1,FRA-BIO-8bf1eac9-10,20200518_biosolveit_to_enamine.csv,
 CC[C@@H]1CN=C(NCc2ccccc2CN2CCN(CC)CC2)N1,FRA-BIO-8bf1eac9-11,20200518_biosolveit_to_enamine.csv,
 O=C(c1ccccc1)N1C[C@@H](CNCc2c[nH]cn2)N2CC[C@H]1C2,FRA-BIO-8bf1eac9-13,20200518_biosolveit_to_enamine.csv,
-O=C1COCCN1CCO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,,20201201_moonshot_to_enamine.csv,not found
-O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NC1CC1,,20201201_moonshot_to_enamine.csv,not found
+O=C1COCCN1CCO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,CHO-MSK-5891c1ff-6,20201201_moonshot_to_enamine.csv,
+O=C(CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NC1CC1,CHO-MSK-5891c1ff-8,20201201_moonshot_to_enamine.csv,
 CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,PET-UNK-29afea89-2,20201201_moonshot_to_enamine.csv,
-CC(C(N)=O)c1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,,20201201_moonshot_to_enamine.csv,not found
+CC(C(N)=O)c1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,MAT-POS-281d2ee9-1,20201201_moonshot_to_enamine.csv,
 O=C(Cc1cc(Cl)cc(-c2nnc[nH]2)c1)Nc1cncc2ccccc12,RAL-THA-1d44ff04-8,20201201_moonshot_to_enamine.csv,
-O=C(Cc1cc(Cl)cc(-c2nnn[nH]2)c1)Nc1cncc2ccccc12,,20201201_moonshot_to_enamine.csv,not found
-O=C(Nc1cncc2ccccc12)[C@@H]1CCNc2ccc(Cl)cc21,ALP-POS-477dc5b7-2,20201201_moonshot_to_enamine.csv,imperfect stereochemical match for ALP-POS-477dc5b7-2
-O=C(Nc1cncc2ccccc12)[C@H]1CCNc2ccc(Cl)cc21,ALP-POS-477dc5b7-2,20201201_moonshot_to_enamine.csv,imperfect stereochemical match for ALP-POS-477dc5b7-2
-O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MIC-UNK-45817b9b-1,20201201_moonshot_to_enamine.csv,imperfect stereochemical match for MIC-UNK-45817b9b-1
+O=C(Cc1cc(Cl)cc(-c2nnn[nH]2)c1)Nc1cncc2ccccc12,MAT-POS-281d2ee9-3,20201201_moonshot_to_enamine.csv,
+O=C(Nc1cncc2ccccc12)[C@H]1CCNc2ccc(Cl)cc21,EDJ-MED-92e193ae-2,20201201_moonshot_to_enamine.csv,
 NC(=O)N1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,RAL-THA-4aa06b95-1,20201201_moonshot_to_enamine.csv,
 CN1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,MIC-UNK-91acba05-6,20201201_moonshot_to_enamine.csv,
 O=C(Nc1cncc2ccccc12)[C@]1(OCCO)CCOc2ccc(Cl)cc21,ED_-GRI-5b13fbe2-72,20201201_moonshot_to_enamine.csv,
