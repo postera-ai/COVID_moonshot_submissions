@@ -1,0 +1,12 @@
+SMILES,CID,Comments,,,,
+COCCN1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,RAL-THA-4aa06b95-7,Alkylation,,,,
+O=C(Nc1cncc2ccccc12)C1CCN(Cc2ncc[nH]2)c2ccc(Cl)cc21,RAL-THA-8416115c-5,"https://www.enaminestore.com/catalog/EN300-72386 or 
+https://www.enaminestore.com/catalog/EN300-52542",,,,
+O=C(Nc1cncc2ccccc12)C1CCN(Cc2ccn[nH]2)c2ccc(Cl)cc21,RAL-THA-8416115c-6,https://www.enaminestore.com/catalog/EN300-213142,,,,
+CN(C)C(=O)CN1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,RAL-THA-8416115c-9,https://www.enaminestore.com/catalog/EN300-116022,,,,
+O=C(Nc1cncc2ccccc12)C1CCN(Cc2cnc[nH]2)c2ccc(Cl)cc21,RAL-THA-8416115c-11,https://www.enaminestore.com/catalog/EN300-373770,,,,
+O=C(Nc1cncc2ccccc12)C1CCN(Cc2ncn[nH]2)c2ccc(Cl)cc21,RAL-THA-8416115c-13,"https://www.enaminestore.com/catalog/EN300-306316 or
+https://www.enaminestore.com/catalog/EN300-101831",,,,
+CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,BEN-DND-f2e727cd-6,Test alkylation of BEN-DND-f2e727cd-5,,,,
+CN(C)C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-5d65ec79-1,Test amidation of intermediate,,,,
+CNC(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-5d65ec79-2,Test amidation of intermediate,,,,
