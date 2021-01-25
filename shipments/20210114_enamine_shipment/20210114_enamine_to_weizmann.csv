@@ -1,0 +1,6 @@
+shipment_ID,catalog_ID,Formula,stereochemistry,sample_MW,purity,PO,Salt_Name,Salt_ratio,MW_salt,volume(uL),concentration(mM),plate_ID,well,SMILES,Name,Batch ID,"Amount, mg"
+BEN-DND-4f474d93-2,Z4765682197,C18H14ClN3O2,Single known enantiomer,339.775,100,200415-FTE / COVID-19,,,0,40,20,1178796-Y40-38,03_A,ClC=1C=CC=2OCC[C@@H](C(=O)NC=3C=NC=C4C=CN=CC34)C2C1,"(4R)-6-chloro-N-(2,6-naphthyridin-4-yl)-3,4-dihydro-2H-1-benzopyran-4-carboxamide",H2858742,
+Z4893319302 (not registered with postera id),Z4893319302,C19H13Cl2N3O2,Racemic or presumed racemic or meso,386.231,100,200415-FTE / COVID-19,,,0,40,20,1178796-Y40-38,03_B,ClC=1C=C(Cl)C=2NC(=O)CC(C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,"6,8-dichloro-N-(isoquinolin-4-yl)-2-oxo-1,2,3,4-tetrahydroquinoline-4-carboxamide",H2853161,
+rac-EDJ-MED-a6bd50ad-1,Z4878378763,C19H14ClN3O2,Racemic or presumed racemic or meso,351.786,97.86,200415-FTE / COVID-19,,,0,40,20,1178796-Y40-38,03_C,ClC=1C=CC=2NC(=O)CC(C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,"6-chloro-N-(isoquinolin-4-yl)-2-oxo-1,2,3,4-tetrahydroquinoline-4-carboxamide",H2843521,
+EN300-68618,Z1095349994,C4H3NO3,Achiral,113.071,95,200415-FTE / COVID-19,,,0,,,Box BB,01_A,OC(=O)C1=COC=N1,"1,3-oxazole-4-carboxylic acid",*R738608+3*,2003.2
+EN300-42473,Z425864750,C5H5BrN2,Achiral,173.010,95,200415-FTE / COVID-19,,,0,,,Box BB,01_B,NC=1C=CC=C(Br)N1,6-bromopyridin-2-amine,*R936303*,2005.0
