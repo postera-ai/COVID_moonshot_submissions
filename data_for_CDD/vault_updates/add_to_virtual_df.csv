@@ -1,166 +1,78 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-CN(C)c1ccc(N(Cc2cccc(C3CC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-1,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-1
-CN(C)c1ccc(N(Cc2cc(Cl)cc(C3CC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-2,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-2
-COc1cc(Cl)cc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(N(C)C)cc2)c1,DAR-DIA-093892e4-3,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-3
-COc1cc(CN(C(=O)Cn2nnc3ccccc32)c2ccc(N(C)C)cc2)cc(C2CC2)c1,DAR-DIA-093892e4-4,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-4
-CN(C)c1ccc(N(Cc2cccc(C(F)(F)F)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-5,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-5
-CN(C)c1ccc(N(Cc2cc(Cl)cc(C(F)(F)F)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-6,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-6
-CN(C)c1ccc(N(Cc2cc(Cl)cc(Cl)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-7,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-7
-CN(C)c1ccc(N(Cc2cccc(C3CCC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-8,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-8
-CN(C)c1ccc(N(Cc2cccc(N3CCC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-9,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-9
-CN(C)c1ccc(N(Cc2cc(Cl)cc(N3CCC3)c2)C(=O)Cn2nnc3ccccc32)cc1,DAR-DIA-093892e4-10,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-10
-O=C(Cn1nnc2ccccc21)N(Cc1cccc(Cl)c1)c1ccc(N2CC2)cc1,DAR-DIA-093892e4-11,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-11
-O=C(Cn1nnc2ccccc21)N(Cc1cccc(Cl)c1)c1ccc(C2CC2)cc1,DAR-DIA-093892e4-12,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-093892e4-12
-CN(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)nc1,MAT-POS-6c284e65-1,"Matt Robinson, PostEra",,False,MAT-POS-6c284e65-1
-CC(=O)Nc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)cn1,MAT-POS-6c284e65-2,"Matt Robinson, PostEra",,False,ALP-POS-c3a96089-4
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)c(Cl)cc21,ALP-POS-869ac754-1,"Alpha Lee, PostEra",,False,ALP-POS-869ac754-1
-O=C(Nc1cncc2ccccc12)C1CCOc2c1ccc(Cl)c2Cl,ALP-POS-869ac754-2,"Alpha Lee, PostEra",,False,ALP-POS-869ac754-2
-O=C1CC(O)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MAT-POS-c7771779-1,"Matt Robinson, PostEra",,False,MAT-POS-c7771779-1
-COC1(C(=O)Nc2cncc3ccccc23)CC(=O)Nc2ccc(Cl)cc21,MAT-POS-c7771779-2,"Matt Robinson, PostEra",,False,MAT-POS-c7771779-2
-O=C1C[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MAT-POS-43c25e9b-1,"Matt Robinson, PostEra",,False,MAT-POS-43c25e9b-1
-O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2N1,MAT-POS-43c25e9b-2,"Matt Robinson, PostEra",,False,EDJ-MED-a6bd50ad-1
-O=C(N[C@@H](CC1CCCCC1)C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)O)OCc1cccc(Br)c1,NIC-UNK-21c5e845-1,Nicholas Balasus,,False,NIC-UNK-21c5e845-1
-O=C(N[C@@H](CC1CCCCC1)C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)O)OCc1cccc(Cl)c1,NIC-UNK-21c5e845-2,Nicholas Balasus,,False,NIC-UNK-21c5e845-2
-CC(C)C[C@H](NC(=O)OCc1cccc(F)c1)C(=O)N[C@@H](CC1CCNC1=O)C(O)S(=O)(=O)O,NIC-UNK-21c5e845-3,Nicholas Balasus,,False,NIC-UNK-21c5e845-3
-CC(C)C[C@H](NC(=O)OCCC1CCCCC1)C(=O)N[C@@H](CC1CCNC1=O)C(O)S(=O)(=O)O,NIC-UNK-21c5e845-4,Nicholas Balasus,,False,NIC-UNK-21c5e845-4
-O=C1C(c2ccc(Cl)c(Cl)c2)CCCN1c1cncc2ccccc12,ALP-UNI-3735e77e-1,"Alpha Lee, University of Cambridge",,False,ALP-UNI-3735e77e-1
-O=C(Nc1cncc2ccccc12)C1CCOc2c(Cl)cc(Cl)cc21,ALP-UNI-3735e77e-2,"Alpha Lee, University of Cambridge",,False,ALP-UNI-3735e77e-2
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)c(F)cc21,ALP-UNI-3735e77e-3,"Alpha Lee, University of Cambridge",,False,ALP-UNI-3735e77e-3
-O=C(Nc1cncc2ccccc12)C1CCNc2cc(Cl)c(Cl)cc21,ALP-UNI-3735e77e-4,"Alpha Lee, University of Cambridge",,False,ALP-UNI-3735e77e-4
-O=C(Cc1ccccc1)Nc1cncc2ccccc12,RAL-THA-2d450e86-1,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-1
-O=C(Cc1ccc(Cl)cc1)Nc1cncc2ccccc12,RAL-THA-2d450e86-2,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-2
-Cc1ccc(CC(=O)Nc2cncc3ccccc23)cc1,RAL-THA-2d450e86-3,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-3
-COc1ccc(CC(=O)Nc2cncc3ccccc23)cc1,RAL-THA-2d450e86-4,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-4
-N#Cc1ccc(CC(=O)Nc2cncc3ccccc23)cc1,RAL-THA-2d450e86-5,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-5
-O=C(Cc1ccc(F)c(Cl)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-6,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-6
-O=C(Cc1ccc(F)cc1)Nc1cncc2ccccc12,RAL-THA-2d450e86-7,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-7
-Cc1ccc(CC(=O)Nc2cncc3ccccc23)cc1Cl,RAL-THA-2d450e86-8,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-8
-O=C(Cc1ccc(Cl)c(F)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-9,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-9
-O=C(Cc1cccc(F)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-10,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-10
-COc1cccc(CC(=O)Nc2cncc3ccccc23)c1,RAL-THA-2d450e86-11,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-11
-N#Cc1cccc(CC(=O)Nc2cncc3ccccc23)c1,RAL-THA-2d450e86-12,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-12
-Cc1cccc(CC(=O)Nc2cncc3ccccc23)c1,RAL-THA-2d450e86-13,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-13
-O=C(Cc1cc(F)cc(Cl)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-14,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-14
-Cc1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,RAL-THA-2d450e86-15,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-15
-O=C(Cc1cc(F)cc(F)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-16,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-16
-N#Cc1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,RAL-THA-2d450e86-17,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-17
-COc1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,RAL-THA-2d450e86-18,"Ralph Robinson, Thames Pharma Partners",,False,ALP-POS-3b848b35-1
-O=C(Cc1cccc(Cl)c1F)Nc1cncc2ccccc12,RAL-THA-2d450e86-19,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-19
-Cc1c(Cl)cccc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-20,"Ralph Robinson, Thames Pharma Partners",,False,MAT-POS-afd4d4fd-1
-N#Cc1c(Cl)cccc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-21,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-21
-COc1c(Cl)cccc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-22,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-22
-O=C(Cc1cccc(F)c1F)Nc1cncc2ccccc12,RAL-THA-2d450e86-23,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-23
-O=C(Cc1cc(Cl)ccc1Cl)Nc1cncc2ccccc12,RAL-THA-2d450e86-24,"Ralph Robinson, Thames Pharma Partners",,False,PET-UNK-dd44aeb6-2
-O=C(Cc1cc(Cl)ccc1F)Nc1cncc2ccccc12,RAL-THA-2d450e86-25,"Ralph Robinson, Thames Pharma Partners",,False,PET-UNK-dd44aeb6-1
-O=C(Cc1cc(F)ccc1F)Nc1cncc2ccccc12,RAL-THA-2d450e86-26,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-26
-Cc1ccc(Cl)cc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-27,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-27
-N#Cc1ccc(Cl)cc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-28,"Ralph Robinson, Thames Pharma Partners",,False,PET-UNK-dd44aeb6-3
-COc1ccc(Cl)cc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-29,"Ralph Robinson, Thames Pharma Partners",,False,MAT-POS-3b92565d-1
-O=C(Cc1cncc(Cl)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-30,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-30
-O=C(Cc1cccc(C(F)(F)F)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-31,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-31
-O=C(Cc1ccc(C(F)(F)F)cc1)Nc1cncc2ccccc12,RAL-THA-2d450e86-32,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-32
-O=C(Cc1ccc(Cl)cn1)Nc1cncc2ccccc12,RAL-THA-2d450e86-33,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-33
-O=C(Cc1ccncc1Cl)Nc1cncc2ccccc12,RAL-THA-2d450e86-34,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-34
-O=C(Cc1cncc(F)c1)Nc1cncc2ccccc12,RAL-THA-2d450e86-35,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-35
-O=C(Cc1ccccc1Cl)Nc1cncc2ccccc12,RAL-THA-2d450e86-36,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-36
-O=C(Cc1ccccc1F)Nc1cncc2ccccc12,RAL-THA-2d450e86-37,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-37
-Cc1ccccc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-38,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-38
-COc1ccccc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-39,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-39
-N#Cc1ccccc1CC(=O)Nc1cncc2ccccc12,RAL-THA-2d450e86-40,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-2d450e86-40
-O=C(Nc1cncc2ccccc12)C1CCOc2ccccc21,RAL-THA-05e671eb-1,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-1
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)c(Cl)cc21,RAL-THA-05e671eb-2,"Ralph Robinson, Thames Pharma Partners",,False,ALP-POS-869ac754-1
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)ccc21,RAL-THA-05e671eb-3,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-3
-O=C(Nc1cncc2ccccc12)C1CCOc2ccc(F)cc21,RAL-THA-05e671eb-4,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-4
-Cc1ccc2c(c1)C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-5,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-5
-O=C(Nc1cncc2ccccc12)C1CCOc2ccc(C(F)(F)F)cc21,RAL-THA-05e671eb-6,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-6
-N#Cc1ccc2c(c1)C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-7,"Ralph Robinson, Thames Pharma Partners",,False,DAR-DIA-6a508060-3
-COc1ccc2c(c1)C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-8,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-8
-Cc1cc2c(cc1Cl)C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-9,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-9
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(F)c(Cl)cc21,RAL-THA-05e671eb-10,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-10
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)c(F)cc21,RAL-THA-05e671eb-11,"Ralph Robinson, Thames Pharma Partners",,False,ALP-UNI-3735e77e-3
-Cc1ccc2c(c1)OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-12,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-12
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(F)ccc21,RAL-THA-05e671eb-13,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-13
-COc1ccc2c(c1)OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-14,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-14
-N#Cc1ccc2c(c1)OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-15,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-15
-O=C(Nc1cncc2ccccc12)C1CCOc2c(Cl)cc(Cl)cc21,RAL-THA-05e671eb-16,"Ralph Robinson, Thames Pharma Partners",,False,ALP-UNI-3735e77e-2
-O=C(Nc1cncc2ccccc12)C1CCOc2c(F)cc(Cl)cc21,RAL-THA-05e671eb-17,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-17
-Cc1cc(Cl)cc2c1OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-18,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-18
-COc1cc(Cl)cc2c1OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-19,"Ralph Robinson, Thames Pharma Partners",,False,DAR-DIA-6a508060-4
-N#Cc1cc(Cl)cc2c1OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-20,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-20
-O=C(Nc1cncc2ccccc12)C1CCOc2c(Cl)cccc21,RAL-THA-05e671eb-21,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-21
-O=C(Nc1cncc2ccccc12)C1CCOc2c(F)cccc21,RAL-THA-05e671eb-22,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-22
-COc1cccc2c1OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-23,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-23
-N#Cc1cccc2c1OCCC2C(=O)Nc1cncc2ccccc12,RAL-THA-05e671eb-24,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-24
-O=C(Nc1cncc2ccccc12)C1CCOc2ncc(Cl)cc21,RAL-THA-05e671eb-25,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-25
-O=C(Nc1cncc2ccccc12)C1CCOc2cc(Cl)cnc21,RAL-THA-05e671eb-26,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-26
-O=C(Nc1cncc2ccccc12)C1CCOc2ccc(Cl)c(Cl)c21,RAL-THA-05e671eb-27,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-27
-O=C(Nc1cncc2ccccc12)C1CCOc2ccc(Cl)c(F)c21,RAL-THA-05e671eb-28,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-28
-Cc1c(Cl)ccc2c1C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-29,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-29
-COc1c(Cl)ccc2c1C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-30,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-30
-N#Cc1c(Cl)ccc2c1C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-31,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-31
-O=C(Nc1cncc2ccccc12)C1CCOc2cccc(Cl)c21,RAL-THA-05e671eb-32,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-32
-O=C(Nc1cncc2ccccc12)C1CCOc2cccc(F)c21,RAL-THA-05e671eb-33,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-33
-Cc1cccc2c1C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-34,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-34
-COc1cccc2c1C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-35,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-35
-N#Cc1cccc2c1C(C(=O)Nc1cncc3ccccc13)CCO2,RAL-THA-05e671eb-36,"Ralph Robinson, Thames Pharma Partners",,False,RAL-THA-05e671eb-36
-NCC(CC(=O)O)c1ccccc1,VLA-UNK-b5cf542b-1,Vladimir Vinnikov,,False,VLA-UNK-b5cf542b-1
-CN(C)C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-5d65ec79-1,"Matt Robinson, PostEra",,False,MAT-POS-5d65ec79-1
-CNC(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-5d65ec79-2,"Matt Robinson, PostEra",,False,MAT-POS-5d65ec79-2
-O=C(NCCc1cccc(F)c1)C(c1cccnc1)N(C(=O)c1c[nH]cn1)c1ccc(Cl)cc1,ALP-POS-1245c3fa-1,"Alpha Lee, PostEra",,False,ALP-POS-1245c3fa-1
-O=C(NCCc1cccc(F)c1)C(c1cccnc1)N(C(=O)c1c[nH]cn1)c1cccc(Cl)c1,ALP-POS-1245c3fa-2,"Alpha Lee, PostEra",,False,ALP-POS-1245c3fa-2
-O=c1[nH]c(Cc2cccc(C(F)(F)F)c2)nc2cnccc12,JOH-UNI-abfda500-1,"John Spencer, Uni of Sussex",,False,JOH-UNI-61f30276-2
-O=c1[nH]c(Cc2cccc(S(F)(F)(F)(F)F)c2)nc2cnccc12,JOH-UNI-abfda500-2,"John Spencer, Uni of Sussex",,False,JOH-UNI-61f30276-3
-COc1ccccc1OCCNC(=O)c1cc(N)cc2ccccc12,JOH-UNI-abfda500-3,"John Spencer, Uni of Sussex",,False,DAR-DIA-8e329c92-2
-O=C(Cc1cccc(Cl)c1)Nc1cnccc1C(=O)O,JOH-UNI-abfda500-4,"John Spencer, Uni of Sussex",,False,JOH-UNI-abfda500-4
-NC(=O)c1ccncc1NC(=O)Cc1cccc(Cl)c1,JOH-UNI-abfda500-5,"John Spencer, Uni of Sussex",,False,ANN-UNI-98d2bf15-3
-Cc1ccncc1NC(=O)Cc1ccccc1N,JOH-UNI-abfda500-6,"John Spencer, Uni of Sussex",,False,ANN-UNI-98d2bf15-1
-O=C(Cc1cccc(C(F)(F)F)c1)Nc1cnccc1C(=O)O,JOH-UNI-abfda500-7,"John Spencer, Uni of Sussex",,False,JOH-UNI-abfda500-7
-CC(=O)C(=O)N1CCN(Cc2cccc(Cl)c2)CC1,JOH-UNI-23d9e1b1-1,"John Spencer, Uni of Sussex",,False,JOH-UNI-23d9e1b1-1
-CS(=O)(=O)N1CC[C@@H](COCC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,KAD-UNI-8a629cb0-1,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-1
-NC(=O)[C@]12CO[C@](CNC(=O)C[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)(C1)C2,KAD-UNI-8a629cb0-2,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-2
-NS(=O)(=O)c1cc(C(=O)NCC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)cs1,KAD-UNI-8a629cb0-3,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-3
-Cn1cc(C(N)=O)cc1C(=O)NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-4,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-4
-Cn1nnnc1C1CCN(C(=O)C[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,KAD-UNI-8a629cb0-5,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-5
-Cn1ncc2c(c1=O)CCN(C(=O)C[C@@]1(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc31)C2,KAD-UNI-8a629cb0-6,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-6
-O=C(C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CC[C@H]2CS(=O)(=O)C[C@@H]2C1,KAD-UNI-8a629cb0-7,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-7
-C[C@@H](C(N)=O)N1CCN(C(=O)C[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,KAD-UNI-8a629cb0-8,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-8
-CC(=O)N1CCN(C(=O)[C@H](C)O[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,KAD-UNI-8a629cb0-9,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-9
-CC(=O)N1C[C@@H]2C[C@H]1CN2C(=O)C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-10,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-10
-O=C(Cc1c(O)nc[nH]c1=O)NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-11,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-11
-O=C(NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@H]1Cc2nccn2C1,KAD-UNI-8a629cb0-12,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-12
-O=C(CN1CCN(C2CC2)C1=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-13,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-13
-O=C(CC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1C[C@@H]2C[C@H]1C[C@H]2O,KAD-UNI-8a629cb0-14,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-14
-CCN1CCN(C2CN(C(=O)C[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)C2)CC1,KAD-UNI-8a629cb0-15,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-15
-CCN1CN(C(=O)CC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1=O,KAD-UNI-8a629cb0-16,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-16
-CN(C1CCN(C(=O)C[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1)S(C)(=O)=O,KAD-UNI-8a629cb0-17,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-17
-Cc1ccn2nc(C(=O)NCC[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)nc2n1,KAD-UNI-8a629cb0-18,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-18
-O=C1Cc2c(C(=O)NCC[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)ccnc2N1,KAD-UNI-8a629cb0-19,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-19
-C[C@H](O[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(=O)N1CCC(C(N)=O)CC1,KAD-UNI-8a629cb0-20,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-20
-O=C(C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCN(CC(F)(F)CO)CC1,KAD-UNI-8a629cb0-21,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-21
-O=C(NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cnc2[nH]c(=O)[nH]c2c1,KAD-UNI-8a629cb0-22,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-22
-NC(=O)[C@@H]1C[C@H]2[C@H](C1)C[C@H]2NC(=O)C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-23,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-23
-O=C(NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC2(C1)CS(=O)(=O)C2,KAD-UNI-8a629cb0-24,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-24
-O=C(CC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1C[C@@H]2CCS(=O)(=O)C[C@H]2C1,KAD-UNI-8a629cb0-25,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-25
-O=C(CC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CC2(CCO2)C1,KAD-UNI-8a629cb0-26,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-26
-C[C@]1(O)CCN(C(=O)CC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,KAD-UNI-8a629cb0-27,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-27
-Cc1ccnc2nc(C(=O)NCC[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)nn12,KAD-UNI-8a629cb0-28,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-28
-O=C(Nc1cncc2ccccc12)[C@]1(CCOC[C@@H]2CC3(CC3)S(=O)(=O)N2)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-29,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-29
-C[C@@H](O[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C(=O)N1CCC[C@H](C(N)=O)C1,KAD-UNI-8a629cb0-30,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-30
-C[C@@]12CN(C(=O)C[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)C[C@@]1(C)C(=O)NC2=O,KAD-UNI-8a629cb0-31,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-31
-O=C(NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1[C@H]2CS(=O)(=O)C[C@H]12,KAD-UNI-8a629cb0-32,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-32
-CC[C@@H](O)CN1CCN(C(=O)C[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,KAD-UNI-8a629cb0-33,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-33
-O=C(NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@@H]1[C@H]2CCOC[C@@H]21,KAD-UNI-8a629cb0-34,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-34
-O=C(NCC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)[C@H]1C[C@]12C[C@H](O)C2,KAD-UNI-8a629cb0-35,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-35
-CS(=O)(=O)N1CCC(OCC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,KAD-UNI-8a629cb0-36,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-36
-O=C(Cn1ncn2nccc2c1=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-37,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-37
-CN1[C@H](COCC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CCS1(=O)=O,KAD-UNI-8a629cb0-38,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-38
-O=C(CC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CC2(COC2)C1,KAD-UNI-8a629cb0-39,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-39
-O=C(Cn1cc(Cl)c(=O)[nH]c1=O)N[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-40,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-40
-N#CC1(C(=O)NC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CCS(=O)(=O)CC1,KAD-UNI-8a629cb0-41,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-41
-NC(=O)N1C[C@@H]2C[C@H]1CN2C(=O)C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,KAD-UNI-8a629cb0-42,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-42
-NC(=O)[C@@H]1C[C@H]2C[C@@H](NC(=O)CC[C@@]3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)[C@H]2C1,KAD-UNI-8a629cb0-43,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-43
-CS(=O)(=O)N1CC[C@H](OCC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)C1,KAD-UNI-8a629cb0-44,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-44
-O=C(NC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)c1cnc2cc[nH]n2c1=O,KAD-UNI-8a629cb0-45,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-45
-O=C(C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NCc1ccc(=O)[nH]n1,KAD-UNI-8a629cb0-46,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-46
-Cn1cc(CC(=O)NCC[C@@]2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)nn1,KAD-UNI-8a629cb0-47,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-47
-O=C(CC[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CC(n2cncn2)C1,KAD-UNI-8a629cb0-48,"Kadi Saar, University of Cambridge",,False,KAD-UNI-8a629cb0-48
+O=C1CC(Oc2cc(Cl)cc(N(CCC3CC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-1,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-1
+O=C1CC(Oc2cc(Cl)cc(N(CCC3CCC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-2,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-2
+O=C1CC(Oc2cc(Cl)cc(N(CCC3CCCC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-3,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-3
+CN1CCC(CCN(C(=O)Nc2cncc3ccccc23)c2cc(Cl)cc(OC3CC(=O)N3)c2)C1,ALF-EVA-650655fc-4,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-4
+CNCc1ccc2cncc(NC(=O)N(CCC3CCCCC3)c3cc(Cl)cc(OC4CC(=O)N4)c3)c2c1,ALF-EVA-650655fc-5,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-5
+O=C1CC(Oc2cc(Cl)cc(N(CCC3CCOCC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-6,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-6
+O=C1CC(Oc2cc(Cl)cc(N(CCC3CCCOC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-7,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-7
+O=C1CC(Oc2cc(Cl)cc(N(CCC3CC(C(F)F)C3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-8,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-8
+Nc1c(Br)cc(Br)cc1CN[C@H]1CC[C@H](O)CC1,VLA-UNK-97b36d61-1,VLADIMIR VINNIKOV,,False,VLA-UNK-97b36d61-1
+O=C(Nc1cncc2ccccc12)C1(Cn2cnc3ccccc32)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-1,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-1
+CN1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-2,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-2
+O=C(Nc1cncc2ccccc12)C1(CN2CCCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-3,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-3
+O=C(Nc1cncc2ccccc12)C1(CN2CCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-4,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-4
+O=C(Nc1cncc2ccccc12)C1(CN2CCOCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-5,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-5
+O=C(Nc1cncc2ccccc12)C1(Cn2cnc3ccccc32)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-6,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-6
+CN1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCNc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-7,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-7
+O=C(Nc1cncc2ccccc12)C1(CN2CCCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-8,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-8
+O=C(Nc1cncc2ccccc12)C1(CN2CCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-9,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-9
+O=C(Nc1cncc2ccccc12)C1(CN2CCOCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-10,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-10
+O=C(Nc1cncc2ccccc12)C1(CN2CCCCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-11,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-11
+O=C(Nc1cncc2ccccc12)C1(CN2CCCCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-12,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-12
+O=C(Nc1cncc2ccccc12)C1(CN2CC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-13,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-13
+O=C(Nc1cncc2ccccc12)C1(CN2CC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-14,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-14
+NCC1(C(=O)Nc2cncc3ccccc23)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-15,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-15
+O=C(NCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC1,DAR-DIA-ecdbc7dd-16,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-16
+O=C(NCC1(C(=O)Nc2cncc3ccccc23)CCNc2ccc(Cl)cc21)C1CC1,DAR-DIA-ecdbc7dd-17,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-17
+CC(=O)N1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-18,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-18
+CC(=O)N1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCNc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-19,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-19
+CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-1,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-1
+CCC(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-2,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-2
+COCCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-3,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-3
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCc2cccnc2)c2cccnc2)cc1,ALP-POS-88a7a97e-4,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-4
+COC(=O)C(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-5,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-5
+COC(=O)[C@@H]1CC[C@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-6,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-6
+CC(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-7,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-7
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCc2ccncc2)c2cccnc2)cc1,ALP-POS-88a7a97e-8,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-8
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCOCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-9,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-9
+CN(C)C(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-10,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-10
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCCN2CCCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-11,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-11
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CC2)c2cccnc2)cc1,ALP-POS-88a7a97e-12,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-12
+CC(C)(C)OC(=O)NCCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-13,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-13
+CCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-14,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-14
+COC(=O)C1CC(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-15,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-15
+CSCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-16,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-16
+CCOC(=O)CCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-17,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-17
+CC(C)(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-18,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-18
+CC(C)(C)OC(=O)NCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-19,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-19
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC(=O)Nc2cccc([N+](=O)[O-])c2)c2cccnc2)cc1,ALP-POS-88a7a97e-20,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-20
+COC(=O)/C(=C\N(C)C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-21,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-21
+CN(C)CCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-22,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-22
+COC(=O)[C@@H]1C[C@@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-23,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-23
+COC(=O)[C@H]1C[C@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-24,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-24
+CC(C)(C)OC(=O)N1CCC(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-25,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-25
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC2CCOC2)c2cccnc2)cc1,ALP-POS-88a7a97e-26,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-26
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC2CCCO2)c2cccnc2)cc1,ALP-POS-88a7a97e-27,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-27
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-28,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-28
+COC(CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1)OC,ALP-POS-88a7a97e-29,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-29
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCOC2)c2cccnc2)cc1,ALP-POS-88a7a97e-30,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-30
+COCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-31,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-31
+CCOC(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-32,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-32
+COC(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-33,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-33
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2COC2)c2cccnc2)cc1,ALP-POS-88a7a97e-34,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-34
+CCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-35,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-35
+COC(=O)C1(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CCCC1,ALP-POS-88a7a97e-36,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-36
+COC(=O)[C@H]1C[C@@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-37,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-37
+CC(C)(C)OC(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-38,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-38
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CC(F)(F)C2)c2cccnc2)cc1,ALP-POS-88a7a97e-39,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-39
+COC(=O)[C@@H]1C[C@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-40,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-40
+COc1ccc(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)cn1,ALP-POS-88a7a97e-41,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-41
+Cc1ccc(S(=O)(=O)CNC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)cc1,ALP-POS-88a7a97e-42,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-42
+CC(C)(C)OC(=O)N1CC(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-43,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-43
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC(=O)OCc2ccccc2)c2cccnc2)cc1,ALP-POS-88a7a97e-44,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-44
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-45,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-45
+CSCCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-46,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-46
+CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCCN2CCOCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-47,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-47
+CCOC(=O)CCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-48,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-48
+CCOC(=O)c1ncoc1CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-49,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-49

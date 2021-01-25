@@ -1,0 +1,6 @@
+SMILES,external_ID,CDD_ID,shipment_ID,catalog_ID,purity,volume(uL),concentration(mM),plate_ID,well,stereochemistry,PostEra_comments,Batch ID
+ClC=1C=CC=2OCC[C@@H](C(=O)NC=3C=NC=C4C=CN=CC34)C2C1,BEN-DND-4f474d93-2,CVD-0014221,BEN-DND-4f474d93-2,Z4765682197,100.0,40.0,20.0,1178796-Y40-38,03_A,Single known enantiomer,,H2858742
+ClC=1C=C(Cl)C=2NC(=O)CC(C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-f39f51fd-1,CVD-0015383,Z4893319302 (not registered with postera id),Z4893319302,100.0,40.0,20.0,1178796-Y40-38,03_B,Racemic or presumed racemic or meso,,H2853161
+ClC=1C=CC=2NC(=O)CC(C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,MIC-UNK-45817b9b-1,CVD-0014274,rac-EDJ-MED-a6bd50ad-1,Z4878378763,97.86,40.0,20.0,1178796-Y40-38,03_C,Racemic or presumed racemic or meso,,H2843521
+OC(=O)C1=COC=N1,,,EN300-68618,Z1095349994,95.0,,,Box BB,01_A,Achiral,not found,*R738608+3*
+NC=1C=CC=C(Br)N1,,,EN300-42473,Z425864750,95.0,,,Box BB,01_B,Achiral,not found,*R936303*

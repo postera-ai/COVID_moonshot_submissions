@@ -1,4 +1,6 @@
 SMILES,CID,comments
+COC(=O)C(CO)c1cc(Cl)ccc1Br,,not found
+NNc1cncc2ccccc12,,not found
 O=C(O)C1CCOc2ccc(Cl)cc21,,not found
 NC1(C(=O)O)CCOc2ccccc21,,not found
 Clc1cccc(CN2CCNCC2)c1,,not found
@@ -76,3 +78,10 @@ Cc1nc2cc(N)ccc2s1,,not found
 NC1CCOC1,,not found
 CCOc1ccc(N)cc1,,not found
 O=C(O)c1cnc[nH]1,,not found
+O=C(Nc1cncc2ccccc12)[C@@]1(O)CCOc2ccc(Cl)cc21,MAT-POS-9db1e783-1,
+O=C(Nc1cncc2ccccc12)C1(CO)CCOc2ccc(Cl)cc21,MAT-POS-9db1e783-2,
+COC(=O)/C=C/C(=O)N(C(=O)[C@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,MAT-POS-9db1e783-3,
+[C-]#[N+]CCc1cccc(F)c1,,not found
+O=C(O)c1cocn1,,not found
+Nc1cccc(Br)n1,,not found
+CC1(C)OB(CBr)OC1(C)C,,not found
