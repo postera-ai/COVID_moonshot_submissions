@@ -65,7 +65,7 @@ def update_data(
                 "NMR_std_ratio",
                 "Assayed",
                 "Ordered",
-                "Made"
+                "Made",
             ]
         )
 
@@ -262,7 +262,7 @@ def update_data(
         get_fluorescense_IC50_data,
         get_solubility_data,
         get_trypsin_data,
-        get_nmr_data
+        get_nmr_data,
     )
 
     if fetch_assays:
@@ -274,7 +274,7 @@ def update_data(
 
         solubility_df = get_solubility_data()
         trypsin_df = get_trypsin_data()
-        nmr_df =  get_nmr_data()
+        nmr_df = get_nmr_data()
 
         all_df = pd.merge(
             all_df, rapidfire_inhibition_df, how="left", on=["CDD_mol_ID"]
@@ -403,6 +403,20 @@ def update_data(
             create_fluorescence_dose_response_specs,
             create_rapidfire_dose_response_specs,
         )
+
+        # watch out for Weizmann mols uploaded separately
+        postera_cdd_mols = dict.fromkeys(list(all_df["CDD_mol_ID"]), 0)
+
+        fluorescence_IC50_df["in_postera"] = fluorescence_IC50_df["CDD_mol_ID"].apply(
+            lambda x: x in postera_cdd_mols
+        )
+        fluorescence_IC50_df = fluorescence_IC50_df.loc[
+            fluorescence_IC50_df["in_postera"]
+        ]
+        rapidfire_IC50_df["in_postera"] = rapidfire_IC50_df["CDD_mol_ID"].apply(
+            lambda x: x in postera_cdd_mols
+        )
+        rapidfire_IC50_df = rapidfire_IC50_df.loc[rapidfire_IC50_df["in_postera"]]
 
         fluorescence_IC50_df["CID (canonical)"] = fluorescence_IC50_df[
             "CDD_mol_ID"

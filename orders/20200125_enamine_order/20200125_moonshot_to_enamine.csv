@@ -1,0 +1,73 @@
+CID,SMILES,Comments
+EDJ-MED-8c98ee63-1,COCCCNCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDJ-MED-8c98ee63-2,Cn1ccc(CNCC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)n1,Parallel
+EDJ-MED-ee07cf00-1,Cn1c(=O)ccn(CC(=O)NC(C(=O)Nc2cncc3ccccc23)c2cccc(Cl)c2)c1=O,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-2,Cc1nc2cc[nH]n2c(=O)c1CC(=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-3,Cn1ncc2c(=O)n(CC(=O)NC(C(=O)Nc3cncc4ccccc34)c3cccc(Cl)c3)cnc21,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-4,CC(NC(=O)C1CCC1)C(=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-5,N#Cc1ccc(C(=O)NCC(=O)NC(C(=O)Nc2cncc3ccccc23)c2cccc(Cl)c2)cc1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-6,Cn1cc(C2=NOC(C(=O)NC(C(=O)Nc3cncc4ccccc34)c3cccc(Cl)c3)C2)cn1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-7,Cc1c(O)c(=O)ccn1CC(=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-8,N#Cc1cn(CC(=O)NC(C(=O)Nc2cncc3ccccc23)c2cccc(Cl)c2)c(=O)[nH]c1=O,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-9,O=C(Cn1nnc(-c2ccccc2)n1)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-10,O=C(Cn1cnc(C(F)(F)F)n1)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-11,O=C(NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1)C1CCC(C(=O)N2CCCC2)O1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-12,NC(=O)c1ccc(OCC(=O)NC(C(=O)Nc2cncc3ccccc23)c2cccc(Cl)c2)cc1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-14,O=C(Cn1nc2n(c(=O)c1=O)CCC2)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-15,O=C(Cc1ccc(-n2cnnn2)cc1)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-16,O=C(Cn1cc(Cl)c(=O)[nH]c1=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-17,O=C(Cn1ncn2nccc2c1=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDJ-MED-ee07cf00-18,O=C(CN1CCN(C2CC2)C1=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,Parallel library chemistry (open chain version of library 5)
+EDG-MED-ba1ac7b9-1,NC(=O)C1CCN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-2,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCC1CO,Parallel
+EDG-MED-ba1ac7b9-3,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N(CCO)C1CC1,Parallel
+EDG-MED-ba1ac7b9-4,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CC(N2CCC(O)C2)C1,Parallel
+EDG-MED-ba1ac7b9-5,CCC(CO)N1CCN(C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,Parallel
+EDG-MED-ba1ac7b9-6,CC(C)N(CC#N)C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-7,CC1OCCN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-8,N#CCN(C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC1,Parallel
+EDG-MED-ba1ac7b9-9,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCCCC1c1nc[nH]n1,Parallel
+EDG-MED-ba1ac7b9-10,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCCCC1c1cc[nH]n1,Parallel
+EDG-MED-ba1ac7b9-11,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCCCC1c1cn[nH]c1,Parallel
+EDG-MED-ba1ac7b9-12,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCCC1c1nnn[nH]1,Parallel
+EDG-MED-ba1ac7b9-13,CN1C[C@@H]2C[C@H]1CN2C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-14,CN1CCN(C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1C#N,Parallel
+EDG-MED-ba1ac7b9-15,CC1CN(C)CCN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-16,Cn1cncc1CN(C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC1,Parallel
+EDG-MED-ba1ac7b9-17,Cn1ccnc1CN(C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC1,Parallel
+EDG-MED-ba1ac7b9-18,CC1Cn2nccc2CN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-19,CC1c2nncn2CCN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-20,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCOCC1CC(F)F,Parallel
+EDG-MED-ba1ac7b9-21,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCCC1Cn1ccnc1,Parallel
+EDG-MED-ba1ac7b9-22,NC(=O)C1Cc2[nH]cnc2CN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-23,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1C[C@@H]2C[C@H]1CN2CC(F)F,Parallel
+EDG-MED-ba1ac7b9-24,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N(CC(F)(F)F)C1COC1,Parallel
+EDG-MED-ba1ac7b9-25,CC1CN(C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CCN1CCO,Parallel
+EDG-MED-ba1ac7b9-26,C[C@H]1CN(C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)[C@H](C)CN1CCO,Parallel
+EDG-MED-ba1ac7b9-27,CC1CN(CCO)CCN1C(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,Parallel
+EDG-MED-ba1ac7b9-28,CN(CCO)C1CCN(C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,Parallel
+EDG-MED-ba1ac7b9-29,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N(Cc1ccc(O)cn1)C1CC1,Parallel
+EDG-MED-ba1ac7b9-30,CN1CCC(N(CCO)C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,Parallel
+EDG-MED-ba1ac7b9-31,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCN(C2CCCOC2)CC1,Parallel
+EDG-MED-ba1ac7b9-32,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCN(C2CCOCC2)CC1,Parallel
+ALP-UNI-8e43a71e-1,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCS(=O)(=O)N2CCCCC12,Parallel
+ALP-UNI-8e43a71e-2,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCC2C1CCCN2CCO,Parallel
+ALP-UNI-8e43a71e-4,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)NC1CCN(c2ccn[nH]2)C1=O,Parallel
+ALP-UNI-8e43a71e-7,N#CCCN1CCN(C(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,Parallel
+ALP-UNI-8e43a71e-8,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCN(CCCO)CC1,Parallel
+ALP-UNI-8e43a71e-10,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCN(CC(F)(F)CO)CC1,Parallel
+ALP-UNI-8e43a71e-11,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)N1CCC(Cc2nn[nH]n2)CC1,Parallel
+ALP-UNI-8e43a71e-12,O=C(CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)Nc1ccn(C2CCNC2=O)n1,Parallel
+ALP-UNI-8e43a71e-13,Cn1nc2c(cc1=O)CN(C(=O)CC1(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc31)CC2,Parallel
+ALP-UNI-8e43a71e-14,Cc1cc(=O)n2[nH]c(NC(=O)CC3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)nc2n1,Parallel
+ALP-UNI-8e43a71e-15,NC(=O)C1CC2CC(NC(=O)CC3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)C2C1,Parallel
+ALP-UNI-8e43a71e-16,NS(=O)(=O)c1ccc(CNC(=O)CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)cc1,Parallel
+EDJ-MED-4f704dc9-2,COCC1(CC(=O)Nc2cc(Cl)c(Cl)cc12)C(=O)Nc1cncc2ccccc12,
+EDJ-MED-4f704dc9-1,COC1(CCNc2cc(Cl)c(Cl)cc12)C(=O)Nc1cncc2ccccc12,
+EDJ-MED-37aac4bd-4,COC1(CCOc2c(F)cc(F)cc12)C(=O)Nc1cncc2ccccc12,
+EDJ-MED-37aac4bd-2,COCC1(CCOc2cc(Cl)c(Cl)cc12)C(=O)Nc1cncc2ccccc12,
+ALP-POS-fe871b40-16,Clc1cc2NC(=O)CC(C(=O)Nc3cncc4ccccc34)c2cc1Cl,
+ALP-POS-fe871b40-12,COC1(CCNc2cc(F)c(Cl)cc12)C(=O)Nc1cncc2ccccc12,
+ALP-POS-fe871b40-11,COC1(CCOc2cc(F)c(Cl)cc12)C(=O)Nc1cncc2ccccc12,
+ALP-POS-fe871b40-4,COC1(CCNc2c(cc(Cl)cc12)C#N)C(=O)Nc1cncc2ccccc12,
+ALP-POS-fe871b40-2,Clc1cc(C#N)c2NCCC(C(=O)Nc3cncc4ccccc34)c2c1,

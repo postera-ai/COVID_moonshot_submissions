@@ -1,78 +1,11 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-O=C1CC(Oc2cc(Cl)cc(N(CCC3CC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-1,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-1
-O=C1CC(Oc2cc(Cl)cc(N(CCC3CCC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-2,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-2
-O=C1CC(Oc2cc(Cl)cc(N(CCC3CCCC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-3,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-3
-CN1CCC(CCN(C(=O)Nc2cncc3ccccc23)c2cc(Cl)cc(OC3CC(=O)N3)c2)C1,ALF-EVA-650655fc-4,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-4
-CNCc1ccc2cncc(NC(=O)N(CCC3CCCCC3)c3cc(Cl)cc(OC4CC(=O)N4)c3)c2c1,ALF-EVA-650655fc-5,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-5
-O=C1CC(Oc2cc(Cl)cc(N(CCC3CCOCC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-6,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-6
-O=C1CC(Oc2cc(Cl)cc(N(CCC3CCCOC3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-7,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-7
-O=C1CC(Oc2cc(Cl)cc(N(CCC3CC(C(F)F)C3)C(=O)Nc3cncc4ccccc34)c2)N1,ALF-EVA-650655fc-8,"Alfie Brennan, Evariste Technologies",,False,ALF-EVA-650655fc-8
-Nc1c(Br)cc(Br)cc1CN[C@H]1CC[C@H](O)CC1,VLA-UNK-97b36d61-1,VLADIMIR VINNIKOV,,False,VLA-UNK-97b36d61-1
-O=C(Nc1cncc2ccccc12)C1(Cn2cnc3ccccc32)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-1,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-1
-CN1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-2,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-2
-O=C(Nc1cncc2ccccc12)C1(CN2CCCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-3,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-3
-O=C(Nc1cncc2ccccc12)C1(CN2CCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-4,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-4
-O=C(Nc1cncc2ccccc12)C1(CN2CCOCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-5,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-5
-O=C(Nc1cncc2ccccc12)C1(Cn2cnc3ccccc32)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-6,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-6
-CN1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCNc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-7,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-7
-O=C(Nc1cncc2ccccc12)C1(CN2CCCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-8,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-8
-O=C(Nc1cncc2ccccc12)C1(CN2CCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-9,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-9
-O=C(Nc1cncc2ccccc12)C1(CN2CCOCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-10,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-10
-O=C(Nc1cncc2ccccc12)C1(CN2CCCCC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-11,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-11
-O=C(Nc1cncc2ccccc12)C1(CN2CCCCC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-12,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-12
-O=C(Nc1cncc2ccccc12)C1(CN2CC2)CCOc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-13,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-13
-O=C(Nc1cncc2ccccc12)C1(CN2CC2)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-14,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-14
-NCC1(C(=O)Nc2cncc3ccccc23)CCNc2ccc(Cl)cc21,DAR-DIA-ecdbc7dd-15,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-15
-O=C(NCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)C1CC1,DAR-DIA-ecdbc7dd-16,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-16
-O=C(NCC1(C(=O)Nc2cncc3ccccc23)CCNc2ccc(Cl)cc21)C1CC1,DAR-DIA-ecdbc7dd-17,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-17
-CC(=O)N1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-18,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-18
-CC(=O)N1CCN(CC2(C(=O)Nc3cncc4ccccc34)CCNc3ccc(Cl)cc32)CC1,DAR-DIA-ecdbc7dd-19,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-ecdbc7dd-19
-CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-1,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-1
-CCC(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-2,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-2
-COCCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-3,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-3
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCc2cccnc2)c2cccnc2)cc1,ALP-POS-88a7a97e-4,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-4
-COC(=O)C(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-5,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-5
-COC(=O)[C@@H]1CC[C@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-6,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-6
-CC(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-7,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-7
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCc2ccncc2)c2cccnc2)cc1,ALP-POS-88a7a97e-8,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-8
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCOCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-9,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-9
-CN(C)C(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-10,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-10
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCCN2CCCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-11,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-11
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CC2)c2cccnc2)cc1,ALP-POS-88a7a97e-12,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-12
-CC(C)(C)OC(=O)NCCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-13,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-13
-CCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-14,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-14
-COC(=O)C1CC(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-15,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-15
-CSCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-16,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-16
-CCOC(=O)CCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-17,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-17
-CC(C)(C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-18,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-18
-CC(C)(C)OC(=O)NCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-19,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-19
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC(=O)Nc2cccc([N+](=O)[O-])c2)c2cccnc2)cc1,ALP-POS-88a7a97e-20,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-20
-COC(=O)/C(=C\N(C)C)NC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-21,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-21
-CN(C)CCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-22,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-22
-COC(=O)[C@@H]1C[C@@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-23,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-23
-COC(=O)[C@H]1C[C@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-24,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-24
-CC(C)(C)OC(=O)N1CCC(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-25,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-25
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC2CCOC2)c2cccnc2)cc1,ALP-POS-88a7a97e-26,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-26
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC2CCCO2)c2cccnc2)cc1,ALP-POS-88a7a97e-27,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-27
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-28,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-28
-COC(CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1)OC,ALP-POS-88a7a97e-29,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-29
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCOC2)c2cccnc2)cc1,ALP-POS-88a7a97e-30,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-30
-COCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-31,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-31
-CCOC(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-32,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-32
-COC(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-33,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-33
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2COC2)c2cccnc2)cc1,ALP-POS-88a7a97e-34,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-34
-CCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-35,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-35
-COC(=O)C1(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CCCC1,ALP-POS-88a7a97e-36,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-36
-COC(=O)[C@H]1C[C@@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-37,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-37
-CC(C)(C)OC(=O)CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-38,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-38
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CC(F)(F)C2)c2cccnc2)cc1,ALP-POS-88a7a97e-39,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-39
-COC(=O)[C@@H]1C[C@H](NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)CN1C(=O)OC(C)(C)C,ALP-POS-88a7a97e-40,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-40
-COc1ccc(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)cn1,ALP-POS-88a7a97e-41,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-41
-Cc1ccc(S(=O)(=O)CNC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)cc1,ALP-POS-88a7a97e-42,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-42
-CC(C)(C)OC(=O)N1CC(NC(=O)C(c2cccnc2)N(C(=O)c2cocn2)c2ccc(C(C)(C)C)cc2)C1,ALP-POS-88a7a97e-43,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-43
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCC(=O)OCc2ccccc2)c2cccnc2)cc1,ALP-POS-88a7a97e-44,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-44
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NC2CCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-45,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-45
-CSCCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-46,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-46
-CC(C)(C)c1ccc(N(C(=O)c2cocn2)C(C(=O)NCCN2CCOCC2)c2cccnc2)cc1,ALP-POS-88a7a97e-47,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-47
-CCOC(=O)CCCNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-48,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-48
-CCOC(=O)c1ncoc1CNC(=O)C(c1cccnc1)N(C(=O)c1cocn1)c1ccc(C(C)(C)C)cc1,ALP-POS-88a7a97e-49,"Alpha Lee, PostEra",,False,ALP-POS-88a7a97e-49
+O=C1N(c2cncc3ccccc23)CCCC12COc1ccc(Cl)cc12,VLA-UNK-c65c1026-1,Vladimiras Oleinikovas,,False,VLA-UNK-c65c1026-1
+O=C1CCC2(COc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-c65c1026-2,Vladimiras Oleinikovas,,False,VLA-UNK-c65c1026-2
+O=C1CCC2(CNc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-c65c1026-3,Vladimiras Oleinikovas,,False,VLA-UNK-c65c1026-3
+O=C1NCC2(CNc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-c65c1026-4,Vladimiras Oleinikovas,,False,VLA-UNK-c65c1026-4
+O=C1CNC2(COc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-c65c1026-5,Vladimiras Oleinikovas,,False,VLA-UNK-c65c1026-5
+O=C1NCC2(COc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-c65c1026-6,Vladimiras Oleinikovas,,False,VLA-UNK-c65c1026-6
+O=C1N[C@]2(CCOc3cc(F)c(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-3a43cd95-1,Vladimiras Oleinikovas,,False,VLA-UNK-3a43cd95-1
+O=C1N[C@]2(COc3cc(F)c(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-3a43cd95-2,Vladimiras Oleinikovas,,False,VLA-UNK-3a43cd95-2
+O=C1C[C@]2(CCOc3cc(F)c(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-3a43cd95-3,Vladimiras Oleinikovas,,False,VLA-UNK-3a43cd95-3
+O=C1C[C@]2(COc3cc(F)c(Cl)cc32)C(=O)N1c1cncc2ccccc12,VLA-UNK-3a43cd95-4,Vladimiras Oleinikovas,,False,VLA-UNK-3a43cd95-4
