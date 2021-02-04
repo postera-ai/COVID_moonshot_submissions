@@ -1,17 +1,33 @@
 SMILES,CID,comments
-CC(C)(C)c1ccc(N)cc1,,not found
-CN(C)CC(=O)NCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-70ae9412-2,
-O=C(Cn1ccnc1)NCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,EDG-MED-70ae9412-1,
 COC(=O)C(CO)c1cc(Cl)ccc1Br,,not found
 NNc1cncc2ccccc12,,not found
 O=C(O)C1CCOc2ccc(Cl)cc21,,not found
 NC1(C(=O)O)CCOc2ccccc21,,not found
 Clc1cccc(CN2CCNCC2)c1,,not found
 Clc1ccc2c(c1)NCCO2,,not found
+CN(C)C(=O)C[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-f9802937-4,
+CN(C)C(=O)C[C@]1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-f9802937-3,
+O=C(Nc1cncc2ccccc12)C(F)(F)c1ccc(Cl)c(Cl)c1,MAT-POS-fce787c2-6,
+CC(=O)Nc1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cncc3ccccc23)cn1,ALP-POS-c3a96089-4,
+COCCOC(C(=O)Nc1cncc2ccccc12)c1ccc(Cl)c(Cl)c1,MAT-POS-de59a476-4,
+CNC(=O)CC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21,MAT-POS-5d65ec79-2,
+N#CC(C(=O)Nc1cncc2ccccc12)c1ccc(Cl)c(Cl)c1,MAT-POS-fce787c2-8,
+CN1CC[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,EDG-MED-5d232de5-5,
+CN1CC[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,EDG-MED-5d232de5-6,
+O=C(Nc1cncc2ccccc12)C(NCC1CC1)c1ccc(Cl)c(Cl)c1,MAT-POS-1f3f1a6f-4,
+O=C1NC(c2ccc(Cl)c(Cl)c2)C(=O)N1c1cncc2ccccc12,MAT-POS-1f3f1a6f-5,
+CN(C)C(C(=O)Nc1cncc2ccccc12)c1ccc(Cl)c(Cl)c1,MAT-POS-1f3f1a6f-2,
+O=C(Nc1cncc2ccccc12)C(CO)c1ccc(Cl)c(Cl)c1,MAT-POS-fce787c2-11,
+O=C(Nc1cncc2ccccc12)C(O)c1ccc(Cl)c(Cl)c1,MAT-POS-fce787c2-4,
+C=CC(=O)N(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,VLA-UCB-50c39ae8-7,
+CN(C)C(=O)CN1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,RAL-THA-8416115c-9,
+COCCN1CCC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,RAL-THA-4aa06b95-7,
+COC1(C(=O)Nc2cncc3ccccc23)CCOc2cc(Cl)c(Cl)cc21,EDJ-MED-d08626de-5,
 O=C(Cc1cc(Cl)cc(Br)c1)Nc1cncc2ccccc12,,not found
 O=C(Cc1cc(Cl)cc(B(O)O)c1)Nc1cncc2ccccc12,,not found
 CC1(C)OB(c2cc(Cl)cc(CC(=O)Nc3cncc4ccccc34)c2)OC1(C)C,,not found
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
+CC(C)(C)c1ccc(N)cc1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
 CN1C(=O)CCc2cc(N)ccc21,,not found
 NC1CC2CCCC2C1,,not found

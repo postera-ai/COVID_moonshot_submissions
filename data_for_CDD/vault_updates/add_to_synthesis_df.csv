@@ -53,3 +53,13 @@ COC1(C(=O)Nc2cncc3ccccc23)CCOc2cc(F)c(Cl)cc21,ALP-POS-fe871b40-11
 COC1(C(=O)Nc2cncc3ccccc23)CCNc2c(C#N)cc(Cl)cc21,ALP-POS-fe871b40-4
 N#Cc1cc(Cl)cc2c1NCCC2C(=O)Nc1cncc2ccccc12,ALP-POS-fe871b40-2
 COC(=O)C1(C(=O)O)CCOc2ccc(Cl)cc21,
+COc1cc(Cl)nc(Nc2cc(Cl)cc(CC(=O)Nc3cncc4ccccc34)c2)n1,
+O=C(Cc1cc(Cl)cc(Nc2ccc(C(F)(F)F)cn2)c1)Nc1cncc2ccccc12,
+COc1cc(Br)ccc1Nc1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,
+CCN(Cc1ccc(F)cc1)c1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,
+Cc1ccc2nc(Nc3cc(Cl)cc(CC(=O)Nc4cncc5ccccc45)c3)sc2c1,
+O=C(Cc1cc(Cl)cc(N2CCN(C(=O)c3ccco3)CC2)c1)Nc1cncc2ccccc12,
+O=C(Cc1cc(Cl)cc(NCc2ccc(Br)cc2)c1)Nc1cncc2ccccc12,
+CN(Cc1cccc2ccccc12)c1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,
+CCS(=O)(=O)N1CCN(c2cc(Cl)cc(CC(=O)Nc3cncc4ccccc34)c2)CC1,
+COc1ncc(Br)cc1Nc1cc(Cl)cc(CC(=O)Nc2cncc3ccccc23)c1,
