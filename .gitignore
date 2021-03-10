@@ -1,3 +1,9 @@
 *.DS_Store
 *CDD.env
 *__pycache__/
+ALP-POS-c59291d4-7*
+*ALP-POS-c59291d4-7
+lib/scr/dose_response_curves/ALP-POS-c59291d4-7_f_dose_response_curve.json
+lib/scr/dose_response_curves/ALP-POS-c59291d4-7_f_dose_response_curve.html
+lib/scr/dose_response_curves/ALP-POS-c59291d4-7_r_dose_response_curve.json
+lib/scr/dose_response_curves/ALP-POS-c59291d4-7_r_dose_response_curve.html
