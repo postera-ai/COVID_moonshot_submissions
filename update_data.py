@@ -68,7 +68,8 @@ def update_data(
                 "Made",
             ]
         )
-
+        all_df = all_df.loc[all_df["CID (canonical)"]!="ALP-POS-c59291d4-7"]  # exclude pfizer compound data
+        
         def create_old_cid(x):
             if x["old_CID"] is np.nan:
                 return x["CID"]
@@ -114,6 +115,7 @@ def update_data(
                 "trypsin_IC50",
             ]
         )
+        all_df = all_df.loc[all_df["CID (canonical)"]!="ALP-POS-c59291d4-7"]  # exclude pfizer compound data
 
     ### Update the orders data
     from lib.get_all_ordered_mols import update_orders_data
@@ -224,6 +226,8 @@ def update_data(
             if (x in list(current_cdd_df["external_ID"]))
             else np.nan
         )
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0016338"]
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0006356"]
     else:
         current_cdd_df = pd.read_csv(
             dir_path / "data_for_CDD" / "current_vault_data" / "current_vault_data.csv"
@@ -287,6 +291,9 @@ def update_data(
         all_df = pd.merge(all_df, solubility_df, how="left", on=["CDD_mol_ID"])
         all_df = pd.merge(all_df, trypsin_df, how="left", on=["CDD_mol_ID"])
         all_df = pd.merge(all_df, nmr_df, how="left", on=["CDD_mol_ID"])
+
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0016338"]
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0006356"]
 
     if fetch_structures:
         # update structural info
@@ -382,6 +389,10 @@ def update_data(
         # add series info
         all_df["series"] = all_df["SMILES"].apply(lambda x: get_series(x))
 
+        all_df = all_df.loc[all_df["CID (canonical)"]!="ALP-POS-c59291d4-7"]  # exclude pfizer compound data
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0016338"]
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0006356"]
+
     all_df.to_csv(dir_path / "covid_submissions_all_info.csv", index=False)
 
     if update_plots:
@@ -404,6 +415,10 @@ def update_data(
             create_rapidfire_dose_response_specs,
         )
 
+        all_df = all_df.loc[all_df["CID (canonical)"]!="ALP-POS-c59291d4-7"]  # exclude pfizer compound data
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0016338"]
+        all_df = all_df.loc[all_df["CDD_name"] != "CVD-0006356"]
+        
         # watch out for Weizmann mols uploaded separately
         postera_cdd_mols = dict.fromkeys(list(all_df["CDD_mol_ID"]), 0)
 
