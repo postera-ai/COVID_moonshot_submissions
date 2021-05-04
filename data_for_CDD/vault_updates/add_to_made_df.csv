@@ -10,18 +10,27 @@ O=C(Cc1cc(Cl)cc(B(O)O)c1)Nc1cncc2ccccc12,,not found
 CC1(C)OB(c2cc(Cl)cc(CC(=O)Nc3cncc4ccccc34)c2)OC1(C)C,,not found
 Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CC(C)(C)c1ccc(N)cc1,,not found
+COCc1csc(CNC(=O)c2ncc(Cl)cc2Cl)c1,JAR-KUA-41bd5a3d-1,
+NS(=O)(=O)c1cc(CN2CCN(C(c3ccccc3)c3ccccc3)CC2)co1,JAR-KUA-41bd5a3d-2,
+Cc1nc(C)c(S(=O)(=O)NCC2CCCC3CC23)s1,JAR-KUA-41bd5a3d-3,
+Cc1nc(N2CCN(S(=O)(=O)c3ccccc3)CC2)sc1S(N)(=O)=O,JAR-KUA-41bd5a3d-4,
+Cc1nnc(N2CCN(C(C)c3cccc(Cl)c3)CC2)nc1C,JAR-KUA-41bd5a3d-5,
+Cc1csc2ncc(C(=O)N3C4CCC3c3ccccc34)c(=O)n12,JAR-KUA-41bd5a3d-6,
+CCS(=O)(=O)c1c(Cl)cccc1CNC(c1cccc(F)c1)C1CC1,JAR-KUA-41bd5a3d-7,
+COCc1csc(-c2nnc(-c3sc(-c4ccccc4)nc3C)o2)c1,JAR-KUA-41bd5a3d-8,
+Cc1ccc(S(=O)(=O)NCC(=O)N2CCC(NS(N)(=O)=O)CC2)cc1,JAR-KUA-41bd5a3d-9,
+CCS(=O)(=O)c1cc(Cl)cc(CNS(=O)(=O)c2cccs2)c1,JAR-KUA-41bd5a3d-10,
+Cc1ccc(S(=O)(=O)NCCNC(=O)N2CCN(S(=O)(=O)N3CCCC3)CC2)cc1,JAR-KUA-41bd5a3d-11,
+COCc1ccccc1CNS(=O)(=O)c1c(C)sc(C)c1C,JAR-KUA-41bd5a3d-12,
+CN(C)S(=O)(=O)N1CCN(C(=O)C2Nc3ccccc3S(=O)(=O)N2)CC1,JAR-KUA-41bd5a3d-13,
+CCS(=O)(=O)c1ccc(CNS(=O)(=O)c2cnc(-c3ccccc3)s2)s1,JAR-KUA-41bd5a3d-14,
+Cc1nc2scc(C)n2c1CN1CCN(Cc2ccsc2)CC1,JAR-KUA-41bd5a3d-15,
+NS(=O)(=O)NCCNS(=O)(=O)c1ccccc1[N+](=O)[O-],JAR-KUA-41bd5a3d-16,
+COc1cc(OC)cc(-c2nc(-c3c(C)nc4sccn34)no2)c1,JAR-KUA-41bd5a3d-17,
+NS(=O)(=O)C1Cc2ccccc2N(CCNS(=O)(=O)c2ccccc2)C1,JAR-KUA-41bd5a3d-18,
+CCN(CC)S(=O)(=O)c1ccc(S(=O)(=O)N2CCN(S(N)(=O)=O)CC2)cc1,JAR-KUA-41bd5a3d-19,
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
 Nc1cncc2ccccc12,,not found
-O=C(COCC1(C(=O)Nc2cncc3ccccc23)CCOc2ccc(Cl)cc21)Nc1ncc[nH]1,LEE-CAM-7ab9b158-3,
-CN(C)C(=O)COCC(=O)NC(C(=O)Nc1cncc2ccccc12)c1cccc(Cl)c1,EDJ-MED-cf4b0d25-5,
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)c2ncc[nH]2)Cc2ccc(Cl)cc21,MAT-POS-4223bc15-30,
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)C2CC2)Cc2ccc(Cl)cc21,MAT-POS-4223bc15-3,
-CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-4223bc15-2,
-COC(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,RAL-THA-6e4c80cf-1,
-CN(C)C(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-4223bc15-18,
-Cn1cc(N2CCC(CNCC3(C(=O)Nc4cncc5ccccc45)CCOc4ccc(Cl)cc43)C2)cn1,MAT-POS-5f1400cf-1,
-CN(CCO)c1ccc(CNCC2(C(=O)Nc3cncc4ccccc34)CCOc3ccc(Cl)cc32)cn1,MAT-POS-5f1400cf-2,
-N#Cc1ncc(NC(=O)Cc2cccc(Cl)c2)c2ccccc12,JIN-POS-6dc588a4-24,
 CN1C(=O)CCc2cc(N)ccc21,,not found
 NC1CC2CCCC2C1,,not found
 NC1CCc2cc(F)ccc21,,not found
