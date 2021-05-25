@@ -62,7 +62,7 @@ def get_current_vault_data():
 
         time.sleep(5)
         seconds_waiting += 5
-        if seconds_waiting > 500:
+        if seconds_waiting > 5000:
             print("Export Never Finished")
             break
 
