@@ -81,18 +81,7 @@ Cc1nc2cc(N)ccc2s1,,not found
 NC1CCOC1,,not found
 CCOc1ccc(N)cc1,,not found
 O=C(O)c1cnc[nH]1,,not found
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cnoc12,PET-UNK-b1ef24dc-1,
-Cc1ccnc(NC(=O)C2CCOc3ccc(Cl)cc32)c1N,MAT-POS-500f4700-1,
-NC(=O)c1cc2c(NC(=O)C3CCOc4ccc(Cl)cc43)cncc2s1,MAT-POS-14f31916-2,
-O=C(Nc1cnc2ccccn12)C1CCNc2cc(Cl)c(Cl)cc21,MAT-POS-500f4700-2,
 O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(F)c12,MIC-UNK-50cce87d-1,
-CNC(=O)c1cc2c(NC(=O)C3CCOc4ccc(Cl)cc43)cncc2s1,MAT-POS-14f31916-3,
-CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cnccc2C(F)(F)F)C1,EDJ-MED-ee742daa-4,
-CS(=O)(=O)c1ccc2c(NC(=O)C3CCS(=O)(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-93390d0c-2,
-CS(=O)(=O)N1Cc2cc(F)c(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-64942dd0-3,
-O=C(C1CCOc2cc(Cl)ccc21)N(Cc1c[nH]c(=O)[nH]c1=O)c1cncc2ccccc12,ALP-POS-6d96567b-2,
-O=C(Nc1cncc2ccccc12)C1CN(CC(F)(F)F)Cc2ccc(Cl)cc21,MAT-POS-4223bc15-26,
-COC1(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)cc23)CCOc2ccc(Cl)cc21,EDG-MED-10fcb19e-1,
 O=Cc1cccnc1,,not found
 O=C(O)c1cc(O)nc2ccccc12,,not found
 O=C(O)c1cocn1,,not found
