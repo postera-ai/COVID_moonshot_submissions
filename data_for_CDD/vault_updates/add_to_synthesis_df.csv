@@ -1,10 +1,4 @@
 SMILES,CID
+O=C(O)Cc1cc(Cl)ccc1C(=O)O,
 COc1cccc2[nH]c(C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)CO)cc12,
 COC(=O)C1(C(=O)O)CCOc2ccc(Cl)cc21,
-O=C(Cc1cccc(Cl)c1)Nc1cncc2oncc12,PET-UNK-b1ef24dc-3
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cnoc12,PET-UNK-b1ef24dc-1
-O=C(Cc1cccc(Cl)c1)Nc1cncn2cnnc12,EDJ-MED-076d6e64-1
-O=C(Nc1cncn2ccnc12)[C@@H]1CCOc2ccc(Cl)cc21,EDJ-MED-51d3200d-1
-CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cnccc2C(F)(F)F)C1,EDJ-MED-ee742daa-4
-Cn1ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c21,PET-UNK-e274cad4-6
-O=C(Nc1cnc2ccccn12)[C@@H]1CCNc2cc(Cl)c(Cl)cc21,BEN-DND-02317c5c-5
