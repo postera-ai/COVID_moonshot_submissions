@@ -1,9 +1,4 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-O=C(Nc1cncc2sccc12)[C@@H]1CCOc2ccc(Cl)cc21,PET-UNK-7f7e354d-1,Peter Kenny,,False,PET-UNK-7f7e354d-1
-O=C(Nc1cncc2sccc12)[C@@H]1CCNc2ccc(Cl)cc21,PET-UNK-7f7e354d-2,Peter Kenny,,False,PET-UNK-7f7e354d-2
-O=C(Nc1cncc2sccc12)[C@@H]1CCS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-7f7e354d-3,Peter Kenny,,False,PET-UNK-7f7e354d-3
-CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3sccc23)C1,PET-UNK-7f7e354d-4,Peter Kenny,,False,PET-UNK-7f7e354d-4
-CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3sccc23)C1,PET-UNK-7f7e354d-5,Peter Kenny,,False,PET-UNK-7f7e354d-5
-CC(=O)N1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3sccc23)C1,PET-UNK-7f7e354d-6,Peter Kenny,,False,PET-UNK-7f7e354d-6
-O=C(Cc1cccc(Cl)c1)Nc1cncc2occc12,PET-UNK-7f7e354d-7,Peter Kenny,,False,PET-UNK-7f7e354d-7
-CS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cccc(CN)c23)C1,ROB-CAM-4c532489-1,"Robert Glen, Cambridge University",,False,ROB-CAM-4c532489-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nncs2)Cc2ccc(Cl)cc21,PET-UNK-5ba9a1cb-1,Peter Kenny,,False,PET-UNK-5ba9a1cb-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ncns2)Cc2ccc(Cl)cc21,PET-UNK-5ba9a1cb-2,Peter Kenny,,False,PET-UNK-5ba9a1cb-2
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nccs2)Cc2ccc(Cl)cc21,PET-UNK-5ba9a1cb-3,Peter Kenny,,False,PET-UNK-5ba9a1cb-3
