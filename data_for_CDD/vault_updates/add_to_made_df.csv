@@ -81,7 +81,6 @@ Cc1nc2cc(N)ccc2s1,,not found
 NC1CCOC1,,not found
 CCOc1ccc(N)cc1,,not found
 O=C(O)c1cnc[nH]1,,not found
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(F)c12,MIC-UNK-50cce87d-1,
 O=Cc1cccnc1,,not found
 O=C(O)c1cc(O)nc2ccccc12,,not found
 O=C(O)c1cocn1,,not found
