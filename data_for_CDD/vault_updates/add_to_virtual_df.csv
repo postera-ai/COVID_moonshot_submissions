@@ -1,1 +1,81 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
+O=C1N(c2cncc3ccccc23)CC[C@@]12CCOc1ccc(Cl)cc12,EDJ-MED-159244ea-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-159244ea-1
+Clc1ccc2c(c1)[C@]1(CCO2)CCN(c2cncc3ccccc23)C1,EDJ-MED-159244ea-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-159244ea-2
+O=C1C[C@]2(CCOc3ccc(Cl)cc32)CN1c1cncc2ccccc12,EDJ-MED-159244ea-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-159244ea-3
+CC(=O)Nc1cn2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2n1,MAT-POS-af1eef35-1,"Matt Robinson, PostEra",,False,MAT-POS-af1eef35-1
+COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-af1eef35-2,"Matt Robinson, PostEra",,False,MAT-POS-af1eef35-2
+O=C(Nc1cncc2ccccc12)C1CNS(=O)(=O)c2ccc(Cl)cc21,MAT-POS-af1eef35-3,"Matt Robinson, PostEra",,False,ALP-POS-a577c8a2-1
+CC(=O)Nc1cn2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2n1,EDJ-MED-e18764cb-1,"Ed J Griffen, MedChemica Ltd",,False,MAT-POS-af1eef35-1
+O=C(Nc1cncc2ccccc12)C1CNS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-e18764cb-2,"Ed J Griffen, MedChemica Ltd",,False,ALP-POS-a577c8a2-1
+COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-e18764cb-3,"Ed J Griffen, MedChemica Ltd",,False,MAT-POS-af1eef35-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2)C1,EDJ-MED-8bb691af-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-1
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3)C2)CC1,EDJ-MED-8bb691af-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2)C1,EDJ-MED-8bb691af-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-3
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,EDJ-MED-8bb691af-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-4
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5ccccc45)C3)C2)CC1,EDJ-MED-8bb691af-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-5
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,EDJ-MED-8bb691af-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-6
+CNC(=O)CN1CC2(CCN(c3cncc4ccccc34)C2)c2cc(Cl)ccc2C1=O,EDJ-MED-8bb691af-7,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-7
+CNC(=O)CN1CC2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,EDJ-MED-8bb691af-8,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-8
+CNC(=O)CN1CC2(CC(=O)N(c3cncc4ccccc34)C2)c2cc(Cl)ccc2C1=O,EDJ-MED-8bb691af-9,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-9
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(Cl)c12,EDJ-MED-6ab52e52-1,"Ed J Griffen, MedChemica Ltd",,False,MIC-UNK-50cce87d-2
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(C(F)(F)F)c12,MIC-UNK-668ac5de-1,Michal K,,False,MIC-UNK-668ac5de-1
+O=C1N(c2cncc3ccccc23)CCC12CCOc1ccc(Cl)cc12,MAT-POS-983b399a-1,"Matthew Robinson, PostEra",,False,ALP-POS-477dc5b7-4
+Clc1ccc2c(c1)C1(CCO2)CCN(c2cncc3ccccc23)C1,MAT-POS-983b399a-2,"Matthew Robinson, PostEra",,False,MAT-POS-983b399a-2
+O=C1CC2(CCOc3ccc(Cl)cc32)CN1c1cncc2ccccc12,MAT-POS-983b399a-3,"Matthew Robinson, PostEra",,False,MAT-POS-983b399a-3
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4cccc(C)c34)C2)C1,EDJ-MED-3656d29d-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-3656d29d-1
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(CS(C)(=O)=O)ccc23)C1,EDJ-MED-4f4dd660-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-1
+CS(=O)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-4f4dd660-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(CS(C)(=N)=O)ccc23)C1,EDJ-MED-4f4dd660-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-3
+CS(=N)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-4f4dd660-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-4
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(CS(=O)(=O)N(C)C)ccc23)C1,EDJ-MED-4f4dd660-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-5
+CN(C)S(=O)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-4f4dd660-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-6
+CC(C)(O)CS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-7f6e5b75-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7f6e5b75-1
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@](OC)(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-b1cef252-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-b1cef252-1
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,EDJ-MED-b1cef252-2,"Ed J Griffen, MedChemica Ltd",,False,PET-UNK-6da3dcd8-8
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(F)ccc23)C1,EDJ-MED-7889e8da-1,"Ed J Griffen, MedChemica Ltd",,False,ALP-POS-6f6ae286-5
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(F)ccc34)C2)CC1,EDJ-MED-7889e8da-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-be9e6f63-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(Cl)ccc23)C1,EDJ-MED-7889e8da-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7889e8da-3
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(Cl)ccc34)C2)CC1,EDJ-MED-7889e8da-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-be9e6f63-4
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)C1,EDJ-MED-7889e8da-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7889e8da-5
+CS(=O)(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-7889e8da-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7889e8da-6
+Cc1cccc2cncc(N3CCC4(COCc5ccc(Cl)cc54)C3)c12,EDJ-MED-f3cfbbb5-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-f3cfbbb5-1
+Cc1cccc2cncc(N3CCC4(CCOc5ccc(Cl)cc54)C3)c12,EDJ-MED-a6bab6fb-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-a6bab6fb-1
+O=C(Nc1cncc2ccccc12)C1CCOc2c(F)cc(F)cc21,ALP-POS-c86619f0-1,"Alpha Lee, PostEra",,False,ALP-POS-c86619f0-1
+Cc1cc(S(C)(=O)=O)cc2cncc(N3CCC4(CCOc5ccc(Cl)cc54)C3)c12,EDJ-MED-d7486dd1-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-d7486dd1-1
+CNC(=O)CN1Cc2ccc(Cl)cc2C(OC)(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-83a7b0a0-1,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-1
+COC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,MAT-POS-83a7b0a0-2,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5ccccc45)C3=O)C2)CC1,MAT-POS-1bed62cf-1,"Matt Robinson, PostEra",,False,MAT-POS-1bed62cf-1
+CNC(=O)CN1CC2(CC(=O)N(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,MAT-POS-1bed62cf-2,"Matt Robinson, PostEra",,False,MAT-POS-1bed62cf-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,MAT-POS-1bed62cf-3,"Matt Robinson, PostEra",,False,MAT-POS-1bed62cf-3
+COc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-1,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-1
+COc1cc2cncc(NC(=O)Cc3cccc(Cl)c3)c2cc1OC,MAT-POS-c20a539d-2,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-2
+CC1(C)Oc2cc3cncc(NC(=O)Cc4cccc(Cl)c4)c3cc2O1,MAT-POS-c20a539d-3,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-3
+CC(C)(O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-4,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-4
+N#Cc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-5,"Matt Robinson, PostEra",,False,PET-UNK-6314f867-2
+Cc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-6,"Matt Robinson, PostEra",,False,MAT-POS-29385cc1-3
+CCS(=O)(=O)Nc1ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c2c1,MAT-POS-c20a539d-7,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-7
+CCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-8,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-8
+CC1(C)c2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)CN1S(C)(=O)=O,MAT-POS-2e8b2191-1,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-1
+CC1(C)CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,MAT-POS-2e8b2191-2,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-2
+O=C(Nc1cncc2ccccc12)C1CC(F)(F)Oc2ccc(Cl)cc21,MAT-POS-2e8b2191-3,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-3
+CC1(C(=O)Nc2cncc3ccccc23)CC(=O)Oc2ccc(Cl)cc21,MAT-POS-2e8b2191-4,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-4
+CC1(C(=O)Nc2cncc3ccccc23)COC(=O)c2ccc(Cl)cc21,MAT-POS-2e8b2191-5,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-5
+CC1(C)c2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)CN1S(=O)(=O)CC1(C#N)CC1,MAT-POS-2e8b2191-6,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-6
+CNC(=O)CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1(C)C,MAT-POS-2e8b2191-7,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-7
+CN1C(=O)N(c2cncc3ccccc23)C(=O)C12CN(S(C)(=O)=O)Cc1ccc(Cl)cc12,MAT-POS-2e8b2191-8,"Matt Robinson, PostEra",,False,EDJ-MED-7587a9ee-1
+CS(=O)(=O)Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-2e8b2191-9,"Matt Robinson, PostEra",,False,MAT-POS-e36d57d9-1
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)cc23)C1,MAT-POS-2e8b2191-10,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-10
+CNC(=O)CN1CC(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)cc23)c2cc(Cl)ccc2C1=O,MAT-POS-2e8b2191-11,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-11
+CNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,MAT-POS-2e8b2191-12,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-12
+CC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,MAT-POS-89bd6af1-1,"Matt Robinson, PostEra",,False,ALP-POS-c56c1477-4
+COC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,MAT-POS-89bd6af1-2,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C)(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-89bd6af1-3,"Matt Robinson, PostEra",,False,MAT-POS-89bd6af1-3
+CNC(=O)CN1Cc2ccc(Cl)cc2C(OC)(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-89bd6af1-4,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-1
+Cc1c(NS(C)(=O)=O)ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c12,MAT-POS-13080fc6-1,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-1
+CNC(=O)CN1CC(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)c(C)c23)c2cc(Cl)ccc2C1=O,MAT-POS-13080fc6-2,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-2
+Cc1cc(S(C)(=O)=O)cc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c12,MAT-POS-13080fc6-3,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-3
+CNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)cc(C)c23)c2cc(Cl)ccc2C1=O,MAT-POS-13080fc6-4,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-4
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)c(C)c23)C1,MAT-POS-13080fc6-5,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-5
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(S(C)(=O)=O)cc(C)c23)C1,MAT-POS-13080fc6-6,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-6
+Cc1c(NS(C)(=O)=O)ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c12,MAT-POS-8feb6e35-1,"Matthew Robinson, PostEra",,False,MAT-POS-8feb6e35-1
+Cc1cc(S(C)(=O)=O)cc2cncc(NC(=O)Cc3cccc(Cl)c3)c12,MAT-POS-8feb6e35-2,"Matthew Robinson, PostEra",,False,MAT-POS-8feb6e35-2
