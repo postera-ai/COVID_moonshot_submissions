@@ -1,5 +1,7 @@
 # COVID Moonshot Data
 
+To cite any of this data, please cite the preprint located at https://www.biorxiv.org/content/10.1101/2020.10.29.339317v1
+
 This repo contains all of the designs submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project, as well as the initial experimental data created as part of the project.
 
 The data has been split into many different folders and files, in order to ease the organization of such a large number of designs made through several CROs.
