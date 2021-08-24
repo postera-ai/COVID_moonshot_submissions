@@ -1,81 +1,220 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-O=C1N(c2cncc3ccccc23)CC[C@@]12CCOc1ccc(Cl)cc12,EDJ-MED-159244ea-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-159244ea-1
-Clc1ccc2c(c1)[C@]1(CCO2)CCN(c2cncc3ccccc23)C1,EDJ-MED-159244ea-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-159244ea-2
-O=C1C[C@]2(CCOc3ccc(Cl)cc32)CN1c1cncc2ccccc12,EDJ-MED-159244ea-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-159244ea-3
-CC(=O)Nc1cn2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2n1,MAT-POS-af1eef35-1,"Matt Robinson, PostEra",,False,MAT-POS-af1eef35-1
-COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-af1eef35-2,"Matt Robinson, PostEra",,False,MAT-POS-af1eef35-2
-O=C(Nc1cncc2ccccc12)C1CNS(=O)(=O)c2ccc(Cl)cc21,MAT-POS-af1eef35-3,"Matt Robinson, PostEra",,False,ALP-POS-a577c8a2-1
-CC(=O)Nc1cn2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2n1,EDJ-MED-e18764cb-1,"Ed J Griffen, MedChemica Ltd",,False,MAT-POS-af1eef35-1
-O=C(Nc1cncc2ccccc12)C1CNS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-e18764cb-2,"Ed J Griffen, MedChemica Ltd",,False,ALP-POS-a577c8a2-1
-COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-e18764cb-3,"Ed J Griffen, MedChemica Ltd",,False,MAT-POS-af1eef35-2
-CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2)C1,EDJ-MED-8bb691af-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-1
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3)C2)CC1,EDJ-MED-8bb691af-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-2
-CNC(=O)CN1Cc2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2)C1,EDJ-MED-8bb691af-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-3
-CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,EDJ-MED-8bb691af-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-4
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5ccccc45)C3)C2)CC1,EDJ-MED-8bb691af-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-5
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,EDJ-MED-8bb691af-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-6
-CNC(=O)CN1CC2(CCN(c3cncc4ccccc34)C2)c2cc(Cl)ccc2C1=O,EDJ-MED-8bb691af-7,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-7
-CNC(=O)CN1CC2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,EDJ-MED-8bb691af-8,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-8
-CNC(=O)CN1CC2(CC(=O)N(c3cncc4ccccc34)C2)c2cc(Cl)ccc2C1=O,EDJ-MED-8bb691af-9,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-8bb691af-9
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(Cl)c12,EDJ-MED-6ab52e52-1,"Ed J Griffen, MedChemica Ltd",,False,MIC-UNK-50cce87d-2
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(C(F)(F)F)c12,MIC-UNK-668ac5de-1,Michal K,,False,MIC-UNK-668ac5de-1
-O=C1N(c2cncc3ccccc23)CCC12CCOc1ccc(Cl)cc12,MAT-POS-983b399a-1,"Matthew Robinson, PostEra",,False,ALP-POS-477dc5b7-4
-Clc1ccc2c(c1)C1(CCO2)CCN(c2cncc3ccccc23)C1,MAT-POS-983b399a-2,"Matthew Robinson, PostEra",,False,MAT-POS-983b399a-2
-O=C1CC2(CCOc3ccc(Cl)cc32)CN1c1cncc2ccccc12,MAT-POS-983b399a-3,"Matthew Robinson, PostEra",,False,MAT-POS-983b399a-3
-CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4cccc(C)c34)C2)C1,EDJ-MED-3656d29d-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-3656d29d-1
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(CS(C)(=O)=O)ccc23)C1,EDJ-MED-4f4dd660-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-1
-CS(=O)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-4f4dd660-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-2
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(CS(C)(=N)=O)ccc23)C1,EDJ-MED-4f4dd660-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-3
-CS(=N)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-4f4dd660-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-4
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(CS(=O)(=O)N(C)C)ccc23)C1,EDJ-MED-4f4dd660-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-5
-CN(C)S(=O)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-4f4dd660-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4f4dd660-6
-CC(C)(O)CS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-7f6e5b75-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7f6e5b75-1
-CNC(=O)CN1Cc2ccc(Cl)cc2[C@](OC)(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-b1cef252-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-b1cef252-1
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,EDJ-MED-b1cef252-2,"Ed J Griffen, MedChemica Ltd",,False,PET-UNK-6da3dcd8-8
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(F)ccc23)C1,EDJ-MED-7889e8da-1,"Ed J Griffen, MedChemica Ltd",,False,ALP-POS-6f6ae286-5
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(F)ccc34)C2)CC1,EDJ-MED-7889e8da-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-be9e6f63-2
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(Cl)ccc23)C1,EDJ-MED-7889e8da-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7889e8da-3
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(Cl)ccc34)C2)CC1,EDJ-MED-7889e8da-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-be9e6f63-4
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)C1,EDJ-MED-7889e8da-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7889e8da-5
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-7889e8da-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-7889e8da-6
-Cc1cccc2cncc(N3CCC4(COCc5ccc(Cl)cc54)C3)c12,EDJ-MED-f3cfbbb5-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-f3cfbbb5-1
-Cc1cccc2cncc(N3CCC4(CCOc5ccc(Cl)cc54)C3)c12,EDJ-MED-a6bab6fb-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-a6bab6fb-1
-O=C(Nc1cncc2ccccc12)C1CCOc2c(F)cc(F)cc21,ALP-POS-c86619f0-1,"Alpha Lee, PostEra",,False,ALP-POS-c86619f0-1
-Cc1cc(S(C)(=O)=O)cc2cncc(N3CCC4(CCOc5ccc(Cl)cc54)C3)c12,EDJ-MED-d7486dd1-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-d7486dd1-1
-CNC(=O)CN1Cc2ccc(Cl)cc2C(OC)(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-83a7b0a0-1,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-1
-COC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,MAT-POS-83a7b0a0-2,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-2
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5ccccc45)C3=O)C2)CC1,MAT-POS-1bed62cf-1,"Matt Robinson, PostEra",,False,MAT-POS-1bed62cf-1
-CNC(=O)CN1CC2(CC(=O)N(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,MAT-POS-1bed62cf-2,"Matt Robinson, PostEra",,False,MAT-POS-1bed62cf-2
-CNC(=O)CN1Cc2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,MAT-POS-1bed62cf-3,"Matt Robinson, PostEra",,False,MAT-POS-1bed62cf-3
-COc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-1,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-1
-COc1cc2cncc(NC(=O)Cc3cccc(Cl)c3)c2cc1OC,MAT-POS-c20a539d-2,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-2
-CC1(C)Oc2cc3cncc(NC(=O)Cc4cccc(Cl)c4)c3cc2O1,MAT-POS-c20a539d-3,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-3
-CC(C)(O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-4,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-4
-N#Cc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-5,"Matt Robinson, PostEra",,False,PET-UNK-6314f867-2
-Cc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-6,"Matt Robinson, PostEra",,False,MAT-POS-29385cc1-3
-CCS(=O)(=O)Nc1ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c2c1,MAT-POS-c20a539d-7,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-7
-CCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-c20a539d-8,"Matt Robinson, PostEra",,False,MAT-POS-c20a539d-8
-CC1(C)c2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)CN1S(C)(=O)=O,MAT-POS-2e8b2191-1,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-1
-CC1(C)CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,MAT-POS-2e8b2191-2,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-2
-O=C(Nc1cncc2ccccc12)C1CC(F)(F)Oc2ccc(Cl)cc21,MAT-POS-2e8b2191-3,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-3
-CC1(C(=O)Nc2cncc3ccccc23)CC(=O)Oc2ccc(Cl)cc21,MAT-POS-2e8b2191-4,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-4
-CC1(C(=O)Nc2cncc3ccccc23)COC(=O)c2ccc(Cl)cc21,MAT-POS-2e8b2191-5,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-5
-CC1(C)c2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)CN1S(=O)(=O)CC1(C#N)CC1,MAT-POS-2e8b2191-6,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-6
-CNC(=O)CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1(C)C,MAT-POS-2e8b2191-7,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-7
-CN1C(=O)N(c2cncc3ccccc23)C(=O)C12CN(S(C)(=O)=O)Cc1ccc(Cl)cc12,MAT-POS-2e8b2191-8,"Matt Robinson, PostEra",,False,EDJ-MED-7587a9ee-1
-CS(=O)(=O)Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-2e8b2191-9,"Matt Robinson, PostEra",,False,MAT-POS-e36d57d9-1
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)cc23)C1,MAT-POS-2e8b2191-10,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-10
-CNC(=O)CN1CC(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)cc23)c2cc(Cl)ccc2C1=O,MAT-POS-2e8b2191-11,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-11
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,MAT-POS-2e8b2191-12,"Matt Robinson, PostEra",,False,MAT-POS-2e8b2191-12
-CC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,MAT-POS-89bd6af1-1,"Matt Robinson, PostEra",,False,ALP-POS-c56c1477-4
-COC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,MAT-POS-89bd6af1-2,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-2
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C)(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-89bd6af1-3,"Matt Robinson, PostEra",,False,MAT-POS-89bd6af1-3
-CNC(=O)CN1Cc2ccc(Cl)cc2C(OC)(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-89bd6af1-4,"Matt Robinson, PostEra",,False,MAT-POS-83a7b0a0-1
-Cc1c(NS(C)(=O)=O)ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c12,MAT-POS-13080fc6-1,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-1
-CNC(=O)CN1CC(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)c(C)c23)c2cc(Cl)ccc2C1=O,MAT-POS-13080fc6-2,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-2
-Cc1cc(S(C)(=O)=O)cc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c12,MAT-POS-13080fc6-3,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-3
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)cc(C)c23)c2cc(Cl)ccc2C1=O,MAT-POS-13080fc6-4,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-4
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccc(NS(C)(=O)=O)c(C)c23)C1,MAT-POS-13080fc6-5,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-5
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(S(C)(=O)=O)cc(C)c23)C1,MAT-POS-13080fc6-6,"Matthew Robinson, PostEra",,False,MAT-POS-13080fc6-6
-Cc1c(NS(C)(=O)=O)ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c12,MAT-POS-8feb6e35-1,"Matthew Robinson, PostEra",,False,MAT-POS-8feb6e35-1
-Cc1cc(S(C)(=O)=O)cc2cncc(NC(=O)Cc3cccc(Cl)c3)c12,MAT-POS-8feb6e35-2,"Matthew Robinson, PostEra",,False,MAT-POS-8feb6e35-2
+O=C(Cc1cccc(Cl)c1)N1CCCOC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-1,Michal K,,FALSE,MIC-UNK-0870516a-1
+O=C(Cc1cccc(Cl)c1)N1CCOC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-2,Michal K,,FALSE,MIC-UNK-0870516a-2
+O=C(Cc1cccc(Cl)c1)N1CCCCC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-3,Michal K,,FALSE,MIC-UNK-0870516a-3
+O=C(Cc1cccc(Cl)c1)N1CCCC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-4,Michal K,,FALSE,MIC-UNK-0870516a-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(S(=O)(=O)C(F)F)Cc2ccc(Cl)cc21,BRU-THA-98e973b9-1,"Bruce Lefker, Thames Pharma Partners",,FALSE,BRU-THA-98e973b9-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(S(=O)(=O)CF)Cc2ccc(Cl)cc21,BRU-THA-d60fe444-1,"Bruce Lefker, Thames Pharma Partners",,FALSE,BRU-THA-d60fe444-1
+COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-51135489-1,"Matthew Robinson, PostEra",,FALSE,MAT-POS-af1eef35-2
+CNC(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-1,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-1
+CNC(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-2,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(-n5cncn5)ccc34)C2)CC1,EDJ-MED-378a25ea-3,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-3
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(-n5cnnc5)ccc34)C2)CC1,EDJ-MED-378a25ea-4,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-4
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(-n5cncn5)cc34)C2)CC1,EDJ-MED-378a25ea-5,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-5
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(-n5cnnc5)cc34)C2)CC1,EDJ-MED-378a25ea-6,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-6
+CN(C)C(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-7,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-7
+CN(C)C(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-8,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-8
+CS(=O)(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-9,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-7889e8da-6
+CS(=O)(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-10,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-10
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(S(N)(=O)=O)ccc34)C2)CC1,EDJ-MED-378a25ea-11,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-11
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(S(N)(=O)=O)cc34)C2)CC1,EDJ-MED-378a25ea-12,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-12
+Cn1cc(-c2ccc3c(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)cncc3c2)cn1,EDJ-MED-378a25ea-13,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-13
+Cn1cc(-c2ccc3cncc(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)c3c2)cn1,EDJ-MED-378a25ea-14,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-14
+Cc1nnc(-c2ccc3c(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)cncc3c2)o1,EDJ-MED-378a25ea-15,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-15
+Cc1nnc(-c2ccc3cncc(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)c3c2)o1,EDJ-MED-378a25ea-16,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-16
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(C(=O)NC5CC5)ccc34)C2)CC1,EDJ-MED-378a25ea-17,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-17
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(NC(=O)C5CC5)ccc34)C2)CC1,EDJ-MED-378a25ea-18,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-18
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(C(=O)NC5CC5)cc34)C2)CC1,EDJ-MED-378a25ea-19,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-19
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(NC(=O)C5CC5)cc34)C2)CC1,EDJ-MED-378a25ea-20,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-20
+CS(C)(=O)=Nc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-21,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-21
+CS(C)(=O)=Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-22,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-22
+CS(=O)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-23,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-4f4dd660-2
+CS(=O)(=O)Cc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-24,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-24
+CS(=O)(=O)Nc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-25,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-be9e6f63-3
+CS(=O)(=O)Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-26,"Ed J Griffen, MedChemica Ltd",,FALSE,MAT-POS-e36d57d9-1
+CC(=O)NC1(c2ccc3c(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)cncc3c2)CC1,EDJ-MED-378a25ea-27,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-27
+CC(=O)NC1(c2ccc3cncc(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)c3c2)CC1,EDJ-MED-378a25ea-28,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-28
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(OCC(F)(F)F)ccc34)C2)CC1,EDJ-MED-378a25ea-29,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-29
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(OCC(F)(F)F)cc34)C2)CC1,EDJ-MED-378a25ea-30,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-30
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(C(=O)NC5COC5)ccc34)C2)CC1,EDJ-MED-378a25ea-31,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-31
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(C(=O)NC5COC5)cc34)C2)CC1,EDJ-MED-378a25ea-32,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-32
+CS(C)(=O)=NCc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-33,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-33
+CS(C)(=O)=NCc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-34,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-34
+NCc1ccc(C(N)=O)cc1,KEN-ILL-f8fa3277-1,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-1
+O=C(Nc1ccc(CO)cc1)C1CCCO1,KEN-ILL-f8fa3277-2,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-2
+NC(=O)c1ccc(NCCOC2CNC2)cc1,KEN-ILL-f8fa3277-3,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-3
+CC(C)OCCCC(=O)Nc1ccc(C(N)=O)cc1,KEN-ILL-f8fa3277-4,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-4
+O=C(CSc1ccccc1)NCCCNC(=O)[C@@H]1CCCc2ccccc21,AAR-UNI-c25c2f1e-1,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-1
+O=C(NCc1ccccc1)NCc1cccc(NC(=O)c2ccccc2)c1,AAR-UNI-c25c2f1e-2,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-2
+O=C(NCc1cccc(NC(=O)C2CCCCC2)c1)NC1CCCCC1,AAR-UNI-c25c2f1e-3,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-3
+O=C(NCCCCNC(=O)C1CCCCC1)N[C@@H]1CCc2ccccc21,AAR-UNI-c25c2f1e-4,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-4
+Cn1c(CNC(=O)NCc2ccc(-n3cccn3)cc2)nc2ccccc21,AAR-UNI-c25c2f1e-5,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-5
+O=C(NCCCCNC(=O)N1CCc2ccccc2C1)c1cccc(F)c1,AAR-UNI-c25c2f1e-6,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-6
+NC(=O)c1cccc(CNC(=O)NCCc2ccc(-n3cccn3)cc2)c1,AAR-UNI-c25c2f1e-7,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-7
+CNC(=O)NCC(=O)NCc1cccc(NC(=O)c2ccccc2Cl)c1,AAR-UNI-c25c2f1e-8,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-8
+O=C(CNc1cccc(NC(=O)c2ccccc2)c1)NCc1ccccc1,AAR-UNI-c25c2f1e-9,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-9
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1-n1ccnc1,AAR-UNI-c25c2f1e-10,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-10
+Cn1c(CNC(=O)CCCn2ccc3ccccc32)nc2ccccc21,AAR-UNI-c25c2f1e-11,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-11
+CNC(=O)c1cccc(CCNC(=O)NCc2ccc(-n3cccn3)cc2)c1,AAR-UNI-c25c2f1e-12,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-12
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1N1CCCC1,AAR-UNI-c25c2f1e-13,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-13
+CCC(CC)[C@@H](O)CNC(=O)Nc1ccccc1SC1CCCC1,AAR-UNI-c25c2f1e-14,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-14
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1N1CCCC1=O,AAR-UNI-c25c2f1e-15,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-15
+O=C(NCCCNC(=O)Nc1ccccc1)NCc1ccccc1Cl,AAR-UNI-c25c2f1e-16,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-16
+Cc1ccc([C@H](C)NC(=O)NCc2ccccc2Cn2cccn2)cc1,AAR-UNI-c25c2f1e-17,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-17
+CC[C@H](C)C(=O)Nc1cccc(NC(=O)NCc2cccc(NC(N)=O)c2)c1,AAR-UNI-c25c2f1e-18,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-18
+CC(C)(CNC(=O)NCc1ccccc1-n1cccn1)c1cccc(F)c1,AAR-UNI-c25c2f1e-19,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-19
+O=C(NCCCNC(=O)c1ccccc1)NCc1nc2ccccc2s1,AAR-UNI-c25c2f1e-20,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-20
+O=C(CNc1cccc(NC(=O)C2CC=CC2)c1)NCc1ccccc1,AAR-UNI-c25c2f1e-21,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-21
+Cc1cccc(NC(=O)NCCC(=O)NCc2cccc3c2OCO3)c1,AAR-UNI-c25c2f1e-22,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-22
+CC(C)CCNC(=O)c1nc(Cc2ccccc2)n(-c2ccccc2)n1,AAR-UNI-c25c2f1e-23,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-23
+O=C(NCc1cccc(NC(=O)c2ccco2)c1)NC[C@@H]1CC=CCC1,AAR-UNI-c25c2f1e-24,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-24
+NC(=O)c1cccc(CNC(=O)NCc2cnn(-c3ccccc3)c2)c1,AAR-UNI-c25c2f1e-25,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-25
+C[C@H](NC(=O)NCCc1c[nH]c2ccccc12)c1nnc2ccccn12,AAR-UNI-c25c2f1e-26,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-26
+CNC(=O)c1ccc(CNC(=O)NCc2ccc(NC(C)C)cc2)cc1,AAR-UNI-c25c2f1e-27,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-27
+CNC(=O)c1ccc(CCNC(=O)NCc2cc3ccccc3[nH]2)cc1,AAR-UNI-c25c2f1e-28,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-28
+Cc1cccc(C(=O)NCCNC(=O)Cc2c[nH]c3ccccc23)c1,AAR-UNI-c25c2f1e-29,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-29
+CCNC(=O)c1cccc(NC(=O)NCCNC(=O)Nc2ccccc2)c1,AAR-UNI-c25c2f1e-30,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-30
+CC(C)(C)NC(=O)NCc1cccc(NC(=O)Nc2ccccc2)c1,AAR-UNI-c25c2f1e-31,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-31
+O=C(CSc1nc2ccccc2n1CCc1ccccc1)N1CCCC1,AAR-UNI-c25c2f1e-32,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-32
+CC(C)c1ccc(CCC(=O)NCCC(=O)Nc2ccccc2)cc1,AAR-UNI-c25c2f1e-33,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-33
+Cc1ccc([C@@H](CNC(=O)Cc2c[nH]c3ccccc23)N2CCOCC2)cc1,AAR-UNI-c25c2f1e-34,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-34
+O=C(NCc1ccccc1)NCc1cccc(NC(=O)c2ccco2)c1,AAR-UNI-c25c2f1e-35,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-35
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1-n1cccn1,AAR-UNI-c25c2f1e-36,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-36
+O=C(NCCNC(=O)c1cccc(F)c1)NCc1cc2ccccc2[nH]1,AAR-UNI-c25c2f1e-37,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-37
+C[C@@H](CNC(=O)NCc1ccccc1NC(=O)NC1CC1)c1ccccc1,AAR-UNI-c25c2f1e-38,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-38
+O=C(CNC(=O)NCCNC(=O)c1cccc(F)c1)Nc1ccccc1,AAR-UNI-c25c2f1e-39,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-39
+CCNC(=O)NCC(=O)Nc1cccc(NC(=O)Nc2ccccc2)c1,AAR-UNI-c25c2f1e-40,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-40
+O=C(CCCNC(=O)c1ccccc1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-41,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-41
+Cc1ccccc1NC(=O)NCC(=O)NCc1cc2c(s1)CCCC2,AAR-UNI-c25c2f1e-42,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-42
+CC(C)(CNC(=O)NCc1ccccc1-n1ccnc1)c1ccccc1,AAR-UNI-c25c2f1e-43,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-43
+NC(=O)CCCNC(=O)NCc1ccccc1-c1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-44,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-44
+O=C(CCCNC(=O)Nc1ccccc1)NCC(=O)NC1CC1,AAR-UNI-c25c2f1e-45,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-45
+O=C(NCCCNC(=O)Nc1cccc(Cl)c1)Nc1ccccc1,AAR-UNI-c25c2f1e-46,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-46
+C[C@H](CNC(=O)CCc1ccc(N2CCCC2)cc1)c1cccs1,AAR-UNI-c25c2f1e-47,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-47
+O=C(CCSc1ccccc1F)NCCn1nc2ccccn2c1=O,AAR-UNI-c25c2f1e-48,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-48
+O=C(NCCc1c(F)cccc1F)NCc1cnn(-c2ccccc2)c1,AAR-UNI-c25c2f1e-49,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-49
+C[C@H](NC(=O)CCCn1cncn1)c1ccc(-c2ccccc2)cc1,AAR-UNI-c25c2f1e-50,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-50
+O=C(NCCNC(=O)Nc1ccccc1)NCc1ccc(Cl)cc1,AAR-UNI-c25c2f1e-51,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-51
+O=C(CNC(=O)NCCc1nc2ccccc2[nH]1)Nc1ccccc1,AAR-UNI-c25c2f1e-52,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-52
+CC(=O)Nc1cccc(NC(=O)NCc2ccccc2-n2nccc2C)c1,AAR-UNI-c25c2f1e-53,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-53
+Cc1ccc(SCC(=O)NCC(=O)NCc2ccccn2)cc1,AAR-UNI-c25c2f1e-54,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-54
+O=C(CSc1ncn(-c2ccccc2)n1)Nc1cccc2ccccc12,AAR-UNI-c25c2f1e-55,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-55
+CC(=O)Nc1ccc(CCNC(=O)NCc2cccc(C#N)c2)cc1,AAR-UNI-c25c2f1e-56,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-56
+O=C(CCCNC(=O)c1cccc(Cl)c1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-57,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-57
+O=C(NCCSc1ccccc1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-58,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-58
+CN(CCNC(=O)NCc1ccc(-n2cccn2)nc1)c1ccccc1,AAR-UNI-c25c2f1e-59,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-59
+O=C(NCCCNC(=O)c1cc(-c2ccccc2)[nH]n1)c1ccccc1,AAR-UNI-c25c2f1e-60,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-60
+CC(C)(CNC(=O)CNc1cccc(N2CCCC2=O)c1)c1ccncc1,AAR-UNI-c25c2f1e-61,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-61
+CCN1C(=O)CC(C)(C)c2cc(NC(=O)NCCc3ccccc3)ccc21,AAR-UNI-c25c2f1e-62,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-62
+Cc1ccc(SCC(=O)NCc2ccc(Cn3cncn3)cc2)cc1,AAR-UNI-c25c2f1e-63,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-63
+O=C(CNC(=O)Nc1ccccc1)NCc1ccc(Cn2cccn2)cc1,AAR-UNI-c25c2f1e-64,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-64
+O=C(Nc1ccccc1)Nc1cccc(CNC(=O)c2ccccc2)c1,AAR-UNI-c25c2f1e-65,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-65
+O=C(CCCn1c(=O)[nH]c2ccccc2c1=O)NC1Cc2ccccc2C1,AAR-UNI-c25c2f1e-66,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-66
+C[C@H](NC(=O)NCCNc1ccccc1)c1cccc(-n2ccnc2)c1,AAR-UNI-c25c2f1e-67,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-67
+O=C(CSc1nc2ccccc2n1CCc1ccccc1)NC1CC1,AAR-UNI-c25c2f1e-68,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-68
+O=C(NCCCSc1nc2ccccc2s1)NC1CCCC1,AAR-UNI-c25c2f1e-69,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-69
+Cn1cc(C(=O)NCC(=O)NCc2ccc(-c3ccccc3)cc2)cn1,AAR-UNI-c25c2f1e-70,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-70
+O=C(CCCNC(=O)NCc1ccccc1Cl)Nc1ccccc1,AAR-UNI-c25c2f1e-71,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-71
+O=C(NCCc1c[nH]c2ccccc12)NCc1ccccc1-n1cccn1,AAR-UNI-c25c2f1e-72,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-72
+CNC(=O)c1ccc(CNC(=O)NCCc2c[nH]c3ccccc23)cc1,AAR-UNI-c25c2f1e-73,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-73
+CC(C)CC(=O)NCc1cccc(C(=O)Nc2cccc(C#N)c2)c1,AAR-UNI-c25c2f1e-74,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-74
+CC[C@@H](CNC(=O)Nc1cccc(NC(=O)C2CC2)c1)c1ccccc1,AAR-UNI-c25c2f1e-75,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-75
+Nc1ccccc1CNC(=O)CCSc1nc2ccccc2s1,AAR-UNI-c25c2f1e-76,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-76
+NC(=O)Cc1ccccc1NC(=O)COc1ccccc1-c1ccccc1,AAR-UNI-c25c2f1e-77,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-77
+O=C(NCCNC(=O)Nc1ccccc1)NCc1cccc(Cl)c1,AAR-UNI-c25c2f1e-78,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-78
+O=C(NCCCCNC(=O)c1ccc(F)cc1)Nc1ccccc1,AAR-UNI-c25c2f1e-79,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-79
+CC(C)(CNC(=O)NCc1ccccc1-n1cccn1)c1ccccc1,AAR-UNI-c25c2f1e-80,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-80
+O=C(NCCc1ccc(-n2cccn2)cc1)NC[C@H]1CN2CCC[C@@H]2CO1,AAR-UNI-c25c2f1e-81,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-81
+O=C(NCc1cccc(NC(=O)c2ccccc2)c1)Nc1ccccc1,AAR-UNI-c25c2f1e-82,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-82
+O=C(CCCNC(=O)c1cccc(F)c1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-83,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-83
+C[C@@H](CNC(=O)NCc1ccccc1-n1ccnc1)c1ccc(F)cc1,AAR-UNI-c25c2f1e-84,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-84
+Cc1ccc(SCC(=O)NCCCn2nc3ccccn3c2=O)cc1,AAR-UNI-c25c2f1e-85,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-85
+Nc1cccc(CNC(=O)CCSc2nc3ccccc3s2)c1,AAR-UNI-c25c2f1e-86,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-86
+O=C(CCCNC(=O)c1ccccc1)Nc1cccc(N2CCCC2)c1,AAR-UNI-c25c2f1e-87,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-87
+O=C(NCCCNC(=O)C1CCCCC1)N[C@@H]1CCCC[C@H]1CO,AAR-UNI-c25c2f1e-88,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-88
+Cc1cccc(C(=O)NCCCNC(=O)c2cccc(C)c2)c1,AAR-UNI-c25c2f1e-89,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-89
+CC(=O)Nc1ccc(CCNC(=O)NCc2nc(C)c(C)s2)cc1,AAR-UNI-c25c2f1e-90,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-90
+O=C(CCCNC(=O)c1ccco1)NCCn1ccc2ccccc21,AAR-UNI-c25c2f1e-91,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-91
+NC(=O)NCCCNC(=O)Nc1ccccc1N1CCc2ccccc21,AAR-UNI-c25c2f1e-92,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-92
+C[C@@H](CNC(=O)Nc1cccc(NC(=O)C2CC2)c1)CN1CCCC1=O,AAR-UNI-c25c2f1e-93,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-93
+Cc1cccc(SCC(=O)NCCNC(=O)c2cccc(F)c2)c1,AAR-UNI-c25c2f1e-94,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-94
+O=C(NCCCNC(=O)C1CCCCC1)c1ccc2c(c1)CCCC2,AAR-UNI-c25c2f1e-95,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-95
+Cc1ccc(CCNC(=O)NCC(=O)NC2CCCCC2)cn1,AAR-UNI-c25c2f1e-96,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-96
+CNC(=O)c1ccc(NC(=O)NCCCNc2ccccc2)cc1,AAR-UNI-c25c2f1e-97,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-97
+Cc1cccc(NC(=O)NCCC(=O)NCc2ccccn2)c1,AAR-UNI-c25c2f1e-98,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-98
+C[C@](O)(CNC(=O)NCCc1cccc2ccccc12)C1CC1,AAR-UNI-c25c2f1e-99,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-99
+CN(CCc1ccccc1)C(=O)CCNC(=O)Nc1ccccc1,AAR-UNI-c25c2f1e-100,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-100
+Cc1ccccc1CC(=O)NCc1cccc(Cn2ccnc2)c1,AAR-UNI-c25c2f1e-101,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-101
+N#Cc1cccc(NCC(=O)NCc2ccc(-n3cncn3)cc2)c1,AAR-UNI-c25c2f1e-102,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-102
+C[C@H](CNC(=O)c1cccc(N2CCCC2=O)c1)CN(C)c1ccccc1,AAR-UNI-c25c2f1e-103,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-103
+CN(Cc1ccccc1Cl)C(=O)NCc1ccc(-n2cccn2)cc1,AAR-UNI-c25c2f1e-104,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-104
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cnn(C3CC3)c12,EDJ-MED-239d8ca5-1,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-239d8ca5-1
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cnn(C3COC3)c12,EDJ-MED-239d8ca5-2,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-239d8ca5-2
+CNC(=O)C1(N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,EDJ-MED-12c4873b-1,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-1
+CNC(=O)C1(N2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-12c4873b-2,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-2
+CNC(=O)C(C)(C)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-12c4873b-3,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-3
+CNC(=O)C(C)(C)N1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-12c4873b-4,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-4
+O=C(Nc1cncc2ccccc12)C1CN(C2CCNC2=O)Cc2ccc(Cl)cc21,EDJ-MED-12c4873b-5,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-5
+O=C(Nc1cncc2ccccc12)C1CN(C2CCNC2=O)C(=O)c2ccc(Cl)cc21,EDJ-MED-12c4873b-6,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-6
+O=C1CC(N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CN1,EDJ-MED-12c4873b-7,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-7
+O=C1CC(N2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CN1,EDJ-MED-12c4873b-8,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-8
+CC(C)n1ncc2cncc(NC(=O)Cc3cccc(Cl)c3)c21,MIC-UNK-f2576da4-1,Michal K,,FALSE,MIC-UNK-f2576da4-1
+O=C(CCl)N1CCN(S(=O)(=O)c2ccsc2)[C@H](C(=O)N2CCOCC2)C1,DAN-MCD-3ec20f87-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-3ec20f87-1
+CCOC(=O)c1cccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)c1,DAN-MCD-0742953f-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-0742953f-1
+Cc1cccc(C)c1NC(=O)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-3bfdcef2-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-3bfdcef2-1
+N#Cc1cccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)c1,DAN-MCD-02570321-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-02570321-1
+O=C(Nc1ccc(F)cc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-c163c0bb-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-c163c0bb-1
+O=C(Nc1ccc2ccccc2c1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-50d01569-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-50d01569-1
+COc1ccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)cc1,DAN-MCD-0c04f563-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-0c04f563-1
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ncc(Cl)cc21,PET-UNK-c0891748-1,Peter Kenny,,FALSE,PET-UNK-c0891748-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2ncc(Cl)cc21,PET-UNK-c0891748-2,Peter Kenny,,FALSE,EDJ-MED-12f7f543-1
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-3,Peter Kenny,,FALSE,PET-UNK-c0891748-3
+O=C(Nc1cncc2ccccc12)[C@@H]1CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-4,Peter Kenny,,FALSE,PET-UNK-c0891748-4
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CC(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-5,Peter Kenny,,FALSE,PET-UNK-c0891748-5
+O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,PET-UNK-c0891748-6,Peter Kenny,,FALSE,PET-UNK-c0891748-6
+COC1(C(=O)Nc2cncc3ccccc23)CCOc2ncc(Cl)cc21,PET-UNK-c0891748-7,Peter Kenny,,FALSE,ALP-POS-fe871b40-7
+O=C(Nc1cncc2ccccc12)C1CCOc2ncc(Cl)cc21,PET-UNK-c0891748-8,Peter Kenny,,FALSE,RAL-THA-05e671eb-25
+COC1(C(=O)Nc2cncc3ccccc23)CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-9,Peter Kenny,,FALSE,PET-UNK-c0891748-9
+O=C(Nc1cncc2ccccc12)C1CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-10,Peter Kenny,,FALSE,PET-UNK-c0891748-10
+COC1(C(=O)Nc2cncc3ccccc23)CC(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-11,Peter Kenny,,FALSE,PET-UNK-c0891748-11
+O=C1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,PET-UNK-c0891748-12,Peter Kenny,,FALSE,PET-UNK-c0891748-12
+CS(=O)(=O)Oc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,PET-UNK-7fb4f80a-1,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-1
+CS(=O)(=O)Oc1ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c2c1,PET-UNK-7fb4f80a-2,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-2
+CS(=O)(=O)Oc1cc2cncc(NC(=O)Cc3cccc(Cl)c3)c2cc1F,PET-UNK-7fb4f80a-3,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-3
+CS(=O)(=O)Oc1cc2c(NC(=O)Cc3cccc(Cl)c3)cncc2cc1F,PET-UNK-7fb4f80a-4,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ccon2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-1,Peter Kenny,,FALSE,PET-UNK-37251634-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ccno2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-2,Peter Kenny,,FALSE,PET-UNK-37251634-2
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nnco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-3,Peter Kenny,,FALSE,PET-UNK-37251634-3
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nncs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-4,Peter Kenny,,FALSE,PET-UNK-37251634-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2cccnn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-5,Peter Kenny,,FALSE,PET-UNK-37251634-5
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ncco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-6,Peter Kenny,,FALSE,PET-UNK-37251634-6
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nccs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-7,Peter Kenny,,FALSE,PET-UNK-37251634-7
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ccccn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-8,Peter Kenny,,FALSE,PET-UNK-37251634-8
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ccon2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-9,Peter Kenny,,FALSE,PET-UNK-37251634-9
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ccno2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-10,Peter Kenny,,FALSE,PET-UNK-37251634-10
+O=C(Nc1cncc2ccccc12)C1CN(Cc2nnco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-11,Peter Kenny,,FALSE,PET-UNK-37251634-11
+O=C(Nc1cncc2ccccc12)C1CN(Cc2nncs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-12,Peter Kenny,,FALSE,PET-UNK-37251634-12
+O=C(Nc1cncc2ccccc12)C1CN(Cc2cccnn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-13,Peter Kenny,,FALSE,PET-UNK-37251634-13
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ncco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-14,Peter Kenny,,FALSE,PET-UNK-37251634-14
+O=C(Nc1cncc2ccccc12)C1CN(Cc2nccs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-15,Peter Kenny,,FALSE,PET-UNK-37251634-15
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ccccn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-16,Peter Kenny,,FALSE,PET-UNK-37251634-16
+COC1(C(=O)Nc2cncc3cc(S(=O)(=O)NO)ccc23)CCOc2ccc(Cl)cc21,MIC-UNK-7f86385f-1,Michal K,,FALSE,MIC-UNK-7f86385f-1
+COC1(C(=O)Nc2cncc3cc(S(=O)(=O)NC(N)=O)ccc23)CCOc2ccc(Cl)cc21,MIC-UNK-7f86385f-2,Michal K,,FALSE,MIC-UNK-7f86385f-2
+COC1(C(=O)Nc2cncc3cc(S(=O)(=O)N(C)C(N)=O)ccc23)CCOc2ccc(Cl)cc21,MIC-UNK-7f86385f-3,Michal K,,FALSE,MIC-UNK-7f86385f-3
+CNC(=O)NS(=O)(=O)c1ccc2c(NC(=O)C3(OC)CCOc4ccc(Cl)cc43)cncc2c1,MIC-UNK-7f86385f-4,Michal K,,FALSE,MIC-UNK-7f86385f-4
+CNC(=O)N(C)S(=O)(=O)c1ccc2c(NC(=O)C3(OC)CCOc4ccc(Cl)cc43)cncc2c1,MIC-UNK-7f86385f-5,Michal K,,FALSE,MIC-UNK-7f86385f-5
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cc(S(=O)(=O)NO)ccc12,MIC-UNK-9dc9fcd1-1,Michal K,,FALSE,MIC-UNK-9dc9fcd1-1
+NC(=O)NS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-2,Michal K,,FALSE,MIC-UNK-9dc9fcd1-2
+CN(C(N)=O)S(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-3,Michal K,,FALSE,MIC-UNK-9dc9fcd1-3
+CNC(=O)NS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-4,Michal K,,FALSE,MIC-UNK-9dc9fcd1-4
+CNC(=O)N(C)S(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-5,Michal K,,FALSE,MIC-UNK-9dc9fcd1-5
+NC(=O)CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-fbef42b7-1,Michal K,,FALSE,MIC-UNK-fbef42b7-1
+CNC(=O)CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-fbef42b7-2,Michal K,,FALSE,MIC-UNK-fbef42b7-2
+CC(=O)NCCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-1,Michal K,,FALSE,MIC-UNK-4fbd4db9-1
+CC(=O)NC(C)(C)CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-2,Michal K,,FALSE,MIC-UNK-4fbd4db9-2
+NC(=O)NCCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-3,Michal K,,FALSE,MIC-UNK-4fbd4db9-3
+CC(C)(CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1)NC(N)=O,MIC-UNK-4fbd4db9-4,Michal K,,FALSE,MIC-UNK-4fbd4db9-4
+CS(=O)(=O)NCCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-5,Michal K,,FALSE,MIC-UNK-4fbd4db9-5
+CC(C)(CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1)NS(C)(=O)=O,MIC-UNK-4fbd4db9-6,Michal K,,FALSE,MIC-UNK-4fbd4db9-6
+O=C1NC[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,MAT-POS-865c3497-1,"Matt Robinson, PostEra",,FALSE,MAT-POS-865c3497-1
+O=C1NC[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,MAT-POS-865c3497-2,"Matt Robinson, PostEra",,FALSE,MAT-POS-865c3497-2
