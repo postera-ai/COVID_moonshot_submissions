@@ -1,5 +1,0 @@
-SMILES,CID,Comments,,,,
-Cn1ncc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c21,MAT-POS-bfd29aac-1,,,,,
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cn[nH]c34)C2)CC1,MAT-POS-bfd29aac-2,,,,,
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@H](C(=O)Nc3cncc4ccccc34)C2)CC1,MAT-POS-e194df51-1,,,,,
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@@H](C(=O)Nc3cncc4ccccc34)C2)CC1,MAT-POS-e194df51-2,,,,,

@@ -12,8 +12,6 @@ Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CC(C)(C)c1ccc(N)cc1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
 Nc1cncc2ccccc12,,not found
-CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,MIC-UNK-91acba05-2,
-Cn1ncc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c21,MAT-POS-bfd29aac-1,
 [C-]#[N+]CCc1cccc(F)c1,,not found
 CN1C(=O)CCc2cc(N)ccc21,,not found
 NC1CC2CCCC2C1,,not found

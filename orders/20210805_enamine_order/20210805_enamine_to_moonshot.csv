@@ -1,7 +1,0 @@
-SMILES,CID,,,,,
-CC(=O)Nc1cn2cncc(NC(=O)C3CCOc4ccc(Cl)cc43)c2n1,MAT-POS-af1eef35-1,,,,,
-COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-af1eef35-2,,,,,
-O=C(Nc1cncc2ccccc12)C1CNS(=O)(=O)c2ccc(Cl)cc21,ALP-POS-a577c8a2-1,,,,,
-O=C1N(c2cncc3ccccc23)CCC12CCOc1ccc(Cl)cc12,ALP-POS-477dc5b7-4,,,,,
-Clc1ccc2c(c1)C1(CCO2)CCN(c2cncc3ccccc23)C1,MAT-POS-983b399a-2,,,,,
-O=C1CC2(CCOc3ccc(Cl)cc32)CN1c1cncc2ccccc12,MAT-POS-983b399a-3,,,,,

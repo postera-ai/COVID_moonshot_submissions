@@ -1,7 +1,0 @@
-Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID
-1181202-Y4-63,05_A,202108018_enamine_to_xchem.csv,CN1CC(C(=O)NC=2C=NC=C3C=CC=CC23)C=4C=C(Cl)C=CC4C1=O,EDJ-MED-eb111c00-1,4,100,MIC-UNK-91acba05-2,Racemic or presumed racemic or meso,Z5115885803,H3332732
-1181202-Y4-63,05_B,202108018_enamine_to_xchem.csv,ClC=1C=CC=2C(=O)N(CC3CC3)CC(C(=O)NC=4C=NC=C5C=CC=CC45)C2C1,EDJ-MED-eb111c00-3,4,100,EDJ-MED-eb111c00-3,Racemic or presumed racemic or meso,Z5115885797,H3344271
-1181202-Y4-63,05_C,202108018_enamine_to_xchem.csv,CNC(=O)C(C)N1CC(C(=O)NC=2C=NC=C3C=CC=CC23)C=4C=C(Cl)C=CC4C1,MAT-POS-5cd9ea36-14,4,100,MAT-POS-5cd9ea36-14,Diastereomeric mixture,Z5169210116,H3337599
-1181202-Y4-63,05_D,202108018_enamine_to_xchem.csv,OC(=O)C(F)(F)F.ClC=1C=CC=2C(=O)NC[C@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,rel-MIC-UNK-91acba05-1-1,4,100,MAT-POS-865c3497-1,Single unknown enantiomer,Z5085524978,H3196583
-1181202-Y4-63,05_E,202108018_enamine_to_xchem.csv,OC(=O)C(F)(F)F.ClC=1C=CC=2C(=O)NC[C@@H](C(=O)NC=3C=NC=C4C=CC=CC34)C2C1,rel-MIC-UNK-91acba05-1-2,4,100,MAT-POS-865c3497-2,Single unknown enantiomer,Z5085524980,H3196582
-1181202-Y4-63,05_F,202108018_enamine_to_xchem.csv,CN1N=CC=2C=NC=C(NC(=O)C3CN(CC=4C=CC(Cl)=CC34)S(=O)(=O)CC5(CC5)C#N)C12,PET-UNK-19e211a9-1,4,100,MAT-POS-bfd29aac-1,Racemic or presumed racemic or meso,Z5169210010,H3352395
