@@ -1,265 +1,220 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-C#Cc1cc(C(=O)N[C@H](C=O)C2CC2)c(C(=O)OC)cn1,CLI-TLC-d1d1c3aa-1,"Clinton Threlfall, TLCT",,False,CLI-TLC-d1d1c3aa-1
-N#CC1(CS(=O)(=O)N2Cc3ccc(F)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,BRU-THA-4b053743-1,"Bruce Lefker, Thames Pharma Partners",,False,BRU-THA-4b053743-1
-N#CC1(CS(=O)(=O)N2Cc3ccc(F)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,ALP-POS-c56c1477-1,"Alpha Lee, PostEra",,False,BRU-THA-4b053743-1
-N#CC1(CS(=O)(=O)N2Cc3c(F)cc(F)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,ALP-POS-c56c1477-2,"Alpha Lee, PostEra",,False,ALP-POS-c56c1477-2
-N#CC1(CS(=O)(=O)N2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CC1,ALP-POS-c56c1477-3,"Alpha Lee, PostEra",,False,ALP-POS-c56c1477-3
-CC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,ALP-POS-c56c1477-4,"Alpha Lee, PostEra",,False,ALP-POS-c56c1477-4
-COc1ccc(C#N)cc1C(=O)N[C@H](C=O)C1CC1,CLI-TLC-bf000c24-1,"Clinton Threlfall, TLCT",,False,CLI-TLC-bf000c24-1
-N#CC1(NS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,DAR-DIA-5e50e037-1,"Daren Fearon, Diamond Light Source Ltd",,False,DAR-DIA-5e50e037-1
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CCS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-1,Peter Kenny,,False,PET-UNK-407a74a5-1
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CS(=O)(=O)Cc2ccc(Cl)cc21,PET-UNK-407a74a5-2,Peter Kenny,,False,PET-UNK-407a74a5-2
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CNC(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-3,Peter Kenny,,False,PET-UNK-407a74a5-3
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(C)C(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-4,Peter Kenny,,False,PET-UNK-407a74a5-4
-O=C(Nc1cncc2ccccc12)[C@]1(F)CCOc2ccc(Cl)cc21,PET-UNK-407a74a5-5,Peter Kenny,,False,PET-UNK-407a74a5-5
-O=C(Nc1cncc2ccccc12)[C@]1(F)CCS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-6,Peter Kenny,,False,PET-UNK-407a74a5-6
-O=C(Nc1cncc2ccccc12)[C@]1(F)CS(=O)(=O)Cc2ccc(Cl)cc21,PET-UNK-407a74a5-7,Peter Kenny,,False,PET-UNK-407a74a5-7
-O=C1NC[C@@](F)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,PET-UNK-407a74a5-8,Peter Kenny,,False,PET-UNK-407a74a5-8
-CN1C[C@@](F)(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O,PET-UNK-407a74a5-9,Peter Kenny,,False,PET-UNK-407a74a5-9
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CCOc2ccc(Cl)cc21,PET-UNK-407a74a5-10,Peter Kenny,,False,PET-UNK-407a74a5-10
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-11,Peter Kenny,,False,PET-UNK-407a74a5-11
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CS(=O)(=O)Cc2ccc(Cl)cc21,PET-UNK-407a74a5-12,Peter Kenny,,False,PET-UNK-407a74a5-12
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CNC(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-13,Peter Kenny,,False,PET-UNK-407a74a5-13
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(C)C(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-14,Peter Kenny,,False,PET-UNK-407a74a5-14
-O=C(Nc1cncc2cc(F)ccc12)[C@]1(F)CCOc2ccc(Cl)cc21,PET-UNK-407a74a5-15,Peter Kenny,,False,PET-UNK-407a74a5-15
-O=C(Nc1cncc2cc(F)ccc12)[C@]1(F)CCS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-407a74a5-16,Peter Kenny,,False,PET-UNK-407a74a5-16
-O=C(Nc1cncc2cc(F)ccc12)[C@]1(F)CS(=O)(=O)Cc2ccc(Cl)cc21,PET-UNK-407a74a5-17,Peter Kenny,,False,PET-UNK-407a74a5-17
-O=C1NC[C@@](F)(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc21,PET-UNK-407a74a5-18,Peter Kenny,,False,PET-UNK-407a74a5-18
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(C)(=O)=O)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-1,Peter Kenny,,False,PET-UNK-6da3dcd8-1
-CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](F)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-6da3dcd8-2,Peter Kenny,,False,PET-UNK-6da3dcd8-2
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)N(C)C)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-3,Peter Kenny,,False,PET-UNK-6da3dcd8-3
-CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2[C@](F)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-6da3dcd8-4,Peter Kenny,,False,PET-UNK-6da3dcd8-4
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)N2CC(C#N)C2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-5,Peter Kenny,,False,PET-UNK-6da3dcd8-5
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)N2CC(C#N)C2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-6,Peter Kenny,,False,PET-UNK-6da3dcd8-6
-N#CC1CN(S(=O)(=O)N2Cc3ccc(Cl)cc3[C@](F)(C(=O)Nc3cncc4ccccc34)C2)C1,PET-UNK-6da3dcd8-7,Peter Kenny,,False,PET-UNK-6da3dcd8-7
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-8,Peter Kenny,,False,PET-UNK-6da3dcd8-8
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-9,Peter Kenny,,False,PET-UNK-6da3dcd8-9
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@](F)(C(=O)Nc3cncc4ccccc34)C2)CC1,PET-UNK-6da3dcd8-10,Peter Kenny,,False,PET-UNK-6da3dcd8-10
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(S(C)(=O)=O)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-11,Peter Kenny,,False,PET-UNK-6da3dcd8-11
-CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](F)(C(=O)Nc2cncc3cc(F)ccc23)C1,PET-UNK-6da3dcd8-12,Peter Kenny,,False,PET-UNK-6da3dcd8-12
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(S(=O)(=O)N(C)C)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-13,Peter Kenny,,False,PET-UNK-6da3dcd8-13
-CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2[C@](F)(C(=O)Nc2cncc3cc(F)ccc23)C1,PET-UNK-6da3dcd8-14,Peter Kenny,,False,PET-UNK-6da3dcd8-14
-CO[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(S(=O)(=O)N2CC(C#N)C2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-15,Peter Kenny,,False,PET-UNK-6da3dcd8-15
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(S(=O)(=O)N2CC(C#N)C2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-16,Peter Kenny,,False,PET-UNK-6da3dcd8-16
-N#CC1CN(S(=O)(=O)N2Cc3ccc(Cl)cc3[C@](F)(C(=O)Nc3cncc4cc(F)ccc34)C2)C1,PET-UNK-6da3dcd8-17,Peter Kenny,,False,PET-UNK-6da3dcd8-17
-CO[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-18,Peter Kenny,,False,PET-UNK-6da3dcd8-18
-C#C[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(S(=O)(=O)CC2(C#N)CC2)Cc2ccc(Cl)cc21,PET-UNK-6da3dcd8-19,Peter Kenny,,False,PET-UNK-6da3dcd8-19
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@](F)(C(=O)Nc3cncc4cc(F)ccc34)C2)CC1,PET-UNK-6da3dcd8-20,Peter Kenny,,False,PET-UNK-6da3dcd8-20
-Cc1c(C#N)nc2ccc3n2c1[C@H](N[C@H](C=O)C1CC1)OC3,CLI-TLC-c9509d6c-1,"Clinton Threlfall, TLCT",,False,CLI-TLC-c9509d6c-1
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)CC2CCOCC2)Cc2ccc(Cl)cc21,EDJ-MED-4fff0a85-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4fff0a85-1
-CC(C)(CS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1)S(C)(=O)=O,EDJ-MED-4fff0a85-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4fff0a85-2
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CS(=O)(=O)C1,EDJ-MED-4fff0a85-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4fff0a85-3
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)CC2CS(=O)(=O)C2)Cc2ccc(Cl)cc21,EDJ-MED-4fff0a85-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-4fff0a85-4
-COc1cc2c(NC(=O)Cc3cccc(Cl)c3)cncc2cc1F,MAT-POS-29385cc1-1,"Matt Robinson, PostEra",,False,PET-UNK-b38839dc-1
-COc1cc2cncc(NC(=O)Cc3cccc(Cl)c3)c2cc1F,MAT-POS-29385cc1-2,"Matt Robinson, PostEra",,False,MAT-POS-29385cc1-2
-Cc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MAT-POS-29385cc1-3,"Matt Robinson, PostEra",,False,MAT-POS-29385cc1-3
-Cc1cc(F)cc2cncc(NC(=O)Cc3cccc(Cl)c3)c12,MAT-POS-29385cc1-4,"Matt Robinson, PostEra",,False,MAT-POS-29385cc1-4
-CS(=O)(=O)Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-e36d57d9-1,"Matt Robinson, PostEra",,False,MAT-POS-e36d57d9-1
-O=C(Nc1cncc2ccccc12)[C@@H]1CN(S(=O)(=O)CC2(Cl)CC2)Cc2ccc(Cl)cc21,PET-UNK-ff046148-1,Peter Kenny,,False,PET-UNK-ff046148-1
-O=C(Nc1cncc2cc(F)ccc12)[C@@H]1CN(S(=O)(=O)CC2(Cl)CC2)Cc2ccc(Cl)cc21,PET-UNK-ff046148-2,Peter Kenny,,False,PET-UNK-ff046148-2
-CC(C)(C#N)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3cc(F)ccc23)C1,PET-UNK-ff046148-3,Peter Kenny,,False,PET-UNK-ff046148-3
-CN(C)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3cc(F)ccc23)C1,PET-UNK-ff046148-4,Peter Kenny,,False,PET-UNK-ff046148-4
-CC(C)(C#N)CS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-1,"Matt Robinson, PostEra",,False,EDJ-MED-76744c27-1
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)NC2CC2)Cc2ccc(Cl)cc21,MAT-POS-5cd9ea36-2,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-2
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)NC2CCC2)Cc2ccc(Cl)cc21,MAT-POS-5cd9ea36-3,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-3
-CC(C)NS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-4,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-4
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CCCC1,MAT-POS-5cd9ea36-5,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-5
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CCOCC1,MAT-POS-5cd9ea36-6,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-6
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CCS(=O)(=O)CC1,MAT-POS-5cd9ea36-7,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-7
-N#CCC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,MAT-POS-5cd9ea36-8,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-8
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)CC2(F)CC2)Cc2ccc(Cl)cc21,MAT-POS-5cd9ea36-9,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-9
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,MAT-POS-5cd9ea36-10,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-10
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)CC2CC2(F)F)Cc2ccc(Cl)cc21,MAT-POS-5cd9ea36-11,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-11
-O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)CC2CC23CC3)Cc2ccc(Cl)cc21,MAT-POS-5cd9ea36-12,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-12
-O=C(CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1)NC1CC1,MAT-POS-5cd9ea36-13,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-13
-CNC(=O)C(C)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-14,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-14
-N#CCNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-15,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-15
-CCN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-16,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-16
-CCNS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-17,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-17
-CN(CC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-18,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-18
-CC(C)N(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-19,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-19
-CN(C1CC1)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-20,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-20
-CN(CCC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-21,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-21
-COCCN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-22,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-22
-CN(CCO)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-23,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-23
-N#CCS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-24,"Matt Robinson, PostEra",,False,MAT-POS-5cd9ea36-24
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cc(C(F)F)ccc12,MAT-POS-c0609ef7-1,"Matt Robinson, PostEra",,False,MAT-POS-c0609ef7-1
-CC(C)(F)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@H](C(=O)Nc2cncc3ccccc23)C1,PET-UNK-de87a406-1,Peter Kenny,,False,PET-UNK-de87a406-1
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC(C)(C)C#N)Cc2ccc(Cl)cc21,PET-UNK-757f8bc8-1,Peter Kenny,,False,PET-UNK-757f8bc8-1
-COC(C)(C)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](OC)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-757f8bc8-2,Peter Kenny,,False,PET-UNK-757f8bc8-2
-COCCS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](OC)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-757f8bc8-3,Peter Kenny,,False,PET-UNK-757f8bc8-3
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CN(C)C)Cc2ccc(Cl)cc21,PET-UNK-757f8bc8-4,Peter Kenny,,False,PET-UNK-757f8bc8-4
-CC(C)(C#N)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](C)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-757f8bc8-5,Peter Kenny,,False,PET-UNK-757f8bc8-5
-COC(C)(C)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](C)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-757f8bc8-6,Peter Kenny,,False,PET-UNK-757f8bc8-6
-COCCS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](C)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-757f8bc8-7,Peter Kenny,,False,PET-UNK-757f8bc8-7
-CN(C)CS(=O)(=O)N1Cc2ccc(Cl)cc2[C@](C)(C(=O)Nc2cncc3ccccc23)C1,PET-UNK-757f8bc8-8,Peter Kenny,,False,PET-UNK-757f8bc8-8
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC(C)(C)C#N)Cc2ccc(Cl)cc21,PET-UNK-757f8bc8-9,Peter Kenny,,False,PET-UNK-757f8bc8-9
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC(C)(C)OC)Cc2ccc(Cl)cc21,PET-UNK-757f8bc8-10,Peter Kenny,,False,PET-UNK-757f8bc8-10
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CCOC)Cc2ccc(Cl)cc21,PET-UNK-757f8bc8-11,Peter Kenny,,False,PET-UNK-757f8bc8-11
-C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CN(C)C)Cc2ccc(Cl)cc21,PET-UNK-757f8bc8-12,Peter Kenny,,False,PET-UNK-757f8bc8-12
-COc1ccc(-c2ccccc2S(=O)(=O)N2CCN(C(=O)CCl)CC2)cc1,PEI-IMP-668afc53-1,"Peihao Zhao, Imperial College London",,False,PEI-IMP-668afc53-1
-COc1ccc(-c2ccsc2S(=O)(=O)N2CCN(C(=O)CCl)CC2)cc1,PEI-IMP-668afc53-2,"Peihao Zhao, Imperial College London",,False,PEI-IMP-668afc53-2
-CCOC(=O)/C=C/N1CCN(S(=O)(=O)c2ccccc2)CC1,PEI-IMP-3d837503-1,"Peihao Zhao, Imperial College London",,False,PEI-IMP-3d837503-1
-C=CC(=O)N1CCN(S(=O)(=O)c2ccccc2)CC1,PEI-IMP-3d837503-2,"Peihao Zhao, Imperial College London",,False,PEI-IMP-3d837503-2
-C=CS(=O)(=O)N1CCN(S(=O)(=O)c2ccccc2)CC1,PEI-IMP-3d837503-3,"Peihao Zhao, Imperial College London",,False,PEI-IMP-3d837503-3
-C#CC(=O)N1CCN(S(=O)(=O)c2ccccc2)CC1,PEI-IMP-3d837503-4,"Peihao Zhao, Imperial College London",,False,PEI-IMP-3d837503-4
-O=S(=O)(c1ccccc1)N1CCN(CC2CO2)CC1,PEI-IMP-3d837503-5,"Peihao Zhao, Imperial College London",,False,PEI-IMP-3d837503-5
-O=C(CCl)N1CC2CC1CN2S(=O)(=O)c1ccccc1,PEI-IMP-e4a008a2-1,"Peihao Zhao, Imperial College London",,False,PEI-IMP-e4a008a2-1
-O=C(Nc1cnc2ccc(F)cn12)C1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-ba2aea69-1,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals",,False,JUL-TUD-ba2aea69-1
-O=C(Nc1cnc2ccc(F)cn12)C1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-1,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-ba2aea69-1
-O=C(Nc1cnn2ccncc12)C1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-2,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-2
-Cc1cc2ncc(NC(=O)C3CCc4cc(Cl)c(Cl)cc43)n2nc1C,JUL-TUD-06b2044f-3,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-3
-Cc1c(Cl)c(Cl)cc2c1OCC(C)C2C(=O)Nc1cnc2n1CCC2,JUL-TUD-06b2044f-4,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-4
-O=C(Nc1cnn(CC2CCOC2)c1)C1Cc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-5,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-5
-CC1COc2c(F)cc(Cl)cc2C1C(=O)Nc1cnc2c(F)cccn12,JUL-TUD-06b2044f-6,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-6
-CC1COc2cc(Cl)c(Cl)cc2C1C(=O)Nc1cnnn1CC1CC1,JUL-TUD-06b2044f-7,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-7
-CCn1nncc1NC(=O)C1c2cc(Cl)c(Cl)cc2OCC1C,JUL-TUD-06b2044f-8,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-8
-CCOc1c(Cl)cc(Cl)cc1CC(=O)Nc1nnc(C)cc1C#N,JUL-TUD-06b2044f-9,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-9
-Cn1ncc(NC(=O)C2COc3cc(Cl)c(Cl)cc32)c1C1CC1,JUL-TUD-06b2044f-10,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-10
-CN1CC(C(=O)Nc2cnn(C)c2C2CC2)Cc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-11,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-11
-CN1CCc2c(NC(=O)C3CCc4ccc(Cl)c(Cl)c43)cncc21,JUL-TUD-06b2044f-12,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-12
-COc1c(Cl)cc(Cl)c2c1C(C(=O)Nc1cnn3ccccc13)CC2,JUL-TUD-06b2044f-13,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-13
-O=C1C(c2ccc(Cl)c(Cl)c2)CCN1c1cnc2cccnn12,JUL-TUD-06b2044f-14,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-14
-Cc1[nH]ncc1N1CCC(c2ccc(Cl)c(Cl)c2)C1=O,JUL-TUD-06b2044f-15,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-15
-Cn1cc(N2CCC(c3ccc(Cl)c(Cl)c3)C2=O)c(C(C)(C)C)n1,JUL-TUD-06b2044f-16,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-16
-Cc1cc2c(c(C)c1Cl)C(C(=O)Nc1ncnc3cn(C)nc13)CCO2,JUL-TUD-06b2044f-17,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-17
-Cc1nn(CC2CC2)cc1NC(=O)Cc1cc(Cl)c(Cl)cc1F,JUL-TUD-06b2044f-18,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-18
-O=C(Cc1cc(Cl)c(F)cc1Cl)Nc1ncnc2c(F)c(F)cc(F)c12,JUL-TUD-06b2044f-19,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-19
-O=C(Cc1cc(Cl)cc(Cl)c1F)Nc1nccn2ncnc12,JUL-TUD-06b2044f-20,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-20
-O=C(Nc1cnc2n1CCCC2)C1Cc2c(F)cc(Cl)c(Cl)c21,JUL-TUD-06b2044f-21,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-21
-O=C(Nc1cnn2c1CCCC2)C1Cc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-22,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-22
-O=C(Nc1cnn2c1CCCC2)C1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-23,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-23
-O=C(Nn1nncc1C1CC1)C1COc2cc(Br)c(Cl)cc21,JUL-TUD-06b2044f-24,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-24
-O=C(Nn1nncc1C1CC1)C1COc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-25,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-25
-CC(C)(NC(=O)Cc1noc2ccc(F)cc12)c1cccc(Cl)c1Cl,JUL-TUD-06b2044f-26,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-26
-COc1c(F)cc(F)c(F)c1CNC(=O)C1COc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-27,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-27
-CCn1nc(C)c(CC(=O)NCc2cc(Cl)c(Cl)cc2OC)c1C,JUL-TUD-06b2044f-28,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-28
-O=C(c1ccsc1)N1CCN(Cc2cc(Cl)c(Cl)cc2F)CC1,JUL-TUD-06b2044f-29,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-29
-Cc1ccc(C(=O)N2CCN(Cc3cc(Cl)c(Cl)cc3F)CC2)s1,JUL-TUD-06b2044f-30,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-30
-O=C(Cc1c(F)cc(F)cc1F)NC1CCOc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-31,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-31
-O=C(Cc1cc(Cl)c(F)cc1F)NC1CCOc2cc(Cl)c(F)cc21,JUL-TUD-06b2044f-32,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-32
-CCOc1cc(Cl)c(Cl)cc1CNC(=O)Cc1nc(C)c(C)s1,JUL-TUD-06b2044f-33,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-33
-CCOc1cc(Cl)c(Cl)cc1CNC(=O)CCn1nc(C)cc1C,JUL-TUD-06b2044f-34,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-34
-COc1cc(Cl)c(Cl)cc1CNC(=O)Cc1cn(C)c2cccc(F)c12,JUL-TUD-06b2044f-35,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-35
-O=C(Cc1cc(Cl)c(F)cc1F)NC1COc2cc(Cl)cc(F)c21,JUL-TUD-06b2044f-36,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-36
-O=C(Cc1cc(Cl)c(F)cc1F)NC1COc2nccc(Cl)c21,JUL-TUD-06b2044f-37,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-37
-COc1ccc(Cl)c(C)c1CNC(=O)Cc1cc(Cl)cs1,JUL-TUD-06b2044f-38,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-38
-O=C(Cc1cc(Cl)c(F)cn1)NC1COc2c(F)cc(F)cc21,JUL-TUD-06b2044f-39,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-39
-C#Cc1cccc2cncc(CCNC(=O)C3CCc4cc(Cl)c(Cl)cc43)c12,JUL-TUD-06b2044f-40,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-40
-O=C(NCCOc1cncc2cnccc12)C1COc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-41,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-41
-O=C(NCCOc1cncc2cccnc12)C1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-42,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-42
-CC(C)(C)c1ccc(N(Cc2cccc(Cl)c2)C(=O)Cc2cn[nH]c2)cc1,JUL-TUD-06b2044f-43,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-43
-O=C(Nc1cncc2n[nH]cc12)C1Cc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-44,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-44
-CC1(C)CCN(C(=O)Nc2cncc3cnccc23)c2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-45,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-45
-CC(C)CN1CC(C(=O)Nc2cncc3cnccc23)c2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-46,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-46
-O=C(Nc1cncc2cnccc12)C1CCN(Cc2c(F)cc(Cl)cc2Cl)C1,JUL-TUD-06b2044f-47,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-47
-COC(=O)N1CC(N2CCC(c3ccc(Cl)c(Cl)c3)C2=O)C1,JUL-TUD-06b2044f-48,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-48
-O=C(Nc1cncc2c1CCC2)C1Cc2c(Cl)cc(Cl)cc21,JUL-TUD-06b2044f-49,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-49
-O=C(Nc1cncc2c1OCC2)C1Cc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-50,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-50
-CC1(C(=O)Nc2cncc3cnccc23)CC1c1cc(Cl)cc(Cl)c1,JUL-TUD-06b2044f-51,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-51
-CC1CN(C(=O)Cc2cncc3ccccc23)Cc2ccc(Cl)c(Cl)c21,JUL-TUD-06b2044f-52,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-52
-O=C1CC(CN(Cc2cccc(Cl)c2Cl)C(=O)Cc2cncc3ccccc23)CCN1,JUL-TUD-06b2044f-53,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-53
-CC1CN(C(=O)Nc2cncc3ccccc23)CC1c1ccc(Cl)c(Cl)c1,JUL-TUD-06b2044f-54,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-54
-CCn1cncc1NC(=O)C1c2cc(Cl)cc(Cl)c2OCC1C,JUL-TUD-06b2044f-55,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-55
-CCOc1c(Cl)cc(Cl)cc1CNc1cncc(C2CC2)c1,JUL-TUD-06b2044f-56,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-56
-O=C(c1cccnc1)N1CCN(Cc2cc(Cl)cc(Cl)c2OC(F)F)CC1,JUL-TUD-06b2044f-57,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-57
-O=C(NCC1CCCO1)C1CCN(C(=O)c2ccc(Cl)c(Cl)c2)C1,JUL-TUD-06b2044f-58,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-58
-COc1cc(Cl)c(Cl)cc1CC(=O)Nc1cnnn1C1CC1,JUL-TUD-06b2044f-59,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-59
-CNc1cncnc1NC(=O)C1Cc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-60,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-60
-CCn1ncc2c(NC(=O)C3Cc4cc(Cl)c(Cl)cc43)nncc21,JUL-TUD-06b2044f-61,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-61
-COCCCn1ncc2c(NC(=O)C3Cc4cc(Cl)c(Cl)cc43)nncc21,JUL-TUD-06b2044f-62,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-62
-CCn1ncc2c(NC(=O)C3CCOc4cc(Cl)c(Cl)cc43)nncc21,JUL-TUD-06b2044f-63,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-63
-CN(C(=O)C1CN(C2CCCC2)c2cc(Cl)c(Cl)cc21)c1cncnc1,JUL-TUD-06b2044f-64,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-64
-CN(Cc1ccc(Cl)c(Cl)c1)C(=O)CC1CCNC1=O,JUL-TUD-06b2044f-65,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-65
-CN1CC(CNC(=O)C2CCOc3cc(F)c(Cl)cc32)C1,JUL-TUD-06b2044f-66,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-66
-O=C(CN1CCN(Cc2ccc(Cl)c(Cl)c2)C1=O)Nc1cncc2c1CCN2,JUL-TUD-06b2044f-67,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-67
-O=C(Cc1ccc(Cl)c(Cl)c1)Nc1cnnn1C1CCOCC1,JUL-TUD-06b2044f-68,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-68
-COc1c(Cl)c(Cl)cc2c1C(C)C(C(=O)NCc1cncc3ccccc13)O2,JUL-TUD-06b2044f-69,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-69
-COc1c(Cl)cc(Cl)cc1CN(CC1COC1)C(=O)Cn1nnc2c1CCCC2,JUL-TUD-06b2044f-70,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-70
-COc1c(Cl)cc(Cl)cc1CN1CCN(CC2CCC(=O)N2)CC1=O,JUL-TUD-06b2044f-71,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-71
-O=C(c1cncc2ccc(F)cc12)N1CCN(Cc2ccc(Cl)cc2Cl)CC1,JUL-TUD-06b2044f-72,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-72
-COc1c(Cl)cc(Cl)cc1CN1CCN(C(=O)c2cncc3ccc(F)cc23)CC1,JUL-TUD-06b2044f-73,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-73
-COc1ccc2cncc(C(=O)N3CCN(Cc4cc(Cl)ccc4Cl)CC3)c2c1,JUL-TUD-06b2044f-74,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-74
-COc1c(Cl)cc(Cl)cc1CS(=O)(=O)N1CCN(c2c(F)ncc3ccccc23)C1=O,JUL-TUD-06b2044f-75,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-75
-O=C(Nc1cncs1)C1COc2c(F)c(Cl)cc(Cl)c21,JUL-TUD-06b2044f-76,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-76
-COc1cc(Cl)c(Cl)c2c1N(C(=O)Nc1cncc3ccc(C4CC4)cc13)CC2,JUL-TUD-06b2044f-77,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-77
-COc1cc(Cl)c(Cl)cc1CN1CCC(Cc2cccnc2)C1=O,JUL-TUD-06b2044f-78,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-78
-O=C1C(c2ccc(Cl)c(Cl)c2)CCN1c1cnnnc1,JUL-TUD-06b2044f-79,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-79
-COc1cc2cncc(C(=O)NCc3cc(Cl)cc(Cl)c3)c2cc1OC,JUL-TUD-06b2044f-80,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-80
-COc1ncncc1N1CCN(Cc2cc(Cl)cc(Cl)c2OC)C1=O,JUL-TUD-06b2044f-81,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-81
-O=C(Cn1ncc2cccnc21)NCc1cc(F)c(Cl)cc1Cl,JUL-TUD-06b2044f-82,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-82
-Cc1cc(Cl)c(Cl)cc1C(=O)N1CCCC1(C)C(=O)Nc1cncc2ccccc12,JUL-TUD-06b2044f-83,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-83
-Cc1ccnn1-c1cc(Cl)cc(Cl)c1OCC(=O)Nc1cncc2cnccc12,JUL-TUD-06b2044f-84,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-84
-O=C(Cn1cncn1)N1CCN(Cc2ccc(Cl)c(Cl)c2)CC1,JUL-TUD-06b2044f-85,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-85
-O=C(Cc1cc(Cl)c(F)cc1Cl)Nc1cnnn1CC1CC1,JUL-TUD-06b2044f-86,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-86
-O=C(Nc1cncn1CC1CC1)C1COc2ccc(Cl)c(Cl)c21,JUL-TUD-06b2044f-87,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-87
-Cc1nnc2cncc(NC(=O)C3COc4ccc(Cl)c(Cl)c43)n12,JUL-TUD-06b2044f-88,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-88
-O=C1N(CCC2CCc3cc(Cl)c(Cl)cc3C2)CCN1c1cncc2ccccc12,JUL-TUD-06b2044f-89,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-89
-Cn1cc(N(Cc2cccnc2)C(=O)C2CCOc3cc(F)c(Cl)cc32)cn1,JUL-TUD-06b2044f-90,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-90
-N#Cc1ccc(CN2CCN(c3cncnc3)C2=O)c(Cl)c1,JUL-TUD-06b2044f-91,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-91
-Cn1cnc2c(N3CCN(Cc4cc(Cl)c(Cl)cc4F)C3=O)cncc21,JUL-TUD-06b2044f-92,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-92
-Cn1ncc2c(NC(=O)C3Cc4c(ccc(Cl)c4Cl)O3)cncc21,JUL-TUD-06b2044f-93,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-93
-Cn1nncc1NC(=O)Cc1c(Cl)ccc(Cl)c1OCC1CCO1,JUL-TUD-06b2044f-94,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-94
-O=C(Cc1cc(Cl)c(F)cc1F)Nc1cncc2c1cnn2CC1CCO1,JUL-TUD-06b2044f-95,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-95
-O=C(Cc1cc(Cl)cc(Cl)c1F)Nc1cnn2ccncc12,JUL-TUD-06b2044f-96,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-96
-O=C(Cc1cc(F)c(Cl)cc1Cl)Nn1cnnc1,JUL-TUD-06b2044f-97,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-97
-O=C(Cn1cncn1)NCc1cc(F)c(Cl)cc1Cl,JUL-TUD-06b2044f-98,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-98
-O=C(Cc1cc(F)cc(F)c1F)Nc1cnn(CC2CCOC2)c1,JUL-TUD-06b2044f-99,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-99
-O=C(Cc1ccc(Cl)c(Cl)c1)N1CCNCC1Cn1ccnn1,JUL-TUD-06b2044f-100,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-100
-O=C(Cc1cncc(-n2ccnc2)c1)N1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-101,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-101
-O=C(NCCn1cnc2ccncc21)C1COc2c(Cl)cc(Cl)cc21,JUL-TUD-06b2044f-102,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-102
-O=C(Nc1cncc2c1CCN2CCO)C1COc2c(Cl)cc(Cl)cc21,JUL-TUD-06b2044f-103,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-103
-O=C(NCc1cncc2c1CCCC2)C1Cc2c(ccc(Cl)c2F)O1,JUL-TUD-06b2044f-104,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-104
-O=C(Nc1ccc(F)nc1)C1CCN(C(=O)CC2CCOc3cc(Cl)c(Cl)cc32)C1,JUL-TUD-06b2044f-105,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-105
-O=C(Nn1cnc2c(F)cc(F)cc21)C1COc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-106,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-106
-O=C1C(c2cc(F)c(F)cc2F)CCCN1c1cncn2cnnc12,JUL-TUD-06b2044f-107,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-107
-O=C1C(c2ccc(Cl)c(Cl)c2)CCCN1Cc1c[nH]cn1,JUL-TUD-06b2044f-108,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-108
-O=C1CC(CCc2ccc(Cl)c(Cl)c2)CN1c1cncc2cnccc12,JUL-TUD-06b2044f-109,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-109
-O=C1N(Cc2cc(Cl)ccc2Cl)CCN1c1cnnc2c(F)cccc12,JUL-TUD-06b2044f-110,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-110
-O=C1N(Cc2ccccc2Cl)CCN1c1cncc2ccc(Cl)cc12,JUL-TUD-06b2044f-111,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-111
-O=C1N(Cc2ccc(Cl)cc2Cl)CCN1c1cncc2ccccc12,JUL-TUD-06b2044f-112,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-112
-O=C1NCc2c(NC(=O)N3CCc4c(Cl)ccc(Cl)c43)cncc21,JUL-TUD-06b2044f-113,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-113
-CCN(Cc1cc(Cl)c(Cl)cc1OC)C(=O)C1CCN(C(C)=O)C1,JUL-TUD-06b2044f-114,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-114
-CCn1cnnc1CNC(=O)Cc1cc(F)c(Cl)cc1Cl,JUL-TUD-06b2044f-115,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-115
-CC(=O)N1CCN(C(=O)Cc2ccc(Cl)c(Cl)c2)C(CN2CCOC2=O)C1,JUL-TUD-06b2044f-116,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-116
-O=C(Cc1cc(Cl)c(Cl)cc1F)NCCC(O)c1cncnc1,JUL-TUD-06b2044f-117,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-117
-O=C(Cc1ccc(F)c(F)c1)NCC1(c2ccc(Cl)c(Cl)c2)CCOCC1,JUL-TUD-06b2044f-118,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-118
-Cn1cc(C(=O)N2CCN(Cc3cc(Cl)cc(Cl)c3F)CC2)cn1,JUL-TUD-06b2044f-119,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-119
-O=C(Cc1cc(F)cc(F)c1)NCc1cc(Cl)c(Cl)cc1-n1cncn1,JUL-TUD-06b2044f-120,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-120
-CN(C(=O)Cc1cc(F)c(F)cc1F)C(CCO)c1ccc(F)c(Cl)c1,JUL-TUD-06b2044f-121,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-121
-CC1CN(C(=O)Cc2ccco2)C(C)CN1CCc1cc(F)c(F)cc1F,JUL-TUD-06b2044f-122,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-122
-CC1c2cc(Cl)c(Cl)cc2C(=O)N1CC(=O)NCc1ccoc1,JUL-TUD-06b2044f-123,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-123
-Cc1nnc2n1CC(CNC(=O)Cc1cc(Cl)c(Cl)cc1F)CC2,JUL-TUD-06b2044f-124,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-124
-Cc1cc(CC(=O)NCc2cc(Cl)c(Cl)cc2-n2ccnc2C)[nH]n1,JUL-TUD-06b2044f-125,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-125
-O=C(c1cccnc1)N1CCN(Cc2cc(Cl)c(Cl)cc2F)CC1,JUL-TUD-06b2044f-126,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-126
-CCc1nccn1CCC(=O)NCc1cc(Cl)c(Br)cc1F,JUL-TUD-06b2044f-127,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-127
-O=C(c1cccnc1)N1CCN(Cc2cccc(Cl)c2Cl)CC1,JUL-TUD-06b2044f-128,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-128
-CCn1cc(CC(=O)NCc2cc(Cl)c(Cl)cc2OC)c2cnccc21,JUL-TUD-06b2044f-129,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-129
-O=C(Cn1ccnc1)N(Cc1cc(Cl)c(Cl)cc1F)C1CCOCC1,JUL-TUD-06b2044f-130,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-130
-COCC1c2cnn(C)c2CCN1C(=O)Cc1cc(Cl)c(Cl)cc1F,JUL-TUD-06b2044f-131,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-131
-COCC1c2cnn(C)c2CCN1C(=O)Cc1cc(F)c(Cl)cc1Cl,JUL-TUD-06b2044f-132,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-132
-COCCOCC1c2c(ncn2C)CCN1C(=O)Cc1cc(Cl)c(Cl)cc1F,JUL-TUD-06b2044f-133,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-133
-COc1c(COCC(=O)NC2CCOC2=O)ccc(Cl)c1Cl,JUL-TUD-06b2044f-134,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-134
-O=C(NCc1cc(F)c(F)cc1-c1ccncc1)C1(c2ccc(Cl)c(Cl)c2)CC1,JUL-TUD-06b2044f-135,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-135
-O=C(c1ccoc1)N1CCN(Cc2cc(Cl)cc(Cl)c2F)CC1,JUL-TUD-06b2044f-136,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-136
-Cc1cc(Cl)c(CNC(=O)CCCc2ccc(F)nc2)cc1Cl,JUL-TUD-06b2044f-137,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-137
-Cc1nc(CC(=O)NCc2ccc(F)c(Cl)c2)no1,JUL-TUD-06b2044f-138,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-138
-Cc1nc(CC(=O)NCc2ccc(Cl)c(Cl)c2-c2cnco2)cs1,JUL-TUD-06b2044f-139,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-139
-Cc1ccc(CCC(=O)NC2CCOc3cc(Cl)c(Cl)cc32)cn1,JUL-TUD-06b2044f-140,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-140
-O=C(Cc1n[nH]c(=O)c2ccc(F)cc12)N(Cc1ccc(Cl)c(Cl)c1)C1CCCC1,JUL-TUD-06b2044f-141,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-141
-O=C1C(N(Cc2ccc(Cl)c(Cl)c2)Cc2ccco2)CCN1Cc1ccccc1,JUL-TUD-06b2044f-142,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-142
-O=C(NCc1cc(Cl)c(Cl)cc1-n1cncn1)C1COc2ncccc2C1,JUL-TUD-06b2044f-143,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-143
-Cc1nc(CCNC(=O)C2(c3ccc(Cl)c(Cl)c3)CC2)co1,JUL-TUD-06b2044f-144,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-144
-O=C(Cn1cnnn1)NCc1ccc(Cl)c(Cl)c1,JUL-TUD-06b2044f-145,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-145
-O=C(Cn1cc(C2CC2)nn1)NCc1ccc(Cl)c(Cl)c1,JUL-TUD-06b2044f-146,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-146
-Clc1ccc(CN2CCc3nnc(CN4CCOCC4)n3CC2)cc1Cl,JUL-TUD-06b2044f-147,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-147
-Cn1cc(C2COCCN2C(=O)Cc2cc(Cl)c(Cl)cc2F)cn1,JUL-TUD-06b2044f-148,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-148
-N#Cc1c(F)ccc(CC(=O)NCc2ccc(Cl)c(F)c2-n2cncn2)c1Cl,JUL-TUD-06b2044f-149,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-149
-O=C(COCc1cc(F)cc(F)c1)NCc1cc(Cl)cc(Cl)c1-n1cncn1,JUL-TUD-06b2044f-150,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-150
-O=C(Cc1cc(C(=O)N2CCOCC2)[nH]n1)NCc1cc(Cl)cc(F)c1Cl,JUL-TUD-06b2044f-151,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-151
-O=C(Cn1nnnc1CN1CCOCC1)NCc1cc(Cl)c(Cl)cc1F,JUL-TUD-06b2044f-152,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-152
-O=C(Cn1nnnc1CN1CCOCC1)NCc1c(Cl)cc(F)cc1Cl,JUL-TUD-06b2044f-153,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-153
-O=C(NCc1cc(Cl)c(Cl)cc1N1CCOCC1)N1CCCC1c1cccnc1,JUL-TUD-06b2044f-154,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-154
-O=C(NCc1ccccn1)N1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-155,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-155
-O=C(NCc1cocn1)NCc1c(F)cc(F)cc1Cl,JUL-TUD-06b2044f-156,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-156
-O=C(NCc1ncccc1F)NC1CCc2cc(Cl)c(Cl)cc21,JUL-TUD-06b2044f-157,"Julien Hazemann, TU-Dortmund & Idorsia Pharmaceuticals Ltd",,False,JUL-TUD-06b2044f-157
+O=C(Cc1cccc(Cl)c1)N1CCCOC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-1,Michal K,,FALSE,MIC-UNK-0870516a-1
+O=C(Cc1cccc(Cl)c1)N1CCOC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-2,Michal K,,FALSE,MIC-UNK-0870516a-2
+O=C(Cc1cccc(Cl)c1)N1CCCCC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-3,Michal K,,FALSE,MIC-UNK-0870516a-3
+O=C(Cc1cccc(Cl)c1)N1CCCC2C=CC=C3C=NC=C1C32,MIC-UNK-0870516a-4,Michal K,,FALSE,MIC-UNK-0870516a-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(S(=O)(=O)C(F)F)Cc2ccc(Cl)cc21,BRU-THA-98e973b9-1,"Bruce Lefker, Thames Pharma Partners",,FALSE,BRU-THA-98e973b9-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(S(=O)(=O)CF)Cc2ccc(Cl)cc21,BRU-THA-d60fe444-1,"Bruce Lefker, Thames Pharma Partners",,FALSE,BRU-THA-d60fe444-1
+COC(=O)CN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-51135489-1,"Matthew Robinson, PostEra",,FALSE,MAT-POS-af1eef35-2
+CNC(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-1,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-1
+CNC(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-2,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(-n5cncn5)ccc34)C2)CC1,EDJ-MED-378a25ea-3,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-3
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(-n5cnnc5)ccc34)C2)CC1,EDJ-MED-378a25ea-4,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-4
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(-n5cncn5)cc34)C2)CC1,EDJ-MED-378a25ea-5,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-5
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(-n5cnnc5)cc34)C2)CC1,EDJ-MED-378a25ea-6,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-6
+CN(C)C(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-7,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-7
+CN(C)C(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-8,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-8
+CS(=O)(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-9,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-7889e8da-6
+CS(=O)(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-10,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-10
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(S(N)(=O)=O)ccc34)C2)CC1,EDJ-MED-378a25ea-11,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-11
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(S(N)(=O)=O)cc34)C2)CC1,EDJ-MED-378a25ea-12,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-12
+Cn1cc(-c2ccc3c(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)cncc3c2)cn1,EDJ-MED-378a25ea-13,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-13
+Cn1cc(-c2ccc3cncc(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)c3c2)cn1,EDJ-MED-378a25ea-14,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-14
+Cc1nnc(-c2ccc3c(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)cncc3c2)o1,EDJ-MED-378a25ea-15,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-15
+Cc1nnc(-c2ccc3cncc(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)c3c2)o1,EDJ-MED-378a25ea-16,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-16
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(C(=O)NC5CC5)ccc34)C2)CC1,EDJ-MED-378a25ea-17,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-17
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(NC(=O)C5CC5)ccc34)C2)CC1,EDJ-MED-378a25ea-18,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-18
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(C(=O)NC5CC5)cc34)C2)CC1,EDJ-MED-378a25ea-19,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-19
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(NC(=O)C5CC5)cc34)C2)CC1,EDJ-MED-378a25ea-20,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-20
+CS(C)(=O)=Nc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-21,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-21
+CS(C)(=O)=Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-22,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-22
+CS(=O)(=O)Cc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-23,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-4f4dd660-2
+CS(=O)(=O)Cc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-24,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-24
+CS(=O)(=O)Nc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-25,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-be9e6f63-3
+CS(=O)(=O)Nc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-26,"Ed J Griffen, MedChemica Ltd",,FALSE,MAT-POS-e36d57d9-1
+CC(=O)NC1(c2ccc3c(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)cncc3c2)CC1,EDJ-MED-378a25ea-27,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-27
+CC(=O)NC1(c2ccc3cncc(NC(=O)C4CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)c3c2)CC1,EDJ-MED-378a25ea-28,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-28
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(OCC(F)(F)F)ccc34)C2)CC1,EDJ-MED-378a25ea-29,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-29
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(OCC(F)(F)F)cc34)C2)CC1,EDJ-MED-378a25ea-30,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-30
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(C(=O)NC5COC5)ccc34)C2)CC1,EDJ-MED-378a25ea-31,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-31
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(C(=O)NC5COC5)cc34)C2)CC1,EDJ-MED-378a25ea-32,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-32
+CS(C)(=O)=NCc1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-378a25ea-33,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-33
+CS(C)(=O)=NCc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,EDJ-MED-378a25ea-34,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-378a25ea-34
+NCc1ccc(C(N)=O)cc1,KEN-ILL-f8fa3277-1,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-1
+O=C(Nc1ccc(CO)cc1)C1CCCO1,KEN-ILL-f8fa3277-2,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-2
+NC(=O)c1ccc(NCCOC2CNC2)cc1,KEN-ILL-f8fa3277-3,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-3
+CC(C)OCCCC(=O)Nc1ccc(C(N)=O)cc1,KEN-ILL-f8fa3277-4,"Kenith Taukolo & Kelly Cruz (kcruz@imsa.edu), Illinois Mathematics and Science Academy",,FALSE,KEN-ILL-f8fa3277-4
+O=C(CSc1ccccc1)NCCCNC(=O)[C@@H]1CCCc2ccccc21,AAR-UNI-c25c2f1e-1,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-1
+O=C(NCc1ccccc1)NCc1cccc(NC(=O)c2ccccc2)c1,AAR-UNI-c25c2f1e-2,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-2
+O=C(NCc1cccc(NC(=O)C2CCCCC2)c1)NC1CCCCC1,AAR-UNI-c25c2f1e-3,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-3
+O=C(NCCCCNC(=O)C1CCCCC1)N[C@@H]1CCc2ccccc21,AAR-UNI-c25c2f1e-4,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-4
+Cn1c(CNC(=O)NCc2ccc(-n3cccn3)cc2)nc2ccccc21,AAR-UNI-c25c2f1e-5,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-5
+O=C(NCCCCNC(=O)N1CCc2ccccc2C1)c1cccc(F)c1,AAR-UNI-c25c2f1e-6,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-6
+NC(=O)c1cccc(CNC(=O)NCCc2ccc(-n3cccn3)cc2)c1,AAR-UNI-c25c2f1e-7,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-7
+CNC(=O)NCC(=O)NCc1cccc(NC(=O)c2ccccc2Cl)c1,AAR-UNI-c25c2f1e-8,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-8
+O=C(CNc1cccc(NC(=O)c2ccccc2)c1)NCc1ccccc1,AAR-UNI-c25c2f1e-9,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-9
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1-n1ccnc1,AAR-UNI-c25c2f1e-10,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-10
+Cn1c(CNC(=O)CCCn2ccc3ccccc32)nc2ccccc21,AAR-UNI-c25c2f1e-11,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-11
+CNC(=O)c1cccc(CCNC(=O)NCc2ccc(-n3cccn3)cc2)c1,AAR-UNI-c25c2f1e-12,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-12
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1N1CCCC1,AAR-UNI-c25c2f1e-13,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-13
+CCC(CC)[C@@H](O)CNC(=O)Nc1ccccc1SC1CCCC1,AAR-UNI-c25c2f1e-14,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-14
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1N1CCCC1=O,AAR-UNI-c25c2f1e-15,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-15
+O=C(NCCCNC(=O)Nc1ccccc1)NCc1ccccc1Cl,AAR-UNI-c25c2f1e-16,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-16
+Cc1ccc([C@H](C)NC(=O)NCc2ccccc2Cn2cccn2)cc1,AAR-UNI-c25c2f1e-17,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-17
+CC[C@H](C)C(=O)Nc1cccc(NC(=O)NCc2cccc(NC(N)=O)c2)c1,AAR-UNI-c25c2f1e-18,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-18
+CC(C)(CNC(=O)NCc1ccccc1-n1cccn1)c1cccc(F)c1,AAR-UNI-c25c2f1e-19,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-19
+O=C(NCCCNC(=O)c1ccccc1)NCc1nc2ccccc2s1,AAR-UNI-c25c2f1e-20,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-20
+O=C(CNc1cccc(NC(=O)C2CC=CC2)c1)NCc1ccccc1,AAR-UNI-c25c2f1e-21,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-21
+Cc1cccc(NC(=O)NCCC(=O)NCc2cccc3c2OCO3)c1,AAR-UNI-c25c2f1e-22,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-22
+CC(C)CCNC(=O)c1nc(Cc2ccccc2)n(-c2ccccc2)n1,AAR-UNI-c25c2f1e-23,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-23
+O=C(NCc1cccc(NC(=O)c2ccco2)c1)NC[C@@H]1CC=CCC1,AAR-UNI-c25c2f1e-24,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-24
+NC(=O)c1cccc(CNC(=O)NCc2cnn(-c3ccccc3)c2)c1,AAR-UNI-c25c2f1e-25,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-25
+C[C@H](NC(=O)NCCc1c[nH]c2ccccc12)c1nnc2ccccn12,AAR-UNI-c25c2f1e-26,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-26
+CNC(=O)c1ccc(CNC(=O)NCc2ccc(NC(C)C)cc2)cc1,AAR-UNI-c25c2f1e-27,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-27
+CNC(=O)c1ccc(CCNC(=O)NCc2cc3ccccc3[nH]2)cc1,AAR-UNI-c25c2f1e-28,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-28
+Cc1cccc(C(=O)NCCNC(=O)Cc2c[nH]c3ccccc23)c1,AAR-UNI-c25c2f1e-29,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-29
+CCNC(=O)c1cccc(NC(=O)NCCNC(=O)Nc2ccccc2)c1,AAR-UNI-c25c2f1e-30,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-30
+CC(C)(C)NC(=O)NCc1cccc(NC(=O)Nc2ccccc2)c1,AAR-UNI-c25c2f1e-31,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-31
+O=C(CSc1nc2ccccc2n1CCc1ccccc1)N1CCCC1,AAR-UNI-c25c2f1e-32,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-32
+CC(C)c1ccc(CCC(=O)NCCC(=O)Nc2ccccc2)cc1,AAR-UNI-c25c2f1e-33,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-33
+Cc1ccc([C@@H](CNC(=O)Cc2c[nH]c3ccccc23)N2CCOCC2)cc1,AAR-UNI-c25c2f1e-34,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-34
+O=C(NCc1ccccc1)NCc1cccc(NC(=O)c2ccco2)c1,AAR-UNI-c25c2f1e-35,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-35
+NC(=O)Cc1ccccc1NC(=O)NCc1ccccc1-n1cccn1,AAR-UNI-c25c2f1e-36,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-36
+O=C(NCCNC(=O)c1cccc(F)c1)NCc1cc2ccccc2[nH]1,AAR-UNI-c25c2f1e-37,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-37
+C[C@@H](CNC(=O)NCc1ccccc1NC(=O)NC1CC1)c1ccccc1,AAR-UNI-c25c2f1e-38,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-38
+O=C(CNC(=O)NCCNC(=O)c1cccc(F)c1)Nc1ccccc1,AAR-UNI-c25c2f1e-39,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-39
+CCNC(=O)NCC(=O)Nc1cccc(NC(=O)Nc2ccccc2)c1,AAR-UNI-c25c2f1e-40,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-40
+O=C(CCCNC(=O)c1ccccc1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-41,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-41
+Cc1ccccc1NC(=O)NCC(=O)NCc1cc2c(s1)CCCC2,AAR-UNI-c25c2f1e-42,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-42
+CC(C)(CNC(=O)NCc1ccccc1-n1ccnc1)c1ccccc1,AAR-UNI-c25c2f1e-43,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-43
+NC(=O)CCCNC(=O)NCc1ccccc1-c1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-44,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-44
+O=C(CCCNC(=O)Nc1ccccc1)NCC(=O)NC1CC1,AAR-UNI-c25c2f1e-45,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-45
+O=C(NCCCNC(=O)Nc1cccc(Cl)c1)Nc1ccccc1,AAR-UNI-c25c2f1e-46,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-46
+C[C@H](CNC(=O)CCc1ccc(N2CCCC2)cc1)c1cccs1,AAR-UNI-c25c2f1e-47,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-47
+O=C(CCSc1ccccc1F)NCCn1nc2ccccn2c1=O,AAR-UNI-c25c2f1e-48,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-48
+O=C(NCCc1c(F)cccc1F)NCc1cnn(-c2ccccc2)c1,AAR-UNI-c25c2f1e-49,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-49
+C[C@H](NC(=O)CCCn1cncn1)c1ccc(-c2ccccc2)cc1,AAR-UNI-c25c2f1e-50,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-50
+O=C(NCCNC(=O)Nc1ccccc1)NCc1ccc(Cl)cc1,AAR-UNI-c25c2f1e-51,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-51
+O=C(CNC(=O)NCCc1nc2ccccc2[nH]1)Nc1ccccc1,AAR-UNI-c25c2f1e-52,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-52
+CC(=O)Nc1cccc(NC(=O)NCc2ccccc2-n2nccc2C)c1,AAR-UNI-c25c2f1e-53,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-53
+Cc1ccc(SCC(=O)NCC(=O)NCc2ccccn2)cc1,AAR-UNI-c25c2f1e-54,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-54
+O=C(CSc1ncn(-c2ccccc2)n1)Nc1cccc2ccccc12,AAR-UNI-c25c2f1e-55,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-55
+CC(=O)Nc1ccc(CCNC(=O)NCc2cccc(C#N)c2)cc1,AAR-UNI-c25c2f1e-56,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-56
+O=C(CCCNC(=O)c1cccc(Cl)c1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-57,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-57
+O=C(NCCSc1ccccc1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-58,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-58
+CN(CCNC(=O)NCc1ccc(-n2cccn2)nc1)c1ccccc1,AAR-UNI-c25c2f1e-59,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-59
+O=C(NCCCNC(=O)c1cc(-c2ccccc2)[nH]n1)c1ccccc1,AAR-UNI-c25c2f1e-60,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-60
+CC(C)(CNC(=O)CNc1cccc(N2CCCC2=O)c1)c1ccncc1,AAR-UNI-c25c2f1e-61,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-61
+CCN1C(=O)CC(C)(C)c2cc(NC(=O)NCCc3ccccc3)ccc21,AAR-UNI-c25c2f1e-62,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-62
+Cc1ccc(SCC(=O)NCc2ccc(Cn3cncn3)cc2)cc1,AAR-UNI-c25c2f1e-63,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-63
+O=C(CNC(=O)Nc1ccccc1)NCc1ccc(Cn2cccn2)cc1,AAR-UNI-c25c2f1e-64,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-64
+O=C(Nc1ccccc1)Nc1cccc(CNC(=O)c2ccccc2)c1,AAR-UNI-c25c2f1e-65,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-65
+O=C(CCCn1c(=O)[nH]c2ccccc2c1=O)NC1Cc2ccccc2C1,AAR-UNI-c25c2f1e-66,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-66
+C[C@H](NC(=O)NCCNc1ccccc1)c1cccc(-n2ccnc2)c1,AAR-UNI-c25c2f1e-67,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-67
+O=C(CSc1nc2ccccc2n1CCc1ccccc1)NC1CC1,AAR-UNI-c25c2f1e-68,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-68
+O=C(NCCCSc1nc2ccccc2s1)NC1CCCC1,AAR-UNI-c25c2f1e-69,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-69
+Cn1cc(C(=O)NCC(=O)NCc2ccc(-c3ccccc3)cc2)cn1,AAR-UNI-c25c2f1e-70,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-70
+O=C(CCCNC(=O)NCc1ccccc1Cl)Nc1ccccc1,AAR-UNI-c25c2f1e-71,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-71
+O=C(NCCc1c[nH]c2ccccc12)NCc1ccccc1-n1cccn1,AAR-UNI-c25c2f1e-72,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-72
+CNC(=O)c1ccc(CNC(=O)NCCc2c[nH]c3ccccc23)cc1,AAR-UNI-c25c2f1e-73,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-73
+CC(C)CC(=O)NCc1cccc(C(=O)Nc2cccc(C#N)c2)c1,AAR-UNI-c25c2f1e-74,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-74
+CC[C@@H](CNC(=O)Nc1cccc(NC(=O)C2CC2)c1)c1ccccc1,AAR-UNI-c25c2f1e-75,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-75
+Nc1ccccc1CNC(=O)CCSc1nc2ccccc2s1,AAR-UNI-c25c2f1e-76,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-76
+NC(=O)Cc1ccccc1NC(=O)COc1ccccc1-c1ccccc1,AAR-UNI-c25c2f1e-77,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-77
+O=C(NCCNC(=O)Nc1ccccc1)NCc1cccc(Cl)c1,AAR-UNI-c25c2f1e-78,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-78
+O=C(NCCCCNC(=O)c1ccc(F)cc1)Nc1ccccc1,AAR-UNI-c25c2f1e-79,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-79
+CC(C)(CNC(=O)NCc1ccccc1-n1cccn1)c1ccccc1,AAR-UNI-c25c2f1e-80,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-80
+O=C(NCCc1ccc(-n2cccn2)cc1)NC[C@H]1CN2CCC[C@@H]2CO1,AAR-UNI-c25c2f1e-81,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-81
+O=C(NCc1cccc(NC(=O)c2ccccc2)c1)Nc1ccccc1,AAR-UNI-c25c2f1e-82,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-82
+O=C(CCCNC(=O)c1cccc(F)c1)NCc1nc2ccccc2[nH]1,AAR-UNI-c25c2f1e-83,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-83
+C[C@@H](CNC(=O)NCc1ccccc1-n1ccnc1)c1ccc(F)cc1,AAR-UNI-c25c2f1e-84,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-84
+Cc1ccc(SCC(=O)NCCCn2nc3ccccn3c2=O)cc1,AAR-UNI-c25c2f1e-85,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-85
+Nc1cccc(CNC(=O)CCSc2nc3ccccc3s2)c1,AAR-UNI-c25c2f1e-86,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-86
+O=C(CCCNC(=O)c1ccccc1)Nc1cccc(N2CCCC2)c1,AAR-UNI-c25c2f1e-87,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-87
+O=C(NCCCNC(=O)C1CCCCC1)N[C@@H]1CCCC[C@H]1CO,AAR-UNI-c25c2f1e-88,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-88
+Cc1cccc(C(=O)NCCCNC(=O)c2cccc(C)c2)c1,AAR-UNI-c25c2f1e-89,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-89
+CC(=O)Nc1ccc(CCNC(=O)NCc2nc(C)c(C)s2)cc1,AAR-UNI-c25c2f1e-90,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-90
+O=C(CCCNC(=O)c1ccco1)NCCn1ccc2ccccc21,AAR-UNI-c25c2f1e-91,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-91
+NC(=O)NCCCNC(=O)Nc1ccccc1N1CCc2ccccc21,AAR-UNI-c25c2f1e-92,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-92
+C[C@@H](CNC(=O)Nc1cccc(NC(=O)C2CC2)c1)CN1CCCC1=O,AAR-UNI-c25c2f1e-93,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-93
+Cc1cccc(SCC(=O)NCCNC(=O)c2cccc(F)c2)c1,AAR-UNI-c25c2f1e-94,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-94
+O=C(NCCCNC(=O)C1CCCCC1)c1ccc2c(c1)CCCC2,AAR-UNI-c25c2f1e-95,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-95
+Cc1ccc(CCNC(=O)NCC(=O)NC2CCCCC2)cn1,AAR-UNI-c25c2f1e-96,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-96
+CNC(=O)c1ccc(NC(=O)NCCCNc2ccccc2)cc1,AAR-UNI-c25c2f1e-97,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-97
+Cc1cccc(NC(=O)NCCC(=O)NCc2ccccn2)c1,AAR-UNI-c25c2f1e-98,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-98
+C[C@](O)(CNC(=O)NCCc1cccc2ccccc12)C1CC1,AAR-UNI-c25c2f1e-99,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-99
+CN(CCc1ccccc1)C(=O)CCNC(=O)Nc1ccccc1,AAR-UNI-c25c2f1e-100,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-100
+Cc1ccccc1CC(=O)NCc1cccc(Cn2ccnc2)c1,AAR-UNI-c25c2f1e-101,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-101
+N#Cc1cccc(NCC(=O)NCc2ccc(-n3cncn3)cc2)c1,AAR-UNI-c25c2f1e-102,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-102
+C[C@H](CNC(=O)c1cccc(N2CCCC2=O)c1)CN(C)c1ccccc1,AAR-UNI-c25c2f1e-103,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-103
+CN(Cc1ccccc1Cl)C(=O)NCc1ccc(-n2cccn2)cc1,AAR-UNI-c25c2f1e-104,"Aaron Frank, University of Michigan",,FALSE,AAR-UNI-c25c2f1e-104
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cnn(C3CC3)c12,EDJ-MED-239d8ca5-1,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-239d8ca5-1
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cnn(C3COC3)c12,EDJ-MED-239d8ca5-2,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-239d8ca5-2
+CNC(=O)C1(N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,EDJ-MED-12c4873b-1,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-1
+CNC(=O)C1(N2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-12c4873b-2,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-2
+CNC(=O)C(C)(C)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-12c4873b-3,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-3
+CNC(=O)C(C)(C)N1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-12c4873b-4,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-4
+O=C(Nc1cncc2ccccc12)C1CN(C2CCNC2=O)Cc2ccc(Cl)cc21,EDJ-MED-12c4873b-5,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-5
+O=C(Nc1cncc2ccccc12)C1CN(C2CCNC2=O)C(=O)c2ccc(Cl)cc21,EDJ-MED-12c4873b-6,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-6
+O=C1CC(N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CN1,EDJ-MED-12c4873b-7,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-7
+O=C1CC(N2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CN1,EDJ-MED-12c4873b-8,"Ed J Griffen, MedChemica Ltd",,FALSE,EDJ-MED-12c4873b-8
+CC(C)n1ncc2cncc(NC(=O)Cc3cccc(Cl)c3)c21,MIC-UNK-f2576da4-1,Michal K,,FALSE,MIC-UNK-f2576da4-1
+O=C(CCl)N1CCN(S(=O)(=O)c2ccsc2)[C@H](C(=O)N2CCOCC2)C1,DAN-MCD-3ec20f87-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-3ec20f87-1
+CCOC(=O)c1cccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)c1,DAN-MCD-0742953f-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-0742953f-1
+Cc1cccc(C)c1NC(=O)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-3bfdcef2-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-3bfdcef2-1
+N#Cc1cccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)c1,DAN-MCD-02570321-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-02570321-1
+O=C(Nc1ccc(F)cc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-c163c0bb-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-c163c0bb-1
+O=C(Nc1ccc2ccccc2c1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-50d01569-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-50d01569-1
+COc1ccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)cc1,DAN-MCD-0c04f563-1,"Dana Ferraris, McDaniel College",,FALSE,DAN-MCD-0c04f563-1
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CCOc2ncc(Cl)cc21,PET-UNK-c0891748-1,Peter Kenny,,FALSE,PET-UNK-c0891748-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CCOc2ncc(Cl)cc21,PET-UNK-c0891748-2,Peter Kenny,,FALSE,EDJ-MED-12f7f543-1
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-3,Peter Kenny,,FALSE,PET-UNK-c0891748-3
+O=C(Nc1cncc2ccccc12)[C@@H]1CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-4,Peter Kenny,,FALSE,PET-UNK-c0891748-4
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CC(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-5,Peter Kenny,,FALSE,PET-UNK-c0891748-5
+O=C1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,PET-UNK-c0891748-6,Peter Kenny,,FALSE,PET-UNK-c0891748-6
+COC1(C(=O)Nc2cncc3ccccc23)CCOc2ncc(Cl)cc21,PET-UNK-c0891748-7,Peter Kenny,,FALSE,ALP-POS-fe871b40-7
+O=C(Nc1cncc2ccccc12)C1CCOc2ncc(Cl)cc21,PET-UNK-c0891748-8,Peter Kenny,,FALSE,RAL-THA-05e671eb-25
+COC1(C(=O)Nc2cncc3ccccc23)CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-9,Peter Kenny,,FALSE,PET-UNK-c0891748-9
+O=C(Nc1cncc2ccccc12)C1CS(=O)(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-10,Peter Kenny,,FALSE,PET-UNK-c0891748-10
+COC1(C(=O)Nc2cncc3ccccc23)CC(=O)Oc2ccc(Cl)cc21,PET-UNK-c0891748-11,Peter Kenny,,FALSE,PET-UNK-c0891748-11
+O=C1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2O1,PET-UNK-c0891748-12,Peter Kenny,,FALSE,PET-UNK-c0891748-12
+CS(=O)(=O)Oc1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,PET-UNK-7fb4f80a-1,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-1
+CS(=O)(=O)Oc1ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c2c1,PET-UNK-7fb4f80a-2,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-2
+CS(=O)(=O)Oc1cc2cncc(NC(=O)Cc3cccc(Cl)c3)c2cc1F,PET-UNK-7fb4f80a-3,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-3
+CS(=O)(=O)Oc1cc2c(NC(=O)Cc3cccc(Cl)c3)cncc2cc1F,PET-UNK-7fb4f80a-4,Peter Kenny,,FALSE,PET-UNK-7fb4f80a-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ccon2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-1,Peter Kenny,,FALSE,PET-UNK-37251634-1
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ccno2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-2,Peter Kenny,,FALSE,PET-UNK-37251634-2
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nnco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-3,Peter Kenny,,FALSE,PET-UNK-37251634-3
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nncs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-4,Peter Kenny,,FALSE,PET-UNK-37251634-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2cccnn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-5,Peter Kenny,,FALSE,PET-UNK-37251634-5
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ncco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-6,Peter Kenny,,FALSE,PET-UNK-37251634-6
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2nccs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-7,Peter Kenny,,FALSE,PET-UNK-37251634-7
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ccccn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-8,Peter Kenny,,FALSE,PET-UNK-37251634-8
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ccon2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-9,Peter Kenny,,FALSE,PET-UNK-37251634-9
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ccno2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-10,Peter Kenny,,FALSE,PET-UNK-37251634-10
+O=C(Nc1cncc2ccccc12)C1CN(Cc2nnco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-11,Peter Kenny,,FALSE,PET-UNK-37251634-11
+O=C(Nc1cncc2ccccc12)C1CN(Cc2nncs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-12,Peter Kenny,,FALSE,PET-UNK-37251634-12
+O=C(Nc1cncc2ccccc12)C1CN(Cc2cccnn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-13,Peter Kenny,,FALSE,PET-UNK-37251634-13
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ncco2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-14,Peter Kenny,,FALSE,PET-UNK-37251634-14
+O=C(Nc1cncc2ccccc12)C1CN(Cc2nccs2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-15,Peter Kenny,,FALSE,PET-UNK-37251634-15
+O=C(Nc1cncc2ccccc12)C1CN(Cc2ccccn2)C(=O)c2ccc(Cl)cc21,PET-UNK-37251634-16,Peter Kenny,,FALSE,PET-UNK-37251634-16
+COC1(C(=O)Nc2cncc3cc(S(=O)(=O)NO)ccc23)CCOc2ccc(Cl)cc21,MIC-UNK-7f86385f-1,Michal K,,FALSE,MIC-UNK-7f86385f-1
+COC1(C(=O)Nc2cncc3cc(S(=O)(=O)NC(N)=O)ccc23)CCOc2ccc(Cl)cc21,MIC-UNK-7f86385f-2,Michal K,,FALSE,MIC-UNK-7f86385f-2
+COC1(C(=O)Nc2cncc3cc(S(=O)(=O)N(C)C(N)=O)ccc23)CCOc2ccc(Cl)cc21,MIC-UNK-7f86385f-3,Michal K,,FALSE,MIC-UNK-7f86385f-3
+CNC(=O)NS(=O)(=O)c1ccc2c(NC(=O)C3(OC)CCOc4ccc(Cl)cc43)cncc2c1,MIC-UNK-7f86385f-4,Michal K,,FALSE,MIC-UNK-7f86385f-4
+CNC(=O)N(C)S(=O)(=O)c1ccc2c(NC(=O)C3(OC)CCOc4ccc(Cl)cc43)cncc2c1,MIC-UNK-7f86385f-5,Michal K,,FALSE,MIC-UNK-7f86385f-5
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cc(S(=O)(=O)NO)ccc12,MIC-UNK-9dc9fcd1-1,Michal K,,FALSE,MIC-UNK-9dc9fcd1-1
+NC(=O)NS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-2,Michal K,,FALSE,MIC-UNK-9dc9fcd1-2
+CN(C(N)=O)S(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-3,Michal K,,FALSE,MIC-UNK-9dc9fcd1-3
+CNC(=O)NS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-4,Michal K,,FALSE,MIC-UNK-9dc9fcd1-4
+CNC(=O)N(C)S(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-9dc9fcd1-5,Michal K,,FALSE,MIC-UNK-9dc9fcd1-5
+NC(=O)CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-fbef42b7-1,Michal K,,FALSE,MIC-UNK-fbef42b7-1
+CNC(=O)CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-fbef42b7-2,Michal K,,FALSE,MIC-UNK-fbef42b7-2
+CC(=O)NCCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-1,Michal K,,FALSE,MIC-UNK-4fbd4db9-1
+CC(=O)NC(C)(C)CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-2,Michal K,,FALSE,MIC-UNK-4fbd4db9-2
+NC(=O)NCCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-3,Michal K,,FALSE,MIC-UNK-4fbd4db9-3
+CC(C)(CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1)NC(N)=O,MIC-UNK-4fbd4db9-4,Michal K,,FALSE,MIC-UNK-4fbd4db9-4
+CS(=O)(=O)NCCS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,MIC-UNK-4fbd4db9-5,Michal K,,FALSE,MIC-UNK-4fbd4db9-5
+CC(C)(CS(=O)(=O)c1ccc2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1)NS(C)(=O)=O,MIC-UNK-4fbd4db9-6,Michal K,,FALSE,MIC-UNK-4fbd4db9-6
+O=C1NC[C@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,MAT-POS-865c3497-1,"Matt Robinson, PostEra",,FALSE,MAT-POS-865c3497-1
+O=C1NC[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc21,MAT-POS-865c3497-2,"Matt Robinson, PostEra",,FALSE,MAT-POS-865c3497-2
