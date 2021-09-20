@@ -1,6 +1,35 @@
 SMILES,CID,comments
 COC(=O)C(CO)c1cc(Cl)ccc1Br,,not found
 NNc1cncc2ccccc12,,not found
+CN(C)CCOc1ccc2cncc(NC(=O)Cc3cccc(Cl)c3)c2c1,MAT-POS-90fd5f68-31,
+O=C(Cc1cccc(Cl)c1)Nc1cncc2ccc(OCCN3CCCC3)cc12,MAT-POS-90fd5f68-32,
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,MAT-POS-1bed62cf-3,
+CCNS(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,MAT-POS-5cd9ea36-17,
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5ccccc45)C3=O)C2)CC1,MAT-POS-1bed62cf-1,
+O=C(NC(c1ccccc1)c1ccccc1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-f396e45b-1,
+O=C(Nc1ccccc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-68a9aade-1,
+O=C(CCl)N1CCN(S(=O)(=O)c2ccsc2)[C@H](C(=O)N2CCOCC2)C1,DAN-MCD-3ec20f87-1,
+O=C(NCc1ccccc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-b3a5626f-1,
+O=C(Nc1ccccc1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-e5161b06-1,
+O=C(NC(c1ccccc1)c1ccccc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-9cdc9f7f-1,
+O=C(NCC1CCCCC1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-93e7aadc-1,
+CCOC(=O)c1cccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)c1,DAN-MCD-0742953f-1,
+O=C(Nc1ccc2ccccc2c1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-50d01569-1,
+Cc1cccc(C)c1NC(=O)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-3bfdcef2-1,
+COc1ccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)cc1,DAN-MCD-0c04f563-1,
+N#Cc1cccc(NC(=O)[C@@H]2CN(C(=O)CCl)CCN2S(=O)(=O)c2ccsc2)c1,DAN-MCD-02570321-1,
+Cc1ccc(S(=O)(=O)N2CCN(C(=O)CCl)C[C@H]2C(=O)NCc2ccccc2)cc1,DAN-MCD-1c3944e2-1,
+Cc1ccc(S(=O)(=O)N2CCN(C(=O)CCl)C[C@H]2C(=O)NCCc2ccccc2)cc1,DAN-MCD-34fd4f29-1,
+O=C(Nc1ccc(F)cc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-c163c0bb-1,
+Cc1ccc(S(=O)(=O)N2CCN(C(=O)CCl)C[C@H]2C(=O)NC2CCCCC2)cc1,DAN-MCD-881986d8-1,
+O=C(NCc1ccccc1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-9b81d1fa-1,
+O=C(CCl)N1CCN(S(=O)(=O)c2ccsc2)[C@H](C(=O)N2CCN(c3ccccc3)CC2)C1,DAN-MCD-cb24a79d-1,
+O=C(NC1CCCCC1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-7eba3d41-1,imperfect stereochemical match for DAN-MCD-7eba3d41-1
+O=C(NCCc1ccccc1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-1a622181-1,
+O=C(NCCc1ccccc1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-9950a804-1,
+O=C(Nc1ccccn1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-0fb4364c-1,
+O=C(NCc1ccccn1)[C@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-52f1549c-1,
+O=C(NCc1ccccn1)[C@@H]1CN(C(=O)CCl)CCN1S(=O)(=O)c1ccsc1,DAN-MCD-8aee1169-1,
 O=C(O)C1CCOc2ccc(Cl)cc21,,not found
 NC1(C(=O)O)CCOc2ccccc21,,not found
 Clc1cccc(CN2CCNCC2)c1,,not found
@@ -12,8 +41,6 @@ Cc1ccc(N=C2C(=O)N(Cc3cccnc3)C(=O)C2c2ccccc2)c(C)c1,,not found
 CC(C)(C)c1ccc(N)cc1,,not found
 CN(C)c1ccc(N(Cc2ccsc2)C(=O)CN2N=NC3C=CC=CC32)cc1,,not found
 Nc1cncc2ccccc12,,not found
-CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,MIC-UNK-91acba05-2,
-Cn1ncc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c21,MAT-POS-bfd29aac-1,
 [C-]#[N+]CCc1cccc(F)c1,,not found
 CN1C(=O)CCc2cc(N)ccc21,,not found
 NC1CC2CCCC2C1,,not found
