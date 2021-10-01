@@ -57,15 +57,19 @@ def get_comments(ik):
 
 
 def strip_and_standardize_smi(smi):
-    return Chem.MolToSmiles(
-        Chem.MolFromSmiles(
-            Chem.MolToSmiles(
-                standardizer.standardize_mol(
-                    standardizer.get_parent_mol(Chem.MolFromSmiles(smi))[0]
+    try:
+        return Chem.MolToSmiles(
+            Chem.MolFromSmiles(
+                Chem.MolToSmiles(
+                    standardizer.standardize_mol(
+                        standardizer.get_parent_mol(Chem.MolFromSmiles(smi))[0]
+                    )
                 )
             )
         )
-    )
+    except:
+        print(smi)
+        raise ValueError(f"failed on {smi}")
 
 
 # code to retrieve new and old CIDS

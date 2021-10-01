@@ -38,6 +38,7 @@ def update_data(
     ### First Get the data ###
     if fetch_submissions:
         all_df = pd.read_csv("https://covid.postera.ai/covid/submissions.csv")
+        all_df = all_df.loc[all_df["SMILES"].notnull()]
         all_df["SMILES"] = all_df["SMILES"].apply(
             lambda x: strip_and_standardize_smi(x)
         )

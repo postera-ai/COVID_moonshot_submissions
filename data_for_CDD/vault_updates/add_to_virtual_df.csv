@@ -1,89 +1,25 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-CN1CCc2ccc3cncc(c3c2)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-NA_-7dc3e0f8-1,"Matthew Duncton, N/A",,False,MAT-NA_-7dc3e0f8-1
-CN1CCCc2ccc3cncc(c3c2)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-UNK-2f7e45db-1,Matthew Duncton,,False,MAT-UNK-2f7e45db-1
-CN1CCOc2ccc3cncc(c3c2)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-UNK-12b5acf5-1,Matthew Duncton,,False,MAT-UNK-12b5acf5-1
-CN1CCOc2cccc3cncc(c23)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-UNK-0990acaa-1,Matthew Duncton,,False,MAT-UNK-0990acaa-1
-O=C1CN2Cc3ccc(Cl)cc3C(C2)C(=O)Nc2cncc3ccc(cc23)OCCN1,MAT-UNK-38d3ea22-1,Matthew Duncton,,False,MAT-UNK-38d3ea22-1
-O=C1CN2Cc3ccc(Cl)cc3C(C2)C(=O)Nc2cncc3ccc(cc23)OCCCN1,MAT-UNK-ff8c4e54-1,Matthew Duncton,,False,MAT-UNK-ff8c4e54-1
-O=C1CN2Cc3ccc(Cl)cc3C(C2)C(=O)Nc2cncc3ccc(cc23)CCCN1,MAT-UNK-1889d436-1,Matthew Duncton,,False,MAT-UNK-1889d436-1
-O=C1CN2Cc3ccc(Cl)cc3C(C2)C(=O)Nc2cncc3ccc(cc23)CCCCN1,MAT-UNK-6917668e-1,Matthew Duncton,,False,MAT-UNK-6917668e-1
-CN1CCCc2cccc3cncc(c23)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-UNK-88dc5cbd-1,Matthew Duncton,,False,MAT-UNK-88dc5cbd-1
-CN1Cc2cccc3cncc(c23)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-UNK-673d6610-1,Matthew Duncton,,False,MAT-UNK-673d6610-1
-CN1CCc2cccc3cncc(c23)NC(=O)C2CN(CC1=O)Cc1ccccc12,MAT-UNK-1d9ee2ed-1,Matthew Duncton,,False,MAT-UNK-1d9ee2ed-1
-CNC(=O)C(C)(C)N1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-d165ed91-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-d165ed91-1
-CNC(=O)C1(N2CC(C(=O)Nc3cncc4cc(S(C)(=O)=O)ccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-d165ed91-2,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-d165ed91-2
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NC4COC4)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-d165ed91-3,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-d165ed91-3
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-d165ed91-4,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-d165ed91-4
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(C4CCNC4=O)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-d165ed91-5,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-d165ed91-5
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(C4CNC(=O)C4)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-d165ed91-6,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-d165ed91-6
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2C1=O)NC1COC1,EDJ-MED-75baa495-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-75baa495-1
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2C1=O,EDJ-MED-75baa495-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-75baa495-2
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2C1=O,EDJ-MED-75baa495-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-75baa495-3
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2S1(=O)=O)NC1COC1,EDJ-MED-9537a89a-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-9537a89a-1
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2S1(=O)=O,EDJ-MED-9537a89a-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-9537a89a-2
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2S1(=O)=O,EDJ-MED-9537a89a-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-9537a89a-3
-NC1(CN2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)COC1,MAT-UNK-35705829-1,Matthew Duncton,,False,MAT-UNK-35705829-1
-CNC1(CN2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)COC1,MAT-UNK-f490e871-1,Matthew Duncton,,False,MAT-UNK-f490e871-1
-CNC1(CN2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CSC1,MAT-UNK-04ae9652-1,Matthew Duncton,,False,MAT-UNK-04ae9652-1
-CNC(=O)CN1Cc2ccc(Cl)cc2C(C)(C(=O)Nc2cncc3ccccc23)C1,MAT-UNK-28cf4d29-1,Matthew Duncton,,False,MAT-POS-89bd6af1-3
-CCS(=O)(=O)N1Cc2ccccc2C[C@@H]1C(=O)Oc1cccc(Cl)c1Cl,CLI-TLC-66f7239c-1,"Clinton Threlfall, TLCT",,False,CLI-TLC-66f7239c-1
-O=C1C[C@]2(CCCN(C(=O)Nc3cccc4ccccc34)C2)CN1,CLI-TLC-8ef8ff7b-1,"Clinton Threlfall, TLCT",,False,CLI-TLC-8ef8ff7b-1
-C/C(F)=C/[C@@H]1/C=C(/c2cccc3c2O[C@@H](C)[C@@H]3C)NCc2ccccc2C1,CLI-TLC-812e7fb0-1,"Clinton Threlfall, TLCT",,False,CLI-TLC-812e7fb0-1
-O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ncon2)C(=O)c2ccc(Cl)cc21,PET-UNK-d62a9a75-1,Peter Kenny,,False,PET-UNK-d62a9a75-1
-O=C(Nc1cncc2ccccc12)[C@@H]1CN(Cc2ncno2)C(=O)c2ccc(Cl)cc21,PET-UNK-d62a9a75-2,Peter Kenny,,False,PET-UNK-d62a9a75-2
-O=C(Nc1cncc2ccccc12)C1CN(Cc2ncon2)C(=O)c2ccc(Cl)cc21,PET-UNK-d62a9a75-3,Peter Kenny,,False,PET-UNK-d62a9a75-3
-O=C(Nc1cncc2ccccc12)C1CN(Cc2ncno2)C(=O)c2ccc(Cl)cc21,PET-UNK-d62a9a75-4,Peter Kenny,,False,PET-UNK-d62a9a75-4
-CN(CCC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(F)ccc23)C1,EDJ-MED-ede277f6-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-1
-CN(CCC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)C1,EDJ-MED-ede277f6-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-2
-CN(CCC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cccc(Cl)c23)C1,EDJ-MED-ede277f6-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-3
-N#CCNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(F)ccc23)C1,EDJ-MED-ede277f6-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-4
-N#CCNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cccc(Cl)c23)C1,EDJ-MED-ede277f6-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-5
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NCC#N)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-ede277f6-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-6
-O=C(CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cc(F)ccc23)C1)NC1CC1,EDJ-MED-ede277f6-7,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-7
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NC4CC4)Cc4ccc(Cl)cc43)cncc2c1,EDJ-MED-ede277f6-8,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-8
-O=C(CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cccc(Cl)c23)C1)NC1CC1,EDJ-MED-ede277f6-9,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-9
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(F)ccc34)C2)CS(=O)(=O)C1,EDJ-MED-ede277f6-10,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-10
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cccc(Cl)c34)C2)CS(=O)(=O)C1,EDJ-MED-ede277f6-11,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-11
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4cc(S(C)(=O)=O)ccc34)C2)CS(=O)(=O)C1,EDJ-MED-ede277f6-12,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-ede277f6-12
-CNC(=O)CN1Cc2ccc(Cl)cc2[C@@H](C(=O)Nc2cncc3cc(F)ccc23)C1,EDJ-MED-0186a59b-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-0186a59b-1
-CNC(=O)CN1Cc2ccc(Cl)cc2[C@@H](C(=O)Nc2cncc3cc(Cl)ccc23)C1,EDJ-MED-0186a59b-2,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-0186a59b-2
-CNC(=O)CN1Cc2ccc(Cl)cc2[C@@H](C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)C1,EDJ-MED-0186a59b-3,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-0186a59b-3
-CNC(=O)CN1Cc2ccc(Cl)cc2[C@@H](C(=O)Nc2cncc3cccc(Cl)c23)C1,EDJ-MED-0186a59b-4,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-0186a59b-4
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-0186a59b-5,"Ed J Griffen, MedChemica  Ltd",,False,MAT-POS-e119ab4f-1
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(Cl)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-0186a59b-6,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-0186a59b-6
-CNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-0186a59b-7,"Ed J Griffen, MedChemica  Ltd",,False,MAT-POS-2e8b2191-12
-CNC(=O)CN1CC(C(=O)Nc2cncc3cccc(Cl)c23)c2cc(Cl)ccc2C1=O,EDJ-MED-0186a59b-8,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-0186a59b-8
-CCc1ccc2c(NC(=O)C3(C)CN(CC(=O)NC)S(=O)(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-c3ea9889-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-1
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cc(Cl)ccc23)c2cc(Cl)ccc2S1(=O)=O,EDJ-MED-c3ea9889-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-2
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2S1(=O)=O,EDJ-MED-c3ea9889-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-3
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cccc(Cl)c23)c2cc(Cl)ccc2S1(=O)=O,EDJ-MED-c3ea9889-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-4
-CS(=O)(=O)c1ccc2c(NC(=O)C34CC(C3)Oc3ccc(Cl)cc34)cncc2c1,EDJ-MED-c3ea9889-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-5
-O=C(Nc1cncc2cc(F)ccc12)C12CC(C1)Oc1ccc(Cl)cc12,EDJ-MED-c3ea9889-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-6
-O=C(Nc1cncc2cc(Cl)ccc12)C12CC(C1)Oc1ccc(Cl)cc12,EDJ-MED-c3ea9889-7,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-7
-O=C(Nc1cncc2cccc(Cl)c12)C12CC(C1)Oc1ccc(Cl)cc12,EDJ-MED-c3ea9889-8,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c3ea9889-8
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2S1(=O)=O,EDJ-MED-3bfd841e-1,"Ed J Griffen, MedChemicaLtd",,False,EDJ-MED-3bfd841e-1
-Clc1ccc2c(c1)C1(CCO2)CCN(c2cncc3cccc(Cl)c23)C1,EDJ-MED-e78d5f1a-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-e78d5f1a-1
-CC(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-1
-CC(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-2,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-2
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O)NC1CC1,EDJ-MED-e69ed63d-3,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-3
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NC4CC4)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-e69ed63d-4,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-4
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NC4COC4)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-e69ed63d-5,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-d165ed91-3
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O)NC1COC1,EDJ-MED-e69ed63d-6,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-6
-CCNC(=O)CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-7,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-7
-CCNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-8,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-8
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O)NC1CCC1,EDJ-MED-e69ed63d-9,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-9
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NC4CCC4)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-e69ed63d-10,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-10
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-11,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-11
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-12,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-d165ed91-4
-CCCNC(=O)CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-13,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-13
-CCCNC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-e69ed63d-14,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-14
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O)NCC1CC1,EDJ-MED-e69ed63d-15,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-15
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NCC4CC4)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-e69ed63d-16,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-16
-O=C(CN1CC(C(=O)Nc2cncc3cc(F)ccc23)c2cc(Cl)ccc2C1=O)NCC(F)(F)F,EDJ-MED-e69ed63d-17,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-17
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(CC(=O)NCC(F)(F)F)C(=O)c4ccc(Cl)cc43)cncc2c1,EDJ-MED-e69ed63d-18,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-e69ed63d-18
-O=C(Cc1cccc(Cl)c1)Nc1cncc2cc(F)cc(Cl)c12,EDJ-MED-c5ca5386-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-c5ca5386-1
-CS(=O)(=O)c1cc(Cl)c2c(NC(=O)Cc3cccc(Cl)c3)cncc2c1,EDJ-MED-c5ca5386-2,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-c5ca5386-2
-COC1(CS(=O)(=O)N2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-968bafd9-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-968bafd9-1
-COC1(CS(=O)(=O)N2CC(C(=O)Nc3cncc4cc(S(C)(=O)=O)ccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-968bafd9-2,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-968bafd9-2
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C)(C(=O)Nc3cncc4ccccc34)C2)CC1,EDJ-MED-82bd779b-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-82bd779b-1
-COC1(C(=O)Nc2cncc3cc(S(=O)(=O)N(C)C)ccc23)CCOc2ccc(Cl)cc21,EDJ-MED-1b46f08e-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-1b46f08e-1
+O=C(CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1)OCc1ccccc1,EDJ-MED-c40d95bc-1,"Ed J Griffen, MedChemica Ltd",,False,EDJ-MED-c40d95bc-1
+O=C(O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1,EDJ-MED-c40d95bc-2,"Ed J Griffen, MedChemica Ltd",,False,MAT-POS-4223bc15-21
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(C(C)(C)O)cc34)C2)CC1,MAT-POS-97ec4bd1-1,"Matt Robinson, PostEra",,False,MAT-POS-97ec4bd1-1
+CC(C)(O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C#N)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-97ec4bd1-2,"Matt Robinson, PostEra",,False,MAT-POS-97ec4bd1-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3ccc(C(C)(C)O)cc23)C1,MAT-POS-97ec4bd1-3,"Matt Robinson, PostEra",,False,MAT-POS-97ec4bd1-3
+CNC(=O)CN1CC(C(=O)Nc2cncc3ccc(C(C)(C)O)cc23)c2cc(Cl)ccc2C1=O,MAT-POS-97ec4bd1-4,"Matt Robinson, PostEra",,False,MAT-POS-97ec4bd1-4
+O=C(Nc1cncc2ccccc12)[C@@H]1CN(S(=O)(=O)CC2(Cl)CC2)C(=O)c2ccc(Cl)cc21,PET-UNK-8f269638-1,Peter Kenny,,False,PET-UNK-8f269638-1
+O=C(Nc1cncc2ccccc12)C1CN(S(=O)(=O)CC2(Cl)CC2)C(=O)c2ccc(Cl)cc21,PET-UNK-8f269638-2,Peter Kenny,,False,PET-UNK-8f269638-2
+CNC(=O)CN1C[C@@](COC)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-7955f415-1,Peter Kenny,,False,PET-UNK-7955f415-1
+C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(CC(=O)NC)C(=O)c2ccc(Cl)cc21,PET-UNK-7955f415-2,Peter Kenny,,False,PET-UNK-7955f415-2
+CNC(=O)CN1CC(COC)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-7955f415-3,Peter Kenny,,False,PET-UNK-7955f415-3
+C#CC1(C(=O)Nc2cncc3ccccc23)CN(CC(=O)NC)C(=O)c2ccc(Cl)cc21,PET-UNK-7955f415-4,Peter Kenny,,False,PET-UNK-7955f415-4
+COC[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)C(=O)c2ccc(Cl)cc21,PET-UNK-fe71d26d-1,Peter Kenny,,False,PET-UNK-fe71d26d-1
+C#C[C@@]1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)C(=O)c2ccc(Cl)cc21,PET-UNK-fe71d26d-2,Peter Kenny,,False,PET-UNK-fe71d26d-2
+COCC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)C(=O)c2ccc(Cl)cc21,PET-UNK-fe71d26d-3,Peter Kenny,,False,PET-UNK-fe71d26d-3
+C#CC1(C(=O)Nc2cncc3ccccc23)CN(S(=O)(=O)CC2(C#N)CC2)C(=O)c2ccc(Cl)cc21,PET-UNK-fe71d26d-4,Peter Kenny,,False,PET-UNK-fe71d26d-4
+CC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CN(CC(=O)NCC#N)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-1,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-1
+CC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CN(CC(=O)NC2CC2)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-2,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-2
+CC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CN(CC(=O)NC2COC2)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-3,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-3
+CC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CN(CC(=O)NCC(F)(F)F)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-4,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-4
+CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NCC#N)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-5,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-5
+CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NC2CC2)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-6,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-6
+CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NC2COC2)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-7,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-7
+CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NCC(F)(F)F)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-8,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-8
