@@ -23,3 +23,7 @@ CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NCC#N)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e
 CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NC2CC2)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-6,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-6
 CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NC2COC2)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-7,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-7
 CC1(C(=O)Nc2cncc3cc(F)ccc23)CN(CC(=O)NCC(F)(F)F)S(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-dac03e7f-8,"Ed J Griffen, MedChemica  Ltd",,False,EDJ-MED-dac03e7f-8
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccc(C(C)(C)O)cc34)C2)CS(=O)(=O)C1,MAT-POS-83f73d0a-1,"Matt Robinson, PostEra",,False,MAT-POS-83f73d0a-1
+CN(C)CCOc1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C)CS(=O)(=O)C4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-83f73d0a-2,"Matt Robinson, PostEra",,False,MAT-POS-83f73d0a-2
+CN1CC(C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,MAT-POS-83f73d0a-3,"Matt Robinson, PostEra",,False,MAT-POS-83f73d0a-3
+CCN1CC(C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,MAT-POS-83f73d0a-4,"Matt Robinson, PostEra",,False,MAT-POS-83f73d0a-4

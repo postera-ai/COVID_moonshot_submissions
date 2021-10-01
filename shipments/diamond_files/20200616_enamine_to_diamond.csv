@@ -2,7 +2,7 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-06,05_A,20200616_enamine_to_xchem.csv,BrC=1C=CC=C(NC(=O)C2CCC(=O)N2)C1,JAG-UCB-ef2c0e8e-2,4,100,,Racemic or presumed racemic or meso,Z27788997,UNK
 1181202-Y4-06,05_B,20200616_enamine_to_xchem.csv,ClC=1C=CC=C(C1)N2CCC(NC3=NC=CN4C=NN=C34)C2=O,JAG-UCB-4709a583-1,4,100,,Racemic or presumed racemic or meso,Z1348442959,UNK
 1181202-Y4-06,05_C,20200616_enamine_to_xchem.csv,CN1C=NN=C1CNC(=O)NC2=CC(=CNC2=O)C(F)(F)F,JAG-UCB-ef2c0e8e-7,4,100,,Achiral,Z821000364,UNK
-1181202-Y4-06,05_D,20200616_enamine_to_xchem.csv,CC=1C=CC=C(C1)C2CN(CC=3C=CC=CC23)C(=O)CCl,NIR-THE-c33-6,4,100,NIR-THE-c331be7a-6,Racemic or presumed racemic or meso,Z4461624309,UNK
+1181202-Y4-06,05_D,20200616_enamine_to_xchem.csv,CC=1C=CC=C(C1)C2CN(CC=3C=CC=CC23)C(=O)CCl,NIR-THE-c33-6,4,100,,Racemic or presumed racemic or meso,Z4461624309,UNK
 1181202-Y4-06,05_E,20200616_enamine_to_xchem.csv,CC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NCCC=2C=CC=C(F)C2)C=3C=NC=C(Cl)C3)C(=O)C=C,Z4509080650,4,100,,Racemic or presumed racemic or meso,Z4509080650,UNK
 1181202-Y4-06,05_F,20200616_enamine_to_xchem.csv,ClCC(=O)N1CCN(CC2=NC(=NO2)C3=CC=CS3)CC1,NAU-LAT-64f4b287-3,4,100,,Achiral,Z258606294,UNK
 1181202-Y4-06,05_G,20200616_enamine_to_xchem.csv,FC=1C=CC=C(CCNC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=NC=C(Cl)C3)C1,Z4509080683,4,100,,Racemic or presumed racemic or meso,Z4509080683,UNK

@@ -12,7 +12,7 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-10,05_K,20200714_enamine_to_xchem.csv,CC=1NC=2N=CN=C(NC(=O)C3CCN(CC3)C=4C=CC(Cl)=CN4)C2C1C,COM-UCB-8c7d23dc-16,4,100,,Achiral,Z1592200190,UNK
 1181202-Y4-10,05_L,20200714_enamine_to_xchem.csv,FC=1C=C(C=CC1NC(=O)C2CCCCC(=O)N2)C=3N=CNN3,COM-UCB-8c7d23dc-13,4,100,,Racemic or presumed racemic or meso,Z2320545771,UNK
 1181202-Y4-10,05_M,20200714_enamine_to_xchem.csv,CC=1NC=2N=CN=C(NC(=O)C3=CC=4C=CC=CC4C(=O)O3)C2C1C,COM-UCB-8c7d23dc-12,4,100,,Achiral,Z2000233694,UNK
-1181202-Y4-10,05_N,20200714_enamine_to_xchem.csv,CN1C(=NC=2C=CC=CC12)C=3C=CC(NC(=O)C4CCCCC(=O)N4)=CC3,COM-UCB-8c7d23dc-7,4,100,COM-UCB-8c7d23dc-7,Racemic or presumed racemic or meso,Z1926900620,UNK
+1181202-Y4-10,05_N,20200714_enamine_to_xchem.csv,CN1C(=NC=2C=CC=CC12)C=3C=CC(NC(=O)C4CCCCC(=O)N4)=CC3,COM-UCB-8c7d23dc-7,4,100,,Racemic or presumed racemic or meso,Z1926900620,UNK
 1181202-Y4-10,05_O,20200714_enamine_to_xchem.csv,O=C1C(CCN1CC=2C=CC=CC2)NC=3N=CN=C4N=CNC34,COM-UCB-8c7d23dc-6,4,100,,Racemic or presumed racemic or meso,Z909652136,UNK
 1181202-Y4-10,05_P,20200714_enamine_to_xchem.csv,O=C(NC1=CNN=C1C=2C=CC=CN2)C3=CC=CC4=NC=CN34,COM-UCB-8c7d23dc-15,4,100,,Achiral,Z1559986976,UNK
 1181202-Y4-10,05_Q,20200714_enamine_to_xchem.csv,O=C(NC1=NN=CN1C2CC2)C3CCOC=4C=CC=CC34,EDJ-MED-2c295496-1,4,100,,Racemic or presumed racemic or meso,Z2077729193,UNK

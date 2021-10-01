@@ -2,7 +2,7 @@ SMILES,external_ID,CDD_ID,shipment_ID,catalog_ID,purity,volume(uL),concentration
 BrC=1C=CC=C(NC(=O)C2CCC(=O)N2)C1,,,JAG-UCB-ef2c0e8e-2,Z27788997,100.0,40,20,1181202-Y40-06,03_A,Racemic or presumed racemic or meso,not found,UNK
 ClC=1C=CC=C(C1)N2CCC(NC3=NC=CN4C=NN=C34)C2=O,,,JAG-UCB-4709a583-1,Z1348442959,100.0,40,20,1181202-Y40-06,03_B,Racemic or presumed racemic or meso,not found,UNK
 CN1C=NN=C1CNC(=O)NC2=CC(=CNC2=O)C(F)(F)F,,,JAG-UCB-ef2c0e8e-7,Z821000364,100.0,40,20,1181202-Y40-06,03_C,Achiral,not found,UNK
-CC=1C=CC=C(C1)C2CN(CC=3C=CC=CC23)C(=O)CCl,NIR-THE-c331be7a-6,CVD-0002991,NIR-THE-c33-6,Z4461624309,100.0,40,20,1181202-Y40-06,03_D,Racemic or presumed racemic or meso,,UNK
+CC=1C=CC=C(C1)C2CN(CC=3C=CC=CC23)C(=O)CCl,,,NIR-THE-c33-6,Z4461624309,100.0,40,20,1181202-Y40-06,03_D,Racemic or presumed racemic or meso,not found,UNK
 CC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NCCC=2C=CC=C(F)C2)C=3C=NC=C(Cl)C3)C(=O)C=C,,,Z4509080650,Z4509080650,100.0,40,20,1181202-Y40-06,03_E,Racemic or presumed racemic or meso,not found,UNK
 ClCC(=O)N1CCN(CC2=NC(=NO2)C3=CC=CS3)CC1,,,NAU-LAT-64f4b287-3,Z258606294,100.0,40,20,1181202-Y40-06,03_F,Achiral,not found,UNK
 FC=1C=CC=C(CCNC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=NC=C(Cl)C3)C1,,,Z4509080683,Z4509080683,91.15,40,20,1181202-Y40-06,03_G,Racemic or presumed racemic or meso,not found,UNK
