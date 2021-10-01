@@ -1,6 +1,6 @@
 SMILES,external_ID,CDD_ID,shipment_ID,catalog_ID,purity,volume(uL),concentration(mM),plate_ID,well,stereochemistry,PostEra_comments,Batch ID
-CC(NC(=O)CCl)C=1C=C(Cl)C=C(C1)C=2C=CC(=CC2)S(=O)(=O)N,,,DAV-CRI-14a23e73-1,Z4461624276,95,,,1178796-01,01_A,Racemic or presumed racemic or meso,not found,*R1766993*
-CC(NC(=O)CCl)C=1C=C(Cl)C=C(C1)C=2C=CC(=CC2)S(=O)(=O)N,,,DAV-CRI-14a23e73-1,Z4461624276,95,,,1178796-01,01_B,Racemic or presumed racemic or meso,not found,*R1767003*
+CC(NC(=O)CCl)C=1C=C(Cl)C=C(C1)C=2C=CC(=CC2)S(=O)(=O)N,DAV-CRI-14a23e73-1,CVD-0000864,DAV-CRI-14a23e73-1,Z4461624276,95,,,1178796-01,01_A,Racemic or presumed racemic or meso,,*R1766993*
+CC(NC(=O)CCl)C=1C=C(Cl)C=C(C1)C=2C=CC(=CC2)S(=O)(=O)N,DAV-CRI-14a23e73-1,CVD-0000864,DAV-CRI-14a23e73-1,Z4461624276,95,,,1178796-01,01_B,Racemic or presumed racemic or meso,,*R1767003*
 CC(C)CC1CN(CCN1CC=2C=CC=C(Cl)C2)C(=O)CCl,DAN-LON-a5fc619e-3,CVD-0000649,DAN-LON-a5fc619e-3,Z4461624291,"98,15",,,1178796-01,01_C,Racemic or presumed racemic or meso,imperfect stereochemical match for DAN-LON-a5fc619e-3,H2376910
 ClC=1C=CC=C(CC(=O)NC2=CNC(=O)C=3C=CC=CC23)C1,MAT-POS-bb423b95-6,CVD-0012811,MAT-POS-bb423b95-6,Z4609618513,100,40.0,20.0,1178796-Y40-59,03_A,Achiral,,H3139927
 CC=1C=C(O)N=CC1NC(=O)C2CCOC=3C=CC(Cl)=CC23,MAT-POS-8293a91a-1,CVD-0017830,ALP-POS-5de921e7-6A,Z1675810506,"98,68",40.0,20.0,1178796-Y40-59,03_B,Racemic or presumed racemic or meso,,H3138779
