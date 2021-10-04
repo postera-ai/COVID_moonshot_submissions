@@ -1,12 +1,12 @@
 Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID
-1166137-Y4-01,A05,20200409_enamine_to_xchem.csv,CC(C)(C)NC(=O)C(N(C(=O)C=C)C=1C=CC=2N=CSC2C1)C=3C=CC=NC3,,4,50,LON-WEI-b8d98729-31,Racemic or presumed racemic or meso,Z4439011608,UNK
-1166137-Y4-01,B05,20200409_enamine_to_xchem.csv,CC(C)C=1C=CC(=CN1)N(C(C(=O)NC(C)(C)C)C=2C=CC=NC2)C(=O)C=C,,4,50,LON-WEI-b8d98729-32,Racemic or presumed racemic or meso,Z4439011614,UNK
-1166137-Y4-01,C05,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=C(C)C1,,4,50,LON-WEI-b8d98729-1,Racemic or presumed racemic or meso,Z4438424252,UNK
-1166137-Y4-01,D05,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=CC=NC3)=CC1,,4,50,LON-WEI-b8d98729-27,Racemic or presumed racemic or meso,Z4439011539,UNK
-1166137-Y4-01,E05,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(SC)=CC2)C=3C=CC=NC3,,4,50,LON-WEI-b8d98729-2,Racemic or presumed racemic or meso,Z4439011579,UNK
-1166137-Y4-01,F05,20200409_enamine_to_xchem.csv,CCC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,50,LON-WEI-b8d98729-33,Racemic or presumed racemic or meso,Z4438424288,UNK
-1166137-Y4-01,G05,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=CC=NC3)=C(C)C1,,4,50,LON-WEI-b8d98729-37,Racemic or presumed racemic or meso,Z4438424251,UNK
-1166137-Y4-01,H05,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)C1,,4,50,LON-WEI-b8d98729-38,Racemic or presumed racemic or meso,Z4438424262,UNK
+1166137-Y4-01,A05,20200409_enamine_to_xchem.csv,CC(C)(C)NC(=O)C(N(C(=O)C=C)C=1C=CC=2N=CSC2C1)C=3C=CC=NC3,,4,50,,Racemic or presumed racemic or meso,Z4439011608,UNK
+1166137-Y4-01,B05,20200409_enamine_to_xchem.csv,CC(C)C=1C=CC(=CN1)N(C(C(=O)NC(C)(C)C)C=2C=CC=NC2)C(=O)C=C,,4,50,,Racemic or presumed racemic or meso,Z4439011614,UNK
+1166137-Y4-01,C05,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=C(C)C1,,4,50,,Racemic or presumed racemic or meso,Z4438424252,UNK
+1166137-Y4-01,D05,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=CC=NC3)=CC1,,4,50,,Racemic or presumed racemic or meso,Z4439011539,UNK
+1166137-Y4-01,E05,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(SC)=CC2)C=3C=CC=NC3,,4,50,,Racemic or presumed racemic or meso,Z4439011579,UNK
+1166137-Y4-01,F05,20200409_enamine_to_xchem.csv,CCC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,50,,Racemic or presumed racemic or meso,Z4438424288,UNK
+1166137-Y4-01,G05,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=CC=NC3)=C(C)C1,,4,50,,Racemic or presumed racemic or meso,Z4438424251,UNK
+1166137-Y4-01,H05,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)C1,,4,50,,Racemic or presumed racemic or meso,Z4438424262,UNK
 1166137-Y4-01,I05,20200409_enamine_to_xchem.csv,CS(=O)(=O)CC1=CC=C(O1)C(=O)NC=2C=CC=NC2,,4,50,ANT-DIA-3c79be55-4,Achiral,Z995832158,UNK
 1166137-Y4-01,J05,20200409_enamine_to_xchem.csv,ClC1=CC=C(CC(=O)NC=2C=CC=NC2)S1,,4,50,DAR-DIA-842b4336-13,Achiral,Z2010253653,UNK
 1166137-Y4-01,K05,20200409_enamine_to_xchem.csv,ClC=1C=CN=C(CNC(=O)CC2=CNC=3N=CC=CC23)C1,,4,50,TRY-UNI-1fd04853-9,Achiral,Z1575152133,UNK
@@ -25,58 +25,58 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1166137-Y4-01,X05,20200409_enamine_to_xchem.csv,CS(=O)(=O)NC=1C=CC=C(C1)C(=O)NC=2C=CC=C(C2)N3CCCC3=O,,4,50,MAK-UNK-9159f8ed-6,Achiral,Z102622686,UNK
 1166137-Y4-01,Y05,20200409_enamine_to_xchem.csv,ClC=1C=CC=C(C1)C(=O)NC=2C=CC=NC2,,4,50,CHR-SOS-7098f804-12,Achiral,Z31791487,UNK
 1166137-Y4-01,Z05,20200409_enamine_to_xchem.csv,CC(C(=O)O)C=1C=CC2=C(C1)NC=3C=CC(Cl)=CC32,,4,50,MAK-UNK-0d6072ac-4,Racemic or presumed racemic or meso,Z1530425063,UNK
-1166137-Y4-01,AA05,20200409_enamine_to_xchem.csv,CCCNC(=O)C(C)NC(=O)N(C)CC1=CSC(C)=N1,,4,50,ALE-UNK-fca05062-9,Racemic or presumed racemic or meso,Z900735246,UNK
-1166137-Y4-01,AB05,20200409_enamine_to_xchem.csv,O=C(C=CC=CC=1C=CC=2OCOC2C1)N3CCCCC3,,4,50,LON-WEI-b8d98729-3,Achiral,Z104476830,UNK
-1166137-Y4-01,AC05,20200409_enamine_to_xchem.csv,COC=1C=CC=2NC=C(CCNS(=O)(=O)C)C2C1,,4,50,MAR-UNI-9ca61fdc-1,Achiral,Z1316790959,UNK
-1166137-Y4-01,AD05,20200409_enamine_to_xchem.csv,CC=1C=CN=C(NC(=O)CC=2C=CC=3C=CC=CC3C2)C1,,4,50,ALV-UNI-7ff1a6f9-45,Achiral,Z71390073,UNK
+1166137-Y4-01,AA05,20200409_enamine_to_xchem.csv,CCCNC(=O)C(C)NC(=O)N(C)CC1=CSC(C)=N1,,4,50,,Racemic or presumed racemic or meso,Z900735246,UNK
+1166137-Y4-01,AB05,20200409_enamine_to_xchem.csv,O=C(C=CC=CC=1C=CC=2OCOC2C1)N3CCCCC3,,4,50,,Achiral,Z104476830,UNK
+1166137-Y4-01,AC05,20200409_enamine_to_xchem.csv,COC=1C=CC=2NC=C(CCNS(=O)(=O)C)C2C1,,4,50,,Achiral,Z1316790959,UNK
+1166137-Y4-01,AD05,20200409_enamine_to_xchem.csv,CC=1C=CN=C(NC(=O)CC=2C=CC=3C=CC=CC3C2)C1,,4,50,,Achiral,Z71390073,UNK
 1166137-Y4-01,AE05,20200409_enamine_to_xchem.csv,CC(=O)N1CCN(CC1)S(=O)(=O)C2=CC=CS2,,4,50,MAK-UNK-6435e6c2-1,Achiral,Z29501928,UNK
 1166137-Y4-01,AF05,20200409_enamine_to_xchem.csv,CC(C)N(C)C(=O)C1CCN(CC1)C(=O)CCl,,4,50,VIR-GIT-7b3d3065-3,Achiral,Z561717446,UNK
 1166137-Y4-01,A06,20200409_enamine_to_xchem.csv,OC=1C=CC(Cl)=CC1C(=O)NC=2C=CC=CC2Cl,,4,50,CHR-SOS-7098f804-4,Achiral,Z241957544,UNK
 1166137-Y4-01,B06,20200409_enamine_to_xchem.csv,ClCC(=O)N1CCC(CC1)C(=O)N2CCCCC2,,4,50,VIR-GIT-7b3d3065-2,Achiral,Z291278798,UNK
-1166137-Y4-01,C06,20200409_enamine_to_xchem.csv,CC(C)[C@H](NC(=O)N(C)CC1=CSC(=N1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](CC=2C=CC=CC2)NC(=O)OCC3=CN=CS3)CC=4C=CC=CC4,,4,50,ALE-UNK-fca05062-2,Diastereomeric mixture,Z1521553599,UNK
-1166137-Y4-01,D06,20200409_enamine_to_xchem.csv,CNS(=O)(=O)CC=1C=CC=2NC=C(CCN(C)C)C2C1.OC(=O)CCC(=O)O,,4,50,LON-WEI-b8d98729-34,Achiral,Z1544404947,UNK
-1166137-Y4-01,E06,20200409_enamine_to_xchem.csv,CC(C)[C@H](N1CCCNC1=O)C(=O)N[C@H](C[C@H](O)[C@H](CC=2C=CC=CC2)NC(=O)COC=3C(C)=CC=CC3C)CC=4C=CC=CC4,,4,50,ALE-UNK-fca05062-1,Diastereomeric mixture,Z2235801862,UNK
+1166137-Y4-01,C06,20200409_enamine_to_xchem.csv,CC(C)[C@H](NC(=O)N(C)CC1=CSC(=N1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](CC=2C=CC=CC2)NC(=O)OCC3=CN=CS3)CC=4C=CC=CC4,,4,50,,Diastereomeric mixture,Z1521553599,UNK
+1166137-Y4-01,D06,20200409_enamine_to_xchem.csv,CNS(=O)(=O)CC=1C=CC=2NC=C(CCN(C)C)C2C1.OC(=O)CCC(=O)O,,4,50,,Achiral,Z1544404947,UNK
+1166137-Y4-01,E06,20200409_enamine_to_xchem.csv,CC(C)[C@H](N1CCCNC1=O)C(=O)N[C@H](C[C@H](O)[C@H](CC=2C=CC=CC2)NC(=O)COC=3C(C)=CC=CC3C)CC=4C=CC=CC4,,4,50,,Diastereomeric mixture,Z2235801862,UNK
 1166137-Y4-01,F06,20200409_enamine_to_xchem.csv,COC=1C=CC=2NC=C(CCNC(=O)C)C2C1,,4,50,JOH-MSK-35a8745a-1,Achiral,Z1191880499,UNK
 1166137-Y4-01,G06,20200409_enamine_to_xchem.csv,CC=1C=CC(=CC1)C2=CC(=NN2C=3C=CC(=CC3)S(=O)(=O)N)C(F)(F)F,,4,50,GER-UNI-05c7e912-1,Achiral,Z1258938406,UNK
-1166137-Y4-01,H06,20200409_enamine_to_xchem.csv,CCC(=O)O[C@@H](OP(=O)(CCCCC=1C=CC=CC1)CC(=O)N2C[C@@H](C[C@H]2C(=O)O)C3CCCCC3)C(C)C,,4,50,LON-WEI-b8d98729-5,Diastereomeric mixture,Z3207130728,UNK
+1166137-Y4-01,H06,20200409_enamine_to_xchem.csv,CCC(=O)O[C@@H](OP(=O)(CCCCC=1C=CC=CC1)CC(=O)N2C[C@@H](C[C@H]2C(=O)O)C3CCCCC3)C(C)C,,4,50,DAV-UNI-bdcebb58-2,Diastereomeric mixture,Z3207130728,UNK
 1166137-Y4-01,I06,20200409_enamine_to_xchem.csv,CCC(=O)NCC[C@@H]1CCC=2C=CC=3OCCC3C12,,4,50,JOH-MSK-ec639444-2,Single known enantiomer,Z2037281108,UNK
 1166137-Y4-01,J06,20200409_enamine_to_xchem.csv,O=C(CC1=CNC=2N=CC=CC12)NCC=3C=CC(C#N)=CN3,,4,50,TRY-UNI-1fd04853-12,Achiral,Z1767447079,UNK
 1166137-Y4-01,K06,20200409_enamine_to_xchem.csv,ClC=1C=CC(CNC(=O)CC2=CNC=3N=CC=CC23)=NC1,,4,50,TRY-UNI-1fd04853-11,Achiral,Z1593808911,UNK
 1166137-Y4-01,L06,20200409_enamine_to_xchem.csv,O=C(CC1=CNC=2N=CC=CC12)NC=3C=CC=C(C#N)C3,,4,50,DAR-DIA-23aa0b97-1,Achiral,Z1400784309,UNK
 1166137-Y4-01,M06,20200409_enamine_to_xchem.csv,Cl.CC(=O)N1CCN(CC(=O)NC=2C=CC=C(C2)S(=O)(=O)N)CC1,,4,50,LON-WEI-b8d98729-4,Achiral,Z102844650,UNK
-1166137-Y4-01,N06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=CC=NC3,,4,50,LON-WEI-b8d98729-39,Racemic or presumed racemic or meso,Z4439011578,UNK
-1166137-Y4-01,O06,20200409_enamine_to_xchem.csv,CCC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Br)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,50,LON-WEI-b8d98729-35,Racemic or presumed racemic or meso,Z4439011564,UNK
-1166137-Y4-01,P06,20200409_enamine_to_xchem.csv,CSC=1C=CC(=CC1)N(C(C(=O)NC(C)(C)C)C=2C=CC=NC2)C(=O)C=C,,4,50,LON-WEI-b8d98729-6,Racemic or presumed racemic or meso,Z4439011605,UNK
-1166137-Y4-01,Q06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(SC)=CC2)C=3C=CC=NC3)=C(C)C1,,4,50,LON-WEI-b8d98729-40,Racemic or presumed racemic or meso,Z4438424250,UNK
-1166137-Y4-01,R06,20200409_enamine_to_xchem.csv,CC(C)(C)NC(=O)C(N(C(=O)C=C)C=1C=CC(=CC1)S(F)(F)(F)(F)F)C=2C=CC=NC2,,4,50,LON-WEI-b8d98729-7,Racemic or presumed racemic or meso,Z4439011611,UNK
-1166137-Y4-01,S06,20200409_enamine_to_xchem.csv,ClC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=CC1,,4,50,LON-WEI-b8d98729-44,Racemic or presumed racemic or meso,Z4438424283,UNK
-1166137-Y4-01,T06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(N(C)C)=C(C)C2)C=3C=CC=NC3,,4,50,LON-WEI-b8d98729-42,Racemic or presumed racemic or meso,Z4439011586,UNK
-1166137-Y4-01,U06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(C)OC)C=3C=CC=NC3,,4,50,LON-WEI-b8d98729-45,Diastereomeric mixture,Z4439011587,UNK
-1166137-Y4-01,V06,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(OC)=CC2C)C=3C=CC=NC3)C(=O)C=C,,4,50,LON-WEI-b8d98729-8,Diastereomeric mixture,Z4438424255,UNK
-1166137-Y4-01,W06,20200409_enamine_to_xchem.csv,BrC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=CC1,,4,50,LON-WEI-b8d98729-9,Racemic or presumed racemic or meso,Z4439011556,UNK
-1166137-Y4-01,X06,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC(C)(C)C)C=2C=CC=NC2)C(=O)C=C,,4,50,LON-WEI-b8d98729-10,Diastereomeric mixture,Z4439011613,UNK
-1166137-Y4-01,Y06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(SC)=CC2)C=3C=CC=NC3)=CC1,,4,50,LON-WEI-b8d98729-47,Racemic or presumed racemic or meso,Z4439011540,UNK
-1166137-Y4-01,Z06,20200409_enamine_to_xchem.csv,CN(C)C=1C=CC(=CC1C)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-11,Racemic or presumed racemic or meso,Z4438424285,UNK
-1166137-Y4-01,AA06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4,,4,inaccurete ,LON-WEI-b8d98729-48,Racemic or presumed racemic or meso,Z4439011582,UNK
-1166137-Y4-01,AB06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)S(F)(F)(F)(F)F)C=3C=CC=NC3)=CC1,,4,inaccurete ,LON-WEI-b8d98729-12,Racemic or presumed racemic or meso,Z4439011546,UNK
-1166137-Y4-01,AC06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=C(ON2)C(C)(C)C)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,LON-WEI-b8d98729-43,Racemic or presumed racemic or meso,Z4439011520,UNK
-1166137-Y4-01,AD06,20200409_enamine_to_xchem.csv,CCC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC=C(F)C2C)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-36,Racemic or presumed racemic or meso,Z4439011603,UNK
-1166137-Y4-01,AE06,20200409_enamine_to_xchem.csv,CN(C)C=1C=CC(=CC1C)N(C(C(=O)NC=2C=CC=CC2Br)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-13,Racemic or presumed racemic or meso,Z4438424214,UNK
-1166137-Y4-01,AF06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=C(ON2)C(C)(C)C)C=3C=CC=NC3,,4,inaccurete ,LON-WEI-b8d98729-46,Racemic or presumed racemic or meso,Z4439011581,UNK
-1166137-Y4-01,A07,20200409_enamine_to_xchem.csv,CN(C)C=1C=CC(=CC1C)N(C(C(=O)NC=2C=CC(Br)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-14,Racemic or presumed racemic or meso,Z4439011560,UNK
-1166137-Y4-01,B07,20200409_enamine_to_xchem.csv,FC(F)(F)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC=CC2Br)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-41,Racemic or presumed racemic or meso,Z4438424211,UNK
-1166137-Y4-01,C07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=C(ON2)C(C)(C)C)C=3C=CC=NC3)C1,,4,inaccurete ,LON-WEI-b8d98729-15,Racemic or presumed racemic or meso,Z4439011525,UNK
-1166137-Y4-01,D07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=CC(N(C)C)=C(C)C2)C=3C=CC=NC3)C1,,4,inaccurete ,LON-WEI-b8d98729-16,Racemic or presumed racemic or meso,Z4438424264,UNK
-1166137-Y4-01,E07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(C)OC)C=3C=CC=NC3)C1,,4,inaccurete ,LON-WEI-b8d98729-17,Diastereomeric mixture,Z4438424265,UNK
-1166137-Y4-01,F07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=NC2)C(C)C)C=3C=CC=NC3,,4,inaccurete ,LON-WEI-b8d98729-18,Racemic or presumed racemic or meso,Z4439011588,UNK
-1166137-Y4-01,G07,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC=CC2Br)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-19,Diastereomeric mixture,Z4438424215,UNK
-1166137-Y4-01,H07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C2=CC(=NN2)C(C)(C)C)C=3C=CC=NC3,,4,inaccurete ,LON-WEI-b8d98729-20,Racemic or presumed racemic or meso,Z4439011584,UNK
-1166137-Y4-01,I07,20200409_enamine_to_xchem.csv,CC(C)(C)C=1C=C(NN1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-21,Racemic or presumed racemic or meso,Z4439011532,UNK
-1166137-Y4-01,J07,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-22,Diastereomeric mixture,Z4438424286,UNK
-1166137-Y4-01,K07,20200409_enamine_to_xchem.csv,CC(C)(C)NC(=O)C(N(C(=O)C=C)C=1C=C(ON1)C(C)(C)C)C=2C=CC=NC2,,4,inaccurete ,LON-WEI-b8d98729-23,Racemic or presumed racemic or meso,Z4439011607,UNK
-1166137-Y4-01,L07,20200409_enamine_to_xchem.csv,CSC=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,LON-WEI-b8d98729-24,Racemic or presumed racemic or meso,Z4438424281,UNK
-1166137-Y4-01,M07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=CC1,,4,inaccurete ,LON-WEI-b8d98729-25,Racemic or presumed racemic or meso,Z4439011543,UNK
-1166137-Y4-01,N07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=NC2)C(C)C)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,LON-WEI-b8d98729-26,Racemic or presumed racemic or meso,Z4439011523,UNK
-1166137-Y4-01,O07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)S(F)(F)(F)(F)F)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,LON-WEI-b8d98729-28,Racemic or presumed racemic or meso,Z4438424253,UNK
-1166137-Y4-01,P07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)S(F)(F)(F)(F)F)C=3C=CC=NC3,,4,inaccurete ,LON-WEI-b8d98729-29,Racemic or presumed racemic or meso,Z4439011585,UNK
-1166137-Y4-01,Q07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(N(C)C)=C(C)C2)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,LON-WEI-b8d98729-30,Racemic or presumed racemic or meso,Z4438424254,UNK
+1166137-Y4-01,N06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(F)(F)F)C=3C=CC=NC3,,4,50,,Racemic or presumed racemic or meso,Z4439011578,UNK
+1166137-Y4-01,O06,20200409_enamine_to_xchem.csv,CCC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Br)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,50,,Racemic or presumed racemic or meso,Z4439011564,UNK
+1166137-Y4-01,P06,20200409_enamine_to_xchem.csv,CSC=1C=CC(=CC1)N(C(C(=O)NC(C)(C)C)C=2C=CC=NC2)C(=O)C=C,,4,50,,Racemic or presumed racemic or meso,Z4439011605,UNK
+1166137-Y4-01,Q06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(SC)=CC2)C=3C=CC=NC3)=C(C)C1,,4,50,,Racemic or presumed racemic or meso,Z4438424250,UNK
+1166137-Y4-01,R06,20200409_enamine_to_xchem.csv,CC(C)(C)NC(=O)C(N(C(=O)C=C)C=1C=CC(=CC1)S(F)(F)(F)(F)F)C=2C=CC=NC2,,4,50,,Racemic or presumed racemic or meso,Z4439011611,UNK
+1166137-Y4-01,S06,20200409_enamine_to_xchem.csv,ClC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=CC1,,4,50,,Racemic or presumed racemic or meso,Z4438424283,UNK
+1166137-Y4-01,T06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(N(C)C)=C(C)C2)C=3C=CC=NC3,,4,50,,Racemic or presumed racemic or meso,Z4439011586,UNK
+1166137-Y4-01,U06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(C)OC)C=3C=CC=NC3,,4,50,,Diastereomeric mixture,Z4439011587,UNK
+1166137-Y4-01,V06,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(OC)=CC2C)C=3C=CC=NC3)C(=O)C=C,,4,50,,Diastereomeric mixture,Z4438424255,UNK
+1166137-Y4-01,W06,20200409_enamine_to_xchem.csv,BrC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=CC1,,4,50,,Racemic or presumed racemic or meso,Z4439011556,UNK
+1166137-Y4-01,X06,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC(C)(C)C)C=2C=CC=NC2)C(=O)C=C,,4,50,,Diastereomeric mixture,Z4439011613,UNK
+1166137-Y4-01,Y06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(SC)=CC2)C=3C=CC=NC3)=CC1,,4,50,,Racemic or presumed racemic or meso,Z4439011540,UNK
+1166137-Y4-01,Z06,20200409_enamine_to_xchem.csv,CN(C)C=1C=CC(=CC1C)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424285,UNK
+1166137-Y4-01,AA06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011582,UNK
+1166137-Y4-01,AB06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)S(F)(F)(F)(F)F)C=3C=CC=NC3)=CC1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011546,UNK
+1166137-Y4-01,AC06,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=C(ON2)C(C)(C)C)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011520,UNK
+1166137-Y4-01,AD06,20200409_enamine_to_xchem.csv,CCC(C)(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC=C(F)C2C)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011603,UNK
+1166137-Y4-01,AE06,20200409_enamine_to_xchem.csv,CN(C)C=1C=CC(=CC1C)N(C(C(=O)NC=2C=CC=CC2Br)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424214,UNK
+1166137-Y4-01,AF06,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=C(ON2)C(C)(C)C)C=3C=CC=NC3,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011581,UNK
+1166137-Y4-01,A07,20200409_enamine_to_xchem.csv,CN(C)C=1C=CC(=CC1C)N(C(C(=O)NC=2C=CC(Br)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011560,UNK
+1166137-Y4-01,B07,20200409_enamine_to_xchem.csv,FC(F)(F)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC=CC2Br)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424211,UNK
+1166137-Y4-01,C07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=C(ON2)C(C)(C)C)C=3C=CC=NC3)C1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011525,UNK
+1166137-Y4-01,D07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=CC(N(C)C)=C(C)C2)C=3C=CC=NC3)C1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424264,UNK
+1166137-Y4-01,E07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)C(C)OC)C=3C=CC=NC3)C1,,4,inaccurete ,,Diastereomeric mixture,Z4438424265,UNK
+1166137-Y4-01,F07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=NC2)C(C)C)C=3C=CC=NC3,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011588,UNK
+1166137-Y4-01,G07,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC=CC2Br)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Diastereomeric mixture,Z4438424215,UNK
+1166137-Y4-01,H07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C2=CC(=NN2)C(C)(C)C)C=3C=CC=NC3,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011584,UNK
+1166137-Y4-01,I07,20200409_enamine_to_xchem.csv,CC(C)(C)C=1C=C(NN1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011532,UNK
+1166137-Y4-01,J07,20200409_enamine_to_xchem.csv,COC(C)C=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Diastereomeric mixture,Z4438424286,UNK
+1166137-Y4-01,K07,20200409_enamine_to_xchem.csv,CC(C)(C)NC(=O)C(N(C(=O)C=C)C=1C=C(ON1)C(C)(C)C)C=2C=CC=NC2,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011607,UNK
+1166137-Y4-01,L07,20200409_enamine_to_xchem.csv,CSC=1C=CC(=CC1)N(C(C(=O)NC=2C=CC(Cl)=CC2)C=3C=CC=NC3)C(=O)C=C,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424281,UNK
+1166137-Y4-01,M07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC=3N=CSC3C2)C=4C=CC=NC4)=CC1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011543,UNK
+1166137-Y4-01,N07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=NC2)C(C)C)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011523,UNK
+1166137-Y4-01,O07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)S(F)(F)(F)(F)F)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424253,UNK
+1166137-Y4-01,P07,20200409_enamine_to_xchem.csv,CCC=1C=CC=C(C)C1NC(=O)C(N(C(=O)C=C)C=2C=CC(=CC2)S(F)(F)(F)(F)F)C=3C=CC=NC3,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4439011585,UNK
+1166137-Y4-01,Q07,20200409_enamine_to_xchem.csv,COC=1C=CC(NC(=O)C(N(C(=O)C=C)C=2C=CC(N(C)C)=C(C)C2)C=3C=CC=NC3)=C(C)C1,,4,inaccurete ,,Racemic or presumed racemic or meso,Z4438424254,UNK

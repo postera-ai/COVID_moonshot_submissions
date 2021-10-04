@@ -17,7 +17,7 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-35,05_P,20210128_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@]3(NC(=O)N(C3=O)C=4C=NC=C5C=CC=CC45)C2C1,rel-VLA-UCB-34f3ed0c-11,4,100,VLA-UCB-34f3ed0c-11,Single known enantiomer,Z4906876468,H2877392
 1181202-Y4-35,05_Q,20210128_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@@]3(NC(=O)N(C3=O)C=4C=NC=C5C=CC=CC45)C2C1,rel-VLA-UNK-cf7facf1-1,4,100,VLA-UNK-cf7facf1-1,Single known enantiomer,Z4906876465,H2877393
 1181202-Y4-35,05_R,20210128_enamine_to_xchem.csv,ClC=1C=CC=2OCC[C@H](C(=O)NC=3C=NC=C4C=CN=CC34)C2C1,rel-ALP-POS-ce760d3f-3,4,100,ALP-POS-ce760d3f-3,Single known enantiomer,Z4905034161,H2858743
-1181202-Y4-35,05_S,20210128_enamine_to_xchem.csv,CC=1C=CN=CC1NC(=O)C2CCOC=3C=CC(Cl)=CC23,BRU-CON-c4e3408a-1,4,100,BRU-CON-c4e3408a-1,Racemic or presumed racemic or meso,Z1675660888,T8728805
+1181202-Y4-35,05_S,20210128_enamine_to_xchem.csv,CC=1C=CN=CC1NC(=O)C2CCOC=3C=CC(Cl)=CC23,BRU-CON-c4e3408a-1,4,100,,Racemic or presumed racemic or meso,Z1675660888,T8728805
 1181202-Y4-35,05_T,20210128_enamine_to_xchem.csv,ClC=1C=CC=2N(CC3=CN=CN3)CCC(C(=O)NC=4C=NC=C5C=CC=CC45)C2C1,RAL-THA-8416115c-11,4,100,ALP-UNI-b33a865d-1,Racemic or presumed racemic or meso,Z4886054136,H2879358
 1181202-Y4-35,05_U,20210128_enamine_to_xchem.csv,CC(=O)N1CC[C@@H](C(=O)NC=2C=NC=C3C=CC=CC23)C=4C=C(Cl)C=CC14,rel-EDG-MED-5d232de5-3,4,100,EDG-MED-5d232de5-3,Single known enantiomer,Z4906876478,H2879430
 1181202-Y4-35,05_V,20210128_enamine_to_xchem.csv,CC(=O)N1CC[C@H](C(=O)NC=2C=NC=C3C=CC=CC23)C=4C=C(Cl)C=CC14,rel-EDG-MED-5d232de5-4,4,100,EDG-MED-5d232de5-4,Single known enantiomer,Z4906876479,H2879429

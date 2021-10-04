@@ -5,5 +5,5 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-55,05_D,20210629_enamine_to_xchem.csv,CNC(=O)CN1CC(C(=O)NC=2C=NC=C3C=CC(=CC23)S(=O)(=O)C)C=4C=C(Cl)C=CC4C1=O,EDJ-MED-ce467fd5-1,4,100,EDJ-MED-ce467fd5-1,Racemic or presumed racemic or meso,Z5060771469,H3231666
 1181202-Y4-55,05_E,20210629_enamine_to_xchem.csv,OC(=O)C(F)(F)F.ClC=1C=CC=2OCCC(C(=O)NC=3C=NC=C4C=C(CN5CC6(CNC6)C5)C=CC34)C2C1,ERI-UCB-8d4e5055-6,4,100,MAT-POS-7ddaf7de-3,Racemic or presumed racemic or meso,Z5111388800,H3231664
 1181202-Y4-55,05_F,20210629_enamine_to_xchem.csv,CC=1C(N)=CN=CC1NC(=O)C2CCOC=3C=CC(Cl)=CC23,ALP-POS-5de921e7-1A,4,100,MAT-POS-7ddaf7de-4,Racemic or presumed racemic or meso,Z5021905551,H3234918
-1181202-Y4-55,05_G,20210629_enamine_to_xchem.csv,ClC=1C=CC=2OCCC(C(=O)NC=3C=NC=C4C=C(CN5CCNCC5)C=CC34)C2C1,ERI-UCB-8d4e5055-1,4,100,MAK-UNK-8be7dca9-1,Racemic or presumed racemic or meso,Z5015004628,H3218372
+1181202-Y4-55,05_G,20210629_enamine_to_xchem.csv,ClC=1C=CC=2OCCC(C(=O)NC=3C=NC=C4C=C(CN5CCNCC5)C=CC34)C2C1,ERI-UCB-8d4e5055-1,4,100,ERI-UCB-8d4e5055-1,Racemic or presumed racemic or meso,Z5015004628,H3218372
 1181202-Y4-55,05_H,20210629_enamine_to_xchem.csv,ClC1=CC=2C(NC(=O)C3CCOC=4C=CC(Cl)=CC34)=CN=CC2S1,MAT-POS-14f31916-5,4,100,MAT-POS-14f31916-5,Racemic or presumed racemic or meso,Z5012902028,H3229808
