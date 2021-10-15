@@ -1,0 +1,5 @@
+SMILES,CID,,,,,
+N#CC1(CS(=O)(=O)NCc2ccc(Cl)cc2CC(=O)Nc2cncc3ccccc23)CC1,ALP-POS-d7944b10-3,,,,,
+CN(Cc1ccc(Cl)cc1CC(=O)Nc1cncc2ccccc12)S(C)(=O)=O,ALP-POS-df536be7-6,,,,,
+CS(=O)(=O)NCc1cc(Cl)c(Cl)cc1CC(=O)Nc1cncc2ccccc12,ALP-POS-df536be7-5,,,,,
+CS(=O)(=O)NCc1ccc(Cl)cc1C1CCN(c2cncc3ccccc23)C1=O,ALP-POS-df536be7-4 ,,,,,

@@ -37,11 +37,24 @@ def create_fluorescence_dose_response_specs(fluorescense_df):
 
             for x in np.logspace(-3, 3, 100):
                 ic_50_list.append(round(f_IC50_dict["f_curve_IC50"][i], 3))
-                hill_slope_list.append(round(f_IC50_dict["f_hill_slope"][i], 3))
+                try:
+                    hill_slope_list.append(round(f_IC50_dict["f_hill_slope"][i], 3))
+                except Exception as e:
+                    hill_slope_list.append(np.nan)
+                    print(f"hill slope failed with error {e} with value")
                 conc_list.append(x)
-                min_list.append(min(0, f_IC50_dict["f_min_inhibition_reading"][i]))
-                max_list.append(max(100, f_IC50_dict["f_max_inhibition_reading"][i]))
-                r_squared_list.append(f_IC50_dict["f_R2"][i])
+                try:
+                    min_list.append(min(0, f_IC50_dict["f_min_inhibition_reading"][i]))
+                except: 
+                    min_list.append(np.nan)
+                try:
+                    max_list.append(max(100, f_IC50_dict["f_max_inhibition_reading"][i]))
+                except:
+                    max_list.append(np.nan)
+                try:
+                    r_squared_list.append(f_IC50_dict["f_R2"][i])
+                except:
+                    r_squared_list.append(np.nan)
 
             sigmoid_df = pd.DataFrame(
                 {
@@ -178,12 +191,24 @@ def create_rapidfire_dose_response_specs(rapidfire_df):
 
             for x in np.logspace(-3, 3, 100):
                 ic_50_list.append(round(r_IC50_dict["r_curve_IC50"][i], 3))
-                hill_slope_list.append(round(r_IC50_dict["r_hill_slope"][i], 3))
+                try:
+                    hill_slope_list.append(round(f_IC50_dict["f_hill_slope"][i], 3))
+                except Exception as e:
+                    hill_slope_list.append(np.nan)
+                    print(f"hill slope failed with error {e} with value")
                 conc_list.append(x)
-                min_list.append(min(0, r_IC50_dict["r_min_inhibition_reading"][i]))
-                max_list.append(max(100, r_IC50_dict["r_max_inhibition_reading"][i]))
-                r_squared_list.append(r_IC50_dict["r_R2"][i])
-
+                try:
+                    min_list.append(min(0, r_IC50_dict["r_min_inhibition_reading"][i]))
+                except:
+                    min_list.append(np.nan)
+                try:
+                    max_list.append(max(100, r_IC50_dict["r_max_inhibition_reading"][i]))
+                except:
+                    max_list.append(np.nan)
+                try:
+                    r_squared_list.append(r_IC50_dict["r_R2"][i])
+                except:
+                    r_squared_list.append(np.nan)
             sigmoid_df = pd.DataFrame(
                 {
                     "IC50 (µM)": ic_50_list,

@@ -1,4 +1,4 @@
-Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID
-1181202-Y4-65,05_R,20210913_enamine_to_xchem.csv,CC1=NN2C(CNC=3C=CC(CN4C=NC=N4)=CC3)=C(C)N=C2S1,WIL-UNI-d4749f31-40,4,100,WIL-UNI-d4749f31-40,Achiral,Z3888877673,H3303132
-1181202-Y4-65,05_S,20210913_enamine_to_xchem.csv,CC1=NC=2C=C(C=CC2O1)C(=O)NNC3=NC=4C=CN=CC4S3,WIL-UNI-d4749f31-42,4,100,WIL-UNI-d4749f31-42,Achiral,Z5095290754,H3312874
-1181202-Y4-65,05_T,20210913_enamine_to_xchem.csv,CC(NC(=O)C=1C=CC=2OC(S)=NC2C1)C3=NN=C4C=CC=CN34,WIL-UNI-d4749f31-45,4,100,WIL-UNI-d4749f31-45,Racemic or presumed racemic or meso,Z5138481178,H3300786
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-65,05_R,20210913_enamine_to_xchem.csv,CC1=NN2C(CNC=3C=CC(CN4C=NC=N4)=CC3)=C(C)N=C2S1,WIL-UNI-d4749f31-40,4,100,WIL-UNI-d4749f31-40,Achiral,Z3888877673,H3303132,27.5
+1181202-Y4-65,05_S,20210913_enamine_to_xchem.csv,CC1=NC=2C=C(C=CC2O1)C(=O)NNC3=NC=4C=CN=CC4S3,WIL-UNI-d4749f31-42,4,100,WIL-UNI-d4749f31-42,Achiral,Z5095290754,H3312874,5.0
+1181202-Y4-65,05_T,20210913_enamine_to_xchem.csv,CC(NC(=O)C=1C=CC=2OC(S)=NC2C1)C3=NN=C4C=CC=CN34,WIL-UNI-d4749f31-45,4,100,WIL-UNI-d4749f31-45,Racemic or presumed racemic or meso,Z5138481178,H3300786,43.9

@@ -108,6 +108,9 @@ def create_diamond_files(received_csv_files):
                 if "Batch ID" not in list(received_df.columns):
                     received_df["Batch ID"] = 'UNK'
 
+                if "Amount, mg (left)" not in list(received_df.columns):
+                    received_df["Amount, mg (left)"] = 'UNK'
+
                 received_df["Library Name"] = str(csv_file).split("/")[-1]
                 received_df = received_df[
                     [
@@ -121,7 +124,8 @@ def create_diamond_files(received_csv_files):
                         "external_ID",
                         "stereochemistry",
                         "catalog_ID",
-                        "Batch ID"
+                        "Batch ID",
+                        "Amount, mg (left)"
                     ]
                 ]
                 received_df = received_df.rename(
@@ -173,6 +177,10 @@ def create_weizmann_files(received_csv_files):
                 )
                 if "Batch ID" not in list(received_df.columns):
                     received_df["Batch ID"] = 'UNK'
+
+                if "Amount, mg (left)" not in list(received_df.columns):
+                    received_df["Amount, mg (left)"] = 'UNK'
+
                 new_filename = (
                     str(csv_file)
                     .split("/")[-1]
@@ -193,7 +201,8 @@ def create_weizmann_files(received_csv_files):
                         "well",
                         "stereochemistry",
                         "PostEra_comments",
-                        "Batch ID"
+                        "Batch ID",
+                        "Amount, mg (left)"
                     ]
                 ]
 
@@ -294,6 +303,9 @@ def create_oxford_files(received_csv_files):
                 )
                 if "Batch ID" not in list(received_df.columns):
                     received_df["Batch ID"] = 'UNK'
+                
+                if "Amount, mg (left)" not in list(received_df.columns):
+                    received_df["Amount, mg (left)"] = 'UNK'
 
                 received_df = received_df[
                     [
@@ -309,7 +321,8 @@ def create_oxford_files(received_csv_files):
                         "well",
                         "stereochemistry",
                         "PostEra_comments",
-                        "Batch ID"
+                        "Batch ID",
+                        "Amount, mg (left)"
                     ]
                 ]
 

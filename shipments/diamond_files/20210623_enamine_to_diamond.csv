@@ -1,7 +1,7 @@
-Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID
-1181202-Y4-54,05_A,20210623_enamine_to_xchem.csv,O[C@]1(CCN(C1=O)C=2C=NC=C3C=CC=CC23)C=4C=CC=C(Cl)C4,Rel_R_MAT-POS-d8472c4f-1,4,100,MAT-POS-8695a11f-1,Single unknown enantiomer,Z5068830347,H3215677
-1181202-Y4-54,05_B,20210623_enamine_to_xchem.csv,ClC=1C=CC=C(CC(=O)N2CC(=O)CC=3C=CC=CC23)C1,ROB-CAM-6936528f-1,4,100,ROB-CAM-6936528f-1,Achiral,Z5060771465,H3213896
-1181202-Y4-54,05_C,20210623_enamine_to_xchem.csv,ClC=1C=CC=2OCCC(C(=O)NC=3C=NC=C4C=CC(CN5CCNCC5)=CC34)C2C1,ERI-UCB-8d4e5055-2,4,100,MAT-POS-8695a11f-2,Racemic or presumed racemic or meso,Z5012901990,H3218253
-1181202-Y4-54,05_D,20210623_enamine_to_xchem.csv,O[C@@]1(CCN(C1=O)C=2C=NC=C3C=CC=CC23)C=4C=CC=C(Cl)C4,Rel_S_MAT-POS-d8472c4f-1,4,100,MAT-POS-8695a11f-3,Single unknown enantiomer,Z5068830345,H3215676
-1181202-Y4-54,05_E,20210623_enamine_to_xchem.csv,CC1(CNC(=O)C=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4C=CC(=CC34)S(=O)(=O)C,MAT-POS-edabd372-2,4,100,MAT-POS-edabd372-2,Racemic or presumed racemic or meso,Z5060771476,H3215495
-1181202-Y4-54,05_F,20210623_enamine_to_xchem.csv,CNS(=O)(=O)C=1C=CC=2C=NC=C(NC(=O)C3(CCOC=4C=CC(Cl)=CC43)OC)C2C1,EDG-MED-10fcb19e-3,4,100,EDG-MED-10fcb19e-3,Racemic or presumed racemic or meso,Z5012901947,H3209813
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-54,05_A,20210623_enamine_to_xchem.csv,O[C@]1(CCN(C1=O)C=2C=NC=C3C=CC=CC23)C=4C=CC=C(Cl)C4,Rel_R_MAT-POS-d8472c4f-1,4,100,MAT-POS-8695a11f-1,Single unknown enantiomer,Z5068830347,H3215677,51.8
+1181202-Y4-54,05_B,20210623_enamine_to_xchem.csv,ClC=1C=CC=C(CC(=O)N2CC(=O)CC=3C=CC=CC23)C1,ROB-CAM-6936528f-1,4,100,ROB-CAM-6936528f-1,Achiral,Z5060771465,H3213896,13.9
+1181202-Y4-54,05_C,20210623_enamine_to_xchem.csv,ClC=1C=CC=2OCCC(C(=O)NC=3C=NC=C4C=CC(CN5CCNCC5)=CC34)C2C1,ERI-UCB-8d4e5055-2,4,100,MAT-POS-8695a11f-2,Racemic or presumed racemic or meso,Z5012901990,H3218253,14.5
+1181202-Y4-54,05_D,20210623_enamine_to_xchem.csv,O[C@@]1(CCN(C1=O)C=2C=NC=C3C=CC=CC23)C=4C=CC=C(Cl)C4,Rel_S_MAT-POS-d8472c4f-1,4,100,MAT-POS-8695a11f-3,Single unknown enantiomer,Z5068830345,H3215676,47.1
+1181202-Y4-54,05_E,20210623_enamine_to_xchem.csv,CC1(CNC(=O)C=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4C=CC(=CC34)S(=O)(=O)C,MAT-POS-edabd372-2,4,100,MAT-POS-edabd372-2,Racemic or presumed racemic or meso,Z5060771476,H3215495,3.9
+1181202-Y4-54,05_F,20210623_enamine_to_xchem.csv,CNS(=O)(=O)C=1C=CC=2C=NC=C(NC(=O)C3(CCOC=4C=CC(Cl)=CC43)OC)C2C1,EDG-MED-10fcb19e-3,4,100,EDG-MED-10fcb19e-3,Racemic or presumed racemic or meso,Z5012901947,H3209813,1.7

@@ -42,7 +42,8 @@ def create_map_plot_spec(all_df):
 
     world = data.world_110m.url
     world_topo = data.world_110m()
-
+    num_compounds_dict["sai"] = 0
+    num_compounds_dict["mcule"] = 0
     loc_data = pd.DataFrame(
         {
             "location": [
