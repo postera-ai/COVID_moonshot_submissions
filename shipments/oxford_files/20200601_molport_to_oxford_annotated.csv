@@ -1,12 +1,12 @@
 SMILES,external_ID,CDD_ID,shipment_ID,catalog_ID,purity,volume(uL),concentration(mM),plate_ID,well,stereochemistry,PostEra_comments,Batch ID,"Amount, mg (left)"
-CC1=CC(=C(C=C1Cl)Cl)S(=O)(=O)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],AAR-POS-dddeddbf-2,CVD-0004094,AAR-POS-dddeddbf-2,BTB06256SC,,,,,,,,UNK,UNK
-CC1=C(C2=C(C=C1)N=C(S2)C3=CC=C(C=C3)N)S(=O)(=O)O,AAR-POS-dddeddbf-1,CVD-0004093,AAR-POS-dddeddbf-1,BTB13613SC,,,,,,,,UNK,UNK
-Nc1ncc(S(=O)(=O)c2ccc(Cl)cc2)c(N)n1,AAR-POS-dddeddbf-3,CVD-0004095,AAR-POS-dddeddbf-3,KM00680SC,,,,,,,,UNK,UNK
-CC(C)CC(C(=O)NC(C(C)C)C(=O)NCC(=O)C=[N+]=[N-])NC(=O)OCC1=CC=CC=C1,MAT-POS-bfefc3ea-3,CVD-0002712,MAT-POS-bfefc3ea-3,z-leu-val-gly-diazomethylketone,,,,,,,imperfect stereochemical match for MAT-POS-bfefc3ea-3,UNK,UNK
+CC1=CC(=C(C=C1Cl)Cl)S(=O)(=O)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],,,AAR-POS-dddeddbf-2,BTB06256SC,,,,,,,not found,UNK,UNK
+CC1=C(C2=C(C=C1)N=C(S2)C3=CC=C(C=C3)N)S(=O)(=O)O,,,AAR-POS-dddeddbf-1,BTB13613SC,,,,,,,not found,UNK,UNK
+Nc1ncc(S(=O)(=O)c2ccc(Cl)cc2)c(N)n1,,,AAR-POS-dddeddbf-3,KM00680SC,,,,,,,not found,UNK,UNK
+CC(C)CC(C(=O)NC(C(C)C)C(=O)NCC(=O)C=[N+]=[N-])NC(=O)OCC1=CC=CC=C1,,,MAT-POS-bfefc3ea-3,z-leu-val-gly-diazomethylketone,,,,,,,not found,UNK,UNK
 C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,CHR-SOS-7098f804-1,CVD-0000585,CHR-SOS-7098f804-1,Niclosamide,,,,,,,,UNK,UNK
-CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],AAR-POS-dddeddbf-4,CVD-0004096,AAR-POS-dddeddbf-4,Nitazoxanide,,,,,,,,UNK,UNK
-O=C(N[C@H](C1CCOCC1)C(C(N/N=C2SC[C@@H](C)N\2C)=O)=O)C3CCCCCC3,MAT-POS-bfefc3ea-1,CVD-0002710,AAR-POS-dddeddbf-5,ONO,,,,,,,imperfect stereochemical match for MAT-POS-bfefc3ea-1,UNK,UNK
-C1=CC(=CC=C1C(=C(C#N)C(=O)NC2=CC=C(C=C2)F)O)Cl,JOH-UNI-c7afdb96-2,CVD-0004183,JOH-UNI-c7afdb96-2,MS-0520,,,,,,,imperfect stereochemical match for JOH-UNI-c7afdb96-2,UNK,UNK
-CC(C)[C@H](NC(=O)OCc1ccccc1)C(=O)NC(C=O)Cc1ccccc1,MAT-POS-bfefc3ea-2,CVD-0002711,MAT-POS-bfefc3ea-2,calpain inhibitor 3,,,,,,,,UNK,UNK
-O=C(NC[C@]1(COc2ccc(C(F)(F)F)cn2)C[C@H](O)[C@H](O)C1)Nc1cccnc1,FAR-UNI-736b943a-6,CVD-0001160,FAR-UNI-736b943a-6,nat48-548100,,,,,,,,UNK,UNK
-O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,GER-UNI-caecb3b0-1,CVD-0001265,GER-UNI-caecb3b0-1,stk713346,,,,,,,,UNK,UNK
+CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],,,AAR-POS-dddeddbf-4,Nitazoxanide,,,,,,,not found,UNK,UNK
+O=C(N[C@H](C1CCOCC1)C(C(N/N=C2SC[C@@H](C)N\2C)=O)=O)C3CCCCCC3,,,AAR-POS-dddeddbf-5,ONO,,,,,,,not found,UNK,UNK
+C1=CC(=CC=C1C(=C(C#N)C(=O)NC2=CC=C(C=C2)F)O)Cl,,,JOH-UNI-c7afdb96-2,MS-0520,,,,,,,not found,UNK,UNK
+CC(C)[C@H](NC(=O)OCc1ccccc1)C(=O)NC(C=O)Cc1ccccc1,,,MAT-POS-bfefc3ea-2,calpain inhibitor 3,,,,,,,not found,UNK,UNK
+O=C(NC[C@]1(COc2ccc(C(F)(F)F)cn2)C[C@H](O)[C@H](O)C1)Nc1cccnc1,,,FAR-UNI-736b943a-6,nat48-548100,,,,,,,not found,UNK,UNK
+O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,,,GER-UNI-caecb3b0-1,stk713346,,,,,,,not found,UNK,UNK

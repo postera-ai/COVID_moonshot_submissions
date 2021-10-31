@@ -11,4 +11,4 @@ Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM
 1181202-Y4-37,05_J,20210211_enamine_to_xchem.csv,Cl.CN1C=CC(CNCC2(CCOC=3C=CC(Cl)=CC32)C(=O)NC=4C=NC=C5C=CC=CC45)=N1,EDJ-MED-8c98ee63-2,4,100,EDJ-MED-8c98ee63-2,Racemic or presumed racemic or meso,Z4919384407,H2906549,UNK
 1181202-Y4-37,05_K,20210211_enamine_to_xchem.csv,NS(=O)(=O)C=1NN=CC1C(=O)NCC2(CCOC=3C=CC(Cl)=CC32)C(=O)NC=4C=NC=C5C=CC=CC45,rac-EDJ-MED-4c7486ba-8,4,100,MAT-POS-3b97339c-3,Racemic or presumed racemic or meso,Z4878380185,H2902977,UNK
 1181202-Y4-37,05_L,20210211_enamine_to_xchem.csv,ClC=1C=CC=2OCC(C(=O)N(C(=O)C=C)C=3C=NC=C4C=CC=CC34)C2C1,MAT-POS-e69ad64a-2,4,100,MAT-POS-e69ad64a-2,Racemic or presumed racemic or meso,Z4906876442,H2911874,UNK
-1181202-Y4-37,05_M,20210211_enamine_to_xchem.csv,N[C@]1(CCOC=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4C=CC=CC34,rel-EDG-MED-971238d3-4-2,4,100,EDG-MED-971238d3-4,Single known enantiomer,Z4839375840,H2917150,UNK
+1181202-Y4-37,05_M,20210211_enamine_to_xchem.csv,N[C@]1(CCOC=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4C=CC=CC34,rel-EDG-MED-971238d3-4-2,4,100,MAT-POS-2905de8c-1,Single known enantiomer,Z4839375840,H2917150,UNK

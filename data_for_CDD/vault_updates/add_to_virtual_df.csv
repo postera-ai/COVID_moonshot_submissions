@@ -1,5 +1,55 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-O=C(Nc1cncc2ccccc12)C1CN(CCC(F)F)Cc2ccc(Cl)cc21,MIC-UNK-482af05e-1,Michal K,,False,MIC-UNK-482af05e-1
-O=C(Nc1cncc2ccccc12)C1CN(CC(F)F)Cc2ccc(Cl)cc21,MIC-UNK-482af05e-2,Michal K,,False,MIC-UNK-482af05e-2
-O=C(Nc1cncc2ccccc12)C1CN(CCC(F)F)C(=O)c2ccc(Cl)cc21,MIC-UNK-482af05e-3,Michal K,,False,MIC-UNK-482af05e-3
-O=C(Nc1cncc2ccccc12)C1CN(CC(F)F)C(=O)c2ccc(Cl)cc21,MIC-UNK-482af05e-4,Michal K,,False,MIC-UNK-482af05e-4
+CNC(=O)CN1CC2(CCN(c3cncc4cccc(Cl)c34)C2=O)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-1,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-1
+CNC(=O)CN1CC(C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-2,"Matthew Robinson, PostEra",,False,ALP-POS-e266d783-1
+CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cccc(Cl)c23)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-3,"Matthew Robinson, PostEra",,False,MAT-POS-a334828f-1
+CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-4,"Matthew Robinson, PostEra",,False,MAT-POS-a334828f-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cccc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-5,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-5
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-6,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-6
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cccc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-7,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-7
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-8,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-8
+CN(C)CCOc1ccc2cncc(N3CCC4(CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)C3=O)c2c1,MAT-POS-853c0ffa-9,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-9
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(OCCN(C)C)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-10,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-10
+CC(C)(O)c1ccc2cncc(N3CCC4(CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)C3=O)c2c1,MAT-POS-853c0ffa-11,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-11
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(C(C)(C)O)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-12,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-12
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(F)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-13,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-13
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(F)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-14,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-14
+CS(=O)(=O)c1ccc2c(N3CCC4(CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)C3=O)cncc2c1,MAT-POS-853c0ffa-15,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-15
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(S(C)(=O)=O)ccc45)C3=O)C2)CC1,MAT-POS-853c0ffa-16,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-16
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cccc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-17,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-17
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-18,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-18
+CN(C)CCOc1ccc2cncc(N3CCC4(CN(S(=O)(=O)CC5(C)CC5)Cc5ccc(Cl)cc54)C3=O)c2c1,MAT-POS-853c0ffa-19,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-19
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(C(C)(C)O)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-20,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-20
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(F)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-21,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-21
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(S(C)(=O)=O)ccc45)C3=O)C2)CC1,MAT-POS-853c0ffa-22,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-22
+O=C1CC(NC(=O)C2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-1,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,ALP-POS-8b8a49e1-2
+O=C1CN(C(=O)C2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-2,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-2
+O=C1CC(C(=O)NC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-3,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-3
+O=C1CC(C(=O)N2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-4,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-4
+O=C1CN(C(=O)NC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-5,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-5
+O=C1CN(C(=O)OC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-6,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-6
+CC1(C(=O)Nc2cncc3ccccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-70ab3faf-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-70ab3faf-1
+CC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-70ab3faf-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-70ab3faf-2
+CN(c1ccc2c(NC(=O)C3(C)CCS(=O)(=O)c4ccc(Cl)cc43)cncc2c1)S(C)(=O)=O,EDJ-MED-70ab3faf-3,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-70ab3faf-3
+COC1(C(=O)Nc2cncc3ccccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-211392e3-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,MIC-UNK-ea4eb352-1
+COC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-211392e3-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-211392e3-2
+COC1(C(=O)Nc2cncc3cc(N(C)S(C)(=O)=O)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-211392e3-3,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-211392e3-3
+CC1(NC(=O)CN2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-c99b2211-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-c99b2211-1
+CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-c99b2211-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,RAL-THA-a9c31980-4
+CC1(NC(=O)CN2CC(C(=O)Nc3cncc4cc(S(C)(=O)=O)ccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-c99b2211-3,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-c99b2211-3
+CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-c99b2211-4,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-d165ed91-4
+O=C(CC1CCOc2ccc(Cl)cc21)n1[nH]c(=O)c2ccccc21,NAU-LAT-28398581-1,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-1
+O=C(NC1CCOc2ccc(Cl)cc21)n1[nH]c(=O)c2ccccc21,NAU-LAT-28398581-2,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-2
+O=C1NC(C(=O)NC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-3,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-3
+O=C1CC(C(=O)NC2CNCc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-4,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-4
+CS(=O)(=O)N1Cc2ccc(Cl)cc2C(NC(=O)C2CC(=O)c3ccccc32)C1,NAU-LAT-28398581-5,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-5
+O=C1CC(c2nnc(C3CCOc4ccc(Cl)cc43)o2)c2ccccc21,NAU-LAT-28398581-6,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-6
+O=C1CC(C(=O)CC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-7,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-7
+O=C1CN(CC(=O)C2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-8,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-8
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-1,Peter Kenny,,False,PET-UNK-1abb40f2-1
+CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-2,Peter Kenny,,False,PET-UNK-1abb40f2-2
+COC1(C(=O)Nc2cncc3ccccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-3,Peter Kenny,,False,PET-UNK-1abb40f2-3
+COC1(C(=O)Nc2cncc3ccccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-4,Peter Kenny,,False,PET-UNK-1abb40f2-4
+O=c1c(OS(=O)(=O)O)c(-c2ccc(O)c(OS(=O)(=O)O)c2)oc2cc(OS(=O)(=O)O)cc(O)c12,PIF-PI_-040a338f-1,"PI FRONTH NYHUS, PI",,False,PIF-PI_-040a338f-1
+CS(=O)(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C(F)(F)F)CC4)Cc4ccc(Cl)cc43)cncc2c1,MAT-POS-5c19d660-1,"Matt Robinson, PostEra",,False,MAT-POS-5c19d660-1
+CC(C)(O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C(F)(F)F)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-5c19d660-2,"Matt Robinson, PostEra",,False,MAT-POS-5c19d660-2
+CNC(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C(F)(F)F)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-5c19d660-3,"Matt Robinson, PostEra",,False,MAT-POS-5c19d660-3
