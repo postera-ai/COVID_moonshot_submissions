@@ -1,55 +1,70 @@
 SMILES,CID,creator,fragments,covalent_warhead,CID (canonical)
-CNC(=O)CN1CC2(CCN(c3cncc4cccc(Cl)c34)C2=O)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-1,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-1
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-2,"Matthew Robinson, PostEra",,False,ALP-POS-e266d783-1
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cccc(Cl)c23)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-3,"Matthew Robinson, PostEra",,False,MAT-POS-a334828f-1
-CNC(=O)CN1CC(C)(C(=O)Nc2cncc3cc(F)cc(Cl)c23)c2cc(Cl)ccc2C1=O,MAT-POS-853c0ffa-4,"Matthew Robinson, PostEra",,False,MAT-POS-a334828f-2
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cccc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-5,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-5
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-6,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-6
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cccc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-7,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-7
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-8,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-8
-CN(C)CCOc1ccc2cncc(N3CCC4(CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)C3=O)c2c1,MAT-POS-853c0ffa-9,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-9
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(OCCN(C)C)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-10,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-10
-CC(C)(O)c1ccc2cncc(N3CCC4(CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)C3=O)c2c1,MAT-POS-853c0ffa-11,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-11
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(C(C)(C)O)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-12,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-12
-N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(F)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-13,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-13
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(F)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-14,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-14
-CS(=O)(=O)c1ccc2c(N3CCC4(CN(S(=O)(=O)CC5(C#N)CC5)Cc5ccc(Cl)cc54)C3=O)cncc2c1,MAT-POS-853c0ffa-15,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-15
-COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(S(C)(=O)=O)ccc45)C3=O)C2)CC1,MAT-POS-853c0ffa-16,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-16
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cccc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-17,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-17
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-18,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-18
-CN(C)CCOc1ccc2cncc(N3CCC4(CN(S(=O)(=O)CC5(C)CC5)Cc5ccc(Cl)cc54)C3=O)c2c1,MAT-POS-853c0ffa-19,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-19
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(C(C)(C)O)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-20,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-20
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccc(F)cc45)C3=O)C2)CC1,MAT-POS-853c0ffa-21,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-21
-CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(S(C)(=O)=O)ccc45)C3=O)C2)CC1,MAT-POS-853c0ffa-22,"Matthew Robinson, PostEra",,False,MAT-POS-853c0ffa-22
-O=C1CC(NC(=O)C2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-1,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,ALP-POS-8b8a49e1-2
-O=C1CN(C(=O)C2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-2,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-2
-O=C1CC(C(=O)NC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-3,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-3
-O=C1CC(C(=O)N2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-4,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-4
-O=C1CN(C(=O)NC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-5,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-5
-O=C1CN(C(=O)OC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-64bf4c5d-6,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-64bf4c5d-6
-CC1(C(=O)Nc2cncc3ccccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-70ab3faf-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-70ab3faf-1
-CC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-70ab3faf-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-70ab3faf-2
-CN(c1ccc2c(NC(=O)C3(C)CCS(=O)(=O)c4ccc(Cl)cc43)cncc2c1)S(C)(=O)=O,EDJ-MED-70ab3faf-3,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-70ab3faf-3
-COC1(C(=O)Nc2cncc3ccccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-211392e3-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,MIC-UNK-ea4eb352-1
-COC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-211392e3-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-211392e3-2
-COC1(C(=O)Nc2cncc3cc(N(C)S(C)(=O)=O)ccc23)CCS(=O)(=O)c2ccc(Cl)cc21,EDJ-MED-211392e3-3,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-211392e3-3
-CC1(NC(=O)CN2CC(C(=O)Nc3cncc4ccccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-c99b2211-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-c99b2211-1
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-c99b2211-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,RAL-THA-a9c31980-4
-CC1(NC(=O)CN2CC(C(=O)Nc3cncc4cc(S(C)(=O)=O)ccc34)c3cc(Cl)ccc3C2=O)CC1,EDJ-MED-c99b2211-3,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-c99b2211-3
-CC(C)(C)NC(=O)CN1CC(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)c2cc(Cl)ccc2C1=O,EDJ-MED-c99b2211-4,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-d165ed91-4
-O=C(CC1CCOc2ccc(Cl)cc21)n1[nH]c(=O)c2ccccc21,NAU-LAT-28398581-1,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-1
-O=C(NC1CCOc2ccc(Cl)cc21)n1[nH]c(=O)c2ccccc21,NAU-LAT-28398581-2,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-2
-O=C1NC(C(=O)NC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-3,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-3
-O=C1CC(C(=O)NC2CNCc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-4,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-4
-CS(=O)(=O)N1Cc2ccc(Cl)cc2C(NC(=O)C2CC(=O)c3ccccc32)C1,NAU-LAT-28398581-5,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-5
-O=C1CC(c2nnc(C3CCOc4ccc(Cl)cc43)o2)c2ccccc21,NAU-LAT-28398581-6,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-6
-O=C1CC(C(=O)CC2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-7,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-7
-O=C1CN(CC(=O)C2CCOc3ccc(Cl)cc32)c2ccccc21,NAU-LAT-28398581-8,"Nauris Narvaiss, Latvian Institute of Organic synthesis",,False,NAU-LAT-28398581-8
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-1,Peter Kenny,,False,PET-UNK-1abb40f2-1
-CO[C@@]1(C(=O)Nc2cncc3ccccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-2,Peter Kenny,,False,PET-UNK-1abb40f2-2
-COC1(C(=O)Nc2cncc3ccccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-3,Peter Kenny,,False,PET-UNK-1abb40f2-3
-COC1(C(=O)Nc2cncc3ccccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-1abb40f2-4,Peter Kenny,,False,PET-UNK-1abb40f2-4
-O=c1c(OS(=O)(=O)O)c(-c2ccc(O)c(OS(=O)(=O)O)c2)oc2cc(OS(=O)(=O)O)cc(O)c12,PIF-PI_-040a338f-1,"PI FRONTH NYHUS, PI",,False,PIF-PI_-040a338f-1
-CS(=O)(=O)c1ccc2c(NC(=O)C3CN(S(=O)(=O)CC4(C(F)(F)F)CC4)Cc4ccc(Cl)cc43)cncc2c1,MAT-POS-5c19d660-1,"Matt Robinson, PostEra",,False,MAT-POS-5c19d660-1
-CC(C)(O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C(F)(F)F)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-5c19d660-2,"Matt Robinson, PostEra",,False,MAT-POS-5c19d660-2
-CNC(=O)c1ccc2cncc(NC(=O)C3CN(S(=O)(=O)CC4(C(F)(F)F)CC4)Cc4ccc(Cl)cc43)c2c1,MAT-POS-5c19d660-3,"Matt Robinson, PostEra",,False,MAT-POS-5c19d660-3
+C#CCN(C)C(=O)C(CCc1ccccc1)NC(=O)C1CC(O)CN1C(=O)OCc1ccccc1,VAL-ASS-db6a4353-1,"Valeriy A. Bacherikov, Associate Professor, Dep. of Medicinal Chemistry and Biology, Faculty of Dentistry and Pharmacy, International Humanitarian University 33, Fontanskaya Road, Odessa, 65009, Ukraine",,False,VAL-ASS-db6a4353-1
+CO[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-1,Peter Kenny,,False,PET-UNK-6e612674-1
+CO[C@@]1(C(=O)Nc2cncc3cc(Cl)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-2,Peter Kenny,,False,PET-UNK-6e612674-2
+CO[C@@]1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-3,Peter Kenny,,False,PET-UNK-6e612674-3
+CO[C@@]1(C(=O)Nc2cncc3cc(NS(C)(=O)=O)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-4,Peter Kenny,,False,PET-UNK-6e612674-4
+CO[C@@]1(C(=O)Nc2cncc3cc(F)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-5,Peter Kenny,,False,PET-UNK-6e612674-5
+CO[C@@]1(C(=O)Nc2cncc3cc(Cl)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-6,Peter Kenny,,False,PET-UNK-6e612674-6
+CO[C@@]1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-7,Peter Kenny,,False,PET-UNK-6e612674-7
+CO[C@@]1(C(=O)Nc2cncc3cc(NS(C)(=O)=O)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-8,Peter Kenny,,False,PET-UNK-6e612674-8
+COC1(C(=O)Nc2cncc3cc(F)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-9,Peter Kenny,,False,PET-UNK-6e612674-9
+COC1(C(=O)Nc2cncc3cc(Cl)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-10,Peter Kenny,,False,PET-UNK-6e612674-10
+COC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-11,Peter Kenny,,False,PET-UNK-6e612674-11
+COC1(C(=O)Nc2cncc3cc(NS(C)(=O)=O)ccc23)CNS(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-12,Peter Kenny,,False,PET-UNK-6e612674-12
+COC1(C(=O)Nc2cncc3cc(F)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-13,Peter Kenny,,False,PET-UNK-6e612674-13
+COC1(C(=O)Nc2cncc3cc(Cl)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-14,Peter Kenny,,False,PET-UNK-6e612674-14
+COC1(C(=O)Nc2cncc3cc(S(C)(=O)=O)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-15,Peter Kenny,,False,PET-UNK-6e612674-15
+COC1(C(=O)Nc2cncc3cc(NS(C)(=O)=O)ccc23)CN(C)S(=O)(=O)c2ccc(Cl)cc21,PET-UNK-6e612674-16,Peter Kenny,,False,PET-UNK-6e612674-16
+N#C[C@H](CCc1ccccc1)NC(=O)[C@@H]1C[C@@H](O)CN1C(=O)OCc1ccccc1,VAL-UNK-82caa8e7-1,Valeriy Bacherikov,,False,VAL-UNK-82caa8e7-1
+NCCNC(=O)[C@H](CCc1ccccc1)NC(=O)[C@@H]1C[C@@H](O)CN1C(=O)OCc1ccccc1,VAL-ASS-c8151e3f-1,"Valeriy Bacherikov, Associate Professor Head of Department of Medicinal Chemistry and Biology, Faculty of Dentistry and Pharmacy, International Humanitarian University 33, Fontanskaya Road, Odessa, 65009, Ukraine",,False,VAL-ASS-c8151e3f-1
+N#CN(C(=O)[C@@H]1CCS(=O)(=O)c2ccc(Cl)cc21)c1cncc2ccccc12,PET-UNK-064639eb-1,Peter Kenny,,False,PET-UNK-064639eb-1
+CN1C[C@@H](C(=O)N(C#N)c2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,PET-UNK-064639eb-2,Peter Kenny,,False,PET-UNK-064639eb-2
+N#CN(C(=O)[C@@H]1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,PET-UNK-064639eb-3,Peter Kenny,,False,PET-UNK-064639eb-3
+N#CN(C(=O)C1CCS(=O)(=O)c2ccc(Cl)cc21)c1cncc2ccccc12,PET-UNK-064639eb-4,Peter Kenny,,False,PET-UNK-064639eb-4
+CN1CC(C(=O)N(C#N)c2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,PET-UNK-064639eb-5,Peter Kenny,,False,PET-UNK-064639eb-5
+N#CN(C(=O)C1CCOc2ccc(Cl)cc21)c1cncc2ccccc12,PET-UNK-064639eb-6,Peter Kenny,,False,PET-UNK-064639eb-6
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(C2)N=CN(c2cncc4ccccc24)C3=O)CC1,EDG-MED-0c930815-1,"Ed Griffen, MedChemica Consultancy Ltd",,False,
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(C2)N=CN(c2cncc4ccccc24)C3=O)CC1,EDG-MED-00af8776-1,"Ed Griffen, MedChemica Consultancy Ltd",,False,
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(C2)N=CN(c2cncc4ccccc24)C3=O)CC1,EDG-MED-b6bce001-1,"Ed Griffen, MedChemica Consultancy Ltd",,False,EDG-MED-b6bce001-1
+CC1=NC2(CN(S(=O)(=O)CC3(C#N)CC3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,EDG-MED-b6bce001-2,"Ed Griffen, MedChemica Consultancy Ltd",,False,EDG-MED-b6bce001-2
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CS(=O)(=O)C1,ALP-POS-ecbed2ba-1,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-1
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CCS(=O)(=O)CC1,ALP-POS-ecbed2ba-2,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-2
+CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,ALP-POS-ecbed2ba-3,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-3
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,ALP-POS-ecbed2ba-4,"Alpha Lee, PostEra",,False,EDJ-MED-8bb691af-6
+O=C1N(c2cncc3ccccc23)CCC12CN(S(=O)(=O)CC1CS(=O)(=O)C1)Cc1ccc(Cl)cc12,ALP-POS-ecbed2ba-5,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-5
+COC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,ALP-POS-ecbed2ba-6,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-6
+CNC(=O)C1(N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,ALP-POS-ecbed2ba-7,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-7
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CCC1,ALP-POS-ecbed2ba-8,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-8
+N#CC1CN(S(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)C1,ALP-POS-ecbed2ba-9,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-9
+COC1CN(S(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)C1,ALP-POS-ecbed2ba-10,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-10
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CCOCC1,ALP-POS-ecbed2ba-11,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-11
+O=C(CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1)NCC1CC1,ALP-POS-ecbed2ba-12,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-12
+CC(C)(C#N)CS(=O)(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-13,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-13
+N#CCNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-14,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-14
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CCCC1,ALP-POS-ecbed2ba-15,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-15
+CN(CCC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-16,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-16
+CN(CC#N)S(=O)(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-17,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-17
+CCN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-18,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-18
+CN(CCO)S(=O)(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-19,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-19
+O=C1N(c2cncc3ccccc23)CCC12CN(S(=O)(=O)N1CCC1)Cc1ccc(Cl)cc12,ALP-POS-ecbed2ba-20,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-20
+COCCN(C)S(=O)(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,ALP-POS-ecbed2ba-21,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-21
+N#CCC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,ALP-POS-ecbed2ba-22,"Alpha Lee, PostEra",,False,ALP-POS-ecbed2ba-22
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(C2)NC(=O)N(c2cncc4ccccc24)C3=O)CC1,MAT-POS-c2d406ed-1,"Matt Robinson, PostEra",,False,MAT-POS-c2d406ed-1
+CN1C(=O)N(c2cncc3ccccc23)C(=O)C12CN(S(=O)(=O)CC1(C#N)CC1)Cc1ccc(Cl)cc12,MAT-POS-c2d406ed-2,"Matt Robinson, PostEra",,False,MAT-POS-c2d406ed-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(C2)NC(=S)N(c2cncc4ccccc24)C3=O)CC1,MAT-POS-c2d406ed-3,"Matt Robinson, PostEra",,False,MAT-POS-c2d406ed-3
+CN1C(=S)N(c2cncc3ccccc23)C(=O)C12CN(S(=O)(=O)CC1(C#N)CC1)Cc1ccc(Cl)cc12,MAT-POS-c2d406ed-4,"Matt Robinson, PostEra",,False,MAT-POS-c2d406ed-4
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4c3CCCC4)C2=O)C1,EDJ-MED-705e09b8-1,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-705e09b8-1
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5c4CCCC5)C3=O)C2)CC1,EDJ-MED-705e09b8-2,"Ed J Griffen, MedChemica Consultancy Ltd",,False,EDJ-MED-705e09b8-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@@]3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,MIK-ENA-5d9157e9-1,"Mikhail Shafeev, Enamine",,False,MIK-ENA-5d9157e9-1
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@]3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,MIK-ENA-5d9157e9-2,"Mikhail Shafeev, Enamine",,False,MIK-ENA-5d9157e9-2
+CNC(=O)CN1C[C@@H](C(=O)Nc2cncc3cccc(Cl)c23)c2cc(Cl)ccc2C1=O,MIK-ENA-5d9157e9-3,"Mikhail Shafeev, Enamine",,False,MIK-ENA-5d9157e9-3
+CNC(=O)CN1C[C@H](C(=O)Nc2cncc3cccc(Cl)c23)c2cc(Cl)ccc2C1=O,MIK-ENA-5d9157e9-4,"Mikhail Shafeev, Enamine",,False,MIK-ENA-5d9157e9-4
+C[C@]1(C(=O)Nc2cncc3c2CCCC3)CNS(=O)(=O)c2ccc(Cl)cc21,MIK-ENA-5d9157e9-5,"Mikhail Shafeev, Enamine",,False,MIK-ENA-5d9157e9-5
+C[C@@]1(C(=O)Nc2cncc3c2CCCC3)CNS(=O)(=O)c2ccc(Cl)cc21,MIK-ENA-5d9157e9-6,"Mikhail Shafeev, Enamine",,False,MIK-ENA-5d9157e9-6
+CNC(=O)CN1C[C@@H](C(=O)N(C#N)c2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-f860268d-1,Peter Kenny,,False,PET-UNK-f860268d-1
+NC(=O)CN1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-f860268d-2,Peter Kenny,,False,PET-UNK-f860268d-2
+N#CNC(=O)CN1C[C@@H](C(=O)N(C#N)c2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-f860268d-3,Peter Kenny,,False,PET-UNK-f860268d-3
+CNC(=O)CN1CC(C(=O)N(C#N)c2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-f860268d-4,Peter Kenny,,False,PET-UNK-f860268d-4
+NC(=O)CN1CC(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-f860268d-5,Peter Kenny,,False,PET-UNK-f860268d-5
+N#CNC(=O)CN1CC(C(=O)N(C#N)c2cncc3ccccc23)c2cc(Cl)ccc2C1=O,PET-UNK-f860268d-6,Peter Kenny,,False,PET-UNK-f860268d-6

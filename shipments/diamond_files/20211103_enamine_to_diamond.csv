@@ -1,0 +1,10 @@
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-73,05_A,20211103_enamine_to_xchem.csv,CC(=O)N1CCC=2C=CC(Cl)=CC2C1C(=O)NC=3C=NC=C4C=CC=CC34,EDJ-MED-b774e9fe-1,4,100,EDJ-MED-b774e9fe-1,Racemic or presumed racemic or meso,Z5261485095,H3513481,59.3
+1181202-Y4-73,05_B,20211103_enamine_to_xchem.csv,CN(C=1C=CC=2C(NC(=O)CC=3C=CC=C(Cl)C3)=CN=CC2C1)S(=O)(=O)C,MAT-POS-90fd5f68-10,4,100,MAT-POS-90fd5f68-10,Achiral,Z5261485113,H3553897,20.7
+1181202-Y4-73,05_C,20211103_enamine_to_xchem.csv,ClC=1C=CC2=C(C1)C(CNS2(=O)=O)C(=O)NC=3C=NC=C4CCCCC34,ALP-POS-4483ae88-4,4,100,ALP-POS-4483ae88-4,Racemic or presumed racemic or meso,Z5395340386,H3549991,28.8
+1181202-Y4-73,05_D,20211103_enamine_to_xchem.csv,CN(C=1C=CC=2C(NC(=O)C3CN(CC=4C=CC(Cl)=CC34)S(=O)(=O)CC5(CC5)C#N)=CN=CC2C1)S(=O)(=O)C,MAT-POS-22373164-1,4,100,MAT-POS-22373164-1,Racemic or presumed racemic or meso,Z5372150753,H3553896,38.8
+1181202-Y4-73,05_E,20211103_enamine_to_xchem.csv,CC1(CS(=O)(=O)N2CC(C(=O)NC=3C=NC=C4C=C(C=CC34)S(=O)(=O)C)C=5C=C(Cl)C=CC5C2)CS(=O)(=O)C1,EDJ-MED-ede277f6-12,4,100,EDJ-MED-ede277f6-12,Racemic or presumed racemic or meso,Z5367986372,H3545011,18.8
+1181202-Y4-73,05_F,20211103_enamine_to_xchem.csv,COC1(CS(=O)(=O)N2CC(C(=O)NC=3C=NC=C4C=C(C=CC34)S(=O)(=O)C)C=5C=C(Cl)C=CC5C2=O)CC1,EDJ-MED-968bafd9-2,4,100,EDJ-MED-968bafd9-2,Racemic or presumed racemic or meso,Z5335933762,H3550035,3.4
+1181202-Y4-73,05_G,20211103_enamine_to_xchem.csv,CC1(CNS(=O)(=O)C=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4CCCCC34,ALP-POS-4483ae88-4a,4,100,ALP-POS-5fe48310-1,Racemic or presumed racemic or meso,Z5401334701,H3566325,10.3
+1181202-Y4-73,05_H,20211103_enamine_to_xchem.csv,CC(C)(O)C=1C=CC=2C=NC=C(NC(=O)C3CN(CC=4C=CC(Cl)=CC34)S(=O)(=O)CC5(CC5)C#N)C2C1,MAT-POS-97ec4bd1-2,4,100,MAT-POS-97ec4bd1-2,Racemic or presumed racemic or meso,Z5367986359,H3561623,14.6
+1181202-Y4-73,05_I,20211103_enamine_to_xchem.csv,CNC(=O)CN1CC(C(=O)NC=2C=NC=C3C=C(NS(=O)(=O)C)C=CC23)C=4C=C(Cl)C=CC4C1=O,MAT-POS-b4d6b7fc-2,4,100,MAT-POS-b4d6b7fc-2,Racemic or presumed racemic or meso,Z5372150758,H3567511,23.2

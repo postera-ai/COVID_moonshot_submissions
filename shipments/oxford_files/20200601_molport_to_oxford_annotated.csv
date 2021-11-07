@@ -9,4 +9,4 @@ O=C(N[C@H](C1CCOCC1)C(C(N/N=C2SC[C@@H](C)N\2C)=O)=O)C3CCCCCC3,,,AAR-POS-dddeddbf
 C1=CC(=CC=C1C(=C(C#N)C(=O)NC2=CC=C(C=C2)F)O)Cl,,,JOH-UNI-c7afdb96-2,MS-0520,,,,,,,not found,UNK,UNK
 CC(C)[C@H](NC(=O)OCc1ccccc1)C(=O)NC(C=O)Cc1ccccc1,,,MAT-POS-bfefc3ea-2,calpain inhibitor 3,,,,,,,not found,UNK,UNK
 O=C(NC[C@]1(COc2ccc(C(F)(F)F)cn2)C[C@H](O)[C@H](O)C1)Nc1cccnc1,,,FAR-UNI-736b943a-6,nat48-548100,,,,,,,not found,UNK,UNK
-O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,,,GER-UNI-caecb3b0-1,stk713346,,,,,,,not found,UNK,UNK
+O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O,GER-UNI-caecb3b0-1,CVD-0001265,GER-UNI-caecb3b0-1,stk713346,,,,,,,,UNK,UNK
