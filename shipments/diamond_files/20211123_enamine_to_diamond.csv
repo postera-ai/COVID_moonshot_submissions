@@ -1,0 +1,6 @@
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-77,05_A,20211123_enamine_to_xchem.csv,CC(C)CN1CC(C)(C(=O)NC=2C=NC=C3C=CC=CC23)C=4C=C(Cl)C=CC4S1(=O)=O,MAT-POS-c88128cb-4,4,100,MAT-POS-c88128cb-4,Racemic or presumed racemic or meso,Z5367986313,H3608201,24.9
+1181202-Y4-77,05_B,20211123_enamine_to_xchem.csv,ClC=1C=CC=2CN(C[C@]3(CC(=O)N(C3=O)C=4C=NC=C5C=CC=CC45)C2C1)S(=O)(=O)CC6(CC6)C#N,LUO-POS-868e8996-9,4,100,LUO-POS-868e8996-9,Single unknown enantiomer,Z5442717982,H3622139,45.2
+1181202-Y4-77,05_C,20211123_enamine_to_xchem.csv,ClC=1C=CC=2CN(C[C@@]3(CC(=O)N(C3=O)C=4C=NC=C5C=CC=CC45)C2C1)S(=O)(=O)CC6(CC6)C#N,LUO-POS-868e8996-10,4,100,LUO-POS-868e8996-10,Single unknown enantiomer,Z5442717985,H3622140,43.5
+1181202-Y4-77,05_D,20211123_enamine_to_xchem.csv,ClC=1C=CC=2CN(C[C@@]3(CCN(C3=O)C=4C=NC=C5C=CC=CC45)C2C1)S(=O)(=O)CC6(CC6)C#N,MIK-ENA-5d9157e9-2,4,100,MIK-ENA-5d9157e9-2,Single unknown enantiomer,Z5461592593,H3629679,46.5
+1181202-Y4-77,05_E,20211123_enamine_to_xchem.csv,ClC=1C=CC=2CN(C[C@]3(CCN(C3=O)C=4C=NC=C5C=CC=CC45)C2C1)S(=O)(=O)CC6(CC6)C#N,MIK-ENA-5d9157e9-1,4,100,MIK-ENA-5d9157e9-1,Single unknown enantiomer,Z5461592587,H3629678,45.9

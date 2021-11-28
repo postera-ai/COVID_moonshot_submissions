@@ -454,11 +454,11 @@ def update_data(
         create_fluorescence_dose_response_specs(fluorescence_IC50_df)
         create_rapidfire_dose_response_specs(rapidfire_IC50_df)
 
-        from lib.create_map_plot import create_map_plot_spec
+        # from lib.create_map_plot import create_map_plot_spec
 
-        world_map_spec_data = create_map_plot_spec(all_df.copy())
-        with open(dir_path / "plots" / "world_map_spec.json", "w",) as f:
-            f.writelines(world_map_spec_data)
+        # world_map_spec_data = create_map_plot_spec(all_df.copy())
+        # with open(dir_path / "plots" / "world_map_spec.json", "w",) as f:
+        #     f.writelines(world_map_spec_data)
 
 
 if __name__ == "__main__":

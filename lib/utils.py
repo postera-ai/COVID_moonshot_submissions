@@ -20,10 +20,14 @@ id_df = pd.read_csv(dir_path / "../covid_moonshot_ids.csv")
 cdd_df = pd.read_csv(
     dir_path / "../data_for_CDD/current_vault_data/current_vault_data.csv"
 )
-CID_df = pd.read_csv("https://covid.postera.ai/covid/submissions.csv")
+# CID_df = pd.read_csv("https://covid.postera.ai/covid/submissions.csv")
+CID_df = pd.read_csv(dir_path / "../downloaded_COVID_submissions_file.csv")
 
 
 def get_CID(ik):
+    if ik == "NQIQTGDJKOVBRF-UHFFFAOYSA-N":
+        print("seeing JAG-UCB-52b62a6f-9 IK")
+        print(list(id_df.loc[id_df["inchikey"] == ik]["canonical_CID"])[0])
     short_ik = ik.split("-")[0]
     if ik in list(id_df["inchikey"]):
         return list(id_df.loc[id_df["inchikey"] == ik]["canonical_CID"])[0]
@@ -37,6 +41,11 @@ def get_CID(ik):
 
 
 def get_CDD_ID(external_id):
+    if external_id == "JAG-UCB-52b62a6f-9":
+        print("seeing JAG-UCB-52b62a6f-9")
+        print(list(
+            cdd_df.loc[cdd_df["external_ID"] == external_id]["CDD_name"]
+        )[0])
     if external_id in list(cdd_df["external_ID"]):
         return list(
             cdd_df.loc[cdd_df["external_ID"] == external_id]["CDD_name"]
@@ -47,7 +56,10 @@ def get_CDD_ID(external_id):
 
 
 def get_comments(ik):
+    print("seeing JAG-UCB-52b62a6f-9 IK for comments")
+    print(ik in list(id_df["inchikey"]))
     short_ik = ik.split("-")[0]
+    print(short_ik in list(id_df["short_inchikey"]))
     if ik in list(id_df["inchikey"]):
         return ""
     elif short_ik in list(id_df["short_inchikey"]):
