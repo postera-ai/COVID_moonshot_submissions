@@ -1,0 +1,8 @@
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-78,05_A,20211208_enamine_to_xchem.csv,CNC(=O)CN1CC=2C=CC(Cl)=CC2C3(CCN(C3=O)C=4C=NC=C5CCCCC45)C1,EDJ-MED-705e09b8-1,4,100,EDJ-MED-705e09b8-1,Racemic or presumed racemic or meso,Z5461592579,H3684601,163.3
+1181202-Y4-78,05_B,20211208_enamine_to_xchem.csv,ClC=1C=CC2=C(C1)[C@@H](CNS2(=O)=O)C(=O)NC=3C=NC=C4CCCCC34,MIK-UNK-78dbf1b8,4,100,MIK-UNK-78dbf1b8-1,Single unknown enantiomer,Z5550935864,H3681763,9.8
+1181202-Y4-78,05_C,20211208_enamine_to_xchem.csv,ClC=1C=CC2=C(C1)[C@H](CNS2(=O)=O)C(=O)NC=3C=NC=C4CCCCC34,MIK-UNK-58cd43d0,4,100,MIK-UNK-58cd43d0-1,Single unknown enantiomer,Z5550935878,H3681764,8.6
+1181202-Y4-78,05_D,20211208_enamine_to_xchem.csv,ClC=1C=CC=2CN(CC3(CCN(C3=O)C=4C=NC=C5CCCCC45)C2C1)S(=O)(=O)CC6(CC6)C#N,EDJ-MED-705e09b8-2,4,100,EDJ-MED-705e09b8-2,Racemic or presumed racemic or meso,Z5461592585,H3684600,13.1
+1181202-Y4-78,05_E,20211208_enamine_to_xchem.csv,CNC(=O)C(C)(C)N1CC(C(=O)NC=2C=NC=C3C=CC=CC23)C=4C=C(Cl)C=CC4C1=O,EDJ-MED-12c4873b-4,4,100,EDJ-MED-12c4873b-4,Racemic or presumed racemic or meso,Z5261485075,H3625061,0.0
+1181202-Y4-78,05_F,20211208_enamine_to_xchem.csv,C[C@]1(CNS(=O)(=O)C=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4CCCCC34,MIK-ENA-5d9157e9-6,4,100,MIK-ENA-5d9157e9-6,Single unknown enantiomer,Z5461592610,H3674896,3.8
+1181202-Y4-78,05_G,20211208_enamine_to_xchem.csv,C[C@@]1(CNS(=O)(=O)C=2C=CC(Cl)=CC21)C(=O)NC=3C=NC=C4CCCCC34,MIK-ENA-5d9157e9-5,4,100,MIK-ENA-5d9157e9-5,Single unknown enantiomer,Z5461592607,H3674897,3.6
