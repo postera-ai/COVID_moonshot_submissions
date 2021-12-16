@@ -8,7 +8,6 @@ There exists one "master file" containing most of the non-experimental informati
 
 There also exist several folders:
 - [data_for_CDD/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/data_for_CDD): prepares the data in a format suitable for upload to the CDD (Collaborative Drug Discovery) vault
-- [experimental_data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/experimental_data): data resulting from assays on the ordered compounds.
 - [orders_data/](https://github.com/mc-robinson/COVID_moonshot_submissions): The compounds that have been ordered up to this point.
 - [shipments_data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/shipments_data) the compounds that have been recevied up to this point.
 
