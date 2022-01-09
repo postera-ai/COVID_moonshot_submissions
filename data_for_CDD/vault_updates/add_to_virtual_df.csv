@@ -1,1 +1,75 @@
 SMILES,CID,creator,creator,fragments,fragments,covalent_warhead,covalent_warhead,CID (canonical)
+CS(=O)(=O)c1cc(Cl)c2c(N)cncc2c1,EDJ-MED-32ea7ca7-1,,"Ed J Griffen, MedChemica Consultancy Ltd",,,,False,EDJ-MED-32ea7ca7-1
+C#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@H](C(=O)Nc3cncc4ccccc34)C2)CC1,PET-UNK-94036022-1,,Peter Kenny,,,,False,PET-UNK-94036022-1
+C#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@@]3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,PET-UNK-94036022-2,,Peter Kenny,,,,False,PET-UNK-94036022-2
+O=C1N(c2cncc3ccccc23)CC[C@]12CN(S(=O)(=O)CC1(Cl)CC1)Cc1ccc(Cl)cc12,PET-UNK-94036022-3,,Peter Kenny,,,,False,PET-UNK-94036022-3
+C#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@@]3(CC(=O)N(c4cncc5ccccc45)C3=O)C2)CC1,PET-UNK-94036022-4,,Peter Kenny,,,,False,PET-UNK-94036022-4
+O=C1C[C@]2(CN(S(=O)(=O)CC3(Cl)CC3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-94036022-5,,Peter Kenny,,,,False,PET-UNK-94036022-5
+C=C1C(=O)[C@]2(CN(S(=O)(=O)CC3(C#N)CC3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-94036022-6,,Peter Kenny,,,,False,PET-UNK-94036022-6
+C=C1C(=O)[C@]2(CN(CC(=O)NC)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-94036022-7,,Peter Kenny,,,,False,PET-UNK-94036022-7
+C#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3cncc4ccccc34)C2)CC1,PET-UNK-94036022-8,,Peter Kenny,,,,False,PET-UNK-94036022-8
+C#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,PET-UNK-94036022-9,,Peter Kenny,,,,False,PET-UNK-94036022-9
+O=C1N(c2cncc3ccccc23)CCC12CN(S(=O)(=O)CC1(Cl)CC1)Cc1ccc(Cl)cc12,PET-UNK-94036022-10,,Peter Kenny,,,,False,PET-UNK-94036022-10
+C#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5ccccc45)C3=O)C2)CC1,PET-UNK-94036022-11,,Peter Kenny,,,,False,PET-UNK-94036022-11
+O=C1CC2(CN(S(=O)(=O)CC3(Cl)CC3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-94036022-12,,Peter Kenny,,,,False,PET-UNK-94036022-12
+C=C1C(=O)C2(CN(S(=O)(=O)CC3(C#N)CC3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-94036022-13,,Peter Kenny,,,,False,PET-UNK-94036022-13
+C=C1C(=O)C2(CN(CC(=O)NC)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-94036022-14,,Peter Kenny,,,,False,PET-UNK-94036022-14
+CC(C)NC(=O)CN1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,JOH-UNI-6b98e24c-1,,"John Spencer, University of Sussex",,,,False,JOH-UNI-6b98e24c-1
+CNC(=O)C(C(C)C)N1C[C@@H](C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2C1=O,JOH-UNI-6b98e24c-2,,"John Spencer, University of Sussex",,,,False,JOH-UNI-6b98e24c-2
+CNC(=O)CN1C[C@@H](C(=O)Nc2c(C(F)F)ncc3ccccc23)c2cc(Cl)ccc2C1=O,JOH-UNI-6b98e24c-3,,"John Spencer, University of Sussex",,,,False,JOH-UNI-6b98e24c-3
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@]2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,JOH-MSK-1f2dff76-1,,"John Chodera, MSKCC",,,,False,JOH-MSK-1f2dff76-1
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@@]2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,JOH-MSK-1f2dff76-2,,"John Chodera, MSKCC",,,,False,JOH-MSK-1f2dff76-2
+O=C1C[C@@]2(CNCc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,JOH-MSK-1f2dff76-3,,"John Chodera, MSKCC",,,,False,JOH-MSK-1f2dff76-3
+O=C1C[C@]2(CNCc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,JOH-MSK-1f2dff76-4,,"John Chodera, MSKCC",,,,False,JOH-MSK-1f2dff76-4
+CN1Cc2ccc(Cl)cc2[C@]2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,JOH-MSK-51c67e7d-1,,"John Chodera, MSKCC",,,,False,JOH-MSK-51c67e7d-1
+CN1Cc2ccc(Cl)cc2[C@@]2(CC(=O)N(c3cncc4ccccc34)C2=O)C1,JOH-MSK-51c67e7d-2,,"John Chodera, MSKCC",,,,False,JOH-MSK-51c67e7d-2
+CNC(=O)CN1CC(C(=O)Nc2cncc3cccc(C(F)F)c23)c2cc(Cl)ccc2C1=O,MIC-UNK-51049f1a-1,,Michal K,,,,False,MIC-UNK-51049f1a-1
+CNC(=O)CN1CC(C(=O)Nc2cncc3cccc(Br)c23)c2cc(Cl)ccc2C1=O,MIC-UNK-51049f1a-2,,Michal K,,,,False,MIC-UNK-51049f1a-2
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cccc(C(F)F)c23)C1,MIC-UNK-51049f1a-3,,Michal K,,,,False,MIC-UNK-51049f1a-3
+CNC(=O)CN1Cc2ccc(Cl)cc2C(C(=O)Nc2cncc3cccc(Br)c23)C1,MIC-UNK-51049f1a-4,,Michal K,,,,False,MIC-UNK-51049f1a-4
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(C(F)F)c12,MIC-UNK-51049f1a-5,,Michal K,,,,False,MIC-UNK-51049f1a-5
+O=C(Cc1cccc(Cl)c1)Nc1cncc2cccc(Br)c12,MIC-UNK-51049f1a-6,,Michal K,,,,False,MIC-UNK-51049f1a-6
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@@]2(CCN(c3cncc4sccc34)C2=O)C1,PET-UNK-df7eb4e6-1,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-1
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@@]2(CC(=O)N(c3cncc4sccc34)C2=O)C1,PET-UNK-df7eb4e6-2,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-2
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@@]3(CCN(c4cncc5sccc45)C3=O)C2)CC1,PET-UNK-df7eb4e6-3,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-3
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@@]3(CC(=O)N(c4cncc5sccc45)C3=O)C2)CC1,PET-UNK-df7eb4e6-4,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-4
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4sccc34)C2=O)C1,PET-UNK-df7eb4e6-5,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-5
+CNC(=O)CN1Cc2ccc(Cl)cc2C2(CC(=O)N(c3cncc4sccc34)C2=O)C1,PET-UNK-df7eb4e6-6,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-6
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5sccc45)C3=O)C2)CC1,PET-UNK-df7eb4e6-7,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-7
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CC(=O)N(c4cncc5sccc45)C3=O)C2)CC1,PET-UNK-df7eb4e6-8,,Peter Kenny,,,,False,PET-UNK-df7eb4e6-8
+CNC(=O)CN1C(=O)c2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1C(F)(F)F,VLA-UNK-61877630-1,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-1
+CNC(=O)CN1C(=O)c2ccc(Cl)cc2C(C(=O)Nc2cncc3ccccc23)C1C(F)F,VLA-UNK-61877630-2,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-2
+CNC(=O)CN1C(=O)c2ccc(Cl)cc2[C@]2(CCN(c3cncc4ccccc34)C2=O)C1C(F)(F)F,VLA-UNK-61877630-3,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-3
+CNC(=O)CN1C[C@@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)cc(F)c2C1=O,VLA-UNK-61877630-4,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-4
+CNC(=O)CN1C[C@@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)c(F)cc2C1=O,VLA-UNK-61877630-5,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-5
+CNC(=O)CN1C(=O)c2ccc(Cl)cc2[C@]2(CCN(c3cncc4ccccc34)C2=O)C1C(F)F,VLA-UNK-61877630-6,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-6
+N#CC1(CS(=O)(=O)N2Cc3c(F)cc(Cl)cc3[C@]3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,VLA-UNK-61877630-7,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-7
+N#CC1(CS(=O)(=O)N2Cc3cc(F)c(Cl)cc3[C@]3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,VLA-UNK-61877630-8,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-8
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3[C@]3(CCN(c4cncc5ccccc45)C3=O)C2C(F)(F)F)CC1,VLA-UNK-61877630-9,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-9
+O=C1N(c2cncc3ccccc23)CC[C@@]12CN(S(=O)(=O)CC1(C(F)(F)F)CC1)Cc1ccc(Cl)cc12,VLA-UNK-61877630-10,,Vladas Oleinikovas,,,,False,VLA-UNK-61877630-10
+CNC(=O)CN1C[C@](C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,MIK-ENA-f5fe7855-1,,"Mikhail Shafeev, Enamine",,,,False,LUO-POS-868e8996-1
+CNC(=O)CN1C[C@](C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,MIK-ENA-e76e31f3-1,,"Mikhail Shafeev, Enamine",,,,False,LUO-POS-868e8996-1
+CNC(=O)CN1C[C@](C)(C(=O)Nc2cncc3ccccc23)c2cc(Cl)ccc2S1(=O)=O,MIK-ENA-d22671f7-1,,"Mikhail Shafeev, Enamine",,,,False,LUO-POS-868e8996-1
+CNC(=O)CN1C[C@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,MIK-ENA-37e0b697-1,,"Mikhail Shafeev, Enamine",,,,False,PET-UNK-14142a25-1
+CNC(=O)CN1C[C@@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,MIK-ENA-794411b8-1,,"Mikhail Shafeev, Enamine",,,,False,LUO-POS-9931618f-2
+CNC(=O)CN1C(C(F)(F)F)[C@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2S1(=O)=O,VLA-UNK-f2612802-1,,Vladas Oleinikovas,,,,False,VLA-UNK-f2612802-1
+CNC(=O)CN1C[C@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)c(F)cc2S1(=O)=O,VLA-UNK-f2612802-2,,Vladas Oleinikovas,,,,False,VLA-UNK-f2612802-2
+CNC(=O)CN1C[C@]2(CCN(c3cncc4ccccc34)C2=O)c2cc(Cl)cc(F)c2S1(=O)=O,VLA-UNK-f2612802-3,,Vladas Oleinikovas,,,,False,VLA-UNK-f2612802-3
+CNC(=O)C1(N2C[C@]3(CCN(c4cncc5ccccc45)C3=O)c3cc(Cl)ccc3C2=O)CC1,MAT-POS-e48723dc-1,,"Matt Robinson, PostEra",,,,False,MAT-POS-e48723dc-1
+CNC(=O)C1(N2C[C@@]3(CCN(c4cncc5ccccc45)C3=O)c3cc(Cl)ccc3C2=O)CC1,MAT-POS-e48723dc-2,,"Matt Robinson, PostEra",,,,False,MAT-POS-e48723dc-2
+O=C1C[C@]2(CN(Cc3nncs3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-77d5678a-1,,Peter Kenny,,,,False,PET-UNK-77d5678a-1
+O=C1c2ccc(Cl)cc2[C@@]2(CC(=O)N(c3cncc4ccccc34)C2=O)CN1Cc1nnco1,PET-UNK-77d5678a-2,,Peter Kenny,,,,False,PET-UNK-77d5678a-2
+COC(=O)CN1C[C@]2(CC(=O)N(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,PET-UNK-77d5678a-3,,Peter Kenny,,,,False,PET-UNK-77d5678a-3
+O=C1CC2(CN(Cc3nncs3)Cc3ccc(Cl)cc32)C(=O)N1c1cncc2ccccc12,PET-UNK-77d5678a-4,,Peter Kenny,,,,False,PET-UNK-77d5678a-4
+O=C1c2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2=O)CN1Cc1nnco1,PET-UNK-77d5678a-5,,Peter Kenny,,,,False,PET-UNK-77d5678a-5
+COC(=O)CN1CC2(CC(=O)N(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,PET-UNK-77d5678a-6,,Peter Kenny,,,,False,PET-UNK-77d5678a-6
+O=C1c2ccc(Cl)cc2[C@@]2(CC(=O)N(c3cncc4ccccc34)C2=O)CN1Cc1nnco1,12_-111-3e02a1cd-1,,"12, 111111111111112",,,,False,PET-UNK-77d5678a-2
+COC(=O)CN1C[C@]2(CC(=O)N(c3cncc4ccccc34)C2=O)c2cc(Cl)ccc2C1=O,12_-111-3e02a1cd-2,,"12, 111111111111112",,,,False,PET-UNK-77d5678a-3
+O=C1c2ccc(Cl)cc2[C@@]2(CCN(c3cncc4ccccc34)C2=O)CN1Cc1nncs1,PET-UNK-6af7266d-1,,Peter Kenny,,,,False,PET-UNK-6af7266d-1
+O=C1c2ccc(Cl)cc2[C@@]2(CC(=O)N(c3cncc4ccccc34)C2=O)CN1Cc1nncs1,PET-UNK-6af7266d-2,,Peter Kenny,,,,False,PET-UNK-6af7266d-2
+O=C1c2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)CN1Cc1nncs1,PET-UNK-6af7266d-3,,Peter Kenny,,,,False,PET-UNK-6af7266d-3
+O=C1c2ccc(Cl)cc2C2(CC(=O)N(c3cncc4ccccc34)C2=O)CN1Cc1nncs1,PET-UNK-6af7266d-4,,Peter Kenny,,,,False,PET-UNK-6af7266d-4
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(C2)C(=O)N(c2cncc4ccccc24)C(=O)N3CC2CCC(=O)NC2)CC1,JOH-MSK-949975c8-1,,"John Chodera, MSKCC",,,,False,JOH-MSK-949975c8-1
+N#CC1(CS(=O)(=O)N2Cc3cc(Cl)c(Cl)cc3C3(C2)NC(=O)N(c2cncc4ccccc24)C3=O)CC1,JOH-MSK-ccc6e4c0-1,,"John Chodera, MSKCC",,,,False,JOH-MSK-ccc6e4c0-1
+O=C1CCC(CN2C(=O)N(c3cncc4ccccc34)C(=O)[C@@]23CCOc2cc(Cl)c(Cl)cc23)CN1,JOH-MSK-b735e33c-1,,"John Chodera, MSKCC",,,,False,JOH-MSK-b735e33c-1
+N#CC1(CS(=O)(=O)N2Cc3cc(Cl)c(Cl)cc3C3(C2)C(=O)N(c2cncc4ccccc24)C(=O)N3CC2CCC(=O)NC2)CC1,JOH-MSK-cef8a2bc-1,,"John Chodera, MSKCC",,,,False,JOH-MSK-cef8a2bc-1

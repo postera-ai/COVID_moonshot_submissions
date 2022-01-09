@@ -5,6 +5,14 @@ O=C(O)C1CCOc2ccc(Cl)cc21,,not found
 NC1(C(=O)O)CCOc2ccccc21,,not found
 Clc1cccc(CN2CCNCC2)c1,,not found
 Clc1ccc2c(c1)NCCO2,,not found
+O=C(CN1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1)NCC1CC1,ALP-POS-ecbed2ba-12,
+CNC(=O)C1(N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5ccccc45)C3=O)C2)CC1,ALP-POS-ecbed2ba-7,
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C(C(=O)Nc3nncn3C3CC3)C2)CC1,EDJ-MED-fb79a796-3,
+N#CC1(CS(=O)(=O)N2Cc3ccc(Cl)cc3C3(CCN(c4cncc5cc(F)cc(Cl)c45)C3=O)C2)CC1,MAT-POS-853c0ffa-6,
+O=C(c1ccnn1C1CC1)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,MAT-POS-be048f2c-7,
+CC(C)n1nccc1C(=O)N1Cc2ccc(Cl)cc2C2(CCN(c3cncc4ccccc34)C2=O)C1,MAT-POS-be048f2c-6,
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@]2(CCN(c3cncc4c3CCCC4)C2=O)C1,MIK-UNK-122557fa-1,
+CNC(=O)CN1Cc2ccc(Cl)cc2[C@@]2(CCN(c3cncc4c3CCCC4)C2=O)C1,MIK-UNK-1619f2e2-1,
 O=C(Cc1cc(Cl)cc(Br)c1)Nc1cncc2ccccc12,,not found
 O=C(Cc1cc(Cl)cc(B(O)O)c1)Nc1cncc2ccccc12,,not found
 CC1(C)OB(c2cc(Cl)cc(CC(=O)Nc3cncc4ccccc34)c2)OC1(C)C,,not found
