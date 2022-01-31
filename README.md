@@ -8,13 +8,13 @@ There exists one "master file" containing most of the non-experimental informati
 
 There also exist several folders:
 - [data_for_CDD/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/data_for_CDD): prepares the data in a format suitable for upload to the CDD (Collaborative Drug Discovery) vault
-- [orders_data/](https://github.com/mc-robinson/COVID_moonshot_submissions): The compounds that have been ordered up to this point.
-- [shipments_data/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/shipments_data) the compounds that have been recevied up to this point.
+- [orders/](https://github.com/mc-robinson/COVID_moonshot_submissions): The compounds that have been ordered up to this point.
+- [shipments/](https://github.com/mc-robinson/COVID_moonshot_submissions/tree/master/shipments_data) the compounds that have been recevied up to this point.
 
 Some more detail on [covid_submissions_all_info.csv](https://github.com/mc-robinson/COVID_moonshot_submissions/blob/master/covid_submissions_all_info.csv), and its many fields.
 
 This is the main file containing all of the submitted molecules. It contains quite a few fields described below:
-- **SMILES**: the SMILES string as canonicalized by RDKit and standardized by https://github.com/chembl/ChEMBL_Structure_Pipeline.
+- **SMILES**: the SMILES string as canonicalized by RDKit and standardized by https://github.com/chembl/ChEMBL_Structure_Pipeline. Note that this SMILES is the registration SMILES, but may not correspond to the actual SMILES of the compound. See the `suspected_SMILES` field of `suspected_SMILES.csv` for further info.
 - **CID**: the compound ID, with the first 3 strings corresponding to the submission ID at https://covid.postera.ai/covid/submissions. 
        e.g. "MAT-POS-916a2c5a-1" is the 3rd molecule of submission "MAT-POS-916a2c5a". 
        The submission ID's are constructed as "<FIRST 3 LETTERS OF NAME>-<FIRST 3 LETTERS OF INSTITUTION>-<RANDOM 8 character string>"
@@ -29,16 +29,6 @@ associated submission
 - **fragments**: the XChem fragments cited as inspiration for the submissions. This field has now been deprecated for the "Inspired By" field found on the website.
 - **Structure ID**: The Fragalysis ID of the crystal structure, if it exists. 
 - **Fragalysis Link**: The link to the structure on Fragalysis, if it exists
-- **Covalent Fragment**: if one of the fragments cited as inpiration is a covalent fragment
-- **covalent_warhead**: if *at least one* covalent warhead moiety is present in the designed molecule.
-- **Acrylamide**: If the acrylamide moiety is in the molecule
-- **Acrylamide Adduct**: If the acrylamide adduct moiety is in the molecule
-- **Chloroacetamide**: If the chloroacetamide moiety is in the molecule
-- **Chloroacetamide Adduct**: If the chloroacetamide adduct moiety is in the molecule 
-- **Vinylsulfonamide**: If the vinylsulfonamide moiety is in the molecule
-- **Vinylsulfonamide Adduct**: If the vinylsulfonamide adduct moiety is in the molecule
-- **Nitrile**: If the nitrle moiety is in the molecule
-- **Nitrile Adduct**: If the nitrle adduct moiety is in the molecule
 - **MW**: Molecular weight of the molecule
 - **cLogP**: Calculated LogP according to RDKit
 - **HBD**: number of hydrogen bond donors according to RDKit
@@ -79,89 +69,26 @@ associated submission
 - **SHIPMENT_DATE**: The date on which the molecule was shipped to us.
 - **ASSAYED**: If the molecule has been tested for inhibition.
 
-## Assay Details ##
+## Details on SMILES and molecule identities##
 
-### Fluorescence MPro assay: ###
+Please see `suspected_SMILES.csv`: Note that many of the enantiopure compounds on this project were obtained by chiral separation, and thus the compounds are often obtained as a single enantiomer with unknown absolute stereochemistry. The `suspected_SMILES` column represents the understanding of the actually identity of the compound given the current information, which explains the frequent use of enhanced/relative stereochemistry representations. Keep in mind that the`suspected_SMILES` is often not the same as the `registration_SMILES`, since compounds must be registered as a real (non-relatively defined) compound on this project.
 
-Compounds were seeded into assay-ready plates (Greiner 384 low volume 784900) using an Echo 555 acoustic dispenser, and DMSO was back-filled for a uniform concentration in assay plates (maximum 1%). Screening assays were performed in duplicate at 20 µM and 50 µM. Hits of greater than 50% inhibition at 50 µM were confirmed by dose response assays. Reagents for Mpro assay reagents were dispensed into the assay plate in 10 µl volumes for a final of 20 µl. Final reaction concentrations were 20 mM HEPES pH=7.3, 1mM TCEP, 50 mM NaCl, 0.01% Tween-20, 10% glycerol, 5 nM Mpro, 375 nM fluorogenic peptide substrate ([5-FAM]-AVLQSGFR-[Lys(Dabcyl)]-K-amide). Mpro was pre-incubated for 15 minutes at room temperature with compound before addition of substrate. Protease reaction was measured continuously in a BMG Pherastar FS with a 480/520 ex/em filter set.
 
-### RapidFire MPro assay: ###
 
-Inhibitor compounds are dispensed into 384-well plates using the ECHO dispenser (DMSO concentration < 1%). Enzyme solution, containing 20 nM Mpro, 20 mM HEPES, pH 7.5 and 50 mM NaCl, is added to each well and incubated with the inhibitor for 15 min at RT. The reaction is initiated with the addition of 2.0 μM substrate (TSAVLQSGFRK, custom synthesized in Schofield group). After 10 min the reaction is quenched with 10% formic acid and injected into an Agilent RapidFire LC-MS system. Data analysis are done with PRISM and CDD.  All compounds are triaged by testing calculating the % inhibition at 5 and 50 μM final concentration.  Dose response curves are done with 11 datapoints range of 100 – 0.0017 μM inhibitor.
 
-### STD NMR ### 
 
-*Instruments*
-- Oxford Biochemistry 950 MHz NMR (Oxford Instruments magnet, Bruker AvanceIII console, 5mm TCI cryoprobe with tuning accessory, SampleJet temperature-controlled sample changer)
-- Eppendorf 5810R centrifuge with deepwell plate rotorEppendorf 5355 thermomixer
-- Eppendorf Repeater Plus repeating pipetteGilson pipettes
 
-*Sample preparation procedure*
-Final concentrations in NMR samples:
-- 5% v/v D6-DMSO
-- 10% v/v D2O 
-- 10 uM Mpro
-- 90 uM ligand
 
-- Centrifuge ligand-containing 96-well plates at 3 500 rpm, 4 oC, for 5 minutes.
-- Dissolve the ligand adding 7.75 ul of 100% v/v D6-DMSO to each well of the plate. Dispense 147.25 ul of PBS supplemented with D2O (ligand-only control experiments) or PBS supplemented with D2O and Mpro (STD experiments).
-- Seal 96-well plate with adhesive aluminium foils and shake at 500 rpm at RT for 30 min.
-- Centrifuge 96-well plates at 3 500 rpm, 4 oC, for 5 minutes.
-- Transfer (in multiple, small steps) at least 140 μl of each ligand-containing solution to racked, 3 mm NMR tubes, using gel-loading tips.
-- Seal NMR tubes with pom-balls, record position and barcode per sample
 
-*NMR procedure*
-- Pre-set temperature of NMR instrument and sample changer (SC) to 10 oC. Equilibrate for at least 30 min.
-- Insert NMR tube racks to SC and record the rack position. Set the SC to 3 mm shuttle mode.
-- Using TopSpin (currently, version 3.6.1, topspin commands or pulse sequences in parenthesis.
-- Insert first sample in magnet with SC (sx). Let equilibrate for at least 4 min.
-- Tune/Match ATM probe manually (atmm).Read previous shim-set, optimised for 3 mm tubes (rsh)
-- Lock on D2O frequency using 90% H2O / 10% D2O preset (lock).
-- Perform 3D gradient shim followed by temperature-optimised gradient shim (topshim 3d; tso).Optimise lock phase (autophase).
-- Calibrate 90o 1H pulse length, record H2O frequency (zg pulse sequence).
-- Enter new 1H pulse length and H2O frequency in otherwise optimised STD-NMR parameter set for Mpro (stddiffesgp.3 pulse sequence).
-- Save experiment parameters (wpar) and sample shims (wsh).
-- Using IconNMR Automation (currently, version 5.0.9 build 47):
-- Setup automation experiment using saved experiment parameters and sample shims.
-- For each new sample allow 4 min of temperature equilibration.
-- For each new sample perform automatic tuning/matching (atma), locking using 90% H2O / 10% D2O preset (lock), gradient shimming (topshim), receiver gain adjustment (rga).
-- Each new sample takes ~1 h total time, including overheads.
 
-*Data analysis*
-Using TopSpin (currently, version 3.6.1, topspin commands in parenthesis):
-- Deconvolute the STD and reference spectra (stdsplit) into 2 directories. Reference frequency is #2.
-- In the reference spectrum, apply window function, FT and phase the spectra (efp; apk). Record the phase correction values PHC0 and PHC1.
-- Copy PHC0 and PHC1 values to STD spectrum, apply window function, FT and phase (efp).
-- Manually compare the reference spectrum to presumed ligand chemistry. Note impurities and/or concerns. 
-- Integrate the areas of DMSO and ligand peaks in the reference spectrum. Derive ratio of integrated areas between DMSO and single 1H of ligand as metric of relative ligand concentration.
-- Integrate the areas of ligand peaks in STD spectrum. Derive the ratio (multiplied by 103) of ligand peak areas between STD and reference spectrum as metric of ligand binding to Mpro.
 
-### High-throughput solubility threshold measurement ###
 
-Nephelometry-based solubility assay to define threshold compound solubility at the concentrations of 20 µM and 100 µM in PBS solution. The compound solubilities are normalized to Deoxyfluorouridine (100% soluble) and ondansetron (0% solubility).
 
-To put the numbers in perspective, the expected relative solubility values are:
-- High >0.8
-- Mid 0.6-0.8
-- Low <0.6
 
-To perform the screening, 245 µL aliquots of PBS buffer were added to each well of 96-well
-microplates with clear flat bottom. Plates with the buffer were subjected to optical integrity
-inspection using Nephelostar. Total scanning time for one 96-well plate was 3 min.
 
-The pass criterion was set as the background signal in any of the scanned wells below 25 RNU, thus making optical quality of the plates satisfactory for the assay. In case of an excessively high background signal in any wells of the test-plates, those plates/wells were excluded from the study (data not shown).
 
-Compounds were obtained from Enamine repository as solids formatted in polypropylene, round
-bottom blank tubes, in latch boxes (Matrix #4271). Compounds were dissolved in DMSO at
-50 mM, incubated at 24-26°C for 8 hours, shaken for 1 hour at 1800 rpm using high-speed
-microplate shaker Illumina, then incubated at 24-26°C for 14 hours. Intermediate DMSO solutions
-of the tested compounds were prepared to 2 mM (for the tested concentration 20 µM) and 8 mM
-(for the tested concentration 100 µM). Ondansetron and DOFU were added to the final plates in
-100 mM concentration to get 1 mM and 2 mM final concentrations in the assay plates.
 
-To prepare the test plates, 2.5µL aliquots of DMSO solutions of the tested compounds, reference
-compounds or pure DMSO were transferred from the polypropylene tubes to the corresponding
-wells of 96-well plates with PBS buffer using Plate Mate, according to the plate map (Fig. 1). Thus, final volumes in the test plates were brought to 247.5 µL, resulting in concentrations of the compounds in test wells of 20 µM and 1% DMSO, correspondingly. Then, turbidity of the solutions was immediately scanned for each well. 
+
 
 
 
