@@ -1,0 +1,7 @@
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-83,05_A,20220118_enamine_to_xchem.csv,FC(F)(F)C1(CS(=O)(=O)N2CC=3C=CC(Cl)=CC3C4(CCN(C4=O)C=5C=NC=C6C=CC=CC56)C2)CC1,EDJ-MED-5cd3920d-6,4,100,EDJ-MED-5cd3920d-6,Racemic or presumed racemic or meso,Z5631110323,H3763716,49.6
+1181202-Y4-83,05_B,20220118_enamine_to_xchem.csv,FC(F)C1(CS(=O)(=O)N2CC=3C=CC(Cl)=CC3C4(CCN(C4=O)C=5C=NC=C6C=CC=CC56)C2)CC1,EDJ-MED-5cd3920d-5,4,100,EDJ-MED-5cd3920d-5,Racemic or presumed racemic or meso,Z5631110319,H3763693,39.4
+1181202-Y4-83,05_C,20220118_enamine_to_xchem.csv,CNC(=O)C1(CC1)N2C[C@@]3(CCN(C3=O)C=4C=NC=C5C=CC=CC45)C=6C=C(Cl)C=CC6C2=O,MAT-POS-e48723dc-2,4,100,MAT-POS-e48723dc-2,Single unknown enantiomer,Z5706795781,H3779745,31.2
+1181202-Y4-83,05_D,20220118_enamine_to_xchem.csv,CNC(=O)C1(CC1)N2C[C@]3(CCN(C3=O)C=4C=NC=C5C=CC=CC45)C=6C=C(Cl)C=CC6C2=O,MAT-POS-e48723dc-1,4,100,MAT-POS-e48723dc-1,Single unknown enantiomer,Z5706795780,H3779744,32.4
+1181202-Y4-83,05_E,20220118_enamine_to_xchem.csv,CN(CCO)S(=O)(=O)N1CC=2C=CC(Cl)=CC2C3(CCN(C3=O)C=4C=NC=C5C=CC=CC45)C1,ALP-POS-ecbed2ba-19,4,100,ALP-POS-ecbed2ba-19,Racemic or presumed racemic or meso,Z5461592508,H3771119,6.9
+1181202-Y4-83,05_F,20220118_enamine_to_xchem.csv,CNC(=O)CN1CC=2C=CC(Cl)=CC2C3(CCN(C3=O)C=4C=NC=C5C=CC=C(Cl)C45)C1,MAT-POS-b4d6b7fc-6,4,100,MAT-POS-b4d6b7fc-6,Racemic or presumed racemic or meso,Z5372150755,T8792603,11.3

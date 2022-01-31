@@ -1,0 +1,7 @@
+Library Plate,Source well,Library Name,SMILES,Code,Volume (ul),Concentration (mM),external_ID,stereochemistry,catalog_ID,Batch ID,"Amount, mg (left)"
+1181202-Y4-84,05_A,20220120_enamine_to_xchem.csv,CNC(=O)CN1CC=2C=CC(Cl)=CC2C3(CCN(C3=O)C=4C=NC=C5C=CC(OC)=CC45)C1,EDJ-MED-b6c6ee2b-2,4,100,EDJ-MED-b6c6ee2b-2,Racemic or presumed racemic or meso,Z5631110237,H3777052,4.8
+1181202-Y4-84,05_B,20220120_enamine_to_xchem.csv,ClC=1C=CC2=C(C1)C3(CCN(C3=O)C=4C=NC=C5C=CC=CC45)CN(CC(=O)NCC6CC6)S2(=O)=O,LUO-POS-e1dab717-12,4,100,LUO-POS-e1dab717-12,Racemic or presumed racemic or meso,Z5715580905,H3786289,35.6
+1181202-Y4-84,05_C,20220120_enamine_to_xchem.csv,CC1CN(C(=O)C21CN(CC=3C=CC(Cl)=CC32)S(=O)(=O)CC4(CC4)C#N)C=5C=NC=C6C=CC=CC56,MAT-POS-50a80394-1,4,100,MAT-POS-50a80394-1,Diastereomeric mixture,Z5600473273,H3786286,95.8
+1181202-Y4-84,05_D,20220120_enamine_to_xchem.csv,CCNC(=O)CN1CC2(CCN(C2=O)C=3C=NC=C4C=CC=CC34)C=5C=C(Cl)C=CC5S1(=O)=O,LUO-POS-e1dab717-11,4,100,LUO-POS-e1dab717-11,Racemic or presumed racemic or meso,Z5715580895,H3786290,28.5
+1181202-Y4-84,05_E,20220120_enamine_to_xchem.csv,CCC1CN(C(=O)C21CN(CC=3C=CC(Cl)=CC32)S(=O)(=O)CC4(CC4)C#N)C=5C=NC=C6C=CC=CC56,MAT-POS-50a80394-2,4,100,MAT-POS-50a80394-2,Diastereomeric mixture,Z5600473274,H3786292,68.1
+1181202-Y4-84,05_F,20220120_enamine_to_xchem.csv,COC=1C=CC=2C=NC=C(N3CCC4(CN(CC=5C=CC(Cl)=CC54)S(=O)(=O)CC6(CC6)C#N)C3=O)C2C1,EDJ-MED-b6c6ee2b-3,4,100,EDJ-MED-b6c6ee2b-3,Racemic or presumed racemic or meso,Z5631110240,H3781453,51.4
