@@ -1,5 +1,8 @@
 # COVID Moonshot Data
 
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repo contains all of the designs submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project, as well as the initial experimental data created as part of the project.
 
 The data has been split into many different folders and files, in order to ease the organization of such a large number of designs made through several CROs.
@@ -75,35 +78,6 @@ associated submission
 
 Please see `suspected_SMILES.csv`: Note that many of the enantiopure compounds on this project were obtained by chiral separation, and thus the compounds are often obtained as a single enantiomer with unknown absolute stereochemistry. The `suspected_SMILES` column represents the understanding of the actually identity of the compound given the current information, which explains the frequent use of enhanced/relative stereochemistry representations. Keep in mind that the`suspected_SMILES` is often not the same as the `registration_SMILES`, since compounds must be registered as a real (non-relatively defined) compound on this project.
 
+## License
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+All code is [MIT licensed](LICENSE) and all data is [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
