@@ -81,7 +81,3 @@ associated submission
 ## Details on SMILES and molecule identities##
 
 Please see `suspected_SMILES.csv`: Note that many of the enantiopure compounds on this project were obtained by chiral separation, and thus the compounds are often obtained as a single enantiomer with unknown absolute stereochemistry. The `suspected_SMILES` column represents the understanding of the actually identity of the compound given the current information, which explains the frequent use of enhanced/relative stereochemistry representations. Keep in mind that the`suspected_SMILES` is often not the same as the `registration_SMILES`, since compounds must be registered as a real (non-relatively defined) compound on this project.
-
-## License
-
-All code is [MIT licensed](LICENSE) and all data is [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
