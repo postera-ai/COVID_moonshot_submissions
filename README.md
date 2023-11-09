@@ -9,6 +9,9 @@ Software and documentation: [![License: MIT](https://img.shields.io/badge/Licens
 > [!NOTE]  
 > This repository is still under active curation to improve the usability of data for downstream methods assessment and machine learning. Please watch this repository for future updates.
 
+> [!NOTE]
+> A comp chem/ML-ready version of the data in this repo can be found at https://github.com/asapdiscovery/COVID_moonshot_data_clean.
+
 This repo contains all of the designs submitted to the [COVID Moonshot](https://covid.postera.ai/covid) project, as well as the initial experimental data created as part of the project.
 
 The data has been split into many different folders and files, in order to ease the organization of such a large number of designs made through several CROs.
